@@ -1,0 +1,23 @@
+{
+  "language.code": "en_us",
+  "curios.identifier.belt": "Magnet",
+  "curios.identifier.tiab": "Time In A Bottle",
+  "curios.identifier.companion": "Companion",
+  "curios.identifier.antique": "Antique Stamp Collector Book",
+  "curios.identifier.wireless_terminal": "Wireless Terminal",
+
+  "item.the_vault.vault_apple": "Vault Apple",
+  "item.the_vault.red_vault_essence": "Red Vault Essence",
+  "item.the_vault.mystery_box": "Mystery Box",
+  "item.the_vault.deck_socket": "Deck Core",
+  "block.the_vault.animal_jar": "Animal Jar",
+
+  "jei.the_vault.wooden_barrel_loot": "Wooden Barrel Loot",
+  "jei.the_vault.living_barrel_loot": "Living Barrel Loot",
+  "jei.the_vault.gilded_barrel_loot": "Gilded Barrel Loot",
+  "jei.the_vault.ornate_barrel_loot": "Ornate Barrel Loot",
+
+  "effect.the_vault.treasure_seeker": "Treasure Seeker",
+  "effect.the_vault.bountiful_harvest": "Bountiful Harvest"
+
+}
