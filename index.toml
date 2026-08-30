@@ -16684,7 +16684,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "eae28063e6064a83dda3dfc29f5de26b075d62e10a449289f9697d2a150b90b4"
+hash = "98b53bc52e09ff4a02bfb52a38fee1199fbf619e7e6db5f696ab248691dbef69"
 metafile = true
 
 [[files]]
@@ -17225,6 +17225,11 @@ metafile = true
 [[files]]
 file = "mods/the-gateways.pw.toml"
 hash = "562c6d904be108b47389a1ecdc5ef8b31155c200033d716a6cc038ad49a3b259"
+metafile = true
+
+[[files]]
+file = "mods/thermal-dynamics.pw.toml"
+hash = "f00e247eede31df32e4b5b201e3cd99e746c76a5ce504e64a2ea10a8ca0fd576"
 metafile = true
 
 [[files]]
