@@ -14394,6 +14394,11 @@ hash = "232c3a9437fe2fc74efb76fefc702654c2dff60c2475f2641bed53bdddca7910"
 metafile = true
 
 [[files]]
+file = "mods/addonslib.pw.toml"
+hash = "340fe46d7ab1d9b4a7d53ffc076b720418ddf939da1485c175f41f1dd735b6e3"
+metafile = true
+
+[[files]]
 file = "mods/ae2-qol-recipes.pw.toml"
 hash = "c42744b14e47cb90c7349723ea0aea498d809e1d5b9dfa961ade2e72b74ff265"
 metafile = true
@@ -15170,7 +15175,7 @@ metafile = true
 
 [[files]]
 file = "mods/pehkui.pw.toml"
-hash = "463a4d7fa94d2fd46f41f8bbc231ffb9ed099853087d8b568367e3e28d199ca8"
+hash = "97f32ca0fae3d96e4cfb1ad4ce674ebd019d535ffad7c6c6753d700395ff3022"
 metafile = true
 
 [[files]]
@@ -15400,7 +15405,7 @@ metafile = true
 
 [[files]]
 file = "mods/storage-drawers.pw.toml"
-hash = "fa0c7d7aaf36cc733fc9840f6ac2c6cccc2a344bddd9055c40904f0b2b8b547a"
+hash = "e22686a15bc28dafa1cda29c7ae7260540814c51e7ac59d50d9471b75d0f2c2d"
 metafile = true
 
 [[files]]
@@ -15410,7 +15415,7 @@ metafile = true
 
 [[files]]
 file = "mods/supermartijn642s-core-lib.pw.toml"
-hash = "5d933b1defd807eb22432ed9e0808d22eb7caaf98e1b870c0a0a14a3c7eae03c"
+hash = "4ab7cbfe1bfceffd106c5389797f31c1eca338dcff28f6cfd5850ac2fdf797b7"
 metafile = true
 
 [[files]]
