@@ -16197,6 +16197,11 @@ hash = "c55d8087b3a790472313b0e366fb016acea13dad23b4dfac869422047e7150d0"
 metafile = true
 
 [[files]]
+file = "mods/alexs-mobs.pw.toml"
+hash = "432a775034a6b9d7360f625d471be6ecc27c672d3aed6af68123443b70d576c5"
+metafile = true
+
+[[files]]
 file = "mods/angel-ring.pw.toml"
 hash = "ded5617add3da3b177026712395a61fb5e59c0c97d3571bc30f5930b4124c4fe"
 metafile = true
