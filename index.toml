@@ -16153,6 +16153,10 @@ file = "kubejs/startup_scripts/script.js"
 hash = "b808581813c2fcb87858c1bd6b53c24e290cbbcec643c9084785d2b769c6d09b"
 
 [[files]]
+file = "mods/VHTweaks-0.23.2-all.jar"
+hash = "8099cf836337bd9f769f25db90323f029db46a29b671a99d186e2073d0dd5fd6"
+
+[[files]]
 file = "mods/additional-lanterns.pw.toml"
 hash = "232c3a9437fe2fc74efb76fefc702654c2dff60c2475f2641bed53bdddca7910"
 metafile = true
