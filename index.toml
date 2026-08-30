@@ -17073,6 +17073,11 @@ hash = "77c4013f628382524a9894f7545d2a29bc9458c8821d895c3b07e8153f715858"
 metafile = true
 
 [[files]]
+file = "mods/rhino.pw.toml"
+hash = "43375678708cd812b22ab1ecbc3f5452bc0910bac6f544c69f9ccf8bd14d420f"
+metafile = true
+
+[[files]]
 file = "mods/rs-requestify.pw.toml"
 hash = "03ee69b801ff5c5e357b876f7a97a9d9002c84460c366097ee5c337f4408fc7c"
 metafile = true
