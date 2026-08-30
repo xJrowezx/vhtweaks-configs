@@ -1,0 +1,41 @@
+# Force LF line endings for all text files so packwiz hashes are stable
+# across Windows/macOS/Linux contributors.
+* text=auto eol=lf
+
+# Explicitly treat common pack text formats as LF text
+*.json       text eol=lf
+*.json5      text eol=lf
+*.toml       text eol=lf
+*.txt        text eol=lf
+*.md         text eol=lf
+*.cfg        text eol=lf
+*.properties text eol=lf
+*.snbt       text eol=lf
+*.mcmeta     text eol=lf
+*.nbt        binary
+*.lang       text eol=lf
+*.yml        text eol=lf
+*.yaml       text eol=lf
+*.js         text eol=lf
+*.zs         text eol=lf
+*.kubejs     text eol=lf
+
+# Binary assets must never be touched
+*.jar   binary
+*.zip   binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.webp  binary
+*.ogg   binary
+*.wav   binary
+*.mp3   binary
+*.ttf   binary
+*.otf   binary
+*.icns  binary
+*.ico   binary
+*.bin   binary
+*.dat   binary
+*.pdf   binary
+*.psd   binary
