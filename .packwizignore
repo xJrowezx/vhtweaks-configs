@@ -1,1 +1,13 @@
-.idea/
+# Idea
+.idea
+
+# Exclude exporter packs
+*.zip
+*.mrpack
+
+# Exclude packwiz file
+/packwiz.exe
+
+#Exclude License
+
+/LICENSE

@@ -1093,30 +1093,6 @@ file = "config/openloader/advanced_options.json"
 hash = "97c64147276f55cad728249dd77602661e2327fa178aeb8e0db12866df448211"
 
 [[files]]
-file = "config/openloader/data/blacklist.zip"
-hash = "b768e8bd5acafe0e5acb9617f57682244915bd7d42274249bbeaeff6c2144639"
-
-[[files]]
-file = "config/openloader/data/catchable.zip"
-hash = "880ca980af0d34b6a893bb11d2774a1fc76f3212e34679695e7e47d85dea7550"
-
-[[files]]
-file = "config/openloader/data/mobdrops.zip"
-hash = "9966c90feba1aa80ae6f23abef69cc2373cf856452545904cd3a63a5b9331d0a"
-
-[[files]]
-file = "config/openloader/data/snad.zip"
-hash = "4c4dd50adbf4fe38e9dcab981704f3f45326337401b91dbc20544171206a2a07"
-
-[[files]]
-file = "config/openloader/resources/VHBook.zip"
-hash = "4aeb2268aade887459466b9e3811573faa217bbfb358992c3aae0bbab01fd2da"
-
-[[files]]
-file = "config/openloader/snad.zip"
-hash = "4c4dd50adbf4fe38e9dcab981704f3f45326337401b91dbc20544171206a2a07"
-
-[[files]]
 file = "config/packmenu.cfg"
 hash = "b0c171fe40a5c38c3f04686b59b3e3ced75fbf8bb22293332baf5b72b7c8a833"
 
@@ -17687,14 +17663,6 @@ file = "patchouli_books/the_vault_main_guide/en_us/entries/vault_tools/variants.
 hash = "f0ac22c91075799831792da2026b403668f7cc2b568d15a3270111755b2490b3"
 
 [[files]]
-file = "resourcepacks/Copper Legacy Pack.zip"
-hash = "09d0a2ae46615f2ee2ee697a50c0cdd507ab75ff7b1d73eba877479654db848e"
-
-[[files]]
-file = "resourcepacks/Quark Programmer Art.zip"
-hash = "41cb720cf256a12ea247b2f38068b363aa5b1675470c4b5aa66850701a78bc4d"
-
-[[files]]
 file = "scripts/00_remove_recipes.zs"
 hash = "81b5b8387ea08d993704c86c7841e5251c1e04b6fff7fadf8f3682975f2b800c"
 
@@ -17861,10 +17829,6 @@ hash = "b416e4dd3d34d07a54b903beb1e49db0b42d9eedc811eeca48bfa09cdbc21e7b"
 [[files]]
 file = "scripts/simple_lights.zs"
 hash = "1f1795589bf94b760d1626cf8889e71c14454add0984de9cac7645677659bd7b"
-
-[[files]]
-file = "shaderpacks/ComplementaryiskallShaders.zip"
-hash = "60f5bae9eefc115904a93afe495ba4f2f38db39e4fab2a384be392c490e85782"
 
 [[files]]
 file = "shaderpacks/ComplementaryiskallShaders.zip.txt"
