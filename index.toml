@@ -14439,6 +14439,11 @@ hash = "d988799d0503f9e44e7054c55e91fd6ce0ff0dce5302cb4dde1f133819381713"
 metafile = true
 
 [[files]]
+file = "mods/applied-energistics-2.pw.toml"
+hash = "205025b843c793ec8e5a0b56eabfc86be8cc1e00fedf361409ef899b02a2ce66"
+metafile = true
+
+[[files]]
 file = "mods/applied-mekanistics.pw.toml"
 hash = "1440014a95f25f1d02b824e63f8dcd3654f042cc6058718d7c626f61e05a04ac"
 metafile = true
@@ -14459,6 +14464,11 @@ hash = "4b9f680bd2c3c2efc44ce41626b2fe5860403a4ec38309ab6fd8a04bac16e8bc"
 metafile = true
 
 [[files]]
+file = "mods/auudio-forge.pw.toml"
+hash = "2157400d41a61ecc1debbd0433b5f903fcecb8dd8898e15a05f9252781adfc06"
+metafile = true
+
+[[files]]
 file = "mods/auxblocks.pw.toml"
 hash = "fd99d050791cb3a0d626d0b9a6eaa5f9a6292bddf919e5922c37655d959bcc18"
 metafile = true
@@ -14471,6 +14481,11 @@ metafile = true
 [[files]]
 file = "mods/bdlib.pw.toml"
 hash = "e4c9a4a844e0a2532dbdedef7dae63b5a3f9a7e26b498e38d01ccc03bb4d72d4"
+metafile = true
+
+[[files]]
+file = "mods/beautify-decorate.pw.toml"
+hash = "9f152f330448c9d8288e6eb313fa9ad1a945d194ef4dfc75af407d7fbc60e81e"
 metafile = true
 
 [[files]]
@@ -14575,7 +14590,7 @@ metafile = true
 
 [[files]]
 file = "mods/cit-reforged.pw.toml"
-hash = "3c45a5f1a7ac56ef522d81a91894fa08de7cfe3bb3a4b232e483765ff42adbfe"
+hash = "d19c0adad64f2a097b5d6abc946330db9a935d3d343ed60ace2ea8699d3931fe"
 metafile = true
 
 [[files]]
@@ -14714,6 +14729,11 @@ hash = "3a90df6833d6cd7a83fc879a41916faeaf1a7ba1f5d4eb6d02b57917627ba1c0"
 metafile = true
 
 [[files]]
+file = "mods/decorative-blocks.pw.toml"
+hash = "4984fa7245a13a940e8b1b4ae1ab66e3f54d58c76e0d93df37422411315288aa"
+metafile = true
+
+[[files]]
 file = "mods/deimos-fabric-forge-neoforge.pw.toml"
 hash = "5179b071da2724b1b6b2086c7c625270d4042c7ead77e2b71f2d8ca031647702"
 metafile = true
@@ -14795,7 +14815,7 @@ metafile = true
 
 [[files]]
 file = "mods/extreme-sound-muffler.pw.toml"
-hash = "077942e2cf37bca81ac865ceaaf87bbd6bbba1072d774f811d37ce759f3b4979"
+hash = "31191fcc45b5fde6911c2cb2b170d6a6053aef2eabb1b27ded008879885daa6f"
 metafile = true
 
 [[files]]
@@ -14834,11 +14854,6 @@ hash = "56f04c5afb59f692b6ff25f781a74d1f61505fd72d4ef647861f07c4e6780189"
 metafile = true
 
 [[files]]
-file = "mods/framed-compacting-drawers.pw.toml"
-hash = "16e390584c446fdfea4b64dd1249e39dc46f6b7d7c5aea6aa2ab991d91c4c2fc"
-metafile = true
-
-[[files]]
 file = "mods/freecam-by-zergatul.pw.toml"
 hash = "4667fee52ae6940d706256dcb68f5f51d80d8c434cd79986f606bc79dcd3b4b3"
 metafile = true
@@ -14846,11 +14861,6 @@ metafile = true
 [[files]]
 file = "mods/fusion-connected-textures.pw.toml"
 hash = "9aacccb41b0608842572725649ee9ebf75ca1dda1489ecadcb91d5640bd078f9"
-metafile = true
-
-[[files]]
-file = "mods/fusion.pw.toml"
-hash = "41f3dfc7a24f710c83f27fd083f37859851fec5525f9f0e136033882785ce72c"
 metafile = true
 
 [[files]]
@@ -14931,6 +14941,11 @@ metafile = true
 [[files]]
 file = "mods/just-enough-resources-jer.pw.toml"
 hash = "6df57382b98024eec4ac38898d68652e9f01751639ba40b738086ab30b426b31"
+metafile = true
+
+[[files]]
+file = "mods/just-enough-vh.pw.toml"
+hash = "ac9d9d39db441b739466b8f6b1653087f666a152aeec9efb7f7739d1a12150e4"
 metafile = true
 
 [[files]]
@@ -15084,6 +15099,11 @@ hash = "c0d6d2898a3d768255ea223b85d0e73ceeba512f6d15ccbaaf180161c48a0407"
 metafile = true
 
 [[files]]
+file = "mods/more-villagers.pw.toml"
+hash = "876611f91dddb6b6e7779552cb5d1f55fdbda8eaf80118945b2f929e691483e4"
+metafile = true
+
+[[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "93091b397f6ac25759b98be7034767689407bb344c464a9359642122a8b683db"
 metafile = true
@@ -15096,6 +15116,11 @@ metafile = true
 [[files]]
 file = "mods/natures-compass.pw.toml"
 hash = "e3b607348fc4084c8aece8cccaa3c58af8d12e518c305bdbe044eabc2bb0b472"
+metafile = true
+
+[[files]]
+file = "mods/neon-craft-ultimate.pw.toml"
+hash = "194901d577dd930ba0bd0e5006c7564225f2468a70818eb5772e9247f3b23c40"
 metafile = true
 
 [[files]]
@@ -15229,6 +15254,16 @@ hash = "29def5fe74365e222ac850d22d4f0d4fe00032eee5f7b5135cfccb617dea118d"
 metafile = true
 
 [[files]]
+file = "mods/refined-storage-addons.pw.toml"
+hash = "a862b4f42068bbd16ece3ec4362bb06b53e534935fe017b0d4b70a154a11a45f"
+metafile = true
+
+[[files]]
+file = "mods/refined-storage.pw.toml"
+hash = "f69612bc81614a9dd0491ad6aca44e2de1c0ad8156497e0557d3c66d8078aee3"
+metafile = true
+
+[[files]]
 file = "mods/regions-unexplored.pw.toml"
 hash = "aaee0b82d69eefd713b2ecda572107acdb49e81b1beeb9248af3b9e34ff984d4"
 metafile = true
@@ -15274,6 +15309,11 @@ hash = "766b3ba2818edc8cf2f09f1aabfb3892e364a58d53767c8a7f0ce2779ccdd7a7"
 metafile = true
 
 [[files]]
+file = "mods/shulker.pw.toml"
+hash = "9a9557a0d38397f608554e0d071e8bd9fd2982def553f3682a85f20133e3d4fa"
+metafile = true
+
+[[files]]
 file = "mods/shulkerboxtooltip.pw.toml"
 hash = "4cb3c25c89c40af358841f49a4fd750267e2008e9e557b4d1425a5ab332edbf0"
 metafile = true
@@ -15289,13 +15329,18 @@ hash = "48ea55c9e27101629bb5c60bafaebfc8f920e474f6d408165ec9efef5eb50235"
 metafile = true
 
 [[files]]
+file = "mods/simple-voice-chat.pw.toml"
+hash = "1e6aaffbba170cd179b9327d8f11b97cade22dad9938e9cb6f6ae7246aafb776"
+metafile = true
+
+[[files]]
 file = "mods/simply-light.pw.toml"
 hash = "d5e72639b18259af90929dd891be82105589b006d8bf8131cae4e9c9e09563d1"
 metafile = true
 
 [[files]]
 file = "mods/skin-layers-3d.pw.toml"
-hash = "279f002df1e9b76a8b5adec7c5fba0cbb77d550c55bc4c0f31711a35b5395e02"
+hash = "d121745276c635db415fb778bb9b363ad1868235dc5296398a3f5c784184b297"
 metafile = true
 
 [[files]]
@@ -15314,8 +15359,18 @@ hash = "edc44013fe3d420fe7928636a39a2b99e81fd08e111977397c0a8776e6555325"
 metafile = true
 
 [[files]]
+file = "mods/sophisticated-backpacks.pw.toml"
+hash = "74f6c7bd3780556c58b63bb27c166ed60accd883b3b6f87ace93da0edb1c3bab"
+metafile = true
+
+[[files]]
 file = "mods/sophisticated-core.pw.toml"
 hash = "4610d4bb2fd149907721b1380d6de0406c2ff2a3b7443e5900974aaf602b89c4"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-storage.pw.toml"
+hash = "67bcff9d20e71ad75a16a3de2c07652fa4041a5ed68f076592ee8f44c7c7ae8c"
 metafile = true
 
 [[files]]
@@ -15339,13 +15394,23 @@ hash = "876452c253d68cd71df35dfcb9dd4438ebb5c2470c09b01ed19a16fd37f46436"
 metafile = true
 
 [[files]]
-file = "mods/starlight-forge.pw.toml"
-hash = "cf0274e0db473a80ea8d8442362d3e7e76639018504b9ff37fa61aa6044b8a60"
+file = "mods/stoneworks.pw.toml"
+hash = "8d4398440be5ab446f4def4978bcfc65c9e7ea3561921d66542c757ec5804f7d"
 metafile = true
 
 [[files]]
-file = "mods/stoneworks.pw.toml"
-hash = "8d4398440be5ab446f4def4978bcfc65c9e7ea3561921d66542c757ec5804f7d"
+file = "mods/storage-drawers.pw.toml"
+hash = "fa0c7d7aaf36cc733fc9840f6ac2c6cccc2a344bddd9055c40904f0b2b8b547a"
+metafile = true
+
+[[files]]
+file = "mods/supermartijn642s-config-lib.pw.toml"
+hash = "9c91ddf7a19b66080561d5a318400d339b236932b5c5c66605fd12089a8439ee"
+metafile = true
+
+[[files]]
+file = "mods/supermartijn642s-core-lib.pw.toml"
+hash = "5d933b1defd807eb22432ed9e0808d22eb7caaf98e1b870c0a0a14a3c7eae03c"
 metafile = true
 
 [[files]]
@@ -15449,8 +15514,13 @@ hash = "c1d3eccbdfc1afb42d91b15135f8766c3c1309bd9a230f60f459a4c0cdce04bb"
 metafile = true
 
 [[files]]
-file = "mods/worldedit.pw.toml"
-hash = "9cba8becd46d571b7576be0d34fea48a7c38f5745265186c7baf1c79251ef373"
+file = "mods/xaeros-minimap.pw.toml"
+hash = "7b0e45d3d3af2d0cfc7d4e68bf8da93ce570f496b5aab249fef05fb3274d4ea6"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-world-map.pw.toml"
+hash = "2a5837313f816648ed62793bce02b0a75cd1eb706ed35ac206e4ae7309f13eb9"
 metafile = true
 
 [[files]]
@@ -15804,27 +15874,12 @@ file = "patchouli_books/the_vault_main_guide/en_us/entries/vault_tools/variants.
 hash = "f0ac22c91075799831792da2026b403668f7cc2b568d15a3270111755b2490b3"
 
 [[files]]
-file = "plugins/closeblocks-elevator.pw.toml"
-hash = "a490fce467ad94c98a0100ae040ceb1fe17fdff26c6961641fd7900a18d7b791"
-metafile = true
-
-[[files]]
 file = "resourcepacks/Copper Legacy Pack.zip"
 hash = "09d0a2ae46615f2ee2ee697a50c0cdd507ab75ff7b1d73eba877479654db848e"
 
 [[files]]
 file = "resourcepacks/Quark Programmer Art.zip"
 hash = "41cb720cf256a12ea247b2f38068b363aa5b1675470c4b5aa66850701a78bc4d"
-
-[[files]]
-file = "resourcepacks/create-sru.pw.toml"
-hash = "914d6b7d9867b82a1cd3f249ad5aa5890250c4192bf9d32ffa713571d99d6d45"
-metafile = true
-
-[[files]]
-file = "resourcepacks/thermal-series-create-version.pw.toml"
-hash = "396ecb457de8b06fe43ce5c1f7368ddb731d32421be7865871ca3ac3377fa8b1"
-metafile = true
 
 [[files]]
 file = "scripts/00_remove_recipes.zs"
