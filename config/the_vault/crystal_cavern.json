@@ -1,0 +1,38 @@
+{
+  "crystalRock": [
+    {
+      "minLevel": 0,
+      "entries": [
+        {
+          "weight": 1,
+          "crystal": {
+            "objective": {
+              "type": "pool",
+              "id": "the_vault:default"
+            },
+            "layout": {
+              "type": "infinite",
+              "tunnel_span": 1
+            },
+            "theme": {
+              "type": "pool",
+              "id": "the_vault:default"
+            },
+            "time": {
+              "type": "value",
+              "roll": {
+                "type": "constant",
+                "count": 30000
+              }
+            },
+            "modifiers": {
+              "type": "default",
+              "list": []
+            },
+            "modifiable": true
+          }
+        }
+      ]
+    }
+  ]
+}

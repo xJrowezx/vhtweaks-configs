@@ -1,0 +1,127 @@
+{
+  "groups": {
+    "Storage": {
+      "title": "Storage",
+      "research": [
+        "ae2",
+        "refinedstorage",
+        "Barrels",
+        "Sophisticated Storage",
+        "Sophisticated Interface",
+        "Mekanism QIO"
+      ],
+      "globalCostIncrease": 0.0,
+      "groupCostIncrease": {
+        "Storage": 0.24
+      }
+    },
+    "BigToys": {
+      "title": "Big Toys",
+      "research": [
+        "Mining Gadgets",
+        "Chunk Loading",
+        "Digital Miner",
+        "Building Gadgets",
+        "Entangled"
+      ],
+      "globalCostIncrease": 0.0,
+      "groupCostIncrease": {
+        "BigToys": 12.0
+      }
+    },
+    "Production": {
+      "title": "Production",
+      "research": [
+        "Easy Villagers",
+        "Cagerium",
+        "Mob Spawners",
+        "Phytogenic Insulator",
+        "Easy Piglins",
+        "Industrial Mob Farm",
+        "Botany Pots"
+      ],
+      "globalCostIncrease": 0.0,
+      "groupCostIncrease": {
+        "Production": 8.0
+      }
+    },
+    "BigMods": {
+      "title": "Big Mods",
+      "research": [
+        "Create",
+        "Mekanism",
+        "Thermal Expansion",
+        "Industrial Foregoing",
+        "Pneumaticraft",
+        "Botania"
+      ],
+      "globalCostIncrease": 0.0,
+      "groupCostIncrease": {
+        "BigMods": 12.0
+      }
+    },
+    "Power": {
+      "title": "Power",
+      "research": [
+        "Flux Networks",
+        "Powah",
+        "Mekanism Generators",
+        "Creeper Power",
+        "Thermal Dynamos",
+        "Iron Generators",
+        "Botania Flux Field"
+      ],
+      "globalCostIncrease": 0.0,
+      "groupCostIncrease": {
+        "Power": 2.4
+      }
+    },
+    "QoL": {
+      "title": "QoL",
+      "research": [
+        "Torch Master",
+        "Trashcans",
+        "Elevators",
+        "Waystones",
+        "Vault Compass",
+        "Altar Automation"
+      ],
+      "globalCostIncrease": 0.0,
+      "groupCostIncrease": {
+      }
+    },
+    "Handling": {
+        "title": "Handling",
+        "research": [
+          "Xnet",
+          "Modular Routers",
+          "Iron Furnaces",
+          "Dark Utilities",
+          "Laser IO",
+          "Vault Filters"
+        ],
+        "globalCostIncrease": 0.0,
+        "groupCostIncrease": {
+          "Handling": 5.0
+        }
+    },
+    "Alchemy": {
+      "title": "Vault Upgrades",
+      "research": [
+        "Potions",
+        "Mixtures",
+        "Brews",
+        "Vault Compass",
+        "Map Markers",
+        "Augment Stations",
+        "Vault Map",
+        "Vault Decks",
+        "Soul Harvester"
+      ],
+      "globalCostIncrease": 0.0,
+      "groupCostIncrease": {
+        "Alchemy": 4.0
+      }
+  }
+  }
+}

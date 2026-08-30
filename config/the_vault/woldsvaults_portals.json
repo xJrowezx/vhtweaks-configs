@@ -1,0 +1,120 @@
+{
+  "CHANCE_OF_NETHER_THEME_IN_NETHER": 0.1,
+  "CHANCE_OF_VOID_THEME_IN_END": 0.075,
+  "DIMENSION_CHOOSE_LIST": [
+    {
+      "value": "minecraft:overworld",
+      "weight": 1
+    },
+    {
+      "value": "minecraft:the_nether",
+      "weight": 1
+    },
+    {
+      "value": "minecraft:the_end",
+      "weight": 1
+    }
+  ],
+  "PORTAL_LIST": [
+    {
+      "value": {
+        "crystalData": {
+          "objective": {
+            "objective_probability": 0.0,
+            "width": 0,
+            "height": 0,
+            "blackout": false,
+            "type": "bingo"
+          },
+          "layout": {
+            "tunnel_span": 1,
+            "type": "infinite"
+          },
+          "theme": {
+            "id": "the_vault:raw",
+            "type": "pool"
+          },
+          "modifiers": [
+            {
+              "modifierId": "the_vault:locked",
+              "amount": 1
+            },
+            {
+              "modifierId": "the_vault:soul_boost",
+              "amount": 4
+            }
+          ],
+          "time": {
+            "roll": {
+              "count": 1800,
+              "type": "constant"
+            },
+            "type": "value"
+          },
+          "vaultLevel": 20,
+          "rollRandomModifiers": false
+        },
+        "shouldDecay": true,
+        "decayTime": 3600,
+        "portalOpenLang": "�3You sense a brutal energy in %s. (S-Tier Vault)",
+        "loginMessage": "�oA brutal OverworldVault presence is still open in %s.",
+        "portalDecayed": "�o�5The brutal OverworldVault in %s decays and closes."
+      },
+      "weight": 20
+    },
+    {
+      "value": {
+        "crystalData": {
+          "objective": {
+            "objective_probability": 0.6,
+            "type": "scavenger"
+          },
+          "layout": {
+            "tunnel_span": 1,
+            "type": "infinite"
+          },
+          "theme": {
+            "id": "the_vault:raw",
+            "type": "pool"
+          },
+          "modifiers": [
+            {
+              "modifierId": "the_vault:energizing",
+              "amount": 16
+            },
+            {
+              "modifierId": "the_vault:item_quantity",
+              "amount": 16
+            }
+          ],
+          "time": {
+            "roll": {
+              "count": 3600,
+              "type": "constant"
+            },
+            "type": "value"
+          },
+          "vaultLevel": 100,
+          "rollRandomModifiers": false
+        },
+        "shouldDecay": true,
+        "decayTime": 3600,
+        "portalOpenLang": "�3You sense an overwhelming energy in %s. (S++-Tier Vault)",
+        "loginMessage": "�oAn overwhelming OverworldVault presence is still open in %s.",
+        "portalDecayed": "�o�5The overwhelming OverworldVault in %s decays and closes."
+      },
+      "weight": 2
+    }
+  ],
+  "NETHER_VAULT_THEMES": [
+    "the_vault:classic_vault_nether_crimson",
+    "the_vault:classic_vault_nether_warped",
+    "the_vault:classic_vault_nether_blackstone",
+    "the_vault:classic_vault_nether_soul"
+  ],
+  "VOID_VAULT_THEMES": [
+    "the_vault:classic_vault_void",
+    "the_vault:classic_vault_end_void",
+    "the_vault:classic_vault_factory_void"
+  ]
+}

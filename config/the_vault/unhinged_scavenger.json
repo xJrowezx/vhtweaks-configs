@@ -1,0 +1,95 @@
+{
+  "tasks": [
+    {
+      "type": "chest",
+      "target": "the_vault:wooden_chest",
+      "probability": 0.5,
+      "icon": "the_vault:gui/scav/wooden_chest",
+      "entries": {
+        "minecraft:light_blue_wool": {
+          "weight": 8.0,
+          "multiplier": 1.0,
+          "color": 16777215
+        },
+        "minecraft:yellow_wool": {
+          "weight": 4.0,
+          "multiplier": 1.0,
+          "color": 16777215
+        },
+        "minecraft:purple_wool": {
+          "weight": 2.0,
+          "multiplier": 1.0,
+          "color": 16777215
+        },
+        "minecraft:lime_wool": {
+          "weight": 1.0,
+          "multiplier": 1.0,
+          "color": 16777215
+        }
+      }
+    },
+    {
+      "type": "coin_stacks",
+      "probability": 0.5,
+      "icon": "the_vault:gui/scav/wooden_chest",
+      "entries": {
+        "minecraft:light_blue_wool": {
+          "weight": 8.0,
+          "multiplier": 1.0,
+          "color": 16777215
+        },
+        "minecraft:yellow_wool": {
+          "weight": 4.0,
+          "multiplier": 1.0,
+          "color": 16777215
+        },
+        "minecraft:purple_wool": {
+          "weight": 2.0,
+          "multiplier": 1.0,
+          "color": 16777215
+        },
+        "minecraft:lime_wool": {
+          "weight": 1.0,
+          "multiplier": 1.0,
+          "color": 16777215
+        }
+      }
+    },
+    {
+      "type": "mob",
+      "probability": 0.5,
+      "icon": "the_vault:gui/scav/wooden_chest",
+      "color": 16777215,
+      "entries": {
+        "minecraft:golden_apple": {
+          "multiplier": 1.0,
+          "mobs": [
+            "@the_vault:mobs"
+          ]
+        }
+      }
+    }
+  ],
+  "levelPools": {
+    "the_vault:default": [
+      {
+        "level": 0,
+        "goalCount": {
+          "min": 2,
+          "max": 6,
+          "type": "uniform"
+        },
+        "itemCount": {
+          "min": 4,
+          "max": 10,
+          "type": "uniform"
+        },
+        "display": {
+          "displayName": "Default",
+          "shouldDisplay": false
+        },
+        "multiplierOverrides": {}
+      }
+    ]
+  }
+}
