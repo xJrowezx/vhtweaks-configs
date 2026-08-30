@@ -1,0 +1,13 @@
+name = "Refined Storage Addons"
+filename = "refinedstorageaddons-0.8.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "87bb2fef3ddfaada6af5086cb7c4cf9429af5b9ca6f2417eaf928df3bba93828"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3713972
+project-id = 272302

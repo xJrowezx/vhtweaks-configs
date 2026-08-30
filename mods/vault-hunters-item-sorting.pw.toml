@@ -1,0 +1,13 @@
+name = "Vault Hunters Item Sorting"
+filename = "vault_hunters_item_sorting-3.3.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6c3117725683623ead6786a6f8512a31e1aba6ca"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7954430
+project-id = 1341046

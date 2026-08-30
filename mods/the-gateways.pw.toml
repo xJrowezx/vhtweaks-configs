@@ -1,0 +1,13 @@
+name = "The Gateways"
+filename = "gateways-1.18.2-0.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fb71dcfd9ff396b5aafb1b48409d0594b64b6852"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8492461
+project-id = 1557486

@@ -1,0 +1,13 @@
+name = "FreeCam by Zergatul"
+filename = "zergatul.freecam-2.3.0-forge-1.18.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "356109c52ea8368c07fc02cc637a21b16a644977"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8691424
+project-id = 618947

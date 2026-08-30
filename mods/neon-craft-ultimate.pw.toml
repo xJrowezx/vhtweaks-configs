@@ -1,0 +1,13 @@
+name = "Neon Craft Ultimate"
+filename = "neoncraft2-2.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "b6f6b55dbe21fc28cc2e8a8b07d48ba3c14738180ebf3a8468b538b51071529e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3726051
+project-id = 566953

@@ -1,0 +1,13 @@
+name = "Just Enough VH"
+filename = "JustEnoughVH-1.8.jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "d46e262db51beb36a6cffe9c1a3cc402e8c920a4657582e5f6f848fa27395c49"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7498078
+project-id = 1035310

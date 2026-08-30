@@ -1,0 +1,13 @@
+name = "Sophisticated Backpacks Vault Hunters Edition"
+filename = "sophisticatedbackpacksvh-1.18.2-1.0.7.15.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "17756feaa8c3ee7ab20de9e6ad203fa645686420"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6712897
+project-id = 696425

@@ -1,0 +1,13 @@
+name = "Animal Pens"
+filename = "animal_pen-forge-1.18.2-2.4.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b7368e6759e26e84b3ac53760468711b74ced1c1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8339971
+project-id = 1206722

@@ -1,0 +1,13 @@
+name = "CreeperPower"
+filename = "creeperpower-1.18.2-0.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7e624fd0a6537513482a08ff441b980e930ffef4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8492459
+project-id = 1563729

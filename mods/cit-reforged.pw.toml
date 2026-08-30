@@ -1,0 +1,13 @@
+name = "CIT Reforged"
+filename = "CIT Reforged 1.18.jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "513b6fc8b96f79bdf174a5f0c6278d9c82112d916876999d003316e007f025a1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4739782
+project-id = 910362

@@ -1,0 +1,13 @@
+name = "PrismCraft: Dyeable Blocks"
+filename = "prismcraft-forge-1.18.2-1.2.0+build.18.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fa40de36d32cd90bcedb894d02c9c0ba523bcb1d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8446615
+project-id = 1349074

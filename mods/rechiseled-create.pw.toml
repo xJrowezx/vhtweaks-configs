@@ -1,0 +1,13 @@
+name = "Rechiseled: Create"
+filename = "rechiseledcreate-1.1.1-forge-mc1.18.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "94eb84d19654c2dd385be18f1a3a627278f5e120"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8302638
+project-id = 888624

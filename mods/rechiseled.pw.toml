@@ -1,0 +1,13 @@
+name = "Rechiseled"
+filename = "rechiseled-1.2.5-forge-mc1.18.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7d8a23ee2a7c0347c2f867f7f062b6167d91ad9e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8301362
+project-id = 558998

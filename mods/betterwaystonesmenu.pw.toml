@@ -1,0 +1,13 @@
+name = "Better Waystones Menu"
+filename = "BetterWaystonesMenu-1.2.0+mc1.18.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d57c00e8e2a4c42319eb7c0e2ad3d2516b5f5e93"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7076236
+project-id = 1360484

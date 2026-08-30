@@ -1,0 +1,13 @@
+name = "VHTweaksConfigs"
+author = "Jrowez"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "63cbbd077363b37972e39ed78ff9b5ef24cd8daccd1d31e86d84ff7d5339fef2"
+
+[versions]
+forge = "40.3.11"
+minecraft = "1.18.2"
