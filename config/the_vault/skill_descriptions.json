@@ -19385,6 +19385,43 @@
         "text": "+20%",
         "color": "#ADC9FF"
       }
+    ],
+    "Lunge": [
+      {
+        "text": "Increases the reach in which you hit with melee weapons with additional "
+      },
+      {
+        "text": "Attack Range",
+        "color": "#0D7A39"
+      },
+      {
+        "text": "\n\n1 "
+      },
+      {
+        "text": "+0.25",
+        "color": "#0D7A39"
+      },
+      {
+        "text": "\n2 "
+      },
+      {
+        "text": "+0.5",
+        "color": "#0D7A39"
+      },
+      {
+        "text": "\n3 "
+      },
+      {
+        "text": "+0.75",
+        "color": "#0D7A39"
+      },
+      {
+        "text": "\n4 "
+      },
+      {
+        "text": "+1",
+        "color": "#0D7A39"
+      }
     ]
   }
 }
