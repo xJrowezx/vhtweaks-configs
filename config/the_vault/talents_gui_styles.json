@@ -364,11 +364,19 @@
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/skills/lingering_fumes"
     },
+
+
     "Lunge": {
       "x": -320,
       "y": 0,
       "frameType": "RECTANGULAR",
       "icon": "woldsvaults:gui/skills/lunge"
+    },
+    "Medic": {
+      "x": 576,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "icon": "woldsvaults:gui/skills/medic"
     },
     "Potent_Elixir": {
       "x": 348,
