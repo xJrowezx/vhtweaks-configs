@@ -363,6 +363,18 @@
       "y": 0,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/skills/lingering_fumes"
+    },
+    "Potent_Elixir": {
+      "x": 348,
+      "y": 160,
+      "frameType": "RECTANGULAR",
+      "icon": "woldsvaults:gui/skills/potent_elixir"
+    },
+    "Healthy_Elixir": {
+      "x": 396,
+      "y": 160,
+      "frameType": "RECTANGULAR",
+      "icon": "woldsvaults:gui/skills/healthy_elixir"
     }
   }
 }
