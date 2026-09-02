@@ -389,6 +389,24 @@
       "y": 160,
       "frameType": "RECTANGULAR",
       "icon": "woldsvaults:gui/skills/healthy_elixir"
+    },
+    "Execution_Strike": {
+      "x": 832,
+      "y": 320,
+      "frameType": "RECTANGULAR",
+      "icon": "woldsvaults:gui/skills/execution_strike"
+    },
+    "Arcane_Strike": {
+      "x": 768,
+      "y": 320,
+      "frameType": "RECTANGULAR",
+      "icon": "woldsvaults:gui/skills/arcane_strike"
+    },
+    "Fanged_Strike": {
+      "x": 704,
+      "y": 320,
+      "frameType": "RECTANGULAR",
+      "icon": "woldsvaults:gui/skills/fanged_strike"
     }
   }
 }
