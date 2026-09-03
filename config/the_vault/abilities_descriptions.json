@@ -4723,6 +4723,249 @@
         "splashRadius",
         "splashDamage"
       ]
+    },
+
+    "Blade_Frenzy_Base": {
+      "description": [
+        {
+          "text": "Deal a percentage of your ",
+          "color": "$text"
+        },
+        {
+          "text": "attack damage ",
+          "color": "$damage"
+        },
+        {
+          "text": "in a ",
+          "color": "$text"
+        },
+        {
+          "text": "radius",
+          "color": "$radius"
+        },
+        {
+          "text": " around yourself.\n",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n\u2734 Cast Ability ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "adjustedRadius",
+        "damage"
+      ],
+      "next": [
+
+        "cooldown",
+        "manaCost",
+        "adjustedRadius",
+        "damage"
+      ]
+    },
+    "Shield_Wall_Base": {
+      "description": [
+        {
+          "text": "While having a Vault Shield equipped, gain 100% block chance for a ",
+          "color": "$text"
+        },
+        {
+          "text": "duration ",
+          "color": "$duration"
+        },
+        {
+          "text": "of time.",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n\u2734 Cast Ability ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "adjustedDuration",
+        "manaCost",
+        "cooldown"
+      ],
+      "next": [
+        "adjustedDuration",
+        "manaCost",
+        "cooldown"
+      ]
+    },
+    "Vein_Miner_Chain": {
+      "description": [
+        {
+          "text": "Changes Vein Miner to mine blocks that are ",
+          "color": "$text"
+        },
+        {
+          "text": "further apart",
+          "color": "$distance"
+        },
+        {
+          "text": " at the cost of number of",
+          "color": "$text"
+        },
+        {
+          "text": " blocks mined",
+          "color": "$blocks"
+        },
+        {
+          "text": ".\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u25cf Hold Ability ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "blocks",
+        "distance"
+      ],
+      "next": [
+        "blocks",
+        "distance"
+      ]
+    },
+    "Levitate": {
+      "description": [
+        {
+          "text": "Changes Mega Jump into an on-demand levitation effect.\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u25cf Hold Ability ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "manaCostPerSecond",
+        "levitateSpeed"
+      ],
+      "next": [
+        "manaCostPerSecond",
+        "levitateSpeed"
+      ]
+    },
+    "Legacy_Mana_Shield_Base": {
+      "description": [
+        {
+          "text": "Gives you a shield that ",
+          "color": "$text"
+        },
+        {
+          "text": "redirects a percentage",
+          "color": "$absorb"
+        },
+        {
+          "text": " of incoming damage to your ",
+          "color": "$text"
+        },
+        {
+          "text": "mana pool",
+          "color": "$manaCost"
+        },
+        {
+          "text": ".\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u25d0 Toggle Ability ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "absorb",
+        "manaPerDamage"
+      ],
+      "next": [
+
+        "cooldown",
+        "absorb",
+        "manaPerDamage"
+      ]
+    },
+    "Colossus_Base": {
+      "description": [
+        {
+          "text": "Makes you considerably bigger, giving you ",
+          "color": "$text"
+        },
+        {
+          "text": "knockback immunity ",
+          "color": "$knockback"
+        },
+        {
+          "text": "and a boost in ",
+          "color": "$text"
+        },
+        {
+          "text": "resistance",
+          "color": "$radius"
+        },
+        {
+          "text": " for a limited duration\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u2734 Cast Ability ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "additionalResistance",
+        "size",
+        "cooldown",
+        "manaCost",
+        "adjustedDuration"
+      ],
+      "next": [
+        "additionalResistance",
+        "size",
+        "cooldown",
+        "manaCost",
+        "adjustedDuration"
+      ]
+    },
+    "Sneaky_Getaway": {
+      "description": [
+        {
+          "text": "Makes you considerably smaller and increases your",
+          "color": "$text"
+        },
+        {
+          "text": "movement speed",
+          "color": "$speed"
+        },
+        {
+          "text": "for a limited duration, allowing for a quick and sneaky getaway\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u2734 Cast Ability ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "speed",
+        "size",
+        "cooldown",
+        "manaCost",
+        "adjustedDuration"
+      ],
+      "next": [
+        "speed",
+        "size",
+        "cooldown",
+        "manaCost",
+        "adjustedDuration"
+      ]
     }
   }
 }

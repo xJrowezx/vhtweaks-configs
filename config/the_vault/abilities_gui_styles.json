@@ -63,6 +63,9 @@
         },
         "Mega_Jump_Break_Down": {
           "icon": "the_vault:gui/abilities/mega_jump_break_down"
+        },
+        "Levitate": {
+          "icon": "the_vault:gui/abilities/levitate"
         }
       }
     },
@@ -387,6 +390,46 @@
         },
         "Necromancy_Golem": {
           "icon": "the_vault:gui/abilities/necromancy_golem"
+        }
+      }
+    },
+
+    "Blade_Frenzy": {
+      "x": 385,
+      "y": 17,
+      "specializationStyles": {
+        "Blade_Frenzy_Base": {
+          "icon": "the_vault:gui/abilities/bladefrenzy"
+        }
+      }
+    },
+    "Shield_Wall": {
+      "x": 280,
+      "y": -100,
+      "specializationStyles": {
+        "Shield_Wall_Base": {
+          "icon": "the_vault:gui/abilities/shield_wall"
+        }
+      }
+    },
+    "Colossus": {
+      "x": 315,
+      "y": -100,
+      "specializationStyles": {
+        "Colossus_Base": {
+          "icon": "the_vault:gui/abilities/colossus"
+        },
+        "Sneaky_Getaway": {
+          "icon": "the_vault:gui/abilities/sneaky_getaway"
+        }
+      }
+    },
+    "Legacy_Mana_Shield": {
+      "x": 35,
+      "y": 265,
+      "specializationStyles": {
+        "Legacy_Mana_Shield_Base": {
+          "icon": "the_vault:gui/abilities/mana_shield"
         }
       }
     }
