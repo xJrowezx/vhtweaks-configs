@@ -4375,46 +4375,46 @@
     ],
     "Unbreakable": [
       {
-        "text": "Increases the cap for "
+        "text":"Increases your "
       },
       {
-        "text": "Durability Damage Reduction",
-        "color": "#69D68F"
+        "text":"Durability Damage Reduction","color":"#69D68F"
       },
       {
-        "text": ".\n\n1 "
+        "text":".\n\n1 "
       },
       {
-        "text": "+5%",
-        "color": "#69D68F"
+        "text":"+5%","color":"#69D68F"
       },
       {
-        "text": "\n2 "
+        "text":"\n2 "
       },
       {
-        "text": "+10%",
-        "color": "#69D68F"
+        "text":"+10%","color":"#69D68F"
       },
       {
-        "text": "\n3 "
+        "text":"\n3 "
       },
       {
-        "text": "+15%",
-        "color": "#69D68F"
+        "text":"+15%","color":"#69D68F"
       },
       {
-        "text": "\n4 "
+        "text":"\n4 "
       },
       {
-        "text": "+20%",
-        "color": "#69D68F"
+        "text":"+20%","color":"#69D68F"
       },
       {
-        "text": "\n5 "
+        "text":"\n5 "
       },
       {
-        "text": "+25%",
-        "color": "#69D68F"
+        "text":"+25%","color":"#69D68F"
+      },
+      {
+        "text":"\n6 "
+      },
+      {
+        "text":"+30%","color":"#69D68F"
       }
     ],
     "Looter": [
@@ -12867,6 +12867,20 @@
       {
         "text": "+30",
         "color": "#FFEB07"
+      },
+      {
+        "text": "\n4 "
+      },
+      {
+        "text": "+40",
+        "color": "#FFEB07"
+      },
+      {
+        "text": "\n5 "
+      },
+      {
+        "text": "+50",
+        "color": "#FFEB07"
       }
     ],
     "Trinketer": [
@@ -12881,21 +12895,21 @@
         "text": " to not consume a use of your trinkets when entering a vault.\n\n1 "
       },
       {
-        "text": "10%",
+        "text": "25%",
         "color": "#FFEB07"
       },
       {
         "text": "\n2 "
       },
       {
-        "text": "20%",
+        "text": "35%",
         "color": "#FFEB07"
       },
       {
         "text": "\n3 "
       },
       {
-        "text": "30%",
+        "text": "50%",
         "color": "#FFEB07"
       }
     ],
@@ -14049,7 +14063,25 @@
         "color": "#FFEB07"
       },
       {
-        "text": " at any given time."
+        "text":" at any given time.\n\n4\nReduce the "
+      },
+      {
+        "text":"bounty wait period","color":"#FCF5C5"
+      },
+      {
+        "text":" to"
+      },
+      {
+        "text":" 15 minutes","color":"#CBE6FE"
+      },
+      {
+        "text":".\n\n5\nHave "
+      },
+      {
+        "text":"3 active bounties","color":"#FFEB07"
+      },
+      {
+        "text":" at any given time."
       }
     ],
     "Sorcery": [
@@ -15504,60 +15536,28 @@
     ],
     "Marketer": [
       {
-        "text": "You become accustomed with the "
+        "text":"Unlock an additional "
       },
       {
-        "text": "Black Market",
-        "color": "#FCF5C5"
+        "text":"market slot","color":"#4800FF"
       },
       {
-        "text": " and gain the ability to "
+        "text":" per level.\n\n1 "
       },
       {
-        "text": "re-roll the offers",
-        "color": "#FFEB07"
+        "text":"1 slot","color":"#4800FF"
       },
       {
-        "text": " during its cycle.\n\n1 "
+        "text":"\n2 "
       },
       {
-        "text": "1 re-roll",
-        "color": "#FFEB07"
+        "text":"2 slots","color":"#4800FF"
       },
       {
-        "text": "\n2 "
+        "text":"\n3 "
       },
       {
-        "text": "2 re-rolls",
-        "color": "#FFEB07"
-      },
-      {
-        "text": "\n3 "
-      },
-      {
-        "text": "3 re-rolls",
-        "color": "#FFEB07"
-      },
-      {
-        "text": "\n4 "
-      },
-      {
-        "text": "4 re-rolls",
-        "color": "#FFEB07"
-      },
-      {
-        "text": "\n5 "
-      },
-      {
-        "text": "5 re-rolls",
-        "color": "#FFEB07"
-      },
-      {
-        "text": "\n6 "
-      },
-      {
-        "text": "6 re-rolls",
-        "color": "#FFEB07"
+        "text":"3 slots","color":"#4800FF"
       }
     ],
     "Fortuitous_Finesse": [
@@ -16454,6 +16454,20 @@
       },
       {
         "text": "30%",
+        "color": "#008080"
+      },
+      {
+        "text": "\n4 "
+      },
+      {
+        "text": "40%",
+        "color": "#008080"
+      },
+      {
+        "text": "\n5 "
+      },
+      {
+        "text": "50%",
         "color": "#008080"
       }
     ],
