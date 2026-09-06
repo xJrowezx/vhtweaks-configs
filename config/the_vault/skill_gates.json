@@ -118,12 +118,7 @@
             "id": "Berserking"
           }
         ],
-        "dependsOn": [
-          {
-            "type": "talent_points_spent",
-            "amount": 40
-          }
-        ]
+        "dependsOn": []
       },
       "Berserking": {
         "lockedBy": [
@@ -132,34 +127,29 @@
             "id": "Last_Stand"
           }
         ],
-        "dependsOn": [
-          {
-            "type": "talent_points_spent",
-            "amount": 40
-          }
-        ]
+        "dependsOn": []
       },
       "Stoneskin": {
         "lockedBy": [],
         "dependsOn": []
       },
       "Nucleus": {
-        "lockedBy": [],
-        "dependsOn": [
+        "lockedBy": [
           {
-            "type": "talent_points_spent",
-            "amount": 15
+            "type": "constant",
+            "id": "Daze"
           }
-        ]
+        ],
+        "dependsOn": []
       },
       "Daze": {
-        "lockedBy": [],
-        "dependsOn": [
+        "lockedBy": [
           {
-            "type": "talent_points_spent",
-            "amount": 5
+            "type": "constant",
+            "id": "Nucleus"
           }
-        ]
+        ],
+        "dependsOn": []
       },
       "Weakness_Affinity": {
         "lockedBy": [
@@ -554,76 +544,63 @@
         "lockedBy": [],
         "dependsOn": [
           {
-            "type": "talent_points_spent",
-            "amount": 15
-          },
-          {
             "type": "constant",
-            "id": "Depleted"
+            "id": "Medic"
           }
         ]
       },
       "Depleted": {
         "lockedBy": [],
-        "dependsOn": [
-          {
-            "type": "talent_points_spent",
-            "amount": 5
-          }
-        ]
+        "dependsOn": []
       },
       "Blizzard": {
-        "lockedBy": [],
-        "dependsOn": [
+        "lockedBy": [
           {
-            "type": "talent_points_spent",
-            "amount": 15
+            "type": "constant",
+            "id": "Frostbite"
           }
-        ]
+        ],
+        "dependsOn": []
       },
       "Frostbite": {
-        "lockedBy": [],
-        "dependsOn": [
+        "lockedBy": [
           {
-            "type": "talent_points_spent",
-            "amount": 15
+            "type": "constant",
+            "id": "Blizzard"
           }
-        ]
+        ],
+        "dependsOn": []
       },
       "Blight": {
-        "lockedBy": [],
-        "dependsOn": [
+        "lockedBy": [
           {
-            "type": "talent_points_spent",
-            "amount": 40
+            "type": "constant",
+            "id": "Toxic_Reaction"
           }
-        ]
+        ],
+        "dependsOn": []
       },
       "Toxic_Reaction": {
-        "lockedBy": [],
-        "dependsOn": [
+        "lockedBy": [
           {
-            "type": "talent_points_spent",
-            "amount": 25
+            "type": "constant",
+            "id": "Blight"
           }
-        ]
+        ],
+        "dependsOn": []
       },
       "Lightning_Damage": {
         "lockedBy": [],
         "dependsOn": [
           {
-            "type": "talent_points_spent",
-            "amount": 15
+            "type": "constant",
+            "id": "Intelligence"
           }
         ]
       },
       "Lightning_Stun": {
         "lockedBy": [],
         "dependsOn": [
-          {
-            "type": "talent_points_spent",
-            "amount": 25
-          },
           {
             "type": "constant",
             "id": "Lightning_Damage"
@@ -639,10 +616,6 @@
         ],
         "dependsOn": [
           {
-            "type": "talent_points_spent",
-            "amount": 5
-          },
-          {
             "type": "constant",
             "id": "Strength"
           }
@@ -657,61 +630,43 @@
         ],
         "dependsOn": [
           {
-            "type": "talent_points_spent",
-            "amount": 5
-          },
-          {
             "type": "constant",
             "id": "Strength"
           }
         ]
       },
       "Voltaic_Impact": {
-        "lockedBy": [],
-        "dependsOn": [
+        "lockedBy": [
           {
-            "type": "talent_points_spent",
-            "amount": 5
+            "type": "constant",
+            "id": "Voltaic_Distance"
           }
-        ]
+        ],
+        "dependsOn": []
+      },
+      "Voltaic_Distance": {
+        "lockedBy": [
+          {
+            "type": "constant",
+            "id": "Voltaic_Impact"
+          }
+        ],
+        "dependsOn": []
       },
       "Fatal_Strike": {
         "lockedBy": [],
-        "dependsOn": [
-          {
-            "type": "talent_points_spent",
-            "amount": 5
-          }
-        ]
-      },
-      "Fatal_Strike_II": {
-        "lockedBy": [],
-        "dependsOn": [
-          {
-            "type": "talent_points_spent",
-            "amount": 40
-          },
-          {
-            "type": "constant",
-            "id": "Fatal_Strike"
-          }
-        ]
+        "dependsOn": []
       },
       "Cleave": {
         "lockedBy": [],
-        "dependsOn": [
-          {
-            "type": "talent_points_spent",
-            "amount": 5
-          }
-        ]
+        "dependsOn": []
       },
       "Mana_Harvest": {
         "lockedBy": [],
         "dependsOn": [
           {
-            "type": "talent_points_spent",
-            "amount": 5
+            "type": "constant",
+            "id": "Arcana"
           }
         ]
       },
@@ -721,55 +676,15 @@
       },
       "Mana_Steal": {
         "lockedBy": [],
-        "dependsOn": [
-          {
-            "type": "talent_points_spent",
-            "amount": 15
-          }
-        ]
-      },
-      "Mana_Steal_II": {
-        "lockedBy": [],
-        "dependsOn": [
-          {
-            "type": "talent_points_spent",
-            "amount": 40
-          },
-          {
-            "type": "constant",
-            "id": "Mana_Steal"
-          }
-        ]
+        "dependsOn": []
       },
       "Life_Steal": {
         "lockedBy": [],
-        "dependsOn": [
-          {
-            "type": "talent_points_spent",
-            "amount": 15
-          }
-        ]
-      },
-      "Life_Steal_II": {
-        "lockedBy": [],
-        "dependsOn": [
-          {
-            "type": "talent_points_spent",
-            "amount": 40
-          },
-          {
-            "type": "constant",
-            "id": "Life_Steal"
-          }
-        ]
+        "dependsOn": []
       },
       "Blood_Rush": {
         "lockedBy": [],
         "dependsOn": [
-          {
-            "type": "talent_points_spent",
-            "amount": 25
-          },
           {
             "type": "constant",
             "id": "Methodical"
@@ -778,29 +693,29 @@
       },
       "Sorcery": {
         "lockedBy": [],
-        "dependsOn": [
-          {
-            "type": "talent_points_spent",
-            "amount": 5
-          }
-        ]
+        "dependsOn": []
       },
       "Witchery": {
         "lockedBy": [],
-        "dependsOn": [
-          {
-            "type": "talent_points_spent",
-            "amount": 5
-          }
-        ]
+        "dependsOn": []
       },
       "Bountiful_Harvest": {
         "lockedBy": [],
-        "dependsOn": []
+        "dependsOn": [
+          {
+            "type": "constant",
+            "id": "Haste"
+          }
+        ]
       },
       "Treasure_Seeker": {
         "lockedBy": [],
-        "dependsOn": []
+        "dependsOn": [
+          {
+            "type": "constant",
+            "id": "Haste"
+          }
+        ]
       },
       "Speed": {
         "lockedBy": [],
@@ -809,10 +724,6 @@
       "Arcana": {
         "lockedBy": [],
         "dependsOn": [
-          {
-            "type": "talent_points_spent",
-            "amount": 15
-          },
           {
             "type": "constant",
             "id": "Sorcery"
@@ -823,10 +734,6 @@
         "lockedBy": [],
         "dependsOn": [
           {
-            "type": "talent_points_spent",
-            "amount": 25
-          },
-          {
             "type": "constant",
             "id": "Witchery"
           }
@@ -834,97 +741,48 @@
       },
       "Dungeon_Mastery": {
         "lockedBy": [],
-        "dependsOn": [
-          {
-            "type": "talent_points_spent",
-            "amount": 25
-          }
-        ]
+        "dependsOn": []
       },
       "Frenzy": {
         "lockedBy": [],
-        "dependsOn": [
-          {
-            "type": "talent_points_spent",
-            "amount": 25
-          }
-        ]
+        "dependsOn": []
       },
       "Prime_Amplification": {
         "lockedBy": [],
-        "dependsOn": [
-          {
-            "type": "talent_points_spent",
-            "amount": 25
-          }
-        ]
+        "dependsOn": []
       },
       "Blazing": {
         "lockedBy": [],
         "dependsOn": [
           {
-            "type": "talent_points_spent",
-            "amount": 40
-          },
-          {
             "type": "constant",
-            "id": "Speed_II"
+            "id": "Speed"
           }
         ]
       },
       "Assassin_Mastery": {
         "lockedBy": [],
-        "dependsOn": [
-          {
-            "type": "talent_points_spent",
-            "amount": 25
-          }
-        ]
+        "dependsOn": []
       },
       "Champion_Mastery": {
         "lockedBy": [],
-        "dependsOn": [
-          {
-            "type": "talent_points_spent",
-            "amount": 40
-          }
-        ]
+        "dependsOn": []
       },
       "Lucky_Momentum": {
         "lockedBy": [],
-        "dependsOn": [
-          {
-            "type": "talent_points_spent",
-            "amount": 40
-          }
-        ]
+        "dependsOn": []
       },
       "Javelin_Conduct": {
         "lockedBy": [],
-        "dependsOn": [
-          {
-            "type": "talent_points_spent",
-            "amount": 40
-          }
-        ]
+        "dependsOn": []
       },
       "Javelin_Frugal": {
         "lockedBy": [],
-        "dependsOn": [
-          {
-            "type": "talent_points_spent",
-            "amount": 40
-          }
-        ]
+        "dependsOn": []
       },
       "Hunters_Instinct": {
         "lockedBy": [],
-        "dependsOn": [
-          {
-            "type": "talent_points_spent",
-            "amount": 40
-          }
-        ]
+        "dependsOn": []
       },
       "Farmer_Twerker": {
         "lockedBy": [],
@@ -944,95 +802,11 @@
       },
       "Purist": {
         "lockedBy": [],
-        "dependsOn": [
-          {
-            "type": "talent_points_spent",
-            "amount": 5
-          }
-        ]
+        "dependsOn": []
       },
       "Prudent": {
         "lockedBy": [],
-        "dependsOn": [
-          {
-            "type": "talent_points_spent",
-            "amount": 5
-          }
-        ]
-      },
-      "Speed_II": {
-        "lockedBy": [],
-        "dependsOn": [
-          {
-            "type": "talent_points_spent",
-            "amount": 15
-          },
-          {
-            "type": "constant",
-            "id": "Speed"
-          }
-        ]
-      },
-      "Intelligence_II": {
-        "lockedBy": [],
-        "dependsOn": [
-          {
-            "type": "talent_points_spent",
-            "amount": 15
-          },
-          {
-            "type": "constant",
-            "id": "Intelligence"
-          }
-        ]
-      },
-      "Might_II": {
-        "lockedBy": [],
-        "dependsOn": [
-          {
-            "type": "talent_points_spent",
-            "amount": 25
-          },
-          {
-            "type": "either",
-            "gates": [
-              {
-                "type": "constant",
-                "id": "Axe_Specialisation"
-              },
-              {
-                "type": "constant",
-                "id": "Sword_Specialisation"
-              }
-            ]
-          }
-        ]
-      },
-      "Haste_II": {
-        "lockedBy": [],
-        "dependsOn": [
-          {
-            "type": "talent_points_spent",
-            "amount": 25
-          },
-          {
-            "type": "constant",
-            "id": "Haste"
-          }
-        ]
-      },
-      "Prudent_II": {
-        "lockedBy": [],
-        "dependsOn": [
-          {
-            "type": "talent_points_spent",
-            "amount": 40
-          },
-          {
-            "type": "constant",
-            "id": "Prudent"
-          }
-        ]
+        "dependsOn": []
       },
       "Ethereal": {
         "lockedBy": [
@@ -1060,8 +834,8 @@
         "lockedBy": [],
         "dependsOn": [
           {
-            "type": "talent_points_spent",
-            "amount": 15
+            "type": "constant",
+            "id": "Speed"
           }
         ]
       },
@@ -1069,36 +843,245 @@
         "lockedBy": [],
         "dependsOn": [
           {
-            "type": "talent_points_spent",
-            "amount": 5
+            "type": "either",
+            "gates": [
+              {
+                "type": "constant",
+                "id": "Crit_Hit_Chance"
+              },
+              {
+                "type": "constant",
+                "id": "Crit_Hit_Damage"
+              }
+            ]
           }
         ]
       },
       "Battle_Trance": {
         "lockedBy": [],
-        "dependsOn": [
-          {
-            "type": "talent_points_spent",
-            "amount": 40
-          },
-          {
-            "type": "constant",
-            "id": "Might_II"
-          }
-        ]
+        "dependsOn": []
       },
       "Treasure_Sense": {
         "lockedBy": [],
         "dependsOn": [
           {
-            "type": "talent_points_spent",
-            "amount": 40
+            "type": "either",
+            "gates": [
+              {
+                "type": "constant",
+                "id": "Treasure_Seeker"
+              },
+              {
+                "type": "constant",
+                "id": "Bountiful_Harvest"
+              }
+            ]
           }
         ]
       },
       "Lingering_Fumes": {
         "lockedBy": [],
         "dependsOn": []
+      },
+      "Potent_Elixir": {
+        "lockedBy": [
+          {
+            "type": "constant",
+            "id": "Healthy_Elixir"
+          }
+        ],
+        "dependsOn": [
+          {
+            "type": "constant",
+            "id": "Prudent"
+          }
+        ]
+      },
+      "Healthy_Elixir": {
+        "lockedBy": [
+          {
+            "type": "constant",
+            "id": "Potent_Elixir"
+          }
+        ],
+        "dependsOn": [
+          {
+            "type": "constant",
+            "id": "Prudent"
+          }
+        ]
+      },
+      "Lunge": {
+        "lockedBy": [],
+        "dependsOn": [
+          {
+            "type": "either",
+            "gates": [
+              {
+                "type": "constant",
+                "id": "Axe_Specialisation"
+              },
+              {
+                "type": "constant",
+                "id": "Sword_Specialisation"
+              }
+            ]
+          }
+        ]
+      },
+      "Crit_Hit_Chance": {
+        "lockedBy": [
+          {
+            "type": "constant",
+            "id": "Crit_Hit_Damage"
+          }
+        ],
+        "dependsOn": [
+          {
+            "type": "constant",
+            "id": "Lunge"
+          }
+        ]
+      },
+      "Crit_Hit_Damage": {
+        "lockedBy": [
+          {
+            "type": "constant",
+            "id": "Crit_Hit_Chance"
+          }
+        ],
+        "dependsOn": [
+          {
+            "type": "constant",
+            "id": "Lunge"
+          }
+        ]
+      },
+      "Momentum_Engine": {
+        "lockedBy": [],
+        "dependsOn": [
+          {
+            "type": "either",
+            "gates": [
+              {
+                "type": "constant",
+                "id": "Blazing"
+              },
+              {
+                "type": "constant",
+                "id": "Clean_Escape"
+              }
+            ]
+          }
+        ]
+      },
+      "Execution_Strike": {
+        "lockedBy": [
+          {
+            "type": "either",
+            "gates": [
+              {
+                "type": "constant",
+                "id": "Arcane_Strike"
+              },
+              {
+                "type": "constant",
+                "id": "Fanged_Strike"
+              }
+            ]
+          }
+        ],
+        "dependsOn": [
+          {
+            "type": "either",
+            "gates": [
+              {
+                "type": "constant",
+                "id": "Fatal_Strike"
+              },
+              {
+                "type": "constant",
+                "id": "Mana_Steal"
+              },
+              {
+                "type": "constant",
+                "id": "Life_Steal"
+              }
+            ]
+          }
+        ]
+      },
+      "Fanged_Strike": {
+        "lockedBy": [
+          {
+            "type": "either",
+            "gates": [
+              {
+                "type": "constant",
+                "id": "Arcane_Strike"
+              },
+              {
+                "type": "constant",
+                "id": "Execution_Strike"
+              }
+            ]
+          }
+        ],
+        "dependsOn": [
+          {
+            "type": "either",
+            "gates": [
+              {
+                "type": "constant",
+                "id": "Fatal_Strike"
+              },
+              {
+                "type": "constant",
+                "id": "Mana_Steal"
+              },
+              {
+                "type": "constant",
+                "id": "Life_Steal"
+              }
+            ]
+          }
+        ]
+      },
+      "Arcane_Strike": {
+        "lockedBy": [
+          {
+            "type": "either",
+            "gates": [
+              {
+                "type": "constant",
+                "id": "Fanged_Strike"
+              },
+              {
+                "type": "constant",
+                "id": "Execution_Strike"
+              }
+            ]
+          }
+        ],
+        "dependsOn": [
+          {
+            "type": "either",
+            "gates": [
+              {
+                "type": "constant",
+                "id": "Fatal_Strike"
+              },
+              {
+                "type": "constant",
+                "id": "Mana_Steal"
+              },
+              {
+                "type": "constant",
+                "id": "Life_Steal"
+              }
+            ]
+          }
+        ]
       }
     }
   }
