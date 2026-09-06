@@ -1992,63 +1992,7 @@
             "effect": "the_vault:glacial_shatter",
             "amplifier": 10,
             "duration": 60,
-            "probability": 0.025,
-            "learnPointCost": 1,
-            "regretPointCost": 1,
-            "unlockLevel": 0
-          },
-          {
-            "type": "effect_on_hit",
-            "filter": [
-              "{ActiveEffects:[{\"forge:id\":\"the_vault:chilled\"}]}",
-              "{ActiveEffects:[{\"forge:id\":\"the_vault:hypothermia\"}]}"
-            ],
-            "effect": "the_vault:glacial_shatter",
-            "amplifier": 10,
-            "duration": 60,
-            "probability": 0.05,
-            "learnPointCost": 1,
-            "regretPointCost": 1,
-            "unlockLevel": 0
-          },
-          {
-            "type": "effect_on_hit",
-            "filter": [
-              "{ActiveEffects:[{\"forge:id\":\"the_vault:chilled\"}]}",
-              "{ActiveEffects:[{\"forge:id\":\"the_vault:hypothermia\"}]}"
-            ],
-            "effect": "the_vault:glacial_shatter",
-            "amplifier": 10,
-            "duration": 60,
-            "probability": 0.075,
-            "learnPointCost": 1,
-            "regretPointCost": 1,
-            "unlockLevel": 0
-          },
-          {
-            "type": "effect_on_hit",
-            "filter": [
-              "{ActiveEffects:[{\"forge:id\":\"the_vault:chilled\"}]}",
-              "{ActiveEffects:[{\"forge:id\":\"the_vault:hypothermia\"}]}"
-            ],
-            "effect": "the_vault:glacial_shatter",
-            "amplifier": 10,
-            "duration": 60,
             "probability": 0.1,
-            "learnPointCost": 1,
-            "regretPointCost": 1,
-            "unlockLevel": 0
-          },
-          {
-            "type": "effect_on_hit",
-            "filter": [
-              "{ActiveEffects:[{\"forge:id\":\"the_vault:chilled\"}]}",
-              "{ActiveEffects:[{\"forge:id\":\"the_vault:hypothermia\"}]}"
-            ],
-            "effect": "the_vault:glacial_shatter",
-            "amplifier": 10,
-            "duration": 60,
-            "probability": 0.125,
             "learnPointCost": 1,
             "regretPointCost": 1,
             "unlockLevel": 0
@@ -2076,7 +2020,7 @@
             "effect": "the_vault:glacial_shatter",
             "amplifier": 10,
             "duration": 60,
-            "probability": 0.175,
+            "probability": 0.2,
             "learnPointCost": 1,
             "regretPointCost": 1,
             "unlockLevel": 0
@@ -2090,7 +2034,7 @@
             "effect": "the_vault:glacial_shatter",
             "amplifier": 10,
             "duration": 60,
-            "probability": 0.2,
+            "probability": 0.25,
             "learnPointCost": 1,
             "regretPointCost": 1,
             "unlockLevel": 0
