@@ -16230,6 +16230,10 @@ hash = "232c3a9437fe2fc74efb76fefc702654c2dff60c2475f2641bed53bdddca7910"
 metafile = true
 
 [[files]]
+file = "mods/additionaltransmogs-1.21.0.jar"
+hash = "8a91a162c617eecd1d6281e1a29adbac3dde5eb5bd3678799e8a6cbd734b64ee"
+
+[[files]]
 file = "mods/addonslib.pw.toml"
 hash = "340fe46d7ab1d9b4a7d53ffc076b720418ddf939da1485c175f41f1dd735b6e3"
 metafile = true
