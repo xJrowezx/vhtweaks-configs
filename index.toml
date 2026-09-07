@@ -1678,7 +1678,7 @@ hash = "b4aa80b6cdabc8ca32ed8c0e4d7eae4a6ec9c51631722b2b04390e93c5817713"
 
 [[files]]
 file = "config/the_vault/gear/gear_common.json"
-hash = "0b9ff8283d5bbaafe97abbbac691537afa3f7bf7ce771d9326b5a5f111fed5fa"
+hash = "71062e12fee086dbe00a9663038f01073bb876045a1f1f6a58504a48304e8bb4"
 
 [[files]]
 file = "config/the_vault/gear/gear_crafting.json"
