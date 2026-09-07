@@ -22,7 +22,7 @@
       "max": 280
     }
   },
-  "swapCooldown": 400,
+  "swapCooldown": 200,
   "swapItems": {
     "FEET": [
       "the_vault:boots"
