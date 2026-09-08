@@ -13818,7 +13818,7 @@ hash = "9b46dde7b07fa8e767e6bd694db4da504689595daa553c5222ca81616a194d71"
 
 [[files]]
 file = "config/the_vault/scavenger.json"
-hash = "66a3a1e1f50c5e7af2d2043c0a5c69dad17e9abbcced27132bf42e9b3e6f19fb"
+hash = "bd3b7946c86fb1a4e7c48d716628ccb8465afbf4cc7b330a2099312b9f5b73aa"
 
 [[files]]
 file = "config/the_vault/shop_pedestal.json"
