@@ -17774,7 +17774,7 @@ hash = "b29be90df09496cdd48995c715f9d16a148146069012509b04a430c9588f4895"
 
 [[files]]
 file = "scripts/00_remove_recipes.zs"
-hash = "1544df27a174a287d633ddd144e71373216d56515e95547d8c7b16567fcc16b2"
+hash = "ead885f42214e8d64e96630e244fa8c20daa5eb228b31b5aa6b02982cc62fcdc"
 
 [[files]]
 file = "scripts/Backpacks.zs"

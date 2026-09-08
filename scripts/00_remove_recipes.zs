@@ -846,6 +846,10 @@ craftingTable.removeByName("create:crafting/kinetics/attribute_filter");
 <recipetype:create:item_application>.remove(<item:create:copper_casing>);
 <recipetype:create:sequenced_assembly>.remove(<item:create:track>);
 
+//Create Copycats
+craftingTable.remove(<item:copycats:copycat_layer>);
+stoneCutter.remove(<item:copycats:copycat_layer>);
+
 // Backpacks
 craftingTable.remove(<item:sophisticatedbackpacks:advanced_refill_upgrade>);
 craftingTable.remove(<item:sophisticatedbackpacks:stonecutter_upgrade>);
@@ -1655,6 +1659,17 @@ JEI.hideMod("rottencreatures");
 // Ispawners
 JEI.hideIngredient(<item:ispawner:spawn_egg>);
 // AE2
+craftingTable.remove(<item:ae2:cell_component_1k>);
+craftingTable.remove(<item:ae2:item_storage_cell_1k>);
+craftingTable.remove(<item:ae2:cell_component_4k>);
+craftingTable.remove(<item:ae2:item_storage_cell_4k>);
+craftingTable.remove(<item:ae2:cell_component_16k>);
+craftingTable.remove(<item:ae2:item_storage_cell_16k>);
+craftingTable.remove(<item:ae2:cell_component_64k>);
+craftingTable.remove(<item:ae2:item_storage_cell_64k>);
+craftingTable.remove(<item:ae2:cell_component_256k>);
+craftingTable.remove(<item:ae2:item_storage_cell_256k>);
+craftingTable.remove(<item:ae2:item_cell_housing>);
 JEI.hideIngredient(<item:ae2:vibration_chamber>);
 JEI.hideIngredient(<item:ae2:printed_logic_processor>);
 JEI.hideIngredient(<item:ae2:printed_calculation_processor>);
