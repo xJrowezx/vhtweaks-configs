@@ -13650,7 +13650,7 @@ hash = "8b12c21a546059c64310d5b2c6fceef9cf164c5ab76dbb61195ac20c9fbb1d28"
 
 [[files]]
 file = "config/the_vault/mod_box.json"
-hash = "62e046e3e0cad1fe12d48dee35f6082148b91594bcfaad8175bc4e95026ae474"
+hash = "c39b2ebb49742e8c6574648834a231650a397b2d6da5288ea1c0e5e3e6a5b6e3"
 
 [[files]]
 file = "config/the_vault/modifier_groups.json"

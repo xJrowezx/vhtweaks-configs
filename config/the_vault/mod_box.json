@@ -51,10 +51,10 @@
     "Applied Energistics": {
       "entries": [
         {"value": {"id": "ae2:fluix_smart_dense_cable", "amountMin": 4, "amountMax": 4}, "weight": 100},
-        {"value": {"id": "ae2:item_storage_cell_1k", "amountMin": 1, "amountMax": 1}, "weight": 80},
-        {"value": {"id": "ae2:item_storage_cell_4k", "amountMin": 1, "amountMax": 1}, "weight": 75},
-        {"value": {"id": "ae2:item_storage_cell_16k", "amountMin": 1, "amountMax": 1}, "weight": 70},
-        {"value": {"id": "ae2:item_storage_cell_64k", "amountMin": 1, "amountMax": 1}, "weight": 5},
+        {"value": {"id": "ae2things:disk_drive_1k", "amountMin": 1, "amountMax": 1}, "weight": 80},
+        {"value": {"id": "ae2things:disk_drive_4k", "amountMin": 1, "amountMax": 1}, "weight": 75},
+        {"value": {"id": "ae2things:disk_drive_16k", "amountMin": 1, "amountMax": 1}, "weight": 70},
+        {"value": {"id": "ae2things:disk_drive_64k", "amountMin": 1, "amountMax": 1}, "weight": 5},
         {"value": {"id": "ae2:terminal", "amountMin": 1, "amountMax": 1}, "weight": 40},
         {"value": {"id": "ae2:crafting_terminal", "amountMin": 1, "amountMax": 1}, "weight": 10},
         {"value": {"id": "ae2:drive", "amountMin": 1, "amountMax": 1}, "weight": 50},
