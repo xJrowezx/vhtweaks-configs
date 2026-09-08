@@ -370,3 +370,11 @@ craftingTable.addShapeless("ae2_logic_processor_press", <item:ae2:logic_processo
 craftingTable.addShapeless("ae2_silicon_processor_press", <item:ae2:silicon_press>, [
     <item:the_vault:crystal_budding>, <tag:items:forge:silicon>
 ]);
+// Convert between Refined Storage silicon and AE2 silicon
+craftingTable.addShapeless("rs_silicon_to_ae2_silicon", <item:ae2:silicon>, [
+    <item:refinedstorage:silicon>
+]);
+
+craftingTable.addShapeless("ae2_silicon_to_rs_silicon", <item:refinedstorage:silicon>, [
+    <item:ae2:silicon>
+]);

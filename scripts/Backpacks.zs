@@ -59,7 +59,7 @@ craftingTable.addShaped("sophisticatedbackpacks_pouch", <item:sophisticatedbackp
   "result": {"item": "sophisticatedbackpacks:diamond_backpack"}
 });
 
-<recipetype:crafting>.addJsonRecipe("sophisticatedbackpacks_big_backpack", { 
+<recipetype:crafting>.addJsonRecipe("sophisticatedbackpacks_big_backpack", {
   "type": "sophisticatedbackpacks:backpack_upgrade",
   "pattern": [
     "ILI",
@@ -73,6 +73,23 @@ craftingTable.addShaped("sophisticatedbackpacks_pouch", <item:sophisticatedbackp
     "M": {"item": "the_vault:echo_pog"},
     "B": {"item": "sophisticatedbackpacks:diamond_backpack"}},
   "result": {"item": "sophisticatedbackpacks:netherite_backpack"}
+});
+
+<recipetype:crafting>.addJsonRecipe("woldsvaults_xl_backpack", {
+  "type": "sophisticatedbackpacks:backpack_upgrade",
+  "pattern": [
+    "ILI",
+    "WBP",
+    "SOS"],
+  "key": {
+    "I": {"item": "the_vault:vault_essence"},
+    "L": {"item": "the_vault:vault_diamond_block"},
+    "W": {"item": "woldsvaults:wold_star_chunk"},
+    "B": {"item": "sophisticatedbackpacks:netherite_backpack"},
+    "P": {"item": "woldsvaults:extraordinary_pog_prism"},
+    "S": {"item": "the_vault:magic_silk"},
+    "O": {"item": "the_vault:omega_pog"}},
+  "result": {"item": "woldsvaults:xl_backpack"}
 });
 
 // Backpack Upgrades

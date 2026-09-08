@@ -205,19 +205,13 @@ var materials = {
 
 #RemoveRecipies
 
+// Alex's Mobs
+craftingTable.removeByModid("alexsmobs");
+
 // Snad
 craftingTable.remove(<item:snad:suol_snad>);
 craftingTable.remove(<item:snad:red_snad>);
 craftingTable.remove(<item:snad:snad>);
-
-// Creeper Power
-craftingTable.remove(<item:creeperpower:basic_creeper_capsule>);
-craftingTable.remove(<item:creeperpower:stable_creeper_capsule>);
-craftingTable.remove(<item:creeperpower:pure_gunpowder>);
-craftingTable.remove(<item:creeperpower:basic_blast_chamber>);
-craftingTable.remove(<item:creeperpower:reinforced_blast_chamber>);
-craftingTable.remove(<item:creeperpower:experimental_blast_chamber>);
-craftingTable.remove(<item:creeperpower:nuke>);
 
 // AE2
 <recipetype:ae2:inscriber>.remove(<item:ae2:logic_processor>);
@@ -429,111 +423,38 @@ craftingTable.remove(<item:botania:mana_spreader>);
 craftingTable.remove(<item:botania:alchemy_catalyst>);
 craftingTable.remove(<item:botania:mana_fluxfield>);
 
-//Chunky
-craftingTable.remove(<item:chunkymcchunkface:chunk_loader>);
-
-//Barrels
-craftingTable.remove(<item:sophisticatedstorage:limited_copper_barrel_1>);
-craftingTable.remove(<item:sophisticatedstorage:limited_copper_barrel_2>);
-craftingTable.remove(<item:sophisticatedstorage:limited_copper_barrel_3>);
-craftingTable.remove(<item:sophisticatedstorage:limited_copper_barrel_4>);
-craftingTable.remove(<item:sophisticatedstorage:limited_iron_barrel_1>);
-craftingTable.remove(<item:sophisticatedstorage:limited_iron_barrel_2>);
-craftingTable.remove(<item:sophisticatedstorage:limited_iron_barrel_3>);
-craftingTable.remove(<item:sophisticatedstorage:limited_iron_barrel_4>);
-craftingTable.remove(<item:sophisticatedstorage:limited_gold_barrel_1>);
-craftingTable.remove(<item:sophisticatedstorage:limited_gold_barrel_2>);
-craftingTable.remove(<item:sophisticatedstorage:limited_gold_barrel_3>);
-craftingTable.remove(<item:sophisticatedstorage:limited_gold_barrel_4>);
-craftingTable.remove(<item:sophisticatedstorage:limited_diamond_barrel_1>);
-craftingTable.remove(<item:sophisticatedstorage:limited_diamond_barrel_2>);
-craftingTable.remove(<item:sophisticatedstorage:limited_diamond_barrel_3>);
-craftingTable.remove(<item:sophisticatedstorage:limited_diamond_barrel_4>);
-craftingTable.remove(<item:sophisticatedstorage:limited_netherite_barrel_1>);
-craftingTable.remove(<item:sophisticatedstorage:limited_netherite_barrel_2>);
-craftingTable.remove(<item:sophisticatedstorage:limited_netherite_barrel_3>);
-craftingTable.remove(<item:sophisticatedstorage:limited_netherite_barrel_4>);
-<recipetype:minecraft:smithing>.remove(<item:sophisticatedstorage:limited_netherite_barrel_1>);
-<recipetype:minecraft:smithing>.remove(<item:sophisticatedstorage:limited_netherite_barrel_2>);
-<recipetype:minecraft:smithing>.remove(<item:sophisticatedstorage:limited_netherite_barrel_3>);
-<recipetype:minecraft:smithing>.remove(<item:sophisticatedstorage:limited_netherite_barrel_4>);
-craftingTable.remove(<item:sophisticatedstorage:barrel>);
-craftingTable.remove(<item:sophisticatedstorage:limited_barrel_1>);
-craftingTable.remove(<item:sophisticatedstorage:limited_barrel_2>);
-craftingTable.remove(<item:sophisticatedstorage:limited_barrel_3>);
-craftingTable.remove(<item:sophisticatedstorage:limited_barrel_4>);
-
-//sophisticated Storage
-craftingTable.remove(<item:sophisticatedstorage:basic_to_copper_tier_upgrade>);
-craftingTable.remove(<item:sophisticatedstorage:copper_to_iron_tier_upgrade>);
-craftingTable.remove(<item:sophisticatedstorage:iron_to_gold_tier_upgrade>);
-craftingTable.remove(<item:sophisticatedstorage:gold_to_diamond_tier_upgrade>);
-craftingTable.remove(<item:sophisticatedstorage:diamond_to_netherite_tier_upgrade>);
-craftingTable.remove(<item:sophisticatedstorage:basic_to_iron_tier_upgrade>);
-craftingTable.remove(<item:sophisticatedstorage:basic_to_gold_tier_upgrade>);
-craftingTable.remove(<item:sophisticatedstorage:basic_to_diamond_tier_upgrade>);
-craftingTable.remove(<item:sophisticatedstorage:basic_to_netherite_tier_upgrade>);
-craftingTable.remove(<item:sophisticatedstorage:copper_to_gold_tier_upgrade>);
-craftingTable.remove(<item:sophisticatedstorage:copper_to_diamond_tier_upgrade>);
-craftingTable.remove(<item:sophisticatedstorage:copper_to_netherite_tier_upgrade>);
-craftingTable.remove(<item:sophisticatedstorage:iron_to_diamond_tier_upgrade>);
-craftingTable.remove(<item:sophisticatedstorage:iron_to_netherite_tier_upgrade>);
-craftingTable.remove(<item:sophisticatedstorage:gold_to_netherite_tier_upgrade>);
-craftingTable.remove(<item:sophisticatedstorage:copper_barrel>);
-craftingTable.remove(<item:sophisticatedstorage:iron_barrel>);
-craftingTable.remove(<item:sophisticatedstorage:gold_barrel>);
-craftingTable.remove(<item:sophisticatedstorage:diamond_barrel>);
-craftingTable.remove(<item:sophisticatedstorage:netherite_barrel>);
-<recipetype:minecraft:smithing>.remove(<item:sophisticatedstorage:netherite_barrel>);
-craftingTable.remove(<item:sophisticatedstorage:copper_chest>);
-craftingTable.remove(<item:sophisticatedstorage:iron_chest>);
-craftingTable.remove(<item:sophisticatedstorage:gold_chest>);
-craftingTable.remove(<item:sophisticatedstorage:diamond_chest>);
-craftingTable.remove(<item:sophisticatedstorage:netherite_chest>);
-<recipetype:minecraft:smithing>.remove(<item:sophisticatedstorage:netherite_chest>);
-craftingTable.remove(<item:sophisticatedstorage:copper_shulker_box>);
-craftingTable.remove(<item:sophisticatedstorage:iron_shulker_box>);
-craftingTable.remove(<item:sophisticatedstorage:gold_shulker_box>);
-craftingTable.remove(<item:sophisticatedstorage:diamond_shulker_box>);
-craftingTable.remove(<item:sophisticatedstorage:netherite_shulker_box>);
-<recipetype:minecraft:smithing>.remove(<item:sophisticatedstorage:netherite_shulker_box>);
-craftingTable.remove(<item:sophisticatedstorage:upgrade_base>);
-craftingTable.remove(<item:sophisticatedstorage:advanced_hopper_upgrade>);
-craftingTable.remove(<item:sophisticatedstorage:stonecutter_upgrade>);
-craftingTable.remove(<item:sophisticatedstorage:advanced_feeding_upgrade>);
-craftingTable.remove(<item:sophisticatedstorage:advanced_pickup_upgrade>);
-craftingTable.remove(<item:sophisticatedstorage:hopper_upgrade>);
-craftingTable.remove(<item:sophisticatedstorage:compression_upgrade>);
-craftingTable.remove(<item:sophisticatedstorage:stack_upgrade_tier_3>);
-craftingTable.remove(<item:sophisticatedstorage:auto_blasting_upgrade>);
-craftingTable.remove(<item:sophisticatedstorage:auto_smoking_upgrade>);
-craftingTable.remove(<item:sophisticatedstorage:feeding_upgrade>);
-craftingTable.remove(<item:sophisticatedstorage:void_upgrade>);
-craftingTable.remove(<item:sophisticatedstorage:auto_smelting_upgrade>);
-craftingTable.remove(<item:sophisticatedstorage:advanced_pump_upgrade>);
-craftingTable.remove(<item:sophisticatedstorage:pump_upgrade>);
-craftingTable.remove(<item:sophisticatedstorage:stack_upgrade_tier_4>);
-craftingTable.remove(<item:sophisticatedstorage:stack_upgrade_tier_1_plus>);
-craftingTable.remove(<item:sophisticatedstorage:stack_upgrade_tier_1>);
-craftingTable.remove(<item:sophisticatedstorage:compacting_upgrade>);
-craftingTable.remove(<item:sophisticatedstorage:pickup_upgrade>);
-craftingTable.remove(<item:sophisticatedstorage:advanced_void_upgrade>);
-craftingTable.remove(<item:sophisticatedstorage:filter_upgrade>);
-craftingTable.remove(<item:sophisticatedstorage:smelting_upgrade>);
-craftingTable.remove(<item:sophisticatedstorage:advanced_filter_upgrade>);
-craftingTable.remove(<item:sophisticatedstorage:smoking_upgrade>);
-craftingTable.remove(<item:sophisticatedstorage:xp_pump_upgrade>);
-craftingTable.remove(<item:sophisticatedstorage:jukebox_upgrade>);
-craftingTable.remove(<item:sophisticatedstorage:stack_upgrade_tier_2>);
-craftingTable.remove(<item:sophisticatedstorage:crafting_upgrade>);
-craftingTable.remove(<item:sophisticatedstorage:advanced_compacting_upgrade>);
-craftingTable.remove(<item:sophisticatedstorage:magnet_upgrade>);
-craftingTable.remove(<item:sophisticatedstorage:advanced_magnet_upgrade>);
-craftingTable.remove(<item:sophisticatedstorage:blasting_upgrade>);
-craftingTable.remove(<item:sophisticatedstorage:controller>);
+//Drawers
+for logId, logName in logs {
+    craftingTable.remove(<item:storagedrawers:${logName}_full_drawers_1>);
+    craftingTable.remove(<item:storagedrawers:${logName}_full_drawers_2>);
+    craftingTable.remove(<item:storagedrawers:${logName}_full_drawers_4>);
+    craftingTable.remove(<item:storagedrawers:${logName}_half_drawers_1>);
+    craftingTable.remove(<item:storagedrawers:${logName}_half_drawers_2>);
+    craftingTable.remove(<item:storagedrawers:${logName}_half_drawers_4>);
+}
+craftingTable.remove(<item:framedcompactdrawers:framed_full_one>);
+craftingTable.remove(<item:framedcompactdrawers:framed_full_two>);
+craftingTable.remove(<item:framedcompactdrawers:framed_full_four>);
+craftingTable.remove(<item:framedcompactdrawers:framed_half_one>);
+craftingTable.remove(<item:framedcompactdrawers:framed_half_two>);
+craftingTable.remove(<item:framedcompactdrawers:framed_half_four>);
+craftingTable.remove(<item:storagedrawers:drawer_key>);
+craftingTable.remove(<item:storagedrawers:controller>);
+craftingTable.remove(<item:storagedrawers:controller_slave>);
+craftingTable.remove(<item:storagedrawers:upgrade_template>);
+craftingTable.remove(<item:storagedrawers:iron_storage_upgrade>);
+craftingTable.remove(<item:storagedrawers:gold_storage_upgrade>);
+craftingTable.remove(<item:storagedrawers:diamond_storage_upgrade>);
+craftingTable.remove(<item:storagedrawers:emerald_storage_upgrade>);
+craftingTable.remove(<item:storagedrawers:void_upgrade>);
+craftingTable.remove(<item:storagedrawers:compacting_drawers_3>);
+craftingTable.removeByName("storagedrawers:add_upgrade");
 
 // Cagerium
 // craftingTable.remove(<item:cagerium:capacity_upgrade>);
+
+//Pipez
+craftingTable.removeByModid("pipez");
 
 // Mekanism
 for mekmachine in mekmachines {
@@ -718,7 +639,7 @@ stoneCutter.remove(<item:darkutils:blank_plate>);
 // villagerTrades.removeWanderingTrade(2, <item:darkutils>);
 
 // Cooking For Blockheads
-craftingTable.remove(<item:cookingforblockheads:sink>);
+//craftingTable.remove(<item:cookingforblockheads:sink>);
 
 // Thermal
 craftingTable.remove(<item:thermal:device_potion_diffuser>);
@@ -776,6 +697,11 @@ craftingTable.remove(<item:easy_villagers:iron_farm>);
 // Vanilla
 craftingTable.remove(<item:minecraft:golden_apple>);
 craftingTable.remove(<item:minecraft:bundle>);
+brewing.removeRecipe(<item:minecraft:potion>.withTag({Potion: "alexsmobs:strong_knockback_resistance"}), <item:minecraft:glowstone_dust>, <item:minecraft:potion>.withTag({Potion: "alexsmobs:knockback_resistance"}));
+brewing.removeRecipe(<item:minecraft:potion>.withTag({Potion: "alexsmobs:strong_soulsteal"}), <item:minecraft:glowstone_dust>, <item:minecraft:potion>.withTag({Potion: "alexsmobs:soulsteal"}));
+brewing.removeRecipe(<potion:alexsmobs:strong_knockback_resistance>, <item:minecraft:glowstone_dust>, <potion:alexsmobs:knockback_resistance>);
+brewing.removeRecipe(<potion:alexsmobs:strong_soulsteal>, <item:minecraft:glowstone_dust>, <potion:alexsmobs:soulsteal>);
+brewing.removeRecipeByOutputPotion(<potion:alexsmobs:strong_soulsteal>);
 brewing.removeRecipeByOutputPotion(<potion:minecraft:healing>);
 brewing.removeRecipeByOutputPotion(<potion:minecraft:regeneration>);
 brewing.removeRecipeByOutputPotion(<potion:minecraft:turtle_master>);
@@ -834,6 +760,14 @@ craftingTable.remove(<item:xnet:connector_upgrade>);
 <recipetype:minecraft:smithing>.remove(<item:quark:flamerang>);
 craftingTable.remove(<item:quark:pickarang>);
 craftingTable.remove(<item:quark:ender_watcher>);
+
+// Collosal Chest
+//for chest in chests {
+//    craftingTable.remove(<item:colossalchests:chest_wall_${chest}>);
+//    craftingTable.remove(<item:colossalchests:colossal_chest_${chest}>);
+//    craftingTable.remove(<item:colossalchests:interface_${chest}>);
+//}
+//craftingTable.remove(<item:colossalchests:upgrade_tool>);
 
 // FluxNetworks
 craftingTable.remove(<item:fluxnetworks:flux_core>);
@@ -911,116 +845,6 @@ craftingTable.removeByName("create:crafting/kinetics/attribute_filter");
 <recipetype:create:item_application>.remove(<item:create:brass_casing>);
 <recipetype:create:item_application>.remove(<item:create:copper_casing>);
 <recipetype:create:sequenced_assembly>.remove(<item:create:track>);
-
-// create additions
-<recipetype:create:mechanical_crafting>.remove(<item:createaddition:electric_motor>);
-<recipetype:create:mechanical_crafting>.remove(<item:createaddition:alternator>);
-<recipetype:create:mechanical_crafting>.remove(<item:createaddition:tesla_coil>);
-
-// create railway
-<recipetype:create:sequenced_assembly>.remove(<item:railways:track_acacia>);
-<recipetype:create:sequenced_assembly>.remove(<item:railways:track_phantom>);
-<recipetype:create:sequenced_assembly>.remove(<item:railways:track_crimson>);
-<recipetype:create:sequenced_assembly>.remove(<item:railways:track_dark_oak>);
-<recipetype:create:sequenced_assembly>.remove(<item:railways:track_jungle>);
-<recipetype:create:sequenced_assembly>.remove(<item:railways:track_oak>);
-<recipetype:create:sequenced_assembly>.remove(<item:railways:track_spruce>);
-<recipetype:create:sequenced_assembly>.remove(<item:railways:track_ender>);
-<recipetype:create:sequenced_assembly>.remove(<item:railways:track_blackstone>);
-<recipetype:create:sequenced_assembly>.remove(<item:railways:track_monorail>);
-<recipetype:create:sequenced_assembly>.remove(<item:railways:track_birch>);
-<recipetype:create:sequenced_assembly>.remove(<item:railways:track_warped>);
-<recipetype:create:sequenced_assembly>.remove(<item:railways:track_tieless>);
-
-//industrial foregoing
-craftingTable.remove(<item:industrialforegoing:machine_frame_pity>);
-craftingTable.remove(<item:industrialforegoing:machine_frame_simple>);
-craftingTable.remove(<item:industrialforegoing:machine_frame_advanced>);
-craftingTable.remove(<item:industrialforegoing:machine_frame_supreme>);
-craftingTable.remove(<item:industrialforegoing:material_stonework_factory>);
-craftingTable.remove(<item:industrialforegoing:mob_crusher>);
-craftingTable.remove(<item:industrialforegoing:dryrubber>);
-craftingTable.remove(<item:industrialforegoing:dissolution_chamber>);
-craftingTable.remove(<item:industrialforegoing:latex_processing_unit>);
-craftingTable.remove(<item:industrialforegoing:fluid_extractor>);
-craftingTable.remove(<item:industrialforegoing:ore_laser_base>);
-craftingTable.remove(<item:industrialforegoing:laser_drill>);
-craftingTable.remove(<item:industrialforegoing:fluid_laser_base>);
-craftingTable.remove(<item:industrialforegoing:pity_black_hole_unit>);
-craftingTable.remove(<item:industrialforegoing:simple_black_hole_unit>);
-craftingTable.remove(<item:industrialforegoing:advanced_black_hole_unit>);
-craftingTable.remove(<item:industrialforegoing:supreme_black_hole_unit>);
-craftingTable.remove(<item:industrialforegoing:pity_black_hole_tank>);
-craftingTable.remove(<item:industrialforegoing:simple_black_hole_tank>);
-craftingTable.remove(<item:industrialforegoing:advanced_black_hole_tank>);
-craftingTable.remove(<item:industrialforegoing:supreme_black_hole_tank>);
-craftingTable.remove(<item:industrialforegoing:mechanical_dirt>);
-craftingTable.remove(<item:industrialforegoing:mob_duplicator>);
-craftingTable.remove(<item:industrialforegoing:mob_imprisonment_tool>);
-craftingTable.remove(<item:industrialforegoing:iron_gear>);
-craftingTable.remove(<item:industrialforegoing:gold_gear>);
-craftingTable.remove(<item:industrialforegoing:diamond_gear>);
-craftingTable.remove(<item:industrialforegoing:enchantment_applicator>);
-craftingTable.remove(<item:industrialforegoing:enchantment_extractor>);
-craftingTable.remove(<item:industrialforegoing:enchantment_factory>);
-
-// dissolution_chamber
-<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:mechanical_dirt>);
-<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:machine_frame_simple>);
-<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:machine_frame_advanced>);
-<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:machine_frame_supreme>);
-<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:infinity_backpack>);
-<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:infinity_drill>);
-<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:infinity_hammer>);
-<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:infinity_trident>);
-<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:infinity_saw>);
-<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:infinity_launcher>);
-<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:infinity_nuke>);
-<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:range_addon0>);
-<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:range_addon1>);
-<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:range_addon2>);
-<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:range_addon3>);
-<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:range_addon4>);
-<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:range_addon5>);
-<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:range_addon6>);
-<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:range_addon7>);
-<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:range_addon8>);
-<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:range_addon9>);
-<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:range_addon10>);
-<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:range_addon11>);
-
-//Laser io
-craftingTable.remove(<item:laserio:card_item>);
-craftingTable.remove(<item:laserio:logic_chip_raw>);
-craftingTable.remove(<item:laserio:laser_wrench>);
-craftingTable.remove(<item:laserio:laser_connector>);
-craftingTable.remove(<item:laserio:laser_node>);
-
-//Pneumaticraft
-craftingTable.remove(<item:pneumaticcraft:compressed_iron_helmet>);
-craftingTable.remove(<item:pneumaticcraft:compressed_iron_chestplate>);
-craftingTable.remove(<item:pneumaticcraft:compressed_iron_leggings>);
-craftingTable.remove(<item:pneumaticcraft:compressed_iron_boots>);
-craftingTable.remove(<item:pneumaticcraft:pneumatic_helmet>);
-craftingTable.remove(<item:pneumaticcraft:pneumatic_chestplate>);
-craftingTable.remove(<item:pneumaticcraft:pneumatic_leggings>);
-craftingTable.remove(<item:pneumaticcraft:pneumatic_boots>);
-craftingTable.remove(<item:pneumaticcraft:minigun>);
-craftingTable.remove(<item:pneumaticcraft:jackhammer>);
-craftingTable.remove(<item:pneumaticcraft:micromissiles>);
-craftingTable.remove(<item:pneumaticcraft:reinforced_stone>);
-craftingTable.remove(<item:pneumaticcraft:bandage>);
-craftingTable.remove(<item:pneumaticcraft:pressurized_spawner>);
-craftingTable.remove(<item:pneumaticcraft:spawner_agitator>);
-
-// pressure_chamber
-<recipetype:pneumaticcraft:pressure_chamber>.remove(<item:pneumaticcraft:transistor>);
-<recipetype:pneumaticcraft:pressure_chamber>.remove(<item:pneumaticcraft:ingot_iron_compressed>);
-<recipetype:pneumaticcraft:pressure_chamber>.remove(<item:pneumaticcraft:empty_pcb>);
-<recipetype:pneumaticcraft:pressure_chamber>.remove(<item:pneumaticcraft:turbine_blade>);
-<recipetype:pneumaticcraft:pressure_chamber>.remove(<item:pneumaticcraft:compressed_iron_block>);
-// explosion crafting
-<recipetype:pneumaticcraft:explosion_crafting>.removeAll();
 
 // Backpacks
 craftingTable.remove(<item:sophisticatedbackpacks:advanced_refill_upgrade>);
@@ -1156,15 +980,15 @@ craftingTable.remove(<item:powah:solar_panel_basic>);
 craftingTable.remove(<item:entangled:block>);
 craftingTable.remove(<item:entangled:item>);
 
-// simply lights
-craftingTable.remove(<item:simplylight:edge_light>);
 
-
-// craftingTable.remove();   
+// craftingTable.remove();
 
 // removing items from JEI
 
 //JEI.hideIngredient
+// Alexsmobs
+JEI.hideMod("alexsmobs");
+JEI.addIngredient(<item:alexsmobs:rainbow_glass>);
 // Backpacks
 JEI.hideIngredient(<item:sophisticatedbackpacks:stonecutter_upgrade>);
 JEI.hideIngredient(<item:sophisticatedbackpacks:jukebox_upgrade>);
@@ -1197,7 +1021,6 @@ JEI.hideIngredient(<item:refinedstorage:processor_binding>);
 JEI.hideIngredient(<item:refinedstorage:raw_improved_processor>);
 JEI.hideIngredient(<item:refinedstorage:raw_advanced_processor>);
 JEI.hideIngredient(<item:refinedstorage:portable_grid>);
-JEI.hideIngredient(<item:refinedstorage:wireless_grid>);
 // Botania
 JEI.hideIngredient(<item:botania:manasteel_helmet>);
 JEI.hideIngredient(<item:botania:manasteel_chestplate>);
@@ -1317,38 +1140,6 @@ JEI.hideIngredient(<item:waystones:portstone>);
 JEI.hideIngredient(<item:waystones:return_scroll>);
 JEI.hideIngredient(<item:waystones:bound_scroll>);
 JEI.hideIngredient(<item:waystones:warp_scroll>);
-// sophisticatedstorage
-JEI.hideIngredient(<item:sophisticatedstorage:basic_to_iron_tier_upgrade>);
-JEI.hideIngredient(<item:sophisticatedstorage:basic_to_gold_tier_upgrade>);
-JEI.hideIngredient(<item:sophisticatedstorage:basic_to_diamond_tier_upgrade>);
-JEI.hideIngredient(<item:sophisticatedstorage:basic_to_netherite_tier_upgrade>);
-JEI.hideIngredient(<item:sophisticatedstorage:copper_to_gold_tier_upgrade>);
-JEI.hideIngredient(<item:sophisticatedstorage:copper_to_diamond_tier_upgrade>);
-JEI.hideIngredient(<item:sophisticatedstorage:copper_to_netherite_tier_upgrade>);
-JEI.hideIngredient(<item:sophisticatedstorage:iron_to_diamond_tier_upgrade>);
-JEI.hideIngredient(<item:sophisticatedstorage:iron_to_netherite_tier_upgrade>);
-JEI.hideIngredient(<item:sophisticatedstorage:gold_to_netherite_tier_upgrade>);
-JEI.hideIngredient(<item:sophisticatedstorage:magnet_upgrade>);
-JEI.hideIngredient(<item:sophisticatedstorage:advanced_magnet_upgrade>);
-JEI.hideIngredient(<item:sophisticatedstorage:blasting_upgrade>);
-JEI.hideIngredient(<item:sophisticatedstorage:crafting_upgrade>);
-JEI.hideIngredient(<item:sophisticatedstorage:pickup_upgrade>);
-JEI.hideIngredient(<item:sophisticatedstorage:advanced_void_upgrade>);
-JEI.hideIngredient(<item:sophisticatedstorage:filter_upgrade>);
-JEI.hideIngredient(<item:sophisticatedstorage:smelting_upgrade>);
-JEI.hideIngredient(<item:sophisticatedstorage:advanced_filter_upgrade>);
-JEI.hideIngredient(<item:sophisticatedstorage:smoking_upgrade>);
-JEI.hideIngredient(<item:sophisticatedstorage:xp_pump_upgrade>);
-JEI.hideIngredient(<item:sophisticatedstorage:jukebox_upgrade>);
-JEI.hideIngredient(<item:sophisticatedstorage:auto_smelting_upgrade>);
-JEI.hideIngredient(<item:sophisticatedstorage:advanced_pump_upgrade>);
-JEI.hideIngredient(<item:sophisticatedstorage:pump_upgrade>);
-JEI.hideIngredient(<item:sophisticatedstorage:auto_blasting_upgrade>);
-JEI.hideIngredient(<item:sophisticatedstorage:auto_smoking_upgrade>);
-JEI.hideIngredient(<item:sophisticatedstorage:feeding_upgrade>);
-JEI.hideIngredient(<item:sophisticatedstorage:stonecutter_upgrade>);
-JEI.hideIngredient(<item:sophisticatedstorage:advanced_feeding_upgrade>);
-JEI.hideIngredient(<item:sophisticatedstorage:advanced_pickup_upgrade>);
 // Mekanism
 JEI.hideIngredient(<item:mekanism:mekasuit_helmet>);
 JEI.hideIngredient(<item:mekanism:mekasuit_bodyarmor>);
@@ -1454,7 +1245,6 @@ JEI.hideIngredient(<item:thermal:drill_head>);
 JEI.hideIngredient(<item:thermal:device_potion_diffuser>);
 JEI.hideIngredient(<item:thermal:chiller_rod_cast>);
 JEI.hideIngredient(<item:thermal:chiller_ingot_cast>);
-
 // Vault
 var gems = {
   "gorgeous_gemstone": "gorgeous",
@@ -1465,6 +1255,7 @@ var gems = {
   "petzanite_gemstone": "petzanite",
   "pogging_gemstone": "pogging",
   "tubium_gemstone": "tubium",
+  "wutodic_gemstone": "wutodic",
   "xenium_gemstone": "xenium",
   "sparking_gemstone": "sparking",
   "upaline_gemstone": "upaline",
@@ -1473,6 +1264,24 @@ var gems = {
 
 for gemId, gemName in gems {
  JEI.hideIngredient(<item:the_vault:${gemName}_gemstone>);
+  }
+var jewels = {
+  "echoing_jewel": "echoing",
+  "petzan_jewel": "petzan",
+  "gorgeous_jewel": "gorgeous",
+  "ash_jewele": "ash",
+  "benite_jewel": "benite",
+  "bombing_jewel": "bombing",
+  "pogging_jewel": "pogging",
+  "tubic_jewel": "tubic",
+  "xen_jewel": "xen",
+  "sparking_jewel": "sparking",
+  "iskallic_jewel": "iskallic",
+  "upal_jewel": "upal",
+};
+
+for jewelId, jewelName in jewels {
+ JEI.hideIngredient(<item:the_vault:${jewelName}_jewel>);
   }
 JEI.hideIngredient(<item:the_vault:sugar_plum_fairy_flower>);
 JEI.hideIngredient(<item:the_vault:pylon>);
@@ -1506,13 +1315,19 @@ JEI.hideIngredient(<item:the_vault:scavenger_preserves_jar>);
 JEI.hideIngredient(<item:the_vault:scavenger_spice_jar>);
 JEI.hideIngredient(<item:the_vault:vault_crate_champion>);
 // JEI.hideIngredient(<item:the_vault:legendary_treasure_*>);
-JEI.hideIngredient(<item:the_vault:mystic_pear>);
+//JEI.hideIngredient(<item:the_vault:mystic_pear>);
 JEI.hideIngredient(<item:the_vault:rokkit_launcha>);
 JEI.hideIngredient(<item:the_vault:wild_spawner>);
+JEI.hideIngredient(<item:the_vault:pandoras_box>);
 // JEI.hideIngredient(<item:the_vault:etching>);
 // JEI.hideIngredient(<item:the_vault:etching_fragment>);
 JEI.hideIngredient(<item:the_vault:monolith>);
 JEI.hideIngredient(<item:the_vault:unknown_item>);
+JEI.hideIngredient(<item:the_vault:vaulterite_pickaxe>);
+JEI.hideIngredient(<item:the_vault:vault_pickaxe>);
+JEI.hideIngredient(<item:the_vault:prismatic_pickaxe>);
+JEI.hideIngredient(<item:the_vault:echoing_pickaxe>);
+JEI.hideIngredient(<item:the_vault:black_chromatic_pickaxe>);
 JEI.hideIngredient(<item:the_vault:floating_text>);
 JEI.hideIngredient(<item:the_vault:final_vault_frame>);
 JEI.hideIngredient(<item:the_vault:vault_crate_arena>);
@@ -1521,7 +1336,6 @@ JEI.hideIngredient(<item:the_vault:mvp_crown>);
 JEI.hideIngredient(<item:the_vault:ore_vault_rock>);
 JEI.hideIngredient(<item:the_vault:vault_glass>);
 JEI.hideIngredient(<item:the_vault:loot_statue>);
-JEI.hideIngredient(<item:the_vault:shop_pedestal>);
 JEI.hideIngredient(<item:the_vault:trophy_statue>);
 JEI.hideIngredient(<item:the_vault:hourglass>);
 JEI.hideIngredient(<item:the_vault:scavenger_treasure>);
@@ -1609,13 +1423,23 @@ JEI.hideIngredient(<item:the_vault:gemmed_ingot>);
 JEI.hideIngredient(<item:the_vault:golden_tooth>);
 JEI.hideIngredient(<item:the_vault:unknown_egg>);
 JEI.hideIngredient(<item:the_vault:abyssal_ichor>);
+JEI.hideIngredient(<item:the_vault:archetype_star>);
+JEI.hideIngredient(<item:the_vault:archetype_star_core>);
+JEI.hideIngredient(<item:the_vault:archetype_star_essence>);
+JEI.hideIngredient(<item:the_vault:archetype_star_shard>);
 JEI.hideIngredient(<item:the_vault:acceleration_chip>);
 JEI.hideIngredient(<item:the_vault:cluster_netherite>);
 JEI.hideIngredient(<item:the_vault:crystal_seal_raid>);
 JEI.hideIngredient(<item:the_vault:crystal_seal_architect>);
+JEI.hideIngredient(<item:the_vault:infused_eternal_soul>);
+JEI.hideIngredient(<item:the_vault:hardened_wutodic_mass>);
 JEI.hideIngredient(<item:the_vault:sublime_vault_elixir>);
 JEI.hideIngredient(<item:the_vault:sublime_vault_substance>);
 JEI.hideIngredient(<item:the_vault:sublime_vault_vision>);
+JEI.hideIngredient(<item:the_vault:legendary_treasure_normal>);
+JEI.hideIngredient(<item:the_vault:legendary_treasure_rare>);
+JEI.hideIngredient(<item:the_vault:legendary_treasure_epic>);
+JEI.hideIngredient(<item:the_vault:legendary_treasure_omega>);
 JEI.hideIngredient(<item:the_vault:t0_overgrown_zombie_egg>);
 JEI.hideIngredient(<item:the_vault:t5_winterwalker_egg>);
 JEI.hideIngredient(<item:the_vault:t4_winterwalker_egg>);
@@ -1706,18 +1530,6 @@ JEI.hideIngredient(<item:the_vault:faceted_focus>.withTag({modTag: "DamageNether
 JEI.hideIngredient(<item:the_vault:faceted_focus>.withTag({modTag: "Block" as string}));
 //JEI.addIngredient(<item:the_vault:bottle>.withTag({charges:6 as int,recharge:"time" as string,type:"brew" as string,vaultGearData:"[L;7069878597367160218L,-6692775768183260158L,1514722424829610009L,3527585455153845571L,2753168875257675788L,2987536090647L,565248L,8830586978304L]"}));
 //JEI.hideIngredient(<item:the_vault:boss_rune>);
-//Pneumaticraft
-JEI.hideIngredient(<item:pneumaticcraft:compressed_iron_helmet>);
-JEI.hideIngredient(<item:pneumaticcraft:compressed_iron_chestplate>);
-JEI.hideIngredient(<item:pneumaticcraft:compressed_iron_leggings>);
-JEI.hideIngredient(<item:pneumaticcraft:compressed_iron_boots>);
-JEI.hideIngredient(<item:pneumaticcraft:pneumatic_helmet>);
-JEI.hideIngredient(<item:pneumaticcraft:pneumatic_chestplate>);
-JEI.hideIngredient(<item:pneumaticcraft:pneumatic_leggings>);
-JEI.hideIngredient(<item:pneumaticcraft:pneumatic_boots>);
-JEI.hideIngredient(<item:pneumaticcraft:minigun>);
-JEI.hideIngredient(<item:pneumaticcraft:jackhammer>);
-JEI.hideIngredient(<item:pneumaticcraft:micromissiles>);
 // Augments
 JEI.hideIngredient(<item:the_vault:augment>.withTag({theme: "the_vault:raw_vault_cave_diorite" as string}));
 JEI.hideIngredient(<item:the_vault:augment>.withTag({theme: "the_vault:raw_vault_cave_diorite_lvl10" as string}));
@@ -1748,6 +1560,7 @@ JEI.hideIngredient(<item:the_vault:augment>.withTag({theme: "the_vault:classic_v
 JEI.hideIngredient(<item:the_vault:augment>.withTag({theme: "the_vault:classic_vault_herald" as string}));
 JEI.hideIngredient(<item:the_vault:augment>.withTag({theme: "the_vault:classic_vault_idona" as string}));
 JEI.hideIngredient(<item:the_vault:augment>.withTag({theme: "the_vault:classic_vault_intermediary" as string}));
+JEI.hideIngredient(<item:the_vault:augment>.withTag({theme: "the_vault:classic_vault_plastic" as string}));
 JEI.hideIngredient(<item:the_vault:augment>.withTag({theme: "the_vault:classic_vault_tenos" as string}));
 JEI.hideIngredient(<item:the_vault:augment>.withTag({theme: "the_vault:classic_vault_velara" as string}));
 JEI.hideIngredient(<item:the_vault:augment>.withTag({theme: "the_vault:classic_vault_wendarr" as string}));
@@ -1758,14 +1571,48 @@ JEI.hideIngredient(<item:the_vault:augment>.withTag({theme: "the_vault:raid_vaul
 JEI.hideIngredient(<item:the_vault:augment>.withTag({theme: "the_vault:raid_vault_infinite_orcish" as string}));
 JEI.hideIngredient(<item:the_vault:augment>.withTag({theme: "the_vault:raid_vault_infinite_easter" as string}));
 // Legacy Items
+JEI.hideIngredient(<item:the_vault:paradoxical_gem>);
 JEI.hideIngredient(<item:the_vault:card>);
+JEI.hideIngredient(<item:the_vault:mystical_powder>);
+JEI.hideIngredient(<item:the_vault:mote_clarity>);
+JEI.hideIngredient(<item:the_vault:mote_purity>);
+JEI.hideIngredient(<item:the_vault:mote_sanctity>);
+JEI.hideIngredient(<item:the_vault:phoenix_dust>);
+JEI.hideIngredient(<item:the_vault:relic_booster_pack>);
+JEI.hideIngredient(<item:the_vault:orb_frame>);
+JEI.hideIngredient(<item:the_vault:skill_shard>);
+JEI.hideIngredient(<item:the_vault:skill_essence>);
+JEI.hideIngredient(<item:the_vault:mystery_box>);
+JEI.hideIngredient(<item:the_vault:vault_apple>);
 JEI.hideIngredient(<item:the_vault:hearty_apple>);
+JEI.hideIngredient(<item:the_vault:vault_dust>);
+JEI.hideIngredient(<item:the_vault:vault_nugget>);
+JEI.hideIngredient(<item:the_vault:magnetite>);
+JEI.hideIngredient(<item:the_vault:magnetite_ingot>);
+JEI.hideIngredient(<item:the_vault:small_charm>);
+JEI.hideIngredient(<item:the_vault:large_charm>);
+JEI.hideIngredient(<item:the_vault:grand_charm>);
+JEI.hideIngredient(<item:the_vault:majestic_charm>);
+JEI.hideIngredient(<item:the_vault:god_blessing>);
+JEI.hideIngredient(<item:the_vault:god_token>);
+JEI.hideIngredient(<item:the_vault:red_vault_essence>);
+JEI.hideIngredient(<item:the_vault:vault_charm>);
 JEI.hideIngredient(<item:the_vault:charm_upgrade_tier_1>);
 JEI.hideIngredient(<item:the_vault:charm_upgrade_tier_2>);
 JEI.hideIngredient(<item:the_vault:charm_upgrade_tier_3>);
 JEI.hideIngredient(<item:the_vault:charm_upgrade_tier_4>);
+JEI.hideIngredient(<item:the_vault:regret_nugget>);
+JEI.hideIngredient(<item:the_vault:regret_chunk>);
+JEI.hideIngredient(<item:the_vault:regret_orb>);
 JEI.hideIngredient(<item:the_vault:gem_wutodie>);
+JEI.hideIngredient(<item:the_vault:perfect_wutodie>);
+JEI.hideIngredient(<item:the_vault:wutodic_mass>);
+JEI.hideIngredient(<item:the_vault:wutodic_silver_nugget>);
+JEI.hideIngredient(<item:the_vault:wutodic_silver_ingot>);
+JEI.hideIngredient(<item:the_vault:extraordinary_wutodie>);
 JEI.hideIngredient(<item:the_vault:ore_wutodie>);
+JEI.hideIngredient(<item:the_vault:wutodic_silver_block>);
+JEI.hideIngredient(<item:the_vault:vault_jewel_cutting_station>);
 JEI.hideIngredient(<item:the_vault:vault_ingot>);
 JEI.hideIngredient(<item:the_vault:poisonous_mushroom>);
 JEI.hideIngredient(<item:the_vault:hunter_eye>);
@@ -1776,6 +1623,7 @@ JEI.hideIngredient(<item:the_vault:idol_timekeeper>);
 JEI.hideIngredient(<item:the_vault:idol_malevolence>);
 JEI.hideIngredient(<item:the_vault:dragon_path_node>);
 JEI.hideIngredient(<item:the_vault:memory_room_controller>);
+JEI.hideIngredient(<item:the_vault:respec_flask>);
 // IronFurnaces
 JEI.hideIngredient(<item:ironfurnaces:upgrade_silver>);
 JEI.hideIngredient(<item:ironfurnaces:upgrade_iron2>);
@@ -1804,6 +1652,8 @@ JEI.hideIngredient(<item:rftoolsbase:tablet_filled>);
 JEI.hideMod("titanium");
 // Rotten Creatures
 JEI.hideMod("rottencreatures");
+// Ispawners
+JEI.hideIngredient(<item:ispawner:spawn_egg>);
 // AE2
 JEI.hideIngredient(<item:ae2:vibration_chamber>);
 JEI.hideIngredient(<item:ae2:printed_logic_processor>);
@@ -1824,8 +1674,101 @@ JEI.hideIngredient(<item:ae2:portable_fluid_cell_4k>);
 JEI.hideIngredient(<item:ae2:portable_fluid_cell_16k>);
 JEI.hideIngredient(<item:ae2:portable_fluid_cell_64k>);
 JEI.hideIngredient(<item:ae2:portable_fluid_cell_256k>);
+JEI.hideMod("ae2wtlib");
 // generators
 JEI.hideIngredient(<item:mekanism:upgrade_stone_generator>);
+//industrial foregoing
+craftingTable.remove(<item:industrialforegoing:machine_frame_pity>);
+craftingTable.remove(<item:industrialforegoing:machine_frame_simple>);
+craftingTable.remove(<item:industrialforegoing:machine_frame_advanced>);
+craftingTable.remove(<item:industrialforegoing:machine_frame_supreme>);
+craftingTable.remove(<item:industrialforegoing:material_stonework_factory>);
+craftingTable.remove(<item:industrialforegoing:mob_crusher>);
+craftingTable.remove(<item:industrialforegoing:dryrubber>);
+craftingTable.remove(<item:industrialforegoing:dissolution_chamber>);
+craftingTable.remove(<item:industrialforegoing:latex_processing_unit>);
+craftingTable.remove(<item:industrialforegoing:fluid_extractor>);
+craftingTable.remove(<item:industrialforegoing:ore_laser_base>);
+craftingTable.remove(<item:industrialforegoing:laser_drill>);
+craftingTable.remove(<item:industrialforegoing:fluid_laser_base>);
+craftingTable.remove(<item:industrialforegoing:pity_black_hole_unit>);
+craftingTable.remove(<item:industrialforegoing:simple_black_hole_unit>);
+craftingTable.remove(<item:industrialforegoing:advanced_black_hole_unit>);
+craftingTable.remove(<item:industrialforegoing:supreme_black_hole_unit>);
+craftingTable.remove(<item:industrialforegoing:pity_black_hole_tank>);
+craftingTable.remove(<item:industrialforegoing:simple_black_hole_tank>);
+craftingTable.remove(<item:industrialforegoing:advanced_black_hole_tank>);
+craftingTable.remove(<item:industrialforegoing:supreme_black_hole_tank>);
+craftingTable.remove(<item:industrialforegoing:mechanical_dirt>);
+craftingTable.remove(<item:industrialforegoing:mob_duplicator>);
+craftingTable.remove(<item:industrialforegoing:mob_imprisonment_tool>);
+craftingTable.remove(<item:industrialforegoing:iron_gear>);
+craftingTable.remove(<item:industrialforegoing:gold_gear>);
+craftingTable.remove(<item:industrialforegoing:diamond_gear>);
+craftingTable.remove(<item:industrialforegoing:enchantment_applicator>);
+craftingTable.remove(<item:industrialforegoing:enchantment_extractor>);
+craftingTable.remove(<item:industrialforegoing:enchantment_factory>);
+
+JEI.hideIngredient(<item:industrialforegoing:enchantment_extractor>);
+
+// dissolution_chamber
+<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:mechanical_dirt>);
+<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:machine_frame_simple>);
+<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:machine_frame_advanced>);
+<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:machine_frame_supreme>);
+<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:infinity_backpack>);
+<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:infinity_drill>);
+<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:infinity_hammer>);
+<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:infinity_trident>);
+<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:infinity_saw>);
+<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:infinity_launcher>);
+<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:infinity_nuke>);
+<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:range_addon0>);
+<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:range_addon1>);
+<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:range_addon2>);
+<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:range_addon3>);
+<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:range_addon4>);
+<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:range_addon5>);
+<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:range_addon6>);
+<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:range_addon7>);
+<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:range_addon8>);
+<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:range_addon9>);
+<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:range_addon10>);
+<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:range_addon11>);
+
+// sophisticatedstorage
+JEI.hideIngredient(<item:sophisticatedstorage:basic_to_iron_tier_upgrade>);
+JEI.hideIngredient(<item:sophisticatedstorage:basic_to_gold_tier_upgrade>);
+JEI.hideIngredient(<item:sophisticatedstorage:basic_to_diamond_tier_upgrade>);
+JEI.hideIngredient(<item:sophisticatedstorage:basic_to_netherite_tier_upgrade>);
+JEI.hideIngredient(<item:sophisticatedstorage:copper_to_gold_tier_upgrade>);
+JEI.hideIngredient(<item:sophisticatedstorage:copper_to_diamond_tier_upgrade>);
+JEI.hideIngredient(<item:sophisticatedstorage:copper_to_netherite_tier_upgrade>);
+JEI.hideIngredient(<item:sophisticatedstorage:iron_to_diamond_tier_upgrade>);
+JEI.hideIngredient(<item:sophisticatedstorage:iron_to_netherite_tier_upgrade>);
+JEI.hideIngredient(<item:sophisticatedstorage:gold_to_netherite_tier_upgrade>);
+JEI.hideIngredient(<item:sophisticatedstorage:magnet_upgrade>);
+JEI.hideIngredient(<item:sophisticatedstorage:advanced_magnet_upgrade>);
+JEI.hideIngredient(<item:sophisticatedstorage:blasting_upgrade>);
+JEI.hideIngredient(<item:sophisticatedstorage:crafting_upgrade>);
+JEI.hideIngredient(<item:sophisticatedstorage:pickup_upgrade>);
+JEI.hideIngredient(<item:sophisticatedstorage:advanced_void_upgrade>);
+JEI.hideIngredient(<item:sophisticatedstorage:filter_upgrade>);
+JEI.hideIngredient(<item:sophisticatedstorage:smelting_upgrade>);
+JEI.hideIngredient(<item:sophisticatedstorage:advanced_filter_upgrade>);
+JEI.hideIngredient(<item:sophisticatedstorage:smoking_upgrade>);
+JEI.hideIngredient(<item:sophisticatedstorage:xp_pump_upgrade>);
+JEI.hideIngredient(<item:sophisticatedstorage:jukebox_upgrade>);
+JEI.hideIngredient(<item:sophisticatedstorage:auto_smelting_upgrade>);
+JEI.hideIngredient(<item:sophisticatedstorage:advanced_pump_upgrade>);
+JEI.hideIngredient(<item:sophisticatedstorage:pump_upgrade>);
+JEI.hideIngredient(<item:sophisticatedstorage:auto_blasting_upgrade>);
+JEI.hideIngredient(<item:sophisticatedstorage:auto_smoking_upgrade>);
+JEI.hideIngredient(<item:sophisticatedstorage:feeding_upgrade>);
+JEI.hideIngredient(<item:sophisticatedstorage:stonecutter_upgrade>);
+JEI.hideIngredient(<item:sophisticatedstorage:advanced_feeding_upgrade>);
+JEI.hideIngredient(<item:sophisticatedstorage:advanced_pickup_upgrade>);
+
 // sophisticatedstorage
 JEI.hideIngredient(<item:sophisticatedstorage:limited_iron_barrel_1>);
 JEI.hideIngredient(<item:sophisticatedstorage:limited_copper_barrel_1>);
@@ -1852,3 +1795,103 @@ JEI.hideIngredient(<item:sophisticatedstorage:copper_barrel>);
 JEI.hideIngredient(<item:sophisticatedstorage:gold_barrel>);
 JEI.hideIngredient(<item:sophisticatedstorage:diamond_barrel>);
 JEI.hideIngredient(<item:sophisticatedstorage:netherite_barrel>);
+
+//Barrels
+craftingTable.remove(<item:sophisticatedstorage:limited_copper_barrel_1>);
+craftingTable.remove(<item:sophisticatedstorage:limited_copper_barrel_2>);
+craftingTable.remove(<item:sophisticatedstorage:limited_copper_barrel_3>);
+craftingTable.remove(<item:sophisticatedstorage:limited_copper_barrel_4>);
+craftingTable.remove(<item:sophisticatedstorage:limited_iron_barrel_1>);
+craftingTable.remove(<item:sophisticatedstorage:limited_iron_barrel_2>);
+craftingTable.remove(<item:sophisticatedstorage:limited_iron_barrel_3>);
+craftingTable.remove(<item:sophisticatedstorage:limited_iron_barrel_4>);
+craftingTable.remove(<item:sophisticatedstorage:limited_gold_barrel_1>);
+craftingTable.remove(<item:sophisticatedstorage:limited_gold_barrel_2>);
+craftingTable.remove(<item:sophisticatedstorage:limited_gold_barrel_3>);
+craftingTable.remove(<item:sophisticatedstorage:limited_gold_barrel_4>);
+craftingTable.remove(<item:sophisticatedstorage:limited_diamond_barrel_1>);
+craftingTable.remove(<item:sophisticatedstorage:limited_diamond_barrel_2>);
+craftingTable.remove(<item:sophisticatedstorage:limited_diamond_barrel_3>);
+craftingTable.remove(<item:sophisticatedstorage:limited_diamond_barrel_4>);
+craftingTable.remove(<item:sophisticatedstorage:limited_netherite_barrel_1>);
+craftingTable.remove(<item:sophisticatedstorage:limited_netherite_barrel_2>);
+craftingTable.remove(<item:sophisticatedstorage:limited_netherite_barrel_3>);
+craftingTable.remove(<item:sophisticatedstorage:limited_netherite_barrel_4>);
+<recipetype:minecraft:smithing>.remove(<item:sophisticatedstorage:limited_netherite_barrel_1>);
+<recipetype:minecraft:smithing>.remove(<item:sophisticatedstorage:limited_netherite_barrel_2>);
+<recipetype:minecraft:smithing>.remove(<item:sophisticatedstorage:limited_netherite_barrel_3>);
+<recipetype:minecraft:smithing>.remove(<item:sophisticatedstorage:limited_netherite_barrel_4>);
+craftingTable.remove(<item:sophisticatedstorage:barrel>);
+craftingTable.remove(<item:sophisticatedstorage:limited_barrel_1>);
+craftingTable.remove(<item:sophisticatedstorage:limited_barrel_2>);
+craftingTable.remove(<item:sophisticatedstorage:limited_barrel_3>);
+craftingTable.remove(<item:sophisticatedstorage:limited_barrel_4>);
+
+//sophisticated Storage
+craftingTable.remove(<item:sophisticatedstorage:basic_to_copper_tier_upgrade>);
+craftingTable.remove(<item:sophisticatedstorage:copper_to_iron_tier_upgrade>);
+craftingTable.remove(<item:sophisticatedstorage:iron_to_gold_tier_upgrade>);
+craftingTable.remove(<item:sophisticatedstorage:gold_to_diamond_tier_upgrade>);
+craftingTable.remove(<item:sophisticatedstorage:diamond_to_netherite_tier_upgrade>);
+craftingTable.remove(<item:sophisticatedstorage:basic_to_iron_tier_upgrade>);
+craftingTable.remove(<item:sophisticatedstorage:basic_to_gold_tier_upgrade>);
+craftingTable.remove(<item:sophisticatedstorage:basic_to_diamond_tier_upgrade>);
+craftingTable.remove(<item:sophisticatedstorage:basic_to_netherite_tier_upgrade>);
+craftingTable.remove(<item:sophisticatedstorage:copper_to_gold_tier_upgrade>);
+craftingTable.remove(<item:sophisticatedstorage:copper_to_diamond_tier_upgrade>);
+craftingTable.remove(<item:sophisticatedstorage:copper_to_netherite_tier_upgrade>);
+craftingTable.remove(<item:sophisticatedstorage:iron_to_diamond_tier_upgrade>);
+craftingTable.remove(<item:sophisticatedstorage:iron_to_netherite_tier_upgrade>);
+craftingTable.remove(<item:sophisticatedstorage:gold_to_netherite_tier_upgrade>);
+craftingTable.remove(<item:sophisticatedstorage:copper_barrel>);
+craftingTable.remove(<item:sophisticatedstorage:iron_barrel>);
+craftingTable.remove(<item:sophisticatedstorage:gold_barrel>);
+craftingTable.remove(<item:sophisticatedstorage:diamond_barrel>);
+craftingTable.remove(<item:sophisticatedstorage:netherite_barrel>);
+<recipetype:minecraft:smithing>.remove(<item:sophisticatedstorage:netherite_barrel>);
+craftingTable.remove(<item:sophisticatedstorage:copper_chest>);
+craftingTable.remove(<item:sophisticatedstorage:iron_chest>);
+craftingTable.remove(<item:sophisticatedstorage:gold_chest>);
+craftingTable.remove(<item:sophisticatedstorage:diamond_chest>);
+craftingTable.remove(<item:sophisticatedstorage:netherite_chest>);
+<recipetype:minecraft:smithing>.remove(<item:sophisticatedstorage:netherite_chest>);
+craftingTable.remove(<item:sophisticatedstorage:copper_shulker_box>);
+craftingTable.remove(<item:sophisticatedstorage:iron_shulker_box>);
+craftingTable.remove(<item:sophisticatedstorage:gold_shulker_box>);
+craftingTable.remove(<item:sophisticatedstorage:diamond_shulker_box>);
+craftingTable.remove(<item:sophisticatedstorage:netherite_shulker_box>);
+<recipetype:minecraft:smithing>.remove(<item:sophisticatedstorage:netherite_shulker_box>);
+craftingTable.remove(<item:sophisticatedstorage:upgrade_base>);
+craftingTable.remove(<item:sophisticatedstorage:advanced_hopper_upgrade>);
+craftingTable.remove(<item:sophisticatedstorage:stonecutter_upgrade>);
+craftingTable.remove(<item:sophisticatedstorage:advanced_feeding_upgrade>);
+craftingTable.remove(<item:sophisticatedstorage:advanced_pickup_upgrade>);
+craftingTable.remove(<item:sophisticatedstorage:hopper_upgrade>);
+craftingTable.remove(<item:sophisticatedstorage:compression_upgrade>);
+craftingTable.remove(<item:sophisticatedstorage:stack_upgrade_tier_3>);
+craftingTable.remove(<item:sophisticatedstorage:auto_blasting_upgrade>);
+craftingTable.remove(<item:sophisticatedstorage:auto_smoking_upgrade>);
+craftingTable.remove(<item:sophisticatedstorage:feeding_upgrade>);
+craftingTable.remove(<item:sophisticatedstorage:void_upgrade>);
+craftingTable.remove(<item:sophisticatedstorage:auto_smelting_upgrade>);
+craftingTable.remove(<item:sophisticatedstorage:advanced_pump_upgrade>);
+craftingTable.remove(<item:sophisticatedstorage:pump_upgrade>);
+craftingTable.remove(<item:sophisticatedstorage:stack_upgrade_tier_4>);
+craftingTable.remove(<item:sophisticatedstorage:stack_upgrade_tier_1_plus>);
+craftingTable.remove(<item:sophisticatedstorage:stack_upgrade_tier_1>);
+craftingTable.remove(<item:sophisticatedstorage:compacting_upgrade>);
+craftingTable.remove(<item:sophisticatedstorage:pickup_upgrade>);
+craftingTable.remove(<item:sophisticatedstorage:advanced_void_upgrade>);
+craftingTable.remove(<item:sophisticatedstorage:filter_upgrade>);
+craftingTable.remove(<item:sophisticatedstorage:smelting_upgrade>);
+craftingTable.remove(<item:sophisticatedstorage:advanced_filter_upgrade>);
+craftingTable.remove(<item:sophisticatedstorage:smoking_upgrade>);
+craftingTable.remove(<item:sophisticatedstorage:xp_pump_upgrade>);
+craftingTable.remove(<item:sophisticatedstorage:jukebox_upgrade>);
+craftingTable.remove(<item:sophisticatedstorage:stack_upgrade_tier_2>);
+craftingTable.remove(<item:sophisticatedstorage:crafting_upgrade>);
+craftingTable.remove(<item:sophisticatedstorage:advanced_compacting_upgrade>);
+craftingTable.remove(<item:sophisticatedstorage:magnet_upgrade>);
+craftingTable.remove(<item:sophisticatedstorage:advanced_magnet_upgrade>);
+craftingTable.remove(<item:sophisticatedstorage:blasting_upgrade>);
+craftingTable.remove(<item:sophisticatedstorage:controller>);

@@ -13854,7 +13854,7 @@ hash = "9c4bfce4394d20d6ff58d706fb4ae4bbcc00cc4d3a888a8521facfe5d6a5d2a9"
 
 [[files]]
 file = "config/the_vault/skill_descriptions.json"
-hash = "3ac2826ad1e7ccc3137e2c83f74b5ecf120461ce20488d206e4f89b477565f2b"
+hash = "da06907632c6cd9d6d437126db0cef7c0124f2b020de9c5d117b624606d695b0"
 
 [[files]]
 file = "config/the_vault/skill_gates.json"
@@ -13882,7 +13882,7 @@ hash = "0ab5a4de706f95212c1d273851e23245b2dcb4c1e63e808bc5335a22579ab04a"
 
 [[files]]
 file = "config/the_vault/talents.json"
-hash = "8ab9ef7e2d5b718521f054913f957e6db5c8e470468e8303d6d45968e08dfe0a"
+hash = "f98739f5003dd47003169ab390b0435ff04f8462ff6ec51a0f5ebca2e0defcf4"
 
 [[files]]
 file = "config/the_vault/talents_gui_styles.json"
@@ -17764,12 +17764,16 @@ file = "patchouli_books/the_vault_main_guide/en_us/entries/vault_tools/variants.
 hash = "f0ac22c91075799831792da2026b403668f7cc2b568d15a3270111755b2490b3"
 
 [[files]]
+file = "scripts/00_millennium_scripts.zs"
+hash = "b29be90df09496cdd48995c715f9d16a148146069012509b04a430c9588f4895"
+
+[[files]]
 file = "scripts/00_remove_recipes.zs"
-hash = "81b5b8387ea08d993704c86c7841e5251c1e04b6fff7fadf8f3682975f2b800c"
+hash = "1544df27a174a287d633ddd144e71373216d56515e95547d8c7b16567fcc16b2"
 
 [[files]]
 file = "scripts/Backpacks.zs"
-hash = "75d5ea733c6846c6f2d55b9808c34833293c917380ecb73c55673d397e55468e"
+hash = "70c2bbe6be4c499ea89b3654051e03a68dd2b0beb61f9dbc10973ee398d68816"
 
 [[files]]
 file = "scripts/Botania.zs"
@@ -17788,24 +17792,28 @@ file = "scripts/Cagerium.zs"
 hash = "8625ffaf2f6082b0a154049a2f4e3a665b74cce7ab1e447acee0ae3d3c59f451"
 
 [[files]]
+file = "scripts/CollosalChests.zs"
+hash = "96b2797121781d2341a5d63001f089fd5f63c29e766a474a09413e41925547dd"
+
+[[files]]
 file = "scripts/Compressium.zs"
 hash = "e56018e3beddcfb218040ee64308f57cf5f1e1de6e1ebacfed355d311161b14e"
 
 [[files]]
 file = "scripts/Cooking.zs"
-hash = "505709d1f9945c4b7ae3e94490d77ad1deb2ebf3a482b6441331efc3e5011e5d"
+hash = "c4e0510115e102a6b98427a4a1c214445ac1cb9175f77bafc0fba660aaa1dcf5"
 
 [[files]]
 file = "scripts/Create.zs"
-hash = "209380d72cd8119ef39aabc5ce8b392a3396d796d3d8efb24181dfbc43d78baa"
-
-[[files]]
-file = "scripts/Creeperpower.zs"
-hash = "74091a58760bde985a7f3bad9a36601f0d55a1cf66f704f8c1121ba29d9812ba"
+hash = "7eeab170c4cd08d0db1a33b5dc23a4ec1519263dc24afdd0610714b81fc5838c"
 
 [[files]]
 file = "scripts/DarkUtilities.zs"
 hash = "0ead2f469ae9b88def94cf78cd51b35f0978df12017c69389d75c4c780613227"
+
+[[files]]
+file = "scripts/Drawers.zs"
+hash = "9346bd6b46b469a4b02ffb3f8a0272a796c75a8cc0ae9df7b4875627967bfee2"
 
 [[files]]
 file = "scripts/Ecologics.zs"
@@ -17825,7 +17833,7 @@ hash = "e6fead37549f1ead5e5dc2627576ee8f3c9078711a9e0fd3fc33744b22b8222e"
 
 [[files]]
 file = "scripts/Industrial.zs"
-hash = "91dc7f6cfe4cf22b4f25d3abcb00c32fdc6e9c7529fa93c0323bca3de1d18a37"
+hash = "0ed9b7fe1043d987f38effb60f80a33c784748a15649bc0fbcc332d5059827ff"
 
 [[files]]
 file = "scripts/Macaw.zs"
@@ -17844,6 +17852,10 @@ file = "scripts/MiningGadgets.zs"
 hash = "d1c4a07e090e25f7df37a37d9d9571cc289cd4da7fa340bac72574661e185766"
 
 [[files]]
+file = "scripts/Pipez.zs"
+hash = "b11b28451521d11ed5d180bb55b53e2e07f74a6845fe66fa9b63fc1cdb3a31b1"
+
+[[files]]
 file = "scripts/Powah.zs"
 hash = "d4c380415764f804689d7f3d87ee2fa8f838b3de3c293267f65ae01facb7f0af"
 
@@ -17857,7 +17869,7 @@ hash = "a941f2756f80f8a2c92d3a645c21a306c303c37731c2e1561571593bf8b226ca"
 
 [[files]]
 file = "scripts/RefinedStorage.zs"
-hash = "d6760d79bc50cd502cf1f27bc7e84d22a7cdc6af76f4e3e1d94170a0d5a93ed6"
+hash = "1b3cd25ad17c970ee2650bd1c29f2100b72931a0b85fee77eacc504ac9cbe758"
 
 [[files]]
 file = "scripts/Routers.zs"
@@ -17869,11 +17881,11 @@ hash = "f3bcdafa0f0f40636d82ac4c7f7b844a3e559c2afaa038efb10a6e861d0cbf3d"
 
 [[files]]
 file = "scripts/SophisticatedStorage.zs"
-hash = "6d8cbe6a4e45e7480df626239093d9e4ffcdff22f40340fcf6f7d4709c2be5c7"
+hash = "7bd077d0727781a3face4786e5f85a9a703038e243ce0d893bd3748c55a21736"
 
 [[files]]
 file = "scripts/Tags.zs"
-hash = "cbc585f6a4c0a65708ba2b458ecccecddcc436ed16028d372ad648f1e731cf1e"
+hash = "dea3d638c94ae50ef584a2d9c1e15bb6bff86a7a7fdb27c53abbb48ddc6e8527"
 
 [[files]]
 file = "scripts/Thermal.zs"
@@ -17889,7 +17901,7 @@ hash = "3a82fa54f269c7097cabe3deaf1cd6969b797ef74ce41fa1d797bcc5929ea7f7"
 
 [[files]]
 file = "scripts/Vanilla.zs"
-hash = "fa51ca9746e8571b71bbfc3bccc7b2ad97276b5b0b4226e69b8c5a3f7aa20e76"
+hash = "7f184a2f9102ddfcde9095a70ef824b281db8eb7183370212dedfe6d51494ad1"
 
 [[files]]
 file = "scripts/Waystones.zs"
@@ -17901,35 +17913,35 @@ hash = "e9ebbae73c509d2beb23a3868704ffd8a4179a993bdc5ac4e855e4ce192256ac"
 
 [[files]]
 file = "scripts/ae2.zs"
-hash = "de42a9e163ff7a38c4262ccea18a6af56db7f51fdf4fb01aabbfb7ff33b12e3c"
+hash = "618e061281d957dce67b1973a016a139d826ac1cc4f55eeca1216a31ddc70680"
+
+[[files]]
+file = "scripts/alexsmobs.zs"
+hash = "0e032dfed9686e64aca2f0ba2ee8bce2486fb84f59909c26507724a68967fd3f"
+
+[[files]]
+file = "scripts/botanytiers.zs"
+hash = "99eaa38f22e32f69139931b0aff3009ae01996fb56e0844d281445f0621e8bdb"
 
 [[files]]
 file = "scripts/iron_generators_furnaces.zs"
 hash = "60861f4d75a053d18a4b7e29fcae1b9273b665d72163f2dae93d2cb847a54a4c"
 
 [[files]]
-file = "scripts/jeiInformation.zs"
-hash = "a7d770b2c4142be4361f1058607af959717b310e785c569ddeb12bd5397c2bc0"
+file = "scripts/jawns_nonharmful_scripts.zs"
+hash = "2a41acd511e3e4dee1f7f55d9d92c7314f1a3e01caec90e99775b0d399added0"
 
 [[files]]
-file = "scripts/lasers.zs"
-hash = "0e19eb918601f00b505c9660d27d18d8490ebb0212651722eef08f84e8e39623"
+file = "scripts/jeiInformation.zs"
+hash = "efd5feaa4a37c63034b8751b0fc2a1f7f712a85ed0838598ebd45ac450b3aa85"
 
 [[files]]
 file = "scripts/mushroomEvents.zs"
 hash = "6a68d124f68464bc845130c6d85362432e6ac6101829177de5825b235edf653d"
 
 [[files]]
-file = "scripts/pneumaticcraft.zs"
-hash = "af9e16e8041b24d205c8cd2895407142cad37465e363e596bdc12830142f5693"
-
-[[files]]
 file = "scripts/raw_smelting.zs"
 hash = "b416e4dd3d34d07a54b903beb1e49db0b42d9eedc811eeca48bfa09cdbc21e7b"
-
-[[files]]
-file = "scripts/simple_lights.zs"
-hash = "1f1795589bf94b760d1626cf8889e71c14454add0984de9cac7645677659bd7b"
 
 [[files]]
 file = "shaderpacks/ComplementaryiskallShaders.zip.txt"

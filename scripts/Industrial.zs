@@ -52,7 +52,7 @@ craftingTable.addShaped("latex_processing_unit", <item:industrialforegoing:latex
 ]);
 
 craftingTable.addShaped("fluid_extractor", <item:industrialforegoing:fluid_extractor>, [
-    [<item:the_vault:gem_larimar>, <item:minecraft:gold_block>, <item:the_vault:gem_larimar>],
+    [<item:the_vault:gem_larimar>, <item:woldsvaults:chromatic_gold_block>, <item:the_vault:gem_larimar>],
     [<item:minecraft:stone>, <item:industrialforegoing:machine_frame_pity>, <item:minecraft:stone>],
     [<item:the_vault:gem_larimar>, <item:the_vault:chromatic_iron_ingot>, <item:the_vault:gem_larimar>]
 ]);
@@ -78,12 +78,12 @@ craftingTable.addShaped("fluid_laser_base", <item:industrialforegoing:fluid_lase
 <recipetype:industrialforegoing:dissolution_chamber>.addRecipe(
     "mechanical_dirt",
     [
-        <item:minecraft:dirt>, 
-        <item:minecraft:dirt>, 
-        <item:the_vault:perfect_larimar>, 
-        <item:the_vault:perfect_larimar>, 
-        <tag:items:industrialforegoing:machine_frame/pity>, 
-        <item:minecraft:rotten_flesh>, 
+        <item:minecraft:dirt>,
+        <item:minecraft:dirt>,
+        <item:the_vault:perfect_larimar>,
+        <item:the_vault:perfect_larimar>,
+        <tag:items:industrialforegoing:machine_frame/pity>,
+        <item:minecraft:rotten_flesh>,
         <item:minecraft:rotten_flesh>
     ],
     <fluid:industrialforegoing:meat> * 7000,
@@ -95,13 +95,13 @@ craftingTable.addShaped("fluid_laser_base", <item:industrialforegoing:fluid_lase
 <recipetype:industrialforegoing:dissolution_chamber>.addRecipe(
     "machine_frame_supreme",
     [
-        <item:industrialforegoing:plastic>, 
-        <tag:items:industrialforegoing:machine_frame/advanced>, 
-        <item:industrialforegoing:plastic>, 
-        <item:the_vault:echo_pog>, 
-        <item:the_vault:echo_pog>, 
-        <item:the_vault:vault_diamond_block>, 
-        <item:minecraft:netherite_block>, 
+        <item:industrialforegoing:plastic>,
+        <tag:items:industrialforegoing:machine_frame/advanced>,
+        <item:industrialforegoing:plastic>,
+        <item:the_vault:echo_pog>,
+        <item:the_vault:echo_pog>,
+        <item:the_vault:vault_diamond_block>,
+        <item:minecraft:netherite_block>,
         <item:the_vault:vault_diamond_block>
     ],
     <fluid:the_vault:void_liquid> * 8000,
@@ -246,7 +246,7 @@ craftingTable.addShaped("fluid_laser_base", <item:industrialforegoing:fluid_lase
         <item:the_vault:chromatic_iron_ingot> * 3,
         <item:the_vault:chromatic_iron_ingot> * 3,
         <item:minecraft:redstone_block>,
-        <item:minecraft:gold_block>,
+        <item:woldsvaults:chromatic_gold_block>,
         <item:the_vault:vault_diamond>,
         <item:the_vault:vault_diamond>,
         <item:the_vault:vault_diamond>
@@ -413,7 +413,7 @@ craftingTable.addShaped("fluid_laser_base", <item:industrialforegoing:fluid_lase
 
 var ingots = {
     "iron": <item:minecraft:iron_ingot>,
-    "gold": <item:minecraft:gold_ingot>
+    "gold": <item:woldsvaults:chromatic_gold_ingot>
 };
 
 for ingotId, ingot in ingots {

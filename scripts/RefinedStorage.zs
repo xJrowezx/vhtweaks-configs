@@ -1,6 +1,16 @@
 /* scripts made by Douwsky
 for Iskall85's Vaulthunters */
 
+import mods.jei.JEI;
+
+// refined storage + addons
+JEI.hideMod("refinedstorage");
+JEI.hideMod("refinedstorageaddons");
+JEI.hideMod("rsrequestify");
+JEI.addIngredient(<item:refinedstorage:silicon>);
+craftingTable.removeByModid("refinedstorage");
+
+/*
 // adding recipes
 
 var dye = {
@@ -135,6 +145,10 @@ craftingTable.addShaped("rs_crafting_grid", <item:refinedstorage:crafting_grid>,
     [<item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:gem_pog>, <item:the_vault:black_chromatic_steel_ingot>]
 ]);
 
+craftingTable.addShapeless("rs_crafting_grid_small", <item:refinedstorageaddons:wireless_crafting_grid>, [
+    <item:refinedstorage:crafting_grid>, <item:the_vault:black_chromatic_steel_ingot>
+]);
+
 craftingTable.addShapeless("rs_shapeless_crafting_grid", <item:refinedstorage:crafting_grid>, [
     <tag:items:refinedstorage:crafting_grid>, <item:minecraft:light_blue_dye>
 ]);
@@ -202,6 +216,12 @@ craftingTable.addShaped("rs_stack_upgrade", <item:refinedstorage:stack_upgrade>,
     [<item:the_vault:vault_essence>, <item:refinedstorage:speed_upgrade>, <item:the_vault:vault_essence>],
     [<item:refinedstorage:speed_upgrade>, <item:the_vault:gem_pog>, <item:refinedstorage:speed_upgrade>],
     [<item:the_vault:vault_essence>, <item:refinedstorage:speed_upgrade>, <item:the_vault:vault_essence>]
+]);
+
+craftingTable.addShaped("rs_wireless_grid", <item:refinedstorage:wireless_grid>, [
+    [<item:the_vault:chromatic_steel_ingot>, <item:refinedstorage:wireless_transmitter>, <item:the_vault:chromatic_steel_ingot>],
+    [<item:the_vault:chromatic_steel_ingot>, <tag:items:refinedstorage:grid>, <item:the_vault:chromatic_steel_ingot>],
+    [<item:refinedstorage:quartz_enriched_iron_block>, <item:refinedstorage:advanced_processor>, <item:refinedstorage:quartz_enriched_iron_block>]
 ]);
 
 craftingTable.addShapeless("rs_wireless_crafting_grid", <item:refinedstorageaddons:wireless_crafting_grid>, [
@@ -277,9 +297,4 @@ craftingTable.addShapeless("rs_1024k_fluide_disk_shapeless", <item:refinedstorag
 craftingTable.addShapeless("rs_4096k_fluid_disk_shapeless", <item:refinedstorage:4096k_fluid_storage_disk>, [
     <item:refinedstorage:storage_housing>, <item:refinedstorage:4096k_fluid_storage_part>
 ]);
-
-craftingTable.addShaped("rs_wireless_grid", <item:refinedstorage:wireless_grid>, [
-    [<item:the_vault:chromatic_steel_ingot>, <item:refinedstorage:wireless_transmitter>, <item:the_vault:chromatic_steel_ingot>],
-    [<item:the_vault:chromatic_steel_ingot>, <tag:items:refinedstorage:grid>, <item:the_vault:chromatic_steel_ingot>],
-    [<item:refinedstorage:quartz_enriched_iron_block>, <item:refinedstorage:advanced_processor>, <item:refinedstorage:quartz_enriched_iron_block>]
-]);
+*/

@@ -11,26 +11,26 @@ craftingTable.addShaped("ss_basic_to_copper", <item:sophisticatedstorage:basic_t
 
 craftingTable.addShaped("ss_copper_to_iron", <item:sophisticatedstorage:copper_to_iron_tier_upgrade>, [
     [<item:the_vault:perfect_larimar>, <item:the_vault:vault_essence>, <item:the_vault:perfect_larimar>],
-    [<item:the_vault:chromatic_iron_ingot>, <item:sophisticatedstorage:basic_tier_upgrade>, <item:the_vault:chromatic_iron_ingot>],
+    [<item:the_vault:chromatic_iron_ingot>, <item:sophisticatedstorage:basic_to_copper_tier_upgrade>, <item:the_vault:chromatic_iron_ingot>],
     [<item:the_vault:perfect_larimar>, <item:the_vault:vault_essence>, <item:the_vault:perfect_larimar>]
 ]);
 
 craftingTable.addShaped("ss_iron_to_gold", <item:sophisticatedstorage:iron_to_gold_tier_upgrade>, [
     [<item:the_vault:vault_essence>, <item:the_vault:vault_diamond>, <item:the_vault:vault_essence>],
-    [<item:the_vault:chromatic_steel_ingot>, <item:sophisticatedstorage:basic_tier_upgrade>, <item:the_vault:chromatic_steel_ingot>],
+    [<item:the_vault:chromatic_steel_ingot>, <item:sophisticatedstorage:copper_to_iron_tier_upgrade>, <item:the_vault:chromatic_steel_ingot>],
     [<item:the_vault:vault_essence>, <item:the_vault:vault_diamond>, <item:the_vault:vault_essence>]
 ]);
 
 craftingTable.addShaped("ss_gold_to_diamond", <item:sophisticatedstorage:gold_to_diamond_tier_upgrade>, [
     [<item:the_vault:vault_diamond>, <item:the_vault:gem_pog>, <item:the_vault:vault_diamond>],
-    [<item:the_vault:chromatic_steel_ingot>, <item:sophisticatedstorage:basic_tier_upgrade>, <item:the_vault:chromatic_steel_ingot>],
+    [<item:the_vault:chromatic_steel_ingot>, <item:sophisticatedstorage:iron_to_gold_tier_upgrade>, <item:the_vault:chromatic_steel_ingot>],
     [<item:the_vault:vault_diamond>, <item:the_vault:gem_pog>, <item:the_vault:vault_diamond>]
 ]);
 
 craftingTable.addShaped("ss_diamond_to_netherite", <item:sophisticatedstorage:diamond_to_netherite_tier_upgrade>, [
-    [<item:the_vault:gem_echo>, <item:sophisticatedstorage:basic_tier_upgrade>, <item:the_vault:gem_echo>],
+    [<item:the_vault:gem_echo>, <item:sophisticatedstorage:gold_to_diamond_tier_upgrade>, <item:the_vault:gem_echo>],
     [<item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:echo_pog>, <item:the_vault:black_chromatic_steel_ingot>],
-    [<item:the_vault:gem_echo>, <item:sophisticatedstorage:basic_tier_upgrade>, <item:the_vault:gem_echo>]
+    [<item:the_vault:gem_echo>, <item:sophisticatedstorage:gold_to_diamond_tier_upgrade>, <item:the_vault:gem_echo>]
 ]);
 
 craftingTable.addShaped("ss_upgrade_base", <item:sophisticatedstorage:upgrade_base>, [
@@ -106,9 +106,9 @@ craftingTable.addShaped("ss_advanced_hopper_upgrade", <item:sophisticatedstorage
 ]);
 
 craftingTable.addShaped("ss_controller", <item:sophisticatedstorage:controller>, [
-    [<item:the_vault:chromatic_steel_ingot>, <item:the_vault:gem_pog>, <item:the_vault:chromatic_steel_ingot>],
-    [<item:the_vault:chromatic_steel_ingot>, <item:the_vault:vault_diamond_block>, <item:the_vault:chromatic_steel_ingot>],
-    [<item:the_vault:chromatic_steel_ingot>, <item:the_vault:gem_echo>, <item:the_vault:chromatic_steel_ingot>]
+    [<item:the_vault:chromatic_steel_ingot>, <item:the_vault:perfect_echo_gem>, <item:the_vault:chromatic_steel_ingot>],
+    [<item:the_vault:gem_pog>, <item:sophisticatedstorage:diamond_barrel>, <item:the_vault:gem_pog>],
+    [<item:the_vault:chromatic_steel_ingot>, <item:the_vault:perfect_echo_gem>, <item:the_vault:chromatic_steel_ingot>]
 ]);
 
 var planks = {
@@ -153,47 +153,3 @@ for planksId, planksName in planks {
     [<item:the_vault:driftwood>, <item:the_vault:driftwood>, <item:the_vault:driftwood>]
 ]);
 }
-
-craftingTable.addShapeless("basic_to_iron", <item:sophisticatedstorage:basic_to_iron_tier_upgrade>, [
-    <item:sophisticatedstorage:basic_to_copper_tier_upgrade>, <item:sophisticatedstorage:copper_to_iron_tier_upgrade>
-]);
-
-craftingTable.addShapeless("basic_to_gold", <item:sophisticatedstorage:basic_to_gold_tier_upgrade>, [
-    <item:sophisticatedstorage:basic_to_copper_tier_upgrade>, <item:sophisticatedstorage:copper_to_iron_tier_upgrade>, <item:sophisticatedstorage:iron_to_gold_tier_upgrade>
-]);
-
-craftingTable.addShapeless("basic_to_diamond", <item:sophisticatedstorage:basic_to_diamond_tier_upgrade>, [
-    <item:sophisticatedstorage:basic_to_copper_tier_upgrade>, <item:sophisticatedstorage:copper_to_iron_tier_upgrade>, <item:sophisticatedstorage:iron_to_gold_tier_upgrade>,
-    <item:sophisticatedstorage:gold_to_diamond_tier_upgrade>
-]);
-
-craftingTable.addShapeless("basic_to_netherite", <item:sophisticatedstorage:basic_to_netherite_tier_upgrade>, [
-    <item:sophisticatedstorage:basic_to_copper_tier_upgrade>, <item:sophisticatedstorage:copper_to_iron_tier_upgrade>, <item:sophisticatedstorage:iron_to_gold_tier_upgrade>,
-    <item:sophisticatedstorage:gold_to_diamond_tier_upgrade>, <item:sophisticatedstorage:diamond_to_netherite_tier_upgrade>
-]);
-
-craftingTable.addShapeless("copper_to_gold", <item:sophisticatedstorage:copper_to_gold_tier_upgrade>, [
-    <item:sophisticatedstorage:copper_to_iron_tier_upgrade>, <item:sophisticatedstorage:iron_to_gold_tier_upgrade>
-]);
-
-craftingTable.addShapeless("copper_to_diamond", <item:sophisticatedstorage:copper_to_diamond_tier_upgrade>, [
-    <item:sophisticatedstorage:copper_to_iron_tier_upgrade>, <item:sophisticatedstorage:iron_to_gold_tier_upgrade>,
-    <item:sophisticatedstorage:gold_to_diamond_tier_upgrade>
-]);
-
-craftingTable.addShapeless("copper_to_netherite", <item:sophisticatedstorage:copper_to_netherite_tier_upgrade>, [
-    <item:sophisticatedstorage:copper_to_iron_tier_upgrade>, <item:sophisticatedstorage:iron_to_gold_tier_upgrade>, <item:sophisticatedstorage:gold_to_diamond_tier_upgrade>,
-     <item:sophisticatedstorage:diamond_to_netherite_tier_upgrade>
-]);
-
-craftingTable.addShapeless("iron_to_diamond", <item:sophisticatedstorage:iron_to_diamond_tier_upgrade>, [
-    <item:sophisticatedstorage:iron_to_gold_tier_upgrade>,  <item:sophisticatedstorage:gold_to_diamond_tier_upgrade>
-]);
-
-craftingTable.addShapeless("iron_to_netherite", <item:sophisticatedstorage:iron_to_netherite_tier_upgrade>, [
-    <item:sophisticatedstorage:iron_to_gold_tier_upgrade>,  <item:sophisticatedstorage:gold_to_diamond_tier_upgrade>, <item:sophisticatedstorage:diamond_to_netherite_tier_upgrade>
-]);
-
-craftingTable.addShapeless("gold_to_netherite", <item:sophisticatedstorage:gold_to_netherite_tier_upgrade>, [
-    <item:sophisticatedstorage:gold_to_diamond_tier_upgrade>, <item:sophisticatedstorage:diamond_to_netherite_tier_upgrade>
-]);

@@ -1,5 +1,5 @@
 /* scripts made by Douwsky
-for Iskall85's Vaulthunters */
+for Iskall85's Vaulthunters
 
 // adding recipes
 
@@ -8,3 +8,5 @@ craftingTable.addShaped("cookingforblockheads_sink", <item:cookingforblockheads:
     [<item:minecraft:terracotta>, <item:the_vault:infinite_water_bucket>.transformReplace(<item:minecraft:air>), <item:minecraft:terracotta>],
     [<item:minecraft:terracotta>, <item:minecraft:terracotta>, <item:minecraft:terracotta>]
 ]);
+
+*/
