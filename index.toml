@@ -16369,6 +16369,11 @@ hash = "ab837127c61217126a7c233aeb4fc1c50090fc5bf2fe57212fcfff2c6f38cae8"
 metafile = true
 
 [[files]]
+file = "mods/black-market-tweaks.pw.toml"
+hash = "b4880cd7d77a7636e8e42edd6f3f5247563edfef1ce79efa8fe3ff2398a1b883"
+metafile = true
+
+[[files]]
 file = "mods/bocchud.pw.toml"
 hash = "f042b494ab974ffb0ec9e9c13a673967b8c7a5817d3d84bd0bacae30e319d82d"
 metafile = true
@@ -16660,7 +16665,7 @@ metafile = true
 
 [[files]]
 file = "mods/every-compat.pw.toml"
-hash = "7fa6f95971f32f538dbc708fc68c47e32987043505c2e2fc3fb5098760c3c05a"
+hash = "42c4dee2e3cba7ed54156ffc89feafaf5c943ec708fef7906a38f1ff4c66b5de"
 metafile = true
 
 [[files]]
@@ -16865,27 +16870,27 @@ metafile = true
 
 [[files]]
 file = "mods/macaws-bridges.pw.toml"
-hash = "4195dfa42b864d68303452495bcf104ded11c86a530eec78a801760465f09976"
+hash = "35acacd4dfd3a1b1ea21bcb2f5708819163fe52fa39588b48e1d0a4df04eb42d"
 metafile = true
 
 [[files]]
 file = "mods/macaws-doors.pw.toml"
-hash = "445434ff31ef657367ec6963413efe325adedced713f33f66c8250e614a6c82c"
+hash = "2fed01dcea3b5c59b71ad0c609dab10d174e731c512490262be4762cc11c2720"
 metafile = true
 
 [[files]]
 file = "mods/macaws-fences-and-walls.pw.toml"
-hash = "b07e1da008beaebfa213c8339c2ed70dda16fbe7fc5e5388189528f13c25b136"
+hash = "89d3bc52885c647cf459d3d034b1c90d2b8971a3c2d3e75e72dc03073d97046b"
 metafile = true
 
 [[files]]
 file = "mods/macaws-furniture.pw.toml"
-hash = "beeb14e0276c24bb2d8f78accac844ec7e7e68f26f6547ec60b512f7c155bcb7"
+hash = "006fd27c59f9bf22d4db1968365ae43a0bdbd8d57dffd4c30663c4801fae347a"
 metafile = true
 
 [[files]]
 file = "mods/macaws-lights-and-lamps.pw.toml"
-hash = "8892fa2278fe5d7ad444a4a99d3c99eb66ef7ed67a39948ef6a5d49ff38d80ef"
+hash = "d8eb0239e867f00d44e9fea70ae6520f13bd600c5bae7ad366be6ca60dabfef0"
 metafile = true
 
 [[files]]
@@ -16895,12 +16900,12 @@ metafile = true
 
 [[files]]
 file = "mods/macaws-trapdoors.pw.toml"
-hash = "06106b21e1c3c6efdf59833fd58976af6f527ab5a31e9bf6f29417500c5a636e"
+hash = "517b8ffd5d9c01f3ddaeb326f8df064d7a657bae917b51f09deeca71ec454c01"
 metafile = true
 
 [[files]]
 file = "mods/macaws-windows.pw.toml"
-hash = "4c287b72da3f5f6b582307623a4fcc726f17cc34245fd4f963a3d9bd9ceb6908"
+hash = "ec71445dc3efb39711c4e2094f2cc7e6040a7e86766d6a6f9fe78bf5ac449bcf"
 metafile = true
 
 [[files]]
@@ -17285,7 +17290,7 @@ metafile = true
 
 [[files]]
 file = "mods/storage-drawers.pw.toml"
-hash = "e22686a15bc28dafa1cda29c7ae7260540814c51e7ac59d50d9471b75d0f2c2d"
+hash = "fa0c7d7aaf36cc733fc9840f6ac2c6cccc2a344bddd9055c40904f0b2b8b547a"
 metafile = true
 
 [[files]]
