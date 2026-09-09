@@ -432,6 +432,15 @@
           "icon": "the_vault:gui/abilities/mana_shield"
         }
       }
+    },
+    "Fangs": {
+      "x": 99,
+      "y": 265,
+      "specializationStyles": {
+        "Fangs_Base": {
+          "icon": "the_vault:gui/abilities/wall_of_fangs"
+        }
+      }
     }
   },
   "labels": [

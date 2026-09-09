@@ -4966,6 +4966,82 @@
         "manaCost",
         "adjustedDuration"
       ]
+    },
+    "Fangs_Base": {
+      "description": [
+        {
+          "text": "Summons a ring of Fangs in a ",
+          "color": "$text"
+        },
+        {
+          "text": "radius ",
+          "color": "$radius"
+        },
+        {
+          "text": "around you dealing damage plus a portion of your ",
+          "color": "$text"
+        },
+        {
+          "text": "Attack Damage",
+          "color": "$damage"
+        },
+        {
+          "text": ".\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "If a target is below a certain percentage of their ",
+          "color": "$text"
+        },
+        {
+          "text": "health",
+          "color": "green"
+        },
+        {
+          "text": ", they will be ",
+          "color": "$text"
+        },
+        {
+          "text": "executed ",
+          "color": "red"
+        },
+        {
+          "text": "and drop a  ",
+          "color": "$text"
+        },
+        {
+          "text": "Heart Fragment",
+          "color": "green"
+        },
+        {
+          "text": ".",
+          "color": "$text"
+        },
+        {
+          "text": "\n\nApplies On-Hit effects.",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n✴ Cast Ability",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "radius",
+        "damageMultiplier",
+        "baseDamage",
+        "executeThreshold",
+        "cooldown",
+        "manaCost"
+      ],
+      "next": [
+        "radius",
+        "damageMultiplier",
+        "baseDamage",
+        "executeThreshold",
+        "cooldown",
+        "manaCost"
+      ]
     }
   }
 }
