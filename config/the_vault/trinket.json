@@ -444,6 +444,21 @@
         "maximumMultiplier": 3.0,
         "curiosSlot": "blue_trinket"
       }
+    },
+    "the_vault:miners_hardhat": {
+      "weight": 10,
+      "name": "Miners Hard Hat",
+      "effectText": "Extra 50% Copiously",
+      "color": 16534066,
+      "minCraftedUses": 12,
+      "maxCraftedUses": 12,
+      "minUses": 20,
+      "maxUses": 30,
+      "config": {
+        "key": "the_vault:copiously",
+        "value": 0.5,
+        "curiosSlot": "red_trinket"
+      }
     }
   }
 }
