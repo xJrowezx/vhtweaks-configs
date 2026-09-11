@@ -17837,10 +17837,6 @@ file = "scripts/GodTags.zs"
 hash = "e6fead37549f1ead5e5dc2627576ee8f3c9078711a9e0fd3fc33744b22b8222e"
 
 [[files]]
-file = "scripts/Industrial.zs"
-hash = "bb1a6729198ff5272236e1813fba8267641315b11c11ba472c1fd2ee3a7dcef2"
-
-[[files]]
 file = "scripts/Macaw.zs"
 hash = "da0b9d10b85d3ef4fdef1a7ecf9f554f0a93b357b5f17f62d961ebcb7835fb87"
 
@@ -17883,10 +17879,6 @@ hash = "97cf6ceb4b27f371def0dbe6cc2a69cf5f3f83b95c2d65abe713d50ae8bc33b9"
 [[files]]
 file = "scripts/Snad.zs"
 hash = "f3bcdafa0f0f40636d82ac4c7f7b844a3e559c2afaa038efb10a6e861d0cbf3d"
-
-[[files]]
-file = "scripts/SophisticatedStorage.zs"
-hash = "18f0a8fea7ed031ca1e98b94d83319daa7af4ebbe85a3387a4938fc776bd24b4"
 
 [[files]]
 file = "scripts/Tags.zs"
