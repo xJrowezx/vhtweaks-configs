@@ -1330,11 +1330,11 @@ hash = "c73292a81a8409d74edb12b0bb9226bda03f39e11afc8abfe6bff52cc30ef480"
 
 [[files]]
 file = "config/the_vault/abilities.json"
-hash = "2794bb77fcc04f59fab46ee4e67a043ad66f3f64175bead0ca4e67c7d00ae052"
+hash = "c81072ad6ecf9630c8f5d52bb504ff39c2d8c94589a222a020a72b13f695285a"
 
 [[files]]
 file = "config/the_vault/abilities_descriptions.json"
-hash = "370c2f6330476d531500386dd972d8a19444f7a592ed4f152bc78946336eecff"
+hash = "2af4fda50649534725b69fed608346fcfeb8fe32678186a8f65a6ad2080f9450"
 
 [[files]]
 file = "config/the_vault/abilities_drill_dig_deny.json"
@@ -1346,7 +1346,7 @@ hash = "66510dd0ec7f322bdacf8b136b655ae4a9c99b6c7f47f9951ede9a09332c7697"
 
 [[files]]
 file = "config/the_vault/abilities_gui_styles.json"
-hash = "caaddeade898bc9ee320be7f421e84987911e3e8ebe4dbbe289814d198345a46"
+hash = "7515204f7faa859656f4fe725d116fd869e7be86c00978f451d5da161ff65f66"
 
 [[files]]
 file = "config/the_vault/abilities_vein_miner_deny.json"
@@ -17838,7 +17838,7 @@ hash = "e6fead37549f1ead5e5dc2627576ee8f3c9078711a9e0fd3fc33744b22b8222e"
 
 [[files]]
 file = "scripts/Industrial.zs"
-hash = "0ed9b7fe1043d987f38effb60f80a33c784748a15649bc0fbcc332d5059827ff"
+hash = "bb1a6729198ff5272236e1813fba8267641315b11c11ba472c1fd2ee3a7dcef2"
 
 [[files]]
 file = "scripts/Macaw.zs"
@@ -17886,7 +17886,7 @@ hash = "f3bcdafa0f0f40636d82ac4c7f7b844a3e559c2afaa038efb10a6e861d0cbf3d"
 
 [[files]]
 file = "scripts/SophisticatedStorage.zs"
-hash = "7bd077d0727781a3face4786e5f85a9a703038e243ce0d893bd3748c55a21736"
+hash = "18f0a8fea7ed031ca1e98b94d83319daa7af4ebbe85a3387a4938fc776bd24b4"
 
 [[files]]
 file = "scripts/Tags.zs"

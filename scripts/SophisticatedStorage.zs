@@ -1,5 +1,4 @@
-/* scripts made by Douwsky
-for Iskall85's Vaulthunters Remastered */
+/*Scripts made by Jrowez for my shit*/
 
 // adding recipes
 
