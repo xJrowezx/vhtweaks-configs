@@ -56,7 +56,7 @@
     "the_vault:chromatic_powder": {
       "weight": 10,
       "name": "Chromatic Powder",
-      "effectText": "Reduces vault gear durability damage with 50%",
+      "effectText": "Reduces vault gear durability damage with 35%",
       "color": 16534066,
       "minCraftedUses": 12,
       "maxCraftedUses": 12,
@@ -64,7 +64,7 @@
       "maxUses": 30,
       "config": {
         "key": "the_vault:durability_wear_reduction",
-        "value": 0.5,
+        "value": 0.35,
         "curiosSlot": "red_trinket"
       }
     },
@@ -230,7 +230,7 @@
     "the_vault:idonas_blade": {
       "weight": 10,
       "name": "Idona's Pendant",
-      "effectText": "Increases your Soul Quantity by 200% of your total Soul Quantity",
+      "effectText": "Increases your Soul Quantity by 100% of your total Soul Quantity",
       "color": 16534066,
       "minCraftedUses": 12,
       "maxCraftedUses": 12,
@@ -238,7 +238,7 @@
       "maxUses": 30,
       "config": {
         "key": "the_vault:soul_chance_percentile",
-        "value": 2,
+        "value": 1,
         "curiosSlot": "red_trinket"
       }
     },
@@ -276,7 +276,7 @@
     "the_vault:phylactery": {
       "weight": 10,
       "name": "Phylactery",
-      "effectText": "Increases your Mana Regeneration by 100% of your total Mana Regeneration",
+      "effectText": "Increases your Mana Regeneration by 50% of your total Mana Regeneration",
       "color": 16534066,
       "minCraftedUses": 12,
       "maxCraftedUses": 12,
@@ -287,7 +287,7 @@
         "modifier": {
           "id": "a58f4e10-01e8-4b49-80cb-8998f083ad97",
           "name": "attribute.name.generic.mana_regen",
-          "amount": 1.0,
+          "amount": 0.5,
           "operation": 2
         },
         "curiosSlot": "red_trinket"
@@ -445,6 +445,7 @@
         "curiosSlot": "blue_trinket"
       }
     },
+
     "the_vault:miners_hardhat": {
       "weight": 10,
       "name": "Miners Hard Hat",
@@ -457,6 +458,99 @@
       "config": {
         "key": "the_vault:copiously",
         "value": 0.5,
+        "curiosSlot": "red_trinket"
+      }
+    },
+    "the_vault:lucky_coins": {
+      "weight": 10,
+      "name": "Lucky Coins",
+      "effectText": "+20% Piggy Proc Chance",
+      "color": 3120128,
+      "minCraftedUses": 12,
+      "maxCraftedUses": 12,
+      "minUses": 20,
+      "maxUses": 30,
+      "config": {
+        "attribute": "the_vault:coin_double_chance",
+        "modifier": {
+          "id": "414da533-4911-4c9e-8a7c-ab52570447c4",
+          "name": "attribute.name.generic.coin_double_chance",
+          "amount": 1,
+          "operation": 2
+        },
+        "curiosSlot": "red_trinket"
+      }
+    },
+    "the_vault:running_shoes": {
+      "weight": 10,
+      "name": "Running Shoes",
+      "effectText": "+25% movement speed",
+      "color": 3304444,
+      "minCraftedUses": 12,
+      "maxCraftedUses": 12,
+      "minUses": 20,
+      "maxUses": 30,
+      "config": {
+        "attribute": "minecraft:generic.movement_speed",
+        "modifier": {
+          "id": "b3408bb8-db2c-4c6e-a7ca-7acc2a73f3fb",
+          "name": "attribute.name.generic.movement_speed",
+          "amount": 0.25,
+          "operation": 2
+        },
+        "curiosSlot": "red_trinket"
+      }
+    },
+    "the_vault:immortal_seal": {
+      "weight": 10,
+      "name": "Immortal Seal",
+      "effectText": "5% chance to gain Immortality for 5 seconds on hit",
+      "color": 16534066,
+      "minUses": 20,
+      "maxUses": 30,
+      "minCraftedUses": 12,
+      "maxCraftedUses": 12,
+      "config": {
+        "chance": 0.05,
+        "addedAmplifier": 1,
+        "duration": 100,
+        "effect": "the_vault:immortality",
+        "curiosSlot": "red_trinket"
+      }
+    },
+    "the_vault:vibrating_stone": {
+      "weight": 10,
+      "name": "Vibrating Stone",
+      "effectText": "Gives your attacks a 10% chance to echo, your echoed attacks do 25% more damage",
+      "color": 16534066,
+      "minCraftedUses": 12,
+      "maxCraftedUses": 12,
+      "minUses": 20,
+      "maxUses": 30,
+      "config": {
+        "keys": [
+          "the_vault:echoing_chance",
+          "the_vault:echoing_damage"
+        ],
+        "values": [
+          0.1,
+          0.25
+        ],
+        "curiosSlot": "red_trinket"
+      }
+    },
+    "the_vault:chromatic_diffuser": {
+      "weight": 10,
+      "name": "Chromatic Diffuser",
+      "effectText": "Adds an additional 10% chance to trigger Effect Clouds",
+      "color": 16534066,
+      "minCraftedUses": 12,
+      "maxCraftedUses": 12,
+      "minUses": 20,
+      "maxUses": 30,
+      "config": {
+        "key": "the_vault:effect_cloud_chance_additive",
+        "value": 0.1,
         "curiosSlot": "red_trinket"
       }
     }
