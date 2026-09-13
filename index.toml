@@ -13778,7 +13778,7 @@ hash = "f9af7a22d0058fd90ad1a1fc81b68ed7fbf14eec5329abcfe04927e2319a2bf5"
 
 [[files]]
 file = "config/the_vault/recipes/trinket_recipes.json"
-hash = "0bde37599028f60d92e255bd513dc0b516f0e349e3412cbdad5928403ccae8c7"
+hash = "1761833042ff09c1eae6ab59f0b2da62d35bbaa99c20f6dc8ec68b08fff6aedb"
 
 [[files]]
 file = "config/the_vault/recipes/void_stone_recipes.json"
@@ -13926,7 +13926,7 @@ hash = "c6cae2134c89e6c6561b00bcf5c6f1fe77fe34724b42594bec377025c8596370"
 
 [[files]]
 file = "config/the_vault/trinket.json"
-hash = "3775fbd144ae600d940cecfdf0bc5d1328b51f73dcbb58c4476238bdc2d448a4"
+hash = "332cf261e9b097b343dc8a09ac789853517f41d7036a4e42290b9bb764a561cb"
 
 [[files]]
 file = "config/the_vault/trinket_combinations.json"
@@ -16222,7 +16222,7 @@ hash = "b808581813c2fcb87858c1bd6b53c24e290cbbcec643c9084785d2b769c6d09b"
 
 [[files]]
 file = "mods/VHTweaks-0.23.2-all.jar"
-hash = "866acdfb66628a980a80a175d7ca8592078fba71172b816019bf8d32111003e5"
+hash = "68bd74fa14d1295e31a4494efb5493a09be1c8611e726bc0bf39a0cc612fa12d"
 
 [[files]]
 file = "mods/additional-lanterns.pw.toml"
