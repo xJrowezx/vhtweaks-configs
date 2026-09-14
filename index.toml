@@ -13926,7 +13926,7 @@ hash = "c6cae2134c89e6c6561b00bcf5c6f1fe77fe34724b42594bec377025c8596370"
 
 [[files]]
 file = "config/the_vault/trinket.json"
-hash = "332cf261e9b097b343dc8a09ac789853517f41d7036a4e42290b9bb764a561cb"
+hash = "50068625d086b64c6d2d26d620e692bfcbadc34eccbd156ae878706e249d61f8"
 
 [[files]]
 file = "config/the_vault/trinket_combinations.json"
@@ -16222,7 +16222,7 @@ hash = "b808581813c2fcb87858c1bd6b53c24e290cbbcec643c9084785d2b769c6d09b"
 
 [[files]]
 file = "mods/VHTweaks-0.23.2-all.jar"
-hash = "68bd74fa14d1295e31a4494efb5493a09be1c8611e726bc0bf39a0cc612fa12d"
+hash = "1276a27a383a6e512221d9fd2effe179028de8766b7fe60868f36adcd97785c9"
 
 [[files]]
 file = "mods/additional-lanterns.pw.toml"
