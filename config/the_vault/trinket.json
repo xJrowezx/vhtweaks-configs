@@ -465,19 +465,14 @@
       "weight": 10,
       "name": "Lucky Coins",
       "effectText": "+20% Piggy Proc Chance",
-      "color": 3120128,
+      "color": 16534066,
       "minCraftedUses": 12,
       "maxCraftedUses": 12,
       "minUses": 20,
       "maxUses": 30,
       "config": {
-        "attribute": "the_vault:coin_double_chance",
-        "modifier": {
-          "id": "414da533-4911-4c9e-8a7c-ab52570447c4",
-          "name": "attribute.name.generic.coin_double_chance",
-          "amount": 1,
-          "operation": 2
-        },
+        "key": "the_vault:coin_double_chance",
+        "value": 0.2,
         "curiosSlot": "red_trinket"
       }
     },
@@ -498,14 +493,14 @@
           "amount": 0.25,
           "operation": 2
         },
-        "curiosSlot": "red_trinket"
+        "curiosSlot": "blue_trinket"
       }
     },
     "the_vault:immortal_seal": {
       "weight": 10,
       "name": "Immortal Seal",
       "effectText": "5% chance to gain Immortality for 5 seconds on hit",
-      "color": 16534066,
+      "color": 3304444,
       "minUses": 20,
       "maxUses": 30,
       "minCraftedUses": 12,
@@ -515,7 +510,7 @@
         "addedAmplifier": 1,
         "duration": 100,
         "effect": "the_vault:immortality",
-        "curiosSlot": "red_trinket"
+        "curiosSlot": "blue_trinket"
       }
     },
     "the_vault:vibrating_stone": {
