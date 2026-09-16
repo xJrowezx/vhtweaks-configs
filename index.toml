@@ -1589,6 +1589,10 @@ file = "config/the_vault/crystal_cavern.json"
 hash = "f530e02c3eb0d1492786f2946f5984f8191afd7eac0f3d4c8a6a9f421e8dbffd"
 
 [[files]]
+file = "config/the_vault/crystal_trader.json"
+hash = "c83cee08a32b95372501c4273d12d60e61e1b166ed31dfafe28399ce2c705003"
+
+[[files]]
 file = "config/the_vault/curios_gui.json"
 hash = "13bf2d61ddffbd59eb0ee367a7c5e18808cffa842ff2a76ba83f7b261f4a22e8"
 
@@ -16222,7 +16226,7 @@ hash = "b808581813c2fcb87858c1bd6b53c24e290cbbcec643c9084785d2b769c6d09b"
 
 [[files]]
 file = "mods/VHTweaks-0.23.2-all.jar"
-hash = "2a8735ee61eab4f4d4df9041a4ac6684e3d6c4a453441624685b554fab7ef7db"
+hash = "2fc3e05869c114a68e4b068bd37c58dbd2a48e80e036ffb8387306b7ef248003"
 
 [[files]]
 file = "mods/additional-lanterns.pw.toml"
