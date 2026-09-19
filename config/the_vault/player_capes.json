@@ -1,0 +1,79 @@
+{
+  "capes": {
+    "twitch": {
+      "displayName": "Twitch Cape",
+      "texture": "the_vault:textures/entity/cape/twitch.png",
+      "description": "Granted to Twitch streamers."
+    },
+    "dev_cape": {
+      "displayName": "Developer Cape",
+      "texture": "the_vault:textures/entity/cape/devcape.png",
+      "description": "Granted to developers of VHTweaks."
+    },
+    "abyssal_prism_cape": {
+      "displayName": "Abyssal Prism Cape",
+      "texture": "the_vault:textures/entity/cape/abyssalprismcape.png",
+      "description": ""
+    },
+    "blue_waves_cape": {
+      "displayName": "Blue Waves Cape",
+      "texture": "the_vault:textures/entity/cape/bluewavescape.png",
+      "description": ""
+    },
+    "butterfly_cape": {
+      "displayName": "Butterfly Cape",
+      "texture": "the_vault:textures/entity/cape/butterflycape.png",
+      "description": ""
+    },
+    "chromatic_iron_cape": {
+      "displayName": "Chromatic Iron Cape",
+      "texture": "the_vault:textures/entity/cape/chromaticiron.png",
+      "description": ""
+    },
+    "cyan_magenta_cape": {
+      "displayName": "Cyan Magenta Cape",
+      "texture": "the_vault:textures/entity/cape/CyanMagentaCape.png",
+      "description": ""
+    },
+    "echo_cape": {
+      "displayName": "Echo Cape",
+      "texture": "the_vault:textures/entity/cape/echocape.png",
+      "description": ""
+    },
+    "millennium_cape": {
+      "displayName": "Millennium Cape",
+      "texture": "the_vault:textures/entity/cape/MillenniumCape.png",
+      "description": ""
+    },
+    "nebula_cape": {
+      "displayName": "Nebula Cape",
+      "texture": "the_vault:textures/entity/cape/nebulacape.png",
+      "description": ""
+    },
+    "phoenix_cape": {
+      "displayName": "Phoenix Cape",
+      "texture": "the_vault:textures/entity/cape/phoenixcape.png",
+      "description": ""
+    },
+    "pink_cape": {
+      "displayName": "Pink Cape",
+      "texture": "the_vault:textures/entity/cape/PinkCape.png",
+      "description": ""
+    },
+    "salmon_cape": {
+      "displayName": "Salmon Cape",
+      "texture": "the_vault:textures/entity/cape/salmoncape.png",
+      "description": ""
+    },
+    "strawberry_cheesecake_cape": {
+      "displayName": "Strawberry Cheesecake Cape",
+      "texture": "the_vault:textures/entity/cape/strawberrycheesecake.png",
+      "description": ""
+    },
+    "toasted_cape": {
+      "displayName": "Toasted Cape",
+      "texture": "the_vault:textures/entity/cape/ToastedCape.png",
+      "description": ""
+    }
+  }
+}
