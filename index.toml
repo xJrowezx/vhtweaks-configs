@@ -13710,7 +13710,7 @@ hash = "9153bdaf5e52812503b667492d4c2f98038ea42c3055fdcebfda4f2a61de1889"
 
 [[files]]
 file = "config/the_vault/player_capes.json"
-hash = "391890089aea67409463d0cb414feec09b8f67cf990a5727b1e303d54394a5db"
+hash = "ed08b802091ef9acba334fe0242b49d205f0f8160dcc72e78200978936ac22a9"
 
 [[files]]
 file = "config/the_vault/player_research_transfer.json"
@@ -16230,7 +16230,7 @@ hash = "b808581813c2fcb87858c1bd6b53c24e290cbbcec643c9084785d2b769c6d09b"
 
 [[files]]
 file = "mods/VHTweaks-0.23.2-all.jar"
-hash = "ea5b11100d2d3047fb54c8d7c78aa02acd5d2194254e6ad087a0ac83c23e663d"
+hash = "6bbaf371e03c45bc2346056598a9df671483d8844c9c649196ac06dcfcde6b6d"
 
 [[files]]
 file = "mods/additional-lanterns.pw.toml"

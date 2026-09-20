@@ -32,7 +32,7 @@
     },
     "cyan_magenta_cape": {
       "displayName": "Cyan Magenta Cape",
-      "texture": "the_vault:textures/entity/cape/CyanMagentaCape.png",
+      "texture": "the_vault:textures/entity/cape/cyan_magentacape.png",
       "description": ""
     },
     "echo_cape": {
@@ -42,7 +42,7 @@
     },
     "millennium_cape": {
       "displayName": "Millennium Cape",
-      "texture": "the_vault:textures/entity/cape/MillenniumCape.png",
+      "texture": "the_vault:textures/entity/cape/millenniumcape.png",
       "description": ""
     },
     "nebula_cape": {
@@ -57,7 +57,7 @@
     },
     "pink_cape": {
       "displayName": "Pink Cape",
-      "texture": "the_vault:textures/entity/cape/PinkCape.png",
+      "texture": "the_vault:textures/entity/cape/pinkcape.png",
       "description": ""
     },
     "salmon_cape": {
@@ -72,7 +72,7 @@
     },
     "toasted_cape": {
       "displayName": "Toasted Cape",
-      "texture": "the_vault:textures/entity/cape/ToastedCape.png",
+      "texture": "the_vault:textures/entity/cape/toastedcape.png",
       "description": ""
     }
   }
