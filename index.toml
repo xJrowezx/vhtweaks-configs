@@ -1690,7 +1690,7 @@ hash = "bef2907898f4fcb0edf9915208a25fd9a4a7c7b4ff173d7ad0515d14a3761f8b"
 
 [[files]]
 file = "config/the_vault/gear/gear_modification.json"
-hash = "c2ca9b60e2198f182cb572bc96ef2b28ac77ac96e833a0be2f4cd5864b59f17b"
+hash = "1700100bfdb5d5ddd271df914d5f17fc1a42372638541f216af6bcd1c285511b"
 
 [[files]]
 file = "config/the_vault/gear/gear_roll_type.json"
@@ -16230,7 +16230,7 @@ hash = "b808581813c2fcb87858c1bd6b53c24e290cbbcec643c9084785d2b769c6d09b"
 
 [[files]]
 file = "mods/VHTweaks-0.23.2-all.jar"
-hash = "6bbaf371e03c45bc2346056598a9df671483d8844c9c649196ac06dcfcde6b6d"
+hash = "119d54aeaf61c039b45d2205661be6009b0657d221ebe4cd50aecf5e6080d70c"
 
 [[files]]
 file = "mods/additional-lanterns.pw.toml"

@@ -92,6 +92,18 @@
       "potentialUseMax": 32,
       "baseCostMultiplier": 55.0,
       "negativePotentialCostMultiplier": 12.0
+    },
+    "the_vault:add_unusual_modifier": {
+      "potentialUseMin": 16,
+      "potentialUseMax": 24,
+      "baseCostMultiplier": 2.0,
+      "negativePotentialCostMultiplier": 1.0
+    },
+    "woldsvaults:unfreeze_all": {
+      "potentialUseMin": 2,
+      "potentialUseMax": 4,
+      "baseCostMultiplier": 1.0,
+      "negativePotentialCostMultiplier": 1.0
     }
   }
 }
