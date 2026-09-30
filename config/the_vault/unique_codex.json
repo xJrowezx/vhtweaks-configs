@@ -1,13 +1,43 @@
 {
   "introduction": {
     "index": {
+      "SWORD": [
+        "the_vault:iskallibur",
+        "the_vault:inflated_justice",
+        "the_vault:honey_stick",
+        "the_vault:crystal_blade",
+        "the_vault:everfrost",
+        "the_vault:everflame",
+        "the_vault:dragons_breath",
+        "the_vault:hexblade",
+        "the_vault:mineral_greatsword",
+        "the_vault:grass_blade",
+        "the_vault:aurora_scissors",
+        "the_vault:young_kitsune"
+
+      ],
+      "AXE": [
+        "the_vault:butcher_axe",
+        "the_vault:starforge",
+        "the_vault:leviathan",
+        "the_vault:zombie_horse_axe",
+        "the_vault:crystal_mace"
+      ],
+      "SHIELD": [
+        "the_vault:grim",
+        "the_vault:ivy",
+        "the_vault:pestilence_wall",
+        "the_vault:gladiator_buckler",
+        "the_vault:frostwarden",
+        "the_vault:broodmother"
+      ],
       "HEAD": [
         "the_vault:jester",
         "the_vault:warbound_helmet",
         "the_vault:stormcrown"
       ],
       "CHEST": [
-        "the_vault:castle",
+        "the_vault:castle_chestplate",
         "the_vault:crystalplate",
         "the_vault:frozen_throne",
         "the_vault:annmari",
@@ -19,47 +49,704 @@
       ],
       "FEET": [
         "the_vault:pacifist_sandals",
-        "the_vault:frostguards"
-      ],
-      "SWORD": [
-        "the_vault:iskallibur",
-        "the_vault:inflated_justice",
-        "the_vault:honey_stick"
-      ],
-      "AXE": [
-        "the_vault:butcher_axe",
-        "the_vault:starforge"
-      ],
-      "SHIELD": [
-        "the_vault:grim",
-        "the_vault:ivy",
-        "the_vault:pestilence_wall",
-        "the_vault:gladiator_buckler",
-        "the_vault:frostwarden",
-        "the_vault:broodmother"
+        "the_vault:frostguards",
+        "the_vault:plaguewalker"
       ],
       "FOCUS": [
         "the_vault:frozen_orb",
         "the_vault:ender_rings",
-        "the_vault:echoflare"
+        "the_vault:echoflare",
+        "the_vault:chroma_brew"
       ],
       "WAND": [
         "the_vault:baguette",
         "the_vault:chainlash",
-        "the_vault:inferno_reach"
+        "the_vault:inferno_reach",
+         "the_vault:pistol"
       ],
       "JEWEL": [
         "the_vault:kaleidoscope",
         "the_vault:manabloom",
         "the_vault:pax",
-        "the_vault:frozen_heart"
+        "the_vault:frozen_heart",
+        "the_vault:eternal_stella",
+        "the_vault:piggybank",
+        "the_vault:swiss_army",
+        "the_vault:breaching_jewel"
       ],
       "MAGNET": [
-        "the_vault:quickstone"
+        "the_vault:quickstone",
+        "the_vault:chonknet",
+        "the_vault:treasure_magnet",
+        "the_vault:bloodseeking_magnet",
+        "the_vault:ender_magnet"
       ]
     }
   },
   "pages": [
+    {
+      "title": {
+        "description": {
+          "text": "Iskallibur",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "Wielding ",
+            "color": "$text"
+          },
+          {
+            "text": "Iskallibur",
+            "color": "#7D520E"
+          },
+          {
+            "text": " makes you stronger while fighting.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nDrops in: ",
+            "color": "$text"
+          },
+          {
+            "text": "X-Mark Room",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:iskallibur"
+    },
+    {
+      "title": {
+        "description": {
+          "text": "Inflated Justice",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "Tired of the little ones? ",
+            "color": "$text"
+          },
+          {
+            "text": "Inflated Justice",
+            "color": "#7D520E"
+          },
+          {
+            "text": " will be your best friend with its area attacks and increased ",
+            "color": "$text"
+          },
+          {
+            "text": "toddler",
+            "color": "#7D520E"
+          },
+          {
+            "text": " damage.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nDrops in: ",
+            "color": "$text"
+          },
+          {
+            "text": "Raid Vaults",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:inflated_justice"
+    },
+    {
+      "title": {
+        "description": {
+          "text": "Honey Stick",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "Keep the mobs away from you with ease by ",
+            "color": "$text"
+          },
+          {
+            "text": "shocking",
+            "color": "$shocking"
+          },
+          {
+            "text": " them with most strikes.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nDrops in: ",
+            "color": "$text"
+          },
+          {
+            "text": "Villages",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:honey_stick"
+    },
+    {
+      "title": {
+        "description": {
+          "text": "Crystal Blade",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "Keep the mobs away from you with ease by ",
+            "color": "$text"
+          },
+          {
+            "text": "shocking",
+            "color": "$shocking"
+          },
+          {
+            "text": " them with most strikes.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nDrops in: ",
+            "color": "$text"
+          },
+          {
+            "text": "Villages",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:crystal_blade"
+    },
+    {
+      "title": {
+        "description": {
+          "text": "Everfrost",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "Embrace the power of ice and freeze your foes",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nDropped By: ",
+            "color": "$text"
+          },
+          {
+            "text": "Dragon Goblins",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:everfrost",
+      "isNewInUpdate": true
+    },
+    {
+      "title": {
+        "description": {
+          "text": "Everflame",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "Embrace the power of fire and scorch your enemies",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nDropped By: ",
+            "color": "$text"
+          },
+          {
+            "text": "Dragon Goblins",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:everflame",
+      "isNewInUpdate": true
+    },
+    {
+      "title": {
+        "description": {
+          "text": "Lava Chicken Sword",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "L-l-l-lava, ch-ch-ch-chicken, this lava chicken drumstick will burn the hell out of yourself and your enemies",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nDrops in: Survival",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:dragons_breath"
+    },
+    {
+      "title": {
+        "description": {
+          "text": "Hexblade",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "Hex, weaken, and curse your foes with this blade",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nFound in: ",
+            "color": "$text"
+          },
+          {
+            "text": "Laboratory Rooms",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:hexblade",
+      "isNewInUpdate": true
+    },
+    {
+      "title": {
+        "description": {
+          "text": "Mineral Greatsword",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "A heavy greatsword that will stun your foes",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nFound in: ",
+            "color": "$text"
+          },
+          {
+            "text": "Raid Rooms",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:mineral_greatsword",
+      "isNewInUpdate": true
+    },
+    {
+      "title": {
+        "description": {
+          "text": "Grass Sword",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "The thorniest,thinest, sharpest blade of grass you'll ever see",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nFound in: ",
+            "color": "$text"
+          },
+          {
+            "text": "Raid Rooms",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:grass_blade",
+      "isNewInUpdate": true
+    },
+    {
+      "title": {
+        "description": {
+          "text": "Aurora Scissors",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "Cut your foes down to size with magic",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nFound in: ",
+            "color": "$text"
+          },
+          {
+            "text": "X-Mark Rooms",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:aurora_scissors",
+      "isNewInUpdate": true
+    },
+    {
+      "title": {
+        "description": {
+          "text": "Young Kitsune",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "Execute your foes with this quick-striking blade",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nFound in: ",
+            "color": "$text"
+          },
+          {
+            "text": "Village Rooms",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:young_kitsune",
+      "isNewInUpdate": true
+    },
+
+    {
+      "title": {
+        "description": {
+          "text": "Butcher Axe",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "A heavy guardian axe that deals brutal blows and can occasionally heal its wielder on a killing strike",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nDrops in: ",
+            "color": "$text"
+          },
+          {
+            "text": "Villages",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:butcher_axe",
+      "isNewInUpdate": true
+    },
+    {
+      "title": {
+        "description": {
+          "text": "Starforge",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "An imbued axe that gathers arcane force with each strike, occasionally unleashing a powerful blast.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nDrops in: ",
+            "color": "$text"
+          },
+          {
+            "text": "Raid Vaults",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:starforge",
+      "isNewInUpdate": true
+    },
+    {
+      "title": {
+        "description": {
+          "text": "Leviathan",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "This monstorous axe can obliterate your foes in a single sweeping swing!",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nFound in: ",
+            "color": "$text"
+          },
+          {
+            "text": "Raid Rooms",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:leviathan",
+      "isNewInUpdate": true
+    },
+    {
+      "title": {
+        "description": {
+          "text": "Zombie Horse Axe",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "Unleash a powerful poison cloud at a breakneck pace with this spooky axe!",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nFound in: ",
+            "color": "$text"
+          },
+          {
+            "text": "Village Rooms",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:zombie_horse_axe",
+      "isNewInUpdate": true
+    },
+    {
+      "title": {
+        "description": {
+          "text": "Crystal Mace",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "Channel your inner Crystal Guardian",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nDropped by: ",
+            "color": "$text"
+          },
+          {
+            "text": "Crystal Guardians",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:crystal_mace",
+      "isNewInUpdate": true
+    },
+
+    {
+      "title": {
+        "description": {
+          "text": "Grim Shield",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "Scare the mobs away with this fearful shield of doom.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nDrops in: ",
+            "color": "$text"
+          },
+          {
+            "text": "Raid Vaults",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:grim"
+    },
+    {
+      "title": {
+        "description": {
+          "text": "Rosethorn Ivy",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "If ",
+            "color": "$text"
+          },
+          {
+            "text": "thorns",
+            "color": "$thornsDamage"
+          },
+          {
+            "text": " is your preferred way of killing, no shield does it better than ",
+            "color": "$text"
+          },
+          {
+            "text": "Rosethorn Ivy",
+            "color": "#7D520E"
+          },
+          {
+            "text": ".\n\nDrops in: ",
+            "color": "$text"
+          },
+          {
+            "text": "X-Mark Room",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:ivy"
+    },
+    {
+      "title": {
+        "description": {
+          "text": "Pestilence Wall",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "This uniquely composed shield turns your ",
+            "color": "$text"
+          },
+          {
+            "text": "Entropic Bind ",
+            "color": "#7D520E"
+          },
+          {
+            "text": "poisonous",
+            "color": "$poison"
+          },
+          {
+            "text": ".\n\nDrops in: ",
+            "color": "$text"
+          },
+          {
+            "text": "The Laboratory",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:pestilence_wall"
+    },
+    {
+      "title": {
+        "description": {
+          "text": "Gladiator Buckler",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "Become faster and more enraged by wielding this ",
+            "color": "$text"
+          },
+          {
+            "text": "fighter forged",
+            "color": "#7D520E"
+          },
+          {
+            "text": " buckler.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nDrops in: ",
+            "color": "$text"
+          },
+          {
+            "text": "Villages",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:gladiator_buckler"
+    },
+    {
+      "title": {
+        "description": {
+          "text": "Frostwarden",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "A chilling shield that occasionally ",
+            "color": "$text"
+          },
+          {
+            "text": "freezes ",
+            "color": "$text"
+          },
+          {
+            "text": "attackers when blocking their strikes.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nDrops in: ",
+            "color": "$text"
+          },
+          {
+            "text": "Memory Room",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:frostwarden",
+      "isNewInUpdate": true
+    },
+    {
+      "title": {
+        "description": {
+          "text": "Broodmother",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "A shield that can create webs to trap enemies and slow them down.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nDrops in: ",
+            "color": "$text"
+          },
+          {
+            "text": "Memory Room",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:broodmother"
+    },
+
     {
       "title": {
         "description": {
@@ -233,7 +920,7 @@
           }
         ]
       },
-      "uniqueId": "the_vault:castle"
+      "uniqueId": "the_vault:castle_chestplate"
     },
     {
       "title": {
@@ -429,355 +1116,33 @@
       },
       "uniqueId": "the_vault:frostguards"
     },
-
     {
       "title": {
         "description": {
-          "text": "Iskallibur",
+          "text": "Plaguewalker",
           "color": "#7D520E"
         }
       },
       "description": {
         "description": [
           {
-            "text": "Wielding ",
+            "text": "Plaguewalkers offers a unique feature by leaving a trail of poison whereever you walk.",
             "color": "$text"
           },
           {
-            "text": "Iskallibur",
-            "color": "#7D520E"
-          },
-          {
-            "text": " makes you stronger while fighting.",
+            "text": "\n\nFound in: ",
             "color": "$text"
           },
           {
-            "text": "\n\nDrops in: ",
-            "color": "$text"
-          },
-          {
-            "text": "X-Mark Room",
+            "text": "Factories",
             "color": "#7D520E"
           }
         ]
       },
-      "uniqueId": "the_vault:iskallibur"
-    },
-    {
-      "title": {
-        "description": {
-          "text": "Inflated Justice",
-          "color": "#7D520E"
-        }
-      },
-      "description": {
-        "description": [
-          {
-            "text": "Tired of the little ones? ",
-            "color": "$text"
-          },
-          {
-            "text": "Inflated Justice",
-            "color": "#7D520E"
-          },
-          {
-            "text": " will be your best friend with its area attacks and increased ",
-            "color": "$text"
-          },
-          {
-            "text": "toddler",
-            "color": "#7D520E"
-          },
-          {
-            "text": " damage.",
-            "color": "$text"
-          },
-          {
-            "text": "\n\nDrops in: ",
-            "color": "$text"
-          },
-          {
-            "text": "Raid Vaults",
-            "color": "#7D520E"
-          }
-        ]
-      },
-      "uniqueId": "the_vault:inflated_justice"
-    },
-    {
-      "title": {
-        "description": {
-          "text": "Honey Stick",
-          "color": "#7D520E"
-        }
-      },
-      "description": {
-        "description": [
-          {
-            "text": "Keep the mobs away from you with ease by ",
-            "color": "$text"
-          },
-          {
-            "text": "shocking",
-            "color": "$shocking"
-          },
-          {
-            "text": " them with most strikes.",
-            "color": "$text"
-          },
-          {
-            "text": "\n\nDrops in: ",
-            "color": "$text"
-          },
-          {
-            "text": "Villages",
-            "color": "#7D520E"
-          }
-        ]
-      },
-      "uniqueId": "the_vault:honey_stick"
-    },
-
-    {
-      "title": {
-        "description": {
-          "text": "Butcher Axe",
-          "color": "#7D520E"
-        }
-      },
-      "description": {
-        "description": [
-          {
-            "text": "A heavy guardian axe that deals brutal blows and can occasionally heal its wielder on a killing strike",
-            "color": "$text"
-          },
-          {
-            "text": "\n\nDrops in: ",
-            "color": "$text"
-          },
-          {
-            "text": "Villages",
-            "color": "#7D520E"
-          }
-        ]
-      },
-      "uniqueId": "the_vault:butcher_axe",
-      "isNewInUpdate": true
-    },
-    {
-      "title": {
-        "description": {
-          "text": "Starforge",
-          "color": "#7D520E"
-        }
-      },
-      "description": {
-        "description": [
-          {
-            "text": "An imbued axe that gathers arcane force with each strike, occasionally unleashing a powerful blast.",
-            "color": "$text"
-          },
-          {
-            "text": "\n\nDrops in: ",
-            "color": "$text"
-          },
-          {
-            "text": "Raid Vaults",
-            "color": "#7D520E"
-          }
-        ]
-      },
-      "uniqueId": "the_vault:starforge",
+      "uniqueId": "the_vault:plaguewalker",
       "isNewInUpdate": true
     },
 
-    {
-      "title": {
-        "description": {
-          "text": "Grim Shield",
-          "color": "#7D520E"
-        }
-      },
-      "description": {
-        "description": [
-          {
-            "text": "Scare the mobs away with this fearful shield of doom.",
-            "color": "$text"
-          },
-          {
-            "text": "\n\nDrops in: ",
-            "color": "$text"
-          },
-          {
-            "text": "Raid Vaults",
-            "color": "#7D520E"
-          }
-        ]
-      },
-      "uniqueId": "the_vault:grim"
-    },
-    {
-      "title": {
-        "description": {
-          "text": "Rosethorn Ivy",
-          "color": "#7D520E"
-        }
-      },
-      "description": {
-        "description": [
-          {
-            "text": "If ",
-            "color": "$text"
-          },
-          {
-            "text": "thorns",
-            "color": "$thornsDamage"
-          },
-          {
-            "text": " is your preferred way of killing, no shield does it better than ",
-            "color": "$text"
-          },
-          {
-            "text": "Rosethorn Ivy",
-            "color": "#7D520E"
-          },
-          {
-            "text": ".\n\nDrops in: ",
-            "color": "$text"
-          },
-          {
-            "text": "X-Mark Room",
-            "color": "#7D520E"
-          }
-        ]
-      },
-      "uniqueId": "the_vault:ivy"
-    },
-    {
-      "title": {
-        "description": {
-          "text": "Pestilence Wall",
-          "color": "#7D520E"
-        }
-      },
-      "description": {
-        "description": [
-          {
-            "text": "This uniquely composed shield turns your ",
-            "color": "$text"
-          },
-          {
-            "text": "Entropic Bind ",
-            "color": "#7D520E"
-          },
-          {
-            "text": "poisonous",
-            "color": "$poison"
-          },
-          {
-            "text": ".\n\nDrops in: ",
-            "color": "$text"
-          },
-          {
-            "text": "The Laboratory",
-            "color": "#7D520E"
-          }
-        ]
-      },
-      "uniqueId": "the_vault:pestilence_wall"
-    },
-    {
-      "title": {
-        "description": {
-          "text": "Gladiator Buckler",
-          "color": "#7D520E"
-        }
-      },
-      "description": {
-        "description": [
-          {
-            "text": "Become faster and more enraged by wielding this ",
-            "color": "$text"
-          },
-          {
-            "text": "fighter forged",
-            "color": "#7D520E"
-          },
-          {
-            "text": " buckler.",
-            "color": "$text"
-          },
-          {
-            "text": "\n\nDrops in: ",
-            "color": "$text"
-          },
-          {
-            "text": "Villages",
-            "color": "#7D520E"
-          }
-        ]
-      },
-      "uniqueId": "the_vault:gladiator_buckler"
-    },
-    {
-      "title": {
-        "description": {
-          "text": "Frostwarden",
-          "color": "#7D520E"
-        }
-      },
-      "description": {
-        "description": [
-          {
-            "text": "A chilling shield that occasionally ",
-            "color": "$text"
-          },
-          {
-            "text": "freezes ",
-            "color": "$text"
-          },
-          {
-            "text": "attackers when blocking their strikes.",
-            "color": "$text"
-          },
-          {
-            "text": "\n\nDrops in: ",
-            "color": "$text"
-          },
-          {
-            "text": "Memory Room",
-            "color": "#7D520E"
-          }
-        ]
-      },
-      "uniqueId": "the_vault:frostwarden",
-      "isNewInUpdate": true
-    },
-    {
-      "title": {
-        "description": {
-          "text": "Broodmother",
-          "color": "#7D520E"
-        }
-      },
-      "description": {
-        "description": [
-          {
-            "text": "A shield that can create webs to trap enemies and slow them down.",
-            "color": "$text"
-          },
-          {
-            "text": "\n\nDrops in: ",
-            "color": "$text"
-          },
-          {
-            "text": "Memory Room",
-            "color": "#7D520E"
-          }
-        ]
-      },
-      "uniqueId": "the_vault:broodmother"
-    },
     {
       "title": {
         "description": {
@@ -885,6 +1250,32 @@
       },
       "uniqueId": "the_vault:baguette"
     },
+    {
+      "title": {
+        "description": {
+          "text": "IB-94 Blaster Pistol",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "A heavily modified blaster pistol that outputs high amounts of AP.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nDropped by: ",
+            "color": "$text"
+          },
+          {
+            "text": "?????",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:pistol",
+      "isNewInUpdate": true
+    },
 
     {
       "title": {
@@ -974,6 +1365,27 @@
       },
       "uniqueId": "the_vault:echoflare",
       "isNewInUpdate": true
+    },
+    {
+      "title": {
+        "description": {
+          "text": "Chroma Brew",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "A nasty brew of chemicals to boost you and inflict upon your foes!",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nDrops in: Laboratory",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:chroma_brew"
     },
 
     {
@@ -1101,7 +1513,103 @@
       "uniqueId": "the_vault:frozen_heart",
       "isNewInUpdate": true
     },
-
+    {
+      "title": {
+        "description": {
+          "text": "The Piggybank",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "A jewel with a lust for coins. This jewel gives a chance to double the coins obtained when mining coins.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nFound in: ",
+            "color": "$text"
+          },
+          {
+            "text": "Coves",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:piggybank",
+      "isNewInUpdate": true
+    },
+    {
+      "title": {
+        "description": {
+          "text": "Swiss Army",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "A jack of all trades and master of all. This ",
+            "color": "$text"
+          },
+          {
+            "text": "jewel ",
+            "color": "#7D520E"
+          },
+          {
+            "text": "allows for the ultimate block breaking tool.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nFound in: ",
+            "color": "$text"
+          },
+          {
+            "text": "Factory Rooms",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:swiss_army",
+      "isNewInUpdate": true
+    },
+    {
+      "title": {
+        "description": {
+          "text": "Breaching Jewel",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "The ",
+            "color": "$text"
+          },
+          {
+            "text": "Breaching Jewel",
+            "color": "#7D520E"
+          },
+          {
+            "text": " grants the ",
+            "color": "$text"
+          },
+          {
+            "text": "Breaching",
+            "color": "#7D520E"
+          },
+          {
+            "text": " modifier, letting compatible tools break vault chests more decisively.\n\nFound in: ",
+            "color": "$text"
+          },
+          {
+            "text": "Not yet obtainable",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:breaching_jewel"
+    },
 
     {
       "title": {
@@ -1127,6 +1635,333 @@
         ]
       },
       "uniqueId": "the_vault:quickstone",
+      "isNewInUpdate": true
+    },
+    {
+      "title": {
+        "description": {
+          "text": "Chonknet",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "Feel healthy and chonky in no time with the aid of the lovely magnet.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nFound in: ",
+            "color": "$text"
+          },
+          {
+            "text": "Factory Rooms",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:chonknet",
+      "isNewInUpdate": true
+    },
+    {
+      "title": {
+        "description": {
+          "text": "Treasure Magnet",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "Like to live dangerously? Boost your loot to the next level with this shiny treasure hunting magnet.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nFound in: ",
+            "color": "$text"
+          },
+          {
+            "text": "Treasure Rooms",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:treasure_magnet",
+      "isNewInUpdate": true
+    },
+    {
+      "title": {
+        "description": {
+          "text": "Bloodfetcher",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "Tired of your magnet just bringing in items? Fetch the blood of your enemies with this sharp magnet!",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nFound in: ",
+            "color": "$text"
+          },
+          {
+            "text": "Memory Rooms",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:bloodseeking_magnet",
+      "isNewInUpdate": true
+    },
+    {
+      "title": {
+        "description": {
+          "text": "Cake Magnet",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "Functions like an Ender Anchor, boosts your Movement Speed, and ensures any chests you loot within its range are claimed as yours",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nFound in: ",
+            "color": "$text"
+          },
+          {
+            "text": "???????",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:ender_magnet",
+      "isNewInUpdate": true
+    },
+
+    {
+      "title": {
+        "description": {
+          "text": "Ninja Baton",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "The weapon of the ancient vault ninjas that has some interesting properties when it encounters enemies.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nFound in: ",
+            "color": "$text"
+          },
+          {
+            "text": "Village Rooms",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:ninja_baton",
+      "isNewInUpdate": true
+    },
+    {
+      "title": {
+        "description": {
+          "text": "Bamboo Fightstick",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "An special stick of bamboo that has been augmented with some crazy modifications!",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nFound in: ",
+            "color": "$text"
+          },
+          {
+            "text": "Laboratory Rooms",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:bamboo_fightstick",
+      "isNewInUpdate": true
+    },
+
+    {
+      "title": {
+        "description": {
+          "text": "Mjolnir",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "Yield this version of Thor's hammer since you are not worthy to yield the original.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nDropped by: ",
+            "color": "$text"
+          },
+          {
+            "text": "Treasure Goblins",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:mjolnir",
+      "isNewInUpdate": true
+    },
+    {
+      "title": {
+        "description": {
+          "text": "Marlin",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "Ever looked at a marlin and wanted to throw it? No? Well oh well, now you can.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nFound in: ",
+            "color": "$text"
+          },
+          {
+            "text": "Coves",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:marlin",
+      "isNewInUpdate": true
+    },
+
+    {
+      "title": {
+        "description": {
+          "text": "Safer Spaces",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "An enchanted plushie that has some protective properties.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nFound in: ",
+            "color": "$text"
+          },
+          {
+            "text": "Memory Rooms",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:safer_spaces",
+      "isNewInUpdate": true
+    },
+    {
+      "title": {
+        "description": {
+          "text": "Pocket Penguin",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "What an aggressive little penguin!",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nDrops in: Laboratory",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:pocket_penguin"
+    },
+
+    {
+      "title": {
+        "description": {
+          "text": "The Wicked Witch",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "This funky Plushie gives you much greater ",
+            "color": "$text"
+          },
+          {
+            "text": "Effect Duration ",
+            "color": "$duration"
+          },
+          {
+            "text": "and ",
+            "color": "$text"
+          },
+          {
+            "text": "Effect Avoidance ",
+            "color": "$ethereal"
+          },
+          {
+            "text": "with the downside of lowering your ",
+            "color": "$text"
+          },
+          {
+            "text": "Cooldown Reduction",
+            "color": "$cooldown"
+          },
+          {
+            "text": "\n\nDrops in: Laboratory",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:wicked_witch"
+    },
+
+    {
+      "title": {
+        "description": {
+          "text": "Tri-Rang",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "This vaultarang is a real believer that everything is better in 3's",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nFound in: ",
+            "color": "$text"
+          },
+          {
+            "text": "???",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:trirang",
       "isNewInUpdate": true
     }
   ]
