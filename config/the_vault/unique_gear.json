@@ -1488,20 +1488,24 @@
     "the_vault:kaleidoscope": {
       "name": "Kaleidoscope",
       "item": "the_vault:jewel",
+      "models": [
+        {
+          "value": "the_vault:gear/jewel/kaleidoscope",
+          "weight": 1
+        }
+      ],
       "modifierIdentifiers": {
         "IMPLICIT": [
-          "the_vault:unique_jewel_size"
+          "the_vault:u_jewel_size"
         ],
         "PREFIX": [
           "the_vault:u_wooden_affinity",
+          "the_vault:u_coin_affinity",
           "the_vault:u_gilded_affinity",
           "the_vault:u_ornate_affinity",
-          "the_vault:u_living_affinity",
-          "the_vault:u_coin_affinity"
-
+          "the_vault:u_living_affinity"
         ],
-        "SUFFIX": [
-        ]
+        "SUFFIX": []
       },
       "modifierTags": [],
       "lore": "Shifting endlessly like stained glass, it bends to every vault, holding a spark of every affinity. Its brilliance is vast, yet its space is fleeting.",
