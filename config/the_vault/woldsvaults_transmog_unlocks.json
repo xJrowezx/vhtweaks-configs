@@ -10,6 +10,19 @@
     "8561dac7-e879-4d98-a92f-c379614eaa4e": [
       "the_vault:gear/armor/hokage_robes",
       "the_vault:gear/armor/hokage_robes_maskless"
+    ],
+    "ddabc9c6-0995-46fd-94f3-0d284d46fef3": [
+      "the_vault:gear/armor/dylans_suit",
+      "the_vault:gear/sword/dylans_blade",
+      "the_vault:gear/axe/dylans_cleaver",
+      "the_vault:gear/wand/dylans_magic_stick",
+      "the_vault:gear/focus/dylans_book",
+      "the_vault:gear/armor/developerset",
+      "the_vault:gear/shield/developer_shield",
+      "the_vault:gear/axe/developer_ducky",
+      "the_vault:gear/wand/backscratcher",
+      "the_vault:gear/focus/javamug",
+      "the_vault:gear/armor/pink_developer"
     ]
   }
 }
