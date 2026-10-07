@@ -1690,7 +1690,7 @@ hash = "bef2907898f4fcb0edf9915208a25fd9a4a7c7b4ff173d7ad0515d14a3761f8b"
 
 [[files]]
 file = "config/the_vault/gear/gear_modification.json"
-hash = "1700100bfdb5d5ddd271df914d5f17fc1a42372638541f216af6bcd1c285511b"
+hash = "8300935c3db222f70f5ae91e6bc1e516356049c23f7718840e1794a894c3866c"
 
 [[files]]
 file = "config/the_vault/gear/gear_roll_type.json"
@@ -13862,7 +13862,7 @@ hash = "9c4bfce4394d20d6ff58d706fb4ae4bbcc00cc4d3a888a8521facfe5d6a5d2a9"
 
 [[files]]
 file = "config/the_vault/skill_descriptions.json"
-hash = "da06907632c6cd9d6d437126db0cef7c0124f2b020de9c5d117b624606d695b0"
+hash = "426379ae24ea9e346505aeb7f17eead154c4d6299f50eb0d52169cdaf1ebfda1"
 
 [[files]]
 file = "config/the_vault/skill_gates.json"
@@ -13890,11 +13890,11 @@ hash = "0ab5a4de706f95212c1d273851e23245b2dcb4c1e63e808bc5335a22579ab04a"
 
 [[files]]
 file = "config/the_vault/talents.json"
-hash = "f98739f5003dd47003169ab390b0435ff04f8462ff6ec51a0f5ebca2e0defcf4"
+hash = "5806e30f6bf5d16a96eac2f2b86a84379f562c10d5713f464d14515186006353"
 
 [[files]]
 file = "config/the_vault/talents_gui_styles.json"
-hash = "97a8a0dedb8a6f1f28b5ea81b2b6ead14d1c8f45353080863f166a93b2677c38"
+hash = "f1eb157464c506618eecaf82f9a5ef913a9edb719eee511cc82a0e643a569dd1"
 
 [[files]]
 file = "config/the_vault/team_tasks.json"
@@ -16230,7 +16230,7 @@ hash = "b808581813c2fcb87858c1bd6b53c24e290cbbcec643c9084785d2b769c6d09b"
 
 [[files]]
 file = "mods/VHTweaks-0.23.2-all.jar"
-hash = "0b8e83251bfdda36b4f2dbbd07daa34214061e2a1c866a32d2698d2dfa371bfa"
+hash = "1c94310a12d37ee7312c81803d6dc23a19b4c11bce5f46f68e2789de4d412fa8"
 
 [[files]]
 file = "mods/additional-lanterns.pw.toml"
