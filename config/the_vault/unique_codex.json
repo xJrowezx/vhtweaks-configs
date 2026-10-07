@@ -201,15 +201,15 @@
       "description": {
         "description": [
           {
-            "text": "Keep the mobs away from you with ease by ",
+            "text": "Carved from singing crystal, this blade hums with every swing. At times it rings in perfect resonance, and the ",
             "color": "$text"
           },
           {
-            "text": "shocking",
+            "text": "echo ",
             "color": "$shocking"
           },
           {
-            "text": " them with most strikes.",
+            "text": "strikes again where the first blow landed.",
             "color": "$text"
           },
           {
@@ -234,7 +234,7 @@
       "description": {
         "description": [
           {
-            "text": "Embrace the power of ice and freeze your foes",
+            "text": "This blade freezes all it touches. Foes caught in its chill stand helpless, and those locked in ice rarely survive the next blow...They shatter",
             "color": "$text"
           },
           {
@@ -260,7 +260,7 @@
       "description": {
         "description": [
           {
-            "text": "Embrace the power of fire and scorch your enemies",
+            "text": "Born of a fire that has never dimmed, this blade burns hotter than any forge. When its flame is called upon, it sometimes answers twice",
             "color": "$text"
           },
           {
@@ -279,18 +279,22 @@
     {
       "title": {
         "description": {
-          "text": "Lava Chicken Sword",
+          "text": "Dragon's Breath",
           "color": "#7D520E"
         }
       },
       "description": {
         "description": [
           {
-            "text": "L-l-l-lava, ch-ch-ch-chicken, this lava chicken drumstick will burn the hell out of yourself and your enemies",
+            "text": "Tempered in a wyrm's fire, this blade spreads flame to all nearby and grants its wielder a spark of the dragon's might",
             "color": "$text"
           },
           {
-            "text": "\n\nDrops in: Survival",
+            "text": "\n\nFound in: ",
+            "color": "$text"
+          },
+          {
+            "text": "Dragon Rooms",
             "color": "#7D520E"
           }
         ]
@@ -307,7 +311,7 @@
       "description": {
         "description": [
           {
-            "text": "Hex, weaken, and curse your foes with this blade",
+            "text": "Etched with ancient curses, this blade leaves a hex that slowly drains its victims. The cut heals. The curse does not",
             "color": "$text"
           },
           {
@@ -333,7 +337,7 @@
       "description": {
         "description": [
           {
-            "text": "A heavy greatsword that will stun your foes",
+            "text": "Hewn from the mountain itself, this blade stuns all it strikes. At times its weight shakes the ground beneath every foe nearby",
             "color": "$text"
           },
           {
@@ -352,22 +356,22 @@
     {
       "title": {
         "description": {
-          "text": "Grass Sword",
+          "text": "Grass Blade",
           "color": "#7D520E"
         }
       },
       "description": {
         "description": [
           {
-            "text": "The thorniest,thinest, sharpest blade of grass you'll ever see",
+            "text": "Grown, not forged, this living blade draws strength from its wielder's thorns. What protects you also cuts for you",
             "color": "$text"
           },
           {
-            "text": "\n\nFound in: ",
+            "text": "\n\nDropped by: ",
             "color": "$text"
           },
           {
-            "text": "Raid Rooms",
+            "text": "Swamp Zombies",
             "color": "#7D520E"
           }
         ]
@@ -385,7 +389,7 @@
       "description": {
         "description": [
           {
-            "text": "Cut your foes down to size with magic",
+            "text": "Woven from dawn light, these shears turn magic into a cutting edge. The greater the wielder's power, the deeper they bite",
             "color": "$text"
           },
           {
@@ -411,15 +415,15 @@
       "description": {
         "description": [
           {
-            "text": "Execute your foes with this quick-striking blade",
+            "text": "Slender as a fox's tail and just as cunning, this blade senses weakness. The closer a foe is to falling, the deeper it cuts",
             "color": "$text"
           },
           {
-            "text": "\n\nFound in: ",
+            "text": "\n\nDropped by: ",
             "color": "$text"
           },
           {
-            "text": "Village Rooms",
+            "text": "Dungeon Bosses",
             "color": "#7D520E"
           }
         ]
@@ -442,11 +446,11 @@
             "color": "$text"
           },
           {
-            "text": "\n\nDrops in: ",
+            "text": "\n\nDrops by: ",
             "color": "$text"
           },
           {
-            "text": "Villages",
+            "text": "Butcher Guardians",
             "color": "#7D520E"
           }
         ]
@@ -494,11 +498,11 @@
             "color": "$text"
           },
           {
-            "text": "\n\nFound in: ",
+            "text": "\n\nDropped by: ",
             "color": "$text"
           },
           {
-            "text": "Raid Rooms",
+            "text": "Treasure Goblins",
             "color": "#7D520E"
           }
         ]
@@ -735,11 +739,11 @@
             "color": "$text"
           },
           {
-            "text": "\n\nDrops in: ",
+            "text": "\n\nDropped by: ",
             "color": "$text"
           },
           {
-            "text": "Memory Room",
+            "text": "Black Widows",
             "color": "#7D520E"
           }
         ]
@@ -1105,11 +1109,11 @@
             "color": "$text"
           },
           {
-            "text": "\n\nDrops in: ",
+            "text": "\n\nFound in: ",
             "color": "$text"
           },
           {
-            "text": "The Factory",
+            "text": "Factory Rooms",
             "color": "#7D520E"
           }
         ]
@@ -1134,7 +1138,7 @@
             "color": "$text"
           },
           {
-            "text": "Factories",
+            "text": "Factory Rooms",
             "color": "#7D520E"
           }
         ]
@@ -1268,7 +1272,7 @@
             "color": "$text"
           },
           {
-            "text": "?????",
+            "text": "Treasure Goblins",
             "color": "#7D520E"
           }
         ]
@@ -1410,11 +1414,11 @@
             "color": "$text"
           },
           {
-            "text": "\n\nDrops in: ",
+            "text": "\n\nDrops from: ",
             "color": "$text"
           },
           {
-            "text": "The Laboratory",
+            "text": "Vault Ores",
             "color": "#7D520E"
           }
         ]
@@ -1443,11 +1447,11 @@
             "color": "$text"
           },
           {
-            "text": "\n\nDrops in: ",
+            "text": "\n\nDrops from: ",
             "color": "$text"
           },
           {
-            "text": "X-Mark Room",
+            "text": "Vault Ores",
             "color": "#7D520E"
           }
         ]
@@ -1476,11 +1480,11 @@
             "color": "$text"
           },
           {
-            "text": "\n\nDrops in: ",
+            "text": "\n\nDrops from: ",
             "color": "$text"
           },
           {
-            "text": "The Factory",
+            "text": "Vault Ores",
             "color": "#7D520E"
           }
         ]
@@ -1505,7 +1509,7 @@
             "color": "$text"
           },
           {
-            "text": "Goblins",
+            "text": "Vault Ores",
             "color": "#7D520E"
           }
         ]
@@ -1561,11 +1565,11 @@
             "color": "$text"
           },
           {
-            "text": "\n\nFound in: ",
+            "text": "\n\nDrops from: ",
             "color": "$text"
           },
           {
-            "text": "Factory Rooms",
+            "text": "Vault Ores",
             "color": "#7D520E"
           }
         ]
@@ -1603,12 +1607,12 @@
             "color": "$text"
           },
           {
-            "text": "Not yet obtainable",
+            "text": "",
             "color": "#7D520E"
           }
         ]
       },
-      "uniqueId": "the_vault:breaching_jewel"
+      "uniqueId": "the_vault:shattering_jewel"
     },
 
     {
@@ -1888,7 +1892,11 @@
             "color": "$text"
           },
           {
-            "text": "\n\nDrops in: Laboratory",
+            "text": "\n\nFound in: ",
+            "color": "$text"
+          },
+          {
+            "text": "Memory Rooms",
             "color": "#7D520E"
           }
         ]
@@ -1930,7 +1938,11 @@
             "color": "$cooldown"
           },
           {
-            "text": "\n\nDrops in: Laboratory",
+            "text": "\n\nDropped by: ",
+            "color": "$text"
+          },
+          {
+            "text": "Dungeon Witches",
             "color": "#7D520E"
           }
         ]
@@ -1952,11 +1964,11 @@
             "color": "$text"
           },
           {
-            "text": "\n\nFound in: ",
+            "text": "\n\nDropped by: ",
             "color": "$text"
           },
           {
-            "text": "???",
+            "text": "Treasure Goblins",
             "color": "#7D520E"
           }
         ]

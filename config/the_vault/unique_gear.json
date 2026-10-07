@@ -32,6 +32,7 @@
         ]
       },
       "modifierTags": [],
+      "lore": "One swing...two wounds...they never hear it coming twice.",
       "weight": 1
     },
     "the_vault:honey_stick": {
@@ -63,6 +64,7 @@
         ]
       },
       "modifierTags": [],
+      "lore": "One swing...two wounds...they never hear it coming twice.",
       "weight": 1
     },
     "the_vault:inflated_justice": {
@@ -171,6 +173,7 @@
         ]
       },
       "modifierTags": [],
+      "lore": "One swing...two wounds...they never hear it coming twice.",
       "weight": 1
     },
     "the_vault:everflame": {
@@ -202,6 +205,7 @@
         ]
       },
       "modifierTags": [],
+      "lore": "One swing...two wounds...they never hear it coming twice.",
       "weight": 1
     },
     "the_vault:dragons_breath": {
@@ -1496,16 +1500,18 @@
       ],
       "modifierIdentifiers": {
         "IMPLICIT": [
-          "the_vault:u_jewel_size"
+          "the_vault:unique_jewel_size"
         ],
         "PREFIX": [
           "the_vault:u_wooden_affinity",
-          "the_vault:u_coin_affinity",
           "the_vault:u_gilded_affinity",
           "the_vault:u_ornate_affinity",
-          "the_vault:u_living_affinity"
+          "the_vault:u_living_affinity",
+          "the_vault:u_coin_affinity"
+
         ],
-        "SUFFIX": []
+        "SUFFIX": [
+        ]
       },
       "modifierTags": [],
       "lore": "Shifting endlessly like stained glass, it bends to every vault, holding a spark of every affinity. Its brilliance is vast, yet its space is fleeting.",
@@ -1514,6 +1520,12 @@
     "the_vault:manabloom": {
       "name": "Manabloom",
       "item": "the_vault:jewel",
+      "models": [
+        {
+          "value": "the_vault:gear/jewel/manabloom",
+          "weight": 1
+        }
+      ],
       "modifierIdentifiers": {
         "IMPLICIT": [
           "the_vault:unique_jewel_size"
@@ -1532,6 +1544,12 @@
     "the_vault:pax": {
       "name": "Pax",
       "item": "the_vault:jewel",
+      "models": [
+        {
+          "value": "the_vault:gear/jewel/pax",
+          "weight": 1
+        }
+      ],
       "modifierIdentifiers": {
         "IMPLICIT": [
           "the_vault:unique_jewel_size"

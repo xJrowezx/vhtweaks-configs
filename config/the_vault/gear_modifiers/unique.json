@@ -4993,7 +4993,7 @@
         ]
       },
       {
-        "attribute": "the_vault:mana_per_looted_tile",
+        "attribute": "the_vault:percent_mana_per_looted_tile",
         "group": "uLootedTile",
         "identifier": "the_vault:u_mana_looting",
         "tags": [],
