@@ -1434,6 +1434,56 @@
         "adjustedDuration"
       ]
     },
+    "Nova_Burn": {
+      "description": [
+        {
+          "text": "Burns mobs around you in a ",
+          "color": "$text"
+        },
+        {
+          "text": "radius",
+          "color": "$radius"
+        },
+        {
+          "text": ", dealing a percentage of your ",
+          "color": "$text"
+        },
+        {
+          "text": "ability power",
+          "color": "$ability_power"
+        },
+        {
+          "text": " as damage over a ",
+          "color": "$text"
+        },
+        {
+          "text": "duration of time",
+          "color": "$duration"
+        },
+        {
+          "text": ".\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u2734 Cast Ability ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "adjustedRadius",
+        "ability_power",
+        "adjustedDuration"
+      ],
+      "next": [
+        "cooldown",
+        "manaCost",
+        "adjustedRadius",
+        "ability_power",
+        "adjustedDuration"
+      ]
+    },
     "Rampage_Base": {
       "description": [
         {

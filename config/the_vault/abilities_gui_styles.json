@@ -81,6 +81,9 @@
         },
         "Nova_Dot": {
           "icon": "the_vault:gui/abilities/nova_dot"
+        },
+        "Nova_Burn": {
+          "icon": "the_vault:gui/abilities/nova_burn"
         }
       }
     },
