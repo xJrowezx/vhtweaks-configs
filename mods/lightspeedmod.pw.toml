@@ -1,6 +1,6 @@
 name = "Lightspeed - Launch optimizations"
 filename = "lightspeed-1.18.2-1.0.5.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

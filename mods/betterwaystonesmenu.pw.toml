@@ -1,6 +1,6 @@
 name = "Better Waystones Menu"
 filename = "BetterWaystonesMenu-1.2.0+mc1.18.2.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
