@@ -168,6 +168,9 @@
         },
         "Empower_Slowness_Aura": {
           "icon": "the_vault:gui/abilities/empower_entropy"
+        },
+        "Empower_Fire_Aura": {
+          "icon": "the_vault:gui/abilities/empower_immolation"
         }
       }
     },

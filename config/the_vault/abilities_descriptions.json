@@ -1952,6 +1952,44 @@
         "cooldown"
       ]
     },
+    "Empower_Fire_Aura": {
+      "description": [
+        {
+          "text": "Gives you an aura of fire ",
+          "color": "$text"
+        },
+        {
+          "text": "burning",
+          "color": "$damage"
+        },
+        {
+          "text": " mobs in a ",
+          "color": "$text"
+        },
+        {
+          "text": "radius",
+          "color": "$radius"
+        },
+        {
+          "text": " around you while active\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u25cf Toggle Ability ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "adjustedRadius",
+        "manaCostPerSecond",
+        "cooldown"
+      ],
+      "next": [
+        "adjustedRadius",
+        "manaCostPerSecond",
+        "cooldown"
+      ]
+    },
     "Taunt_Base": {
       "description": [
         {
