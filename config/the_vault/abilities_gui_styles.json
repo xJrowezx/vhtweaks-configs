@@ -447,7 +447,7 @@
           "icon": "the_vault:gui/abilities/wall_of_fangs"
         },
         "Fangs_Maw": {
-          "icon": "the_vaults:gui/abilities/hungry_maw"
+          "icon": "the_vault:gui/abilities/hungry_maw"
         }
       }
     }

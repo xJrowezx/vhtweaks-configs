@@ -1955,12 +1955,12 @@
     "Empower_Fire_Aura": {
       "description": [
         {
-          "text": "Gives you an aura of fire ",
+          "text": "Gives you an aura of fire burning mobs for a percent of your ",
           "color": "$text"
         },
         {
-          "text": "burning",
-          "color": "$damage"
+          "text": "ability power",
+          "color": "$ability_power"
         },
         {
           "text": " mobs in a ",
@@ -1981,11 +1981,13 @@
       ],
       "current": [
         "adjustedRadius",
+        "percentAbilityPowerDealt",
         "manaCostPerSecond",
         "cooldown"
       ],
       "next": [
         "adjustedRadius",
+        "percentAbilityPowerDealt",
         "manaCostPerSecond",
         "cooldown"
       ]

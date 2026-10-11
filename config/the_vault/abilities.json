@@ -10809,7 +10809,7 @@
               {
                 "type": "empower_fire_aura",
                 "radius": 1,
-                "fireAmplifier": 1,
+                "percentAbilityPowerDealt": 0.1,
                 "durationTicks": 40,
                 "manaCostPerSecond": 0.4,
                 "learnPointCost": 1,
@@ -10821,7 +10821,7 @@
               {
                 "type": "empower_fire_aura",
                 "radius": 1.5,
-                "fireAmplifier": 1,
+                "percentAbilityPowerDealt": 0.2,
                 "durationTicks": 40,
                 "manaCostPerSecond": 0.5,
                 "learnPointCost": 1,
@@ -10833,7 +10833,7 @@
               {
                 "type": "empower_fire_aura",
                 "radius": 2,
-                "fireAmplifier": 1,
+                "percentAbilityPowerDealt": 0.3,
                 "durationTicks": 40,
                 "manaCostPerSecond": 0.6,
                 "learnPointCost": 1,
@@ -10845,7 +10845,7 @@
               {
                 "type": "empower_fire_aura",
                 "radius": 2.5,
-                "fireAmplifier": 1,
+                "percentAbilityPowerDealt": 0.4,
                 "durationTicks": 40,
                 "manaCostPerSecond": 0.7,
                 "learnPointCost": 1,
@@ -10857,7 +10857,7 @@
               {
                 "type": "empower_fire_aura",
                 "radius": 3,
-                "fireAmplifier": 1,
+                "percentAbilityPowerDealt": 0.5,
                 "durationTicks": 40,
                 "manaCostPerSecond": 0.8,
                 "learnPointCost": 1,
@@ -10869,7 +10869,7 @@
               {
                 "type": "empower_fire_aura",
                 "radius": 3.5,
-                "fireAmplifier": 1,
+                "percentAbilityPowerDealt": 0.6,
                 "durationTicks": 40,
                 "manaCostPerSecond": 0.9,
                 "learnPointCost": 1,
@@ -10881,7 +10881,7 @@
               {
                 "type": "empower_fire_aura",
                 "radius": 4,
-                "fireAmplifier": 1,
+                "percentAbilityPowerDealt": 0.7,
                 "durationTicks": 40,
                 "manaCostPerSecond": 1,
                 "learnPointCost": 1,
@@ -10893,7 +10893,7 @@
               {
                 "type": "empower_fire_aura",
                 "radius": 4.5,
-                "fireAmplifier": 1,
+                "percentAbilityPowerDealt": 0.8,
                 "durationTicks": 40,
                 "manaCostPerSecond": 1.1,
                 "learnPointCost": 1,
@@ -10905,7 +10905,7 @@
               {
                 "type": "empower_fire_aura",
                 "radius": 5,
-                "slownessAmplifier": 1,
+                "percentAbilityPowerDealt": 0.9,
                 "durationTicks": 40,
                 "manaCostPerSecond": 1.2,
                 "learnPointCost": 1,
@@ -10917,7 +10917,7 @@
               {
                 "type": "empower_fire_aura",
                 "radius": 5.5,
-                "slownessAmplifier": 1,
+                "percentAbilityPowerDealt": 1,
                 "durationTicks": 40,
                 "manaCostPerSecond": 1.3,
                 "learnPointCost": 1,
@@ -10929,7 +10929,7 @@
               {
                 "type": "empower_fire_aura",
                 "radius": 6,
-                "slownessAmplifier": 1,
+                "percentAbilityPowerDealt": 1.1,
                 "durationTicks": 40,
                 "manaCostPerSecond": 1.4,
                 "learnPointCost": 1,
@@ -10941,7 +10941,7 @@
               {
                 "type": "empower_fire_aura",
                 "radius": 6.5,
-                "slownessAmplifier": 1,
+                "percentAbilityPowerDealt": 1.2,
                 "durationTicks": 40,
                 "manaCostPerSecond": 1.5,
                 "learnPointCost": 1,
@@ -10953,7 +10953,7 @@
               {
                 "type": "empower_fire_aura",
                 "radius": 7,
-                "slownessAmplifier": 1,
+                "percentAbilityPowerDealt": 1.3,
                 "durationTicks": 40,
                 "manaCostPerSecond": 1.6,
                 "learnPointCost": 1,
@@ -10965,7 +10965,7 @@
               {
                 "type": "empower_fire_aura",
                 "radius": 7.5,
-                "slownessAmplifier": 1,
+                "percentAbilityPowerDealt": 1.4,
                 "durationTicks": 40,
                 "manaCostPerSecond": 1.7,
                 "learnPointCost": 1,
@@ -10977,7 +10977,7 @@
               {
                 "type": "empower_fire_aura",
                 "radius": 8,
-                "slownessAmplifier": 1,
+                "percentAbilityPowerDealt": 1.5,
                 "durationTicks": 40,
                 "manaCostPerSecond": 1.8,
                 "learnPointCost": 1,
@@ -10989,7 +10989,7 @@
               {
                 "type": "empower_fire_aura",
                 "radius": 8.5,
-                "slownessAmplifier": 1,
+                "percentAbilityPowerDealt": 1.6,
                 "durationTicks": 40,
                 "manaCostPerSecond": 1.9,
                 "learnPointCost": 1,
@@ -11001,7 +11001,7 @@
               {
                 "type": "empower_fire_aura",
                 "radius": 9,
-                "slownessAmplifier": 1,
+                "percentAbilityPowerDealt": 1.7,
                 "durationTicks": 40,
                 "manaCostPerSecond": 2,
                 "learnPointCost": 1,
@@ -11013,7 +11013,7 @@
               {
                 "type": "empower_fire_aura",
                 "radius": 9.5,
-                "slownessAmplifier": 1,
+                "percentAbilityPowerDealt": 1.8,
                 "durationTicks": 40,
                 "manaCostPerSecond": 2.1,
                 "learnPointCost": 1,
@@ -11025,7 +11025,7 @@
               {
                 "type": "empower_fire_aura",
                 "radius": 10,
-                "slownessAmplifier": 1,
+                "percentAbilityPowerDealt": 1.9,
                 "durationTicks": 40,
                 "manaCostPerSecond": 2.2,
                 "learnPointCost": 1,
@@ -11037,7 +11037,7 @@
               {
                 "type": "empower_fire_aura",
                 "radius": 10.5,
-                "slownessAmplifier": 1,
+                "percentAbilityPowerDealt": 2,
                 "durationTicks": 40,
                 "manaCostPerSecond": 2.3,
                 "learnPointCost": 1,
@@ -11049,7 +11049,7 @@
               {
                 "type": "empower_fire_aura",
                 "radius": 11,
-                "slownessAmplifier": 1,
+                "percentAbilityPowerDealt": 2.1,
                 "durationTicks": 40,
                 "manaCostPerSecond": 2.4,
                 "learnPointCost": 1,
@@ -11061,7 +11061,7 @@
               {
                 "type": "empower_fire_aura",
                 "radius": 11.5,
-                "slownessAmplifier": 1,
+                "percentAbilityPowerDealt": 2.2,
                 "durationTicks": 40,
                 "manaCostPerSecond": 2.5,
                 "learnPointCost": 1,
@@ -11073,7 +11073,7 @@
               {
                 "type": "empower_fire_aura",
                 "radius": 12,
-                "slownessAmplifier": 1,
+                "percentAbilityPowerDealt": 2.3,
                 "durationTicks": 40,
                 "manaCostPerSecond": 2.6,
                 "learnPointCost": 1,
@@ -11085,7 +11085,7 @@
               {
                 "type": "empower_fire_aura",
                 "radius": 12.5,
-                "slownessAmplifier": 1,
+                "percentAbilityPowerDealt": 2.4,
                 "durationTicks": 40,
                 "manaCostPerSecond": 2.7,
                 "learnPointCost": 1,
@@ -11097,7 +11097,7 @@
               {
                 "type": "empower_fire_aura",
                 "radius": 13,
-                "slownessAmplifier": 1,
+                "percentAbilityPowerDealt": 2.5,
                 "durationTicks": 40,
                 "manaCostPerSecond": 2.8,
                 "learnPointCost": 1,
@@ -11109,7 +11109,7 @@
               {
                 "type": "empower_fire_aura",
                 "radius": 13.5,
-                "slownessAmplifier": 1,
+                "percentAbilityPowerDealt": 2.6,
                 "durationTicks": 40,
                 "manaCostPerSecond": 2.9,
                 "learnPointCost": 1,
@@ -11121,7 +11121,7 @@
               {
                 "type": "empower_fire_aura",
                 "radius": 14,
-                "slownessAmplifier": 1,
+                "percentAbilityPowerDealt": 2.7,
                 "durationTicks": 40,
                 "manaCostPerSecond": 3,
                 "learnPointCost": 1,
@@ -11133,7 +11133,7 @@
               {
                 "type": "empower_fire_aura",
                 "radius": 14.5,
-                "slownessAmplifier": 1,
+                "percentAbilityPowerDealt": 2.8,
                 "durationTicks": 40,
                 "manaCostPerSecond": 3.1,
                 "learnPointCost": 1,
@@ -11145,7 +11145,7 @@
               {
                 "type": "empower_fire_aura",
                 "radius": 15,
-                "slownessAmplifier": 1,
+                "percentAbilityPowerDealt": 2.9,
                 "durationTicks": 40,
                 "manaCostPerSecond": 3.2,
                 "learnPointCost": 1,
@@ -11157,7 +11157,7 @@
               {
                 "type": "empower_fire_aura",
                 "radius": 15.5,
-                "slownessAmplifier": 1,
+                "percentAbilityPowerDealt": 3,
                 "durationTicks": 40,
                 "manaCostPerSecond": 3.3,
                 "learnPointCost": 1,
