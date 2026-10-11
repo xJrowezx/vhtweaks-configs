@@ -1330,11 +1330,11 @@ hash = "c73292a81a8409d74edb12b0bb9226bda03f39e11afc8abfe6bff52cc30ef480"
 
 [[files]]
 file = "config/the_vault/abilities.json"
-hash = "3162dd6d31640c77b0b7b6d2fafbaa68a8eede73e901787d83e989aeaf994a7d"
+hash = "8fe082023cf5fd771e444ca7cb43e1eb3ae64304ca01e0698b62fe28c7da7657"
 
 [[files]]
 file = "config/the_vault/abilities_descriptions.json"
-hash = "6f45fc0fd05432d8679c23ab9486ab8e2df4d9f55c229bc31d737f8ca3585ff8"
+hash = "4b3dda128fecef6171425a793994b95a7fab1ba078d17742b66cb0afa298513e"
 
 [[files]]
 file = "config/the_vault/abilities_drill_dig_deny.json"
@@ -1346,7 +1346,7 @@ hash = "66510dd0ec7f322bdacf8b136b655ae4a9c99b6c7f47f9951ede9a09332c7697"
 
 [[files]]
 file = "config/the_vault/abilities_gui_styles.json"
-hash = "d08f09d5e484d6e0e62a0ab6a187b84356aebcf12579cf5f0513392dad545900"
+hash = "979a6736a797e5e97fcdf19e33fbba2d7e78c58df668eb792fe03e8638155c2e"
 
 [[files]]
 file = "config/the_vault/abilities_vein_miner_deny.json"

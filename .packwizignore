@@ -1,13 +1,23 @@
-# Idea
-.idea
+# IDE files
+.idea/
 
-# Exclude exporter packs
+# Exported packs
 *.zip
 *.mrpack
 
-# Exclude packwiz file
+# packwiz binaries
 /packwiz.exe
+/packwizl
 
-#Exclude License
-
+# License
 /LICENSE
+
+# Repo housekeeping
+/.gitignore
+/.gitattributes
+/.packwizignore
+/README.md
+/.github/
+
+# Client setup files (unsup.ini variants, docs)
+/client-setup/
