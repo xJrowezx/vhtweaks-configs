@@ -362,7 +362,7 @@
       "x": -264,
       "y": 240,
       "frameType": "RECTANGULAR",
-      "icon": "the_vault:gui/skills/fatal_strike_damage"
+      "icon": "woldsvaults:gui/skills/crit_hit_damage"
     },
     "Momentum_Engine": {
       "x": -96,
@@ -374,7 +374,7 @@
       "x": 384,
       "y": 0,
       "frameType": "RECTANGULAR",
-      "icon": "the_vault:gui/skills/voltaic_impact"
+      "icon": "woldsvaults:gui/skills/voltaic_range"
     },
     "Blood_Chakra": {
       "x": 384,
