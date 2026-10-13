@@ -291,6 +291,12 @@
       "specializationStyles": {
         "Storm_Arrow_Base": {
           "icon": "the_vault:gui/abilities/thunderstorm"
+        },
+        "Storm_Arrow_Blizzard": {
+          "icon": "the_vault:gui/abilities/thunderstorm"
+        },
+        "Storm_Arrow_Meteor": {
+          "icon": "the_vault:gui/abilities/thunderstorm"
         }
       }
     },
@@ -303,9 +309,6 @@
         },
         "Ice_Bolt_Blast": {
           "icon": "the_vault:gui/abilities/ice_blast"
-        },
-        "Shard_Blizzard": {
-          "icon": "the_vault:gui/abilities/blizzard_shard"
         }
       }
     },
