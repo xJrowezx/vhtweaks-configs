@@ -1346,7 +1346,7 @@ hash = "66510dd0ec7f322bdacf8b136b655ae4a9c99b6c7f47f9951ede9a09332c7697"
 
 [[files]]
 file = "config/the_vault/abilities_gui_styles.json"
-hash = "436c582a474a765d3064a03d1ac53eadef86146abad4d49d517ffe15eba59d13"
+hash = "e5ce83796149cf3446d18d8b4042b12acc37e3f24857ad2c4211af75183c3c5d"
 
 [[files]]
 file = "config/the_vault/abilities_vein_miner_deny.json"
