@@ -293,10 +293,10 @@
           "icon": "the_vault:gui/abilities/thunderstorm"
         },
         "Storm_Arrow_Blizzard": {
-          "icon": "the_vault:gui/abilities/thunderstorm"
+          "icon": "the_vault:gui/abilities/blizzard"
         },
         "Storm_Arrow_Meteor": {
-          "icon": "the_vault:gui/abilities/thunderstorm"
+          "icon": "the_vault:gui/abilities/meteor_storm"
         }
       }
     },
@@ -443,7 +443,7 @@
       }
     },
     "Fangs": {
-      "x": 99,
+      "x": 70,
       "y": 265,
       "specializationStyles": {
         "Fangs_Base": {
