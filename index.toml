@@ -1330,7 +1330,7 @@ hash = "c73292a81a8409d74edb12b0bb9226bda03f39e11afc8abfe6bff52cc30ef480"
 
 [[files]]
 file = "config/the_vault/abilities.json"
-hash = "236e6ffb9d39bde4f0614ada34843804aa66e41df192d12b7984c9924866a3cb"
+hash = "97321b19471c3e629a2590a240b0dc31c54c0edaf5ed5d2f8e0342c054a1b77e"
 
 [[files]]
 file = "config/the_vault/abilities_descriptions.json"
@@ -1346,7 +1346,7 @@ hash = "66510dd0ec7f322bdacf8b136b655ae4a9c99b6c7f47f9951ede9a09332c7697"
 
 [[files]]
 file = "config/the_vault/abilities_gui_styles.json"
-hash = "e5ce83796149cf3446d18d8b4042b12acc37e3f24857ad2c4211af75183c3c5d"
+hash = "1589d418a8d18ab0c1e3077d591f0f8a3ec6e1ebda487922e454b2851c621b11"
 
 [[files]]
 file = "config/the_vault/abilities_vein_miner_deny.json"
@@ -16230,7 +16230,7 @@ hash = "b808581813c2fcb87858c1bd6b53c24e290cbbcec643c9084785d2b769c6d09b"
 
 [[files]]
 file = "mods/VHTweaks-0.23.2-all.jar"
-hash = "59f80c8689847846b9f924ac606624bbac319745e88fb47087d310b1852090c8"
+hash = "3c9ff10e5444a97f492f8668226d172645d5631d4049bc4bf5bd9d9e101b4267"
 
 [[files]]
 file = "mods/additional-lanterns.pw.toml"

@@ -39477,6 +39477,36 @@
             ]
           }
         ]
+      },
+      {
+        "type": "specialized",
+        "id": "Apex_Predator",
+        "name": "Apex Predator",
+        "maxLearnableTier": 1,
+        "specializations": [
+          {
+            "type": "tiered",
+            "id": "Apex_Predator_base",
+            "name": "Apex Predator",
+            "maxLearnableTier": 1,
+            "tiers": [
+              {
+                "type": "apex_predator",
+                "radius": 1.0,
+                "percentAttackDamageDealt": 3.0,
+                "travelSpeed": 0.5,
+                "stunDuration": 40,
+                "maxRange": 24,
+                "manaCost": 25,
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "cooldownTicks": 0,
+                "unlockLevel": 0,
+                "id": "apex_predator_1"
+              }
+            ]
+          }
+        ]
       }
     ]
   }

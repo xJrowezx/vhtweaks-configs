@@ -453,6 +453,15 @@
           "icon": "the_vault:gui/abilities/hungry_maw"
         }
       }
+    },
+    "Apex_Predator": {
+      "x": 105,
+      "y": 265,
+      "specializationStyles": {
+        "Apex_Predator_base": {
+          "icon": "the_vault:gui/abilities/apex_predator"
+        }
+      }
     }
   },
   "labels": [
