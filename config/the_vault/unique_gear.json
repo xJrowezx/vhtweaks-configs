@@ -1624,7 +1624,7 @@
       "weight": 1
     },
     "the_vault:swiss_army": {
-      "name": "Swiss Army jewel",
+      "name": "Omni-Prax",
       "item": "the_vault:jewel",
       "modifierIdentifiers": {
         "IMPLICIT": [
@@ -1644,7 +1644,7 @@
       "weight": 1
     },
     "the_vault:shattering_jewel": {
-      "name": "Shatterering Jewel",
+      "name": "Insecabilis",
       "item": "the_vault:jewel",
       "models": [
         {
