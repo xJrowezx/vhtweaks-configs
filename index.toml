@@ -16779,6 +16779,11 @@ hash = "56f04c5afb59f692b6ff25f781a74d1f61505fd72d4ef647861f07c4e6780189"
 metafile = true
 
 [[files]]
+file = "mods/framed-compacting-drawers.pw.toml"
+hash = "16e390584c446fdfea4b64dd1249e39dc46f6b7d7c5aea6aa2ab991d91c4c2fc"
+metafile = true
+
+[[files]]
 file = "mods/freecam-by-zergatul.pw.toml"
 hash = "df689e7f1380bd6983064dd1285f4ae6e9f2c6b949387b1e7600c1d914e85ec7"
 metafile = true
@@ -17947,6 +17952,10 @@ file = "scripts/GodTags.zs"
 hash = "e6fead37549f1ead5e5dc2627576ee8f3c9078711a9e0fd3fc33744b22b8222e"
 
 [[files]]
+file = "scripts/Industrial.zs"
+hash = "807ad7afa53d4cf5807aa49629c328c0abd59502530eee3f5d2ba7a6aba0be66"
+
+[[files]]
 file = "scripts/Macaw.zs"
 hash = "da0b9d10b85d3ef4fdef1a7ecf9f554f0a93b357b5f17f62d961ebcb7835fb87"
 
@@ -17991,6 +18000,10 @@ file = "scripts/Snad.zs"
 hash = "f3bcdafa0f0f40636d82ac4c7f7b844a3e559c2afaa038efb10a6e861d0cbf3d"
 
 [[files]]
+file = "scripts/SophisticatedStorage.zs"
+hash = "2f72fdbc86c07b1fbcc1c5a64b437512e709334be139ad7b1015f54ad39f5bf3"
+
+[[files]]
 file = "scripts/Tags.zs"
 hash = "dea3d638c94ae50ef584a2d9c1e15bb6bff86a7a7fdb27c53abbb48ddc6e8527"
 
@@ -18020,7 +18033,7 @@ hash = "e9ebbae73c509d2beb23a3868704ffd8a4179a993bdc5ac4e855e4ce192256ac"
 
 [[files]]
 file = "scripts/ae2.zs"
-hash = "618e061281d957dce67b1973a016a139d826ac1cc4f55eeca1216a31ddc70680"
+hash = "70709e6d114bbe351f3bac63e47661b6dd0f29344d8687e47891a2f028464158"
 
 [[files]]
 file = "scripts/alexsmobs.zs"
