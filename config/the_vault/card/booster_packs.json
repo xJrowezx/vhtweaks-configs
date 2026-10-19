@@ -1,8 +1,5 @@
 {
   "values": {
-
-
-
     "the_vault:arcane_pack": {
       "name": {
         "text": "Arcane Booster Pack"
@@ -372,7 +369,6 @@
       ]
     },
 
-
     "the_vault:mix_pack": {
       "name": {
         "text": "Mixed Booster Pack"
@@ -737,7 +733,666 @@
       ]
     },
 
+    "the_vault:blue_pack": {
+      "name": {
+        "text": "Blue Booster Pack"
+      },
+      "model": {
+        "unopened": "vhapi:booster_pack/blue_pack#inventory",
+        "opened": "vhapi:booster_pack/blue_pack_ripped#inventory"
+      },
+      "roll": [
+        {
+          "value": 3,
+          "weight": 3.0
+        }
+      ],
+      "tier": [
+        {
+          "value": 1,
+          "weight": 16.0
+        }
+      ],
+      "color": [
+        {
+          "value": "BLUE",
+          "weight": 1.0
+        }
+      ],
+      "card": [
+        {
+          "value": [
+            {
+              "modifier": "@arcane",
+              "probability": 1.0
+            }
+          ],
+          "weight": 9
+        },
+        {
+          "value": [
+            {
+              "modifier": "@arcane",
+              "groups": [ "Foil" ],
+              "condition": "",
+              "probability": 1.0
+            }
+          ],
+          "weight": 1
+        },
 
+        {
+          "value": [
+            {
+              "modifier": "@default",
+              "probability": 1.0
+            }
+          ],
+          "weight": 9
+        },
+        {
+          "value": [
+            {
+              "modifier": "@default",
+              "groups": [ "Foil" ],
+              "condition": "",
+              "probability": 1.0
+            }
+          ],
+          "weight": 1
+        },
+
+        {
+          "value": [
+            {
+              "modifier": "@scaling",
+              "probability": 1.0,
+              "scaler": "@scaling"
+            }
+          ],
+          "weight": 9
+        },
+        {
+          "value": [
+            {
+              "modifier": "@scaling",
+              "groups": [ "Foil" ],
+              "probability": 1.0,
+              "scaler": "@scaling"
+            }
+          ],
+          "weight": 1
+        },
+
+        {
+          "value": [
+            {
+              "modifier": "@resource",
+              "probability": 1.0
+            }
+          ],
+          "weight": 9
+        },
+        {
+          "value": [
+            {
+              "modifier": "@resource",
+              "groups": [ "Foil" ],
+              "condition": "",
+              "probability": 1.0
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    },
+    "the_vault:green_pack": {
+      "name": {
+        "text": "Green Booster Pack"
+      },
+      "model": {
+        "unopened": "vhapi:booster_pack/green_pack#inventory",
+        "opened": "vhapi:booster_pack/green_pack_ripped#inventory"
+      },
+      "roll": [
+        {
+          "value": 3,
+          "weight": 3.0
+        }
+      ],
+      "tier": [
+        {
+          "value": 1,
+          "weight": 16.0
+        }
+      ],
+      "color": [
+        {
+          "value": "GREEN",
+          "weight": 1.0
+        }
+      ],
+      "card": [
+        {
+          "value": [
+            {
+              "modifier": "@arcane",
+              "probability": 1.0
+            }
+          ],
+          "weight": 9
+        },
+        {
+          "value": [
+            {
+              "modifier": "@arcane",
+              "groups": [ "Foil" ],
+              "condition": "",
+              "probability": 1.0
+            }
+          ],
+          "weight": 1
+        },
+
+        {
+          "value": [
+            {
+              "modifier": "@default",
+              "probability": 1.0
+            }
+          ],
+          "weight": 9
+        },
+        {
+          "value": [
+            {
+              "modifier": "@default",
+              "groups": [ "Foil" ],
+              "condition": "",
+              "probability": 1.0
+            }
+          ],
+          "weight": 1
+        },
+
+        {
+          "value": [
+            {
+              "modifier": "@scaling",
+              "probability": 1.0,
+              "scaler": "@scaling"
+            }
+          ],
+          "weight": 9
+        },
+        {
+          "value": [
+            {
+              "modifier": "@scaling",
+              "groups": [ "Foil" ],
+              "probability": 1.0,
+              "scaler": "@scaling"
+            }
+          ],
+          "weight": 1
+        },
+
+        {
+          "value": [
+            {
+              "modifier": "@resource",
+              "probability": 1.0
+            }
+          ],
+          "weight": 9
+        },
+        {
+          "value": [
+            {
+              "modifier": "@resource",
+              "groups": [ "Foil" ],
+              "condition": "",
+              "probability": 1.0
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    },
+    "the_vault:red_pack": {
+      "name": {
+        "text": "Red Booster Pack"
+      },
+      "model": {
+        "unopened": "vhapi:booster_pack/red_pack#inventory",
+        "opened": "vhapi:booster_pack/red_pack_ripped#inventory"
+      },
+      "roll": [
+        {
+          "value": 3,
+          "weight": 3.0
+        }
+      ],
+      "tier": [
+        {
+          "value": 1,
+          "weight": 16.0
+        }
+      ],
+      "color": [
+        {
+          "value": "RED",
+          "weight": 1.0
+        }
+      ],
+      "card": [
+        {
+          "value": [
+            {
+              "modifier": "@arcane",
+              "probability": 1.0
+            }
+          ],
+          "weight": 9
+        },
+        {
+          "value": [
+            {
+              "modifier": "@arcane",
+              "groups": [ "Foil" ],
+              "condition": "",
+              "probability": 1.0
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "value": [
+            {
+              "modifier": "@default",
+              "probability": 1.0
+            }
+          ],
+          "weight": 9
+        },
+        {
+          "value": [
+            {
+              "modifier": "@default",
+              "groups": [ "Foil" ],
+              "condition": "",
+              "probability": 1.0
+            }
+          ],
+          "weight": 1
+        },
+
+        {
+          "value": [
+            {
+              "modifier": "@scaling",
+              "probability": 1.0,
+              "scaler": "@scaling"
+            }
+          ],
+          "weight": 9
+        },
+        {
+          "value": [
+            {
+              "modifier": "@scaling",
+              "groups": [ "Foil" ],
+              "probability": 1.0,
+              "scaler": "@scaling"
+            }
+          ],
+          "weight": 1
+        },
+
+        {
+          "value": [
+            {
+              "modifier": "@resource",
+              "probability": 1.0
+            }
+          ],
+          "weight": 9
+        },
+        {
+          "value": [
+            {
+              "modifier": "@resource",
+              "groups": [ "Foil" ],
+              "condition": "",
+              "probability": 1.0
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    },
+    "the_vault:yellow_pack": {
+      "name": {
+        "text": "Yellow Booster Pack"
+      },
+      "model": {
+        "unopened": "vhapi:booster_pack/yellow_pack#inventory",
+        "opened": "vhapi:booster_pack/yellow_pack_ripped#inventory"
+      },
+      "roll": [
+        {
+          "value": 3,
+          "weight": 3.0
+        }
+      ],
+      "tier": [
+        {
+          "value": 1,
+          "weight": 16.0
+        }
+      ],
+      "color": [
+        {
+          "value": "YELLOW",
+          "weight": 1.0
+        }
+      ],
+      "card": [
+        {
+          "value": [
+            {
+              "modifier": "@arcane",
+              "probability": 1.0
+            }
+          ],
+          "weight": 9
+        },
+        {
+          "value": [
+            {
+              "modifier": "@arcane",
+              "groups": [ "Foil" ],
+              "condition": "",
+              "probability": 1.0
+            }
+          ],
+          "weight": 1
+        },
+
+        {
+          "value": [
+            {
+              "modifier": "@default",
+              "probability": 1.0
+            }
+          ],
+          "weight": 9
+        },
+        {
+          "value": [
+            {
+              "modifier": "@default",
+              "groups": [ "Foil" ],
+              "condition": "",
+              "probability": 1.0
+            }
+          ],
+          "weight": 1
+        },
+
+        {
+          "value": [
+            {
+              "modifier": "@scaling",
+              "probability": 1.0,
+              "scaler": "@scaling"
+            }
+          ],
+          "weight": 9
+        },
+        {
+          "value": [
+            {
+              "modifier": "@scaling",
+              "groups": [ "Foil" ],
+              "probability": 1.0,
+              "scaler": "@scaling"
+            }
+          ],
+          "weight": 1
+        },
+
+        {
+          "value": [
+            {
+              "modifier": "@resource",
+              "probability": 1.0
+            }
+          ],
+          "weight": 9
+        },
+        {
+          "value": [
+            {
+              "modifier": "@resource",
+              "groups": [ "Foil" ],
+              "condition": "",
+              "probability": 1.0
+            }
+          ],
+          "weight": 1
+        }
+
+      ]
+    },
+
+    "the_vault:knack_pack": {
+      "name": {
+        "text": "Knack Booster Pack"
+      },
+      "model": {
+        "unopened": "vhapi:booster_pack/knack_pack#inventory",
+        "opened": "vhapi:booster_pack/knack_pack_ripped#inventory"
+      },
+      "roll": [
+        {
+          "value": 3,
+          "weight": 1.0
+        }
+      ],
+      "tier": [
+        {
+          "value": 1,
+          "weight": 1.0
+        }
+      ],
+      "color": [
+        {
+          "value": "RED",
+          "weight": 1.0
+        },
+        {
+          "value": "YELLOW",
+          "weight": 1.0
+        },
+        {
+          "value": "GREEN",
+          "weight": 1.0
+        },
+        {
+          "value": "BLUE",
+          "weight": 1.0
+        }
+      ],
+      "card": [
+        {
+          "value": [
+            {
+              "modifier": "@knack",
+              "colors": [],
+              "groups": [],
+              "scaler": "",
+              "condition": "@knack",
+              "probability": 1.0
+            }
+          ],
+          "weight": 9.0
+        },
+        {
+          "value": [
+            {
+              "modifier": "@knack",
+              "colors": [],
+              "groups": [
+                "Foil"
+              ],
+              "scaler": "",
+              "condition": "@knack",
+              "probability": 1.0
+            }
+          ],
+          "weight": 1.0
+        }
+      ]
+    },
+    "the_vault:deluxe_knack_pack": {
+      "name": {
+        "text": "Deluxe Knack Booster Pack"
+      },
+      "model": {
+        "unopened": "vhapi:booster_pack/deluxe_knack_pack#inventory",
+        "opened": "vhapi:booster_pack/knack_pack_ripped#inventory"
+      },
+      "roll": [
+        {
+          "value": 3,
+          "weight": 1.0
+        }
+      ],
+      "tier": [
+        {
+          "value": 1,
+          "weight": 1.0
+        }
+      ],
+      "color": [
+        {
+          "value": "RED",
+          "weight": 1.0
+        },
+        {
+          "value": "YELLOW",
+          "weight": 1.0
+        },
+        {
+          "value": "GREEN",
+          "weight": 1.0
+        },
+        {
+          "value": "BLUE",
+          "weight": 1.0
+        }
+      ],
+      "card": [
+        {
+          "value": [
+            {
+              "modifier": "@deluxe_knack",
+              "colors": [],
+              "groups": [],
+              "scaler": "",
+              "condition": "@deluxe_knack",
+              "probability": 1.0
+            }
+          ],
+          "weight": 9.0
+        },
+        {
+          "value": [
+            {
+              "modifier": "@deluxe_knack",
+              "colors": [],
+              "groups": [
+                "Foil"
+              ],
+              "scaler": "",
+              "condition": "@deluxe_knack",
+              "probability": 1.0
+            }
+          ],
+          "weight": 1.0
+        }
+      ]
+    },
+    "the_vault:mega_knack_pack": {
+      "name": {
+        "text": "Mega Knack Booster Pack"
+      },
+      "model": {
+        "unopened": "vhapi:booster_pack/mega_knack_pack#inventory",
+        "opened": "vhapi:booster_pack/mega_knack_pack_ripped#inventory"
+      },
+      "roll": [
+        {
+          "value": 5,
+          "weight": 1.0
+        }
+      ],
+      "tier": [
+        {
+          "value": 1,
+          "weight": 1.0
+        }
+      ],
+      "color": [
+        {
+          "value": "RED",
+          "weight": 1.0
+        },
+        {
+          "value": "YELLOW",
+          "weight": 1.0
+        },
+        {
+          "value": "GREEN",
+          "weight": 1.0
+        },
+        {
+          "value": "BLUE",
+          "weight": 1.0
+        }
+      ],
+      "card": [
+        {
+          "value": [
+            {
+              "modifier": "@knack",
+              "colors": [],
+              "groups": [],
+              "scaler": "",
+              "condition": "@knack",
+              "probability": 1.0
+            }
+          ],
+          "weight": 9.0
+        },
+        {
+          "value": [
+            {
+              "modifier": "@knack",
+              "colors": [],
+              "groups": [
+                "Foil"
+              ],
+              "scaler": "",
+              "condition": "@knack",
+              "probability": 1.0
+            }
+          ],
+          "weight": 1.0
+        }
+      ]
+    },
 
     "the_vault:temporal_pack": {
       "name": {

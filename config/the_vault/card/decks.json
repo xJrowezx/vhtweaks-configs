@@ -275,11 +275,11 @@
       "layout": [
         {
           "value": [
-              "XOOOOOX",
-              "OOOXOOO",
-              "OOXAXOO",
-              "OOOXOOO",
-              "XOOOOOX"
+            "XOOOOOX",
+            "OOOXOOO",
+            "OOXAXOO",
+            "OOOXOOO",
+            "XOOOOOX"
           ],
           "weight": 1.0
         }
