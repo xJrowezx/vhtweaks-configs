@@ -11586,6 +11586,46 @@
         "type": "structure",
         "path": "config/the_vault/gen/1.0/structures/overworld_inscriptions/vh_wallpaper_portal.nbt"
       }
+    },
+    {
+      "id": "the_vault:vault/decor/omega_digsite/digsitesand1",
+      "name": "Omega Digsite Sand 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/omega_digsite/digsitesand1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/omega_digsite/digsitesand2",
+      "name": "Omega Digsite Sand 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/omega_digsite/digsitesand2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/omega_digsite/digsitesand3",
+      "name": "Omega Digsite Sand 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/omega_digsite/digsitesand3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/omega_digsite/digsitesand4",
+      "name": "Omega Digsite Sand 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/omega_digsite/digsitesand4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/omega_digsite/digsitesand5",
+      "name": "Omega Digsite Sand 5",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/omega_digsite/digsitesand5.nbt"
+      }
     }
   ]
 }
