@@ -1,10 +1,10 @@
 name = "VaultOptimise"
 filename = "vaultoptimise-1.4.4.jar"
-side = "server"
+side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "524ceda5c26526f75f42b3acaba24c5b917e35f0"
+hash-format = "sha256"
+hash = "4c40df57fa5db528f6d6981d5bd210da6eaacff751e4d7f2c552e9f9a8fc9a4f"
 mode = "metadata:curseforge"
 
 [update]
