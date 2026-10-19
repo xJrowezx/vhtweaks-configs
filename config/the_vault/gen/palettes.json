@@ -2044,6 +2044,126 @@
       "id": "the_vault:special/boss/royale/honey_amber",
       "name": "Royale Honey Amber",
       "1.0": "config/the_vault/gen/1.0/palettes/special/boss/royale/honey_amber.json"
+    },
+    {
+      "id": "the_vault:mine/ore_placeholder_blood",
+      "name": "Blood Mine Ore Placeholder",
+      "1.0": "config/the_vault/gen/1.0/palettes/mine/ore_placeholder_blood.json"
+    },
+    {
+      "id": "the_vault:mine/ore_placeholder_nether",
+      "name": "Nether Mine Ore Placeholder",
+      "1.0": "config/the_vault/gen/1.0/palettes/mine/ore_placeholder_nether.json"
+    },
+    {
+      "id": "the_vault:mine/ore_placeholder_void",
+      "name": "Void Mine Ore Placeholder",
+      "1.0": "config/the_vault/gen/1.0/palettes/mine/ore_placeholder_void.json"
+    },
+    {
+      "id": "the_vault:crystal_caves/ore_placeholder_blood",
+      "name": "Blood CC Ore Placeholder",
+      "1.0": "config/the_vault/gen/1.0/palettes/crystal_caves/ore_placeholder_blood.json"
+    },
+    {
+      "id": "the_vault:crystal_caves/ore_placeholder_nether",
+      "name": "Nether CC Ore Placeholder",
+      "1.0": "config/the_vault/gen/1.0/palettes/crystal_caves/ore_placeholder_nether.json"
+    },
+    {
+      "id": "the_vault:crystal_caves/ore_placeholder_void",
+      "name": "Void CC Ore Placeholder",
+      "1.0": "config/the_vault/gen/1.0/palettes/crystal_caves/ore_placeholder_void.json"
+    },
+    {
+      "id": "the_vault:crystal_caves/base_blood",
+      "name": "Blood Crystal Caves Base",
+      "1.0": "config/the_vault/gen/1.0/palettes/crystal_caves/base_blood.json"
+    },
+    {
+      "id": "the_vault:crystal_caves/base_nether",
+      "name": "Nether Crystal Caves Base",
+      "1.0": "config/the_vault/gen/1.0/palettes/crystal_caves/base_nether.json"
+    },
+    {
+      "id": "the_vault:crystal_caves/base_void",
+      "name": "Void Crystal Caves Base",
+      "1.0": "config/the_vault/gen/1.0/palettes/crystal_caves/base_void.json"
+    },
+    {
+      "id": "the_vault:mine/base_blood",
+      "name": "Blood Mine Base",
+      "1.0": "config/the_vault/gen/1.0/palettes/mine/base_blood.json"
+    },
+    {
+      "id": "the_vault:mine/base_nether",
+      "name": "Nether Mine Base",
+      "1.0": "config/the_vault/gen/1.0/palettes/mine/base_nether.json"
+    },
+    {
+      "id": "the_vault:mine/base_void",
+      "name": "Void Mine Base",
+      "1.0": "config/the_vault/gen/1.0/palettes/mine/base_void.json"
+    },
+    {
+      "id": "the_vault:crystal_caves/ore_placeholder_blood",
+      "name": "Blood CC Ore Placeholder",
+      "1.0": "config/the_vault/gen/1.0/palettes/crystal_caves/ore_placeholder_blood.json"
+    },
+    {
+      "id": "the_vault:crystal_caves/ore_placeholder_nether",
+      "name": "Nether CC Ore Placeholder",
+      "1.0": "config/the_vault/gen/1.0/palettes/crystal_caves/ore_placeholder_nether.json"
+    },
+    {
+      "id": "the_vault:crystal_caves/ore_placeholder_void",
+      "name": "Void CC Ore Placeholder",
+      "1.0": "config/the_vault/gen/1.0/palettes/crystal_caves/ore_placeholder_void.json"
+    },
+    {
+      "id": "the_vault:crystal_caves/blue_blood",
+      "name": "Blood Crystal Caves Blue",
+      "1.0": "config/the_vault/gen/1.0/palettes/crystal_caves/blue_blood.json"
+    },
+    {
+      "id": "the_vault:crystal_caves/blue_nether",
+      "name": "Nether Crystal Caves Blue",
+      "1.0": "config/the_vault/gen/1.0/palettes/crystal_caves/blue_nether.json"
+    },
+    {
+      "id": "the_vault:crystal_caves/blue_void",
+      "name": "Void Crystal Caves Blue",
+      "1.0": "config/the_vault/gen/1.0/palettes/crystal_caves/blue_void.json"
+    },
+    {
+      "id": "the_vault:crystal_caves/violet_blood",
+      "name": "Blood Crystal Caves Violet",
+      "1.0": "config/the_vault/gen/1.0/palettes/crystal_caves/violet_blood.json"
+    },
+    {
+      "id": "the_vault:crystal_caves/violet_nether",
+      "name": "Nether Crystal Caves Violet",
+      "1.0": "config/the_vault/gen/1.0/palettes/crystal_caves/violet_nether.json"
+    },
+    {
+      "id": "the_vault:crystal_caves/violet_void",
+      "name": "Void Crystal Caves Violet",
+      "1.0": "config/the_vault/gen/1.0/palettes/crystal_caves/violet_void.json"
+    },
+    {
+      "id": "the_vault:crystal_caves/green_blood",
+      "name": "Blood Crystal Caves Green",
+      "1.0": "config/the_vault/gen/1.0/palettes/crystal_caves/green_blood.json"
+    },
+    {
+      "id": "the_vault:crystal_caves/green_nether",
+      "name": "Nether Crystal Caves Green",
+      "1.0": "config/the_vault/gen/1.0/palettes/crystal_caves/green_nether.json"
+    },
+    {
+      "id": "the_vault:crystal_caves/green_void",
+      "name": "Void Crystal Caves Green",
+      "1.0": "config/the_vault/gen/1.0/palettes/crystal_caves/green_void.json"
     }
   ]
 }

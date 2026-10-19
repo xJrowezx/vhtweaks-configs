@@ -3866,6 +3866,66 @@
       "id": "the_vault:vault/decor/omega_digsite/sand",
       "name": "Omega Digsite Sand",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/omega_digsite/sand.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/omega/mine_blood",
+      "name": "Blood Mine",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/omega/mine_blood.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/omega/mine_nether",
+      "name": "Nether Mine",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/omega/mine_nether.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/omega/mine_void",
+      "name": "Void Mine",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/omega/mine_void.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/challenge/crystal_caves_blood",
+      "name": "Blood Crystal Caves",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/challenge/crystal_caves_blood.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/challenge/crystal_caves_nether",
+      "name": "Nether Crystal Caves",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/challenge/crystal_caves_nether.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/challenge/crystal_caves_void",
+      "name": "Void Crystal Caves",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/challenge/crystal_caves_void.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/omega_rooms_blood",
+      "name": "Blood Omega Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/omega_rooms_blood.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/omega_rooms_nether",
+      "name": "Nether Omega Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/omega_rooms_nether.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/omega_rooms_void",
+      "name": "Void Omega Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/omega_rooms_void.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/challenge_rooms_blood",
+      "name": "Blood Challenge Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/challenge_rooms_blood.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/challenge_rooms_nether",
+      "name": "Nether Challenge Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/challenge_rooms_nether.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/challenge_rooms_void",
+      "name": "Void Challenge Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/challenge_rooms_void.json"
     }
   ]
 }
