@@ -747,6 +747,69 @@
             "USABILITY": true,
             "CRAFTABILITY": true
           }
+        },
+        "ae2:molecular_assembler": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "refinedstorage:pattern_grid": {
+          "restricts": {
+            "USABILITY": true,
+            "HITTABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "ae2:pattern_encoding_terminal": {
+          "restricts": {
+            "USABILITY": true,
+            "HITTABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "ae2:pattern_access_terminal": {
+          "restricts": {
+            "USABILITY": true,
+            "HITTABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "ae2:pattern_provider": {
+          "restricts": {
+            "USABILITY": true,
+            "HITTABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "ae2:cable_pattern_provider": {
+          "restricts": {
+            "USABILITY": true,
+            "HITTABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "refinedstorage:crafter": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "ae2:blank_pattern": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "refinedstorage:pattern": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
         }
       },
       "blockRestrictions": {},
