@@ -13,8 +13,8 @@
             "maxLevel": -1,
             "weight": 10,
             "value": {
-              "min": 15000,
-              "max": 23400,
+              "min": 30000,
+              "max": 46800,
               "step": 1
             }
           },
@@ -23,8 +23,8 @@
             "maxLevel": -1,
             "weight": 10,
             "value": {
-              "min": 23401,
-              "max": 30000,
+              "min": 46801,
+              "max": 60000,
               "step": 1
             }
           }
