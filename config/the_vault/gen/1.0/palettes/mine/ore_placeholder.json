@@ -24,9 +24,10 @@
               "the_vault:ore_petzanite[type=stone,generated=true]": 5
             },
             "failure": {
-              "minecraft:stone": 3,
-              "minecraft:andesite": 1,
-              "minecraft:cobblestone": 1
+              "minecraft:stone": 60000,
+              "minecraft:andesite": 20000,
+              "minecraft:cobblestone": 20000,
+              "woldsvaults:crystallized_stone{LootTable:\"the_vault:crystallized_stone\"}": 1
             }
           },
           {
@@ -49,9 +50,10 @@
               "the_vault:ore_petzanite[type=stone,generated=true]": 5
             },
             "failure": {
-              "minecraft:stone": 3,
-              "minecraft:andesite": 1,
-              "minecraft:cobblestone": 1
+              "minecraft:stone": 60000,
+              "minecraft:andesite": 20000,
+              "minecraft:cobblestone": 20000,
+              "woldsvaults:crystallized_stone{LootTable:\"the_vault:crystallized_stone\"}": 1
             }
           },
           {
@@ -74,9 +76,10 @@
               "the_vault:ore_petzanite[type=stone,generated=true]": 5
             },
             "failure": {
-              "minecraft:stone": 3,
-              "minecraft:andesite": 1,
-              "minecraft:cobblestone": 1
+              "minecraft:stone": 60000,
+              "minecraft:andesite": 20000,
+              "minecraft:cobblestone": 20000,
+              "woldsvaults:crystallized_stone{LootTable:\"the_vault:crystallized_stone\"}": 1
             }
           },
           {
@@ -99,9 +102,10 @@
               "the_vault:ore_petzanite[type=stone,generated=true]": 5
             },
             "failure": {
-              "minecraft:stone": 3,
-              "minecraft:andesite": 1,
-              "minecraft:cobblestone": 1
+              "minecraft:stone": 60000,
+              "minecraft:andesite": 20000,
+              "minecraft:cobblestone": 20000,
+              "woldsvaults:crystallized_stone{LootTable:\"the_vault:crystallized_stone\"}": 1
             }
           }
         ]
