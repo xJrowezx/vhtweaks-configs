@@ -69,23 +69,11 @@
       { "level": 20,
         "entries": [
           {
-            "min": 1,
+            "min": 0,
             "max": 1,
             "pool": [
               {
                 "value": "the_vault:enlighted",
-                "weight": 1
-              },
-              {
-                "value": "the_vault:hoard",
-                "weight": 1
-              },
-              {
-                "value": "the_vault:treasure",
-                "weight": 1
-              },
-              {
-                "value": "the_vault:soul_surge",
                 "weight": 1
               },
               {
@@ -98,7 +86,155 @@
               },
               {
                 "value": "the_vault:dummy",
-                "weight": 12
+                "weight": 15
+              }
+            ]
+          },
+          {
+            "min": 0,
+            "max": 3,
+            "pool": [
+              {
+                "value": "the_vault:wooden_bonus",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:wooden_cascade",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:living",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:living_cascade",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:gilded",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:gilded_cascade",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:ornate",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:ornate_cascade",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:coin_pile",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:coin_cascade",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:plentiful",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:extended",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:item_quantity_1",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:item_rarity_1",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:looters_dream",
+                "weight": 1
+              },
+              {
+                "value": "woldsvaults:easy",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:swift",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:stronk",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:regeneration",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:resilient",
+                "weight": 1
+              }
+            ]
+          },
+          {
+            "min": 0,
+            "max": 3,
+            "pool": [
+              {
+                "value": "the_vault:shortened",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:poor",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:unlucky",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:more_traps",
+                "weight": 1
+              },
+              {
+                "value": "woldsvaults:hard",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:slowed",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:weakened",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:tired",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:hunger",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:daycare",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:thiccening",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:furious_mobs",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:frail",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:mob_increase_2",
+                "weight": 1
               }
             ]
           }
@@ -107,23 +243,11 @@
       { "level": 50,
         "entries": [
           {
-            "min": 1,
+            "min": 0,
             "max": 1,
             "pool": [
               {
                 "value": "the_vault:enlighted",
-                "weight": 1
-              },
-              {
-                "value": "the_vault:hoard",
-                "weight": 1
-              },
-              {
-                "value": "the_vault:treasure",
-                "weight": 1
-              },
-              {
-                "value": "the_vault:soul_surge",
                 "weight": 1
               },
               {
@@ -140,7 +264,295 @@
               },
               {
                 "value": "the_vault:dummy",
-                "weight": 12
+                "weight": 16
+              }
+            ]
+          },
+          {
+            "min": 0,
+            "max": 3,
+            "pool": [
+              {
+                "value": "the_vault:wooden_bonus",
+                "weight": 4
+              },
+              {
+                "value": "the_vault:wooden_cascade",
+                "weight": 2
+              },
+              {
+                "value": "the_vault:living",
+                "weight": 4
+              },
+              {
+                "value": "the_vault:living_cascade",
+                "weight": 2
+              },
+              {
+                "value": "the_vault:gilded",
+                "weight": 4
+              },
+              {
+                "value": "the_vault:gilded_cascade",
+                "weight": 2
+              },
+              {
+                "value": "the_vault:ornate",
+                "weight": 4
+              },
+              {
+                "value": "the_vault:ornate_cascade",
+                "weight": 2
+              },
+              {
+                "value": "the_vault:coin_pile",
+                "weight": 4
+              },
+              {
+                "value": "the_vault:coin_cascade",
+                "weight": 2
+              },
+              {
+                "value": "the_vault:plentiful",
+                "weight": 4
+              },
+              {
+                "value": "the_vault:rich",
+                "weight": 2
+              },
+              {
+                "value": "the_vault:copious",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:extended",
+                "weight": 4
+              },
+              {
+                "value": "the_vault:optimistic",
+                "weight": 2
+              },
+              {
+                "value": "the_vault:endless",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:item_quantity_1",
+                "weight": 4
+              },
+              {
+                "value": "the_vault:item_quantity_2",
+                "weight": 2
+              },
+              {
+                "value": "the_vault:item_quantity_3",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:item_rarity_1",
+                "weight": 4
+              },
+              {
+                "value": "the_vault:item_rarity_2",
+                "weight": 2
+              },
+              {
+                "value": "the_vault:item_rarity_3",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:looters_dream",
+                "weight": 2
+              },
+              {
+                "value": "woldsvaults:easy",
+                "weight": 2
+              },
+              {
+                "value": "the_vault:swift",
+                "weight": 2
+              },
+              {
+                "value": "the_vault:hare",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:stronk",
+                "weight": 2
+              },
+              {
+                "value": "the_vault:mega_stronk",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:regeneration",
+                "weight": 2
+              },
+              {
+                "value": "the_vault:super_regeneration",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:resilient",
+                "weight": 4
+              },
+              {
+                "value": "the_vault:reinforced",
+                "weight": 2
+              },
+              {
+                "value": "the_vault:indestructible",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:resistive",
+                "weight": 1
+              }
+            ]
+          },
+          {
+            "min": 0,
+            "max": 3,
+            "pool": [
+              {
+                "value": "the_vault:shortened",
+                "weight": 4
+              },
+              {
+                "value": "the_vault:limited",
+                "weight": 2
+              },
+              {
+                "value": "the_vault:depressed",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:thrifty",
+                "weight": 4
+              },
+              {
+                "value": "the_vault:penniless",
+                "weight": 2
+              },
+              {
+                "value": "the_vault:desolute",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:unlucky",
+                "weight": 4
+              },
+              {
+                "value": "the_vault:luckless",
+                "weight": 2
+              },
+              {
+                "value": "the_vault:unfortunate",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:more_traps",
+                "weight": 2
+              },
+              {
+                "value": "woldsvaults:hard",
+                "weight": 2
+              },
+              {
+                "value": "the_vault:slowed",
+                "weight": 2
+              },
+              {
+                "value": "the_vault:turtle",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:weakened",
+                "weight": 2
+              },
+              {
+                "value": "the_vault:weakened_t2",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:tired",
+                "weight": 2
+              },
+              {
+                "value": "the_vault:hunger",
+                "weight": 2
+              },
+              {
+                "value": "the_vault:daycare",
+                "weight": 3
+              },
+              {
+                "value": "the_vault:thiccening",
+                "weight": 3
+              },
+              {
+                "value": "the_vault:furious_mobs",
+                "weight": 4
+              },
+              {
+                "value": "the_vault:raging_mobs",
+                "weight": 2
+              },
+              {
+                "value": "the_vault:brutal_mobs",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:frail",
+                "weight": 4
+              },
+              {
+                "value": "the_vault:fragile",
+                "weight": 2
+              },
+              {
+                "value": "the_vault:destructive",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:mob_increase_2",
+                "weight": 4
+              },
+              {
+                "value": "the_vault:mob_increase_3",
+                "weight": 2
+              },
+              {
+                "value": "the_vault:mob_increase_4",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:rotten",
+                "weight": 2
+              },
+              {
+                "value": "the_vault:fatiguing",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:freezing",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:poisonous",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:wither",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:inert",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:vulnerable",
+                "weight": 1
               }
             ]
           }
