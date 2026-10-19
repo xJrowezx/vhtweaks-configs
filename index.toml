@@ -17504,11 +17504,6 @@ hash = "411f0297f228c957b63ae0d717524fb341c69010466cc5f8c44e2457f105b61d"
 metafile = true
 
 [[files]]
-file = "mods/vaultoptimise.pw.toml"
-hash = "04dc8579ea29270bbdfd57433f6d0389fd3e4616bf70e10844166c841f7f6a9f"
-metafile = true
-
-[[files]]
 file = "mods/vh-scaling-bingo-seals.pw.toml"
 hash = "f3128092cdf94e747e704b734c7832877675e3fad63d2eef46e74d0c0c8cf074"
 metafile = true
