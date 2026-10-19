@@ -14424,6 +14424,82 @@
         "color": "#B2F44B"
       }
     ],
+    "Gambler": [
+      {
+        "text": "Just one more choice and it will solve everything... just one more!\n\n"
+      },
+      {
+        "text": "1 "
+      },
+      {
+        "text": "Add an additional "
+      },
+      {
+        "text": "choice ",
+        "color": "gold"
+      },
+      {
+        "text": "when opening "
+      },
+      {
+        "text": "Booster Packs",
+        "color": "green"
+      },
+      {
+        "text": "."
+      },
+      {
+        "text": "\n\n",
+        "color": "$text"
+      }
+    ],
+    "Surprise_Favors": [
+      {
+        "text": "Gain a "
+      },
+      {
+        "text": "chance ",
+        "color": "yellow"
+      },
+      {
+        "text": "to add additional random positive "
+      },
+      {
+        "text": "Vault Modifiers ",
+        "color": "#B90061"
+      },
+      {
+        "text": "when entering a Vault."
+      },
+      {
+        "text": "\n\n",
+        "color": "$text"
+      },
+      {
+        "text": "1 ",
+        "color": "$text"
+      },
+      {
+        "text": "+20.0%\n",
+        "color": "#FFD700"
+      },
+      {
+        "text": "2 ",
+        "color": "$text"
+      },
+      {
+        "text": "+40.0%\n",
+        "color": "#FFD700"
+      },
+      {
+        "text": "3 ",
+        "color": "$text"
+      },
+      {
+        "text": "+60.0%\n",
+        "color": "#FFD700"
+      }
+    ],
     "Altar Automation": [
       {
         "text": "Unlocks the "

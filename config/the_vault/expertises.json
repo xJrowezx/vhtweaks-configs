@@ -622,6 +622,55 @@
             "unlockLevel": 20
           }
         ]
+      },
+      {
+        "type": "tiered",
+        "id": "Gambler",
+        "name": "Gambler",
+        "tiers": [
+          {
+            "type": "gambler",
+            "additionalChoices": 1,
+            "learnPointCost": 1,
+            "regretPointCost": 0,
+            "unlockLevel": 0
+          },
+          {
+            "type": "gambler",
+            "additionalChoices": 2,
+            "learnPointCost": 1,
+            "regretPointCost": 0,
+            "unlockLevel": 0
+          }
+        ]
+      },
+      {
+        "type": "tiered",
+        "id": "Surprise_Favors",
+        "name": "Surprise Favors",
+        "tiers": [
+          {
+            "type": "surprise_favors",
+            "surpriseLevel": 2,
+            "learnPointCost": 1,
+            "regretPointCost": 0,
+            "unlockLevel": 0
+          },
+          {
+            "type": "surprise_favors",
+            "surpriseLevel": 4,
+            "learnPointCost": 1,
+            "regretPointCost": 0,
+            "unlockLevel": 0
+          },
+          {
+            "type": "surprise_favors",
+            "surpriseLevel": 6,
+            "learnPointCost": 1,
+            "regretPointCost": 0,
+            "unlockLevel": 0
+          }
+        ]
       }
     ]
   }

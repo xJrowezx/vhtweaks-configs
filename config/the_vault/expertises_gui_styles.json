@@ -121,6 +121,24 @@
       "y": 60,
       "frameType": "STAR",
       "icon": "the_vault:gui/skills/grave_insurance"
+    },
+    "Navigator": {
+      "x": 280,
+      "y": 0,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/navigator"
+    },
+    "Gambler": {
+      "x": 210,
+      "y": 0,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/gambler"
+    },
+    "Surprise_Favors": {
+      "x": 140,
+      "y": 0,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/ward"
     }
   }
 }
