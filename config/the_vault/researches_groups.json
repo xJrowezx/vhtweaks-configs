@@ -32,11 +32,10 @@
     "Production": {
       "title": "Production",
       "research": [
-        "Easy Villagers",
+        "Easy Traders",
         "Cagerium",
         "Mob Spawners",
         "Phytogenic Insulator",
-        "Easy Piglins",
         "Industrial Mob Farm",
         "Botany Pots"
       ],
@@ -66,7 +65,6 @@
         "Flux Networks",
         "Powah",
         "Mekanism Generators",
-        "Creeper Power",
         "Thermal Dynamos",
         "Iron Generators",
         "Botania Flux Field"
@@ -83,8 +81,8 @@
         "Trashcans",
         "Elevators",
         "Waystones",
-        "Vault Compass",
-        "Altar Automation"
+        "Altar Automation",
+        "Angel"
       ],
       "globalCostIncrease": 0.0,
       "groupCostIncrease": {
@@ -97,8 +95,7 @@
           "Modular Routers",
           "Iron Furnaces",
           "Dark Utilities",
-          "Laser IO",
-          "Vault Filters"
+          "Laser IO"
         ],
         "globalCostIncrease": 0.0,
         "groupCostIncrease": {
@@ -122,6 +119,20 @@
       "groupCostIncrease": {
         "Alchemy": 4.0
       }
-  }
+  },
+    "Looting": {
+      "title": "Looting",
+      "research": [
+        "Backpacks",
+        "Big Backpacks",
+        "XL Backpacks",
+        "Stack Upgrading",
+        "Better Recycling"
+      ],
+      "globalCostIncrease": 0.0,
+      "groupCostIncrease": {
+        "Looting": 2.0
+      }
+    }
   }
 }

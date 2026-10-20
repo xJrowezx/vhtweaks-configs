@@ -1666,7 +1666,7 @@ hash = "a16a9a4be39243cce5a953ed2f1f35df791ca86bbebef9638caef4c10f7a3591"
 
 [[files]]
 file = "config/the_vault/expertises_gui_styles.json"
-hash = "64ac95a664c0b275fca9903737fe1afc4366b92d218f0c298d08955c2d5b3688"
+hash = "25742f27f99105c529acd0e05cb63b2be139cc2355e417662f15237590cf02e4"
 
 [[files]]
 file = "config/the_vault/eyesore.json"
@@ -14698,19 +14698,19 @@ hash = "b8481409da66d8e134bc4eafff504923efc3d310f80b6b7a19442e3534c0c9c6"
 
 [[files]]
 file = "config/the_vault/researches.json"
-hash = "aef91d34cfce5a9ae3a649c9fc42e26eeaa564ba01e7d2ac56592301cd060bbe"
+hash = "60be7e585d6ac6b031ff4d2deee9957b59633ffdf2bf12bced5a2ec0debdeb10"
 
 [[files]]
 file = "config/the_vault/researches_groups.json"
-hash = "338c48c6c0de0cd4c5b81f7b5131beeadf04bd3155704d8b2cd6107a75c06f5e"
+hash = "fd86f32f4e0cceec25dce264c642ecca359f5ebb7247ad6044523a955ea91342"
 
 [[files]]
 file = "config/the_vault/researches_groups_styles.json"
-hash = "a54c30c35a98754ba0ee3318a7836e447b245ac62f952f7b4edb76819290c8ea"
+hash = "ce9a93ff1cd2ffc24f9fbc295719b97ff38d393f94ca8eac0d4a755423ed7696"
 
 [[files]]
 file = "config/the_vault/researches_gui_styles.json"
-hash = "eee6e245b007dc3146eeb6875d14eecd6a8bd39726ba26460fa67bdc750c8639"
+hash = "96981aeccab07326a3744481ece59950964f4ce6e28a387d77d3a5350fd9e467"
 
 [[files]]
 file = "config/the_vault/royale_loot.json"
@@ -14762,11 +14762,11 @@ hash = "9c4bfce4394d20d6ff58d706fb4ae4bbcc00cc4d3a888a8521facfe5d6a5d2a9"
 
 [[files]]
 file = "config/the_vault/skill_descriptions.json"
-hash = "6f91ab724724231d92238be9917e5abcf662e6f2ec85dad7f1a0c728ffdc045a"
+hash = "96061a18a80d9d3f69c7dbb62c249b93cc31f0d356db0b5b280f1d08bbfe8ac9"
 
 [[files]]
 file = "config/the_vault/skill_gates.json"
-hash = "e555e5617647336c642467da86bfd7c71c63b0fe41623ca67c6bb2a78fa06f7e"
+hash = "f6ce4e33a36545c5555f05294d324337eeb3061d3bf239bc8a124f73ea3c4e05"
 
 [[files]]
 file = "config/the_vault/skill_scrolls.json"
@@ -14834,7 +14834,7 @@ hash = "c6cae2134c89e6c6561b00bcf5c6f1fe77fe34724b42594bec377025c8596370"
 
 [[files]]
 file = "config/the_vault/trinket.json"
-hash = "50068625d086b64c6d2d26d620e692bfcbadc34eccbd156ae878706e249d61f8"
+hash = "b864deaa937fb0b0f3e54f535689ee31a64887eb65f456cd49ea37e63b94c9f1"
 
 [[files]]
 file = "config/the_vault/trinket_combinations.json"

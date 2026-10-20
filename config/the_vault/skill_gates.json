@@ -285,11 +285,11 @@
         "ignoreArrow": true,
         "lockedBy": []
       },
-      "Backpacks": {
+      "XL Backpacks": {
         "dependsOn": [
           {
             "type": "constant",
-            "id": "Belts"
+            "id": "Big Backpacks"
           }
         ],
         "ignoreArrow": true,
@@ -339,7 +339,7 @@
         "dependsOn": [
           {
             "type": "constant",
-            "id": "Barrels"
+            "id": "Applied Energistics"
           },
           {
             "type": "constant",
@@ -347,12 +347,38 @@
           },
           {
             "type": "constant",
-            "id": "Refined Storage"
+            "id": "Sophisticated Interface"
           },
           {
             "type": "constant",
-            "id": "Applied Energistics"
+            "id": "Sophisticated Storage"
           },
+          {
+            "type": "constant",
+            "id": "Barrels"
+          },
+
+          {
+            "type": "constant",
+            "id": "Backpacks"
+          },
+          {
+            "type": "constant",
+            "id": "Big Backpacks"
+          },
+          {
+            "type": "constant",
+            "id": "XL Backpacks"
+          },
+          {
+            "type": "constant",
+            "id": "Stack Upgrading"
+          },
+          {
+            "type": "constant",
+            "id": "Better Recycling"
+          },
+
           {
             "type": "constant",
             "id": "Iron Generators"
@@ -377,62 +403,7 @@
             "type": "constant",
             "id": "Botania Flux Field"
           },
-          {
-            "type": "constant",
-            "id": "Xnet"
-          },
-          {
-            "type": "constant",
-            "id": "Modular Routers"
-          },
-          {
-            "type": "constant",
-            "id": "Iron Furnaces"
-          },
-          {
-            "type": "constant",
-            "id": "Dark Utilities"
-          },
-          {
-            "type": "constant",
-            "id": "Botania"
-          },
-          {
-            "type": "constant",
-            "id": "Mekanism"
-          },
-          {
-            "type": "constant",
-            "id": "Thermal Expansion"
-          },
-          {
-            "type": "constant",
-            "id": "Create"
-          },
-          {
-            "type": "constant",
-            "id": "Waystones"
-          },
-          {
-            "type": "constant",
-            "id": "Torch Master"
-          },
-          {
-            "type": "constant",
-            "id": "Trashcans"
-          },
-          {
-            "type": "constant",
-            "id": "Elevators"
-          },
-          {
-            "type": "constant",
-            "id": "Vault Compass"
-          },
-          {
-            "type": "constant",
-            "id": "Altar Automation"
-          },
+
           {
             "type": "constant",
             "id": "Building Gadgets"
@@ -451,11 +422,62 @@
           },
           {
             "type": "constant",
-            "id": "Easy Villagers"
+            "id": "Entangled"
+          },
+
+          {
+            "type": "constant",
+            "id": "Botania"
           },
           {
             "type": "constant",
-            "id": "Easy Piglins"
+            "id": "Mekanism"
+          },
+          {
+            "type": "constant",
+            "id": "Thermal Expansion"
+          },
+          {
+            "type": "constant",
+            "id": "Create"
+          },
+          {
+            "type": "constant",
+            "id": "Pneumaticraft"
+          },
+          {
+            "type": "constant",
+            "id": "Industrial Foregoing"
+          },
+
+          {
+            "type": "constant",
+            "id": "Waystones"
+          },
+          {
+            "type": "constant",
+            "id": "Torch Master"
+          },
+          {
+            "type": "constant",
+            "id": "Trashcans"
+          },
+          {
+            "type": "constant",
+            "id": "Elevators"
+          },
+          {
+            "type": "constant",
+            "id": "Altar Automation"
+          },
+          {
+            "type": "constant",
+            "id": "Angel"
+          },
+
+          {
+            "type": "constant",
+            "id": "Easy Traders"
           },
           {
             "type": "constant",
@@ -475,8 +497,34 @@
           },
           {
             "type": "constant",
+            "id": "Industrial Mob Farm"
+          },
+          {
+            "type": "constant",
             "id": "Phytogenic Insulator"
           },
+
+          {
+            "type": "constant",
+            "id": "Xnet"
+          },
+          {
+            "type": "constant",
+            "id": "Modular Routers"
+          },
+          {
+            "type": "constant",
+            "id": "Iron Furnaces"
+          },
+          {
+            "type": "constant",
+            "id": "Dark Utilities"
+          },
+          {
+            "type": "constant",
+            "id": "Laser IO"
+          },
+
           {
             "type": "constant",
             "id": "Potions"
@@ -491,31 +539,27 @@
           },
           {
             "type": "constant",
-            "id": "Sophisticated Storage"
+            "id": "Vault Compass"
           },
           {
             "type": "constant",
-            "id": "Sophisticated Interface"
+            "id": "Map Markers"
           },
           {
             "type": "constant",
-            "id": "Laser IO"
+            "id": "Vault Map"
           },
           {
             "type": "constant",
-            "id": "Pneumaticraft"
+            "id": "Vault Decks"
           },
           {
             "type": "constant",
-            "id": "Industrial Foregoing"
+            "id": "Augment Station"
           },
           {
             "type": "constant",
-            "id": "Industrial Mob Farm"
-          },
-          {
-            "type": "constant",
-            "id": "Entangled"
+            "id": "Soul Harvester"
           }
         ],
         "ignoreArrow": true,
@@ -524,17 +568,8 @@
       "Altar Automation": {
         "dependsOn": [
           {
-            "type": "either",
-            "gates": [
-              {
-                "type": "constant",
-                "id": "Refined Storage"
-              },
-              {
-                "type": "constant",
-                "id": "Applied Energistics"
-              }
-            ]
+            "type": "constant",
+            "id": "Applied Energistics"
           }
         ],
         "ignoreArrow": true,

@@ -14,10 +14,10 @@
       "group": "Handling",
       "headerColor": -5434281,
       "headerTextColor": -1,
-      "x": -10,
+      "x": 180,
       "y": 215,
       "boxWidth": 170,
-      "boxHeight": 145,
+      "boxHeight": 105,
       "icon": "the_vault:gui/research_groups/handling"
     },
     "BigToys": {
@@ -34,10 +34,10 @@
       "group": "Power",
       "headerColor": -3790808,
       "headerTextColor": -1,
-      "x": 180,
+      "x": 370,
       "y": -25,
       "boxWidth": 170,
-      "boxHeight": 145,
+      "boxHeight": 105,
       "icon": "the_vault:gui/research_groups/power"
     },
     "QoL": {
@@ -54,8 +54,8 @@
       "group": "Production",
       "headerColor": -10603087,
       "headerTextColor": -1,
-      "x": 180,
-      "y": 135,
+      "x": -10,
+      "y": 215,
       "boxWidth": 170,
       "boxHeight": 145,
       "icon": "the_vault:gui/research_groups/farming"
@@ -64,8 +64,8 @@
       "group": "BigMods",
       "headerColor": -13070788,
       "headerTextColor": -1,
-      "x": 370,
-      "y": -25,
+      "x": 180,
+      "y": 95,
       "boxWidth": 170,
       "boxHeight": 105,
       "icon": "the_vault:gui/research_groups/processing"
@@ -77,7 +77,7 @@
       "x": 180,
       "y": -25,
       "boxWidth": 170,
-      "boxHeight": 145,
+      "boxHeight": 105,
       "icon": "the_vault:gui/research_groups/looting"
     },
     "Alchemy": {

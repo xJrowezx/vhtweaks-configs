@@ -403,29 +403,7 @@
     },
     {
       "modIds": [
-        "easy_villagers"
-      ],
-      "restrictions": {
-        "restricts": {
-          "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
-          "USABILITY": false,
-          "CRAFTABILITY": true,
-          "ENTITY_INTERACTABILITY": false
-        }
-      },
-      "name": "Easy Villagers",
-      "cost": 2,
-      "usesKnowledge": true,
-      "discoversModels": [
-        "the_vault:gear/armor/villager/helmet",
-        "the_vault:gear/armor/villager/chestplate",
-        "the_vault:gear/armor/villager/leggings",
-        "the_vault:gear/armor/villager/boots"
-      ]
-    },
-    {
-      "modIds": [
+        "easy_villagers",
         "easy_piglins"
       ],
       "restrictions": {
@@ -437,9 +415,15 @@
           "ENTITY_INTERACTABILITY": false
         }
       },
-      "name": "Easy Piglins",
-      "cost": 2,
-      "usesKnowledge": true
+      "name": "Easy Traders",
+      "cost": 4,
+      "usesKnowledge": true,
+      "discoversModels": [
+        "the_vault:gear/armor/villager/helmet",
+        "the_vault:gear/armor/villager/chestplate",
+        "the_vault:gear/armor/villager/leggings",
+        "the_vault:gear/armor/villager/boots"
+      ]
     },
     {
       "modIds": [
@@ -633,23 +617,6 @@
         "the_vault:gear/armor/meka_dark/leggings",
         "the_vault:gear/armor/meka_dark/boots"
       ]
-    },
-    {
-      "modIds": [
-        "creeperpower"
-      ],
-      "restrictions": {
-        "restricts": {
-          "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
-          "USABILITY": false,
-          "CRAFTABILITY": true,
-          "ENTITY_INTERACTABILITY": false
-        }
-      },
-      "name": "Creeper Power",
-      "cost": 1,
-      "usesKnowledge": true
     }
   ],
   "CUSTOM_RESEARCHES": [
@@ -1406,8 +1373,51 @@
       "usesKnowledge": true
     },
     {
+      "itemRestrictions": {},
+      "blockRestrictions": {},
+      "entityRestrictions": {},
+      "name": "Vault Decks",
+      "cost": 12,
+      "usesKnowledge": true
+    },
+    {
       "itemRestrictions": {
-        "create:attribute_filter": {
+        "woldsvaults:chromatic_iron_angel_ring": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "woldsvaults:chromatic_gold_angel_ring": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "woldsvaults:chromatic_steel_angel_ring": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "woldsvaults:black_chromatic_steel_angel_ring": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "woldsvaults:prismatic_angel_ring": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "the_vault:angel_block": {
           "restricts": {
             "HITTABILITY": true,
             "USABILITY": true,
@@ -1417,16 +1427,128 @@
       },
       "blockRestrictions": {},
       "entityRestrictions": {},
-      "name": "Vault Filters",
-      "cost": 12,
+      "name": "Angel",
+      "cost": 8,
+      "usesKnowledge": true,
+      "discoversModels": [
+        "the_vault:gear/armor/angel/helmet",
+        "the_vault:gear/armor/angel/chestplate",
+        "the_vault:gear/armor/angel/leggings",
+        "the_vault:gear/armor/angel/boots"
+      ]
+    },
+    {
+      "itemRestrictions": {
+        "sophisticatedbackpacks:stack_upgrade_tier_1": {
+          "restricts": {
+            "HITTABILITY": false,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        },
+        "sophisticatedbackpacks:stack_upgrade_tier_2": {
+          "restricts": {
+            "HITTABILITY": false,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        },
+        "sophisticatedbackpacks:stack_upgrade_tier_3": {
+          "restricts": {
+            "HITTABILITY": false,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        },
+        "sophisticatedbackpacks:stack_upgrade_tier_4": {
+          "restricts": {
+            "HITTABILITY": false,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        }
+      },
+      "blockRestrictions": {},
+      "entityRestrictions": {},
+      "name": "Stack Upgrading",
+      "cost": 1,
       "usesKnowledge": true
     },
     {
-      "itemRestrictions": {},
+      "itemRestrictions": {
+        "sophisticatedbackpacks:diamond_backpack": {
+          "restricts": {
+            "HITTABILITY": false,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        }
+      },
       "blockRestrictions": {},
       "entityRestrictions": {},
-      "name": "Vault Decks",
-      "cost": 12,
+      "name": "Backpacks",
+      "cost": 2,
+      "usesKnowledge": true
+    },
+    {
+      "itemRestrictions": {
+        "sophisticatedbackpacks:netherite_backpack": {
+          "restricts": {
+            "HITTABILITY": false,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        }
+      },
+      "blockRestrictions": {},
+      "entityRestrictions": {},
+      "name": "Big Backpacks",
+      "cost": 3,
+      "usesKnowledge": true,
+      "discoversModels": [
+        "the_vault:gear/armor/scout/helmet",
+        "the_vault:gear/armor/scout/chestplate",
+        "the_vault:gear/armor/scout/leggings",
+        "the_vault:gear/armor/scout/boots"
+      ]
+    },
+    {
+      "itemRestrictions": {
+        "woldsvaults:xl_backpack": {
+          "restricts": {
+            "HITTABILITY": false,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        }
+      },
+      "blockRestrictions": {},
+      "entityRestrictions": {},
+      "name": "XL Backpacks",
+      "cost": 5,
+      "usesKnowledge": true
+    },
+    {
+      "itemRestrictions": {
+        "the_vault:vault_harvester": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "woldsvaults:vault_salvager": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        }
+      },
+      "blockRestrictions": {},
+      "entityRestrictions": {},
+      "name": "Better Recycling",
+      "cost": 2,
       "usesKnowledge": true
     }
   ]
