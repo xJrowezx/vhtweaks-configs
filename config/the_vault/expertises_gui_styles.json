@@ -24,12 +24,6 @@
       "frameType": "STAR",
       "icon": "the_vault:gui/skills/jeweller"
     },
-    "Angel": {
-      "x": 210,
-      "y": 240,
-      "frameType": "STAR",
-      "icon": "the_vault:gui/skills/angel"
-    },
     "Bounty_Hunter": {
       "x": 140,
       "y": 240,

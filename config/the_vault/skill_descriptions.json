@@ -3210,18 +3210,6 @@
     "Elvish": {
       "text": "Permanently remove all possible fall damage."
     },
-    "Angel": [
-      {
-        "text": "Grants the ability to craft "
-      },
-      {
-        "text": "Angel Block",
-        "color": "#FF2EFF"
-      },
-      {
-        "text": " and have them grant you Creative Flight. Angel blocks cannot be placed inside vaults, and have a radius of 64 blocks per block."
-      }
-    ],
     "Reach": [
       {
         "text": "Passively increases your "
@@ -14571,25 +14559,6 @@
         "text": "\n "
       }
     ],
-    "Stack Upgrading": [
-      {
-        "text": "Unlocks the ability to craft "
-      },
-      {
-        "text": "Stack Upgrades",
-        "color": "yellow"
-      },
-      {
-        "text": " for your pouches, belts & backpacks!\n\n"
-      },
-      {
-        "text": "Stack Upgrades",
-        "color": "yellow"
-      },
-      {
-        "text": " increases the amount of items that can be stored in a single slot and there are 4 different tiers that can be crafted."
-      }
-    ],
     "Auto Refill": [
       {
         "text": "Unlocks the ability to craft "
@@ -14650,30 +14619,6 @@
       },
       {
         "text": ", which offers more storage space than Double Pouches."
-      }
-    ],
-    "Backpacks": [
-      {
-        "text": "Unlocks the ability to craft "
-      },
-      {
-        "text": "Backpacks",
-        "color": "yellow"
-      },
-      {
-        "text": ", which offers more storage space and two more upgrade slots than Belts."
-      }
-    ],
-    "Big Backpacks": [
-      {
-        "text": "Unlocks the ability to craft "
-      },
-      {
-        "text": "Big Backpacks",
-        "color": "yellow"
-      },
-      {
-        "text": ", which offers more storage space and two more upgrade slots than Backpacks."
       }
     ],
     "Intelligence": [{"text":"Increase your "},{"text":"Ability Power ","color":"#FF00CB"},{"text":"\n\n","color":"$text"},{"text":"1 ","color":"$text"},{"text":"+4.0\n","color":"#FF00CB"},{"text":"2 ","color":"$text"},{"text":"+8.0\n","color":"#FF00CB"},{"text":"3 ","color":"$text"},{"text":"+16.0\n","color":"#FF00CB"},{"text":"4 ","color":"$text"},{"text":"+24.0\n","color":"#FF00CB"},{"text":"\n\nOverlevels\n","color":"#EFBF04"},{"text":"------------","color":"#EFBF04"},{"text":"\n","color":"$text"},{"text":"5 ","color":"$text"},{"text":"+32.0\n","color":"#FF00CB"},{"text":"6 ","color":"$text"},{"text":"+40.0\n","color":"#FF00CB"},{"text":"7 ","color":"$text"},{"text":"+48.0\n","color":"#FF00CB"},{"text":"8 ","color":"$text"},{"text":"+56.0\n","color":"#FF00CB"},{"text":"9 ","color":"$text"},{"text":"+64.0\n","color":"#FF00CB"},{"text":"10 ","color":"$text"},{"text":"+72.0\n","color":"#FF00CB"},{"text":"11 ","color":"$text"},{"text":"+80.0\n","color":"#FF00CB"},{"text":"12 ","color":"$text"},{"text":"+88.0\n","color":"#FF00CB"},{"text":"13 ","color":"$text"},{"text":"+96.0\n","color":"#FF00CB"},{"text":"14 ","color":"$text"},{"text":"+104.0\n","color":"#FF00CB"},{"text":"15 ","color":"$text"},{"text":"+112.0\n","color":"#FF00CB"},{"text":"16 ","color":"$text"},{"text":"+120.0\n","color":"#FF00CB"},{"text":"17 ","color":"$text"},{"text":"+144.0\n","color":"#FF00CB"},{"text":"18 ","color":"$text"},{"text":"+180.0\n","color":"#FF00CB"}],
@@ -19104,6 +19049,13 @@
         "text": "one additional max stack",
         "color": "#36ffa7"
       }
-    ]
+    ],
+    "Easy Traders": [{"text":""},{"text":"Grants Transmog!","color":"#90FF00"},{"text":"\n"},{"text":"Unlocks the "},{"text":"Easy Villagers ","color":"yellow"},{"text":" and "},{"text":"Easy Piglins ","color":"yellow"},{"text":"mod!\n\nThis mod allows you to store, and interact, with villagers in block form, making it easy and fun to set up trading halls. It can also be used to farm resources with villagers, including iron."},{"text":"mod!\n\nThis mod turns piglin bartering in to a one block solution! Simply pick up a piglin by shift+right-clicking them, and put them in their box. Provide them with gold and they will output their trades in the inventory of the block. It doesn't get easier!"},{"text":"\n\nAdds rewards to "},{"text":"Mod Boxes","color":"aqua"},{"text":"!"}],
+    "Angel": [{"text":""},{"text":"Grants Transmog!","color":"#90FF00"},{"text":"\n"},{"text":"Grants the ability to craft "},{"text":"Angel Blocks","color":"#FF2EFF"},{"text":" and "},{"text":"Vault Angel Rings","color":"yellow"},{"text":", both of which grant Creative Flight.\n\nAngel Blocks have a radius of 64 blocks and cannot be placed inside vaults.\n\nAngel Rings let you fly anywhere while worn, no Angel Block needed, but are disabled inside vaults."}],
+    "Backpacks": [{"text":"Unlocks the ability to craft "},{"text":"Backpacks","color":"yellow"},{"text":", which offers far more storage space and two more upgrade slots than Belts."}],
+    "Big Backpacks": [{"text":"Unlocks the ability to craft "},{"text":"Big Backpacks","color":"yellow"},{"text":", which offers more storage space and two more upgrade slots than Backpacks."}],
+    "XL Backpacks": [{"text":"Unlocks the ability to craft "},{"text":"XL Backpacks","color":"yellow"},{"text":", which offers more storage space and two more upgrade slots than Big Backpacks."}],
+    "Stack Upgrading": [{"text":"Unlocks the ability to craft "},{"text":"Stack Upgrades","color":"yellow"},{"text":" for your pouches, belts & backpacks!\n\n"},{"text":"Stack Upgrades","color":"yellow"},{"text":" increases the amount of items that can be stored in a single slot and there are 4 different tiers that can be crafted."}],
+    "Better Recycling": [{"text":"Unlocks the "},{"text":"Soul Harvester","color":"yellow"},{"text":" and the "},{"text":"Vault Salvager","color":"yellow"},{"text":", two faster ways of breaking items down into "},{"text":"Soul Essence","color":"light_purple"},{"text":".\n\nThe "},{"text":"Vault Salvager","color":"yellow"},{"text":" is the upgraded version of the recycler, a much faster way to recycle gear.\n\nBoth automatically pull from an inventory above and push to an inventory below."}]
   }
 }
