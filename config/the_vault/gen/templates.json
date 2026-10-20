@@ -11626,6 +11626,30 @@
         "type": "structure",
         "path": "config/the_vault/gen/1.0/structures/vault/decor/omega_digsite/digsitesand5.nbt"
       }
+    },
+    {
+      "id": "the_vault:vault/animations/temple/templedoor0",
+      "name": "Temple Room Door 0",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/animations/temple/templedoor0.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/animations/temple/templedoor1",
+      "name": "Temple Room Door 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/animations/temple/templedoor1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/animations/temple/templedoor2",
+      "name": "Temple Room Door 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/animations/temple/templedoor2.nbt"
+      }
     }
   ]
 }
