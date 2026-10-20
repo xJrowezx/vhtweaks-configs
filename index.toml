@@ -4206,7 +4206,7 @@ hash = "79c424bc101d47317e849e3ff80e8030cd687b5be185e412742108ce5807f50e"
 
 [[files]]
 file = "config/the_vault/gen/1.0/palettes/temple/base.json"
-hash = "e12730d644e1f5f90c87e5eb0be077acea57ad11591ccdf070e04343cd4ce07c"
+hash = "1de7d508df645c811c0dac5eb12eff6084958e2bb77f68359fc02553d1374a93"
 
 [[files]]
 file = "config/the_vault/gen/1.0/palettes/treasure_rooms/festive_treasure_rooms.json"
@@ -17130,7 +17130,7 @@ hash = "b808581813c2fcb87858c1bd6b53c24e290cbbcec643c9084785d2b769c6d09b"
 
 [[files]]
 file = "mods/VHTweaks-0.23.2-all.jar"
-hash = "7b03315b718a84c6f1cd5c52ba5bdb3ab2152bb13c6c5191360ff9b60ded987b"
+hash = "dfa1cea90be66300277d43a1e40f6403b4d93dafe5ce8f0976bb370e7ad7ce16"
 
 [[files]]
 file = "mods/additional-lanterns.pw.toml"

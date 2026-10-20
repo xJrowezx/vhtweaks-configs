@@ -48,10 +48,16 @@
             "max": [23, 27, 23]
           },
           "proxyPositions": [
-            [15, -2, 15],
-            [-15, -2, 15],
-            [15, -2, -15],
-            [-15, -2, -15]
+            [2, 0, 2],
+            [-2, 0, 2],
+            [2, 0, -2],
+            [-2, 0, -2]
+          ],
+          "gates": [
+            { "pos": [23, -7, 0], "rotation": 2 },
+            { "pos": [-23, -7, 0], "rotation": 0 },
+            { "pos": [0, -7, 23], "rotation": 3 },
+            { "pos": [0, -7, -23], "rotation": 1 }
           ],
           "positivePool": "positive_temple",
           "negativePool": "negative_temple",
