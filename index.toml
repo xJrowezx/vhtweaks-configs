@@ -5149,6 +5149,18 @@ file = "config/the_vault/gen/1.0/structures/vault/animations/raid/hatch8.nbt"
 hash = "90f6a00d6fc90b51f84f426cf6e424301ec15c06a47463fd833994f41213478d"
 
 [[files]]
+file = "config/the_vault/gen/1.0/structures/vault/animations/temple/templedoor0.nbt"
+hash = "f6b6d18f5dfb07c7052715b2fee3d0567cd3da2cc800ad066656c482d0d3cab6"
+
+[[files]]
+file = "config/the_vault/gen/1.0/structures/vault/animations/temple/templedoor1.nbt"
+hash = "db5c57338064127121f798f383c4809428bacf7584269e8b219430b88bd4c5d4"
+
+[[files]]
+file = "config/the_vault/gen/1.0/structures/vault/animations/temple/templedoor2.nbt"
+hash = "41dbb2cc98342b10006e32a869f775f58dc940d52827fcd07d2fa9c690e24bc7"
+
+[[files]]
 file = "config/the_vault/gen/1.0/structures/vault/animations/x-mark1/cover0.nbt"
 hash = "ef696433071fe56e3e8f0739b0a802b0af641d08975bb168f64db8c3b17e75a9"
 
@@ -14218,7 +14230,7 @@ hash = "f1484853040f730daedea7794cfba57d83cde3f1fab6cef997f13fb5f5d87f60"
 
 [[files]]
 file = "config/the_vault/gen/templates.json"
-hash = "73f4ced3c569dd70cefa7c0955a944a318593bb030e1b397078850389811d002"
+hash = "0b6df5b688a36c0d55664021738320538e4c62acc8677bde83ea6c91b53fd3f6"
 
 [[files]]
 file = "config/the_vault/gen/themes.json"
