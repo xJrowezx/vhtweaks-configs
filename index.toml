@@ -14246,7 +14246,7 @@ hash = "b0a5aa8a79f3bb56b94bad34ccebf0adc102f7fcc658f1f3c23badac1e4b4ba5"
 
 [[files]]
 file = "config/the_vault/gen/loot_tables.json"
-hash = "f160511e2a6b4cedf3c39b6150bd5bc9374545f6627c3f27ff70811c6d6a34d6"
+hash = "10159d8e4e34f145c7dd12b65ca9070f1bfc482fd54bc60eb91e13486516c21b"
 
 [[files]]
 file = "config/the_vault/gen/palettes.json"
