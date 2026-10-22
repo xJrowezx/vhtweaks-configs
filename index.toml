@@ -2514,7 +2514,7 @@ hash = "2fd42d706fec64080b21e8774b0b8038f5c7cd4fca9d2279d21086f11f96fa79"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/wendarr_sand_50.json"
-hash = "442cf30c135df92728849db5c2bde280a0b77a064972b2b6e09394dffdf6cad2"
+hash = "de8db87e1e7575ae33c441f306ff891975e026b6813d0a8792195df85d1626ce"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/wooden_chest_0.json"
@@ -3758,7 +3758,7 @@ hash = "bb4ec26aa651db5f045525005fc70019f37ee3eabd6fc1b9a7017d0d06327510"
 
 [[files]]
 file = "config/the_vault/gen/1.0/palettes/omega_digsite/base2.json"
-hash = "4573db841f8a6e961f4b02f255175dc863f56707456609da4133be4e49fba93e"
+hash = "a0c79c446e5dc7bfe52d4e49b1f78a3ce26ea42e6cc252fe8af08576e51696ee"
 
 [[files]]
 file = "config/the_vault/gen/1.0/palettes/painting/base.json"
@@ -17182,7 +17182,7 @@ hash = "442cf30c135df92728849db5c2bde280a0b77a064972b2b6e09394dffdf6cad2"
 
 [[files]]
 file = "mods/VHTweaks-0.23.2-all.jar"
-hash = "dfa1cea90be66300277d43a1e40f6403b4d93dafe5ce8f0976bb370e7ad7ce16"
+hash = "e29995f3ba9da83b8779593418c70fe32d28e70aa6ab1019fbf4e11f2cd47ce3"
 
 [[files]]
 file = "mods/additional-lanterns.pw.toml"

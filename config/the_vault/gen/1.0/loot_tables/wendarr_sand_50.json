@@ -576,7 +576,7 @@
             {
               "weight": 1,
               "item": {
-                "id": "minecraft:capstone_treasure_hunter",
+                "id": "the_vault:capstone_treasure_hunter",
                 "count": {
                   "type": "uniform",
                   "min": 1,

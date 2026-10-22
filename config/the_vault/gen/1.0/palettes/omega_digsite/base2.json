@@ -92,7 +92,7 @@
           "type": "weighted_target",
           "target": "minecraft:yellow_wool",
           "output": {
-            "woldsvaults:wendarr_sand{LootTable:\"the_vault:wendarr_sand_0\"}": 1
+            "the_vault:treasure_sand{LootTable:\"the_vault:digsite_sand_lvl0\"}": 1
           }
         },
         {
