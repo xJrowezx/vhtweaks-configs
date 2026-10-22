@@ -599,6 +599,20 @@
         "value": "bounty",
         "weight": 1.0
       }
+    ],
+    "digsite_sand": [
+      {
+        "value": "equilibrium",
+        "weight": 1.0
+      },
+      {
+        "value": "harvest",
+        "weight": 1.0
+      },
+      {
+        "value": "pure",
+        "weight": 1.0
+      }
     ]
   }
 }

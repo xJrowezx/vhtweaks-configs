@@ -710,24 +710,39 @@
         "level": 0,
         "rollTypeOutcomes": [
           {
-            "value": "Scrappy",
-            "weight": 50
-          },
-          {
-            "value": "Common",
-            "weight": 40
-          },
-          {
             "value": "Rare",
-            "weight": 20
+            "weight": 60
           },
           {
             "value": "Epic",
-            "weight": 6
+            "weight": 30
           },
           {
             "value": "Omega",
-            "weight": 2
+            "weight": 10
+          }
+        ]
+      }
+    ],
+    "gear_digsite_50": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Rare",
+            "weight": 60
+          },
+          {
+            "value": "Epic",
+            "weight": 30
+          },
+          {
+            "value": "Omega",
+            "weight": 10
+          },
+          {
+            "value": "Mythic",
+            "weight": 1
           }
         ]
       }

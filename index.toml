@@ -1490,7 +1490,7 @@ hash = "b6f321e55114d311711979dd83e7150fa8717ae90c770ab0f8cd95730e255766"
 
 [[files]]
 file = "config/the_vault/card/deck_modifiers.json"
-hash = "cc2bf18058d298423bcfc0d0859543ee2f693b982dca2dbcf4e6cd02b922aeaa"
+hash = "98031162bad206545c6e705461957a06e07a814267995be9830b98202142256c"
 
 [[files]]
 file = "config/the_vault/card/decks.json"
@@ -1698,7 +1698,7 @@ hash = "67466c6b37667a2a8e2b4e871ddc277c4f881fa18abc89553f6100b94266a9ce"
 
 [[files]]
 file = "config/the_vault/gear/gear_roll_type_pools.json"
-hash = "7e66d7a99c99a1295b254969fc3adc4d7ba6498b477562ba69d4cc5630f1d907"
+hash = "7fbd84378be08125a5ef2333eb03de6f58d2b838670454fbac1f86c167624c30"
 
 [[files]]
 file = "config/the_vault/gear/gear_tags.json"
@@ -2218,7 +2218,11 @@ hash = "1548ad603b9e6e2e95c05739c40f0d083f4c2c580ef6be2cc5503326b632c8bc"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/digsite_sand_0.json"
-hash = "2fd42d706fec64080b21e8774b0b8038f5c7cd4fca9d2279d21086f11f96fa79"
+hash = "39f05cdccddb1592a9c6cf254d8efc48859e2b726d77eb1c604f146d022692b9"
+
+[[files]]
+file = "config/the_vault/gen/1.0/loot_tables/digsite_sand_50.json"
+hash = "9d5018cc05fe88d9e4990a6962aa8a6d285d4a4013a98bd0e2e847be2e965d03"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/dragon_goblins/cards.json"
@@ -2319,6 +2323,10 @@ hash = "96824979e3bcca04b3fb15fc2248bb2dbd62264aa501ce3110b3b9a8bb151d45"
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/hardened_chest_0.json"
 hash = "33f56d38069c167ddeb2aedfab30ace6748379b7d5e035c8759d040ee87ff036"
+
+[[files]]
+file = "config/the_vault/gen/1.0/loot_tables/idona_sand_100.json"
+hash = "486cf29a3f1ae00a6f0ba194fb7b9c8ac81b438c59a7e4c7fe8a6fe9b6fe5512"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/living_chest_0.json"
@@ -2445,6 +2453,10 @@ file = "config/the_vault/gen/1.0/loot_tables/rune_loot_lvl50.json"
 hash = "7e393eabc6fa02ffb065a6d4dbf8d9753839895d7e92a0b6714442779eb3fe0f"
 
 [[files]]
+file = "config/the_vault/gen/1.0/loot_tables/tenos_sand_100.json"
+hash = "2fd42d706fec64080b21e8774b0b8038f5c7cd4fca9d2279d21086f11f96fa79"
+
+[[files]]
 file = "config/the_vault/gen/1.0/loot_tables/test_table.json"
 hash = "66d6c80d9e1e92fa7f36da12ec1e44170bc4cdfc3273c7bf943e4adf305e8c19"
 
@@ -2479,6 +2491,14 @@ hash = "d6d0125ac21c009235491836c8892e134cf2c0897c3ecb78bf6fa8e891e43ee0"
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/unique_crates/village.json"
 hash = "785b4c644f578eb609bae66118dfd6e001ff94bbd694b3b500cbb1d9d98f9113"
+
+[[files]]
+file = "config/the_vault/gen/1.0/loot_tables/velara_sand_100.json"
+hash = "2fd42d706fec64080b21e8774b0b8038f5c7cd4fca9d2279d21086f11f96fa79"
+
+[[files]]
+file = "config/the_vault/gen/1.0/loot_tables/wendarr_sand_100.json"
+hash = "2fd42d706fec64080b21e8774b0b8038f5c7cd4fca9d2279d21086f11f96fa79"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/wooden_chest_0.json"
@@ -3722,7 +3742,7 @@ hash = "bb4ec26aa651db5f045525005fc70019f37ee3eabd6fc1b9a7017d0d06327510"
 
 [[files]]
 file = "config/the_vault/gen/1.0/palettes/omega_digsite/base2.json"
-hash = "687acdcbb1ef425d3b597aaf0c9aaf1af43e89d0771f6fdd796c188af01a9ab1"
+hash = "4573db841f8a6e961f4b02f255175dc863f56707456609da4133be4e49fba93e"
 
 [[files]]
 file = "config/the_vault/gen/1.0/palettes/painting/base.json"
@@ -8810,19 +8830,19 @@ hash = "a6ee20fe0dcb03fdcc2d0b0f3534e07f3ffa431a233173f74f11dd2389df2b9b"
 
 [[files]]
 file = "config/the_vault/gen/1.0/structures/vault/decor/omega_digsite/digsitesand1.nbt"
-hash = "b4740ff9ea5ed9ccfba6610ef4d53d3b2a627219b3918ca58718222197aaeb46"
+hash = "f179be78f7de6bc427d9042dd343066c0052a1f0b0ea53ab17337ca8cbcbf59d"
 
 [[files]]
 file = "config/the_vault/gen/1.0/structures/vault/decor/omega_digsite/digsitesand2.nbt"
-hash = "779554af8890638e40d65ceec36d5c9a8faeaf4ed9de1a783d7da7dfec81f525"
+hash = "02d9d7e0ad3b83329b59e8623e53cc3817e8f2472e96d650a95e91a73270daa1"
 
 [[files]]
 file = "config/the_vault/gen/1.0/structures/vault/decor/omega_digsite/digsitesand3.nbt"
-hash = "9c8ff30aaa1940ed748ce652be6625604324289058011c5d221b56f6d9722be9"
+hash = "024866551e2c37af1c4a1b690231aa839bc92317150e2d5d8d758f2cfe8856f1"
 
 [[files]]
 file = "config/the_vault/gen/1.0/structures/vault/decor/omega_digsite/digsitesand4.nbt"
-hash = "2dc718035cdc19eb9979aab92e74b1c151d1db24ee0c9e496dc84fc73230e9fc"
+hash = "8e56b0e6db38387d22925ebc34135c9d3ed484041350cc24c60a3f82465fd7d1"
 
 [[files]]
 file = "config/the_vault/gen/1.0/structures/vault/decor/omega_digsite/digsitesand5.nbt"
@@ -10190,7 +10210,7 @@ hash = "12f276272247b6acdded8b0cb963adb54017e5cb84076a4999b13d7d14bd21c4"
 
 [[files]]
 file = "config/the_vault/gen/1.0/structures/vault/rooms/omega/omega_digsite2.nbt"
-hash = "64ae647e444e5658559477ddcbf229048e96d80e38003e9a3183d11a10a6939f"
+hash = "0ff95a6cb3e40ac31c93e8ecd93eedecd5b4cd557342a1f46192accfec32fb40"
 
 [[files]]
 file = "config/the_vault/gen/1.0/structures/vault/rooms/omega/painting1.nbt"
@@ -11226,7 +11246,7 @@ hash = "d258e34c51f1eb38595ccbdc765be809eb6f16de13a803a4936cb04780544619"
 
 [[files]]
 file = "config/the_vault/gen/1.0/template_pools/vault/decor/omega_digsite/sand.json"
-hash = "a5d6f26b8b1efd99a0e94d25b4555c23ffa2b5040997c70679c2da2f53b1890d"
+hash = "908450912b145c989509bc3470aed2e51ef754092a53e4ca2fa57fff6e508de5"
 
 [[files]]
 file = "config/the_vault/gen/1.0/template_pools/vault/decor/painting/brush1.json"
@@ -14210,7 +14230,7 @@ hash = "b0a5aa8a79f3bb56b94bad34ccebf0adc102f7fcc658f1f3c23badac1e4b4ba5"
 
 [[files]]
 file = "config/the_vault/gen/loot_tables.json"
-hash = "05804c0120830f0051519b296550b9f6b275cb4057803adec7874812366970b8"
+hash = "f160511e2a6b4cedf3c39b6150bd5bc9374545f6627c3f27ff70811c6d6a34d6"
 
 [[files]]
 file = "config/the_vault/gen/palettes.json"
@@ -17127,6 +17147,22 @@ hash = "444c01ef883ad1d277a8e6080cb499ff323449a942be98e8e958ff3a049ee319"
 [[files]]
 file = "kubejs/startup_scripts/script.js"
 hash = "b808581813c2fcb87858c1bd6b53c24e290cbbcec643c9084785d2b769c6d09b"
+
+[[files]]
+file = "minecraft/config/the_vault/gen/1.0/loot_tables/idona_sand_50.json"
+hash = "b9d3249283f22ad6cba31cd7e7eb0d85eb9253c048dcc4520047fd5b38b40e9a"
+
+[[files]]
+file = "minecraft/config/the_vault/gen/1.0/loot_tables/tenos_sand_50.json"
+hash = "0b171e1398606cdf9fea079f2e60ffdd4141488b0dc6260f57eac1492e3e4add"
+
+[[files]]
+file = "minecraft/config/the_vault/gen/1.0/loot_tables/velara_sand_50.json"
+hash = "4c2b0aba7ba0714b3e542250292b3831e7aded18c4ad542e45c07e7b1b054f3f"
+
+[[files]]
+file = "minecraft/config/the_vault/gen/1.0/loot_tables/wendarr_sand_50.json"
+hash = "442cf30c135df92728849db5c2bde280a0b77a064972b2b6e09394dffdf6cad2"
 
 [[files]]
 file = "mods/VHTweaks-0.23.2-all.jar"

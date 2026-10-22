@@ -1,39 +1,109 @@
 {
   "tile_processors": [
     {
-      "type": "weighted_target",
-      "target": "minecraft:yellow_concrete",
-      "output": {
-        "the_vault:treasure_sand{LootTable:\"the_vault:digsite_sand_lvl0\"}" : 1
-      }
+      "type": "leveled",
+      "levels": [
+        {
+          "level": 0,
+          "type": "weighted_target",
+          "target": "minecraft:yellow_concrete",
+          "output": {
+            "the_vault:treasure_sand{LootTable:\"the_vault:digsite_sand_lvl0\"}": 1
+          }
+        },
+        {
+          "level": 50,
+          "type": "weighted_target",
+          "target": "minecraft:yellow_concrete",
+          "output": {
+            "the_vault:treasure_sand{LootTable:\"the_vault:digsite_sand_lvl50\"}": 1
+          }
+        }
+      ]
     },
     {
-      "type": "weighted_target",
-      "target": "minecraft:blue_wool",
-      "output": {
-        "woldsvaults:tenos_sand{LootTable:\"the_vault:digsite_sand_lvl0\"}" : 1
-      }
+      "type": "leveled",
+      "levels": [
+        {
+          "level": 0,
+          "type": "weighted_target",
+          "target": "minecraft:red_wool",
+          "output": {
+            "the_vault:treasure_sand{LootTable:\"the_vault:digsite_sand_lvl0\"}": 1
+          }
+        },
+        {
+          "level": 50,
+          "type": "weighted_target",
+          "target": "minecraft:red_wool",
+          "output": {
+            "woldsvaults:idona_sand{LootTable:\"the_vault:idona_sand_50\"}": 1
+          }
+        }
+      ]
     },
     {
-      "type": "weighted_target",
-      "target": "minecraft:green_wool",
-      "output": {
-        "woldsvaults:velara_sand{LootTable:\"the_vault:digsite_sand_lvl0\"}" : 1
-      }
+      "type": "leveled",
+      "levels": [
+        {
+          "level": 0,
+          "type": "weighted_target",
+          "target": "minecraft:blue_wool",
+          "output": {
+            "the_vault:treasure_sand{LootTable:\"the_vault:digsite_sand_lvl0\"}": 1
+          }
+        },
+        {
+          "level": 50,
+          "type": "weighted_target",
+          "target": "minecraft:blue_wool",
+          "output": {
+            "woldsvaults:tenos_sand{LootTable:\"the_vault:tenos_sand_50\"}": 1
+          }
+        }
+      ]
     },
     {
-      "type": "weighted_target",
-      "target": "minecraft:red_wool",
-      "output": {
-        "woldsvaults:idona_sand{LootTable:\"the_vault:digsite_sand_lvl0\"}" : 1
-      }
+      "type": "leveled",
+      "levels": [
+        {
+          "level": 0,
+          "type": "weighted_target",
+          "target": "minecraft:green_wool",
+          "output": {
+            "the_vault:treasure_sand{LootTable:\"the_vault:digsite_sand_lvl0\"}": 1
+          }
+        },
+        {
+          "level": 50,
+          "type": "weighted_target",
+          "target": "minecraft:green_wool",
+          "output": {
+            "woldsvaults:velara_sand{LootTable:\"the_vault:velara_sand_50\"}": 1
+          }
+        }
+      ]
     },
     {
-      "type": "weighted_target",
-      "target": "minecraft:yellow_wool",
-      "output": {
-        "woldsvaults:wendarr_sand{LootTable:\"the_vault:digsite_sand_lvl0\"}" : 1
-      }
+      "type": "leveled",
+      "levels": [
+        {
+          "level": 0,
+          "type": "weighted_target",
+          "target": "minecraft:yellow_wool",
+          "output": {
+            "woldsvaults:wendarr_sand{LootTable:\"the_vault:wendarr_sand_0\"}": 1
+          }
+        },
+        {
+          "level": 50,
+          "type": "weighted_target",
+          "target": "minecraft:yellow_wool",
+          "output": {
+            "woldsvaults:wendarr_sand{LootTable:\"the_vault:wendarr_sand_50\"}": 1
+          }
+        }
+      ]
     },
     {
       "type": "reference",
