@@ -4401,6 +4401,11 @@
       "id": "the_vault:vault/rooms/nonparadox/wendarr/omega/pixel",
       "name": "Wendarr Pixel",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/wendarr/omega/pixel.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/omega/garden",
+      "name": "Garden",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/omega/garden.json"
     }
   ]
 }

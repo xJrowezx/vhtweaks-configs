@@ -2529,6 +2529,11 @@
       "id": "the_vault:universal_idona_normal",
       "name": "Universal Idona",
       "1.0": "config/the_vault/gen/1.0/palettes/universal_idona_normal.json"
+    },
+    {
+      "id": "the_vault:garden/base",
+      "name": "Garden Base",
+      "1.0": "config/the_vault/gen/1.0/palettes/garden/base.json"
     }
   ]
 }
