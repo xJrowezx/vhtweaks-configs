@@ -1,43 +1,120 @@
 [
   {
-    "weight": 1,
-    "reference": "the_vault:vault/rooms/omega/digsite2"
-  },
-  {
-    "weight": 0,
-    "reference": "the_vault:vault/rooms/omega/trove"
-  },
-  {
     "weight": 7,
-    "reference": "the_vault:vault/rooms/omega/painting"
+    "reference": {
+      "id": "the_vault:vault/rooms/omega/painting",
+      "conditions": [
+        {
+          "type": "level",
+          "min": 20,
+          "max": -1
+        }
+      ]
+    }
   },
   {
     "weight": 3,
-    "reference": "the_vault:vault/rooms/omega/mine_blood"
+    "reference": {
+      "id": "the_vault:vault/rooms/omega/mine_blood",
+      "conditions": [
+        {
+          "type": "level",
+          "min": 20,
+          "max": -1
+        }
+      ]
+    }
   },
   {
     "weight": 7,
-    "reference": "the_vault:vault/rooms/omega/blacksmith"
+    "reference": {
+      "id": "the_vault:vault/rooms/omega/blacksmith",
+      "conditions": [
+        {
+          "type": "level",
+          "min": 20,
+          "max": -1
+        }
+      ]
+    }
   },
   {
     "weight": 7,
-    "reference": "the_vault:vault/rooms/omega/cove"
+    "reference": {
+      "id": "the_vault:vault/rooms/omega/cove",
+      "conditions": [
+        {
+          "type": "level",
+          "min": 20,
+          "max": -1
+        }
+      ]
+    }
   },
   {
     "weight": 7,
-    "reference": "the_vault:vault/rooms/omega/mush_room"
+    "reference": {
+      "id": "the_vault:vault/rooms/omega/mush_room",
+      "conditions": [
+        {
+          "type": "level",
+          "min": 20,
+          "max": -1
+        }
+      ]
+    }
   },
   {
     "weight": 7,
-    "reference": "the_vault:vault/rooms/omega/library"
+    "reference": {
+      "id": "the_vault:vault/rooms/omega/library",
+      "conditions": [
+        {
+          "type": "level",
+          "min": 20,
+          "max": -1
+        }
+      ]
+    }
   },
   {
     "weight": 7,
-    "reference": "the_vault:vault/rooms/omega/pixel"
+    "reference": {
+      "id": "the_vault:vault/rooms/omega/pixel",
+      "conditions": [
+        {
+          "type": "level",
+          "min": 20,
+          "max": -1
+        }
+      ]
+    }
   },
   {
     "weight": 1,
-    "reference": "the_vault:vault/rooms/omega/trove"
+    "reference": {
+      "id": "the_vault:vault/rooms/omega/digsite2",
+      "conditions": [
+        {
+          "type": "level",
+          "min": 20,
+          "max": -1
+        }
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "reference": {
+      "id": "the_vault:vault/rooms/omega/garden",
+      "conditions": [
+        {
+          "type": "level",
+          "min": 20,
+          "max": -1
+        }
+      ]
+    }
   },
   {
     "weight": 1,
