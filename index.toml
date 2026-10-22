@@ -17895,11 +17895,6 @@ hash = "35fabe0ac1bebd7cd8530db45a164838ee1a5687cefcb6bbef2b5d42afac8701"
 metafile = true
 
 [[files]]
-file = "mods/lightspeedmod.pw.toml"
-hash = "b86d39f947be84f146135e741be2dcdb2e79a52bd26c64eeed4da326f3e4c3ca"
-metafile = true
-
-[[files]]
 file = "mods/macaws-bridges.pw.toml"
 hash = "35acacd4dfd3a1b1ea21bcb2f5708819163fe52fa39588b48e1d0a4df04eb42d"
 metafile = true
