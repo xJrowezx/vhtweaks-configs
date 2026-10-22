@@ -1726,7 +1726,7 @@ hash = "a2d15b4ec62d8d3d0e8e6207a7ed6575a8df2e3c698dc4427ddd82b23612563e"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/battlestaff.json"
-hash = "6bc8f041f3b6ca8837bce94c4fe9764c8b526d037425a8d815af13aa82d8053f"
+hash = "3bbc8766ce4ef38a12aac271d906b48deae6534e8c8f0be8871672ad2022f7ac"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/battlestaff_mythic.json"
@@ -1822,7 +1822,7 @@ hash = "fdee218d3d7cf05e6b61fda3b221e198ed47d7622c6eb06ef7c46901d4b31180"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/loot_sack.json"
-hash = "6bc8f041f3b6ca8837bce94c4fe9764c8b526d037425a8d815af13aa82d8053f"
+hash = "ec1425948edbe03fedcd90bc6c0719b37c09aaf737f87079a5ecae523d5ac66f"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/loot_sack_mythic.json"
@@ -1838,7 +1838,7 @@ hash = "c3c20de2f0b00f385938b2919378075d0eb90b0aa51111a97822540af3c3bd0c"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/plushie.json"
-hash = "6bc8f041f3b6ca8837bce94c4fe9764c8b526d037425a8d815af13aa82d8053f"
+hash = "24c0253ccb9dda42a6959a36a5c51260bc7176b541b58412fcc51e814217d3e4"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/plushie_mythic.json"
@@ -1846,7 +1846,7 @@ hash = "e99139ea02f1f8a6a314edaf9ea28d028e720298f3a6c90fc12d460ce9e65d19"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/rang.json"
-hash = "6bc8f041f3b6ca8837bce94c4fe9764c8b526d037425a8d815af13aa82d8053f"
+hash = "52e53a05407daa02d4860ca48d1686721623b2299237776b352fb3a840d0a7f5"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/rang_mythic.json"
@@ -1870,7 +1870,7 @@ hash = "cf85dcedb8f971af28b46e4b1c5212b7bad917d50867a37881a1d25e64b6347d"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/trident.json"
-hash = "6bc8f041f3b6ca8837bce94c4fe9764c8b526d037425a8d815af13aa82d8053f"
+hash = "ce18779ff24b515abfe15e86d10cce8bbcdc8bc48c3db81f8565966b31f1fd0e"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/trident_mythic.json"
@@ -17182,7 +17182,7 @@ hash = "442cf30c135df92728849db5c2bde280a0b77a064972b2b6e09394dffdf6cad2"
 
 [[files]]
 file = "mods/VHTweaks-0.23.2-all.jar"
-hash = "e29995f3ba9da83b8779593418c70fe32d28e70aa6ab1019fbf4e11f2cd47ce3"
+hash = "537a0fe2a63d618a7aa3cea95dd58472ac1838a16f7cea08eba34f5eeaf596cc"
 
 [[files]]
 file = "mods/additional-lanterns.pw.toml"
