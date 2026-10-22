@@ -2329,6 +2329,10 @@ file = "config/the_vault/gen/1.0/loot_tables/idona_sand_100.json"
 hash = "486cf29a3f1ae00a6f0ba194fb7b9c8ac81b438c59a7e4c7fe8a6fe9b6fe5512"
 
 [[files]]
+file = "config/the_vault/gen/1.0/loot_tables/idona_sand_50.json"
+hash = "b9d3249283f22ad6cba31cd7e7eb0d85eb9253c048dcc4520047fd5b38b40e9a"
+
+[[files]]
 file = "config/the_vault/gen/1.0/loot_tables/living_chest_0.json"
 hash = "9eb92056610727bfadaf86f54c16d8685aff180ecad112915a231f682e00704f"
 
@@ -2457,6 +2461,10 @@ file = "config/the_vault/gen/1.0/loot_tables/tenos_sand_100.json"
 hash = "2fd42d706fec64080b21e8774b0b8038f5c7cd4fca9d2279d21086f11f96fa79"
 
 [[files]]
+file = "config/the_vault/gen/1.0/loot_tables/tenos_sand_50.json"
+hash = "0b171e1398606cdf9fea079f2e60ffdd4141488b0dc6260f57eac1492e3e4add"
+
+[[files]]
 file = "config/the_vault/gen/1.0/loot_tables/test_table.json"
 hash = "66d6c80d9e1e92fa7f36da12ec1e44170bc4cdfc3273c7bf943e4adf305e8c19"
 
@@ -2497,8 +2505,16 @@ file = "config/the_vault/gen/1.0/loot_tables/velara_sand_100.json"
 hash = "2fd42d706fec64080b21e8774b0b8038f5c7cd4fca9d2279d21086f11f96fa79"
 
 [[files]]
+file = "config/the_vault/gen/1.0/loot_tables/velara_sand_50.json"
+hash = "4c2b0aba7ba0714b3e542250292b3831e7aded18c4ad542e45c07e7b1b054f3f"
+
+[[files]]
 file = "config/the_vault/gen/1.0/loot_tables/wendarr_sand_100.json"
 hash = "2fd42d706fec64080b21e8774b0b8038f5c7cd4fca9d2279d21086f11f96fa79"
+
+[[files]]
+file = "config/the_vault/gen/1.0/loot_tables/wendarr_sand_50.json"
+hash = "442cf30c135df92728849db5c2bde280a0b77a064972b2b6e09394dffdf6cad2"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/wooden_chest_0.json"
