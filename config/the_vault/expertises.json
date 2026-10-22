@@ -41,6 +41,21 @@
             "learnPointCost": 1,
             "regretPointCost": 0,
             "unlockLevel": 50
+          },
+
+          {
+            "type": "companion_cooldown",
+            "cooldownReduction": 0.6,
+            "learnPointCost": 2,
+            "regretPointCost": 0,
+            "unlockLevel": 100
+          },
+          {
+            "type": "companion_cooldown",
+            "cooldownReduction": 0.7,
+            "learnPointCost": 2,
+            "regretPointCost": 0,
+            "unlockLevel": 100
           }
         ]
       },
@@ -93,7 +108,14 @@
         "tiers": [
           {
             "type": "shop_pedestal",
-            "costReduction": 0.15,
+            "costReduction": 0.10,
+            "learnPointCost": 1,
+            "regretPointCost": 0,
+            "unlockLevel": 0
+          },
+          {
+            "type": "shop_pedestal",
+            "costReduction": 0.2,
             "learnPointCost": 1,
             "regretPointCost": 0,
             "unlockLevel": 0
@@ -105,12 +127,27 @@
             "regretPointCost": 0,
             "unlockLevel": 0
           },
+
           {
             "type": "shop_pedestal",
-            "costReduction": 0.45,
-            "learnPointCost": 1,
+            "costReduction": 0.4,
+            "learnPointCost": 2,
             "regretPointCost": 0,
-            "unlockLevel": 0
+            "unlockLevel": 100
+          },
+          {
+            "type": "shop_pedestal",
+            "costReduction": 0.5,
+            "learnPointCost": 2,
+            "regretPointCost": 0,
+            "unlockLevel": 100
+          },
+          {
+            "type": "shop_pedestal",
+            "costReduction": 0.6,
+            "learnPointCost": 4,
+            "regretPointCost": 0,
+            "unlockLevel": 100
           }
         ]
       },
@@ -121,7 +158,14 @@
         "tiers": [
           {
             "type": "crafting_potential",
-            "reducePotentialAmount": 0.15,
+            "reducePotentialAmount": 0.1,
+            "learnPointCost": 1,
+            "regretPointCost": 0,
+            "unlockLevel": 0
+          },
+          {
+            "type": "crafting_potential",
+            "reducePotentialAmount": 0.2,
             "learnPointCost": 1,
             "regretPointCost": 0,
             "unlockLevel": 0
@@ -133,12 +177,27 @@
             "regretPointCost": 0,
             "unlockLevel": 0
           },
+
           {
             "type": "crafting_potential",
-            "reducePotentialAmount": 0.45,
-            "learnPointCost": 1,
+            "reducePotentialAmount": 0.4,
+            "learnPointCost": 2,
             "regretPointCost": 0,
-            "unlockLevel": 0
+            "unlockLevel": 100
+          },
+          {
+            "type": "crafting_potential",
+            "reducePotentialAmount": 0.5,
+            "learnPointCost": 2,
+            "regretPointCost": 0,
+            "unlockLevel": 100
+          },
+          {
+            "type": "crafting_potential",
+            "reducePotentialAmount": 0.6,
+            "learnPointCost": 4,
+            "regretPointCost": 0,
+            "unlockLevel": 100
           }
         ]
       },
@@ -189,21 +248,30 @@
           },
           {
             "type": "bounty_hunter",
-            "learnPointCost": 1,
+            "learnPointCost": 2,
             "regretPointCost": 0,
             "waitingPeriodReduction": 6300,
             "abandonedPenaltyReduction": 0.9376,
             "maxActive": 2,
-            "unlockLevel": 0
+            "unlockLevel": 100
           },
           {
             "type": "bounty_hunter",
             "learnPointCost": 2,
             "regretPointCost": 0,
             "waitingPeriodReduction": 6300,
-            "abandonedPenaltyReduction": 0.9376,
+            "abandonedPenaltyReduction": 0.9688,
+            "maxActive": 2,
+            "unlockLevel": 100
+          },
+          {
+            "type": "bounty_hunter",
+            "learnPointCost": 4,
+            "regretPointCost": 0,
+            "waitingPeriodReduction": 6300,
+            "abandonedPenaltyReduction": 0.9688,
             "maxActive": 3,
-            "unlockLevel": 0
+            "unlockLevel": 100
           }
         ]
       },
@@ -367,6 +435,13 @@
         "tiers": [
           {
             "type": "infuser",
+            "negativeModifierRemovalChance": 0.1,
+            "learnPointCost": 1,
+            "regretPointCost": 0,
+            "unlockLevel": 0
+          },
+          {
+            "type": "infuser",
             "negativeModifierRemovalChance": 0.2,
             "learnPointCost": 1,
             "regretPointCost": 0,
@@ -374,17 +449,31 @@
           },
           {
             "type": "infuser",
-            "negativeModifierRemovalChance": 0.4,
+            "negativeModifierRemovalChance": 0.3,
             "learnPointCost": 1,
             "regretPointCost": 0,
             "unlockLevel": 0
           },
           {
             "type": "infuser",
-            "negativeModifierRemovalChance": 0.6,
-            "learnPointCost": 1,
+            "negativeModifierRemovalChance": 0.4,
+            "learnPointCost": 2,
             "regretPointCost": 0,
-            "unlockLevel": 0
+            "unlockLevel": 100
+          },
+          {
+            "type": "infuser",
+            "negativeModifierRemovalChance": 0.5,
+            "learnPointCost": 2,
+            "regretPointCost": 0,
+            "unlockLevel": 100
+          },
+          {
+            "type": "infuser",
+            "negativeModifierRemovalChance": 0.6,
+            "learnPointCost": 4,
+            "regretPointCost": 0,
+            "unlockLevel": 100
           }
         ]
       },
@@ -448,6 +537,34 @@
             "learnPointCost": 2,
             "regretPointCost": 0,
             "unlockLevel": 0
+          },
+          {
+            "type": "jeweler",
+            "additionalIdentifiedJewels": 2,
+            "learnPointCost": 2,
+            "regretPointCost": 0,
+            "unlockLevel": 0
+          },
+          {
+            "type": "jeweler",
+            "additionalIdentifiedJewels": 3,
+            "learnPointCost": 3,
+            "regretPointCost": 0,
+            "unlockLevel": 100
+          },
+          {
+            "type": "jeweler",
+            "additionalIdentifiedJewels": 4,
+            "learnPointCost": 3,
+            "regretPointCost": 0,
+            "unlockLevel": 100
+          },
+          {
+            "type": "jeweler",
+            "additionalIdentifiedJewels": 5,
+            "learnPointCost": 3,
+            "regretPointCost": 0,
+            "unlockLevel": 100
           }
         ]
       },
@@ -500,6 +617,28 @@
             "learnPointCost": 1,
             "regretPointCost": 0,
             "unlockLevel": 0
+          },
+
+          {
+            "type": "fortuitous_finesse",
+            "extraLegendaryChance": 0.03,
+            "learnPointCost": 2,
+            "regretPointCost": 0,
+            "unlockLevel": 100
+          },
+          {
+            "type": "fortuitous_finesse",
+            "extraLegendaryChance": 0.04,
+            "learnPointCost": 2,
+            "regretPointCost": 0,
+            "unlockLevel": 100
+          },
+          {
+            "type": "fortuitous_finesse",
+            "extraLegendaryChance": 0.05,
+            "learnPointCost": 4,
+            "regretPointCost": 0,
+            "unlockLevel": 100
           }
         ]
       },
@@ -543,6 +682,20 @@
             "learnPointCost": 1,
             "regretPointCost": 0,
             "unlockLevel": 50
+          },
+          {
+            "type": "augmentation_luck",
+            "increasedChance": 0.04,
+            "learnPointCost": 2,
+            "regretPointCost": 0,
+            "unlockLevel": 100
+          },
+          {
+            "type": "augmentation_luck",
+            "increasedChance": 0.05,
+            "learnPointCost": 2,
+            "regretPointCost": 0,
+            "unlockLevel": 100
           }
         ]
       },
@@ -571,6 +724,21 @@
             "learnPointCost": 1,
             "regretPointCost": 0,
             "unlockLevel": 0
+          },
+
+          {
+            "type": "pylon_pilferer",
+            "chanceIncrease": 0.20,
+            "learnPointCost": 2,
+            "regretPointCost": 0,
+            "unlockLevel": 100
+          },
+          {
+            "type": "pylon_pilferer",
+            "chanceIncrease": 0.25,
+            "learnPointCost": 2,
+            "regretPointCost": 0,
+            "unlockLevel": 100
           }
         ]
       },
@@ -581,14 +749,21 @@
         "tiers": [
           {
             "type": "navigator",
-            "chanceIncrease": 0.20,
+            "chanceIncrease": 0.15,
             "learnPointCost": 1,
             "regretPointCost": 0,
             "unlockLevel": 0
           },
           {
             "type": "navigator",
-            "chanceIncrease": 0.40,
+            "chanceIncrease": 0.30,
+            "learnPointCost": 1,
+            "regretPointCost": 0,
+            "unlockLevel": 0
+          },
+          {
+            "type": "navigator",
+            "chanceIncrease": 0.45,
             "learnPointCost": 1,
             "regretPointCost": 0,
             "unlockLevel": 0
@@ -596,6 +771,13 @@
           {
             "type": "navigator",
             "chanceIncrease": 0.60,
+            "learnPointCost": 1,
+            "regretPointCost": 0,
+            "unlockLevel": 0
+          },
+          {
+            "type": "navigator",
+            "chanceIncrease": 0.75,
             "learnPointCost": 1,
             "regretPointCost": 0,
             "unlockLevel": 0
@@ -609,7 +791,28 @@
         "tiers": [
           {
             "type": "grave_insurance",
-            "costReduction": 0.25,
+            "costReduction": 0.1,
+            "learnPointCost": 1,
+            "regretPointCost": 0,
+            "unlockLevel": 20
+          },
+          {
+            "type": "grave_insurance",
+            "costReduction": 0.2,
+            "learnPointCost": 1,
+            "regretPointCost": 0,
+            "unlockLevel": 20
+          },
+          {
+            "type": "grave_insurance",
+            "costReduction": 0.3,
+            "learnPointCost": 1,
+            "regretPointCost": 0,
+            "unlockLevel": 20
+          },
+          {
+            "type": "grave_insurance",
+            "costReduction": 0.4,
             "learnPointCost": 1,
             "regretPointCost": 0,
             "unlockLevel": 20
@@ -641,6 +844,27 @@
             "learnPointCost": 1,
             "regretPointCost": 0,
             "unlockLevel": 0
+          },
+          {
+            "type": "gambler",
+            "additionalChoices": 3,
+            "learnPointCost": 2,
+            "regretPointCost": 0,
+            "unlockLevel": 100
+          },
+          {
+            "type": "gambler",
+            "additionalChoices": 4,
+            "learnPointCost": 2,
+            "regretPointCost": 0,
+            "unlockLevel": 100
+          },
+          {
+            "type": "gambler",
+            "additionalChoices": 5,
+            "learnPointCost": 4,
+            "regretPointCost": 0,
+            "unlockLevel": 100
           }
         ]
       },
