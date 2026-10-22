@@ -2302,7 +2302,7 @@ hash = "392ff7723ffb4530694ed7628f3d1d781b7c19ad04e130471874ecc2222f7c27"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/garden_leaves.json"
-hash = "36e0da383253fcd58298c0305ec2e79b0633f2bc93b80259269218e43c69f9eb"
+hash = "1a3ee5e28cba76dd3e96fbeaade8cfdbd47bd61bab57d637a327482459df1ef1"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/gilded_chest_0.json"
@@ -12710,7 +12710,7 @@ hash = "d69490a8293f1ebc72d73ace239597195c6c4936a5bfd72259e70ca99447741e"
 
 [[files]]
 file = "config/the_vault/gen/1.0/template_pools/vault/rooms/omega/garden.json"
-hash = "bd517268ca0eefdce0acc8822bad429613d49cae331712933f89eab2c1b618cb"
+hash = "e2a70de694515ac442cffb4f4462c41231e2b1cf5d6a83993f8f5ed458282810"
 
 [[files]]
 file = "config/the_vault/gen/1.0/template_pools/vault/rooms/omega/library.json"
