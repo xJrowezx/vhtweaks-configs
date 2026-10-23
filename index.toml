@@ -1854,11 +1854,11 @@ hash = "68c5a1728bf2efaa262bd8e9ac7641953b213279c7c057ceb843c7e06688670a"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/shield.json"
-hash = "c8e5ef5b5eae46b8f0b8deb28d214c719485243aa3aa148ff55297c56b55381d"
+hash = "1688a295e7c9b4f8b8fb86c4994eee5b4a776a0062df8ad73ea1b99a4fbf8a44"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/shield_mythic.json"
-hash = "908aecc631c0bf925dff188d9d926f0a38f05393760c084871c49ed1769ad41f"
+hash = "622656748fd8952f0437102eae1941e60ee9cac02ccd6f00f6295996a7cacb75"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/sword.json"
@@ -1906,7 +1906,7 @@ hash = "6bc8f041f3b6ca8837bce94c4fe9764c8b526d037425a8d815af13aa82d8053f"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/wand.json"
-hash = "e8c906815fef938f1397013529128718cd86e0d52c3f58a2a2ced7ab830061b5"
+hash = "3da1cf9e7e1b9b83a68b223240370d2766d20181d92c34499904d51a566aa33d"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/wand_mythic.json"
@@ -2478,7 +2478,7 @@ hash = "9152dc8b1c9dd5a23112f62b53f5e02b76dda62296e8eab6d7ef677d2646d0b1"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/treasure_chest_50.json"
-hash = "908d416720ae3b15afde49cb745f209d2a1811456b5b42cb73a77002ad0cf6fa"
+hash = "5fab15e5eb63f5d84e9b69801c5255e519f621c2628a83188bb1d11065b13ab7"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/treasure_pillar.json"
@@ -2486,7 +2486,7 @@ hash = "f27b60b9d3c3d305ddfcd5ca9a7d1a3e2f0bd4e465629d7f8d3f626c976e7bec"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/treasure_sand_0.json"
-hash = "eb85e24bcbb4994c3ab56edef246abab45fbe9e6f781ac6a0399780c98ccb241"
+hash = "40fbc6bc93122546b5a1dce479d87d907d31d2fa320ac04f1426bd3c8b0a4979"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/treasure_sand_0_withgear.json"
@@ -4262,7 +4262,7 @@ hash = "d28fa61b2da10eb9f3afc10a77a46f9eb4997e617b00d00325defc94d0a06724"
 
 [[files]]
 file = "config/the_vault/gen/1.0/palettes/treasure_rooms/treasure_rooms.json"
-hash = "e2f4d5e4758da92db7517e250e074ddc1126c78bbe9a7ac4e69d0db348d8cb52"
+hash = "bc428e47d784a6d9e7f3ae0365989313c4edcd56e337fa79f1d1c2ad06e567f8"
 
 [[files]]
 file = "config/the_vault/gen/1.0/palettes/trove/base.json"
@@ -10330,7 +10330,7 @@ hash = "240bab02e1bd5621eca3de23358521ec28a3c80eeafb00d28d4666603985e59f"
 
 [[files]]
 file = "config/the_vault/gen/1.0/structures/vault/treasure_rooms/treasure1.nbt"
-hash = "19c96f096187c0df39d7771228d953c2fd6910c3fe38041af016822a42c7bbef"
+hash = "5f4de438518bf8d6e381e5535045cb39809b71877eaaef70583c511efb46313b"
 
 [[files]]
 file = "config/the_vault/gen/1.0/structures/vault/treasure_rooms/treasure1_old.nbt"
@@ -10339,6 +10339,10 @@ hash = "fdea3eb4f75069d4f06239b02a3744eb2fe50f4ec9ef334c949ba9046788294b"
 [[files]]
 file = "config/the_vault/gen/1.0/structures/vault/treasure_rooms/treasure1_u21.nbt"
 hash = "53e612619bc993fc3093dfa4a8f686cda440cb9bf01de3f458ff7feb5bcb1b0a"
+
+[[files]]
+file = "config/the_vault/gen/1.0/structures/vault/treasure_rooms/treasure2.nbt"
+hash = "19c96f096187c0df39d7771228d953c2fd6910c3fe38041af016822a42c7bbef"
 
 [[files]]
 file = "config/the_vault/gen/1.0/structures/vault/tunnels/raid1.nbt"
@@ -14282,7 +14286,7 @@ hash = "698a70af104f4a87cb69a981ecbfd3376bb17fb5e450f7e2d722352e520bb5fc"
 
 [[files]]
 file = "config/the_vault/gen/templates.json"
-hash = "a72dcc550825bda71416d38c71a58110ee45373998c385b59b645e01a6aac559"
+hash = "c723cb9f6dfff577e31bc81aba19dff6cbeab6bc10ae49e154d280b320ad6bfc"
 
 [[files]]
 file = "config/the_vault/gen/themes.json"
@@ -14814,7 +14818,7 @@ hash = "9c4bfce4394d20d6ff58d706fb4ae4bbcc00cc4d3a888a8521facfe5d6a5d2a9"
 
 [[files]]
 file = "config/the_vault/skill_descriptions.json"
-hash = "96061a18a80d9d3f69c7dbb62c249b93cc31f0d356db0b5b280f1d08bbfe8ac9"
+hash = "516c9551b4c181cf04cf701b964b2398f716367e48a64c3b32b75769f9df3990"
 
 [[files]]
 file = "config/the_vault/skill_gates.json"
