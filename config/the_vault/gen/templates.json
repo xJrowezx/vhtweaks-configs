@@ -4501,10 +4501,6 @@
       "1.0": {
         "type": "structure",
         "path": "config/the_vault/gen/1.0/structures/vault/treasure_rooms/treasure1.nbt"
-      },
-      "1.65": {
-        "type": "structure",
-        "path": "config/the_vault/gen/1.0/structures/vault/treasure_rooms/treasure1_u21.nbt"
       }
     },
     {

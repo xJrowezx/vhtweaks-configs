@@ -7,23 +7,6 @@
         "max": 9
       },
       "pool": [
-        {
-
-          "weight": 0,
-          "pool": [
-            {
-              "weight": 25,
-              "item": {
-                "id": "minecraft:air",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            }
-          ]
-        },
         {"weight": 30,
           "pool": [
             {
@@ -49,7 +32,6 @@
                 }
               }
             },
-
             {
               "weight": 4,
               "item": {
@@ -209,6 +191,28 @@
                   "max": 1
                 }
               }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "the_vault:companion_egg",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "woldsvaults:omega_box",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
             }
           ]
         },
@@ -230,7 +234,7 @@
             {
               "weight": 4,
               "item": {
-                "id": "the_vault:opportunistic_focus",
+                "id": "the_vault:star_fruit",
                 "count": {
                   "type": "uniform",
                   "min": 1,
@@ -269,6 +273,300 @@
                 "id": "the_vault:deck_socket",
                 "nbt": {
                   "Modifier": "@treasure_sand"
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "woldsvaults:wold_star_chunk",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "woldsvaults:dragon_fruit",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          ]
+        },
+
+        {
+          "weight": 4,
+          "pool": [
+
+            {
+              "weight": 5,
+              "item": {
+                "id": "the_vault:vorpal_focus",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:opportunistic_focus",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:resilient_focus",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:empowered_chaotic_focus",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:pyretic_focus",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:cryonic_focus",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "woldsvaults:empowered_fundamental_focus",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "woldsvaults:blazing_focus",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "woldsvaults:eccentric_focus",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "weight": 4,
+          "pool": [
+
+            {
+              "weight": 1,
+              "item": {
+                "id": "woldsvaults:etched_vault_layout",
+                "nbt": {
+                  "layout": "polygon",
+                  "tunnel": 1,
+                  "value": 15
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "woldsvaults:etched_vault_layout",
+                "nbt": {
+                  "layout": "polygon",
+                  "tunnel": 1,
+                  "value": 20
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "woldsvaults:etched_vault_layout",
+                "nbt": {
+                  "layout": "polygon",
+                  "tunnel": 1,
+                  "value": 25
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "woldsvaults:etched_vault_layout",
+                "nbt": {
+                  "layout": "polygon",
+                  "tunnel": 1,
+                  "value": 30
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "woldsvaults:etched_vault_layout",
+                "nbt": {
+                  "layout": "circle",
+                  "tunnel": 1,
+                  "value": 15
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "woldsvaults:etched_vault_layout",
+                "nbt": {
+                  "layout": "circle",
+                  "tunnel": 1,
+                  "value": 20
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "woldsvaults:etched_vault_layout",
+                "nbt": {
+                  "layout": "circle",
+                  "tunnel": 1,
+                  "value": 25
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "woldsvaults:etched_vault_layout",
+                "nbt": {
+                  "layout": "circle",
+                  "tunnel": 1,
+                  "value": 30
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "woldsvaults:etched_vault_layout",
+                "nbt": {
+                  "layout": "spiral",
+                  "tunnel": 1,
+                  "value": 20
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "woldsvaults:etched_vault_layout",
+                "nbt": {
+                  "layout": "spiral",
+                  "tunnel": 1,
+                  "value": 30
                 },
                 "count": {
                   "type": "uniform",
