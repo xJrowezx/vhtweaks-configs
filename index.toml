@@ -1662,7 +1662,7 @@ hash = "737c74f66be6d81da841827533a27eeb8f37cf6687f88d25b747027a79589d42"
 
 [[files]]
 file = "config/the_vault/expertises.json"
-hash = "a16a9a4be39243cce5a953ed2f1f35df791ca86bbebef9638caef4c10f7a3591"
+hash = "dad1a35e9790f6af4f30049859b26caab993d173877b10404ef7d3da9d4530ac"
 
 [[files]]
 file = "config/the_vault/expertises_gui_styles.json"
@@ -1714,7 +1714,7 @@ hash = "800b43d520f4acab9d8e8d9cb3bc6beb5c0f155a74f68696134bb49cb3b5f4e7"
 
 [[files]]
 file = "config/the_vault/gear_model_roll_rarities.json"
-hash = "3e3cb918cb574b4b7b685f7c0d4e65a3d1a033778054125b870a13d4a9f5a10f"
+hash = "0d534401863cd3a873dcd6b26478c1cc23ab1ecd96502d0af0a7ab025b21150f"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/axe.json"
@@ -1726,7 +1726,7 @@ hash = "a2d15b4ec62d8d3d0e8e6207a7ed6575a8df2e3c698dc4427ddd82b23612563e"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/battlestaff.json"
-hash = "3bbc8766ce4ef38a12aac271d906b48deae6534e8c8f0be8871672ad2022f7ac"
+hash = "bfc41b4e9901c5a6b3b1995a3b81fec227363cdd324732fc9f05b7474ba42a6f"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/battlestaff_mythic.json"
@@ -1746,7 +1746,7 @@ hash = "445a6c9fe66900da360ee863ea0b751ee0c908fb029cc3b169f976ffb9c3398a"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/chestplate.json"
-hash = "57b2fa771f3c1fc9fe80c42a14dcbe9362e2dd2d50469276860cd5187a29fe23"
+hash = "d4d81fa5588f5f218dd54b24b134b6c6f95055fa578ba8b9ea0c881519676a51"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/chestplate_mythic.json"
@@ -1814,7 +1814,7 @@ hash = "6bc8f041f3b6ca8837bce94c4fe9764c8b526d037425a8d815af13aa82d8053f"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/leggings.json"
-hash = "be859075b9c3fb2ca782e5fafc840232624e88fcb59fe69518b98c4c288fcf48"
+hash = "9e263a2366e66a4cd17e44d800668313cfca636f59084d1cba32a63155c47229"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/leggings_mythic.json"
