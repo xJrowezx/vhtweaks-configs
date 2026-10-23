@@ -298,7 +298,7 @@
       },
       {
         "attribute": "the_vault:ability_power_percent",
-        "group": "ModAP",
+        "group": "1",
         "identifier": "the_vault:mod_ability_increase",
         "tags": [
           "focusAbilityDamage",
@@ -349,7 +349,7 @@
       },
       {
         "attribute": "the_vault:added_ability_level",
-        "group": "ModAPLvl",
+        "group": "2",
         "identifier": "the_vault:mod_added_ability_level_nova",
         "tags": [
           "focusAbilityPower",
@@ -361,7 +361,7 @@
             "maxLevel": -1,
             "weight": 60,
             "value": {
-              "abilityKey": "Nova_Base",
+              "abilityKey": "Nova",
               "levelChange": 1
             }
           },
@@ -370,7 +370,7 @@
             "maxLevel": -1,
             "weight": 60,
             "value": {
-              "abilityKey": "Nova_Base",
+              "abilityKey": "Nova",
               "levelChange": 2
             }
           }
@@ -378,37 +378,8 @@
       },
       {
         "attribute": "the_vault:added_ability_level",
-        "group": "ModAPLvl",
-        "identifier": "the_vault:mod_added_ability_level_poisonnova",
-        "tags": [
-          "focusAbilityPower",
-          "focusAbilityPowerNova"
-        ],
-        "tiers": [
-          {
-            "minLevel": 0,
-            "maxLevel": -1,
-            "weight": 60,
-            "value": {
-              "abilityKey": "Nova_Dot",
-              "levelChange": 1
-            }
-          },
-          {
-            "minLevel": 101,
-            "maxLevel": -1,
-            "weight": 60,
-            "value": {
-              "abilityKey": "Nova_Dot",
-              "levelChange": 2
-            }
-          }
-        ]
-      },
-      {
-        "attribute": "the_vault:added_ability_level",
-        "group": "ModAPLvl",
-        "identifier": "the_vault:mod_added_ability_level_totemhatred",
+        "group": "3",
+        "identifier": "the_vault:mod_added_ability_level_totem",
         "tags": [
           "focusAbilityPower",
           "focusAbilityPowerTotem"
@@ -417,18 +388,27 @@
           {
             "minLevel": 0,
             "maxLevel": -1,
-            "weight": 60,
+            "weight": 20,
             "value": {
-              "abilityKey": "Totem_Mob_Damage",
+              "abilityKey": "Totem",
+              "levelChange": 1
+            }
+          },
+          {
+            "minLevel": 50,
+            "maxLevel": -1,
+            "weight": 8,
+            "value": {
+              "abilityKey": "Totem",
               "levelChange": 1
             }
           },
           {
             "minLevel": 101,
             "maxLevel": -1,
-            "weight": 60,
+            "weight": 10,
             "value": {
-              "abilityKey": "Totem_Mob_Damage",
+              "abilityKey": "Totem",
               "levelChange": 2
             }
           }
@@ -436,7 +416,7 @@
       },
       {
         "attribute": "the_vault:added_ability_level",
-        "group": "ModAPLvl",
+        "group": "4",
         "identifier": "the_vault:mod_added_ability_level_smite",
         "tags": [
           "focusAbilityPower",
@@ -448,7 +428,7 @@
             "maxLevel": -1,
             "weight": 60,
             "value": {
-              "abilityKey": "Smite_Base",
+              "abilityKey": "Smite",
               "levelChange": 1
             }
           },
@@ -457,7 +437,7 @@
             "maxLevel": -1,
             "weight": 60,
             "value": {
-              "abilityKey": "Smite_Base",
+              "abilityKey": "Smite",
               "levelChange": 2
             }
           }
@@ -465,66 +445,8 @@
       },
       {
         "attribute": "the_vault:added_ability_level",
-        "group": "ModAPLvl",
-        "identifier": "the_vault:mod_added_ability_level_smitearchon",
-        "tags": [
-          "focusAbilityPower",
-          "focusAbilityPowerSmite"
-        ],
-        "tiers": [
-          {
-            "minLevel": 0,
-            "maxLevel": -1,
-            "weight": 60,
-            "value": {
-              "abilityKey": "Smite_Archon",
-              "levelChange": 1
-            }
-          },
-          {
-            "minLevel": 101,
-            "maxLevel": -1,
-            "weight": 60,
-            "value": {
-              "abilityKey": "Smite_Archon",
-              "levelChange": 2
-            }
-          }
-        ]
-      },
-      {
-        "attribute": "the_vault:added_ability_level",
-        "group": "ModAPLvl",
-        "identifier": "the_vault:mod_added_ability_level_smite_blast_wave",
-        "tags": [
-          "focusAbilityPower",
-          "focusAbilityPowerSmite"
-        ],
-        "tiers": [
-          {
-            "minLevel": 0,
-            "maxLevel": -1,
-            "weight": 60,
-            "value": {
-              "abilityKey": "Smite_Blast_Wave",
-              "levelChange": 1
-            }
-          },
-          {
-            "minLevel": 101,
-            "maxLevel": -1,
-            "weight": 60,
-            "value": {
-              "abilityKey": "Smite_Blast_Wave",
-              "levelChange": 2
-            }
-          }
-        ]
-      },
-      {
-        "attribute": "the_vault:added_ability_level",
-        "group": "ModAPLvl",
-        "identifier": "the_vault:mod_added_ability_level_stonefallsnow",
+        "group": "5",
+        "identifier": "the_vault:mod_added_ability_level_stonefall",
         "tags": [
           "focusAbilityPower",
           "focusAbilityPowerStonefall"
@@ -533,18 +455,27 @@
           {
             "minLevel": 0,
             "maxLevel": -1,
-            "weight": 30,
+            "weight": 20,
             "value": {
-              "abilityKey": "Stonefall_Snow",
+              "abilityKey": "Stonefall",
+              "levelChange": 1
+            }
+          },
+          {
+            "minLevel": 50,
+            "maxLevel": -1,
+            "weight": 8,
+            "value": {
+              "abilityKey": "Stonefall",
               "levelChange": 1
             }
           },
           {
             "minLevel": 101,
             "maxLevel": -1,
-            "weight": 30,
+            "weight": 40,
             "value": {
-              "abilityKey": "Stonefall_Snow",
+              "abilityKey": "Stonefall",
               "levelChange": 2
             }
           }
@@ -552,36 +483,7 @@
       },
       {
         "attribute": "the_vault:added_ability_level",
-        "group": "ModAPLvl",
-        "identifier": "the_vault:mod_added_ability_level_tauntcharm",
-        "tags": [
-          "focusAbilityPower",
-          "focusAbilityPowerTaunt"
-        ],
-        "tiers": [
-          {
-            "minLevel": 0,
-            "maxLevel": -1,
-            "weight": 0,
-            "value": {
-              "abilityKey": "Taunt_Charm",
-              "levelChange": 1
-            }
-          },
-          {
-            "minLevel": 101,
-            "maxLevel": -1,
-            "weight": 0,
-            "value": {
-              "abilityKey": "Taunt_Charm",
-              "levelChange": 2
-            }
-          }
-        ]
-      },
-      {
-        "attribute": "the_vault:added_ability_level",
-        "group": "ModAPLvl",
+        "group": "6",
         "identifier": "the_vault:mod_added_ability_level_fireball",
         "tags": [
           "focusAbilityPower",
@@ -593,7 +495,7 @@
             "maxLevel": -1,
             "weight": 60,
             "value": {
-              "abilityKey": "Fireball_Base",
+              "abilityKey": "Fireball",
               "levelChange": 1
             }
           },
@@ -602,7 +504,7 @@
             "maxLevel": -1,
             "weight": 60,
             "value": {
-              "abilityKey": "Fireball_Base",
+              "abilityKey": "Fireball",
               "levelChange": 2
             }
           }
@@ -610,28 +512,37 @@
       },
       {
         "attribute": "the_vault:added_ability_level",
-        "group": "ModAPLvl",
-        "identifier": "the_vault:mod_added_ability_level_fireballvolley",
+        "group": "7",
+        "identifier": "the_vault:mod_added_ability_level_battlecry",
         "tags": [
           "focusAbilityPower",
-          "focusAbilityPowerFireball"
+          "focusAbilityPowerBattleCry"
         ],
         "tiers": [
           {
             "minLevel": 0,
             "maxLevel": -1,
-            "weight": 60,
+            "weight": 20,
             "value": {
-              "abilityKey": "Fireball_Volley",
+              "abilityKey": "Battle_Cry",
+              "levelChange": 1
+            }
+          },
+          {
+            "minLevel": 50,
+            "maxLevel": -1,
+            "weight": 8,
+            "value": {
+              "abilityKey": "Battle_Cry",
               "levelChange": 1
             }
           },
           {
             "minLevel": 101,
             "maxLevel": -1,
-            "weight": 60,
+            "weight": 80,
             "value": {
-              "abilityKey": "Fireball_Volley",
+              "abilityKey": "Battle_Cry",
               "levelChange": 2
             }
           }
@@ -639,65 +550,7 @@
       },
       {
         "attribute": "the_vault:added_ability_level",
-        "group": "ModAPLvl",
-        "identifier": "the_vault:mod_added_ability_level_fireballshot",
-        "tags": [
-          "focusAbilityPower",
-          "focusAbilityPowerFireball"
-        ],
-        "tiers": [
-          {
-            "minLevel": 0,
-            "maxLevel": -1,
-            "weight": 60,
-            "value": {
-              "abilityKey": "Fireball_Fireshot",
-              "levelChange": 1
-            }
-          },
-          {
-            "minLevel": 101,
-            "maxLevel": -1,
-            "weight": 60,
-            "value": {
-              "abilityKey": "Fireball_Fireshot",
-              "levelChange": 2
-            }
-          }
-        ]
-      },
-      {
-        "attribute": "the_vault:added_ability_level",
-        "group": "ModAPLvl",
-        "identifier": "the_vault:mod_added_ability_level_battlecry_spectral",
-        "tags": [
-          "focusAbilityPower",
-          "focusAbilityPowerBattleCrySpectral"
-        ],
-        "tiers": [
-          {
-            "minLevel": 0,
-            "maxLevel": -1,
-            "weight": 60,
-            "value": {
-              "abilityKey": "Battle_Cry_Spectral_Strike",
-              "levelChange": 1
-            }
-          },
-          {
-            "minLevel": 101,
-            "maxLevel": -1,
-            "weight": 60,
-            "value": {
-              "abilityKey": "Battle_Cry_Spectral_Strike",
-              "levelChange": 2
-            }
-          }
-        ]
-      },
-      {
-        "attribute": "the_vault:added_ability_level",
-        "group": "ModAPLvl",
+        "group": "8",
         "identifier": "the_vault:mod_added_ability_level_stormarrow",
         "tags": [
           "focusAbilityPower",
@@ -709,7 +562,7 @@
             "maxLevel": -1,
             "weight": 30,
             "value": {
-              "abilityKey": "Storm_Arrow_Base",
+              "abilityKey": "Storm_Arrow",
               "levelChange": 1
             }
           },
@@ -718,7 +571,7 @@
             "maxLevel": -1,
             "weight": 30,
             "value": {
-              "abilityKey": "Storm_Arrow_Base",
+              "abilityKey": "Storm_Arrow",
               "levelChange": 2
             }
           }
@@ -726,7 +579,7 @@
       },
       {
         "attribute": "the_vault:added_ability_level",
-        "group": "ModLvlDefensive",
+        "group": "9",
         "identifier": "the_vault:mod_added_ability_level_arcane",
         "tags": [
           "focusAbilityPower",
@@ -738,7 +591,7 @@
             "maxLevel": -1,
             "weight": 30,
             "value": {
-              "abilityKey": "Arcane_Base",
+              "abilityKey": "Arcane",
               "levelChange": 1
             }
           },
@@ -747,7 +600,7 @@
             "maxLevel": -1,
             "weight": 30,
             "value": {
-              "abilityKey": "Arcane_Base",
+              "abilityKey": "Arcane",
               "levelChange": 2
             }
           }
@@ -755,65 +608,7 @@
       },
       {
         "attribute": "the_vault:added_ability_level",
-        "group": "ModLvlDefensive",
-        "identifier": "the_vault:mod_added_ability_level_arcane_rail",
-        "tags": [
-          "focusAbilityPower",
-          "focusAbilityPowerArcaneRail"
-        ],
-        "tiers": [
-          {
-            "minLevel": 0,
-            "maxLevel": -1,
-            "weight": 30,
-            "value": {
-              "abilityKey": "Arcane_Rail",
-              "levelChange": 1
-            }
-          },
-          {
-            "minLevel": 101,
-            "maxLevel": -1,
-            "weight": 30,
-            "value": {
-              "abilityKey": "Arcane_Rail",
-              "levelChange": 2
-            }
-          }
-        ]
-      },
-      {
-        "attribute": "the_vault:added_ability_level",
-        "group": "ModLvlDefensive",
-        "identifier": "the_vault:mod_added_ability_level_arcane_prism",
-        "tags": [
-          "focusAbilityPower",
-          "focusAbilityPowerArcanePrism"
-        ],
-        "tiers": [
-          {
-            "minLevel": 0,
-            "maxLevel": -1,
-            "weight": 30,
-            "value": {
-              "abilityKey": "Arcane_Prism",
-              "levelChange": 1
-            }
-          },
-          {
-            "minLevel": 101,
-            "maxLevel": -1,
-            "weight": 30,
-            "value": {
-              "abilityKey": "Arcane_Prism",
-              "levelChange": 2
-            }
-          }
-        ]
-      },
-      {
-        "attribute": "the_vault:added_ability_level",
-        "group": "ModLvlDefensive",
+        "group": "10",
         "identifier": "the_vault:mod_added_ability_level_lightning_strike",
         "tags": [
           "focusAbilityPower",
@@ -825,7 +620,7 @@
             "maxLevel": -1,
             "weight": 30,
             "value": {
-              "abilityKey": "Chain_Lightning_Base",
+              "abilityKey": "Chain_Lightning",
               "levelChange": 1
             }
           },
@@ -834,7 +629,7 @@
             "maxLevel": -1,
             "weight": 30,
             "value": {
-              "abilityKey": "Chain_Lightning_Base",
+              "abilityKey": "Chain_Lightning",
               "levelChange": 2
             }
           }
@@ -842,86 +637,37 @@
       },
       {
         "attribute": "the_vault:added_ability_level",
-        "group": "ModLvlDefensive",
-        "identifier": "the_vault:mod_added_ability_level_lightning_orbs",
+        "group": "11",
+        "identifier": "the_vault:mod_added_ability_level_grenade_chaos",
         "tags": [
           "focusAbilityPower",
-          "focusAbilityPowerLightningOrbs"
+          "focusAbilityGrenadeChaos"
         ],
         "tiers": [
           {
             "minLevel": 0,
             "maxLevel": -1,
-            "weight": 30,
+            "weight": 20,
             "value": {
-              "abilityKey": "Chain_Lightning_Orbs",
+              "abilityKey": "Grenade",
+              "levelChange": 1
+            }
+          },
+          {
+            "minLevel": 50,
+            "maxLevel": -1,
+            "weight": 8,
+            "value": {
+              "abilityKey": "Grenade",
               "levelChange": 1
             }
           },
           {
             "minLevel": 101,
             "maxLevel": -1,
-            "weight": 30,
+            "weight": 80,
             "value": {
-              "abilityKey": "Chain_Lightning_Orbs",
-              "levelChange": 2
-            }
-          }
-        ]
-      },
-      {
-        "attribute": "the_vault:added_ability_level",
-        "group": "ModLvlDefensive",
-        "identifier": "the_vault:mod_added_ability_level_charged_bolts",
-        "tags": [
-          "focusAbilityPower",
-          "focusAbilityPowerChargedBolts"
-        ],
-        "tiers": [
-          {
-            "minLevel": 0,
-            "maxLevel": -1,
-            "weight": 30,
-            "value": {
-              "abilityKey": "Chain_Lightning_Charged_Bolts",
-              "levelChange": 1
-            }
-          },
-          {
-            "minLevel": 101,
-            "maxLevel": -1,
-            "weight": 30,
-            "value": {
-              "abilityKey": "Chain_Lightning_Charged_Bolts",
-              "levelChange": 2
-            }
-          }
-        ]
-      },
-      {
-        "attribute": "the_vault:added_ability_level",
-        "group": "ModLvlDefensive",
-        "identifier": "the_vault:mod_added_ability_level_grenade_toxic",
-        "tags": [
-          "focusAbilityPower",
-          "focusAbilityPowerGrenadeToxic"
-        ],
-        "tiers": [
-          {
-            "minLevel": 0,
-            "maxLevel": -1,
-            "weight": 30,
-            "value": {
-              "abilityKey": "Toxic_Grenade",
-              "levelChange": 1
-            }
-          },
-          {
-            "minLevel": 101,
-            "maxLevel": -1,
-            "weight": 30,
-            "value": {
-              "abilityKey": "Toxic_Grenade",
+              "abilityKey": "Grenade",
               "levelChange": 2
             }
           }
@@ -3185,208 +2931,6 @@
         ]
       },
       {
-        "attribute": "the_vault:added_ability_level",
-        "group": "ModAbility",
-        "identifier": "the_vault:u_all_skills",
-        "tags": [],
-        "tiers": [
-          {
-            "minLevel": 0,
-            "maxLevel": -1,
-            "weight": 250,
-            "value": {
-              "levelChange": 1,
-              "abilityKey": "all_abilities"
-            }
-          },
-          {
-            "minLevel": 25,
-            "maxLevel": -1,
-            "weight": 250,
-            "value": {
-              "levelChange": 2,
-              "abilityKey": "all_abilities"
-            }
-          }
-        ]
-      },
-      {
-        "attribute": "the_vault:added_ability_level",
-        "group": "ModAbility",
-        "identifier": "the_vault:seal_offensive_skills",
-        "tags": [],
-        "tiers": [
-          {
-            "minLevel": 0,
-            "maxLevel": -1,
-            "weight": 250,
-            "value": {
-              "levelChange": 1,
-              "abilityKey": "OFFENSIVE"
-            }
-          },
-          {
-            "minLevel": 0,
-            "maxLevel": -1,
-            "weight": 250,
-            "value": {
-              "levelChange": 2,
-              "abilityKey": "OFFENSIVE"
-            }
-          },
-          {
-            "minLevel": 0,
-            "maxLevel": -1,
-            "weight": 250,
-            "value": {
-              "levelChange": 3,
-              "abilityKey": "OFFENSIVE"
-            }
-          },
-          {
-            "minLevel": 0,
-            "maxLevel": -1,
-            "weight": 250,
-            "value": {
-              "levelChange": 4,
-              "abilityKey": "OFFENSIVE"
-            }
-          }
-        ]
-      },
-      {
-        "attribute": "the_vault:added_ability_level",
-        "group": "ModAbility",
-        "identifier": "the_vault:seal_utility_skills",
-        "tags": [],
-        "tiers": [
-          {
-            "minLevel": 0,
-            "maxLevel": -1,
-            "weight": 250,
-            "value": {
-              "levelChange": 1,
-              "abilityKey": "UTILITY"
-            }
-          },
-          {
-            "minLevel": 0,
-            "maxLevel": -1,
-            "weight": 250,
-            "value": {
-              "levelChange": 2,
-              "abilityKey": "UTILITY"
-            }
-          },
-          {
-            "minLevel": 0,
-            "maxLevel": -1,
-            "weight": 250,
-            "value": {
-              "levelChange": 3,
-              "abilityKey": "UTILITY"
-            }
-          },
-          {
-            "minLevel": 0,
-            "maxLevel": -1,
-            "weight": 250,
-            "value": {
-              "levelChange": 4,
-              "abilityKey": "UTILITY"
-            }
-          }
-        ]
-      },
-      {
-        "attribute": "the_vault:added_ability_level",
-        "group": "ModAbility",
-        "identifier": "the_vault:seal_powerup_skills",
-        "tags": [],
-        "tiers": [
-          {
-            "minLevel": 0,
-            "maxLevel": -1,
-            "weight": 250,
-            "value": {
-              "levelChange": 1,
-              "abilityKey": "POWERUP"
-            }
-          },
-          {
-            "minLevel": 0,
-            "maxLevel": -1,
-            "weight": 250,
-            "value": {
-              "levelChange": 2,
-              "abilityKey": "POWERUP"
-            }
-          },
-          {
-            "minLevel": 0,
-            "maxLevel": -1,
-            "weight": 250,
-            "value": {
-              "levelChange": 3,
-              "abilityKey": "POWERUP"
-            }
-          },
-          {
-            "minLevel": 0,
-            "maxLevel": -1,
-            "weight": 250,
-            "value": {
-              "levelChange": 4,
-              "abilityKey": "POWERUP"
-            }
-          }
-        ]
-      },
-      {
-        "attribute": "the_vault:added_ability_level",
-        "group": "ModAbility",
-        "identifier": "the_vault:seal_ultimate_skills",
-        "tags": [],
-        "tiers": [
-          {
-            "minLevel": 0,
-            "maxLevel": -1,
-            "weight": 250,
-            "value": {
-              "levelChange": 1,
-              "abilityKey": "ULTIMATE"
-            }
-          },
-          {
-            "minLevel": 0,
-            "maxLevel": -1,
-            "weight": 250,
-            "value": {
-              "levelChange": 2,
-              "abilityKey": "ULTIMATE"
-            }
-          },
-          {
-            "minLevel": 0,
-            "maxLevel": -1,
-            "weight": 250,
-            "value": {
-              "levelChange": 3,
-              "abilityKey": "ULTIMATE"
-            }
-          },
-          {
-            "minLevel": 0,
-            "maxLevel": -1,
-            "weight": 250,
-            "value": {
-              "levelChange": 4,
-              "abilityKey": "ULTIMATE"
-            }
-          }
-        ]
-      },
-      {
         "attribute": "the_vault:phoenix",
         "group": "ModPhoenix",
         "identifier": "the_vault:u_phoenix",
@@ -3402,41 +2946,6 @@
               "min": 1,
               "max": 3,
               "step": 1
-            }
-          }
-        ]
-      },
-      {
-        "attribute": "the_vault:added_ability_level",
-        "group": "ModAbility",
-        "identifier": "the_vault:mod_jav_scatter",
-        "tags": [],
-        "tiers": [
-          {
-            "minLevel": 0,
-            "maxLevel": -1,
-            "weight": 166,
-            "value": {
-              "abilityKey": "Javelin_Scatter",
-              "levelChange": 1
-            }
-          },
-          {
-            "minLevel": 25,
-            "maxLevel": -1,
-            "weight": 166,
-            "value": {
-              "abilityKey": "Javelin_Scatter",
-              "levelChange": 2
-            }
-          },
-          {
-            "minLevel": 50,
-            "maxLevel": -1,
-            "weight": 166,
-            "value": {
-              "abilityKey": "Javelin_Scatter",
-              "levelChange": 3
             }
           }
         ]
