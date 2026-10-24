@@ -139,16 +139,6 @@ onEvent('recipes', event => {
 
     event.shapeless('4x minecraft:snowball', ['minecraft:snow_block']);
 
-    event.shaped(Item.of('the_vault:bm_token'),
-        [
-            ' C ',
-            'CVC',
-            ' C '
-        ], {
-            C: 'vaultadditions:power_crystal',
-            V: 'the_vault:soul_vortex'
-        })
-
     // Vault Trash Compression
     event.shaped('1x the_vault:silver_scrap_1', [
         ['the_vault:silver_scrap', 'the_vault:silver_scrap', 'the_vault:silver_scrap'],

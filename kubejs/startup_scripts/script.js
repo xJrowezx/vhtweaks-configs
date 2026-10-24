@@ -15,7 +15,6 @@ onEvent('item.registry', event => {
         })
 	})
 	event.create('the_vault:bm_token').displayName('Black Market Token').maxStackSize(64).tooltip('Used as the primary currency to reroll the Black Market').rarity('epic')
-	event.create('the_vault:wirts_leg').displayName("Wirt's Leg").tooltip("Moooo").rarity('epic').glow(true)
 
 	//Unobtanium Items
 	event.create('white_unobtanium').displayName('White Unobtanium')
@@ -60,12 +59,6 @@ onEvent('block.registry', event => {
     event.create('alpha_gravel').displayName('Alpha Gravel').material('sand').hardness(2.0).resistance(2.0).tagBlock('minecraft:mineable/shovel')
     event.create('alpha_wood').displayName('Alpha Wood').material('wood').hardness(2.0).resistance(2.0).tagBlock('minecraft:mineable/axe')
     event.create('alpha_bookshelf').displayName('Alpha Bookshelf').material('wood').hardness(2.0).resistance(2.0).tagBlock('minecraft:mineable/axe')
-    event.create('alpha_planks').displayName('Alpha Planks').material('wood').hardness(2.0).resistance(2.0).tagBlock('minecraft:mineable/axe')
-    event.create('alpha_slab').displayName('Alpha Slab').material('wood').hardness(2.0).resistance(2.0).tagBlock('minecraft:mineable/axe')
-    event.create('alpha_stairs').displayName('Alpha Stairs').material('wood').hardness(2.0).resistance(2.0).tagBlock('minecraft:mineable/axe')
-    event.create('alpha_grass_block').displayName('Alpha Grass Block').material('sand').hardness(2.0).resistance(2.0).tagBlock('minecraft:mineable/shovel')
-    event.create('alpha_leaves').displayName('Alpha Leaves').material('leaves').hardness(0.2).resistance(0.2).tagBlock('minecraft:mineable/shears').tagBlock('minecraft:leaves')
-    event.create('alpha_log').displayName('Alpha Log').material('wood').hardness(2.0).resistance(2.0).tagBlock('minecraft:mineable/axe')
 
 
     //Unobtanium

@@ -806,6 +806,199 @@
         "min": 2,
         "max": 2
       }
+    },
+
+    "scav": {
+      "model": "vhapi:deck/scav#inventory",
+      "name": "The Scavenger Deck",
+      "essence": {
+        "min": 3,
+        "max": 3
+      },
+      "layout": [
+        {
+          "value": [
+            "XOOOOOX",
+            "OOOOOOO",
+            "XOAOAOX",
+            "XOXOXOX",
+            "XOOOOOX"
+          ],
+          "weight": 1.0
+        }
+      ],
+      "socketCount": {
+        "min": 2,
+        "max": 2
+      }
+    },
+    "bingo": {
+      "model": "vhapi:deck/bingo#inventory",
+      "name": "The Bingo Deck",
+      "essence": {
+        "min": 3,
+        "max": 3
+      },
+      "layout": [
+        {
+          "value": [
+            "XOOOOOX",
+            "OOOOOOO",
+            "XOAOAOX",
+            "XOXOXOX",
+            "XOOOOOX"
+          ],
+          "weight": 1.0
+        }
+      ],
+      "socketCount": {
+        "min": 2,
+        "max": 2
+      }
+    },
+    "elixir": {
+      "model": "vhapi:deck/elixir#inventory",
+      "name": "The Elixir Deck",
+      "essence": {
+        "min": 3,
+        "max": 3
+      },
+      "layout": [
+        {
+          "value": [
+            "XOOOOOX",
+            "OOOOOOO",
+            "XOAOAOX",
+            "XOXOXOX",
+            "XOOOOOX"
+          ],
+          "weight": 1.0
+        }
+      ],
+      "socketCount": {
+        "min": 2,
+        "max": 2
+      }
+    },
+    "dragon": {
+      "model": "vhapi:deck/dragon#inventory",
+      "name": "The Dragon Deck",
+      "essence": {
+        "min": 3,
+        "max": 3
+      },
+      "layout": [
+        {
+          "value": [
+            "XOOOOOX",
+            "OOOOOOO",
+            "XOAOAOX",
+            "XOXOXOX",
+            "XOOOOOX"
+          ],
+          "weight": 1.0
+        }
+      ],
+      "socketCount": {
+        "min": 2,
+        "max": 2
+      }
+    },
+    "goblin": {
+      "model": "vhapi:deck/goblin#inventory",
+      "name": "The Goblin Deck",
+      "essence": {
+        "min": 3,
+        "max": 3
+      },
+      "layout": [
+        {
+          "value": [
+            "XOOOOOX",
+            "OOOOOOO",
+            "XOAOAOX",
+            "XOXOXOX",
+            "XOOOOOX"
+          ],
+          "weight": 1.0
+        }
+      ],
+      "socketCount": {
+        "min": 2,
+        "max": 2
+      }
+    },
+    "brazier": {
+      "model": "vhapi:deck/brazier#inventory",
+      "name": "The Brazier Deck",
+      "essence": {
+        "min": 3,
+        "max": 3
+      },
+      "layout": [
+        {
+          "value": [
+            "XOOOOOX",
+            "OOOOOOO",
+            "XOAOAOX",
+            "XOXOXOX",
+            "XOOOOOX"
+          ],
+          "weight": 1.0
+        }
+      ],
+      "socketCount": {
+        "min": 2,
+        "max": 2
+      }
+    },
+    "christmas": {
+      "model": "vhapi:deck/christmas#inventory",
+      "name": "The Christmas Deck",
+      "essence": {
+        "min": 3,
+        "max": 3
+      },
+      "layout": [
+        {
+          "value": [
+            "XOOOOOX",
+            "OOOOOOO",
+            "XOAOAOX",
+            "XOXOXOX",
+            "XOOOOOX"
+          ],
+          "weight": 1.0
+        }
+      ],
+      "socketCount": {
+        "min": 2,
+        "max": 2
+      }
+    },
+    "pumpkin": {
+      "model": "vhapi:deck/pumpkin#inventory",
+      "name": "The Halloween Deck",
+      "essence": {
+        "min": 3,
+        "max": 3
+      },
+      "layout": [
+        {
+          "value": [
+            "XOOOOOX",
+            "OOOOOOO",
+            "XOAOAOX",
+            "XOXOXOX",
+            "XOOOOOX"
+          ],
+          "weight": 1.0
+        }
+      ],
+      "socketCount": {
+        "min": 2,
+        "max": 2
+      }
     }
   }
 }
