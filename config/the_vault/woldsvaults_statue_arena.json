@@ -2,7 +2,7 @@
   "DROPS": [
     {
       "value": {
-        "id": "minecraft:diamond_ore",
+        "id": "minecraft:amethyst_shard",
         "amountMin": 1,
         "amountMax": 1
       },
@@ -10,7 +10,7 @@
     },
     {
       "value": {
-        "id": "minecraft:ancient_debris",
+        "id": "minecraft:brain_coral",
         "amountMin": 1,
         "amountMax": 1
       },
@@ -18,7 +18,7 @@
     },
     {
       "value": {
-        "id": "minecraft:raw_iron_block",
+        "id": "minecraft:coal",
         "amountMin": 1,
         "amountMax": 1
       },
@@ -26,7 +26,7 @@
     },
     {
       "value": {
-        "id": "minecraft:gilded_blackstone",
+        "id": "minecraft:cobweb",
         "amountMin": 1,
         "amountMax": 1
       },
@@ -34,7 +34,7 @@
     },
     {
       "value": {
-        "id": "minecraft:raw_gold_block",
+        "id": "minecraft:copper_ingot",
         "amountMin": 1,
         "amountMax": 1
       },
@@ -42,7 +42,7 @@
     },
     {
       "value": {
-        "id": "minecraft:crying_obsidian",
+        "id": "minecraft:dead_brain_coral",
         "amountMin": 1,
         "amountMax": 1
       },
@@ -50,7 +50,183 @@
     },
     {
       "value": {
-        "id": "minecraft:redstone_block",
+        "id": "minecraft:diamond",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:emerald",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:golden_apple",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:gold_ingot",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:iron_ingot",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:lapis_lazuli",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:music_disc_cat",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:name_tag",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:pointed_dripstone",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:prismarine_crystals",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:prismarine_shard",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:redstone",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:saddle",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:sponge",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:spore_blossom",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:totem_of_undying",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:trident",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:glowstone_dust",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:nether_star",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:quartz",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "the_vault:candy_bar",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "the_vault:power_bar",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "woldsvaults:vault_rock_candy",
         "amountMin": 1,
         "amountMax": 1
       },

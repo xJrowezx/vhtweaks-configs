@@ -2,7 +2,7 @@
   "DROPS": [
     {
       "value": {
-        "id": "minecraft:deepslate",
+        "id": "minecraft:arrow",
         "amountMin": 1,
         "amountMax": 1
       },
@@ -10,7 +10,7 @@
     },
     {
       "value": {
-        "id": "minecraft:tuff",
+        "id": "minecraft:bone",
         "amountMin": 1,
         "amountMax": 1
       },
@@ -18,7 +18,7 @@
     },
     {
       "value": {
-        "id": "minecraft:crimson_nylium",
+        "id": "minecraft:cod",
         "amountMin": 1,
         "amountMax": 1
       },
@@ -26,7 +26,7 @@
     },
     {
       "value": {
-        "id": "minecraft:warped_nylium",
+        "id": "minecraft:egg",
         "amountMin": 1,
         "amountMax": 1
       },
@@ -34,7 +34,7 @@
     },
     {
       "value": {
-        "id": "minecraft:coal_ore",
+        "id": "minecraft:feather",
         "amountMin": 1,
         "amountMax": 1
       },
@@ -42,7 +42,7 @@
     },
     {
       "value": {
-        "id": "minecraft:iron_ore",
+        "id": "minecraft:glow_ink_sac",
         "amountMin": 1,
         "amountMax": 1
       },
@@ -50,7 +50,7 @@
     },
     {
       "value": {
-        "id": "minecraft:copper_ore",
+        "id": "minecraft:gunpowder",
         "amountMin": 1,
         "amountMax": 1
       },
@@ -58,7 +58,7 @@
     },
     {
       "value": {
-        "id": "minecraft:lapis_ore",
+        "id": "minecraft:honey_bottle",
         "amountMin": 1,
         "amountMax": 1
       },
@@ -66,7 +66,7 @@
     },
     {
       "value": {
-        "id": "minecraft:jungle_log",
+        "id": "minecraft:honeycomb",
         "amountMin": 1,
         "amountMax": 1
       },
@@ -74,7 +74,7 @@
     },
     {
       "value": {
-        "id": "minecraft:acacia_log",
+        "id": "minecraft:ink_sac",
         "amountMin": 1,
         "amountMax": 1
       },
@@ -82,7 +82,7 @@
     },
     {
       "value": {
-        "id": "minecraft:dark_oak_log",
+        "id": "minecraft:leather",
         "amountMin": 1,
         "amountMax": 1
       },
@@ -90,7 +90,7 @@
     },
     {
       "value": {
-        "id": "minecraft:spruce_log",
+        "id": "minecraft:nautilus_shell",
         "amountMin": 1,
         "amountMax": 1
       },
@@ -98,7 +98,7 @@
     },
     {
       "value": {
-        "id": "minecraft:jungle_leaves",
+        "id": "minecraft:phantom_membrane",
         "amountMin": 1,
         "amountMax": 1
       },
@@ -106,7 +106,7 @@
     },
     {
       "value": {
-        "id": "minecraft:flowering_azalea_leaves",
+        "id": "minecraft:pufferfish",
         "amountMin": 1,
         "amountMax": 1
       },
@@ -114,7 +114,7 @@
     },
     {
       "value": {
-        "id": "minecraft:sea_pickle",
+        "id": "minecraft:rabbit_hide",
         "amountMin": 1,
         "amountMax": 1
       },
@@ -122,7 +122,7 @@
     },
     {
       "value": {
-        "id": "minecraft:dead_bush",
+        "id": "minecraft:rabbit_foot",
         "amountMin": 1,
         "amountMax": 1
       },
@@ -130,7 +130,7 @@
     },
     {
       "value": {
-        "id": "minecraft:mycelium",
+        "id": "minecraft:beef",
         "amountMin": 1,
         "amountMax": 1
       },
@@ -138,7 +138,7 @@
     },
     {
       "value": {
-        "id": "minecraft:mossy_stone_bricks",
+        "id": "minecraft:chicken",
         "amountMin": 1,
         "amountMax": 1
       },
@@ -146,7 +146,7 @@
     },
     {
       "value": {
-        "id": "minecraft:snow_block",
+        "id": "minecraft:mutton",
         "amountMin": 1,
         "amountMax": 1
       },
@@ -154,7 +154,7 @@
     },
     {
       "value": {
-        "id": "minecraft:soul_sand",
+        "id": "minecraft:porkchop",
         "amountMin": 1,
         "amountMax": 1
       },
@@ -162,7 +162,7 @@
     },
     {
       "value": {
-        "id": "minecraft:white_concrete",
+        "id": "minecraft:rabbit",
         "amountMin": 1,
         "amountMax": 1
       },
@@ -170,7 +170,103 @@
     },
     {
       "value": {
-        "id": "minecraft:end_stone",
+        "id": "minecraft:rotten_flesh",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:salmon",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:slime_ball",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:spider_eye",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:stick",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:string",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:tropical_fish",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:turtle_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:blaze_rod",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:ghast_tear",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:magma_cream",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:wither_skeleton_skull",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:ender_pearl",
         "amountMin": 1,
         "amountMax": 1
       },
