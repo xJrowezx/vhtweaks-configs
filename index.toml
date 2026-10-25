@@ -18027,6 +18027,10 @@ hash = "be9967977aab8177f61cca46e4cf0470aca671cbf9d327e49ba8b9d1534ebc8a"
 metafile = true
 
 [[files]]
+file = "mods/minevegas-casino-forge-1.18.2-1.1.0.jar"
+hash = "114217e9f7c0a6a13a712e668c9d57e3efe7d4cf9821342ec7e07a2e1f4a44a1"
+
+[[files]]
 file = "mods/mining-gadgets.pw.toml"
 hash = "a2f162049ca146326010a2a500f59d3ee62264259af43274aba93da55a04cf08"
 metafile = true
