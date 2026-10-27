@@ -4970,15 +4970,16 @@
         }
       ],
       "current": [
-        "cooldown",
+        "manaCostPerSecond",
+        "manaPerDamage",
         "absorb",
-        "manaPerDamage"
+        "cooldown"
       ],
       "next": [
-
-        "cooldown",
+        "manaCostPerSecond",
+        "manaPerDamage",
         "absorb",
-        "manaPerDamage"
+        "cooldown"
       ]
     },
     "Colossus_Base": {
