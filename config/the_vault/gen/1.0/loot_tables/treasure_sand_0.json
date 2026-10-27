@@ -102,7 +102,7 @@
             "item": {
               "id": "the_vault:booster_pack",
               "nbt": {
-                "id": "the_vault:knack_pack"
+                "id": "the_vault:treasure_pack"
               },
               "count": {
                 "type": "uniform",

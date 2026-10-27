@@ -1,0 +1,349 @@
+{
+  "entries": [
+    {
+      "roll": {
+        "type": "uniform",
+        "min": 10,
+        "max": 10
+      },
+      "pool": [
+        { "weight": 70,
+          "pool": [
+            {
+                "weight": 8,
+                "item": {
+                "id": "the_vault:vault_platinum",
+                "count": {
+                  "type": "uniform",
+                  "min": 4,
+                  "max": 8
+                  }
+                }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "the_vault:star_fruit",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 3
+                  }
+              }
+            },
+            {
+              "weight": 8,
+              "item": {
+                "id": "the_vault:soul_vortex",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 3
+                  }
+              }
+            },
+            {
+              "weight": 4,
+              "item": {
+                "id": "the_vault:unique_shard",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 2
+                  }
+              }
+            },
+            {
+              "weight": 8,
+              "item": {
+                "id": "the_vault:temporal_shard",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "the_vault:lost_bounty",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 12,
+              "item": {
+                "id": "the_vault:bm_token",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 2
+                  }
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "the_vault:goblin_ear",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            }
+          ]
+        },
+        { "weight": 20,
+        "pool": [
+          {
+            "weight": 8,
+            "item": {
+              "id": "the_vault:unidentified_treasure_key",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+            }
+          },
+          {
+              "weight": 8,
+                "item": {
+                  "id": "the_vault:deck_socket",
+                  "nbt": {
+                    "Modifier": "@digsite_sand"
+                  },
+                  "count": {
+                    "type": "uniform",
+                      "min": 1,
+                      "max": 1
+                  }
+                }
+            },
+          {
+            "weight": 16,
+            "item": {
+              "id": "the_vault:booster_pack",
+              "nbt": {
+                "id": "the_vault:lost_pack"
+              },
+              "count": {
+                "type": "uniform",
+                "min": 3,
+                "max": 6
+                }
+              }
+            },
+          {
+            "weight": 4,
+            "item": {
+              "id": "woldsvaults:hasty_pomegranate",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 2
+                }
+            }
+          },
+          {
+            "weight": 8,
+            "item": {
+              "id": "the_vault:vorpal_focus",
+              "count": {
+                "type": "uniform",
+                "min": 2,
+                "max": 4
+                }
+            }
+          },
+          {
+            "weight": 4,
+            "item": {
+              "id": "the_vault:pyretic_focus",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 2
+                }
+            }
+          },
+          {
+            "weight": 2,
+            "item": {
+              "id": "the_vault:empowered_chaotic_focus",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 2
+                }
+            }
+          },
+          {
+            "weight": 4,
+            "item": {
+              "id": "the_vault:cryonic_focus",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 2
+                }
+            }
+          },
+          {
+            "weight": 2,
+            "item": {
+              "id": "the_vault:opportunistic_focus",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 2
+                }
+            }
+          }
+        ]
+        },
+        { "weight": 10,
+          "pool": [
+            {
+              "weight": 4,
+              "item": {
+                "id": "woldsvaults:eccentric_focus",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 2
+                  }
+              }
+            },
+            {
+              "weight": 4,
+              "item": {
+                "id": "woldsvaults:blazing_focus",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 2
+                  }
+              }
+            },
+            {
+              "weight": 4,
+              "item": {
+                "id": "woldsvaults:empowered_fundamental_focus",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 2
+                  }
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "woldsvaults:dragon_fruit",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "the_vault:sigil",
+                "nbt": {
+                  "SigilPool": "legend"
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 3,
+              "item": {
+                "id": "the_vault:trident",
+                "nbt": {
+                    "the_vault:gear_unique_pool": "the_vault:mjolnir",
+                    "the_vault:gear_roll_type": "Unique"
+                  },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 3,
+              "item": {
+                "id": "woldsvaults:wold_star_chunk",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "woldsvaults:etched_vault_layout",
+                "nbt": {
+                  "layout": "polygon",
+                  "tunnel": 1,
+                  "value": 30
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "woldsvaults:etched_vault_layout",
+                "nbt": {
+                  "layout": "circle",
+                  "tunnel": 1,
+                  "value": 30
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "woldsvaults:etched_vault_layout",
+                "nbt": {
+                  "layout": "infinite",
+                  "tunnel": 1
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1185,6 +1185,234 @@
 
       ]
     },
+    "the_vault:treasure_pack": {
+      "name": {
+        "text": "Treasure Pack"
+      },
+      "model": {
+        "unopened": "vhapi:booster_pack/treasure_pack#inventory",
+        "opened": "vhapi:booster_pack/treasure_pack_ripped#inventory"
+      },
+      "roll": [
+        {
+          "value": 7,
+          "weight": 3.0
+        }
+      ],
+      "tier": [
+        {
+          "value": 1,
+          "weight": 16.0
+        }
+      ],
+      "color": [
+        {
+          "value": "YELLOW",
+          "weight": 1.0
+        }
+      ],
+      "card": [
+        {
+          "value": [
+            {
+              "modifier": "@arcane",
+              "probability": 1.0
+            }
+          ],
+          "weight": 9
+        },
+        {
+          "value": [
+            {
+              "modifier": "@arcane",
+              "groups": [ "Foil" ],
+              "condition": "",
+              "probability": 1.0
+            }
+          ],
+          "weight": 1
+        },
+
+        {
+          "value": [
+            {
+              "modifier": "@default",
+              "probability": 1.0
+            }
+          ],
+          "weight": 9
+        },
+        {
+          "value": [
+            {
+              "modifier": "@default",
+              "groups": [ "Foil" ],
+              "condition": "",
+              "probability": 1.0
+            }
+          ],
+          "weight": 1
+        },
+
+        {
+          "value": [
+            {
+              "modifier": "@scaling",
+              "probability": 1.0,
+              "scaler": "@scaling"
+            }
+          ],
+          "weight": 9
+        },
+        {
+          "value": [
+            {
+              "modifier": "@scaling",
+              "groups": [ "Foil" ],
+              "probability": 1.0,
+              "scaler": "@scaling"
+            }
+          ],
+          "weight": 1
+        },
+
+        {
+          "value": [
+            {
+              "modifier": "@resource",
+              "probability": 1.0
+            }
+          ],
+          "weight": 9
+        },
+        {
+          "value": [
+            {
+              "modifier": "@resource",
+              "groups": [ "Foil" ],
+              "condition": "",
+              "probability": 1.0
+            }
+          ],
+          "weight": 1
+        }
+
+      ]
+    },
+    "the_vault:lost_pack": {
+      "name": {
+        "text": "Lost Pack"
+      },
+      "model": {
+        "unopened": "vhapi:booster_pack/lost_pack#inventory",
+        "opened": "vhapi:booster_pack/lost_pack_ripped#inventory"
+      },
+      "roll": [
+        {
+          "value": 6,
+          "weight": 3.0
+        }
+      ],
+      "tier": [
+        {
+          "value": 1,
+          "weight": 16.0
+        }
+      ],
+      "color": [
+        {
+          "value": "YELLOW",
+          "weight": 1.0
+        }
+      ],
+      "card": [
+        {
+          "value": [
+            {
+              "modifier": "@arcane",
+              "probability": 1.0
+            }
+          ],
+          "weight": 9
+        },
+        {
+          "value": [
+            {
+              "modifier": "@arcane",
+              "groups": [ "Foil" ],
+              "condition": "",
+              "probability": 1.0
+            }
+          ],
+          "weight": 1
+        },
+
+        {
+          "value": [
+            {
+              "modifier": "@default",
+              "probability": 1.0
+            }
+          ],
+          "weight": 9
+        },
+        {
+          "value": [
+            {
+              "modifier": "@default",
+              "groups": [ "Foil" ],
+              "condition": "",
+              "probability": 1.0
+            }
+          ],
+          "weight": 1
+        },
+
+        {
+          "value": [
+            {
+              "modifier": "@scaling",
+              "probability": 1.0,
+              "scaler": "@scaling"
+            }
+          ],
+          "weight": 9
+        },
+        {
+          "value": [
+            {
+              "modifier": "@scaling",
+              "groups": [ "Foil" ],
+              "probability": 1.0,
+              "scaler": "@scaling"
+            }
+          ],
+          "weight": 1
+        },
+
+        {
+          "value": [
+            {
+              "modifier": "@resource",
+              "probability": 1.0
+            }
+          ],
+          "weight": 9
+        },
+        {
+          "value": [
+            {
+              "modifier": "@resource",
+              "groups": [ "Foil" ],
+              "condition": "",
+              "probability": 1.0
+            }
+          ],
+          "weight": 1
+        }
+
+      ]
+    },
 
     "the_vault:knack_pack": {
       "name": {
