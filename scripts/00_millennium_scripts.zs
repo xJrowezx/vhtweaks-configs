@@ -72,12 +72,12 @@ JEI.addDescription(<item:the_vault:plushie>, ["Vault Plushies are an offhand vau
 JEI.addDescription(<item:the_vault:loot_sack>, ["Vault Sacks are an offhand vault gear piece that are focused around looting and less about offensive or defensive attributes."]);
 
 
-JEI.addDescription(<item:woldsvaults:crystal_seal_unhinged>, ["Combine with a crystal to add the Unhinged Scavenger Hunt objective to a crystal.  For more info about this objective, check out the quest entry."]);
-JEI.addDescription(<item:woldsvaults:crystal_seal_spirits>, ["Combine with a crystal to add the Light the Haunted Braziers objective to a crystal.  For more info about this objective, check out the quest entry."]);
-JEI.addDescription(<item:woldsvaults:crystal_seal_enchanter>, ["Combine with a crystal to add the Enchanted Elixir objective to a crystal.  For more info about this objective, check out the quest entry."]);
-JEI.addDescription(<item:woldsvaults:crystal_seal_titan>, ["Combine with a crystal to add the Slay the Brutal Bosses objective to a crystal.  For more info about this objective, check out the quest entry."]);
-JEI.addDescription(<item:woldsvaults:crystal_seal_doomsayer>, ["Combine with a crystal to add the Ballistic Bingo objective to a crystal.  For more info about this objective, check out the quest entry."]);
-JEI.addDescription(<item:woldsvaults:crystal_seal_zealot>, ["Combine with a crystal to add the Zealot objective to a crystal.  For more info about this objective, check out the quest entry. (Temporarily Unobtainable)"]);
+JEI.addDescription(<item:woldsvaults:crystal_seal_unhinged>, ["Combine with a crystal to add the Unhinged Scavenger Hunt objective to a crystal."]);
+JEI.addDescription(<item:woldsvaults:crystal_seal_spirits>, ["Combine with a crystal to add the Light the Haunted Braziers objective to a crystal."]);
+JEI.addDescription(<item:woldsvaults:crystal_seal_enchanter>, ["Combine with a crystal to add the Enchanted Elixir objective to a crystal."]);
+JEI.addDescription(<item:woldsvaults:crystal_seal_titan>, ["Combine with a crystal to add the Slay the Brutal Bosses objective to a crystal."]);
+JEI.addDescription(<item:woldsvaults:crystal_seal_doomsayer>, ["Combine with a crystal to add the Ballistic Bingo objective to a crystal."]);
+JEI.addDescription(<item:woldsvaults:crystal_seal_alchemy>, ["Combine with a crystal to add the Alchemy objective to a crystal."]);
 JEI.addDescription(<item:woldsvaults:gem_box>, ["Roll to get 1-4 random gems or a POG."]);
 JEI.addDescription(<item:woldsvaults:supply_box>, ["Roll to get some random crafting items."]);
 JEI.addDescription(<item:woldsvaults:inscription_box>, ["Roll to get a random size 5 or size 10 inscription or even a uber inscription."]);
@@ -237,7 +237,7 @@ craftingTable.addShaped("mod_box", <item:the_vault:mod_box>, [
 ]);
 
 // Custom Map Markers
-
+/*
 val mapMarkers = [
     <item:the_vault:map_marker>.withTag({display: {color: 16711680 as int}}), //red
     <item:the_vault:map_marker>.withTag({display: {color: 16738335 as int}}), //orange
@@ -293,6 +293,7 @@ craftingTable.addShaped("custom_map_marker", <item:the_vault:map_marker> *8, [
     [<item:minecraft:stick>, <tag:items:minecraft:wool>, <item:minecraft:stick>],
     [<item:minecraft:stick>, <item:minecraft:stick>, <item:minecraft:stick>]
 ]);
+*/
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // wolds port
@@ -312,6 +313,10 @@ craftingTable.remove(<item:woldsvaults:chromatic_gold_ingot>);
 craftingTable.remove(<item:woldsvaults:lodestone>);
 craftingTable.remove(<item:woldsvaults:crystal_seal_spirits>);
 craftingTable.remove(<item:woldsvaults:crystal_seal_doomsayer>);
+craftingTable.remove(<item:woldsvaults:crystal_seal_unhinged>);
+craftingTable.remove(<item:woldsvaults:crystal_seal_alchemy>);
+craftingTable.remove(<item:woldsvaults:crystal_seal_enchanter>);
+craftingTable.remove(<item:woldsvaults:crystal_seal_zealot>);
 //craftingTable.remove(<item:woldsvaults:idona_dagger);
 //craftingTable.remove(<item:woldsvaults:velara_apple);
 //craftingTable.remove(<item:woldsvaults:tome_of_tenos);
@@ -339,11 +344,38 @@ craftingTable.addShaped("wolds_deco_loadstone", <item:woldsvaults:lodestone>, [
         [<item:minecraft:amethyst_block>, <item:the_vault:gem_alexandrite>, <item:minecraft:amethyst_block>]
     ]);
 
-//craftingTable.addShaped("wold_crystal_seal_spirit", <item:woldsvaults:crystal_seal_spirits>, [
-//        [<item:minecraft:soul_sand>, <item:minecraft:soul_campfire>, <item:minecraft:soul_sand>],
-//        [<item:minecraft:soul_sand>, <item:the_vault:crystal_seal_scout>, <item:minecraft:soul_sand>],
-//        [<item:minecraft:soul_sand>, <item:the_vault:extraordinary_alexandrite>, <item:minecraft:soul_sand>]
-//    ]);
+
+//seals
+
+craftingTable.addShaped("wold_crystal_seal_spirits_1", <item:woldsvaults:crystal_seal_spirits>, [
+        [<item:the_vault:vault_essence>, <item:minecraft:soul_torch>, <item:the_vault:vault_essence>],
+        [<item:the_vault:vault_essence>, <item:the_vault:crystal_seal_empty>, <item:the_vault:vault_essence>],
+        [<item:the_vault:vault_essence>, <item:the_vault:perfect_alexandrite>, <item:the_vault:vault_essence>]
+    ]);
+
+craftingTable.addShaped("wold_crystal_seal_enchanter_1", <item:woldsvaults:crystal_seal_enchanter>, [
+        [<item:the_vault:vault_essence>, <item:minecraft:lapis_lazuli>, <item:the_vault:vault_essence>],
+        [<item:the_vault:vault_essence>, <item:the_vault:crystal_seal_empty>, <item:the_vault:vault_essence>],
+        [<item:the_vault:vault_essence>, <item:the_vault:perfect_alexandrite>, <item:the_vault:vault_essence>]
+    ]);
+
+craftingTable.addShaped("wold_crystal_seal_unhinged_1", <item:woldsvaults:crystal_seal_unhinged>, [
+        [<item:the_vault:vault_essence>, <item:minecraft:emerald>, <item:the_vault:vault_essence>],
+        [<item:the_vault:vault_essence>, <item:the_vault:crystal_seal_empty>, <item:the_vault:vault_essence>],
+        [<item:the_vault:vault_essence>, <item:the_vault:perfect_alexandrite>, <item:the_vault:vault_essence>]
+    ]);
+
+craftingTable.addShaped("wold_crystal_seal_alchemy_1", <item:woldsvaults:crystal_seal_alchemy>, [
+        [<item:the_vault:vault_essence>, <item:minecraft:ghast_tear>, <item:the_vault:vault_essence>],
+        [<item:the_vault:vault_essence>, <item:the_vault:crystal_seal_empty>, <item:the_vault:vault_essence>],
+        [<item:the_vault:vault_essence>, <item:the_vault:perfect_alexandrite>, <item:the_vault:vault_essence>]
+    ]);
+
+craftingTable.addShaped("wold_crystal_seal_doomsayer_1", <item:woldsvaults:crystal_seal_doomsayer>, [
+        [<item:the_vault:vault_essence>, <item:minecraft:gunpowder>, <item:the_vault:vault_essence>],
+        [<item:the_vault:vault_essence>, <item:the_vault:crystal_seal_empty>, <item:the_vault:vault_essence>],
+        [<item:the_vault:vault_essence>, <item:the_vault:perfect_alexandrite>, <item:the_vault:vault_essence>]
+    ]);
 
 
 // chromatic gold ingot
@@ -500,13 +532,6 @@ craftingTable.addShapeless("double_compressed_2_compressed_flex_tape", <item:wol
     <item:woldsvaults:compressed_vault_essence_2>
 ]);
 
-//reagents
-for gem in vault_gem {
-    // gem reagent
-    craftingTable.remove(<item:woldsvaults:gem_reagent_${gem}>);
-    JEI.hideIngredient(<item:woldsvaults:gem_reagent_${gem}>);
-}
-
 // velvet beds
 
 val velvet = [
@@ -547,3 +572,10 @@ craftingTable.addShapeless("raw_vault_steak_2_vault_meat", <item:the_vault:vault
 craftingTable.addShapeless("wool_2_string", <item:minecraft:string> * 4, [
     <tag:items:minecraft:wool>
 ]);
+
+// Comp and Decomp recipes
+
+craftingTable.addShapeless("prismarine_2_shard", <item:minecraft:prismarine_shard> * 4, [
+    <item:minecraft:prismarine>
+]);
+

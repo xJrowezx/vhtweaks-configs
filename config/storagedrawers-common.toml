@@ -17,10 +17,7 @@
 	debugTrace = false
 	#List of rules in format "domain:item1, domain:item2, n".
 	#Creates a compacting drawer rule to convert 1 of item1 into n of item2.
-	compactingRules = ["minecraft:clay, minecraft:clay_ball, 4", "compressium:sand_1, minecraft:sand, 9", "minecraft:nether_wart_block, minecraft:nether_wart, 4", "the_vault:regret_chunk, the_vault:regret_nugget, 9", "the_vault:skill_shard, the_vault:skill_essence, 9", "the_vault:knowledge_star_shard, the_vault:knowledge_star_essence, 9", "the_vault:wooden_log, the_vault:wooden_planks, 4", "the_vault:overgrown_wooden_log, the_vault:overgrown_wooden_planks, 4"]
-	#Whether redstone upgrades should emit an analog redstone signal, requiring
-	#the use of a comparator to read it.  This will default to true starting with MC 1.21.
-	enableAnalogRedstone = false
+	compactingRules = ["minecraft:clay, minecraft:clay_ball, 4", "compressium:sand_1, minecraft:sand, 9", "minecraft:nether_wart_block, minecraft:nether_wart, 4", "the_vault:knowledge_star_shard, the_vault:knowledge_star_essence, 9", "the_vault:wooden_log, the_vault:wooden_planks, 4", "the_vault:overgrown_wooden_log, the_vault:overgrown_wooden_planks, 4", "minecraft:prismarine, minecraft:prismarine_shard, 4", "minecraft:dripstone_block, minecraft:pointed_dripstone, 4"]
 
 [StorageUpgrades]
 	#Storage upgrades multiply storage capacity by the given amount.
