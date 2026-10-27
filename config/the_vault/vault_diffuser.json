@@ -172,7 +172,6 @@
     "the_vault:companion_relic_fragment": 64,
     "the_vault:cosmic_dust": 52,
     "the_vault:default": 0,
-    "the_vault:jewel": 1024,
-    "the_vault:mystic_pear": 1024
+    "the_vault:jewel": 1024
   }
 }
