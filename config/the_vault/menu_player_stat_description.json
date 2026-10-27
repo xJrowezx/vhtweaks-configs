@@ -69,7 +69,17 @@
     "the_vault:velara_affinity": "<gray>Your <aqua>additional chance <gray>to gain a <aqua>favor <gray>upon <green>completing <gray>a <#54fc54>Velara God Altar<gray>.",
     "the_vault:tenos_affinity": "<gray>Your <aqua>additional chance <gray>to gain a <aqua>favor <gray>upon <green>completing <gray>a <#009dde>Tenos God Altar<gray>.",
     "the_vault:wendarr_affinity": "<gray>Your <aqua>additional chance <gray>to gain a <aqua>favor <gray>upon <green>completing <gray>a <#dea700>Wendarr God Altar<gray>.",
-    "the_vault:idona_affinity": "<gray>Your <aqua>additional chance <gray>to gain a <aqua>favor <gray>upon <green>completing <gray>a <#d80000>Idona God Altar<gray>."
+    "the_vault:idona_affinity": "<gray>Your <aqua>additional chance <gray>to gain a <aqua>favor <gray>upon <green>completing <gray>a <#d80000>Idona God Altar<gray>.",
+
+    "the_vault:ap_scaling_damage": "<gray>Your percentage of <#ff4fd8>Ability Power <gray>converted to <#C23627>Attack Damage<gray>.",
+    "the_vault:chaining_damage": "<gray>Reduces <#ff0000>damage falloff <gray>when <#5c5db6>chaining <gray>between targets.",
+    "the_vault:trident_channeling_chance": "<gray>Your <aqua>chance <gray>to channel with a <#0E7490>vault trident.",
+    "the_vault:echoing_chance": "<gray>Your <aqua>chance <gray>to apply the <#690E97>echoing <gray>effect.\n<red>Maximum Obtainable: 69%.",
+    "the_vault:echoing_damage": "<gray>Your <#fc6a00>additional damage <gray>dealt upon <#690E97>echoing.\n<red>Maximum Obtainable: 50%.",
+    "the_vault:hexing_chance": "<gray>Your chance to apply a negative debuff (<#ad00a4>Hex<gray>) enemies.",
+    "the_vault:execution_damage": "<gray>Your <#fc6a00>increased damage <gray>against <#ff0000>low health <gray>targets.",
+    "the_vault:reaving_damage": "<gray>Percentage of an enemy's max <#22fc25>Health <gray>dealt as damage upon first strike.",
+    "the_vault:mana_cost_reduction": "<gray>Your <aqua>mana cost reduction <gray>for <aqua>any ability<gray>.\n<red>Maximum Obtainable: 50%"
   },
 
 
