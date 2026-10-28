@@ -2069,6 +2069,10 @@ file = "config/the_vault/gen/1.0/loot_tables/bingo_full_crate.json"
 hash = "98affe7fe6f15acefff065e5d395e840b59c929f0bdedd48e891378c7f822b4c"
 
 [[files]]
+file = "config/the_vault/gen/1.0/loot_tables/blue_cardboard_box.json"
+hash = "f8147ad19786fb929ce8d1a8621ea1127f519db08cee9a8653416367f7d05b6f"
+
+[[files]]
 file = "config/the_vault/gen/1.0/loot_tables/boss_gilded.json"
 hash = "8036dca34bf24e219d3bd94c8cb739cd4cb237dbeb2eed3b48284b478d26b52e"
 
@@ -2333,6 +2337,10 @@ file = "config/the_vault/gen/1.0/loot_tables/gilded_strongbox_50.json"
 hash = "96824979e3bcca04b3fb15fc2248bb2dbd62264aa501ce3110b3b9a8bb151d45"
 
 [[files]]
+file = "config/the_vault/gen/1.0/loot_tables/green_cardboard_box.json"
+hash = "939c40bb323dde2fe4f99dc64f6411badb9bc106aa47db0a5a9dd7061174f373"
+
+[[files]]
 file = "config/the_vault/gen/1.0/loot_tables/hardened_chest_0.json"
 hash = "33f56d38069c167ddeb2aedfab30ace6748379b7d5e035c8759d040ee87ff036"
 
@@ -2407,6 +2415,10 @@ hash = "f20b042b9a0b321011b304888d5e80404d040fdab7ef48b03be9a9d5de969bf8"
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/pandoras_1.json"
 hash = "f07475c2d34e19df6d6c6830470b1c02e02842d1e911fbccd0b4ff0d322c6e8f"
+
+[[files]]
+file = "config/the_vault/gen/1.0/loot_tables/red_cardboard_box.json"
+hash = "117a40410e133eb18b968ea3dfd5cd4fb2905ca931000629e987890510ee2a63"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/royale/ores.json"
@@ -2547,6 +2559,10 @@ hash = "7fffe0895538431c2d53d90274cd85bdf6a860b1b6cca532ad4a1cd247515ccf"
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/wooden_chest_raw.json"
 hash = "523d171a49c2ebc18e4e11e2e81cae4822da89cdb1efded51050d3127d070af6"
+
+[[files]]
+file = "config/the_vault/gen/1.0/loot_tables/yellow_cardboard_box.json"
+hash = "f377c869a8cd060239e5ae11f4b413cf5d74c76a579a12647c5aa84d06dc8aca"
 
 [[files]]
 file = "config/the_vault/gen/1.0/palettes/arena/classic.json"
@@ -4566,7 +4582,7 @@ hash = "305eb23f6aa2cdeb6b8e60625e45785cf9386a355e4d3aea99ba1969dc0a4a52"
 
 [[files]]
 file = "config/the_vault/gen/1.0/palettes/warehouse/base.json"
-hash = "4e9cc257e1db4daa90d0f46b4dbda75243147f1204254e5663a3492c0cceab2e"
+hash = "e478d40dd67ee13ad0dcf3bbd6fd80d6a3b597abf1e58e4f2cabdf0cce6876a7"
 
 [[files]]
 file = "config/the_vault/gen/1.0/palettes/wildwest/base.json"
@@ -10282,7 +10298,7 @@ hash = "5b28d33b38c61cdcbe7f33437883ab92964e4785723a014fccdb18440c8d6e4e"
 
 [[files]]
 file = "config/the_vault/gen/1.0/structures/vault/rooms/omega/warehouse.nbt"
-hash = "a430c588814ba6cd79c2026ff235dc29e117adaf7f4ac93fd4e58fa95a076223"
+hash = "261014eb1d6c41ca132f8033c8cdec841300b75cbda2e76324945ac319102689"
 
 [[files]]
 file = "config/the_vault/gen/1.0/structures/vault/rooms/raw/chromatic_cave1.nbt"
@@ -14278,7 +14294,7 @@ hash = "b0a5aa8a79f3bb56b94bad34ccebf0adc102f7fcc658f1f3c23badac1e4b4ba5"
 
 [[files]]
 file = "config/the_vault/gen/loot_tables.json"
-hash = "43c5581bc00c524ebb95fee11cf636902aee3734436daf3a7464e62de55f95b9"
+hash = "46cc562fbdea5dfb0825e9c5168213cf8d78b057318e5d26e7880af2815cdd20"
 
 [[files]]
 file = "config/the_vault/gen/palettes.json"
@@ -14598,7 +14614,7 @@ hash = "7010e68a8d2f778837b62e5f4885f80002ec1a3ff69256d3ce62cf6b5dd6d610"
 
 [[files]]
 file = "config/the_vault/loot_info.json"
-hash = "fc1839b3440087fa453ed13eb78fd0a557eb464983396d18127d5b3072fadeaf"
+hash = "c5449c7556ff66afd8f0b88c40d53d93788290220c0d0e232165ba132b82ada5"
 
 [[files]]
 file = "config/the_vault/loot_table.json"
@@ -14830,7 +14846,7 @@ hash = "9c4bfce4394d20d6ff58d706fb4ae4bbcc00cc4d3a888a8521facfe5d6a5d2a9"
 
 [[files]]
 file = "config/the_vault/skill_descriptions.json"
-hash = "516c9551b4c181cf04cf701b964b2398f716367e48a64c3b32b75769f9df3990"
+hash = "0942bf2cbaed5c4fab7fbc474c8843206037d8143a50395d5f3d5c87df8fa82b"
 
 [[files]]
 file = "config/the_vault/skill_gates.json"
@@ -14858,7 +14874,7 @@ hash = "0ab5a4de706f95212c1d273851e23245b2dcb4c1e63e808bc5335a22579ab04a"
 
 [[files]]
 file = "config/the_vault/talents.json"
-hash = "5806e30f6bf5d16a96eac2f2b86a84379f562c10d5713f464d14515186006353"
+hash = "bd2539b8f15b90a95494504625db6fa0bbc4d8d8d70f126511c5b23a50a01ae5"
 
 [[files]]
 file = "config/the_vault/talents_gui_styles.json"
@@ -14986,7 +15002,7 @@ hash = "8d3e37f1fed1a393e082f917d438538da679a7f16d4948901087884f91e2fb37"
 
 [[files]]
 file = "config/the_vault/vault_diffuser.json"
-hash = "a8964a64c6bde670f0e204d7760a5c6a475ab17169db68c9b912735bf4dd01db"
+hash = "59085067668d027f005bd261f9da9a0bcfdf0b1bf04200742cf76e2fd432b0e6"
 
 [[files]]
 file = "config/the_vault/vault_entities.json"
@@ -17285,8 +17301,20 @@ file = "kubejs/startup_scripts/script.js"
 hash = "ce90c8aa561413f3ae83efbcc8c03eaa406bd767ea64e44120f525ccc023fb7f"
 
 [[files]]
+file = "minecraft/config/the_vault/gen/1.0/loot_tables/blue_cardboard_box.json"
+hash = "f8147ad19786fb929ce8d1a8621ea1127f519db08cee9a8653416367f7d05b6f"
+
+[[files]]
+file = "minecraft/config/the_vault/gen/1.0/loot_tables/green_cardboard_box.json"
+hash = "939c40bb323dde2fe4f99dc64f6411badb9bc106aa47db0a5a9dd7061174f373"
+
+[[files]]
 file = "minecraft/config/the_vault/gen/1.0/loot_tables/idona_sand_50.json"
 hash = "b9d3249283f22ad6cba31cd7e7eb0d85eb9253c048dcc4520047fd5b38b40e9a"
+
+[[files]]
+file = "minecraft/config/the_vault/gen/1.0/loot_tables/red_cardboard_box.json"
+hash = "117a40410e133eb18b968ea3dfd5cd4fb2905ca931000629e987890510ee2a63"
 
 [[files]]
 file = "minecraft/config/the_vault/gen/1.0/loot_tables/tenos_sand_50.json"
@@ -17299,6 +17327,18 @@ hash = "4c2b0aba7ba0714b3e542250292b3831e7aded18c4ad542e45c07e7b1b054f3f"
 [[files]]
 file = "minecraft/config/the_vault/gen/1.0/loot_tables/wendarr_sand_50.json"
 hash = "442cf30c135df92728849db5c2bde280a0b77a064972b2b6e09394dffdf6cad2"
+
+[[files]]
+file = "minecraft/config/the_vault/gen/1.0/loot_tables/yellow_cardboard_box.json"
+hash = "f377c869a8cd060239e5ae11f4b413cf5d74c76a579a12647c5aa84d06dc8aca"
+
+[[files]]
+file = "minecraft/config/the_vault/gen/1.0/palettes/warehouse/base.json"
+hash = "e478d40dd67ee13ad0dcf3bbd6fd80d6a3b597abf1e58e4f2cabdf0cce6876a7"
+
+[[files]]
+file = "minecraft/config/the_vault/gen/1.0/structures/vault/rooms/omega/warehouse.nbt"
+hash = "261014eb1d6c41ca132f8033c8cdec841300b75cbda2e76324945ac319102689"
 
 [[files]]
 file = "mods/VHTweaks-0.23.2-all.jar"
@@ -18929,7 +18969,7 @@ hash = "f0ac22c91075799831792da2026b403668f7cc2b568d15a3270111755b2490b3"
 
 [[files]]
 file = "scripts/00_millennium_scripts.zs"
-hash = "08a61833a03304a27ca5f45df3ca1a0c1bcb256053c3f3b8d3bf4075bb7fedbe"
+hash = "8fc16bec117044223efbff25abb7bddfb30a3455677ba092f75b8331e6ac3b54"
 
 [[files]]
 file = "scripts/00_remove_recipes.zs"
