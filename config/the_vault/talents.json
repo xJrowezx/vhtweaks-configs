@@ -3146,15 +3146,6 @@
             "type": "mana_per_looted_container",
             "tileGroupId": "the_vault:chest",
             "displayName": "Chest",
-            "manaGenerated": 1,
-            "learnPointCost": 1,
-            "regretPointCost": 1,
-            "unlockLevel": 0
-          },
-          {
-            "type": "mana_per_looted_container",
-            "tileGroupId": "the_vault:chest",
-            "displayName": "Chest",
             "manaGenerated": 2,
             "learnPointCost": 1,
             "regretPointCost": 1,
@@ -3164,7 +3155,16 @@
             "type": "mana_per_looted_container",
             "tileGroupId": "the_vault:chest",
             "displayName": "Chest",
-            "manaGenerated": 3,
+            "manaGenerated": 4,
+            "learnPointCost": 1,
+            "regretPointCost": 1,
+            "unlockLevel": 0
+          },
+          {
+            "type": "mana_per_looted_container",
+            "tileGroupId": "the_vault:chest",
+            "displayName": "Chest",
+            "manaGenerated": 6,
             "learnPointCost": 1,
             "regretPointCost": 1,
             "unlockLevel": 0
@@ -5959,6 +5959,7 @@
         "type": "tiered",
         "id": "Battle_Trance",
         "name": "Battle Trance",
+        "maxLearnableTier": 4,
         "tiers": [
           {
             "type": "stacking_gear_attribute",
@@ -6007,6 +6008,102 @@
             "regretPointCost": 1,
             "unlockLevel": 0,
             "id": "battle_trance_4"
+          },
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:damage_increase",
+            "value": 0.03,
+            "effect": "the_vault:battle_trance",
+            "durationTicks": 80,
+            "maxStacks": 11,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "battle_trance_5"
+          },
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:damage_increase",
+            "value": 0.03,
+            "effect": "the_vault:battle_trance",
+            "durationTicks": 120,
+            "maxStacks": 12,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "battle_trance_6"
+          },
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:damage_increase",
+            "value": 0.03,
+            "effect": "the_vault:battle_trance",
+            "durationTicks": 160,
+            "maxStacks": 13,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "battle_trance_7"
+          },
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:damage_increase",
+            "value": 0.03,
+            "effect": "the_vault:battle_trance",
+            "durationTicks": 200,
+            "maxStacks": 14,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "battle_trance_8"
+          },
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:damage_increase",
+            "value": 0.03,
+            "effect": "the_vault:battle_trance",
+            "durationTicks": 80,
+            "maxStacks": 14,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "battle_trance_9"
+          },
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:damage_increase",
+            "value": 0.03,
+            "effect": "the_vault:battle_trance",
+            "durationTicks": 120,
+            "maxStacks": 15,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "battle_trance_10"
+          },
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:damage_increase",
+            "value": 0.03,
+            "effect": "the_vault:battle_trance",
+            "durationTicks": 160,
+            "maxStacks": 16,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "battle_trance_11"
+          },
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:damage_increase",
+            "value": 0.03,
+            "effect": "the_vault:battle_trance",
+            "durationTicks": 200,
+            "maxStacks": 17,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "battle_trance_12"
           }
         ]
       },
@@ -6079,15 +6176,52 @@
         "type": "tiered",
         "id": "Treasure_Sense",
         "name": "Treasure Sense",
+        "maxLearnableTier": 1,
         "tiers": [
           {
             "type": "trap_disarm_loot",
-            "trapDisarmStep": 0.1,
+            "trapDisarmStep": 0.05,
             "bonusPerStep": 0.01,
             "learnPointCost": 3,
             "regretPointCost": 1,
             "unlockLevel": 0,
             "id": "treasure_sense_1"
+          },
+          {
+            "type": "trap_disarm_loot",
+            "trapDisarmStep": 0.05,
+            "bonusPerStep": 0.02,
+            "learnPointCost": 3,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "treasure_sense_2"
+          },
+          {
+            "type": "trap_disarm_loot",
+            "trapDisarmStep": 0.05,
+            "bonusPerStep": 0.03,
+            "learnPointCost": 3,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "treasure_sense_3"
+          },
+          {
+            "type": "trap_disarm_loot",
+            "trapDisarmStep": 0.05,
+            "bonusPerStep": 0.04,
+            "learnPointCost": 3,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "treasure_sense_4"
+          },
+          {
+            "type": "trap_disarm_loot",
+            "trapDisarmStep": 0.05,
+            "bonusPerStep": 0.05,
+            "learnPointCost": 3,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "treasure_sense_5"
           }
         ]
       },
