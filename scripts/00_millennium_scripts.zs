@@ -393,13 +393,6 @@ craftingTable.addShaped("chromatic_gold_ingot_2", <item:woldsvaults:chromatic_go
 
 craftingTable.addShapeless("chromatic_gold_ingot_3", <item:woldsvaults:chromatic_gold_ingot>*9, [<item:woldsvaults:chromatic_gold_block>]);
 
-// chromatic gold block
-craftingTable.addShaped("chromatic_gold_block", <item:woldsvaults:chromatic_gold_block> *9, [
-        [<item:minecraft:gold_block>, <item:the_vault:chromatic_iron_block>, <item:minecraft:gold_block>],
-        [<item:the_vault:chromatic_iron_block>, <item:woldsvaults:compressed_vault_essence>, <item:the_vault:chromatic_iron_block>],
-        [<item:minecraft:gold_block>, <item:the_vault:chromatic_iron_block>, <item:minecraft:gold_block>]
-    ]);
-
 // mob barrier
 //craftingTable.addShaped("overworld_mob_barrier", <item:woldsvaults:mob_barrier_red> *16, [
 //        [<item:the_vault:gem_painite>, <item:minecraft:red_stained_glass>, <item:the_vault:gem_painite>],
