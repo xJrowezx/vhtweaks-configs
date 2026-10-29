@@ -2346,11 +2346,11 @@ hash = "33f56d38069c167ddeb2aedfab30ace6748379b7d5e035c8759d040ee87ff036"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/idona_sand_100.json"
-hash = "486cf29a3f1ae00a6f0ba194fb7b9c8ac81b438c59a7e4c7fe8a6fe9b6fe5512"
+hash = "3419a97ed7973f6977120e517c7bdb5d81863dbb9947d6d684077b496f13db73"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/idona_sand_50.json"
-hash = "b9d3249283f22ad6cba31cd7e7eb0d85eb9253c048dcc4520047fd5b38b40e9a"
+hash = "ba999309769b2ab1c4691761acaf905c13e32689fd8b28360c9e9412dc26c077"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/living_chest_0.json"
@@ -2486,7 +2486,7 @@ hash = "2fd42d706fec64080b21e8774b0b8038f5c7cd4fca9d2279d21086f11f96fa79"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/tenos_sand_50.json"
-hash = "0b171e1398606cdf9fea079f2e60ffdd4141488b0dc6260f57eac1492e3e4add"
+hash = "939073db009144430695ce27b64974dea5f3ee39f0811c557e3a2e5edadbcca9"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/test_table.json"
@@ -2502,7 +2502,7 @@ hash = "5fab15e5eb63f5d84e9b69801c5255e519f621c2628a83188bb1d11065b13ab7"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/treasure_goblin.json"
-hash = "fee8728b1df231cb8fb903949671b09298069e63a6da3b8ff8482e6f11e5a35d"
+hash = "b568da749a3ad777db1d448cc53ca7c6c2a4585da315b87517845669f7cd3640"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/treasure_pillar.json"
@@ -2534,7 +2534,7 @@ hash = "2fd42d706fec64080b21e8774b0b8038f5c7cd4fca9d2279d21086f11f96fa79"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/velara_sand_50.json"
-hash = "4c2b0aba7ba0714b3e542250292b3831e7aded18c4ad542e45c07e7b1b054f3f"
+hash = "8cb306be122c2925b50abdbab72631e1060493826d9afd2a7ee5bb55aa38ac76"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/wendarr_sand_100.json"
@@ -17342,7 +17342,7 @@ hash = "261014eb1d6c41ca132f8033c8cdec841300b75cbda2e76324945ac319102689"
 
 [[files]]
 file = "mods/VHTweaks-0.23.2-all.jar"
-hash = "9fb096c2122baa88d34bdbddd65ea14f9996bbd28ffd8dd28fbaea9794cd78fa"
+hash = "b048f1b33fa3d9ec5cc23f0d3d3dc4414df77fc3870ca7eeb927499276465b83"
 
 [[files]]
 file = "mods/additional-lanterns.pw.toml"
@@ -18969,7 +18969,7 @@ hash = "f0ac22c91075799831792da2026b403668f7cc2b568d15a3270111755b2490b3"
 
 [[files]]
 file = "scripts/00_millennium_scripts.zs"
-hash = "8fc16bec117044223efbff25abb7bddfb30a3455677ba092f75b8331e6ac3b54"
+hash = "392a915bc8ff1b62c5ded9f204e7282ccf25ecde1508aa322fd18c974d516e1f"
 
 [[files]]
 file = "scripts/00_remove_recipes.zs"
