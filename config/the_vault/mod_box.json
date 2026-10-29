@@ -167,12 +167,13 @@
       ],
       "weight": 1
     },
-    "Easy Villagers": {
+    "Easy Traders": {
       "entries": [
         {"value": {"id": "easy_villagers:trader", "amountMin": 1, "amountMax": 1}, "weight": 100},
         {"value": {"id": "easy_villagers:farmer", "amountMin": 1, "amountMax": 1}, "weight": 20},
         {"value": {"id": "easy_villagers:auto_trader", "amountMin": 1, "amountMax": 1}, "weight": 2},
-        {"value": {"id": "easy_villagers:iron_farm", "amountMin": 1, "amountMax": 1}, "weight": 5}
+        {"value": {"id": "easy_villagers:iron_farm", "amountMin": 1, "amountMax": 1}, "weight": 5},
+        {"value": {"id": "easy_piglins:barterer", "amountMin": 1, "amountMax": 1}, "weight": 20}
       ],
       "weight": 1
     },
