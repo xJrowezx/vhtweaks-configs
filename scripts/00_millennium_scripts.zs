@@ -137,11 +137,11 @@ var vault_gem = [
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //Power tings
 
-craftingTable.addShaped("bm_token", <item:the_vault:bm_token> * 8, [
-        [<item:woldsvaults:power_crystal>, <item:woldsvaults:power_crystal>, <item:woldsvaults:power_crystal>],
-        [<item:woldsvaults:power_crystal>, <item:the_vault:soul_vortex>, <item:woldsvaults:power_crystal>],
-        [<item:woldsvaults:power_crystal>, <item:woldsvaults:power_crystal>, <item:woldsvaults:power_crystal>],
-    ]);
+//craftingTable.addShaped("bm_token", <item:the_vault:bm_token> * 8, [
+//        [<item:woldsvaults:power_crystal>, <item:woldsvaults:power_crystal>, <item:woldsvaults:power_crystal>],
+//        [<item:woldsvaults:power_crystal>, <item:the_vault:soul_vortex>, <item:woldsvaults:power_crystal>],
+//        [<item:woldsvaults:power_crystal>, <item:woldsvaults:power_crystal>, <item:woldsvaults:power_crystal>],
+//    ]);
 
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
