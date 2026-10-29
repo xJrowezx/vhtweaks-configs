@@ -14638,7 +14638,7 @@ hash = "652ea9f83092ea87f15dfbbd166b15e3ae3e3a69894f2fcdcead118818ad3778"
 
 [[files]]
 file = "config/the_vault/mod_box.json"
-hash = "c39b2ebb49742e8c6574648834a231650a397b2d6da5288ea1c0e5e3e6a5b6e3"
+hash = "21fe0293ee39b23638f1d8ef1c505b9e3a9b3896f7f75ea49ecb94d50fe1e868"
 
 [[files]]
 file = "config/the_vault/modifier_groups.json"
@@ -15002,7 +15002,7 @@ hash = "8d3e37f1fed1a393e082f917d438538da679a7f16d4948901087884f91e2fb37"
 
 [[files]]
 file = "config/the_vault/vault_diffuser.json"
-hash = "59085067668d027f005bd261f9da9a0bcfdf0b1bf04200742cf76e2fd432b0e6"
+hash = "156d837f44243bf569115e9fef9bda186210af32180292e5068bbc8045a02622"
 
 [[files]]
 file = "config/the_vault/vault_entities.json"
