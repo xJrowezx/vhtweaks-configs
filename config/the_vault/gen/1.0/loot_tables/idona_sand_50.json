@@ -576,7 +576,7 @@
             {
               "weight": 2,
               "item": {
-                "id": "minecraft:diamond",
+                "id": "woldsvaults:capstone_mythic",
                 "count": {
                   "type": "uniform",
                   "min": 1,

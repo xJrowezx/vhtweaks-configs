@@ -576,7 +576,7 @@
             {
               "weight": 2,
               "item": {
-                "id": "minecraft:diamond",
+                "id": "minecraft:air",
                 "count": {
                   "type": "uniform",
                   "min": 1,
