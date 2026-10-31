@@ -1955,15 +1955,7 @@
     "Empower_Fire_Aura": {
       "description": [
         {
-          "text": "Gives you an aura of fire burning mobs for a percent of your ",
-          "color": "$text"
-        },
-        {
-          "text": "ability power",
-          "color": "$ability_power"
-        },
-        {
-          "text": " mobs in a ",
+          "text": "Applies a Burn stack per second to mobs in a ",
           "color": "$text"
         },
         {
@@ -1971,23 +1963,30 @@
           "color": "$radius"
         },
         {
-          "text": " around you while active\n\n",
+          "text": ". Each damage tick deals a percentage of your"
+        },
+        {
+          "text": " ability power ",
+          "color": "$ability_power"
+        },
+        {
+          "text": "per stack",
           "color": "$text"
         },
         {
-          "text": "\u25cf Toggle Ability ",
+          "text": "\n\n\u25cf Toggle Ability ",
           "color": "$castType"
         }
       ],
       "current": [
         "adjustedRadius",
-        "percentAbilityPowerDealt",
+        "percentAbilityPowerPerStack",
         "manaCostPerSecond",
         "cooldown"
       ],
       "next": [
         "adjustedRadius",
-        "percentAbilityPowerDealt",
+        "percentAbilityPowerPerStack",
         "manaCostPerSecond",
         "cooldown"
       ]
@@ -4970,16 +4969,15 @@
         }
       ],
       "current": [
-        "manaCostPerSecond",
-        "manaPerDamage",
+        "cooldown",
         "absorb",
-        "cooldown"
+        "manaPerDamage"
       ],
       "next": [
-        "manaCostPerSecond",
-        "manaPerDamage",
+
+        "cooldown",
         "absorb",
-        "cooldown"
+        "manaPerDamage"
       ]
     },
     "Colossus_Base": {
