@@ -7,160 +7,9 @@
         "max": 2
       },
       "pool": [
-
-        { "weight": 1,
+        {
+          "weight": 1,
           "pool": [
-            {
-              "weight": 16,
-              "item": {
-                "id": "the_vault:sword",
-                "nbt": {
-                  "the_vault:gear_roll_type_pool": "gear_completion"
-                },
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                  }
-              }
-            },
-            {
-              "weight": 16,
-              "item": {
-                "id": "the_vault:axe",
-                "nbt": {
-                  "the_vault:gear_roll_type_pool": "gear_completion"
-                },
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                  }
-              }
-            },
-            {
-              "weight": 16,
-              "item": {
-                "id": "the_vault:helmet",
-                "nbt": {
-                  "the_vault:gear_roll_type_pool": "gear_completion"
-                },
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                  }
-              }
-            },
-            {
-              "weight": 16,
-              "item": {
-                "id": "the_vault:chestplate",
-                "nbt": {
-                  "the_vault:gear_roll_type_pool": "gear_completion"
-                },
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                  }
-              }
-            },
-            {
-              "weight": 16,
-              "item": {
-                "id": "the_vault:leggings",
-                "nbt": {
-                  "the_vault:gear_roll_type_pool": "gear_completion"
-                },
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                  }
-              }
-            },
-            {
-              "weight": 16,
-              "item": {
-                "id": "the_vault:boots",
-                "nbt": {
-                  "the_vault:gear_roll_type_pool": "gear_completion"
-                },
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                  }
-              }
-            },
-            {
-              "weight": 16,
-              "item": {
-                "id": "the_vault:shield",
-                "nbt": {
-                  "the_vault:gear_roll_type_pool": "gear_completion"
-                },
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                  }
-              }
-            },
-            {
-              "weight": 16,
-              "item": {
-                "id": "the_vault:wand",
-                "nbt": {
-                  "the_vault:gear_roll_type_pool": "gear_completion"
-                },
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                  }
-              }
-            },
-            {
-              "weight": 16,
-              "item": {
-                "id": "the_vault:focus",
-                "nbt": {
-                  "the_vault:gear_roll_type_pool": "gear_completion"
-                },
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                  }
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "roll": {
-        "type": "uniform",
-        "min": 2,
-        "max": 2
-      },
-      "pool": [
-
-        { "weight": 1,
-          "pool": [
-            {
-              "weight": 5,
-              "item": {
-                "id": "minecraft:air",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            },
             {
               "weight": 1,
               "item": {
@@ -183,13 +32,16 @@
         "max": 2
       },
       "pool": [
-
-        { "weight": 1,
+        {
+          "weight": 1,
           "pool": [
             {
-              "weight": 1,
+              "weight": 10,
               "item": {
-                "id": "the_vault:waning_focus",
+                "id": "the_vault:trident",
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_completion"
+                },
                 "count": {
                   "type": "uniform",
                   "min": 1,
@@ -198,9 +50,12 @@
               }
             },
             {
-              "weight": 1,
+              "weight": 10,
               "item": {
-                "id": "the_vault:waxing_focus",
+                "id": "the_vault:battlestaff",
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_completion"
+                },
                 "count": {
                   "type": "uniform",
                   "min": 1,
@@ -209,13 +64,142 @@
               }
             },
             {
-              "weight": 3,
+              "weight": 10,
               "item": {
-                "id": "the_vault:chaotic_focus",
+                "id": "the_vault:rang",
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_completion"
+                },
                 "count": {
                   "type": "uniform",
                   "min": 1,
-                  "max": 3
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:sword",
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_completion"
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:axe",
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_completion"
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:helmet",
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_completion"
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:chestplate",
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_completion"
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:leggings",
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_completion"
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:boots",
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_completion"
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:shield",
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_completion"
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:wand",
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_completion"
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:focus",
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_completion"
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
                 }
               }
             }
@@ -226,48 +210,12 @@
     {
       "roll": {
         "type": "uniform",
-        "min": 2,
-        "max": 2
+        "min": 1,
+        "max": 1
       },
       "pool": [
-
-        { "weight": 1,
-          "pool": [
-            {
-              "weight": 1,
-              "item": {
-                "id": "the_vault:fundamental_focus",
-                "count": {
-                  "type": "uniform",
-                  "min": 0,
-                  "max": 1
-                }
-              }
-            },
-            {
-              "weight": 9,
-              "item": {
-                "id": "minecraft:air",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "roll": {
-        "type": "uniform",
-        "min": 2,
-        "max": 2
-      },
-      "pool": [
-
-        { "weight": 1,
+        {
+          "weight": 1,
           "pool": [
             {
               "weight": 1,
@@ -284,6 +232,7 @@
         }
       ]
     },
+
     {
       "roll": {
         "type": "uniform",
@@ -291,28 +240,17 @@
         "max": 2
       },
       "pool": [
-
-        { "weight": 1,
+        {
+          "weight": 1,
           "pool": [
             {
               "weight": 1,
               "item": {
-                "id": "the_vault:bitter_lemon",
+                "id": "the_vault:fundamental_focus",
                 "count": {
                   "type": "uniform",
                   "min": 1,
                   "max": 1
-                }
-              }
-            },
-            {
-              "weight": 3,
-              "item": {
-                "id": "the_vault:sweet_kiwi",
-                "count": {
-                  "type": "uniform",
-                  "min": 2,
-                  "max": 4
                 }
               }
             }
@@ -323,12 +261,12 @@
     {
       "roll": {
         "type": "uniform",
-        "min": 2,
-        "max": 2
+        "min": 1,
+        "max": 1
       },
       "pool": [
-
-        { "weight": 1,
+        {
+          "weight": 1,
           "pool": [
             {
               "weight": 1,
@@ -348,113 +286,58 @@
     {
       "roll": {
         "type": "uniform",
-        "min": 0,
+        "min": 1,
         "max": 2
       },
       "pool": [
-
-        { "weight": 1,
+        {
+          "weight": 1,
           "pool": [
-            {
-              "weight": 4,
-              "item": {
-                "id": "the_vault:soul_vortex",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            },
-            {
-              "weight": 6,
-              "item": {
-                "id": "the_vault:trinket",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            },
-            {
-              "weight": 18,
-              "item": {
-                "id": "the_vault:sour_orange",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            },
-            {
-              "weight": 12,
-              "item": {
-                "id": "the_vault:gem_echo",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            },
-            {
-              "weight": 6,
-              "item": {
-                "id": "the_vault:capstone_dungeon_hunter",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            },
-            {
-              "weight": 1,
-              "item": {
-                "id": "the_vault:capstone_treasure_hunter",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            },
-            {
-              "weight": 12,
-              "item": {
-                "id": "the_vault:eye_of_avarice",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            },
-            {
-              "weight": 20,
-              "item": {
-                "id": "the_vault:gem_pog",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            },
             {
               "weight": 8,
               "item": {
-                "id": "the_vault:inscription",
-                "nbt": {
-                  "pool": "the_vault:random"
-                },
+                "id": "the_vault:sweet_kiwi",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 2
+                }
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "the_vault:grapes",
                 "count": {
                   "type": "uniform",
                   "min": 1,
                   "max": 1
-                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "roll": {
+        "type": "uniform",
+        "min": 1,
+        "max": 1
+      },
+      "pool": [
+        {
+          "weight": 1,
+          "pool": [
+            {
+              "weight": 1,
+              "item": {
+                "id": "woldsvaults:gem_box",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 2
+                }
               }
             }
           ]
