@@ -1330,11 +1330,11 @@ hash = "c73292a81a8409d74edb12b0bb9226bda03f39e11afc8abfe6bff52cc30ef480"
 
 [[files]]
 file = "config/the_vault/abilities.json"
-hash = "c85e5433e59f7b822bf33c48b8712fc68b44d3556de7cf4c3e77a08cc2bab92c"
+hash = "7342b3b07bf26b3ae2b28859da3cde44184adb9604b52ac11cbb3875d5aa8cac"
 
 [[files]]
 file = "config/the_vault/abilities_descriptions.json"
-hash = "7b1f84728974ceb55086ed23789f863924de312ea1d48bbbcf4d5fdd01a01f6e"
+hash = "378a87d95a16ba9c4ba14dea127782ac71718e6ab9e764e76bbd31423115a30b"
 
 [[files]]
 file = "config/the_vault/abilities_drill_dig_deny.json"
