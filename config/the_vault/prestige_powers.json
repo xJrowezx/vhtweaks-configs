@@ -609,6 +609,24 @@
             "requiredGreedTier": 12
           }
         ]
+      },
+      {
+        "type": "tiered",
+        "id": "Tooler",
+        "name": "Tooler",
+        "tiers": [
+          {
+            "type": "jewel_size_power",
+            "chance": 0.5,
+            "learnPointCost": 0,
+            "learnKnowledgeCost": 2000,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "jewel_size_power_1",
+            "tier": 12,
+            "requiredGreedTier": 12
+          }
+        ]
       }
     ]
   }

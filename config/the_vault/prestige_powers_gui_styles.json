@@ -370,6 +370,14 @@
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/prestige/berserk",
       "inactiveIcon": "the_vault:gui/prestige/berserk_inactive"
+    },
+
+    "Tooler": {
+      "x": 230,
+      "y": 226,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/prestige/tooler",
+      "inactiveIcon": "the_vault:gui/prestige/tooler_inactive"
     }
   }
 }

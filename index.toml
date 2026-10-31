@@ -14710,11 +14710,11 @@ hash = "bbd8195b8aba8f14eb41a8b2dda0d23d2dd29c69beee7c44cf44ce63dbb9fd66"
 
 [[files]]
 file = "config/the_vault/prestige_powers.json"
-hash = "8b785e156ad328e8f9a0d39ff0ad9aba3c847d99aeaadd538bb226847f747014"
+hash = "fdb38a61f9d324e713885560e636cf9ca8b641dbf71dcdb30817cc4548ed8777"
 
 [[files]]
 file = "config/the_vault/prestige_powers_gui_styles.json"
-hash = "ed54af22f8edf2fd90753f8cd1c818c519c884cdd1634957c7d1373064a2635a"
+hash = "fbe1b20fc1e0effbf18e10196407aacead2bb912546b86eb61ded029cc223c29"
 
 [[files]]
 file = "config/the_vault/pvp_damage.json"
@@ -17342,7 +17342,7 @@ hash = "261014eb1d6c41ca132f8033c8cdec841300b75cbda2e76324945ac319102689"
 
 [[files]]
 file = "mods/VHTweaks-0.23.2-all.jar"
-hash = "b048f1b33fa3d9ec5cc23f0d3d3dc4414df77fc3870ca7eeb927499276465b83"
+hash = "5a942e14ad68847638a95b76386485910e724c12180bc3c346343c9c6cfda4e1"
 
 [[files]]
 file = "mods/additional-lanterns.pw.toml"
