@@ -18292,6 +18292,11 @@ hash = "323bf0949b42dbb97a7c35d17f436a7b2c7eb463cc97f46a54469ff3a0bad027"
 metafile = true
 
 [[files]]
+file = "mods/raw-vault-qol-vault-hunters-3-addon.pw.toml"
+hash = "d6713d6e6f7212a7126c81946906c956c61e90a7293069ffb97ad6fd01274799"
+metafile = true
+
+[[files]]
 file = "mods/reauth.pw.toml"
 hash = "c3777d9544a0d36f4b5ee1a3404348459aea4d91e1c79ef39df86f2cbc53ec3c"
 metafile = true
