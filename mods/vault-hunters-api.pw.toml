@@ -1,13 +1,13 @@
 name = "Vault Hunters API"
-filename = "vhapi-5.8.0.jar"
+filename = "vhapi-5.8.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "875cd15643bb1dd03ca0f9f9e8ab51879f29fb15"
+hash-format = "sha256"
+hash = "90896478edd04f446ba1a175f06f78f770c5a20d6d3b3c31e1a12c1520643bfb"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8571300
+file-id = 8888300
 project-id = 1118899

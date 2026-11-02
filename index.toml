@@ -14670,7 +14670,7 @@ hash = "385c09a6547c11b84f5cd36963a21b0b24c22560965b2276d654b56247670520"
 
 [[files]]
 file = "config/the_vault/omega_soul_shard.json"
-hash = "7fc8bd99287881e5a1f809c229c6f2c1114677508da4263e5c2eea2f3a961914"
+hash = "b4cc32ad00e016b21c21df46f12dfc5fdc13ff51b320745a319aa8336d3a40d8"
 
 [[files]]
 file = "config/the_vault/overlevel_enchant.json"
@@ -14858,7 +14858,7 @@ hash = "4eb21663dc48c084dd5afc0f1662b799332c36b2e8060e562bbbca41305ca680"
 
 [[files]]
 file = "config/the_vault/soul_shard.json"
-hash = "3d660e58a39729c512fa5d8ea4bb961715958100476291ca7a7c266dd1b2a61b"
+hash = "5efc08834ce6a5914eb9a7e11bf4a72fa8ba85a4c644f4cbcd593d725b093333"
 
 [[files]]
 file = "config/the_vault/spirit.json"
@@ -17342,7 +17342,7 @@ hash = "261014eb1d6c41ca132f8033c8cdec841300b75cbda2e76324945ac319102689"
 
 [[files]]
 file = "mods/VHTweaks-0.23.2-all.jar"
-hash = "5a942e14ad68847638a95b76386485910e724c12180bc3c346343c9c6cfda4e1"
+hash = "73b32f239a3f02e2c35df2548eee2bd765a6ee61668aa375893769c6f8dd6fcf"
 
 [[files]]
 file = "mods/additional-lanterns.pw.toml"
@@ -17350,8 +17350,8 @@ hash = "232c3a9437fe2fc74efb76fefc702654c2dff60c2475f2641bed53bdddca7910"
 metafile = true
 
 [[files]]
-file = "mods/additionaltransmogs-1.21.0.jar"
-hash = "e77fad7f1adebe90849130c16a9cb1ffff30846192d7748e5b4eb74d880a2860"
+file = "mods/additionaltransmogs-1.21.1.jar"
+hash = "f6799b0fd77bf9a7e82f4984d34b9c826ced49508a482441fcaad48a1f7abeca"
 
 [[files]]
 file = "mods/addonslib.pw.toml"
@@ -18363,6 +18363,10 @@ hash = "7fcce54d0244c56482e5a116f248d119952b638382e941c2932a67737b05c7d2"
 metafile = true
 
 [[files]]
+file = "mods/scalingbingoseals-1.6-all.jar"
+hash = "17f54c1a15345d63a73bb4c39d17902ffb1403513d7181ba91aa53b7e17d0b3b"
+
+[[files]]
 file = "mods/selene.pw.toml"
 hash = "07fdb5d2b1dd4acf090cc7a0db894c74b85fa4c68a2043195dc3ebf7651545cd"
 metafile = true
@@ -18564,7 +18568,7 @@ metafile = true
 
 [[files]]
 file = "mods/vault-hunters-api.pw.toml"
-hash = "779e2fa7f93e47bb63a015ac71443ff93ca7271ace67bb3e41c5dacf63b76718"
+hash = "f5764b30b65b424ae3b6ebfdfa54f090dd40232f3afa36618f9afeeaca536ed3"
 metafile = true
 
 [[files]]
@@ -18574,7 +18578,7 @@ metafile = true
 
 [[files]]
 file = "mods/vault-hunters-official-mod.pw.toml"
-hash = "99420519b3892cf8445cb9af7ee652a4cb55304445f4bfbad4e876c1dc9d2003"
+hash = "153cd43abf7b98acf1ac6838370eab0210dd0810cce9635e504488a95a27e182"
 metafile = true
 
 [[files]]
@@ -18585,11 +18589,6 @@ metafile = true
 [[files]]
 file = "mods/vaultlootbeams.pw.toml"
 hash = "411f0297f228c957b63ae0d717524fb341c69010466cc5f8c44e2457f105b61d"
-metafile = true
-
-[[files]]
-file = "mods/vh-scaling-bingo-seals.pw.toml"
-hash = "f3128092cdf94e747e704b734c7832877675e3fad63d2eef46e74d0c0c8cf074"
 metafile = true
 
 [[files]]
