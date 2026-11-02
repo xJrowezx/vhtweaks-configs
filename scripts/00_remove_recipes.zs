@@ -1250,43 +1250,7 @@ JEI.hideIngredient(<item:thermal:device_potion_diffuser>);
 JEI.hideIngredient(<item:thermal:chiller_rod_cast>);
 JEI.hideIngredient(<item:thermal:chiller_ingot_cast>);
 // Vault
-var gems = {
-  "gorgeous_gemstone": "gorgeous",
-  "ashium_gemstone": "ashium",
-  "benitoite_gemstone": "benitoite",
-  "bomignite_gemstone": "bomignite",
-  "echoing_gemstone": "echoing",
-  "petzanite_gemstone": "petzanite",
-  "pogging_gemstone": "pogging",
-  "tubium_gemstone": "tubium",
-  "wutodic_gemstone": "wutodic",
-  "xenium_gemstone": "xenium",
-  "sparking_gemstone": "sparking",
-  "upaline_gemstone": "upaline",
-  "iskallic_gemstone": "iskallic"
-};
 
-for gemId, gemName in gems {
- JEI.hideIngredient(<item:the_vault:${gemName}_gemstone>);
-  }
-var jewels = {
-  "echoing_jewel": "echoing",
-  "petzan_jewel": "petzan",
-  "gorgeous_jewel": "gorgeous",
-  "ash_jewele": "ash",
-  "benite_jewel": "benite",
-  "bombing_jewel": "bombing",
-  "pogging_jewel": "pogging",
-  "tubic_jewel": "tubic",
-  "xen_jewel": "xen",
-  "sparking_jewel": "sparking",
-  "iskallic_jewel": "iskallic",
-  "upal_jewel": "upal",
-};
-
-for jewelId, jewelName in jewels {
- JEI.hideIngredient(<item:the_vault:${jewelName}_jewel>);
-  }
 JEI.hideIngredient(<item:the_vault:sugar_plum_fairy_flower>);
 JEI.hideIngredient(<item:the_vault:pylon>);
 JEI.hideIngredient(<item:the_vault:tool_vise>);
@@ -1318,20 +1282,13 @@ JEI.hideIngredient(<item:the_vault:scavenger_poultice_jar>);
 JEI.hideIngredient(<item:the_vault:scavenger_preserves_jar>);
 JEI.hideIngredient(<item:the_vault:scavenger_spice_jar>);
 JEI.hideIngredient(<item:the_vault:vault_crate_champion>);
-// JEI.hideIngredient(<item:the_vault:legendary_treasure_*>);
 //JEI.hideIngredient(<item:the_vault:mystic_pear>);
 JEI.hideIngredient(<item:the_vault:rokkit_launcha>);
 JEI.hideIngredient(<item:the_vault:wild_spawner>);
-JEI.hideIngredient(<item:the_vault:pandoras_box>);
 // JEI.hideIngredient(<item:the_vault:etching>);
 // JEI.hideIngredient(<item:the_vault:etching_fragment>);
 JEI.hideIngredient(<item:the_vault:monolith>);
 JEI.hideIngredient(<item:the_vault:unknown_item>);
-JEI.hideIngredient(<item:the_vault:vaulterite_pickaxe>);
-JEI.hideIngredient(<item:the_vault:vault_pickaxe>);
-JEI.hideIngredient(<item:the_vault:prismatic_pickaxe>);
-JEI.hideIngredient(<item:the_vault:echoing_pickaxe>);
-JEI.hideIngredient(<item:the_vault:black_chromatic_pickaxe>);
 JEI.hideIngredient(<item:the_vault:floating_text>);
 JEI.hideIngredient(<item:the_vault:final_vault_frame>);
 JEI.hideIngredient(<item:the_vault:vault_crate_arena>);
@@ -1427,23 +1384,13 @@ JEI.hideIngredient(<item:the_vault:gemmed_ingot>);
 JEI.hideIngredient(<item:the_vault:golden_tooth>);
 JEI.hideIngredient(<item:the_vault:unknown_egg>);
 JEI.hideIngredient(<item:the_vault:abyssal_ichor>);
-JEI.hideIngredient(<item:the_vault:archetype_star>);
-JEI.hideIngredient(<item:the_vault:archetype_star_core>);
-JEI.hideIngredient(<item:the_vault:archetype_star_essence>);
-JEI.hideIngredient(<item:the_vault:archetype_star_shard>);
 JEI.hideIngredient(<item:the_vault:acceleration_chip>);
 JEI.hideIngredient(<item:the_vault:cluster_netherite>);
 JEI.hideIngredient(<item:the_vault:crystal_seal_raid>);
 JEI.hideIngredient(<item:the_vault:crystal_seal_architect>);
-JEI.hideIngredient(<item:the_vault:infused_eternal_soul>);
-JEI.hideIngredient(<item:the_vault:hardened_wutodic_mass>);
 JEI.hideIngredient(<item:the_vault:sublime_vault_elixir>);
 JEI.hideIngredient(<item:the_vault:sublime_vault_substance>);
 JEI.hideIngredient(<item:the_vault:sublime_vault_vision>);
-JEI.hideIngredient(<item:the_vault:legendary_treasure_normal>);
-JEI.hideIngredient(<item:the_vault:legendary_treasure_rare>);
-JEI.hideIngredient(<item:the_vault:legendary_treasure_epic>);
-JEI.hideIngredient(<item:the_vault:legendary_treasure_omega>);
 JEI.hideIngredient(<item:the_vault:t0_overgrown_zombie_egg>);
 JEI.hideIngredient(<item:the_vault:t5_winterwalker_egg>);
 JEI.hideIngredient(<item:the_vault:t4_winterwalker_egg>);
@@ -1575,48 +1522,13 @@ JEI.hideIngredient(<item:the_vault:augment>.withTag({theme: "the_vault:raid_vaul
 JEI.hideIngredient(<item:the_vault:augment>.withTag({theme: "the_vault:raid_vault_infinite_orcish" as string}));
 JEI.hideIngredient(<item:the_vault:augment>.withTag({theme: "the_vault:raid_vault_infinite_easter" as string}));
 // Legacy Items
-JEI.hideIngredient(<item:the_vault:paradoxical_gem>);
 JEI.hideIngredient(<item:the_vault:card>);
-JEI.hideIngredient(<item:the_vault:mystical_powder>);
-JEI.hideIngredient(<item:the_vault:mote_clarity>);
-JEI.hideIngredient(<item:the_vault:mote_purity>);
-JEI.hideIngredient(<item:the_vault:mote_sanctity>);
-JEI.hideIngredient(<item:the_vault:phoenix_dust>);
-JEI.hideIngredient(<item:the_vault:relic_booster_pack>);
-JEI.hideIngredient(<item:the_vault:orb_frame>);
-JEI.hideIngredient(<item:the_vault:skill_shard>);
-JEI.hideIngredient(<item:the_vault:skill_essence>);
-JEI.hideIngredient(<item:the_vault:mystery_box>);
-JEI.hideIngredient(<item:the_vault:vault_apple>);
+
 JEI.hideIngredient(<item:the_vault:hearty_apple>);
-JEI.hideIngredient(<item:the_vault:vault_dust>);
-JEI.hideIngredient(<item:the_vault:vault_nugget>);
-JEI.hideIngredient(<item:the_vault:magnetite>);
-JEI.hideIngredient(<item:the_vault:magnetite_ingot>);
-JEI.hideIngredient(<item:the_vault:small_charm>);
-JEI.hideIngredient(<item:the_vault:large_charm>);
-JEI.hideIngredient(<item:the_vault:grand_charm>);
-JEI.hideIngredient(<item:the_vault:majestic_charm>);
-JEI.hideIngredient(<item:the_vault:god_blessing>);
-JEI.hideIngredient(<item:the_vault:god_token>);
-JEI.hideIngredient(<item:the_vault:red_vault_essence>);
-JEI.hideIngredient(<item:the_vault:vault_charm>);
 JEI.hideIngredient(<item:the_vault:charm_upgrade_tier_1>);
 JEI.hideIngredient(<item:the_vault:charm_upgrade_tier_2>);
 JEI.hideIngredient(<item:the_vault:charm_upgrade_tier_3>);
 JEI.hideIngredient(<item:the_vault:charm_upgrade_tier_4>);
-JEI.hideIngredient(<item:the_vault:regret_nugget>);
-JEI.hideIngredient(<item:the_vault:regret_chunk>);
-JEI.hideIngredient(<item:the_vault:regret_orb>);
-JEI.hideIngredient(<item:the_vault:gem_wutodie>);
-JEI.hideIngredient(<item:the_vault:perfect_wutodie>);
-JEI.hideIngredient(<item:the_vault:wutodic_mass>);
-JEI.hideIngredient(<item:the_vault:wutodic_silver_nugget>);
-JEI.hideIngredient(<item:the_vault:wutodic_silver_ingot>);
-JEI.hideIngredient(<item:the_vault:extraordinary_wutodie>);
-JEI.hideIngredient(<item:the_vault:ore_wutodie>);
-JEI.hideIngredient(<item:the_vault:wutodic_silver_block>);
-JEI.hideIngredient(<item:the_vault:vault_jewel_cutting_station>);
 JEI.hideIngredient(<item:the_vault:vault_ingot>);
 JEI.hideIngredient(<item:the_vault:poisonous_mushroom>);
 JEI.hideIngredient(<item:the_vault:hunter_eye>);
@@ -1627,7 +1539,6 @@ JEI.hideIngredient(<item:the_vault:idol_timekeeper>);
 JEI.hideIngredient(<item:the_vault:idol_malevolence>);
 JEI.hideIngredient(<item:the_vault:dragon_path_node>);
 JEI.hideIngredient(<item:the_vault:memory_room_controller>);
-JEI.hideIngredient(<item:the_vault:respec_flask>);
 // IronFurnaces
 JEI.hideIngredient(<item:ironfurnaces:upgrade_silver>);
 JEI.hideIngredient(<item:ironfurnaces:upgrade_iron2>);

@@ -16245,6 +16245,10 @@ file = "kubejs/assets/the_vault/textures/gui/quests/trident.png"
 hash = "7f0e6e2392fe3f0320cb6d6fe2c4b44c825c114b73909f11a2083957f947d0da"
 
 [[files]]
+file = "kubejs/assets/the_vault/textures/gui/quests/unique_codex_1.png"
+hash = "786e6231d62eb911af9b50a769ca69708627e2672d840d2525367ab5375d8bfc"
+
+[[files]]
 file = "kubejs/assets/the_vault/textures/gui/quests/wolds.png"
 hash = "c12135f609171d74fb32acfeef26c1788a4a605ec4618af167cd082de9f5999c"
 
@@ -18968,11 +18972,11 @@ hash = "f0ac22c91075799831792da2026b403668f7cc2b568d15a3270111755b2490b3"
 
 [[files]]
 file = "scripts/00_millennium_scripts.zs"
-hash = "392a915bc8ff1b62c5ded9f204e7282ccf25ecde1508aa322fd18c974d516e1f"
+hash = "7a46f6ad8bea4e9eb9bdf2682d13219465307721f6d47490fb8e9b030bc55d2e"
 
 [[files]]
 file = "scripts/00_remove_recipes.zs"
-hash = "ead885f42214e8d64e96630e244fa8c20daa5eb228b31b5aa6b02982cc62fcdc"
+hash = "13dfc953843fd833fa4bf3532705a9f8e9df298e30f77f09860a59e603212655"
 
 [[files]]
 file = "scripts/Backpacks.zs"
@@ -19136,7 +19140,7 @@ hash = "2a41acd511e3e4dee1f7f55d9d92c7314f1a3e01caec90e99775b0d399added0"
 
 [[files]]
 file = "scripts/jeiInformation.zs"
-hash = "efd5feaa4a37c63034b8751b0fc2a1f7f712a85ed0838598ebd45ac450b3aa85"
+hash = "4ca01430f50f57b9eaba37bc18c86d8d27672bd6564f2e09dfa2a340b2aa7284"
 
 [[files]]
 file = "scripts/mushroomEvents.zs"

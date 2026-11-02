@@ -186,12 +186,9 @@ craftingTable.remove(<item:vaultintegrations:altar_conduit>);
 craftingTable.remove(<item:the_vault:charm_upgrade_tier_2>);
 craftingTable.remove(<item:the_vault:charm_upgrade_tier_4>);
 craftingTable.remove(<item:the_vault:cryo_chamber>);
-craftingTable.remove(<item:the_vault:eternal_pedestal>);
-craftingTable.remove(<item:the_vault:infused_eternal_soul>);
 craftingTable.remove(<item:the_vault:memory_powder>);
 craftingTable.remove(<item:the_vault:memory_shard>);
 craftingTable.remove(<item:the_vault:memory_crystal>);
-craftingTable.remove(<item:the_vault:red_vault_essence>);
 craftingTable.remove(<item:the_vault:map_marker>);
 
 
@@ -213,10 +210,6 @@ craftingTable.addShapeless("memory_shard_2_crystal", <item:the_vault:memory_powd
 
 craftingTable.addShapeless("fragments_from_catalyst", <item:the_vault:vault_catalyst_fragment>*3, [<item:the_vault:vault_catalyst>]);
 craftingTable.addShapeless("fragments_from_infused_catalyst", <item:the_vault:vault_catalyst_fragment>*3, [<item:the_vault:vault_catalyst_infused>]);
-
-craftingTable.addShapeless("red_vault_essence", <item:the_vault:red_vault_essence> * 2, [
-    <item:the_vault:gem_painite>,  <item:the_vault:vault_essence>
-]);
 
 craftingTable.addShaped("vault_altar_conduit", <item:vaultintegrations:altar_conduit> , [
         [<item:the_vault:vault_essence>, <item:the_vault:vault_diamond>, <item:the_vault:vault_essence>],
