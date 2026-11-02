@@ -1102,7 +1102,7 @@ hash = "34b8a3f26fe585699ac60ef8749e8848640d0cafa7972b80beba11bb56595c60"
 
 [[files]]
 file = "config/paxel.json"
-hash = "b66336512c1fe587a129ee70909bb2692fa88e789a37c6ed9d91c33e6d90cf8a"
+hash = "cd22517bdbd2965348a14e8e647ec9a56335fde8026d38d973564fd5e4a96f76"
 
 [[files]]
 file = "config/pehkui-client.toml"
@@ -18293,7 +18293,7 @@ metafile = true
 
 [[files]]
 file = "mods/raw-vault-qol-vault-hunters-3-addon.pw.toml"
-hash = "d6713d6e6f7212a7126c81946906c956c61e90a7293069ffb97ad6fd01274799"
+hash = "a9e574559faee6a515e490911e7c14d00438d1881cac73c6c0e31f546c3d8384"
 metafile = true
 
 [[files]]
