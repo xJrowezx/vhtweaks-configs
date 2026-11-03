@@ -80,7 +80,6 @@
       "red": "#ff0202",
       "blue": "#0060ff",
       "yellow": "#ffe400",
-      "wooden": "#603a17",
       "instability": "#c13115",
       "unmodifiable": "#b0320b",
       "cursed": "#9a6d3a",
@@ -93,9 +92,7 @@
       "knowledge": "#8bf5db",
       "expertise": "#fc30bc",
       "regret": "#d92946",
-      "gilded": "#d7ad16",
       "coin_bounty": "#42445d",
-      "living": "#62bb12",
       "electric": "#fff603",
       "slate": "#6A5ACD",
       "qhighlight": "#0353d7",
@@ -118,7 +115,16 @@
       "lightning": "#ffeb07",
       "platinum": "#fef8d4",
       "bronze": "#f6a43a",
-      "prestige_points": "#00cafc"
+      "prestige_points": "#00cafc",
+      "picking": "#CAC8C6",
+      "axing": "#604737",
+      "shoveling": "#D2D692",
+      "reaping": "#3D8342",
+      "coin": "#BF7F27",
+      "wooden": "#734124",
+      "ornate": "#D4292A",
+      "living": "#5BE13E",
+      "gilded": "#F3E94B"
     }
   }
 }
