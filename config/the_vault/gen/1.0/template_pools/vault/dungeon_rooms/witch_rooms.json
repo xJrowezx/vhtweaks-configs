@@ -1,13 +1,13 @@
 [
   {
-    "weight": 2,
+    "weight": 0,
     "value": {
       "template": "the_vault:vault/dungeon_rooms/witch_large",
       "palettes": [ "the_vault:generic/spawners/witch_dungeon", "the_vault:dungeon_rooms/antique_tags/dungeon_tags_witch", "the_vault:dungeon_rooms/dungeon_discoverable_large" ]
     }
   },
   {
-    "weight": 2,
+    "weight": 0,
     "value": {
       "template": "the_vault:vault/dungeon_rooms/witch_medium",
       "palettes": [ "the_vault:generic/spawners/witch_dungeon", "the_vault:dungeon_rooms/antique_tags/dungeon_tags_witch", "the_vault:dungeon_rooms/dungeon_discoverable_medium" ]

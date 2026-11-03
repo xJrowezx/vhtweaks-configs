@@ -43,7 +43,7 @@
                 },
                 {
                   "level": 60,
-                  "probability": 0.25,
+                  "probability": 0.5,
                   "success": {
                     "the_vault:imbuement_altar[locked=true]": 8,
                     "minecraft:air": 17,
@@ -80,7 +80,7 @@
                 },
                 {
                   "level": 60,
-                  "probability": 0.3,
+                  "probability": 0.5,
                   "success": {
                     "the_vault:imbuement_altar[locked=true]": 8,
                     "the_vault:reclamation_altar[locked=true]": 4,

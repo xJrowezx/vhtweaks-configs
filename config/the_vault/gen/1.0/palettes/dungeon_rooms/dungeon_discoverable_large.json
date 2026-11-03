@@ -43,7 +43,7 @@
                 },
                 {
                   "level": 60,
-                  "probability": 0.5,
+                  "probability": 0.67,
                   "success": {
                     "the_vault:imbuement_altar[locked=true]": 8,
 
@@ -81,7 +81,7 @@
                 },
                 {
                   "level": 60,
-                  "probability": 0.5,
+                  "probability": 0.67,
                   "success": {
                     "the_vault:imbuement_altar[locked=true]": 8,
                     "the_vault:reclamation_altar[locked=true]": 4,
