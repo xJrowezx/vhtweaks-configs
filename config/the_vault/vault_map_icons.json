@@ -75,7 +75,8 @@
             "the_vault:vault/rooms/omega/mine2"
         ],
         "the_vault:gui/map/blacksmith": [
-            "the_vault:vault/rooms/omega/blacksmith1"
+            "the_vault:vault/rooms/omega/blacksmith1",
+            "the_vault:vault/rooms/omega/blacksmith2"
         ],
         "the_vault:gui/map/library": [
             "the_vault:vault/rooms/omega/library1",
@@ -111,6 +112,9 @@
         ],
         "the_vault:gui/map/cozy": [
             "the_vault:vault/rooms/omega/cozy1"
+        ],
+        "the_vault:gui/map/garden": [
+            "the_vault:vault/rooms/omega/garden1"
         ]
     }
 }
