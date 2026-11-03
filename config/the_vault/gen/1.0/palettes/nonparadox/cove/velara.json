@@ -216,14 +216,6 @@
     },
     {
       "type": "weighted_target",
-      "target": "chipped:stone_40",
-      "output": {
-        "the_vault:velara_dark_smooth_brick": 9,
-        "the_vault:velara_gem_block": 1
-      }
-    },
-    {
-      "type": "weighted_target",
       "target": "minecraft:light_gray_wool",
       "output": {
         "minecraft:green_wool": 1
@@ -257,6 +249,64 @@
       "output": {
         "the_vault:velara_brick_chiseled": 9,
         "the_vault:velara_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:cobblestone",
+      "output": {
+        "the_vault:velara_brick_chiseled": 9,
+        "the_vault:velara_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:cobbled_deepslate",
+      "output": {
+        "the_vault:velara_light_smooth_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:deepslate",
+      "output": {
+        "the_vault:velara_light_smooth_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:rocky_sand",
+      "output": {
+        "the_vault:velara_brick": 2,
+        "the_vault:velara_light_smooth_brick": 8
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:cobbled_deepslate_stairs",
+      "output": {
+        "the_vault:velara_planks_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:cobbled_deepslate_slab",
+      "output": {
+        "the_vault:velara_planks_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:andesite_stairs",
+      "output": {
+        "the_vault:velara_planks_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:cobblestone_stairs",
+      "output": {
+        "the_vault:velara_planks_stairs": 1
       }
     },
     {
