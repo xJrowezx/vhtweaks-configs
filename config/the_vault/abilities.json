@@ -14211,6 +14211,344 @@
                 "id": "mana_barrier_30"
               }
             ]
+          },
+          {
+            "type": "tiered",
+            "id": "Legacy_Mana_Shield_Base",
+            "name": "Mana Veil",
+            "maxLearnableTier": 8,
+            "tiers": [
+              {
+                "type": "legacy_mana_shield",
+                "percentageDamageAbsorbed": 0.125,
+                "manaCostPerSecond": 0.0,
+                "manaPerDamageScalar": 2.0,
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "cooldownTicks": 200,
+                "unlockLevel": 0,
+                "id": "legacy_mana_shield_1"
+              },
+              {
+                "type": "legacy_mana_shield",
+                "percentageDamageAbsorbed": 0.25,
+                "manaCostPerSecond": 0.0,
+                "manaPerDamageScalar": 4.0,
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "cooldownTicks": 200,
+                "unlockLevel": 0,
+                "id": "legacy_mana_shield_2"
+              },
+              {
+                "type": "legacy_mana_shield",
+                "percentageDamageAbsorbed": 0.375,
+                "manaCostPerSecond": 0.0,
+                "manaPerDamageScalar": 6.0,
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "cooldownTicks": 200,
+                "unlockLevel": 0,
+                "id": "legacy_mana_shield_3"
+              },
+              {
+                "type": "legacy_mana_shield",
+                "percentageDamageAbsorbed": 0.5,
+                "manaCostPerSecond": 0.0,
+                "manaPerDamageScalar": 8.0,
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "cooldownTicks": 200,
+                "unlockLevel": 0,
+                "id": "legacy_mana_shield_4"
+              },
+              {
+                "type": "legacy_mana_shield",
+                "percentageDamageAbsorbed": 0.625,
+                "manaCostPerSecond": 0.0,
+                "manaPerDamageScalar": 10.0,
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "cooldownTicks": 200,
+                "unlockLevel": 0,
+                "id": "legacy_mana_shield_5"
+              },
+              {
+                "type": "legacy_mana_shield",
+                "percentageDamageAbsorbed": 0.75,
+                "manaCostPerSecond": 0.0,
+                "manaPerDamageScalar": 12.0,
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "cooldownTicks": 200,
+                "unlockLevel": 0,
+                "id": "legacy_mana_shield_6"
+              },
+              {
+                "type": "legacy_mana_shield",
+                "percentageDamageAbsorbed": 0.875,
+                "manaCostPerSecond": 0.0,
+                "manaPerDamageScalar": 14.0,
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "cooldownTicks": 200,
+                "unlockLevel": 0,
+                "id": "legacy_mana_shield_7"
+              },
+              {
+                "type": "legacy_mana_shield",
+                "percentageDamageAbsorbed": 1.0,
+                "manaCostPerSecond": 0.0,
+                "manaPerDamageScalar": 16.0,
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "cooldownTicks": 200,
+                "unlockLevel": 0,
+                "id": "legacy_mana_shield_8"
+              },
+              {
+                "type": "legacy_mana_shield",
+                "percentageDamageAbsorbed": 1.0,
+                "manaCostPerSecond": 0.0,
+                "manaPerDamageScalar": 15.5,
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "cooldownTicks": 200,
+                "unlockLevel": 0,
+                "id": "legacy_mana_shield_9"
+              },
+              {
+                "type": "legacy_mana_shield",
+                "percentageDamageAbsorbed": 1.0,
+                "manaCostPerSecond": 0.0,
+                "manaPerDamageScalar": 15.0,
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "cooldownTicks": 200,
+                "unlockLevel": 0,
+                "id": "legacy_mana_shield_10"
+              },
+              {
+                "type": "legacy_mana_shield",
+                "percentageDamageAbsorbed": 1.0,
+                "manaCostPerSecond": 0.0,
+                "manaPerDamageScalar": 14.5,
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "cooldownTicks": 200,
+                "unlockLevel": 0,
+                "id": "legacy_mana_shield_11"
+              },
+              {
+                "type": "legacy_mana_shield",
+                "percentageDamageAbsorbed": 1.0,
+                "manaCostPerSecond": 0.0,
+                "manaPerDamageScalar": 14.0,
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "cooldownTicks": 200,
+                "unlockLevel": 0,
+                "id": "legacy_mana_shield_12"
+              },
+              {
+                "type": "legacy_mana_shield",
+                "percentageDamageAbsorbed": 1.0,
+                "manaCostPerSecond": 0.0,
+                "manaPerDamageScalar": 13.5,
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "cooldownTicks": 200,
+                "unlockLevel": 0,
+                "id": "legacy_mana_shield_13"
+              },
+              {
+                "type": "legacy_mana_shield",
+                "percentageDamageAbsorbed": 1.0,
+                "manaCostPerSecond": 0.0,
+                "manaPerDamageScalar": 13.0,
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "cooldownTicks": 200,
+                "unlockLevel": 0,
+                "id": "legacy_mana_shield_14"
+              },
+              {
+                "type": "legacy_mana_shield",
+                "percentageDamageAbsorbed": 1.0,
+                "manaCostPerSecond": 0.0,
+                "manaPerDamageScalar": 12.5,
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "cooldownTicks": 200,
+                "unlockLevel": 0,
+                "id": "legacy_mana_shield_15"
+              },
+              {
+                "type": "legacy_mana_shield",
+                "percentageDamageAbsorbed": 1.0,
+                "manaCostPerSecond": 0.0,
+                "manaPerDamageScalar": 12.0,
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "cooldownTicks": 200,
+                "unlockLevel": 0,
+                "id": "legacy_mana_shield_16"
+              },
+              {
+                "type": "legacy_mana_shield",
+                "percentageDamageAbsorbed": 1.0,
+                "manaCostPerSecond": 0.0,
+                "manaPerDamageScalar": 11.5,
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "cooldownTicks": 200,
+                "unlockLevel": 0,
+                "id": "legacy_mana_shield_17"
+              },
+              {
+                "type": "legacy_mana_shield",
+                "percentageDamageAbsorbed": 1.0,
+                "manaCostPerSecond": 0.0,
+                "manaPerDamageScalar": 11.0,
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "cooldownTicks": 200,
+                "unlockLevel": 0,
+                "id": "legacy_mana_shield_18"
+              },
+              {
+                "type": "legacy_mana_shield",
+                "percentageDamageAbsorbed": 1.0,
+                "manaCostPerSecond": 0.0,
+                "manaPerDamageScalar": 10.5,
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "cooldownTicks": 200,
+                "unlockLevel": 0,
+                "id": "legacy_mana_shield_19"
+              },
+              {
+                "type": "legacy_mana_shield",
+                "percentageDamageAbsorbed": 1.0,
+                "manaCostPerSecond": 0.0,
+                "manaPerDamageScalar": 10.0,
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "cooldownTicks": 200,
+                "unlockLevel": 0,
+                "id": "legacy_mana_shield_20"
+              },
+              {
+                "type": "legacy_mana_shield",
+                "percentageDamageAbsorbed": 1.0,
+                "manaCostPerSecond": 0.0,
+                "manaPerDamageScalar": 9.5,
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "cooldownTicks": 200,
+                "unlockLevel": 0,
+                "id": "legacy_mana_shield_21"
+              },
+              {
+                "type": "legacy_mana_shield",
+                "percentageDamageAbsorbed": 1.0,
+                "manaCostPerSecond": 0.0,
+                "manaPerDamageScalar": 9.0,
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "cooldownTicks": 200,
+                "unlockLevel": 0,
+                "id": "legacy_mana_shield_22"
+              },
+              {
+                "type": "legacy_mana_shield",
+                "percentageDamageAbsorbed": 1.0,
+                "manaCostPerSecond": 0.0,
+                "manaPerDamageScalar": 8.5,
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "cooldownTicks": 200,
+                "unlockLevel": 0,
+                "id": "legacy_mana_shield_23"
+              },
+              {
+                "type": "legacy_mana_shield",
+                "percentageDamageAbsorbed": 1.0,
+                "manaCostPerSecond": 0.0,
+                "manaPerDamageScalar": 8.0,
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "cooldownTicks": 200,
+                "unlockLevel": 0,
+                "id": "legacy_mana_shield_24"
+              },
+              {
+                "type": "legacy_mana_shield",
+                "percentageDamageAbsorbed": 1.0,
+                "manaCostPerSecond": 0.0,
+                "manaPerDamageScalar": 7.5,
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "cooldownTicks": 200,
+                "unlockLevel": 0,
+                "id": "legacy_mana_shield_25"
+              },
+              {
+                "type": "legacy_mana_shield",
+                "percentageDamageAbsorbed": 1.0,
+                "manaCostPerSecond": 0.0,
+                "manaPerDamageScalar": 7.0,
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "cooldownTicks": 200,
+                "unlockLevel": 0,
+                "id": "legacy_mana_shield_26"
+              },
+              {
+                "type": "legacy_mana_shield",
+                "percentageDamageAbsorbed": 1.0,
+                "manaCostPerSecond": 0.0,
+                "manaPerDamageScalar": 6.5,
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "cooldownTicks": 200,
+                "unlockLevel": 0,
+                "id": "legacy_mana_shield_27"
+              },
+              {
+                "type": "legacy_mana_shield",
+                "percentageDamageAbsorbed": 1.0,
+                "manaCostPerSecond": 0.0,
+                "manaPerDamageScalar": 6.0,
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "cooldownTicks": 200,
+                "unlockLevel": 0,
+                "id": "legacy_mana_shield_28"
+              },
+              {
+                "type": "legacy_mana_shield",
+                "percentageDamageAbsorbed": 1.0,
+                "manaCostPerSecond": 0.0,
+                "manaPerDamageScalar": 5.5,
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "cooldownTicks": 200,
+                "unlockLevel": 0,
+                "id": "legacy_mana_shield_29"
+              },
+              {
+                "type": "legacy_mana_shield",
+                "percentageDamageAbsorbed": 1.0,
+                "manaCostPerSecond": 0.0,
+                "manaPerDamageScalar": 5.0,
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "cooldownTicks": 200,
+                "unlockLevel": 0,
+                "id": "legacy_mana_shield_30"
+              }
+            ]
           }
         ]
       },
@@ -36801,352 +37139,6 @@
         ]
       },
 
-      {
-        "type": "specialized",
-        "id": "Legacy_Mana_Shield",
-        "name": "Legacy Mana Shield",
-        "maxLearnableTier": 8,
-        "specializations": [
-          {
-            "type": "tiered",
-            "id": "Legacy_Mana_Shield_Base",
-            "name": "Legacy Mana Shield",
-            "maxLearnableTier": 8,
-            "tiers": [
-              {
-                "type": "legacy_mana_shield",
-                "percentageDamageAbsorbed": 0.125,
-                "manaCostPerSecond": 0.0,
-                "manaPerDamageScalar": 2.0,
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "cooldownTicks": 200,
-                "unlockLevel": 0,
-                "id": "legacy_mana_shield_1"
-              },
-              {
-                "type": "legacy_mana_shield",
-                "percentageDamageAbsorbed": 0.25,
-                "manaCostPerSecond": 0.0,
-                "manaPerDamageScalar": 4.0,
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "cooldownTicks": 200,
-                "unlockLevel": 0,
-                "id": "legacy_mana_shield_2"
-              },
-              {
-                "type": "legacy_mana_shield",
-                "percentageDamageAbsorbed": 0.375,
-                "manaCostPerSecond": 0.0,
-                "manaPerDamageScalar": 6.0,
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "cooldownTicks": 200,
-                "unlockLevel": 0,
-                "id": "legacy_mana_shield_3"
-              },
-              {
-                "type": "legacy_mana_shield",
-                "percentageDamageAbsorbed": 0.5,
-                "manaCostPerSecond": 0.0,
-                "manaPerDamageScalar": 8.0,
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "cooldownTicks": 200,
-                "unlockLevel": 0,
-                "id": "legacy_mana_shield_4"
-              },
-              {
-                "type": "legacy_mana_shield",
-                "percentageDamageAbsorbed": 0.625,
-                "manaCostPerSecond": 0.0,
-                "manaPerDamageScalar": 10.0,
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "cooldownTicks": 200,
-                "unlockLevel": 0,
-                "id": "legacy_mana_shield_5"
-              },
-              {
-                "type": "legacy_mana_shield",
-                "percentageDamageAbsorbed": 0.75,
-                "manaCostPerSecond": 0.0,
-                "manaPerDamageScalar": 12.0,
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "cooldownTicks": 200,
-                "unlockLevel": 0,
-                "id": "legacy_mana_shield_6"
-              },
-              {
-                "type": "legacy_mana_shield",
-                "percentageDamageAbsorbed": 0.875,
-                "manaCostPerSecond": 0.0,
-                "manaPerDamageScalar": 14.0,
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "cooldownTicks": 200,
-                "unlockLevel": 0,
-                "id": "legacy_mana_shield_7"
-              },
-              {
-                "type": "legacy_mana_shield",
-                "percentageDamageAbsorbed": 1.0,
-                "manaCostPerSecond": 0.0,
-                "manaPerDamageScalar": 16.0,
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "cooldownTicks": 200,
-                "unlockLevel": 0,
-                "id": "legacy_mana_shield_8"
-              },
-              {
-                "type": "legacy_mana_shield",
-                "percentageDamageAbsorbed": 1.0,
-                "manaCostPerSecond": 0.0,
-                "manaPerDamageScalar": 15.5,
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "cooldownTicks": 200,
-                "unlockLevel": 0,
-                "id": "legacy_mana_shield_9"
-              },
-              {
-                "type": "legacy_mana_shield",
-                "percentageDamageAbsorbed": 1.0,
-                "manaCostPerSecond": 0.0,
-                "manaPerDamageScalar": 15.0,
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "cooldownTicks": 200,
-                "unlockLevel": 0,
-                "id": "legacy_mana_shield_10"
-              },
-              {
-                "type": "legacy_mana_shield",
-                "percentageDamageAbsorbed": 1.0,
-                "manaCostPerSecond": 0.0,
-                "manaPerDamageScalar": 14.5,
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "cooldownTicks": 200,
-                "unlockLevel": 0,
-                "id": "legacy_mana_shield_11"
-              },
-              {
-                "type": "legacy_mana_shield",
-                "percentageDamageAbsorbed": 1.0,
-                "manaCostPerSecond": 0.0,
-                "manaPerDamageScalar": 14.0,
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "cooldownTicks": 200,
-                "unlockLevel": 0,
-                "id": "legacy_mana_shield_12"
-              },
-              {
-                "type": "legacy_mana_shield",
-                "percentageDamageAbsorbed": 1.0,
-                "manaCostPerSecond": 0.0,
-                "manaPerDamageScalar": 13.5,
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "cooldownTicks": 200,
-                "unlockLevel": 0,
-                "id": "legacy_mana_shield_13"
-              },
-              {
-                "type": "legacy_mana_shield",
-                "percentageDamageAbsorbed": 1.0,
-                "manaCostPerSecond": 0.0,
-                "manaPerDamageScalar": 13.0,
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "cooldownTicks": 200,
-                "unlockLevel": 0,
-                "id": "legacy_mana_shield_14"
-              },
-              {
-                "type": "legacy_mana_shield",
-                "percentageDamageAbsorbed": 1.0,
-                "manaCostPerSecond": 0.0,
-                "manaPerDamageScalar": 12.5,
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "cooldownTicks": 200,
-                "unlockLevel": 0,
-                "id": "legacy_mana_shield_15"
-              },
-              {
-                "type": "legacy_mana_shield",
-                "percentageDamageAbsorbed": 1.0,
-                "manaCostPerSecond": 0.0,
-                "manaPerDamageScalar": 12.0,
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "cooldownTicks": 200,
-                "unlockLevel": 0,
-                "id": "legacy_mana_shield_16"
-              },
-              {
-                "type": "legacy_mana_shield",
-                "percentageDamageAbsorbed": 1.0,
-                "manaCostPerSecond": 0.0,
-                "manaPerDamageScalar": 11.5,
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "cooldownTicks": 200,
-                "unlockLevel": 0,
-                "id": "legacy_mana_shield_17"
-              },
-              {
-                "type": "legacy_mana_shield",
-                "percentageDamageAbsorbed": 1.0,
-                "manaCostPerSecond": 0.0,
-                "manaPerDamageScalar": 11.0,
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "cooldownTicks": 200,
-                "unlockLevel": 0,
-                "id": "legacy_mana_shield_18"
-              },
-              {
-                "type": "legacy_mana_shield",
-                "percentageDamageAbsorbed": 1.0,
-                "manaCostPerSecond": 0.0,
-                "manaPerDamageScalar": 10.5,
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "cooldownTicks": 200,
-                "unlockLevel": 0,
-                "id": "legacy_mana_shield_19"
-              },
-              {
-                "type": "legacy_mana_shield",
-                "percentageDamageAbsorbed": 1.0,
-                "manaCostPerSecond": 0.0,
-                "manaPerDamageScalar": 10.0,
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "cooldownTicks": 200,
-                "unlockLevel": 0,
-                "id": "legacy_mana_shield_20"
-              },
-              {
-                "type": "legacy_mana_shield",
-                "percentageDamageAbsorbed": 1.0,
-                "manaCostPerSecond": 0.0,
-                "manaPerDamageScalar": 9.5,
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "cooldownTicks": 200,
-                "unlockLevel": 0,
-                "id": "legacy_mana_shield_21"
-              },
-              {
-                "type": "legacy_mana_shield",
-                "percentageDamageAbsorbed": 1.0,
-                "manaCostPerSecond": 0.0,
-                "manaPerDamageScalar": 9.0,
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "cooldownTicks": 200,
-                "unlockLevel": 0,
-                "id": "legacy_mana_shield_22"
-              },
-              {
-                "type": "legacy_mana_shield",
-                "percentageDamageAbsorbed": 1.0,
-                "manaCostPerSecond": 0.0,
-                "manaPerDamageScalar": 8.5,
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "cooldownTicks": 200,
-                "unlockLevel": 0,
-                "id": "legacy_mana_shield_23"
-              },
-              {
-                "type": "legacy_mana_shield",
-                "percentageDamageAbsorbed": 1.0,
-                "manaCostPerSecond": 0.0,
-                "manaPerDamageScalar": 8.0,
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "cooldownTicks": 200,
-                "unlockLevel": 0,
-                "id": "legacy_mana_shield_24"
-              },
-              {
-                "type": "legacy_mana_shield",
-                "percentageDamageAbsorbed": 1.0,
-                "manaCostPerSecond": 0.0,
-                "manaPerDamageScalar": 7.5,
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "cooldownTicks": 200,
-                "unlockLevel": 0,
-                "id": "legacy_mana_shield_25"
-              },
-              {
-                "type": "legacy_mana_shield",
-                "percentageDamageAbsorbed": 1.0,
-                "manaCostPerSecond": 0.0,
-                "manaPerDamageScalar": 7.0,
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "cooldownTicks": 200,
-                "unlockLevel": 0,
-                "id": "legacy_mana_shield_26"
-              },
-              {
-                "type": "legacy_mana_shield",
-                "percentageDamageAbsorbed": 1.0,
-                "manaCostPerSecond": 0.0,
-                "manaPerDamageScalar": 6.5,
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "cooldownTicks": 200,
-                "unlockLevel": 0,
-                "id": "legacy_mana_shield_27"
-              },
-              {
-                "type": "legacy_mana_shield",
-                "percentageDamageAbsorbed": 1.0,
-                "manaCostPerSecond": 0.0,
-                "manaPerDamageScalar": 6.0,
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "cooldownTicks": 200,
-                "unlockLevel": 0,
-                "id": "legacy_mana_shield_28"
-              },
-              {
-                "type": "legacy_mana_shield",
-                "percentageDamageAbsorbed": 1.0,
-                "manaCostPerSecond": 0.0,
-                "manaPerDamageScalar": 5.5,
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "cooldownTicks": 200,
-                "unlockLevel": 0,
-                "id": "legacy_mana_shield_29"
-              },
-              {
-                "type": "legacy_mana_shield",
-                "percentageDamageAbsorbed": 1.0,
-                "manaCostPerSecond": 0.0,
-                "manaPerDamageScalar": 5.0,
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "cooldownTicks": 200,
-                "unlockLevel": 0,
-                "id": "legacy_mana_shield_30"
-              }
-            ]
-          }
-        ]
-      },
       {
         "type": "specialized",
         "id": "Shield_Wall",

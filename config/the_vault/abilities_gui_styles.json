@@ -96,6 +96,9 @@
         },
         "Mana_Barrier": {
           "icon": "the_vault:gui/abilities/mana_barrier"
+        },
+        "Legacy_Mana_Shield_Base": {
+          "icon": "the_vault:gui/abilities/mana_shield"
         }
       }
     },
@@ -158,7 +161,7 @@
     },
     "Empower": {
       "x": 70,
-      "y": 134,
+      "y": 144,
       "specializationStyles": {
         "Empower_Base": {
           "icon": "the_vault:gui/abilities/empower"
@@ -191,7 +194,7 @@
     },
     "Totem": {
       "x": 105,
-      "y": 134,
+      "y": 144,
       "specializationStyles": {
         "Totem_Base": {
           "icon": "the_vault:gui/abilities/totem"
@@ -209,7 +212,7 @@
     },
     "Rampage": {
       "x": 175,
-      "y": 134,
+      "y": 144,
       "specializationStyles": {
         "Rampage_Base": {
           "icon": "the_vault:gui/abilities/rampage"
@@ -242,7 +245,7 @@
     },
     "Smite": {
       "x": 35,
-      "y": 134,
+      "y": 144,
       "specializationStyles": {
         "Smite_Base": {
           "icon": "the_vault:gui/abilities/smite_hand2"
@@ -257,7 +260,7 @@
     },
     "Shell": {
       "x": 140,
-      "y": 134,
+      "y": 144,
       "specializationStyles": {
         "Shell_Base": {
           "icon": "the_vault:gui/abilities/shell"
@@ -287,7 +290,7 @@
     },
     "Storm_Arrow": {
       "x": 0,
-      "y": 265,
+      "y": 275,
       "specializationStyles": {
         "Storm_Arrow_Base": {
           "icon": "the_vault:gui/abilities/thunderstorm"
@@ -314,7 +317,7 @@
     },
     "Battle_Cry": {
       "x": 0,
-      "y": 134,
+      "y": 144,
       "specializationStyles": {
         "Battle_Cry_Base": {
           "icon": "the_vault:gui/abilities/battle_cry"
@@ -389,7 +392,7 @@
     },
     "Necromancy": {
       "x": 210,
-      "y": 134,
+      "y": 144,
       "specializationStyles": {
         "Necromancy_Base": {
           "icon": "the_vault:gui/abilities/necromancy"
@@ -402,7 +405,6 @@
         }
       }
     },
-
     "Blade_Frenzy": {
       "x": 385,
       "y": 17,
@@ -433,18 +435,9 @@
         }
       }
     },
-    "Legacy_Mana_Shield": {
-      "x": 35,
-      "y": 265,
-      "specializationStyles": {
-        "Legacy_Mana_Shield_Base": {
-          "icon": "the_vault:gui/abilities/mana_shield"
-        }
-      }
-    },
     "Fangs": {
-      "x": 70,
-      "y": 265,
+      "x": 35,
+      "y": 275,
       "specializationStyles": {
         "Fangs_Base": {
           "icon": "the_vault:gui/abilities/wall_of_fangs"
@@ -455,8 +448,8 @@
       }
     },
     "Apex_Predator": {
-      "x": 105,
-      "y": 265,
+      "x": 70,
+      "y": 275,
       "specializationStyles": {
         "Apex_Predator_base": {
           "icon": "the_vault:gui/abilities/apex_predator"
@@ -490,7 +483,7 @@
         }
       },
       "x": -15,
-      "y": 97
+      "y": 107
     },
     {
       "label": {
@@ -499,7 +492,7 @@
         }
       },
       "x": -15,
-      "y": 228
+      "y": 238
     }
   ],
   "lines": [
@@ -533,28 +526,28 @@
     },
     {
       "x": -20,
-      "y": 107,
+      "y": 117,
       "width": 100,
       "height": 1,
       "color": 13355979
     },
     {
       "x": -20,
-      "y": 107,
+      "y": 117,
       "width": 1,
       "height": 50,
       "color": 13355979
     },
     {
       "x": -20,
-      "y": 238,
+      "y": 248,
       "width": 100,
       "height": 1,
       "color": 13355979
     },
     {
       "x": -20,
-      "y": 238,
+      "y": 248,
       "width": 1,
       "height": 50,
       "color": 13355979

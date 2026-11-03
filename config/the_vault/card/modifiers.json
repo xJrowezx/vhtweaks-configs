@@ -2627,7 +2627,7 @@
     "vein_miner": {
       "type": "gear",
       "name": {
-        "text": "Vein Miner Card"
+        "text": "Vein Miner Abilities"
       },
       "model": "the_vault:card/icon/vein_miner#inventory",
       "groups": [
@@ -2638,47 +2638,7 @@
       "pool": [
         {
           "tier": 1,
-          "abilityKey": "Vein_Miner_Base",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "vein_miner_durability": {
-      "type": "gear",
-      "name": {
-        "text": "Finesse Miner Card"
-      },
-      "model": "the_vault:card/icon/vein_miner_durability#inventory",
-      "groups": [
-        "Arcane",
-        "Utility"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Vein_Miner_Durability",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "vein_miner_void": {
-      "type": "gear",
-      "name": {
-        "text": "Void Miner Card"
-      },
-      "model": "the_vault:card/icon/vein_miner_void#inventory",
-      "groups": [
-        "Arcane",
-        "Utility"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Vein_Miner_Void",
+          "abilityKey": "Vein_Miner",
           "levelChange": 1
         }
       ],
@@ -2687,7 +2647,7 @@
     "ghost_walk": {
       "type": "gear",
       "name": {
-        "text": "Ghost Walk Card"
+        "text": "Ghost Walk Abilities"
       },
       "model": "the_vault:card/icon/ghost_walk#inventory",
       "groups": [
@@ -2698,27 +2658,7 @@
       "pool": [
         {
           "tier": 1,
-          "abilityKey": "Ghost_Walk_Base",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "spirit_walk": {
-      "type": "gear",
-      "name": {
-        "text": "Spirit Walk Card"
-      },
-      "model": "the_vault:card/icon/spirit_walk#inventory",
-      "groups": [
-        "Arcane",
-        "Utility"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Ghost_Walk_Spirit",
+          "abilityKey": "Ghost_Walk",
           "levelChange": 1
         }
       ],
@@ -2727,7 +2667,7 @@
     "heal": {
       "type": "gear",
       "name": {
-        "text": "Heal Card"
+        "text": "Heal Abilities"
       },
       "model": "the_vault:card/icon/heal#inventory",
       "groups": [
@@ -2738,47 +2678,7 @@
       "pool": [
         {
           "tier": 1,
-          "abilityKey": "Heal_Base",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "heal_group": {
-      "type": "gear",
-      "name": {
-        "text": "Group Heal Card"
-      },
-      "model": "the_vault:card/icon/heal_group#inventory",
-      "groups": [
-        "Arcane",
-        "Utility"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Heal_Group",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "cleanse": {
-      "type": "gear",
-      "name": {
-        "text": "Cleanse Card"
-      },
-      "model": "the_vault:card/icon/cleanse#inventory",
-      "groups": [
-        "Arcane",
-        "Utility"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Heal_Cleanse",
+          "abilityKey": "Heal",
           "levelChange": 1
         }
       ],
@@ -2787,7 +2687,7 @@
     "dash": {
       "type": "gear",
       "name": {
-        "text": "Dash Card"
+        "text": "Dash Abilities"
       },
       "model": "the_vault:card/icon/dash#inventory",
       "groups": [
@@ -2798,47 +2698,7 @@
       "pool": [
         {
           "tier": 1,
-          "abilityKey": "Dash_Base",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "dash_damage": {
-      "type": "gear",
-      "name": {
-        "text": "Bullet Card"
-      },
-      "model": "the_vault:card/icon/dash_damage#inventory",
-      "groups": [
-        "Arcane",
-        "Utility"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Dash_Damage",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "dash_warp": {
-      "type": "gear",
-      "name": {
-        "text": "Warp Card"
-      },
-      "model": "the_vault:card/icon/dash_warp#inventory",
-      "groups": [
-        "Arcane",
-        "Utility"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Dash_Warp",
+          "abilityKey": "Dash",
           "levelChange": 1
         }
       ],
@@ -2847,7 +2707,7 @@
     "hunter": {
       "type": "gear",
       "name": {
-        "text": "Hunter Card"
+        "text": "Hunter Abilities"
       },
       "model": "the_vault:card/icon/hunter#inventory",
       "groups": [
@@ -2858,27 +2718,7 @@
       "pool": [
         {
           "tier": 1,
-          "abilityKey": "Hunter_Base",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "javelin_sight": {
-      "type": "gear",
-      "name": {
-        "text": "Sight Javelin Card"
-      },
-      "model": "the_vault:card/icon/javelin_sight#inventory",
-      "groups": [
-        "Arcane",
-        "Utility"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Javelin_Sight",
+          "abilityKey": "Hunter",
           "levelChange": 1
         }
       ],
@@ -2887,7 +2727,7 @@
     "mega_jump": {
       "type": "gear",
       "name": {
-        "text": "Mega Jump Card"
+        "text": "Mega Jump Abilities"
       },
       "model": "the_vault:card/icon/mega_jump#inventory",
       "groups": [
@@ -2898,47 +2738,7 @@
       "pool": [
         {
           "tier": 1,
-          "abilityKey": "Mega_Jump_Base",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "mega_jump_break_down": {
-      "type": "gear",
-      "name": {
-        "text": "Mega Dig Card"
-      },
-      "model": "the_vault:card/icon/mega_jump_break_down#inventory",
-      "groups": [
-        "Arcane",
-        "Utility"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Mega_Jump_Break_Down",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "levitate": {
-      "type": "gear",
-      "name": {
-        "text": "Levitate Card"
-      },
-      "model": "the_vault:card/icon/levitate#inventory",
-      "groups": [
-        "Arcane",
-        "Utility"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Levitate",
+          "abilityKey": "Mega_Jump",
           "levelChange": 1
         }
       ],
@@ -2947,9 +2747,9 @@
     "mana_shield": {
       "type": "gear",
       "name": {
-        "text": "Mana Shield Card"
+        "text": "Mana Shield Abilities"
       },
-      "model": "the_vault:card/icon/fortify#inventory",
+      "model": "the_vault:card/icon/mana_shield#inventory",
       "groups": [
         "Arcane",
         "Utility"
@@ -2958,27 +2758,7 @@
       "pool": [
         {
           "tier": 1,
-          "abilityKey": "Mana_Shield_Base",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "mana_barrier": {
-      "type": "gear",
-      "name": {
-        "text": "Mana Barrier Card"
-      },
-      "model": "the_vault:card/icon/mana_barrier#inventory",
-      "groups": [
-        "Arcane",
-        "Defensive"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Mana_Barrier",
+          "abilityKey": "Mana_Shield",
           "levelChange": 1
         }
       ],
@@ -2987,7 +2767,7 @@
     "taunt": {
       "type": "gear",
       "name": {
-        "text": "Taunt Card"
+        "text": "Taunt Abilities"
       },
       "model": "the_vault:card/icon/taunt#inventory",
       "groups": [
@@ -2998,47 +2778,7 @@
       "pool": [
         {
           "tier": 1,
-          "abilityKey": "Taunt_Base",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "taunt_repel": {
-      "type": "gear",
-      "name": {
-        "text": "Fear Card"
-      },
-      "model": "the_vault:card/icon/taunt_repel#inventory",
-      "groups": [
-        "Arcane",
-        "Utility"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Taunt_Repel",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "taunt_decoy": {
-      "type": "gear",
-      "name": {
-        "text": "Decoy Card"
-      },
-      "model": "the_vault:card/icon/taunt#inventory",
-      "groups": [
-        "Arcane",
-        "Utility"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Taunt_Decoy",
+          "abilityKey": "Taunt",
           "levelChange": 1
         }
       ],
@@ -3047,7 +2787,7 @@
     "shield_wall": {
       "type": "gear",
       "name": {
-        "text": "Shield Wall Card"
+        "text": "Shield Wall Abilities"
       },
       "model": "the_vault:card/icon/shield_wall#inventory",
       "groups": [
@@ -3058,7 +2798,7 @@
       "pool": [
         {
           "tier": 1,
-          "abilityKey": "Shield_Wall_Base",
+          "abilityKey": "Shield_Wall",
           "levelChange": 1
         }
       ],
@@ -3067,7 +2807,7 @@
     "colossus": {
       "type": "gear",
       "name": {
-        "text": "Colossus Card"
+        "text": "Colossus Abilities"
       },
       "model": "the_vault:card/icon/colossus#inventory",
       "groups": [
@@ -3078,27 +2818,7 @@
       "pool": [
         {
           "tier": 1,
-          "abilityKey": "Colossus_Base",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "sneaky_getaway": {
-      "type": "gear",
-      "name": {
-        "text": "Sneaky Getaway Card"
-      },
-      "model": "the_vault:card/icon/sneaky_getaway#inventory",
-      "groups": [
-        "Arcane",
-        "Utility"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Sneaky_Getaway",
+          "abilityKey": "Colossus",
           "levelChange": 1
         }
       ],
@@ -3107,7 +2827,7 @@
     "nova": {
       "type": "gear",
       "name": {
-        "text": "Nova Card"
+        "text": "Nova Abilities"
       },
       "model": "the_vault:card/icon/nova#inventory",
       "groups": [
@@ -3118,67 +2838,7 @@
       "pool": [
         {
           "tier": 1,
-          "abilityKey": "Nova_Base",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "nova_dot": {
-      "type": "gear",
-      "name": {
-        "text": "Poison Nova Card"
-      },
-      "model": "the_vault:card/icon/nova_dot#inventory",
-      "groups": [
-        "Arcane",
-        "Offensive"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Nova_Dot",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "nova_slow": {
-      "type": "gear",
-      "name": {
-        "text": "Frost Nova Card"
-      },
-      "model": "the_vault:card/icon/nova_speed#inventory",
-      "groups": [
-        "Arcane",
-        "Defensive"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Nova_Slow",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "nova_burn": {
-      "type": "gear",
-      "name": {
-        "text": "Fire Nova Card"
-      },
-      "model": "the_vault:card/icon/fire_nova#inventory",
-      "groups": [
-        "Arcane",
-        "Defensive"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Nova_Burn",
+          "abilityKey": "Nova",
           "levelChange": 1
         }
       ],
@@ -3187,7 +2847,7 @@
     "fireball": {
       "type": "gear",
       "name": {
-        "text": "Fireball Card"
+        "text": "Fireball Abilities"
       },
       "model": "the_vault:card/icon/fireball#inventory",
       "groups": [
@@ -3198,47 +2858,7 @@
       "pool": [
         {
           "tier": 1,
-          "abilityKey": "Fireball_Base",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "fireball_volley": {
-      "type": "gear",
-      "name": {
-        "text": "Fire Volley Card"
-      },
-      "model": "the_vault:card/icon/fireball_volley#inventory",
-      "groups": [
-        "Arcane",
-        "Offensive"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Fireball_Volley",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "fireball_fireshot": {
-      "type": "gear",
-      "name": {
-        "text": "Fireshot Card"
-      },
-      "model": "the_vault:card/icon/fireball_fireshot#inventory",
-      "groups": [
-        "Arcane",
-        "Offensive"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Fireball_Fireshot",
+          "abilityKey": "Fireball",
           "levelChange": 1
         }
       ],
@@ -3247,7 +2867,7 @@
     "javelin": {
       "type": "gear",
       "name": {
-        "text": "Javelin Card"
+        "text": "Javelin Abilities"
       },
       "model": "the_vault:card/icon/javelin#inventory",
       "groups": [
@@ -3258,47 +2878,7 @@
       "pool": [
         {
           "tier": 1,
-          "abilityKey": "Javelin_Base",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "javelin_piercing": {
-      "type": "gear",
-      "name": {
-        "text": "Piercing Javelin Card"
-      },
-      "model": "the_vault:card/icon/javelin_piercing#inventory",
-      "groups": [
-        "Arcane",
-        "Offensive"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Javelin_Piercing",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "javelin_scatter": {
-      "type": "gear",
-      "name": {
-        "text": "Scatter Javelin Card"
-      },
-      "model": "the_vault:card/icon/javelin_scatter#inventory",
-      "groups": [
-        "Arcane",
-        "Offensive"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Javelin_Scatter",
+          "abilityKey": "Javelin",
           "levelChange": 1
         }
       ],
@@ -3307,7 +2887,7 @@
     "stonefall": {
       "type": "gear",
       "name": {
-        "text": "Stonefall Card"
+        "text": "Stonefall Abilities"
       },
       "model": "the_vault:card/icon/stonefall#inventory",
       "groups": [
@@ -3318,47 +2898,7 @@
       "pool": [
         {
           "tier": 1,
-          "abilityKey": "Stonefall_Base",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "stonefall_snow": {
-      "type": "gear",
-      "name": {
-        "text": "Hero's Landing Card"
-      },
-      "model": "the_vault:card/icon/stonefall_snow#inventory",
-      "groups": [
-        "Arcane",
-        "Offensive"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Stonefall_Snow",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "stonefall_cold": {
-      "type": "gear",
-      "name": {
-        "text": "Coldsnap Card"
-      },
-      "model": "the_vault:card/icon/stonefall_cold#inventory",
-      "groups": [
-        "Arcane",
-        "Offensive"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Stonefall_Cold",
+          "abilityKey": "Stonefall",
           "levelChange": 1
         }
       ],
@@ -3367,7 +2907,7 @@
     "ice_bolt": {
       "type": "gear",
       "name": {
-        "text": "Ice Bolt Card"
+        "text": "Ice Bolt Abilities"
       },
       "model": "the_vault:card/icon/ice_bolt#inventory",
       "groups": [
@@ -3384,30 +2924,10 @@
       ],
       "maxTier": 1
     },
-    "ice_blast": {
-      "type": "gear",
-      "name": {
-        "text": "Glacial Blast Card"
-      },
-      "model": "the_vault:card/icon/ice_blast#inventory",
-      "groups": [
-        "Arcane",
-        "Offensive"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Ice_Bolt_Blast",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
     "mana_shield_implode": {
       "type": "gear",
       "name": {
-        "text": "Implode Card"
+        "text": "Implode Abilities"
       },
       "model": "the_vault:card/icon/mana_shield_implode#inventory",
       "groups": [
@@ -3418,27 +2938,7 @@
       "pool": [
         {
           "tier": 1,
-          "abilityKey": "Mana_Shield_Implode",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "life_tap": {
-      "type": "gear",
-      "name": {
-        "text": "Life Tap Card"
-      },
-      "model": "the_vault:card/icon/life_tap#inventory",
-      "groups": [
-        "Arcane",
-        "Offensive"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Implode_Life_Tap",
+          "abilityKey": "Implode",
           "levelChange": 1
         }
       ],
@@ -3447,7 +2947,7 @@
     "shield_bash": {
       "type": "gear",
       "name": {
-        "text": "Shield Bash Card"
+        "text": "Shield Bash Abilities"
       },
       "model": "the_vault:card/icon/shield_bash#inventory",
       "groups": [
@@ -3458,47 +2958,7 @@
       "pool": [
         {
           "tier": 1,
-          "abilityKey": "Shield_Bash",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "shield_bash_earthshatter": {
-      "type": "gear",
-      "name": {
-        "text": "Bulwark Card"
-      },
-      "model": "the_vault:card/icon/shield_bash#inventory",
-      "groups": [
-        "Arcane",
-        "Offensive"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Shield_Bash_Earthshatter",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "shield_bash_battering_ram": {
-      "type": "gear",
-      "name": {
-        "text": "Battering Ram Card"
-      },
-      "model": "the_vault:card/icon/shield_bash#inventory",
-      "groups": [
-        "Arcane",
-        "Offensive"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Shield_Bash_Battering_Ram",
+          "abilityKey": "Retribution",
           "levelChange": 1
         }
       ],
@@ -3507,7 +2967,7 @@
     "arcane": {
       "type": "gear",
       "name": {
-        "text": "Arcane Card"
+        "text": "All Arcane Abilities"
       },
       "model": "the_vault:card/icon/arcane#inventory",
       "groups": [
@@ -3518,47 +2978,7 @@
       "pool": [
         {
           "tier": 1,
-          "abilityKey": "Arcane_Base",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "arcane_rail": {
-      "type": "gear",
-      "name": {
-        "text": "Arcane Rail Card"
-      },
-      "model": "the_vault:card/icon/arcane_rail#inventory",
-      "groups": [
-        "Arcane",
-        "Offensive"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Arcane_Rail",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "arcane_prism": {
-      "type": "gear",
-      "name": {
-        "text": "Prism Card"
-      },
-      "model": "the_vault:card/icon/arcane#inventory",
-      "groups": [
-        "Arcane",
-        "Offensive"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Arcane_Prism",
+          "abilityKey": "Arcane",
           "levelChange": 1
         }
       ],
@@ -3567,9 +2987,9 @@
     "earthquake": {
       "type": "gear",
       "name": {
-        "text": "Earthquake Card"
+        "text": "Earthquake Abilities"
       },
-      "model": "the_vault:card/icon/earthquake#inventory",
+      "model": "the_vault:card/icon/earthquake1#inventory",
       "groups": [
         "Arcane",
         "Offensive"
@@ -3578,47 +2998,7 @@
       "pool": [
         {
           "tier": 1,
-          "abilityKey": "Earthquake_Base",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "earthquake_singularity": {
-      "type": "gear",
-      "name": {
-        "text": "Singularity Card"
-      },
-      "model": "the_vault:card/icon/earthquake#inventory",
-      "groups": [
-        "Arcane",
-        "Offensive"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Earthquake_Singularity",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "earthquake_tremor": {
-      "type": "gear",
-      "name": {
-        "text": "Tremor Card"
-      },
-      "model": "the_vault:card/icon/earthquake#inventory",
-      "groups": [
-        "Arcane",
-        "Offensive"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Earthquake_Tremor",
+          "abilityKey": "Earthquake",
           "levelChange": 1
         }
       ],
@@ -3627,7 +3007,7 @@
     "chain_lightning": {
       "type": "gear",
       "name": {
-        "text": "Lightning Strike Card"
+        "text": "Lightning Strike Abilities"
       },
       "model": "the_vault:card/icon/chain_lightning#inventory",
       "groups": [
@@ -3638,47 +3018,7 @@
       "pool": [
         {
           "tier": 1,
-          "abilityKey": "Chain_Lightning_Base",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "ball_lightning": {
-      "type": "gear",
-      "name": {
-        "text": "Ball Lightning Card"
-      },
-      "model": "the_vault:card/icon/ball_lightning#inventory",
-      "groups": [
-        "Arcane",
-        "Offensive"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Chain_Lightning_Orbs",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "charged_bolts": {
-      "type": "gear",
-      "name": {
-        "text": "Charged Bolts Card"
-      },
-      "model": "the_vault:card/icon/chain_lightning#inventory",
-      "groups": [
-        "Arcane",
-        "Offensive"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Chain_Lightning_Charged_Bolts",
+          "abilityKey": "Chain_Lightning",
           "levelChange": 1
         }
       ],
@@ -3687,7 +3027,7 @@
     "chaos_cube": {
       "type": "gear",
       "name": {
-        "text": "Chaos Cube Card"
+        "text": "Chaos Cube Abilities"
       },
       "model": "the_vault:card/icon/chaos_cube#inventory",
       "groups": [
@@ -3698,47 +3038,7 @@
       "pool": [
         {
           "tier": 1,
-          "abilityKey": "Grenade_Base",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "toxic_grenade": {
-      "type": "gear",
-      "name": {
-        "text": "Toxic Vial Card"
-      },
-      "model": "the_vault:card/icon/toxic_grenade#inventory",
-      "groups": [
-        "Arcane",
-        "Offensive"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Toxic_Grenade",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "sticky_cube": {
-      "type": "gear",
-      "name": {
-        "text": "Sticky Cube Card"
-      },
-      "model": "the_vault:card/icon/chaos_cube#inventory",
-      "groups": [
-        "Arcane",
-        "Offensive"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Grenade_Sticky",
+          "abilityKey": "Grenade",
           "levelChange": 1
         }
       ],
@@ -3747,7 +3047,7 @@
     "blade_frenzy": {
       "type": "gear",
       "name": {
-        "text": "Blade Frenzy Card"
+        "text": "Blade Frenzy Abilities"
       },
       "model": "the_vault:card/icon/bladefrenzy#inventory",
       "groups": [
@@ -3758,7 +3058,7 @@
       "pool": [
         {
           "tier": 1,
-          "abilityKey": "Blade_Frenzy_Base",
+          "abilityKey": "Blade_Frenzy",
           "levelChange": 1
         }
       ],
@@ -3767,7 +3067,7 @@
     "battle_cry": {
       "type": "gear",
       "name": {
-        "text": "Battle Cry Card"
+        "text": "Battle Cry Abilities"
       },
       "model": "the_vault:card/icon/battle_cry#inventory",
       "groups": [
@@ -3778,47 +3078,7 @@
       "pool": [
         {
           "tier": 1,
-          "abilityKey": "Battle_Cry_Base",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "battle_cry_spectral_strike": {
-      "type": "gear",
-      "name": {
-        "text": "Spectral Cry Card"
-      },
-      "model": "the_vault:card/icon/battle_cry_spectral_strike#inventory",
-      "groups": [
-        "Arcane",
-        "Offensive"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Battle_Cry_Spectral_Strike",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "battle_cry_lucky_strike": {
-      "type": "gear",
-      "name": {
-        "text": "Lucky Cry Card"
-      },
-      "model": "the_vault:card/icon/battle_cry_lucky_strike#inventory",
-      "groups": [
-        "Arcane",
-        "Offensive"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Battle_Cry_Lucky_Strike",
+          "abilityKey": "Battle_Cry",
           "levelChange": 1
         }
       ],
@@ -3827,7 +3087,7 @@
     "smite": {
       "type": "gear",
       "name": {
-        "text": "Smite"
+        "text": "Smite Abilities"
       },
       "model": "the_vault:card/icon/smite#inventory",
       "groups": [
@@ -3838,47 +3098,7 @@
       "pool": [
         {
           "tier": 1,
-          "abilityKey": "Smite_Base",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "smite_archon": {
-      "type": "gear",
-      "name": {
-        "text": "Archon Card"
-      },
-      "model": "the_vault:card/icon/smite_archon#inventory",
-      "groups": [
-        "Arcane",
-        "Offensive"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Smite_Archon",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "smite_blast_wave": {
-      "type": "gear",
-      "name": {
-        "text": "Blast Wave Card"
-      },
-      "model": "the_vault:card/icon/smite_archon#inventory",
-      "groups": [
-        "Arcane",
-        "Offensive"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Smite_Blast_Wave",
+          "abilityKey": "Smite",
           "levelChange": 1
         }
       ],
@@ -3887,7 +3107,7 @@
     "empower": {
       "type": "gear",
       "name": {
-        "text": "Empower Card"
+        "text": "Empower Abilities"
       },
       "model": "the_vault:card/icon/empower#inventory",
       "groups": [
@@ -3898,67 +3118,7 @@
       "pool": [
         {
           "tier": 1,
-          "abilityKey": "Empower_Base",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "empower_ice": {
-      "type": "gear",
-      "name": {
-        "text": "Ice Armour Card"
-      },
-      "model": "the_vault:card/icon/empower_ice_armour#inventory",
-      "groups": [
-        "Arcane",
-        "Defensive"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Empower_Ice_Armor",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "empower_entropy": {
-      "type": "gear",
-      "name": {
-        "text": "Entropic Bind Card"
-      },
-      "model": "the_vault:card/icon/empower_entropy#inventory",
-      "groups": [
-        "Arcane",
-        "Defensive"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Empower_Slowness_Aura",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "immolation": {
-      "type": "gear",
-      "name": {
-        "text": "Immolation Card"
-      },
-      "model": "the_vault:card/icon/immolation#inventory",
-      "groups": [
-        "Arcane",
-        "Defensive"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Empower_Fire_Aura",
+          "abilityKey": "Empower",
           "levelChange": 1
         }
       ],
@@ -3967,7 +3127,7 @@
     "totem": {
       "type": "gear",
       "name": {
-        "text": "Regeneration Totem Card"
+        "text": "Regeneration Totem Abilities"
       },
       "model": "the_vault:card/icon/totem#inventory",
       "groups": [
@@ -3978,67 +3138,7 @@
       "pool": [
         {
           "tier": 1,
-          "abilityKey": "Totem_Base",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "totem_player_damage": {
-      "type": "gear",
-      "name": {
-        "text": "Wrath Totem Card"
-      },
-      "model": "the_vault:card/icon/totem_player_damage#inventory",
-      "groups": [
-        "Arcane",
-        "Offensive"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Totem_Player_Damage",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "totem_mana_regen": {
-      "type": "gear",
-      "name": {
-        "text": "Spirit Totem Card"
-      },
-      "model": "the_vault:card/icon/totem_mana_regen#inventory",
-      "groups": [
-        "Arcane",
-        "Utility"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Totem_Mana_Regen",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "totem_mob_damage": {
-      "type": "gear",
-      "name": {
-        "text": "Hatred Totem Card"
-      },
-      "model": "the_vault:card/icon/totem_mob_damage#inventory",
-      "groups": [
-        "Arcane",
-        "Offensive"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Totem_Mob_Damage",
+          "abilityKey": "Totem",
           "levelChange": 1
         }
       ],
@@ -4047,7 +3147,7 @@
     "shell": {
       "type": "gear",
       "name": {
-        "text": "Shell Card"
+        "text": "Shell Abilities"
       },
       "model": "the_vault:card/icon/shell#inventory",
       "groups": [
@@ -4058,47 +3158,7 @@
       "pool": [
         {
           "tier": 1,
-          "abilityKey": "Shell_Base",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "shell_porcupine": {
-      "type": "gear",
-      "name": {
-        "text": "Porcupine Card"
-      },
-      "model": "the_vault:card/icon/shell_porcupine#inventory",
-      "groups": [
-        "Arcane",
-        "Offensive"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Shell_Porcupine",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "shell_quill": {
-      "type": "gear",
-      "name": {
-        "text": "Quill Card"
-      },
-      "model": "the_vault:card/icon/shell_quill#inventory",
-      "groups": [
-        "Arcane",
-        "Offensive"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Shell_Quill",
+          "abilityKey": "Shell",
           "levelChange": 1
         }
       ],
@@ -4107,7 +3167,7 @@
     "rampage": {
       "type": "gear",
       "name": {
-        "text": "Rampage Card"
+        "text": "Rampage Abilities"
       },
       "model": "the_vault:card/icon/rampage#inventory",
       "groups": [
@@ -4118,67 +3178,7 @@
       "pool": [
         {
           "tier": 1,
-          "abilityKey": "Rampage_Base",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "rampage_bloodlust": {
-      "type": "gear",
-      "name": {
-        "text": "Bloodlust Card"
-      },
-      "model": "the_vault:card/icon/rampage_leech#inventory",
-      "groups": [
-        "Arcane",
-        "Offensive"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Rampage_Bloodlust",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "rampage_berserker": {
-      "type": "gear",
-      "name": {
-        "text": "Berserker Card"
-      },
-      "model": "the_vault:card/icon/rampage#inventory",
-      "groups": [
-        "Arcane",
-        "Offensive"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Rampage_Berserker",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "rampage_instinct": {
-      "type": "gear",
-      "name": {
-        "text": "Instinct Card"
-      },
-      "model": "the_vault:card/icon/rampage_chain#inventory",
-      "groups": [
-        "Arcane",
-        "Offensive"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Rampage_Instinct",
+          "abilityKey": "Rampage",
           "levelChange": 1
         }
       ],
@@ -4187,7 +3187,7 @@
     "necromancy": {
       "type": "gear",
       "name": {
-        "text": "Necromancy Card"
+        "text": "Necromancy Abilities"
       },
       "model": "the_vault:card/icon/necromancy#inventory",
       "groups": [
@@ -4198,47 +3198,7 @@
       "pool": [
         {
           "tier": 1,
-          "abilityKey": "Necromancy_Base",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "necromancy_archer": {
-      "type": "gear",
-      "name": {
-        "text": "Necromancy Archer Card"
-      },
-      "model": "the_vault:card/icon/necromancy_archer#inventory",
-      "groups": [
-        "Arcane",
-        "Offensive"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Necromancy_Archer",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "necromancy_golem": {
-      "type": "gear",
-      "name": {
-        "text": "Necromancy Golem Card"
-      },
-      "model": "the_vault:card/icon/necromancy_golem#inventory",
-      "groups": [
-        "Arcane",
-        "Offensive"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Necromancy_Golem",
+          "abilityKey": "Necromancy",
           "levelChange": 1
         }
       ],
@@ -4247,7 +3207,7 @@
     "thunderstorm": {
       "type": "gear",
       "name": {
-        "text": "Storm Arrow Card"
+        "text": "Storm Arrow Abilities"
       },
       "model": "the_vault:card/icon/thunderstorm#inventory",
       "groups": [
@@ -4258,67 +3218,7 @@
       "pool": [
         {
           "tier": 1,
-          "abilityKey": "Storm_Arrow_Base",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "blizzard": {
-      "type": "gear",
-      "name": {
-        "text": "Shard Blizzard Card"
-      },
-      "model": "the_vault:card/icon/blizzard#inventory",
-      "groups": [
-        "Arcane",
-        "Offensive"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Shard_Blizzard",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "meteor_storm": {
-      "type": "gear",
-      "name": {
-        "text": "Meteor Storm Card"
-      },
-      "model": "the_vault:card/icon/meteor_storm#inventory",
-      "groups": [
-        "Arcane",
-        "Offensive"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Storm_Arrow_Meteor",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "legacy_mana_shield": {
-      "type": "gear",
-      "name": {
-        "text": "Mana Shield [Legacy] Card"
-      },
-      "model": "the_vault:card/icon/mana_shield#inventory",
-      "groups": [
-        "Arcane",
-        "Utility"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Legacy_Mana_Shield_Base",
+          "abilityKey": "Storm_Arrow",
           "levelChange": 1
         }
       ],
@@ -4327,7 +3227,7 @@
     "wall_of_fangs": {
       "type": "gear",
       "name": {
-        "text": "Wall of Fangs Card"
+        "text": "Wall of Fangs Abilities"
       },
       "model": "the_vault:card/icon/wall_of_fangs#inventory",
       "groups": [
@@ -4338,27 +3238,7 @@
       "pool": [
         {
           "tier": 1,
-          "abilityKey": "Fangs_Base",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "hungry_maw": {
-      "type": "gear",
-      "name": {
-        "text": "Hungry maw Card"
-      },
-      "model": "the_vault:card/icon/hungry_maw#inventory",
-      "groups": [
-        "Arcane",
-        "Utility"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Fangs_Maw",
+          "abilityKey": "Fangs",
           "levelChange": 1
         }
       ],
@@ -4367,7 +3247,7 @@
     "apex_predator": {
       "type": "gear",
       "name": {
-        "text": "Apex Predator Card"
+        "text": "Apex Predator Abilities"
       },
       "model": "the_vault:card/icon/apex_predator#inventory",
       "groups": [
@@ -4378,7 +3258,7 @@
       "pool": [
         {
           "tier": 1,
-          "abilityKey": "Apex_Predator_Base",
+          "abilityKey": "Apex_Predator",
           "levelChange": 1
         }
       ],
@@ -9400,19 +8280,7 @@
         "weight": 1.0
       },
       {
-        "value": "vein_miner_durability",
-        "weight": 0.0
-      },
-      {
-        "value": "vein_miner_void",
-        "weight": 1.0
-      },
-      {
         "value": "ghost_walk",
-        "weight": 1.0
-      },
-      {
-        "value": "spirit_walk",
         "weight": 1.0
       },
       {
@@ -9420,23 +8288,7 @@
         "weight": 1.0
       },
       {
-        "value": "heal_group",
-        "weight": 1.0
-      },
-      {
-        "value": "cleanse",
-        "weight": 1.0
-      },
-      {
         "value": "dash",
-        "weight": 1.0
-      },
-      {
-        "value": "dash_damage",
-        "weight": 1.0
-      },
-      {
-        "value": "dash_warp",
         "weight": 1.0
       },
       {
@@ -9444,19 +8296,7 @@
         "weight": 1.0
       },
       {
-        "value": "javelin_sight",
-        "weight": 1.0
-      },
-      {
         "value": "mega_jump",
-        "weight": 1.0
-      },
-      {
-        "value": "mega_jump_break_down",
-        "weight": 1.0
-      },
-      {
-        "value": "levitate",
         "weight": 1.0
       },
       {
@@ -9464,19 +8304,7 @@
         "weight": 1.0
       },
       {
-        "value": "mana_barrier",
-        "weight": 1.0
-      },
-      {
         "value": "taunt",
-        "weight": 1.0
-      },
-      {
-        "value": "taunt_repel",
-        "weight": 1.0
-      },
-      {
-        "value": "taunt_decoy",
         "weight": 1.0
       },
       {
@@ -9488,23 +8316,7 @@
         "weight": 1.0
       },
       {
-        "value": "sneaky_getaway",
-        "weight": 1.0
-      },
-      {
         "value": "nova",
-        "weight": 1.0
-      },
-      {
-        "value": "nova_dot",
-        "weight": 1.0
-      },
-      {
-        "value": "nova_slow",
-        "weight": 1.0
-      },
-      {
-        "value": "nova_burn",
         "weight": 1.0
       },
       {
@@ -9512,23 +8324,7 @@
         "weight": 1.0
       },
       {
-        "value": "fireball_volley",
-        "weight": 1.0
-      },
-      {
-        "value": "fireball_fireshot",
-        "weight": 1.0
-      },
-      {
         "value": "javelin",
-        "weight": 1.0
-      },
-      {
-        "value": "javelin_piercing",
-        "weight": 1.0
-      },
-      {
-        "value": "javelin_scatter",
         "weight": 1.0
       },
       {
@@ -9536,19 +8332,7 @@
         "weight": 1.0
       },
       {
-        "value": "stonefall_snow",
-        "weight": 1.0
-      },
-      {
-        "value": "stonefall_cold",
-        "weight": 1.0
-      },
-      {
         "value": "ice_bolt",
-        "weight": 1.0
-      },
-      {
-        "value": "ice_blast",
         "weight": 1.0
       },
       {
@@ -9556,19 +8340,7 @@
         "weight": 1.0
       },
       {
-        "value": "life_tap",
-        "weight": 1.0
-      },
-      {
         "value": "shield_bash",
-        "weight": 1.0
-      },
-      {
-        "value": "shield_bash_earthshatter",
-        "weight": 1.0
-      },
-      {
-        "value": "shield_bash_battering_ram",
         "weight": 1.0
       },
       {
@@ -9576,23 +8348,7 @@
         "weight": 1.0
       },
       {
-        "value": "arcane_rail",
-        "weight": 1.0
-      },
-      {
-        "value": "arcane_prism",
-        "weight": 1.0
-      },
-      {
         "value": "earthquake",
-        "weight": 1.0
-      },
-      {
-        "value": "earthquake_singularity",
-        "weight": 1.0
-      },
-      {
-        "value": "earthquake_tremor",
         "weight": 1.0
       },
       {
@@ -9600,23 +8356,7 @@
         "weight": 1.0
       },
       {
-        "value": "ball_lightning",
-        "weight": 1.0
-      },
-      {
-        "value": "charged_bolts",
-        "weight": 1.0
-      },
-      {
         "value": "chaos_cube",
-        "weight": 1.0
-      },
-      {
-        "value": "toxic_grenade",
-        "weight": 1.0
-      },
-      {
-        "value": "sticky_cube",
         "weight": 1.0
       },
       {
@@ -9628,23 +8368,7 @@
         "weight": 1.0
       },
       {
-        "value": "battle_cry_spectral_strike",
-        "weight": 1.0
-      },
-      {
-        "value": "battle_cry_lucky_strike",
-        "weight": 1.0
-      },
-      {
         "value": "smite",
-        "weight": 1.0
-      },
-      {
-        "value": "smite_archon",
-        "weight": 1.0
-      },
-      {
-        "value": "smite_blast_wave",
         "weight": 1.0
       },
       {
@@ -9652,31 +8376,7 @@
         "weight": 1.0
       },
       {
-        "value": "empower_ice",
-        "weight": 1.0
-      },
-      {
-        "value": "empower_entropy",
-        "weight": 1.0
-      },
-      {
-        "value": "immolation",
-        "weight": 1.0
-      },
-      {
         "value": "totem",
-        "weight": 1.0
-      },
-      {
-        "value": "totem_player_damage",
-        "weight": 1.0
-      },
-      {
-        "value": "totem_mana_regen",
-        "weight": 1.0
-      },
-      {
-        "value": "totem_mob_damage",
         "weight": 1.0
       },
       {
@@ -9684,27 +8384,7 @@
         "weight": 1.0
       },
       {
-        "value": "shell_porcupine",
-        "weight": 1.0
-      },
-      {
-        "value": "shell_quill",
-        "weight": 1.0
-      },
-      {
         "value": "rampage",
-        "weight": 1.0
-      },
-      {
-        "value": "rampage_bloodlust",
-        "weight": 1.0
-      },
-      {
-        "value": "rampage_berserker",
-        "weight": 1.0
-      },
-      {
-        "value": "rampage_instinct",
         "weight": 1.0
       },
       {
@@ -9712,35 +8392,11 @@
         "weight": 1.0
       },
       {
-        "value": "necromancy_archer",
-        "weight": 1.0
-      },
-      {
-        "value": "necromancy_golem",
-        "weight": 1.0
-      },
-      {
         "value": "thunderstorm",
         "weight": 1.0
       },
       {
-        "value": "blizzard",
-        "weight": 1.0
-      },
-      {
-        "value": "meteor_storm",
-        "weight": 1.0
-      },
-      {
-        "value": "legacy_mana_shield",
-        "weight": 1.0
-      },
-      {
         "value": "wall_of_fangs",
-        "weight": 1.0
-      },
-      {
-        "value": "hungry_maw",
         "weight": 1.0
       },
       {
