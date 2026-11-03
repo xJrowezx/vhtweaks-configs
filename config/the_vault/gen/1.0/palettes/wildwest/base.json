@@ -5,7 +5,7 @@
       "target": "minecraft:smooth_quartz",
       "output": {
         "the_vault:golden_tooth[generated=true]": 1,
-        "minecraft:smooth_quartz": 49
+        "minecraft:smooth_quartz": 1
       }
     },
     {
@@ -78,10 +78,10 @@
             }
           ],
           "gates": [
-            { "pos": [23, 0, -1], "rotation": 1 },
+            { "pos": [22, 0, -1], "rotation": 1 },
             { "pos": [-24, 0, -1], "rotation": 1 },
-            { "pos": [-1, 0, 23], "rotation": 0 },
-            { "pos": [-1, 0, -23], "rotation": 0 }
+            { "pos": [-1, 0, 24], "rotation": 0 },
+            { "pos": [-1, 0, -22], "rotation": 0 }
           ],
           "maxRounds": 5,
           "countdownTicks": 100,
