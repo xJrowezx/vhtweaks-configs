@@ -14682,7 +14682,7 @@ hash = "cc8bce5283a69e5e4b03ecaf86120b2518a62653de53d05b0a81bf678f8737ca"
 
 [[files]]
 file = "config/the_vault/paxel.json"
-hash = "36707a21a4aff3ab8a456cc885f30860514d3a2e3c3991e03c623bb6563a8521"
+hash = "cd22517bdbd2965348a14e8e647ec9a56335fde8026d38d973564fd5e4a96f76"
 
 [[files]]
 file = "config/the_vault/paxel_enhancement.json"
@@ -15058,7 +15058,7 @@ hash = "937a7d9384ee32a42732e9e8b2d1a320f6b0462a207330145a60342ca3682313"
 
 [[files]]
 file = "config/the_vault/vault_modifier_pools.json"
-hash = "0c1d23aeeb4a42d7c7f16c9a0f2c958928addf1adbf2f77323eac257c6c2e7b6"
+hash = "25d5cf8649891d2d04bfb0060e604fc634125db4401851ef67d710ec41b95e00"
 
 [[files]]
 file = "config/the_vault/vault_modifiers.json"
