@@ -3029,7 +3029,7 @@
       "name": {
         "text": "Chaos Cube Abilities"
       },
-      "model": "the_vault:card/icon/chaos_cube#inventory",
+      "model": "the_vault:card/icon/chaos_cube1#inventory",
       "groups": [
         "Arcane",
         "Offensive"
