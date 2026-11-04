@@ -2453,6 +2453,10 @@ file = "config/the_vault/gen/1.0/loot_tables/haunted_braziers_crate_0.json"
 hash = "ed84d98c71d2b86e9366f7ae18f5b4c196b59ab6a0c7ebaa2ae6ffde03f7ebd4"
 
 [[files]]
+file = "config/the_vault/gen/1.0/loot_tables/haunted_braziers_crate_100.json"
+hash = "0a74f1276fa736f60e0c9331543174bd9212caeccb70c3b7611da45afeda1aee"
+
+[[files]]
 file = "config/the_vault/gen/1.0/loot_tables/haunted_braziers_crate_20.json"
 hash = "d39d9e62cf801254b6a5f53271b434f76663fb49871e172a0c0dfab6e7ffb059"
 
@@ -15362,7 +15366,7 @@ hash = "08f0f28bce3dadf0a039f795921eeba3e0b2fa6b441a1843f204cd98b602c226"
 
 [[files]]
 file = "config/the_vault/woldsvaults_statue_mega_gift.json"
-hash = "397a421d53ac27cc2e8fa4819172464ca94365a2edd4da101ba68e8b2f81e12a"
+hash = "c56614661fa245d67b291b46badad2d70ff668b5845e001f889911e688a85b47"
 
 [[files]]
 file = "config/the_vault/woldsvaults_statue_omega.json"
