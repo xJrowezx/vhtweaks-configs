@@ -11,11 +11,51 @@
         "tiers": [
           {
             "minLevel": 0,
+            "maxLevel": 62,
+            "weight": 10,
+            "value": {
+              "min": 3290,
+              "max": 4330,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 21,
             "maxLevel": -1,
             "weight": 10,
             "value": {
-              "min": 10000,
-              "max": 20000,
+              "min": 4331,
+              "max": 5370,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 42,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 5746,
+              "max": 6785,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 63,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 7245,
+              "max": 8284,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 88,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 9202,
+              "max": 10501,
               "step": 1
             }
           }
@@ -30,7 +70,7 @@
           {
             "minLevel": 0,
             "maxLevel": -1,
-            "weight": 50,
+            "weight": 20,
             "value": {
               "flag": true
             }
@@ -46,7 +86,7 @@
           {
             "minLevel": 0,
             "maxLevel": -1,
-            "weight": 50,
+            "weight": 80,
             "value": {
               "flag": false
             }
@@ -274,8 +314,38 @@
             "maxLevel": -1,
             "weight": 10,
             "value": {
-              "min": 8,
-              "max": 10,
+              "min": 2,
+              "max": 3,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 4,
+              "max": 4,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 50,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 5,
+              "max": 5,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 80,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 6,
+              "max": 6,
               "step": 1
             }
           },
@@ -284,8 +354,8 @@
             "maxLevel": -1,
             "weight": 10,
             "value": {
-              "min": 11,
-              "max": 14,
+              "min": 7,
+              "max": 7,
               "step": 1
             }
           },
@@ -294,8 +364,8 @@
             "maxLevel": -1,
             "weight": 10,
             "value": {
-              "min": 15,
-              "max": 20,
+              "min": 8,
+              "max": 8,
               "step": 1
             }
           }
@@ -311,11 +381,81 @@
         "tiers": [
           {
             "minLevel": 0,
+            "maxLevel": 51,
+            "weight": 10,
+            "value": {
+              "min": 2,
+              "max": 5,
+              "step": 0.5
+            }
+          },
+          {
+            "minLevel": 22,
+            "maxLevel": 65,
+            "weight": 10,
+            "value": {
+              "min": 6,
+              "max": 10,
+              "step": 0.5
+            }
+          },
+          {
+            "minLevel": 41,
             "maxLevel": -1,
             "weight": 10,
             "value": {
-              "min": 51.0,
-              "max": 65.0,
+              "min": 11,
+              "max": 16,
+              "step": 0.5
+            }
+          },
+          {
+            "minLevel": 52,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 17,
+              "max": 21,
+              "step": 0.5
+            }
+          },
+          {
+            "minLevel": 66,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 22,
+              "max": 26,
+              "step": 0.5
+            }
+          },
+          {
+            "minLevel": 78,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 27,
+              "max": 32,
+              "step": 0.5
+            }
+          },
+          {
+            "minLevel": 90,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 33,
+              "max": 37,
+              "step": 0.5
+            }
+          },
+          {
+            "minLevel": 100,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 38,
+              "max": 44,
               "step": 0.5
             }
           },
@@ -324,8 +464,8 @@
             "maxLevel": -1,
             "weight": 10,
             "value": {
-              "min": 66.0,
-              "max": 75.0,
+              "min": 45,
+              "max": 55,
               "step": 0.5
             }
           },
@@ -334,8 +474,8 @@
             "maxLevel": -1,
             "weight": 10,
             "value": {
-              "min": 76.0,
-              "max": 100.0,
+              "min": 56,
+              "max": 75,
               "step": 0.5
             }
           }
@@ -350,12 +490,42 @@
         ],
         "tiers": [
           {
-            "minLevel": 0,
+            "minLevel": 17,
             "maxLevel": -1,
             "weight": 10,
             "value": {
-              "min": 0.15,
-              "max": 0.2,
+              "min": 0.04,
+              "max": 0.06,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 36,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 0.07,
+              "max": 0.09,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 57,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 0.1,
+              "max": 0.12,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 82,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 0.13,
+              "max": 0.16,
               "step": 0.01
             }
           },
@@ -364,8 +534,8 @@
             "maxLevel": -1,
             "weight": 10,
             "value": {
-              "min": 0.21,
-              "max": 0.24,
+              "min": 0.17,
+              "max": 0.18,
               "step": 0.01
             }
           },
@@ -374,8 +544,8 @@
             "maxLevel": -1,
             "weight": 10,
             "value": {
-              "min": 0.25,
-              "max": 0.3,
+              "min": 0.19,
+              "max": 0.2,
               "step": 0.01
             }
           }
@@ -394,8 +564,38 @@
             "maxLevel": -1,
             "weight": 10,
             "value": {
-              "min": 0.5,
-              "max": 0.75,
+              "min": 0.1,
+              "max": 0.2,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 28,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 0.21,
+              "max": 0.3,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 45,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 0.31,
+              "max": 0.4,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 75,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 0.41,
+              "max": 0.5,
               "step": 0.01
             }
           },
@@ -404,8 +604,8 @@
             "maxLevel": -1,
             "weight": 10,
             "value": {
-              "min": 0.76,
-              "max": 1.0,
+              "min": 0.51,
+              "max": 0.7,
               "step": 0.01
             }
           },
@@ -414,8 +614,8 @@
             "maxLevel": -1,
             "weight": 10,
             "value": {
-              "min": 1.0,
-              "max": 1.25,
+              "min": 0.71,
+              "max": 1,
               "step": 0.01
             }
           }
@@ -436,8 +636,8 @@
             "maxLevel": -1,
             "weight": 200,
             "value": {
-              "min": 0.28,
-              "max": 0.35,
+              "min": 0.1,
+              "max": 0.5,
               "step": 0.01
             }
           },
@@ -446,8 +646,8 @@
             "maxLevel": -1,
             "weight": 600,
             "value": {
-              "min": 0.36,
-              "max": 0.55,
+              "min": 0.51,
+              "max": 0.8,
               "step": 0.01
             }
           },
@@ -456,9 +656,90 @@
             "maxLevel": -1,
             "weight": 600,
             "value": {
-              "min": 0.56,
-              "max": 0.75,
+              "min": 0.81,
+              "max": 1,
               "step": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "attribute": "the_vault:durability",
+        "group": "ModDurability",
+        "identifier": "the_vault:mod_durability",
+        "tags": [
+          "focusDurability",
+          "noLegendary"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": 66,
+            "weight": 0,
+            "value": {
+              "min": 400,
+              "max": 800,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 28,
+            "maxLevel": -1,
+            "weight": 0,
+            "value": {
+              "min": 801,
+              "max": 1600,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 46,
+            "maxLevel": -1,
+            "weight": 0,
+            "value": {
+              "min": 1601,
+              "max": 2400,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 67,
+            "maxLevel": -1,
+            "weight": 0,
+            "value": {
+              "min": 2401,
+              "max": 3200,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 89,
+            "maxLevel": -1,
+            "weight": 0,
+            "value": {
+              "min": 3201,
+              "max": 4000,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 101,
+            "maxLevel": -1,
+            "weight": 0,
+            "value": {
+              "min": 4001,
+              "max": 6000,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 102,
+            "maxLevel": -1,
+            "weight": 0,
+            "value": {
+              "min": 6001,
+              "max": 8000,
+              "step": 1
             }
           }
         ]
@@ -474,7 +755,76 @@
           {
             "minLevel": 0,
             "maxLevel": -1,
-            "weight": 80,
+            "weight": 100,
+            "value": {
+              "tooltipDisplayName": "Healing",
+              "potion": "minecraft:empty",
+              "additionalEffects": [
+                {
+                  "effect": "minecraft:instant_health",
+                  "duration": 20,
+                  "amplifier": 0,
+                  "showParticles": true,
+                  "showIcon": true
+                }
+              ],
+              "duration": 80,
+              "radius": 4,
+              "color": 16150747,
+              "affectsOwner": true,
+              "triggerChance": 0.02
+            }
+          },
+          {
+            "minLevel": 32,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "tooltipDisplayName": "Healing II",
+              "potion": "minecraft:empty",
+              "additionalEffects": [
+                {
+                  "effect": "minecraft:instant_health",
+                  "duration": 20,
+                  "amplifier": 0,
+                  "showParticles": true,
+                  "showIcon": true
+                }
+              ],
+              "duration": 120,
+              "radius": 4,
+              "color": 16150747,
+              "affectsOwner": true,
+              "triggerChance": 0.02
+            }
+          },
+          {
+            "minLevel": 64,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "tooltipDisplayName": "Healing III",
+              "potion": "minecraft:empty",
+              "additionalEffects": [
+                {
+                  "effect": "minecraft:instant_health",
+                  "duration": 20,
+                  "amplifier": 0,
+                  "showParticles": true,
+                  "showIcon": true
+                }
+              ],
+              "duration": 160,
+              "radius": 5,
+              "color": 16150747,
+              "affectsOwner": true,
+              "triggerChance": 0.02
+            }
+          },
+          {
+            "minLevel": 101,
+            "maxLevel": -1,
+            "weight": 4,
             "value": {
               "tooltipDisplayName": "Healing IV",
               "potion": "minecraft:empty",
@@ -482,22 +832,22 @@
                 {
                   "effect": "minecraft:instant_health",
                   "duration": 20,
-                  "amplifier": 1,
+                  "amplifier": 0,
                   "showParticles": true,
                   "showIcon": true
                 }
               ],
               "duration": 200,
-              "radius": 5.0,
+              "radius": 5,
               "color": 16150747,
               "affectsOwner": true,
               "triggerChance": 0.02
             }
           },
           {
-            "minLevel": 101,
+            "minLevel": 102,
             "maxLevel": -1,
-            "weight": 80,
+            "weight": 4,
             "value": {
               "tooltipDisplayName": "Healing V",
               "potion": "minecraft:empty",
@@ -505,118 +855,16 @@
                 {
                   "effect": "minecraft:instant_health",
                   "duration": 20,
-                  "amplifier": 1,
+                  "amplifier": 0,
                   "showParticles": true,
                   "showIcon": true
                 }
               ],
               "duration": 240,
-              "radius": 5.0,
+              "radius": 5,
               "color": 16150747,
               "affectsOwner": true,
               "triggerChance": 0.02
-            }
-          },
-          {
-            "minLevel": 102,
-            "maxLevel": -1,
-            "weight": 80,
-            "value": {
-              "tooltipDisplayName": "Healing VI",
-              "potion": "minecraft:empty",
-              "additionalEffects": [
-                {
-                  "effect": "minecraft:instant_health",
-                  "duration": 20,
-                  "amplifier": 1,
-                  "showParticles": true,
-                  "showIcon": true
-                }
-              ],
-              "duration": 300,
-              "radius": 5.0,
-              "color": 16150747,
-              "affectsOwner": true,
-              "triggerChance": 0.02
-            }
-          }
-        ]
-      },
-      {
-        "attribute": "the_vault:effect_cloud_when_hit",
-        "group": "ModOnHit",
-        "identifier": "the_vault:mod_slowness_cloud",
-        "tags": [
-          "focusSlownessCloud"
-        ],
-        "tiers": [
-          {
-            "minLevel": 0,
-            "maxLevel": -1,
-            "weight": 60,
-            "value": {
-              "tooltipDisplayName": "Slowness IV",
-              "potion": "minecraft:empty",
-              "additionalEffects": [
-                {
-                  "effect": "minecraft:slowness",
-                  "duration": 140,
-                  "amplifier": 1,
-                  "showParticles": true,
-                  "showIcon": true
-                }
-              ],
-              "duration": 240,
-              "radius": 4.0,
-              "color": 7400423,
-              "affectsOwner": false,
-              "triggerChance": 0.05
-            }
-          },
-          {
-            "minLevel": 101,
-            "maxLevel": -1,
-            "weight": 60,
-            "value": {
-              "tooltipDisplayName": "Slowness V",
-              "potion": "minecraft:empty",
-              "additionalEffects": [
-                {
-                  "effect": "minecraft:slowness",
-                  "duration": 140,
-                  "amplifier": 1,
-                  "showParticles": true,
-                  "showIcon": true
-                }
-              ],
-              "duration": 280,
-              "radius": 4.0,
-              "color": 7400423,
-              "affectsOwner": false,
-              "triggerChance": 0.05
-            }
-          },
-          {
-            "minLevel": 102,
-            "maxLevel": -1,
-            "weight": 60,
-            "value": {
-              "tooltipDisplayName": "Slowness VI",
-              "potion": "minecraft:empty",
-              "additionalEffects": [
-                {
-                  "effect": "minecraft:slowness",
-                  "duration": 140,
-                  "amplifier": 1,
-                  "showParticles": true,
-                  "showIcon": true
-                }
-              ],
-              "duration": 320,
-              "radius": 4.0,
-              "color": 7400423,
-              "affectsOwner": false,
-              "triggerChance": 0.05
             }
           }
         ]
@@ -632,7 +880,76 @@
           {
             "minLevel": 0,
             "maxLevel": -1,
-            "weight": 60,
+            "weight": 100,
+            "value": {
+              "tooltipDisplayName": "Chilling",
+              "potion": "minecraft:empty",
+              "additionalEffects": [
+                {
+                  "effect": "the_vault:chilled",
+                  "duration": 140,
+                  "amplifier": 0,
+                  "showParticles": true,
+                  "showIcon": true
+                }
+              ],
+              "duration": 120,
+              "radius": 4,
+              "color": 3138042,
+              "affectsOwner": false,
+              "triggerChance": 0.05
+            }
+          },
+          {
+            "minLevel": 32,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "tooltipDisplayName": "Chilling II",
+              "potion": "minecraft:empty",
+              "additionalEffects": [
+                {
+                  "effect": "the_vault:chilled",
+                  "duration": 140,
+                  "amplifier": 0,
+                  "showParticles": true,
+                  "showIcon": true
+                }
+              ],
+              "duration": 160,
+              "radius": 4,
+              "color": 3138042,
+              "affectsOwner": false,
+              "triggerChance": 0.05
+            }
+          },
+          {
+            "minLevel": 64,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "tooltipDisplayName": "Chilling III",
+              "potion": "minecraft:empty",
+              "additionalEffects": [
+                {
+                  "effect": "the_vault:chilled",
+                  "duration": 140,
+                  "amplifier": 0,
+                  "showParticles": true,
+                  "showIcon": true
+                }
+              ],
+              "duration": 200,
+              "radius": 4,
+              "color": 3138042,
+              "affectsOwner": false,
+              "triggerChance": 0.05
+            }
+          },
+          {
+            "minLevel": 101,
+            "maxLevel": -1,
+            "weight": 10,
             "value": {
               "tooltipDisplayName": "Chilling IV",
               "potion": "minecraft:empty",
@@ -646,16 +963,16 @@
                 }
               ],
               "duration": 240,
-              "radius": 4.0,
+              "radius": 4,
               "color": 3138042,
               "affectsOwner": false,
               "triggerChance": 0.05
             }
           },
           {
-            "minLevel": 101,
+            "minLevel": 102,
             "maxLevel": -1,
-            "weight": 60,
+            "weight": 10,
             "value": {
               "tooltipDisplayName": "Chilling V",
               "potion": "minecraft:empty",
@@ -668,111 +985,9 @@
                   "showIcon": true
                 }
               ],
-              "duration": 280,
-              "radius": 4.0,
-              "color": 3138042,
-              "affectsOwner": false,
-              "triggerChance": 0.05
-            }
-          },
-          {
-            "minLevel": 102,
-            "maxLevel": -1,
-            "weight": 60,
-            "value": {
-              "tooltipDisplayName": "Chilling VI",
-              "potion": "minecraft:empty",
-              "additionalEffects": [
-                {
-                  "effect": "the_vault:chilled",
-                  "duration": 140,
-                  "amplifier": 1,
-                  "showParticles": true,
-                  "showIcon": true
-                }
-              ],
-              "duration": 320,
-              "radius": 4.0,
-              "color": 3138042,
-              "affectsOwner": false,
-              "triggerChance": 0.05
-            }
-          }
-        ]
-      },
-       {
-        "attribute": "the_vault:effect_cloud_when_hit",
-        "group": "ModOnHit",
-        "identifier": "the_vault:mod_weakness_cloud",
-        "tags": [
-          "focusWeaknessCloud"
-        ],
-        "tiers": [
-          {
-            "minLevel": 0,
-            "maxLevel": -1,
-            "weight": 60,
-            "value": {
-              "tooltipDisplayName": "Weakness IV",
-              "potion": "minecraft:empty",
-              "additionalEffects": [
-                {
-                  "effect": "minecraft:weakness",
-                  "duration": 140,
-                  "amplifier": 3,
-                  "showParticles": true,
-                  "showIcon": true
-                }
-              ],
-              "duration": 200,
-              "radius": 4.0,
-              "color": 10906908,
-              "affectsOwner": false,
-              "triggerChance": 0.05
-            }
-          },
-          {
-            "minLevel": 101,
-            "maxLevel": -1,
-            "weight": 10,
-            "value": {
-              "tooltipDisplayName": "Weakness V",
-              "potion": "minecraft:empty",
-              "additionalEffects": [
-                {
-                  "effect": "minecraft:weakness",
-                  "duration": 140,
-                  "amplifier": 4,
-                  "showParticles": true,
-                  "showIcon": true
-                }
-              ],
-              "duration": 240,
-              "radius": 4.0,
-              "color": 10906908,
-              "affectsOwner": false,
-              "triggerChance": 0.05
-            }
-          },
-          {
-            "minLevel": 102,
-            "maxLevel": -1,
-            "weight": 10,
-            "value": {
-              "tooltipDisplayName": "Weakness VI",
-              "potion": "minecraft:empty",
-              "additionalEffects": [
-                {
-                  "effect": "minecraft:weakness",
-                  "duration": 140,
-                  "amplifier": 5,
-                  "showParticles": true,
-                  "showIcon": true
-                }
-              ],
               "duration": 300,
-              "radius": 4.0,
-              "color": 10906908,
+              "radius": 4,
+              "color": 3138042,
               "affectsOwner": false,
               "triggerChance": 0.05
             }
@@ -804,8 +1019,8 @@
                 "the_vault:corruption"
               ],
               "name": "the_vault.gear_attribute.effect_avoidance.avoidance.bad_effects",
-              "minChance": 0.26,
-              "maxChance": 0.33,
+              "minChance": 0.2,
+              "maxChance": 0.7,
               "step": 0.01
             }
           },
@@ -826,8 +1041,8 @@
                 "the_vault:corruption"
               ],
               "name": "the_vault.gear_attribute.effect_avoidance.avoidance.bad_effects",
-              "minChance": 0.34,
-              "maxChance": 0.4,
+              "minChance": 0.71,
+              "maxChance": 0.99,
               "step": 0.01
             }
           },
@@ -848,8 +1063,8 @@
                 "the_vault:corruption"
               ],
               "name": "the_vault.gear_attribute.effect_avoidance.avoidance.bad_effects",
-              "minChance": 0.41,
-              "maxChance": 0.55,
+              "minChance": 1,
+              "maxChance": 1,
               "step": 0.01
             }
           }
@@ -868,8 +1083,8 @@
             "maxLevel": -1,
             "weight": 100,
             "value": {
-              "min": 0.1,
-              "max": 0.12,
+              "min": 0.02,
+              "max": 0.1,
               "step": 0.01
             }
           },
@@ -878,8 +1093,8 @@
             "maxLevel": -1,
             "weight": 100,
             "value": {
-              "min": 0.13,
-              "max": 0.17,
+              "min": 0.11,
+              "max": 0.16,
               "step": 0.01
             }
           },
@@ -888,8 +1103,8 @@
             "maxLevel": -1,
             "weight": 100,
             "value": {
-              "min": 0.18,
-              "max": 0.22,
+              "min": 0.17,
+              "max": 0.2,
               "step": 0.01
             }
           }
