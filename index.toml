@@ -2454,7 +2454,7 @@ hash = "ed84d98c71d2b86e9366f7ae18f5b4c196b59ab6a0c7ebaa2ae6ffde03f7ebd4"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/haunted_braziers_crate_100.json"
-hash = "0a74f1276fa736f60e0c9331543174bd9212caeccb70c3b7611da45afeda1aee"
+hash = "c3474ea15e5e9815cc848c70f6feca5cadf7f6efa5617b68c5b773c652aef26b"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/haunted_braziers_crate_20.json"
