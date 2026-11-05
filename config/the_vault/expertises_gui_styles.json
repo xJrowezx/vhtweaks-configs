@@ -96,7 +96,7 @@
       "x": 210,
       "y": 120,
       "frameType": "STAR",
-      "icon": "the_vault:gui/skills/blacksmithing"
+      "icon": "the_vault:gui/skills/forge"
     },
     "Augmentation_Luck": {
       "x": 350,
