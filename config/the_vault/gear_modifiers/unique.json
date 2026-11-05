@@ -216,15 +216,15 @@
         ]
       },
       {
-        "attribute": "the_vault:living",
-        "group": "BaseLiving",
-        "identifier": "the_vault:u_living",
+        "attribute": "the_vault:endergized",
+        "group": "BaseEndergized",
+        "identifier": "the_vault:base_endergized",
         "tags": [],
         "tiers": [
           {
             "minLevel": 0,
             "maxLevel": -1,
-            "weight": 1,
+            "weight": 10,
             "value": {
               "flag": true
             }
