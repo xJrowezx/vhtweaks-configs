@@ -3720,7 +3720,7 @@
           }
         }
       ],
-      "task": "@medium",
+      "task": "@hard",
       "count": [
         {
           "tier": 1,
@@ -8472,7 +8472,7 @@
         "weight": 9.0
       },
       {
-        "value": "resource_blackopal",
+        "value": "resource_gem_black_opal",
         "weight": 9.0
       },
       {
