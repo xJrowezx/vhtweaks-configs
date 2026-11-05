@@ -2749,7 +2749,7 @@
       "name": {
         "text": "Mana Shield Abilities"
       },
-      "model": "the_vault:card/icon/mana_shield#inventory",
+      "model": "the_vault:card/icon/mana_veil#inventory",
       "groups": [
         "Arcane",
         "Utility"

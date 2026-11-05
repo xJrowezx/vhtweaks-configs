@@ -92,7 +92,7 @@
       "y": -100,
       "specializationStyles": {
         "Mana_Shield_Base": {
-          "icon": "the_vault:gui/abilities/mana_shield"
+          "icon": "the_vault:gui/abilities/mana_veil"
         },
         "Mana_Barrier": {
           "icon": "the_vault:gui/abilities/mana_barrier"
