@@ -818,18 +818,19 @@
       "layout": [
         {
           "value": [
+            "XXOXOXX",
+            "XXXOXXX",
+            "XXOOOXX",
             "XOOOOOX",
-            "OOOOOOO",
-            "XOAOAOX",
-            "XOXOXOX",
+            "OOOAOOO",
             "XOOOOOX"
           ],
           "weight": 1.0
         }
       ],
       "socketCount": {
-        "min": 2,
-        "max": 2
+        "min": 3,
+        "max": 3
       }
     },
     "bingo": {
@@ -842,11 +843,11 @@
       "layout": [
         {
           "value": [
-            "XOOOOOX",
-            "OOOOOOO",
-            "XOAOAOX",
-            "XOXOXOX",
-            "XOOOOOX"
+            "OOOOO",
+            "OOOOO",
+            "OOAOO",
+            "OOOOO",
+            "OOOOO"
           ],
           "weight": 1.0
         }
@@ -866,10 +867,11 @@
       "layout": [
         {
           "value": [
-            "XOOOOOX",
+            "XXXAXXX",
+            "XXXOXXX",
+            "XOOAOOX",
             "OOOOOOO",
-            "XOAOAOX",
-            "XOXOXOX",
+            "OOAOAOO",
             "XOOOOOX"
           ],
           "weight": 1.0
@@ -884,24 +886,25 @@
       "model": "vhapi:deck/dragon#inventory",
       "name": "The Dragon Deck",
       "essence": {
-        "min": 3,
-        "max": 3
+        "min": 5,
+        "max": 5
       },
       "layout": [
         {
           "value": [
-            "XOOOOOX",
-            "OOOOOOO",
-            "XOAOAOX",
-            "XOXOXOX",
-            "XOOOOOX"
+            "OXXXXXXXO",
+            "OOXXAXXOO",
+            "OOOOOOOOO",
+            "XXOOOOOXX",
+            "XXXOOOXXX",
+            "XXXXOXXXX"
           ],
           "weight": 1.0
         }
       ],
       "socketCount": {
-        "min": 2,
-        "max": 2
+        "min": 3,
+        "max": 3
       }
     },
     "goblin": {
@@ -914,18 +917,18 @@
       "layout": [
         {
           "value": [
-            "XOOOOOX",
+            "OXXXXXO",
             "OOOOOOO",
-            "XOAOAOX",
-            "XOXOXOX",
-            "XOOOOOX"
+            "OXOOOXO",
+            "OOOOOOO",
+            "XXOAOXX"
           ],
           "weight": 1.0
         }
       ],
       "socketCount": {
-        "min": 2,
-        "max": 2
+        "min": 3,
+        "max": 3
       }
     },
     "brazier": {
@@ -938,11 +941,12 @@
       "layout": [
         {
           "value": [
-            "XOOOOOX",
+            "XAXOXAX",
+            "OOOAOOO",
             "OOOOOOO",
-            "XOAOAOX",
-            "XOXOXOX",
-            "XOOOOOX"
+            "XOOOOOX",
+            "XXXOXXX",
+            "XXOOOXX"
           ],
           "weight": 1.0
         }
@@ -962,11 +966,12 @@
       "layout": [
         {
           "value": [
-            "XOOOOOX",
+            "XXXAXXX",
+            "XXOOOXX",
+            "XOAOOOX",
+            "XOOOAOX",
             "OOOOOOO",
-            "XOAOAOX",
-            "XOXOXOX",
-            "XOOOOOX"
+            "OOXOXOO"
           ],
           "weight": 1.0
         }
@@ -986,10 +991,11 @@
       "layout": [
         {
           "value": [
+            "XXXAXXX",
             "XOOOOOX",
+            "OOXOXOO",
             "OOOOOOO",
-            "XOAOAOX",
-            "XOXOXOX",
+            "OXOOOXO",
             "XOOOOOX"
           ],
           "weight": 1.0
