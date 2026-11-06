@@ -382,7 +382,7 @@
             "MIN_COST": 24,
             "MAX_COST": 36
           },
-          "weight": 50
+          "weight": 70
         },
          {
           "value": {
@@ -416,66 +416,6 @@
             "MAX_COST": 24
           },
           "weight": 50
-        },
-        {
-          "value": {
-              "OFFER": {
-                  "item": "the_vault:augment",
-                  "nbt": "{\"theme\":\"the_vault:classic_vault_end_void\"}"
-              },
-              "CURRENCY": "the_vault:vault_gold",
-              "MIN_COST": 64,
-              "MAX_COST": 128
-          },
-          "weight": 4
-        },
-         {
-          "value": {
-              "OFFER": {
-                  "item": "the_vault:augment",
-                  "nbt": "{\"theme\":\"the_vault:classic_vault_beach\"}"
-              },
-              "CURRENCY": "the_vault:vault_gold",
-              "MIN_COST": 32,
-              "MAX_COST": 48
-          },
-          "weight": 4
-        },
-         {
-          "value": {
-              "OFFER": {
-                  "item": "the_vault:augment",
-                  "nbt": "{\"theme\":\"the_vault:classic_vault_nether_warped\"}"
-              },
-              "CURRENCY": "the_vault:vault_gold",
-              "MIN_COST": 32,
-              "MAX_COST": 48
-          },
-          "weight": 4
-        },
-         {
-          "value": {
-              "OFFER": {
-                  "item": "the_vault:augment",
-                  "nbt": "{\"theme\":\"the_vault:classic_vault_blood_ash\"}"
-              },
-              "CURRENCY": "the_vault:vault_gold",
-              "MIN_COST": 32,
-              "MAX_COST": 48
-          },
-          "weight": 4
-        },
-         {
-          "value": {
-              "OFFER": {
-                  "item": "the_vault:augment",
-                  "nbt": "{\"theme\":\"the_vault:classic_vault_flesh\"}"
-              },
-              "CURRENCY": "the_vault:vault_gold",
-              "MIN_COST": 32,
-              "MAX_COST": 48
-          },
-          "weight": 4
         }
       ]
     },
@@ -801,67 +741,7 @@
               "MIN_COST": 24,
               "MAX_COST": 36
           },
-          "weight": 16
-        },
-        {
-          "value": {
-              "OFFER": {
-                  "item": "the_vault:augment",
-                  "nbt": "{\"theme\":\"the_vault:classic_vault_end_void\"}"
-              },
-              "CURRENCY": "the_vault:vault_gold",
-              "MIN_COST": 64,
-              "MAX_COST": 128
-          },
-          "weight": 4
-        },
-         {
-          "value": {
-              "OFFER": {
-                  "item": "the_vault:augment",
-                  "nbt": "{\"theme\":\"the_vault:classic_vault_beach\"}"
-              },
-              "CURRENCY": "the_vault:vault_gold",
-              "MIN_COST": 32,
-              "MAX_COST": 48
-          },
-          "weight": 4
-        },
-         {
-          "value": {
-              "OFFER": {
-                  "item": "the_vault:augment",
-                  "nbt": "{\"theme\":\"the_vault:classic_vault_nether_warped\"}"
-              },
-              "CURRENCY": "the_vault:vault_gold",
-              "MIN_COST": 32,
-              "MAX_COST": 48
-          },
-          "weight": 4
-        },
-         {
-          "value": {
-              "OFFER": {
-                  "item": "the_vault:augment",
-                  "nbt": "{\"theme\":\"the_vault:classic_vault_blood_ash\"}"
-              },
-              "CURRENCY": "the_vault:vault_gold",
-              "MIN_COST": 32,
-              "MAX_COST": 48
-          },
-          "weight": 4
-        },
-         {
-          "value": {
-              "OFFER": {
-                  "item": "the_vault:augment",
-                  "nbt": "{\"theme\":\"the_vault:classic_vault_flesh\"}"
-              },
-              "CURRENCY": "the_vault:vault_gold",
-              "MIN_COST": 32,
-              "MAX_COST": 48
-          },
-          "weight": 4
+          "weight": 36
         },
          {
           "value": {
@@ -1332,7 +1212,7 @@
               "MIN_COST": 24,
               "MAX_COST": 36
           },
-          "weight": 21
+          "weight": 46
         },
         {
           "value": {
@@ -1446,66 +1326,6 @@
               "MAX_COST": 32
           },
           "weight": 21
-        },
-           {
-          "value": {
-              "OFFER": {
-                  "item": "the_vault:augment",
-                  "nbt": "{\"theme\":\"the_vault:classic_vault_end_void\"}"
-              },
-              "CURRENCY": "the_vault:vault_gold",
-              "MIN_COST": 64,
-              "MAX_COST": 128
-          },
-          "weight": 5
-        },
-         {
-          "value": {
-              "OFFER": {
-                  "item": "the_vault:augment",
-                  "nbt": "{\"theme\":\"the_vault:classic_vault_beach\"}"
-              },
-              "CURRENCY": "the_vault:vault_gold",
-              "MIN_COST": 24,
-              "MAX_COST": 32
-          },
-          "weight": 5
-        },
-         {
-          "value": {
-              "OFFER": {
-                  "item": "the_vault:augment",
-                  "nbt": "{\"theme\":\"the_vault:classic_vault_nether_warped\"}"
-              },
-              "CURRENCY": "the_vault:vault_gold",
-              "MIN_COST": 24,
-              "MAX_COST": 32
-          },
-          "weight": 5
-        },
-         {
-          "value": {
-              "OFFER": {
-                  "item": "the_vault:augment",
-                  "nbt": "{\"theme\":\"the_vault:classic_vault_blood_ash\"}"
-              },
-              "CURRENCY": "the_vault:vault_gold",
-              "MIN_COST": 24,
-              "MAX_COST": 32
-          },
-          "weight": 5
-        },
-         {
-          "value": {
-              "OFFER": {
-                  "item": "the_vault:augment",
-                  "nbt": "{\"theme\":\"the_vault:classic_vault_flesh\"}"
-              },
-              "CURRENCY": "the_vault:vault_gold",
-              "MIN_COST": 24,
-              "MAX_COST": 32
-          },
-          "weight": 5
         },
          {
           "value": {
