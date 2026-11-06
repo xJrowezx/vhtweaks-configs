@@ -42,23 +42,23 @@
     },
     {
       "item": "the_vault:capstone_dungeon_hunter",
-      "value": "Use in the Crystal Workbench as a capstone, making the crystal <#a64141>unmodifiable <gray>and adding the <#ffba00>Dungeon Hunter<gray> modifier"
+      "value": "Use in the Crystal Workbench as a capstone, making the crystal <#a64141>unmodifiable <gray>and adding the <#ffba00>Dungeon Hunter<gray> modifier. This will reveal dungeon doors."
     },
     {
       "item": "the_vault:capstone_treasure_hunter",
-      "value": "Use in the Crystal Workbench as a capstone, making the crystal <#a64141>unmodifiable <gray>and adding the <#ffba00>Treasure Hunter<gray> modifier"
+      "value": "Use in the Crystal Workbench as a capstone, making the crystal <#a64141>unmodifiable <gray>and adding the <#ffba00>Treasure Hunter<gray> modifier. This will reveal treasure doors."
     },
     {
       "item": "the_vault:phoenix_feather",
-      "value": "Use in the Crystal Workbench as a capstone, making the crystal <#a64141>unmodifiable <gray>and adding the <#FF8900>Phoenix<gray> modifier"
+      "value": "Use in the Crystal Workbench as a capstone, making the crystal <#a64141>unmodifiable <gray>and adding the <#FF8900>Phoenix<gray> modifier. This will allow automatically resurrect the first player that dies."
     },
     {
       "item": "the_vault:capstone_blacksmith",
-      "value": "This capstone will <#FF8900>scrap all <gray>non <yellow>legendary<gray> gear found in chests, leaving only the outcome resources."
+      "value": "Use in the Crystal Workbench as a capstone, making the crystal <#a64141>unmodifiable <gray>and adding the <#FF8900>Blacksmith Capstone<gray> modifier. This will scrap all non legendary gear found in chests."
     },
     {
       "item": "the_vault:eye_of_avarice",
-      "value": "Use in the Crystal Workbench as a capstone, making the crystal <#a64141>unmodifiable <gray>and adding the <#A3E2F5>Looters Dream<gray>. This will completely negate all trapped chances from ever occurring even when on a crystal with the Trapped Modifier."
+      "value": "Use in the Crystal Workbench as a capstone, making the crystal <#a64141>unmodifiable <gray>and adding the <#A3E2F5>Looter's Dream<gray> modifier. This will completely negate all trapped chests."
     },
     {
       "item": "the_vault:god_token",
@@ -66,19 +66,39 @@
     },
     {
       "item": "the_vault:capstone_pylon_hunter",
-      "value": "Use in the Crystal Workbench as a capstone, making the crystal <#a64141>unmodifiable <gray>and adding the <#FFEA00>Pylon Hunter<gray> modifier"
+      "value": "Use in the Crystal Workbench as a capstone, making the crystal <#a64141>unmodifiable <gray>and adding the <#FFEA00>Pylon Hunter<gray> modifier. This will reveal all pylons."
     },
     {
       "item": "the_vault:capstone_vendoor_hunter",
-      "value": "Use in the Crystal Workbench as a capstone, making the crystal <#a64141>unmodifiable <gray>and adding the <#ffba00>Vendoor Hunter<gray> modifier"
+      "value": "Use in the Crystal Workbench as a capstone, making the crystal <#a64141>unmodifiable <gray>and adding the <#ffba00>Vendoor Hunter<gray> modifier. This will reveal all vendoors"
     },
     {
       "item": "the_vault:capstone_companion_hunt",
-      "value": "Use in the Crystal Workbench as a capstone, making the crystal <#a64141>unmodifiable <gray>and adding the <#acbde8>Companion Hunt<gray> modifier"
+      "value": "Use in the Crystal Workbench as a capstone, making the crystal <#a64141>unmodifiable <gray>and adding the <#acbde8>Companion Hunt<gray> modifier. This will guarantee a companion vault, giving a chance for a companion egg to appear."
     },
     {
       "item": "the_vault:capstone_peaceful",
-      "value": "Use in the Crystal Workbench as a capstone, making the crystal <#a64141>unmodifiable <gray>and adding the <#EBFF8D>Peaceful<gray> modifier"
+      "value": "Use in the Crystal Workbench as a capstone, making the crystal <#a64141>unmodifiable <gray>and adding the <#EBFF8D>Peaceful<gray> modifier. This will prevent any spawners from generating with the vault. Bosses can still be activated and dungeon spawners will still generate with each dungeon. Not recommended for scavenger, bingo, and collector vaults."
+    },
+    {
+      "item": "woldsvault:capstone_mythic",
+      "value": "Use in the Crystal Workbench as a capstone, making the crystal <#a64141>unmodifiable <gray>and adding the <#A3E2F5>Mythic<gray> modifier. This will allow mythic gear to have a low chance of being found in ornate chests."
+    },
+    {
+      "item": "woldsvault:capstone_frenzy",
+      "value": "Use in the Crystal Workbench as a capstone, making the crystal <#a64141>unmodifiable <gray>and adding the <#A3E2F5>Frenzy<gray> and <#A3E2F5>Overpower<gray> modifiers. This will significantly increase mob spawns, damage, and speed, while reducing them to a single hitpoint."
+    },
+    {
+      "item": "woldsvault:capstone_prosperous",
+      "value": "Use in the Crystal Workbench as a capstone, making the crystal <#a64141>unmodifiable <gray>and adding the <#A3E2F5>Prosperous<gray> modifier. This will guarantee an unidentified artifact in the completion crate."
+    },
+    {
+      "item": "woldsvault:capstone_all_seeing_eye",
+      "value": "Use in the Crystal Workbench as a capstone, making the crystal <#a64141>unmodifiable <gray>and adding the <#A3E2F5>All Seeing Eye<gray> modifier. This will reveal chests, god alters, dungeon doors, and treasure doors."
+    },
+    {
+      "item": "woldsvault:capstone_enchanted",
+      "value": "Not yet implemented"
     },
     {
       "item": "the_vault:augment",
