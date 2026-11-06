@@ -42,7 +42,7 @@
     },
     "millennium_cape": {
       "displayName": "Millennium Cape",
-      "texture": "the_vault:textures/entity/cape/millenniumcape.png",
+      "texture": "the_vault:textures/entity/cape/MillenniumCape.png",
       "description": ""
     },
     "nebula_cape": {
@@ -57,7 +57,7 @@
     },
     "pink_cape": {
       "displayName": "Pink Cape",
-      "texture": "the_vault:textures/entity/cape/pinkcape.png",
+      "texture": "the_vault:textures/entity/cape/PinkCape.png",
       "description": ""
     },
     "salmon_cape": {
@@ -72,7 +72,7 @@
     },
     "toasted_cape": {
       "displayName": "Toasted Cape",
-      "texture": "the_vault:textures/entity/cape/toastedcape.png",
+      "texture": "the_vault:textures/entity/cape/ToastedCape.png",
       "description": ""
     }
   }
