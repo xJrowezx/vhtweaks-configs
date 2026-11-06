@@ -81,23 +81,23 @@
       "value": "Use in the Crystal Workbench as a capstone, making the crystal <#a64141>unmodifiable <gray>and adding the <#EBFF8D>Peaceful<gray> modifier. This will prevent any spawners from generating with the vault. Bosses can still be activated and dungeon spawners will still generate with each dungeon. Not recommended for scavenger, bingo, and collector vaults."
     },
     {
-      "item": "woldsvault:capstone_mythic",
+      "item": "woldsvaults:capstone_mythic",
       "value": "Use in the Crystal Workbench as a capstone, making the crystal <#a64141>unmodifiable <gray>and adding the <#A3E2F5>Mythic<gray> modifier. This will allow mythic gear to have a low chance of being found in ornate chests."
     },
     {
-      "item": "woldsvault:capstone_frenzy",
+      "item": "woldsvaults:capstone_frenzy",
       "value": "Use in the Crystal Workbench as a capstone, making the crystal <#a64141>unmodifiable <gray>and adding the <#A3E2F5>Frenzy<gray> and <#A3E2F5>Overpower<gray> modifiers. This will significantly increase mob spawns, damage, and speed, while reducing them to a single hitpoint."
     },
     {
-      "item": "woldsvault:capstone_prosperous",
+      "item": "woldsvaults:capstone_prosperous",
       "value": "Use in the Crystal Workbench as a capstone, making the crystal <#a64141>unmodifiable <gray>and adding the <#A3E2F5>Prosperous<gray> modifier. This will guarantee an unidentified artifact in the completion crate."
     },
     {
-      "item": "woldsvault:capstone_all_seeing_eye",
+      "item": "woldsvaults:capstone_all_seeing_eye",
       "value": "Use in the Crystal Workbench as a capstone, making the crystal <#a64141>unmodifiable <gray>and adding the <#A3E2F5>All Seeing Eye<gray> modifier. This will reveal chests, god alters, dungeon doors, and treasure doors."
     },
     {
-      "item": "woldsvault:capstone_enchanted",
+      "item": "woldsvaults:capstone_enchanted",
       "value": "Not yet implemented"
     },
     {
