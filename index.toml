@@ -14822,7 +14822,7 @@ hash = "9153bdaf5e52812503b667492d4c2f98038ea42c3055fdcebfda4f2a61de1889"
 
 [[files]]
 file = "config/the_vault/player_capes.json"
-hash = "ed08b802091ef9acba334fe0242b49d205f0f8160dcc72e78200978936ac22a9"
+hash = "a9ff338e388987aab9ff76c55358f97a865b1e57b4e50ba2fa06e824d2dc228a"
 
 [[files]]
 file = "config/the_vault/player_research_transfer.json"
@@ -14942,7 +14942,7 @@ hash = "bd3b7946c86fb1a4e7c48d716628ccb8465afbf4cc7b330a2099312b9f5b73aa"
 
 [[files]]
 file = "config/the_vault/shop_pedestal.json"
-hash = "a53907949340427fe3b4bceebb4b575907096d653f673db4865857d2be38bc9a"
+hash = "b0bc56127b4fdc29f65a708cf1b28613b91325a7028de7a9f4d15ad1785c402c"
 
 [[files]]
 file = "config/the_vault/sigils/adept.json"
@@ -14974,7 +14974,7 @@ hash = "9c4bfce4394d20d6ff58d706fb4ae4bbcc00cc4d3a888a8521facfe5d6a5d2a9"
 
 [[files]]
 file = "config/the_vault/skill_descriptions.json"
-hash = "d5cd06609b91ba91a1393c695f61a66d27ccbb30b160e9d3bcb691ce5c286cd0"
+hash = "186abbf3e445538039c5b7004ddfeb554aa0742165ed6a3d799862e70bc2e58c"
 
 [[files]]
 file = "config/the_vault/skill_gates.json"
@@ -15030,7 +15030,7 @@ hash = "f7207cdf0ee519eaa368d8b9d9571bd04713984af029607d5bc4822c3c84f51b"
 
 [[files]]
 file = "config/the_vault/tooltip.json"
-hash = "4bdf957d75249f21eda9460368b8c7c0b3555acc388d01347a97d3914898bb67"
+hash = "0da1c594ee06ca5065883c39fc83c325f696fc99fa0d18e4540896be22f40211"
 
 [[files]]
 file = "config/the_vault/trader_exclusions.json"
