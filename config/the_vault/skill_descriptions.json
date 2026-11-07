@@ -8460,7 +8460,7 @@
         "color": "$text"
       },
       {
-        "text": "+10%\n",
+        "text": "+25%\n",
         "color": "#FFD700"
       },
       {
@@ -8468,27 +8468,11 @@
         "color": "$text"
       },
       {
-        "text": "+20%\n",
+        "text": "+33%\n",
         "color": "#FFD700"
       },
       {
         "text": "3 ",
-        "color": "$text"
-      },
-      {
-        "text": "+30%\n",
-        "color": "#FFD700"
-      },
-      {
-        "text": "4 ",
-        "color": "$text"
-      },
-      {
-        "text": "+40%\n",
-        "color": "#FFD700"
-      },
-      {
-        "text": "5 ",
         "color": "$text"
       },
       {
@@ -8509,39 +8493,25 @@
     "text": " to not apply a negative modifier.\n\n1 "
   },
   {
-    "text": "10%",
+    "text": "15%",
     "color": "#FFEB07"
   },
   {
     "text": "\n2 "
   },
   {
-    "text": "20%",
+    "text": "30%",
     "color": "#FFEB07"
   },
   {
     "text": "\n3 "
   },
   {
-    "text": "30%",
+    "text": "45%",
     "color": "#FFEB07"
   },
   {
     "text": "\n4 "
-  },
-  {
-    "text": "40%",
-    "color": "#FFEB07"
-  },
-  {
-    "text": "\n5 "
-  },
-  {
-    "text": "50%",
-    "color": "#FFEB07"
-  },
-  {
-    "text": "\n6 "
   },
   {
     "text": "60%",
@@ -8693,7 +8663,7 @@
     "color": "$text"
   },
   {
-    "text": "-10.0%\n",
+    "text": "-15.0%\n",
     "color": "#FFD700"
   },
   {
@@ -8701,7 +8671,7 @@
     "color": "$text"
   },
   {
-    "text": "-20.0%\n",
+    "text": "-30.0%\n",
     "color": "#FFD700"
   },
   {
@@ -8709,7 +8679,7 @@
     "color": "$text"
   },
   {
-    "text": "-30.0%\n",
+    "text": "-45.0%\n",
     "color": "#FFD700"
   },
   {
@@ -8717,7 +8687,7 @@
     "color": "$text"
   },
   {
-    "text": "-40.0%\n",
+    "text": "-60.0%\n",
     "color": "#FFD700"
   },
   {
@@ -8725,7 +8695,7 @@
     "color": "$text"
   },
   {
-    "text": "-50.0%\n",
+    "text": "-75.0%\n",
     "color": "#FFD700"
   }
 ],
@@ -8749,39 +8719,25 @@
     "text": " when modifying gear in the Artisan Station.\n\n1 "
   },
   {
-    "text": "10%",
+    "text": "15%",
     "color": "#FFEB07"
   },
   {
     "text": "\n2 "
   },
   {
-    "text": "20%",
+    "text": "30%",
     "color": "#FFEB07"
   },
   {
     "text": "\n3 "
   },
   {
-    "text": "30%",
+    "text": "45%",
     "color": "#FFEB07"
   },
   {
     "text": "\n4 "
-  },
-  {
-    "text": "40%",
-    "color": "#FFEB07"
-  },
-  {
-    "text": "\n5 "
-  },
-  {
-    "text": "50%",
-    "color": "#FFEB07"
-  },
-  {
-    "text": "\n6 "
   },
   {
     "text": "60%",
@@ -8987,39 +8943,25 @@
     "text": " on items sold in shopping pedestals in Vendoors.\n\n1 "
   },
   {
-    "text": "10%",
+    "text": "15%",
     "color": "yellow"
   },
   {
     "text": "\n2 "
   },
   {
-    "text": "20%",
+    "text": "30%",
     "color": "yellow"
   },
   {
     "text": "\n3 "
   },
   {
-    "text": "30%",
+    "text": "45%",
     "color": "yellow"
   },
   {
     "text": "\n4 "
-  },
-  {
-    "text": "40%",
-    "color": "yellow"
-  },
-  {
-    "text": "\n5 "
-  },
-  {
-    "text": "50%",
-    "color": "yellow"
-  },
-  {
-    "text": "\n6 "
   },
   {
     "text": "60%",
@@ -9358,6 +9300,13 @@
   },
   {
     "text": "70%",
+    "color": "#008080"
+  },
+  {
+    "text": "\n8 "
+  },
+  {
+    "text": "80%",
     "color": "#008080"
   }
 ],
