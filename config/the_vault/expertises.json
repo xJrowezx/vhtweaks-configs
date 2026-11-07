@@ -826,21 +826,24 @@
         "tiers": [
           {
             "type": "surprise_favors",
-            "surpriseLevel": 2,
+            "modifierAmount": 3,
+            "chance": 0.3,
             "learnPointCost": 1,
             "regretPointCost": 0,
             "unlockLevel": 0
           },
           {
             "type": "surprise_favors",
-            "surpriseLevel": 4,
+            "modifierAmount": 4,
+            "chance": 0.4,
             "learnPointCost": 1,
             "regretPointCost": 0,
             "unlockLevel": 0
           },
           {
             "type": "surprise_favors",
-            "surpriseLevel": 6,
+            "modifierAmount": 5,
+            "chance": 0.5,
             "learnPointCost": 1,
             "regretPointCost": 0,
             "unlockLevel": 0
