@@ -40,6 +40,54 @@
       "item": "the_vault:crystal_seal_greed",
       "value": "Use in the Crystal Workbench to set the <white>tier <gray>of your <#2bd752>Greed <gray>Crystal"
     },
+     {
+      "item": "the_vault:crystal_seal_collector",
+      "value": "Use in the Crystal Workbench to set the objective to <#a7e915>Collector<gray> (4x4). Collect scavenger items, marking off bingos as you do so."
+    },
+    {
+      "item": "the_vault:crystal_seal_big_collector",
+      "value": "Use in the Crystal Workbench to set the objective to <#a7e915>Collector<gray> (5x5). Collect scavenger items, marking off bingos as you do so."
+    },
+    {
+      "item": "woldsvaults:crystal_seal_unhinged",
+      "value": "Use in the Crystal Workbench to set the objective to <#398B80>Unhinged Scavenger Hunt<gray>. Not yet implemented."
+    },
+    {
+      "item": "woldsvaults:crystal_seal_alchemy",
+      "value": "Use in the Crystal Workbench to set the objective to <#B68CFF>Alchemy<gray>. Submit ingredients looted from the vault to add modifiers and contribute to vault completion."
+    },
+    {
+      "item": "woldsvaults:crystal_seal_spirits",
+      "value": "Use in the Crystal Workbench to set the objective to <#AEC1FF>Light the Haunted Braziers<gray>. Light braziers with improved modifiers, while being haunted by ghosts."
+    },
+    {
+      "item": "woldsvaults:crystal_seal_enchanter",
+      "value": "Use in the Crystal Workbench to set the objective to <#6B01C7>Enchanted Elixir<gray>. Collect elixir that adds modifiers as you progress."
+    },
+    {
+      "item": "woldsvaults:crystal_seal_doomsayer",
+      "value": "Use in the Crystal Workbench to set the objective to <#2F3259>Ballistic Bingo<gray> (9x9)."
+    },
+    {
+      "item": "woldsvaults:crystal_seal_zealot",
+      "value": "<#06C81C>Zealot<gray> objective is obtained by placing either the Idonian Sacrificial Dagger, Tome of Tenos, Velaran Emerald Apple, or Wendarrian Focus Gem into a vault altar, instead of a Vault Rock. The theme and type of altars in the vault depends on what was used to make the crystal. Finish altars to complete the objective."
+    },
+     {
+      "item": "woldsvaults:idona_dagger",
+      "value": "Place in an altar (instead of of vault rock) to make an <#d80000>Idona<gray> themed <#06C81C>Zealot<gray> vault"
+    },
+    {
+      "item": "woldsvaults:wendarr_gem",
+      "value": "Place in an altar (instead of of vault rock) to make a <#dea700>Wendarr<gray> themed <#06C81C>Zealot<gray> vault"
+    },
+    {
+      "item": "woldsvaults:velara_apple",
+      "value": "Place in an altar (instead of of vault rock) to make a <#54fc54>Velara<gray> themed <#06C81C>Zealot<gray> vault"
+    },
+    {
+      "item": "woldsvaults:tome_of_tenos",
+      "value": "Place in an altar (instead of of vault rock) to make an <#009dde>Tenos<gray> themed <#06C81C>Zealot<gray> vault"
+    },
     {
       "item": "the_vault:capstone_dungeon_hunter",
       "value": "Use in the Crystal Workbench as a capstone, making the crystal <#a64141>unmodifiable <gray>and adding the <#ffba00>Dungeon Hunter<gray> modifier. This will reveal dungeon doors."
