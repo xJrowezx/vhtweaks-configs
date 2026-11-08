@@ -1467,6 +1467,42 @@
     {
       "item": "the_vault:burger_tomato",
       "value": "<red>Legacy Item<gray> - No longer obtainable"
+    },
+     {
+      "item": "woldsvaults:empowered_fundamental_focus",
+      "value": "Used in an Artisan Station\n<gold>Improve a random Implicit modifier"
+    },
+    {
+      "item": "woldsvaults:eccentric_focus",
+      "value": "Used in an Artisan Station\n<gold>Add a random unusual modifier"
+    },
+    {
+      "item": "woldsvaults:blazing_focus",
+      "value": "Used in an Artisan Station\n<gold>Unfreeze a frozen modifier"
+    },
+    {
+      "item": "woldsvaults:catalyst_box",
+      "value": "Use to create a random Catalyst"
+    },
+    {
+      "item": "woldsvaults:augment_box",
+      "value": "Use to create a random Augment"
+    },
+    {
+      "item": "woldsvaults:gem_box",
+      "value": "Use to create a random amount of a vault gem"
+    },
+    {
+      "item": "woldsvaults:vaultar_box",
+      "value": "Use to create a random amount of an altar ingredient"
+    },
+    {
+      "item": "woldsvaults:supply_box",
+      "value": "Use to create some random common crafting ingredients"
+    },
+    {
+      "item": "woldsvaults:etched_vault_layout",
+      "value": "Combine with a vault crystal to apply a vault layout"
     }
   ]
 }
