@@ -1318,7 +1318,7 @@ hash = "37648715469939e542abe40df4c6539da02fbdf9060ccadaec568c2caef638a7"
 
 [[files]]
 file = "config/supplementaries-registry.toml"
-hash = "3548b64280cf33869ce41df65a3611b56bb3195ddf1f3d8624917dcade32903e"
+hash = "c086a85a8321d8cc2cc6ed06a0968b11f0d8e4d3c3b97b5c969e8a0ef4d1f8c3"
 
 [[files]]
 file = "config/tectonic.json"
@@ -1434,7 +1434,7 @@ hash = "1d014403e0d42fa9bc67e47634ab853ff9a1f9dcd0c7561fe71049e1d95ed8bf"
 
 [[files]]
 file = "config/the_vault/bingo.json"
-hash = "5df29f067918656ded760edbc7a47acefc8bf3192a50e3a7bd0127cc6972d4d2"
+hash = "b0905508059b8e01cbc44fdcdc39ef8806a9af93da5af9ab47884c7f1fa317d5"
 
 [[files]]
 file = "config/the_vault/black_market.json"
@@ -1890,7 +1890,7 @@ hash = "e0646921a78b740d21147c1c9569a419c52107545c5d838a1b3ff1d425a99c56"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/vault_necklace.json"
-hash = "a27e3187e5abe5eda88e4f1561917bb3a639291338f5734e5f4b1a8577a7bc79"
+hash = "b972f9506c4ea2ad4e2e26af85aad472cb38ec4a32a2825ffe20c48943251570"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/vault_necklace_mythic.json"
@@ -15074,7 +15074,7 @@ hash = "f7207cdf0ee519eaa368d8b9d9571bd04713984af029607d5bc4822c3c84f51b"
 
 [[files]]
 file = "config/the_vault/tooltip.json"
-hash = "0da1c594ee06ca5065883c39fc83c325f696fc99fa0d18e4540896be22f40211"
+hash = "440bf3de502c50fc59db6252473a2029608d9867a4dd70677e58ee1abadb5812"
 
 [[files]]
 file = "config/the_vault/trader_exclusions.json"
@@ -17702,7 +17702,7 @@ hash = "261014eb1d6c41ca132f8033c8cdec841300b75cbda2e76324945ac319102689"
 
 [[files]]
 file = "mods/VHTweaks-0.23.2-all.jar"
-hash = "c4ebd2fedd66c1e055cce36c608ea4b789bb55dcdd203240a54e1a559f7ee394"
+hash = "676ce034e0e38f99e455b1969a42330334a36e1c8c29e1b2650d663255e95e0b"
 
 [[files]]
 file = "mods/additional-lanterns.pw.toml"
