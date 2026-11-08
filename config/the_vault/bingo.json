@@ -2226,6 +2226,7 @@
               "the_vault:vault/rooms/omega/mush_room1",
               "the_vault:vault/rooms/omega/mush_room2",
               "the_vault:vault/rooms/omega/blacksmith1",
+              "the_vault:vault/rooms/omega/blacksmith2",
               "the_vault:vault/rooms/omega/cove1",
               "the_vault:vault/rooms/omega/cove2",
               "the_vault:vault/rooms/omega/omega_digsite2",
@@ -2235,10 +2236,22 @@
               "the_vault:vault/rooms/omega/mine2",
               "the_vault:vault/rooms/omega/painting1",
               "the_vault:vault/rooms/omega/vendor1",
-              "the_vault:vault/rooms/omega/vendor2",
               "the_vault:vault/rooms/omega/vendor3",
               "the_vault:vault/rooms/omega/pixel1",
-              "the_vault:vault/rooms/omega/warehouse"
+              "the_vault:vault/rooms/omega/warehouse",
+              "the_vault:vault/rooms/omega/arcade",
+              "the_vault:vault/rooms/omega/cube",
+              "the_vault:vault/rooms/omega/playzone1",
+              "the_vault:vault/rooms/omega/iskallian_garden",
+              "the_vault:vault/rooms/omega/comet_observatory",
+              "the_vault:vault/rooms/omega/hellish_digsite",
+              "the_vault:vault/rooms/omega/wolds_dinner",
+              "the_vault:vault/rooms/omega/wardens_garden",
+              "the_vault:vault/rooms/omega/trove",
+              "the_vault:vault/rooms/omega/pixel1",
+              "the_vault:vault/rooms/omega/vendor1",
+              "the_vault:vault/rooms/omega/vendor2",
+              "the_vault:vault/rooms/omega/vendor3"
             ],
             "counter": {
               "type": "target",
@@ -2257,6 +2270,7 @@
                 "the_vault:vault/rooms/omega/mush_room1",
                 "the_vault:vault/rooms/omega/mush_room2",
                 "the_vault:vault/rooms/omega/blacksmith1",
+                "the_vault:vault/rooms/omega/blacksmith2",
                 "the_vault:vault/rooms/omega/cove1",
                 "the_vault:vault/rooms/omega/cove2",
                 "the_vault:vault/rooms/omega/omega_digsite2",
@@ -2266,10 +2280,22 @@
                 "the_vault:vault/rooms/omega/mine2",
                 "the_vault:vault/rooms/omega/painting1",
                 "the_vault:vault/rooms/omega/vendor1",
-                "the_vault:vault/rooms/omega/vendor2",
                 "the_vault:vault/rooms/omega/vendor3",
                 "the_vault:vault/rooms/omega/pixel1",
-                "the_vault:vault/rooms/omega/warehouse"
+                "the_vault:vault/rooms/omega/warehouse",
+                "the_vault:vault/rooms/omega/arcade",
+                "the_vault:vault/rooms/omega/cube",
+                "the_vault:vault/rooms/omega/playzone1",
+                "the_vault:vault/rooms/omega/iskallian_garden",
+                "the_vault:vault/rooms/omega/comet_observatory",
+                "the_vault:vault/rooms/omega/hellish_digsite",
+                "the_vault:vault/rooms/omega/wolds_dinner",
+                "the_vault:vault/rooms/omega/wardens_garden",
+                "the_vault:vault/rooms/omega/trove",
+                "the_vault:vault/rooms/omega/pixel1",
+                "the_vault:vault/rooms/omega/vendor1",
+                "the_vault:vault/rooms/omega/vendor2",
+                "the_vault:vault/rooms/omega/vendor3"
               ]
             },
             "renderer": {
@@ -2335,69 +2361,6 @@
               "icon": "the_vault:textures/gui/bingo/killelite.png"
             },
             "weight": 60.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_gilded",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 8,
-                "max": 14
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Gilded Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/gildedbarrel.png"
-            },
-            "weight": 100.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_ornate",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 8,
-                "max": 14
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Ornate Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/ornatebarrel.png"
-            },
-            "weight": 100.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_living",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 8,
-                "max": 14
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Living Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/livingbarrel.png"
-            },
-            "weight": 100.0
           }
         ],
         "firstBingo": [
@@ -4673,22 +4636,35 @@
           {
             "type": "find_vault_room",
             "filter": [
-                "the_vault:vault/rooms/omega/mush_room1",
-                "the_vault:vault/rooms/omega/mush_room2",
-                "the_vault:vault/rooms/omega/blacksmith1",
-                "the_vault:vault/rooms/omega/cove1",
-                "the_vault:vault/rooms/omega/cove2",
-                "the_vault:vault/rooms/omega/omega_digsite2",
-                "the_vault:vault/rooms/omega/library1",
-                "the_vault:vault/rooms/omega/library2",
-                "the_vault:vault/rooms/omega/mine1",
-                "the_vault:vault/rooms/omega/mine2",
-                "the_vault:vault/rooms/omega/painting1",
-                "the_vault:vault/rooms/omega/vendor1",
-                "the_vault:vault/rooms/omega/vendor2",
-                "the_vault:vault/rooms/omega/vendor3",
-                "the_vault:vault/rooms/omega/pixel1",
-                "the_vault:vault/rooms/omega/warehouse"
+              "the_vault:vault/rooms/omega/mush_room1",
+              "the_vault:vault/rooms/omega/mush_room2",
+              "the_vault:vault/rooms/omega/blacksmith1",
+              "the_vault:vault/rooms/omega/blacksmith2",
+              "the_vault:vault/rooms/omega/cove1",
+              "the_vault:vault/rooms/omega/cove2",
+              "the_vault:vault/rooms/omega/omega_digsite2",
+              "the_vault:vault/rooms/omega/library1",
+              "the_vault:vault/rooms/omega/library2",
+              "the_vault:vault/rooms/omega/mine1",
+              "the_vault:vault/rooms/omega/mine2",
+              "the_vault:vault/rooms/omega/painting1",
+              "the_vault:vault/rooms/omega/vendor1",
+              "the_vault:vault/rooms/omega/vendor3",
+              "the_vault:vault/rooms/omega/pixel1",
+              "the_vault:vault/rooms/omega/warehouse",
+              "the_vault:vault/rooms/omega/arcade",
+              "the_vault:vault/rooms/omega/cube",
+              "the_vault:vault/rooms/omega/playzone1",
+              "the_vault:vault/rooms/omega/iskallian_garden",
+              "the_vault:vault/rooms/omega/comet_observatory",
+              "the_vault:vault/rooms/omega/hellish_digsite",
+              "the_vault:vault/rooms/omega/wolds_dinner",
+              "the_vault:vault/rooms/omega/wardens_garden",
+              "the_vault:vault/rooms/omega/trove",
+              "the_vault:vault/rooms/omega/pixel1",
+              "the_vault:vault/rooms/omega/vendor1",
+              "the_vault:vault/rooms/omega/vendor2",
+              "the_vault:vault/rooms/omega/vendor3"
             ],
             "counter": {
               "type": "target",
@@ -4707,6 +4683,7 @@
                 "the_vault:vault/rooms/omega/mush_room1",
                 "the_vault:vault/rooms/omega/mush_room2",
                 "the_vault:vault/rooms/omega/blacksmith1",
+                "the_vault:vault/rooms/omega/blacksmith2",
                 "the_vault:vault/rooms/omega/cove1",
                 "the_vault:vault/rooms/omega/cove2",
                 "the_vault:vault/rooms/omega/omega_digsite2",
@@ -4716,10 +4693,22 @@
                 "the_vault:vault/rooms/omega/mine2",
                 "the_vault:vault/rooms/omega/painting1",
                 "the_vault:vault/rooms/omega/vendor1",
-                "the_vault:vault/rooms/omega/vendor2",
                 "the_vault:vault/rooms/omega/vendor3",
                 "the_vault:vault/rooms/omega/pixel1",
-                "the_vault:vault/rooms/omega/warehouse"
+                "the_vault:vault/rooms/omega/warehouse",
+                "the_vault:vault/rooms/omega/arcade",
+                "the_vault:vault/rooms/omega/cube",
+                "the_vault:vault/rooms/omega/playzone1",
+                "the_vault:vault/rooms/omega/iskallian_garden",
+                "the_vault:vault/rooms/omega/comet_observatory",
+                "the_vault:vault/rooms/omega/hellish_digsite",
+                "the_vault:vault/rooms/omega/wolds_dinner",
+                "the_vault:vault/rooms/omega/wardens_garden",
+                "the_vault:vault/rooms/omega/trove",
+                "the_vault:vault/rooms/omega/pixel1",
+                "the_vault:vault/rooms/omega/vendor1",
+                "the_vault:vault/rooms/omega/vendor2",
+                "the_vault:vault/rooms/omega/vendor3"
               ]
             },
             "renderer": {
@@ -4785,69 +4774,6 @@
               "icon": "the_vault:textures/gui/bingo/killelite.png"
             },
             "weight": 50.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_gilded",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 10,
-                "max": 16
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Gilded Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/gildedbarrel.png"
-            },
-            "weight": 100.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_ornate",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 10,
-                "max": 16
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Ornate Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/ornatebarrel.png"
-            },
-            "weight": 100.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_living",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 10,
-                "max": 16
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Living Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/livingbarrel.png"
-            },
-            "weight": 100.0
           }
         ],
         "firstBingo": [
@@ -7126,6 +7052,7 @@
               "the_vault:vault/rooms/omega/mush_room1",
               "the_vault:vault/rooms/omega/mush_room2",
               "the_vault:vault/rooms/omega/blacksmith1",
+              "the_vault:vault/rooms/omega/blacksmith2",
               "the_vault:vault/rooms/omega/cove1",
               "the_vault:vault/rooms/omega/cove2",
               "the_vault:vault/rooms/omega/omega_digsite2",
@@ -7135,10 +7062,22 @@
               "the_vault:vault/rooms/omega/mine2",
               "the_vault:vault/rooms/omega/painting1",
               "the_vault:vault/rooms/omega/vendor1",
-              "the_vault:vault/rooms/omega/vendor2",
               "the_vault:vault/rooms/omega/vendor3",
               "the_vault:vault/rooms/omega/pixel1",
-              "the_vault:vault/rooms/omega/warehouse"
+              "the_vault:vault/rooms/omega/warehouse",
+              "the_vault:vault/rooms/omega/arcade",
+              "the_vault:vault/rooms/omega/cube",
+              "the_vault:vault/rooms/omega/playzone1",
+              "the_vault:vault/rooms/omega/iskallian_garden",
+              "the_vault:vault/rooms/omega/comet_observatory",
+              "the_vault:vault/rooms/omega/hellish_digsite",
+              "the_vault:vault/rooms/omega/wolds_dinner",
+              "the_vault:vault/rooms/omega/wardens_garden",
+              "the_vault:vault/rooms/omega/trove",
+              "the_vault:vault/rooms/omega/pixel1",
+              "the_vault:vault/rooms/omega/vendor1",
+              "the_vault:vault/rooms/omega/vendor2",
+              "the_vault:vault/rooms/omega/vendor3"
             ],
             "counter": {
               "type": "target",
@@ -7157,6 +7096,7 @@
                 "the_vault:vault/rooms/omega/mush_room1",
                 "the_vault:vault/rooms/omega/mush_room2",
                 "the_vault:vault/rooms/omega/blacksmith1",
+                "the_vault:vault/rooms/omega/blacksmith2",
                 "the_vault:vault/rooms/omega/cove1",
                 "the_vault:vault/rooms/omega/cove2",
                 "the_vault:vault/rooms/omega/omega_digsite2",
@@ -7166,10 +7106,22 @@
                 "the_vault:vault/rooms/omega/mine2",
                 "the_vault:vault/rooms/omega/painting1",
                 "the_vault:vault/rooms/omega/vendor1",
-                "the_vault:vault/rooms/omega/vendor2",
                 "the_vault:vault/rooms/omega/vendor3",
                 "the_vault:vault/rooms/omega/pixel1",
-                "the_vault:vault/rooms/omega/warehouse"
+                "the_vault:vault/rooms/omega/warehouse",
+                "the_vault:vault/rooms/omega/arcade",
+                "the_vault:vault/rooms/omega/cube",
+                "the_vault:vault/rooms/omega/playzone1",
+                "the_vault:vault/rooms/omega/iskallian_garden",
+                "the_vault:vault/rooms/omega/comet_observatory",
+                "the_vault:vault/rooms/omega/hellish_digsite",
+                "the_vault:vault/rooms/omega/wolds_dinner",
+                "the_vault:vault/rooms/omega/wardens_garden",
+                "the_vault:vault/rooms/omega/trove",
+                "the_vault:vault/rooms/omega/pixel1",
+                "the_vault:vault/rooms/omega/vendor1",
+                "the_vault:vault/rooms/omega/vendor2",
+                "the_vault:vault/rooms/omega/vendor3"
               ]
             },
             "renderer": {
@@ -7235,69 +7187,6 @@
               "icon": "the_vault:textures/gui/bingo/killelite.png"
             },
             "weight": 60.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_gilded",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 12,
-                "max": 18
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Gilded Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/gildedbarrel.png"
-            },
-            "weight": 100.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_ornate",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 12,
-                "max": 18
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Ornate Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/ornatebarrel.png"
-            },
-            "weight": 100.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_living",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 12,
-                "max": 18
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Living Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/livingbarrel.png"
-            },
-            "weight": 100.0
           }
         ],
         "firstBingo": [
@@ -9578,6 +9467,7 @@
               "the_vault:vault/rooms/omega/mush_room1",
               "the_vault:vault/rooms/omega/mush_room2",
               "the_vault:vault/rooms/omega/blacksmith1",
+              "the_vault:vault/rooms/omega/blacksmith2",
               "the_vault:vault/rooms/omega/cove1",
               "the_vault:vault/rooms/omega/cove2",
               "the_vault:vault/rooms/omega/omega_digsite2",
@@ -9587,10 +9477,22 @@
               "the_vault:vault/rooms/omega/mine2",
               "the_vault:vault/rooms/omega/painting1",
               "the_vault:vault/rooms/omega/vendor1",
-              "the_vault:vault/rooms/omega/vendor2",
               "the_vault:vault/rooms/omega/vendor3",
               "the_vault:vault/rooms/omega/pixel1",
-              "the_vault:vault/rooms/omega/warehouse"
+              "the_vault:vault/rooms/omega/warehouse",
+              "the_vault:vault/rooms/omega/arcade",
+              "the_vault:vault/rooms/omega/cube",
+              "the_vault:vault/rooms/omega/playzone1",
+              "the_vault:vault/rooms/omega/iskallian_garden",
+              "the_vault:vault/rooms/omega/comet_observatory",
+              "the_vault:vault/rooms/omega/hellish_digsite",
+              "the_vault:vault/rooms/omega/wolds_dinner",
+              "the_vault:vault/rooms/omega/wardens_garden",
+              "the_vault:vault/rooms/omega/trove",
+              "the_vault:vault/rooms/omega/pixel1",
+              "the_vault:vault/rooms/omega/vendor1",
+              "the_vault:vault/rooms/omega/vendor2",
+              "the_vault:vault/rooms/omega/vendor3"
             ],
             "counter": {
               "type": "target",
@@ -9609,6 +9511,7 @@
                 "the_vault:vault/rooms/omega/mush_room1",
                 "the_vault:vault/rooms/omega/mush_room2",
                 "the_vault:vault/rooms/omega/blacksmith1",
+                "the_vault:vault/rooms/omega/blacksmith2",
                 "the_vault:vault/rooms/omega/cove1",
                 "the_vault:vault/rooms/omega/cove2",
                 "the_vault:vault/rooms/omega/omega_digsite2",
@@ -9618,10 +9521,22 @@
                 "the_vault:vault/rooms/omega/mine2",
                 "the_vault:vault/rooms/omega/painting1",
                 "the_vault:vault/rooms/omega/vendor1",
-                "the_vault:vault/rooms/omega/vendor2",
                 "the_vault:vault/rooms/omega/vendor3",
                 "the_vault:vault/rooms/omega/pixel1",
-                "the_vault:vault/rooms/omega/warehouse"
+                "the_vault:vault/rooms/omega/warehouse",
+                "the_vault:vault/rooms/omega/arcade",
+                "the_vault:vault/rooms/omega/cube",
+                "the_vault:vault/rooms/omega/playzone1",
+                "the_vault:vault/rooms/omega/iskallian_garden",
+                "the_vault:vault/rooms/omega/comet_observatory",
+                "the_vault:vault/rooms/omega/hellish_digsite",
+                "the_vault:vault/rooms/omega/wolds_dinner",
+                "the_vault:vault/rooms/omega/wardens_garden",
+                "the_vault:vault/rooms/omega/trove",
+                "the_vault:vault/rooms/omega/pixel1",
+                "the_vault:vault/rooms/omega/vendor1",
+                "the_vault:vault/rooms/omega/vendor2",
+                "the_vault:vault/rooms/omega/vendor3"
               ]
             },
             "renderer": {
@@ -9687,69 +9602,6 @@
               "icon": "the_vault:textures/gui/bingo/killelite.png"
             },
             "weight": 60.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_gilded",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 12,
-                "max": 21
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Gilded Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/gildedbarrel.png"
-            },
-            "weight": 100.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_ornate",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 12,
-                "max": 21
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Ornate Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/ornatebarrel.png"
-            },
-            "weight": 100.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_living",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 12,
-                "max": 21
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Living Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/livingbarrel.png"
-            },
-            "weight": 100.0
           }
         ],
         "firstBingo": [
@@ -12025,22 +11877,35 @@
           {
             "type": "find_vault_room",
             "filter": [
-                "the_vault:vault/rooms/omega/mush_room1",
-                "the_vault:vault/rooms/omega/mush_room2",
-                "the_vault:vault/rooms/omega/blacksmith1",
-                "the_vault:vault/rooms/omega/cove1",
-                "the_vault:vault/rooms/omega/cove2",
-                "the_vault:vault/rooms/omega/omega_digsite2",
-                "the_vault:vault/rooms/omega/library1",
-                "the_vault:vault/rooms/omega/library2",
-                "the_vault:vault/rooms/omega/mine1",
-                "the_vault:vault/rooms/omega/mine2",
-                "the_vault:vault/rooms/omega/painting1",
-                "the_vault:vault/rooms/omega/vendor1",
-                "the_vault:vault/rooms/omega/vendor2",
-                "the_vault:vault/rooms/omega/vendor3",
-                "the_vault:vault/rooms/omega/pixel1",
-                "the_vault:vault/rooms/omega/warehouse"
+              "the_vault:vault/rooms/omega/mush_room1",
+              "the_vault:vault/rooms/omega/mush_room2",
+              "the_vault:vault/rooms/omega/blacksmith1",
+              "the_vault:vault/rooms/omega/blacksmith2",
+              "the_vault:vault/rooms/omega/cove1",
+              "the_vault:vault/rooms/omega/cove2",
+              "the_vault:vault/rooms/omega/omega_digsite2",
+              "the_vault:vault/rooms/omega/library1",
+              "the_vault:vault/rooms/omega/library2",
+              "the_vault:vault/rooms/omega/mine1",
+              "the_vault:vault/rooms/omega/mine2",
+              "the_vault:vault/rooms/omega/painting1",
+              "the_vault:vault/rooms/omega/vendor1",
+              "the_vault:vault/rooms/omega/vendor3",
+              "the_vault:vault/rooms/omega/pixel1",
+              "the_vault:vault/rooms/omega/warehouse",
+              "the_vault:vault/rooms/omega/arcade",
+              "the_vault:vault/rooms/omega/cube",
+              "the_vault:vault/rooms/omega/playzone1",
+              "the_vault:vault/rooms/omega/iskallian_garden",
+              "the_vault:vault/rooms/omega/comet_observatory",
+              "the_vault:vault/rooms/omega/hellish_digsite",
+              "the_vault:vault/rooms/omega/wolds_dinner",
+              "the_vault:vault/rooms/omega/wardens_garden",
+              "the_vault:vault/rooms/omega/trove",
+              "the_vault:vault/rooms/omega/pixel1",
+              "the_vault:vault/rooms/omega/vendor1",
+              "the_vault:vault/rooms/omega/vendor2",
+              "the_vault:vault/rooms/omega/vendor3"
             ],
             "counter": {
               "type": "target",
@@ -12059,6 +11924,7 @@
                 "the_vault:vault/rooms/omega/mush_room1",
                 "the_vault:vault/rooms/omega/mush_room2",
                 "the_vault:vault/rooms/omega/blacksmith1",
+                "the_vault:vault/rooms/omega/blacksmith2",
                 "the_vault:vault/rooms/omega/cove1",
                 "the_vault:vault/rooms/omega/cove2",
                 "the_vault:vault/rooms/omega/omega_digsite2",
@@ -12068,10 +11934,22 @@
                 "the_vault:vault/rooms/omega/mine2",
                 "the_vault:vault/rooms/omega/painting1",
                 "the_vault:vault/rooms/omega/vendor1",
-                "the_vault:vault/rooms/omega/vendor2",
                 "the_vault:vault/rooms/omega/vendor3",
                 "the_vault:vault/rooms/omega/pixel1",
-                "the_vault:vault/rooms/omega/warehouse"
+                "the_vault:vault/rooms/omega/warehouse",
+                "the_vault:vault/rooms/omega/arcade",
+                "the_vault:vault/rooms/omega/cube",
+                "the_vault:vault/rooms/omega/playzone1",
+                "the_vault:vault/rooms/omega/iskallian_garden",
+                "the_vault:vault/rooms/omega/comet_observatory",
+                "the_vault:vault/rooms/omega/hellish_digsite",
+                "the_vault:vault/rooms/omega/wolds_dinner",
+                "the_vault:vault/rooms/omega/wardens_garden",
+                "the_vault:vault/rooms/omega/trove",
+                "the_vault:vault/rooms/omega/pixel1",
+                "the_vault:vault/rooms/omega/vendor1",
+                "the_vault:vault/rooms/omega/vendor2",
+                "the_vault:vault/rooms/omega/vendor3"
               ]
             },
             "renderer": {
@@ -12137,69 +12015,6 @@
               "icon": "the_vault:textures/gui/bingo/killelite.png"
             },
             "weight": 50.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_gilded",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 15,
-                "max": 24
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Gilded Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/gildedbarrel.png"
-            },
-            "weight": 100.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_ornate",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 15,
-                "max": 24
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Ornate Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/ornatebarrel.png"
-            },
-            "weight": 100.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_living",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 15,
-                "max": 24
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Living Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/livingbarrel.png"
-            },
-            "weight": 100.0
           }
         ],
         "firstBingo": [
@@ -12256,8 +12071,8 @@
       {
         "level": 90,
         "type": "bingo",
-        "width": 5,
-        "height": 5,
+        "width": 4,
+        "height": 4,
         "renderer": {
           "type": "bingo"
         },
@@ -14475,22 +14290,35 @@
           {
             "type": "find_vault_room",
             "filter": [
-                "the_vault:vault/rooms/omega/mush_room1",
-                "the_vault:vault/rooms/omega/mush_room2",
-                "the_vault:vault/rooms/omega/blacksmith1",
-                "the_vault:vault/rooms/omega/cove1",
-                "the_vault:vault/rooms/omega/cove2",
-                "the_vault:vault/rooms/omega/omega_digsite2",
-                "the_vault:vault/rooms/omega/library1",
-                "the_vault:vault/rooms/omega/library2",
-                "the_vault:vault/rooms/omega/mine1",
-                "the_vault:vault/rooms/omega/mine2",
-                "the_vault:vault/rooms/omega/painting1",
-                "the_vault:vault/rooms/omega/vendor1",
-                "the_vault:vault/rooms/omega/vendor2",
-                "the_vault:vault/rooms/omega/vendor3",
-                "the_vault:vault/rooms/omega/pixel1",
-                "the_vault:vault/rooms/omega/warehouse"
+              "the_vault:vault/rooms/omega/mush_room1",
+              "the_vault:vault/rooms/omega/mush_room2",
+              "the_vault:vault/rooms/omega/blacksmith1",
+              "the_vault:vault/rooms/omega/blacksmith2",
+              "the_vault:vault/rooms/omega/cove1",
+              "the_vault:vault/rooms/omega/cove2",
+              "the_vault:vault/rooms/omega/omega_digsite2",
+              "the_vault:vault/rooms/omega/library1",
+              "the_vault:vault/rooms/omega/library2",
+              "the_vault:vault/rooms/omega/mine1",
+              "the_vault:vault/rooms/omega/mine2",
+              "the_vault:vault/rooms/omega/painting1",
+              "the_vault:vault/rooms/omega/vendor1",
+              "the_vault:vault/rooms/omega/vendor3",
+              "the_vault:vault/rooms/omega/pixel1",
+              "the_vault:vault/rooms/omega/warehouse",
+              "the_vault:vault/rooms/omega/arcade",
+              "the_vault:vault/rooms/omega/cube",
+              "the_vault:vault/rooms/omega/playzone1",
+              "the_vault:vault/rooms/omega/iskallian_garden",
+              "the_vault:vault/rooms/omega/comet_observatory",
+              "the_vault:vault/rooms/omega/hellish_digsite",
+              "the_vault:vault/rooms/omega/wolds_dinner",
+              "the_vault:vault/rooms/omega/wardens_garden",
+              "the_vault:vault/rooms/omega/trove",
+              "the_vault:vault/rooms/omega/pixel1",
+              "the_vault:vault/rooms/omega/vendor1",
+              "the_vault:vault/rooms/omega/vendor2",
+              "the_vault:vault/rooms/omega/vendor3"
             ],
             "counter": {
               "type": "target",
@@ -14509,6 +14337,7 @@
                 "the_vault:vault/rooms/omega/mush_room1",
                 "the_vault:vault/rooms/omega/mush_room2",
                 "the_vault:vault/rooms/omega/blacksmith1",
+                "the_vault:vault/rooms/omega/blacksmith2",
                 "the_vault:vault/rooms/omega/cove1",
                 "the_vault:vault/rooms/omega/cove2",
                 "the_vault:vault/rooms/omega/omega_digsite2",
@@ -14518,10 +14347,22 @@
                 "the_vault:vault/rooms/omega/mine2",
                 "the_vault:vault/rooms/omega/painting1",
                 "the_vault:vault/rooms/omega/vendor1",
-                "the_vault:vault/rooms/omega/vendor2",
                 "the_vault:vault/rooms/omega/vendor3",
                 "the_vault:vault/rooms/omega/pixel1",
-                "the_vault:vault/rooms/omega/warehouse"
+                "the_vault:vault/rooms/omega/warehouse",
+                "the_vault:vault/rooms/omega/arcade",
+                "the_vault:vault/rooms/omega/cube",
+                "the_vault:vault/rooms/omega/playzone1",
+                "the_vault:vault/rooms/omega/iskallian_garden",
+                "the_vault:vault/rooms/omega/comet_observatory",
+                "the_vault:vault/rooms/omega/hellish_digsite",
+                "the_vault:vault/rooms/omega/wolds_dinner",
+                "the_vault:vault/rooms/omega/wardens_garden",
+                "the_vault:vault/rooms/omega/trove",
+                "the_vault:vault/rooms/omega/pixel1",
+                "the_vault:vault/rooms/omega/vendor1",
+                "the_vault:vault/rooms/omega/vendor2",
+                "the_vault:vault/rooms/omega/vendor3"
               ]
             },
             "renderer": {
@@ -14587,69 +14428,6 @@
               "icon": "the_vault:textures/gui/bingo/killelite.png"
             },
             "weight": 50.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_gilded",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 18,
-                "max": 27
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Gilded Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/gildedbarrel.png"
-            },
-            "weight": 100.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_ornate",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 18,
-                "max": 27
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Ornate Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/ornatebarrel.png"
-            },
-            "weight": 100.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_living",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 18,
-                "max": 27
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Living Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/livingbarrel.png"
-            },
-            "weight": 100.0
           }
         ],
         "firstBingo": [
@@ -16930,6 +16708,7 @@
               "the_vault:vault/rooms/omega/mush_room1",
               "the_vault:vault/rooms/omega/mush_room2",
               "the_vault:vault/rooms/omega/blacksmith1",
+              "the_vault:vault/rooms/omega/blacksmith2",
               "the_vault:vault/rooms/omega/cove1",
               "the_vault:vault/rooms/omega/cove2",
               "the_vault:vault/rooms/omega/omega_digsite2",
@@ -16939,10 +16718,22 @@
               "the_vault:vault/rooms/omega/mine2",
               "the_vault:vault/rooms/omega/painting1",
               "the_vault:vault/rooms/omega/vendor1",
-              "the_vault:vault/rooms/omega/vendor2",
               "the_vault:vault/rooms/omega/vendor3",
               "the_vault:vault/rooms/omega/pixel1",
-              "the_vault:vault/rooms/omega/warehouse"
+              "the_vault:vault/rooms/omega/warehouse",
+              "the_vault:vault/rooms/omega/arcade",
+              "the_vault:vault/rooms/omega/cube",
+              "the_vault:vault/rooms/omega/playzone1",
+              "the_vault:vault/rooms/omega/iskallian_garden",
+              "the_vault:vault/rooms/omega/comet_observatory",
+              "the_vault:vault/rooms/omega/hellish_digsite",
+              "the_vault:vault/rooms/omega/wolds_dinner",
+              "the_vault:vault/rooms/omega/wardens_garden",
+              "the_vault:vault/rooms/omega/trove",
+              "the_vault:vault/rooms/omega/pixel1",
+              "the_vault:vault/rooms/omega/vendor1",
+              "the_vault:vault/rooms/omega/vendor2",
+              "the_vault:vault/rooms/omega/vendor3"
             ],
             "counter": {
               "type": "target",
@@ -16961,6 +16752,7 @@
                 "the_vault:vault/rooms/omega/mush_room1",
                 "the_vault:vault/rooms/omega/mush_room2",
                 "the_vault:vault/rooms/omega/blacksmith1",
+                "the_vault:vault/rooms/omega/blacksmith2",
                 "the_vault:vault/rooms/omega/cove1",
                 "the_vault:vault/rooms/omega/cove2",
                 "the_vault:vault/rooms/omega/omega_digsite2",
@@ -16970,10 +16762,22 @@
                 "the_vault:vault/rooms/omega/mine2",
                 "the_vault:vault/rooms/omega/painting1",
                 "the_vault:vault/rooms/omega/vendor1",
-                "the_vault:vault/rooms/omega/vendor2",
                 "the_vault:vault/rooms/omega/vendor3",
                 "the_vault:vault/rooms/omega/pixel1",
-                "the_vault:vault/rooms/omega/warehouse"
+                "the_vault:vault/rooms/omega/warehouse",
+                "the_vault:vault/rooms/omega/arcade",
+                "the_vault:vault/rooms/omega/cube",
+                "the_vault:vault/rooms/omega/playzone1",
+                "the_vault:vault/rooms/omega/iskallian_garden",
+                "the_vault:vault/rooms/omega/comet_observatory",
+                "the_vault:vault/rooms/omega/hellish_digsite",
+                "the_vault:vault/rooms/omega/wolds_dinner",
+                "the_vault:vault/rooms/omega/wardens_garden",
+                "the_vault:vault/rooms/omega/trove",
+                "the_vault:vault/rooms/omega/pixel1",
+                "the_vault:vault/rooms/omega/vendor1",
+                "the_vault:vault/rooms/omega/vendor2",
+                "the_vault:vault/rooms/omega/vendor3"
               ]
             },
             "renderer": {
@@ -17039,69 +16843,6 @@
               "icon": "the_vault:textures/gui/bingo/killelite.png"
             },
             "weight": 60.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_gilded",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 16,
-                "max": 28
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Gilded Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/gildedbarrel.png"
-            },
-            "weight": 100.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_ornate",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 16,
-                "max": 28
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Ornate Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/ornatebarrel.png"
-            },
-            "weight": 100.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_living",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 16,
-                "max": 28
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Living Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/livingbarrel.png"
-            },
-            "weight": 100.0
           }
         ],
         "firstBingo": [
@@ -19380,6 +19121,7 @@
               "the_vault:vault/rooms/omega/mush_room1",
               "the_vault:vault/rooms/omega/mush_room2",
               "the_vault:vault/rooms/omega/blacksmith1",
+              "the_vault:vault/rooms/omega/blacksmith2",
               "the_vault:vault/rooms/omega/cove1",
               "the_vault:vault/rooms/omega/cove2",
               "the_vault:vault/rooms/omega/omega_digsite2",
@@ -19389,10 +19131,22 @@
               "the_vault:vault/rooms/omega/mine2",
               "the_vault:vault/rooms/omega/painting1",
               "the_vault:vault/rooms/omega/vendor1",
-              "the_vault:vault/rooms/omega/vendor2",
               "the_vault:vault/rooms/omega/vendor3",
               "the_vault:vault/rooms/omega/pixel1",
-              "the_vault:vault/rooms/omega/warehouse"
+              "the_vault:vault/rooms/omega/warehouse",
+              "the_vault:vault/rooms/omega/arcade",
+              "the_vault:vault/rooms/omega/cube",
+              "the_vault:vault/rooms/omega/playzone1",
+              "the_vault:vault/rooms/omega/iskallian_garden",
+              "the_vault:vault/rooms/omega/comet_observatory",
+              "the_vault:vault/rooms/omega/hellish_digsite",
+              "the_vault:vault/rooms/omega/wolds_dinner",
+              "the_vault:vault/rooms/omega/wardens_garden",
+              "the_vault:vault/rooms/omega/trove",
+              "the_vault:vault/rooms/omega/pixel1",
+              "the_vault:vault/rooms/omega/vendor1",
+              "the_vault:vault/rooms/omega/vendor2",
+              "the_vault:vault/rooms/omega/vendor3"
             ],
             "counter": {
               "type": "target",
@@ -19411,6 +19165,7 @@
                 "the_vault:vault/rooms/omega/mush_room1",
                 "the_vault:vault/rooms/omega/mush_room2",
                 "the_vault:vault/rooms/omega/blacksmith1",
+                "the_vault:vault/rooms/omega/blacksmith2",
                 "the_vault:vault/rooms/omega/cove1",
                 "the_vault:vault/rooms/omega/cove2",
                 "the_vault:vault/rooms/omega/omega_digsite2",
@@ -19420,10 +19175,22 @@
                 "the_vault:vault/rooms/omega/mine2",
                 "the_vault:vault/rooms/omega/painting1",
                 "the_vault:vault/rooms/omega/vendor1",
-                "the_vault:vault/rooms/omega/vendor2",
                 "the_vault:vault/rooms/omega/vendor3",
                 "the_vault:vault/rooms/omega/pixel1",
-                "the_vault:vault/rooms/omega/warehouse"
+                "the_vault:vault/rooms/omega/warehouse",
+                "the_vault:vault/rooms/omega/arcade",
+                "the_vault:vault/rooms/omega/cube",
+                "the_vault:vault/rooms/omega/playzone1",
+                "the_vault:vault/rooms/omega/iskallian_garden",
+                "the_vault:vault/rooms/omega/comet_observatory",
+                "the_vault:vault/rooms/omega/hellish_digsite",
+                "the_vault:vault/rooms/omega/wolds_dinner",
+                "the_vault:vault/rooms/omega/wardens_garden",
+                "the_vault:vault/rooms/omega/trove",
+                "the_vault:vault/rooms/omega/pixel1",
+                "the_vault:vault/rooms/omega/vendor1",
+                "the_vault:vault/rooms/omega/vendor2",
+                "the_vault:vault/rooms/omega/vendor3"
               ]
             },
             "renderer": {
@@ -19489,69 +19256,6 @@
               "icon": "the_vault:textures/gui/bingo/killelite.png"
             },
             "weight": 60.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_gilded",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 20,
-                "max": 32
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Gilded Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/gildedbarrel.png"
-            },
-            "weight": 100.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_ornate",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 20,
-                "max": 32
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Ornate Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/ornatebarrel.png"
-            },
-            "weight": 100.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_living",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 20,
-                "max": 32
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Living Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/livingbarrel.png"
-            },
-            "weight": 100.0
           }
         ],
         "firstBingo": [
@@ -21830,6 +21534,7 @@
               "the_vault:vault/rooms/omega/mush_room1",
               "the_vault:vault/rooms/omega/mush_room2",
               "the_vault:vault/rooms/omega/blacksmith1",
+              "the_vault:vault/rooms/omega/blacksmith2",
               "the_vault:vault/rooms/omega/cove1",
               "the_vault:vault/rooms/omega/cove2",
               "the_vault:vault/rooms/omega/omega_digsite2",
@@ -21839,10 +21544,22 @@
               "the_vault:vault/rooms/omega/mine2",
               "the_vault:vault/rooms/omega/painting1",
               "the_vault:vault/rooms/omega/vendor1",
-              "the_vault:vault/rooms/omega/vendor2",
               "the_vault:vault/rooms/omega/vendor3",
               "the_vault:vault/rooms/omega/pixel1",
-              "the_vault:vault/rooms/omega/warehouse"
+              "the_vault:vault/rooms/omega/warehouse",
+              "the_vault:vault/rooms/omega/arcade",
+              "the_vault:vault/rooms/omega/cube",
+              "the_vault:vault/rooms/omega/playzone1",
+              "the_vault:vault/rooms/omega/iskallian_garden",
+              "the_vault:vault/rooms/omega/comet_observatory",
+              "the_vault:vault/rooms/omega/hellish_digsite",
+              "the_vault:vault/rooms/omega/wolds_dinner",
+              "the_vault:vault/rooms/omega/wardens_garden",
+              "the_vault:vault/rooms/omega/trove",
+              "the_vault:vault/rooms/omega/pixel1",
+              "the_vault:vault/rooms/omega/vendor1",
+              "the_vault:vault/rooms/omega/vendor2",
+              "the_vault:vault/rooms/omega/vendor3"
             ],
             "counter": {
               "type": "target",
@@ -21861,6 +21578,7 @@
                 "the_vault:vault/rooms/omega/mush_room1",
                 "the_vault:vault/rooms/omega/mush_room2",
                 "the_vault:vault/rooms/omega/blacksmith1",
+                "the_vault:vault/rooms/omega/blacksmith2",
                 "the_vault:vault/rooms/omega/cove1",
                 "the_vault:vault/rooms/omega/cove2",
                 "the_vault:vault/rooms/omega/omega_digsite2",
@@ -21870,10 +21588,22 @@
                 "the_vault:vault/rooms/omega/mine2",
                 "the_vault:vault/rooms/omega/painting1",
                 "the_vault:vault/rooms/omega/vendor1",
-                "the_vault:vault/rooms/omega/vendor2",
                 "the_vault:vault/rooms/omega/vendor3",
                 "the_vault:vault/rooms/omega/pixel1",
-                "the_vault:vault/rooms/omega/warehouse"
+                "the_vault:vault/rooms/omega/warehouse",
+                "the_vault:vault/rooms/omega/arcade",
+                "the_vault:vault/rooms/omega/cube",
+                "the_vault:vault/rooms/omega/playzone1",
+                "the_vault:vault/rooms/omega/iskallian_garden",
+                "the_vault:vault/rooms/omega/comet_observatory",
+                "the_vault:vault/rooms/omega/hellish_digsite",
+                "the_vault:vault/rooms/omega/wolds_dinner",
+                "the_vault:vault/rooms/omega/wardens_garden",
+                "the_vault:vault/rooms/omega/trove",
+                "the_vault:vault/rooms/omega/pixel1",
+                "the_vault:vault/rooms/omega/vendor1",
+                "the_vault:vault/rooms/omega/vendor2",
+                "the_vault:vault/rooms/omega/vendor3"
               ]
             },
             "renderer": {
@@ -21939,69 +21669,6 @@
               "icon": "the_vault:textures/gui/bingo/killelite.png"
             },
             "weight": 60.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_gilded",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 24,
-                "max": 36
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Gilded Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/gildedbarrel.png"
-            },
-            "weight": 100.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_ornate",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 24,
-                "max": 36
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Ornate Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/ornatebarrel.png"
-            },
-            "weight": 100.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_living",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 24,
-                "max": 36
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Living Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/livingbarrel.png"
-            },
-            "weight": 100.0
           }
         ],
         "firstBingo": [
@@ -24282,6 +23949,7 @@
               "the_vault:vault/rooms/omega/mush_room1",
               "the_vault:vault/rooms/omega/mush_room2",
               "the_vault:vault/rooms/omega/blacksmith1",
+              "the_vault:vault/rooms/omega/blacksmith2",
               "the_vault:vault/rooms/omega/cove1",
               "the_vault:vault/rooms/omega/cove2",
               "the_vault:vault/rooms/omega/omega_digsite2",
@@ -24291,10 +23959,22 @@
               "the_vault:vault/rooms/omega/mine2",
               "the_vault:vault/rooms/omega/painting1",
               "the_vault:vault/rooms/omega/vendor1",
-              "the_vault:vault/rooms/omega/vendor2",
               "the_vault:vault/rooms/omega/vendor3",
               "the_vault:vault/rooms/omega/pixel1",
-              "the_vault:vault/rooms/omega/warehouse"
+              "the_vault:vault/rooms/omega/warehouse",
+              "the_vault:vault/rooms/omega/arcade",
+              "the_vault:vault/rooms/omega/cube",
+              "the_vault:vault/rooms/omega/playzone1",
+              "the_vault:vault/rooms/omega/iskallian_garden",
+              "the_vault:vault/rooms/omega/comet_observatory",
+              "the_vault:vault/rooms/omega/hellish_digsite",
+              "the_vault:vault/rooms/omega/wolds_dinner",
+              "the_vault:vault/rooms/omega/wardens_garden",
+              "the_vault:vault/rooms/omega/trove",
+              "the_vault:vault/rooms/omega/pixel1",
+              "the_vault:vault/rooms/omega/vendor1",
+              "the_vault:vault/rooms/omega/vendor2",
+              "the_vault:vault/rooms/omega/vendor3"
             ],
             "counter": {
               "type": "target",
@@ -24313,6 +23993,7 @@
                 "the_vault:vault/rooms/omega/mush_room1",
                 "the_vault:vault/rooms/omega/mush_room2",
                 "the_vault:vault/rooms/omega/blacksmith1",
+                "the_vault:vault/rooms/omega/blacksmith2",
                 "the_vault:vault/rooms/omega/cove1",
                 "the_vault:vault/rooms/omega/cove2",
                 "the_vault:vault/rooms/omega/omega_digsite2",
@@ -24322,10 +24003,22 @@
                 "the_vault:vault/rooms/omega/mine2",
                 "the_vault:vault/rooms/omega/painting1",
                 "the_vault:vault/rooms/omega/vendor1",
-                "the_vault:vault/rooms/omega/vendor2",
                 "the_vault:vault/rooms/omega/vendor3",
                 "the_vault:vault/rooms/omega/pixel1",
-                "the_vault:vault/rooms/omega/warehouse"
+                "the_vault:vault/rooms/omega/warehouse",
+                "the_vault:vault/rooms/omega/arcade",
+                "the_vault:vault/rooms/omega/cube",
+                "the_vault:vault/rooms/omega/playzone1",
+                "the_vault:vault/rooms/omega/iskallian_garden",
+                "the_vault:vault/rooms/omega/comet_observatory",
+                "the_vault:vault/rooms/omega/hellish_digsite",
+                "the_vault:vault/rooms/omega/wolds_dinner",
+                "the_vault:vault/rooms/omega/wardens_garden",
+                "the_vault:vault/rooms/omega/trove",
+                "the_vault:vault/rooms/omega/pixel1",
+                "the_vault:vault/rooms/omega/vendor1",
+                "the_vault:vault/rooms/omega/vendor2",
+                "the_vault:vault/rooms/omega/vendor3"
               ]
             },
             "renderer": {
@@ -24391,69 +24084,6 @@
               "icon": "the_vault:textures/gui/bingo/killelite.png"
             },
             "weight": 60.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_gilded",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 20,
-                "max": 35
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Gilded Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/gildedbarrel.png"
-            },
-            "weight": 100.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_ornate",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 20,
-                "max": 35
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Ornate Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/ornatebarrel.png"
-            },
-            "weight": 100.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_living",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 20,
-                "max": 35
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Living Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/livingbarrel.png"
-            },
-            "weight": 100.0
           }
         ],
         "firstBingo": [
@@ -26732,6 +26362,7 @@
               "the_vault:vault/rooms/omega/mush_room1",
               "the_vault:vault/rooms/omega/mush_room2",
               "the_vault:vault/rooms/omega/blacksmith1",
+              "the_vault:vault/rooms/omega/blacksmith2",
               "the_vault:vault/rooms/omega/cove1",
               "the_vault:vault/rooms/omega/cove2",
               "the_vault:vault/rooms/omega/omega_digsite2",
@@ -26741,10 +26372,22 @@
               "the_vault:vault/rooms/omega/mine2",
               "the_vault:vault/rooms/omega/painting1",
               "the_vault:vault/rooms/omega/vendor1",
-              "the_vault:vault/rooms/omega/vendor2",
               "the_vault:vault/rooms/omega/vendor3",
               "the_vault:vault/rooms/omega/pixel1",
-              "the_vault:vault/rooms/omega/warehouse"
+              "the_vault:vault/rooms/omega/warehouse",
+              "the_vault:vault/rooms/omega/arcade",
+              "the_vault:vault/rooms/omega/cube",
+              "the_vault:vault/rooms/omega/playzone1",
+              "the_vault:vault/rooms/omega/iskallian_garden",
+              "the_vault:vault/rooms/omega/comet_observatory",
+              "the_vault:vault/rooms/omega/hellish_digsite",
+              "the_vault:vault/rooms/omega/wolds_dinner",
+              "the_vault:vault/rooms/omega/wardens_garden",
+              "the_vault:vault/rooms/omega/trove",
+              "the_vault:vault/rooms/omega/pixel1",
+              "the_vault:vault/rooms/omega/vendor1",
+              "the_vault:vault/rooms/omega/vendor2",
+              "the_vault:vault/rooms/omega/vendor3"
             ],
             "counter": {
               "type": "target",
@@ -26763,6 +26406,7 @@
                 "the_vault:vault/rooms/omega/mush_room1",
                 "the_vault:vault/rooms/omega/mush_room2",
                 "the_vault:vault/rooms/omega/blacksmith1",
+                "the_vault:vault/rooms/omega/blacksmith2",
                 "the_vault:vault/rooms/omega/cove1",
                 "the_vault:vault/rooms/omega/cove2",
                 "the_vault:vault/rooms/omega/omega_digsite2",
@@ -26772,10 +26416,22 @@
                 "the_vault:vault/rooms/omega/mine2",
                 "the_vault:vault/rooms/omega/painting1",
                 "the_vault:vault/rooms/omega/vendor1",
-                "the_vault:vault/rooms/omega/vendor2",
                 "the_vault:vault/rooms/omega/vendor3",
                 "the_vault:vault/rooms/omega/pixel1",
-                "the_vault:vault/rooms/omega/warehouse"
+                "the_vault:vault/rooms/omega/warehouse",
+                "the_vault:vault/rooms/omega/arcade",
+                "the_vault:vault/rooms/omega/cube",
+                "the_vault:vault/rooms/omega/playzone1",
+                "the_vault:vault/rooms/omega/iskallian_garden",
+                "the_vault:vault/rooms/omega/comet_observatory",
+                "the_vault:vault/rooms/omega/hellish_digsite",
+                "the_vault:vault/rooms/omega/wolds_dinner",
+                "the_vault:vault/rooms/omega/wardens_garden",
+                "the_vault:vault/rooms/omega/trove",
+                "the_vault:vault/rooms/omega/pixel1",
+                "the_vault:vault/rooms/omega/vendor1",
+                "the_vault:vault/rooms/omega/vendor2",
+                "the_vault:vault/rooms/omega/vendor3"
               ]
             },
             "renderer": {
@@ -26841,69 +26497,6 @@
               "icon": "the_vault:textures/gui/bingo/killelite.png"
             },
             "weight": 60.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_gilded",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 25,
-                "max": 40
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Gilded Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/gildedbarrel.png"
-            },
-            "weight": 100.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_ornate",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 25,
-                "max": 40
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Ornate Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/ornatebarrel.png"
-            },
-            "weight": 100.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_living",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 25,
-                "max": 40
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Living Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/livingbarrel.png"
-            },
-            "weight": 100.0
           }
         ],
         "firstBingo": [
@@ -29182,6 +28775,7 @@
               "the_vault:vault/rooms/omega/mush_room1",
               "the_vault:vault/rooms/omega/mush_room2",
               "the_vault:vault/rooms/omega/blacksmith1",
+              "the_vault:vault/rooms/omega/blacksmith2",
               "the_vault:vault/rooms/omega/cove1",
               "the_vault:vault/rooms/omega/cove2",
               "the_vault:vault/rooms/omega/omega_digsite2",
@@ -29191,10 +28785,22 @@
               "the_vault:vault/rooms/omega/mine2",
               "the_vault:vault/rooms/omega/painting1",
               "the_vault:vault/rooms/omega/vendor1",
-              "the_vault:vault/rooms/omega/vendor2",
               "the_vault:vault/rooms/omega/vendor3",
               "the_vault:vault/rooms/omega/pixel1",
-              "the_vault:vault/rooms/omega/warehouse"
+              "the_vault:vault/rooms/omega/warehouse",
+              "the_vault:vault/rooms/omega/arcade",
+              "the_vault:vault/rooms/omega/cube",
+              "the_vault:vault/rooms/omega/playzone1",
+              "the_vault:vault/rooms/omega/iskallian_garden",
+              "the_vault:vault/rooms/omega/comet_observatory",
+              "the_vault:vault/rooms/omega/hellish_digsite",
+              "the_vault:vault/rooms/omega/wolds_dinner",
+              "the_vault:vault/rooms/omega/wardens_garden",
+              "the_vault:vault/rooms/omega/trove",
+              "the_vault:vault/rooms/omega/pixel1",
+              "the_vault:vault/rooms/omega/vendor1",
+              "the_vault:vault/rooms/omega/vendor2",
+              "the_vault:vault/rooms/omega/vendor3"
             ],
             "counter": {
               "type": "target",
@@ -29213,6 +28819,7 @@
                 "the_vault:vault/rooms/omega/mush_room1",
                 "the_vault:vault/rooms/omega/mush_room2",
                 "the_vault:vault/rooms/omega/blacksmith1",
+                "the_vault:vault/rooms/omega/blacksmith2",
                 "the_vault:vault/rooms/omega/cove1",
                 "the_vault:vault/rooms/omega/cove2",
                 "the_vault:vault/rooms/omega/omega_digsite2",
@@ -29222,10 +28829,22 @@
                 "the_vault:vault/rooms/omega/mine2",
                 "the_vault:vault/rooms/omega/painting1",
                 "the_vault:vault/rooms/omega/vendor1",
-                "the_vault:vault/rooms/omega/vendor2",
                 "the_vault:vault/rooms/omega/vendor3",
                 "the_vault:vault/rooms/omega/pixel1",
-                "the_vault:vault/rooms/omega/warehouse"
+                "the_vault:vault/rooms/omega/warehouse",
+                "the_vault:vault/rooms/omega/arcade",
+                "the_vault:vault/rooms/omega/cube",
+                "the_vault:vault/rooms/omega/playzone1",
+                "the_vault:vault/rooms/omega/iskallian_garden",
+                "the_vault:vault/rooms/omega/comet_observatory",
+                "the_vault:vault/rooms/omega/hellish_digsite",
+                "the_vault:vault/rooms/omega/wolds_dinner",
+                "the_vault:vault/rooms/omega/wardens_garden",
+                "the_vault:vault/rooms/omega/trove",
+                "the_vault:vault/rooms/omega/pixel1",
+                "the_vault:vault/rooms/omega/vendor1",
+                "the_vault:vault/rooms/omega/vendor2",
+                "the_vault:vault/rooms/omega/vendor3"
               ]
             },
             "renderer": {
@@ -29291,69 +28910,6 @@
               "icon": "the_vault:textures/gui/bingo/killelite.png"
             },
             "weight": 60.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_gilded",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 30,
-                "max": 45
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Gilded Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/gildedbarrel.png"
-            },
-            "weight": 100.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_ornate",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 30,
-                "max": 45
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Ornate Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/ornatebarrel.png"
-            },
-            "weight": 100.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_living",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 30,
-                "max": 45
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Living Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/livingbarrel.png"
-            },
-            "weight": 100.0
           }
         ],
         "firstBingo": [
@@ -31634,6 +31190,7 @@
               "the_vault:vault/rooms/omega/mush_room1",
               "the_vault:vault/rooms/omega/mush_room2",
               "the_vault:vault/rooms/omega/blacksmith1",
+              "the_vault:vault/rooms/omega/blacksmith2",
               "the_vault:vault/rooms/omega/cove1",
               "the_vault:vault/rooms/omega/cove2",
               "the_vault:vault/rooms/omega/omega_digsite2",
@@ -31643,10 +31200,22 @@
               "the_vault:vault/rooms/omega/mine2",
               "the_vault:vault/rooms/omega/painting1",
               "the_vault:vault/rooms/omega/vendor1",
-              "the_vault:vault/rooms/omega/vendor2",
               "the_vault:vault/rooms/omega/vendor3",
               "the_vault:vault/rooms/omega/pixel1",
-              "the_vault:vault/rooms/omega/warehouse"
+              "the_vault:vault/rooms/omega/warehouse",
+              "the_vault:vault/rooms/omega/arcade",
+              "the_vault:vault/rooms/omega/cube",
+              "the_vault:vault/rooms/omega/playzone1",
+              "the_vault:vault/rooms/omega/iskallian_garden",
+              "the_vault:vault/rooms/omega/comet_observatory",
+              "the_vault:vault/rooms/omega/hellish_digsite",
+              "the_vault:vault/rooms/omega/wolds_dinner",
+              "the_vault:vault/rooms/omega/wardens_garden",
+              "the_vault:vault/rooms/omega/trove",
+              "the_vault:vault/rooms/omega/pixel1",
+              "the_vault:vault/rooms/omega/vendor1",
+              "the_vault:vault/rooms/omega/vendor2",
+              "the_vault:vault/rooms/omega/vendor3"
             ],
             "counter": {
               "type": "target",
@@ -31665,6 +31234,7 @@
                 "the_vault:vault/rooms/omega/mush_room1",
                 "the_vault:vault/rooms/omega/mush_room2",
                 "the_vault:vault/rooms/omega/blacksmith1",
+                "the_vault:vault/rooms/omega/blacksmith2",
                 "the_vault:vault/rooms/omega/cove1",
                 "the_vault:vault/rooms/omega/cove2",
                 "the_vault:vault/rooms/omega/omega_digsite2",
@@ -31674,10 +31244,22 @@
                 "the_vault:vault/rooms/omega/mine2",
                 "the_vault:vault/rooms/omega/painting1",
                 "the_vault:vault/rooms/omega/vendor1",
-                "the_vault:vault/rooms/omega/vendor2",
                 "the_vault:vault/rooms/omega/vendor3",
                 "the_vault:vault/rooms/omega/pixel1",
-                "the_vault:vault/rooms/omega/warehouse"
+                "the_vault:vault/rooms/omega/warehouse",
+                "the_vault:vault/rooms/omega/arcade",
+                "the_vault:vault/rooms/omega/cube",
+                "the_vault:vault/rooms/omega/playzone1",
+                "the_vault:vault/rooms/omega/iskallian_garden",
+                "the_vault:vault/rooms/omega/comet_observatory",
+                "the_vault:vault/rooms/omega/hellish_digsite",
+                "the_vault:vault/rooms/omega/wolds_dinner",
+                "the_vault:vault/rooms/omega/wardens_garden",
+                "the_vault:vault/rooms/omega/trove",
+                "the_vault:vault/rooms/omega/pixel1",
+                "the_vault:vault/rooms/omega/vendor1",
+                "the_vault:vault/rooms/omega/vendor2",
+                "the_vault:vault/rooms/omega/vendor3"
               ]
             },
             "renderer": {
@@ -31743,69 +31325,6 @@
               "icon": "the_vault:textures/gui/bingo/killelite.png"
             },
             "weight": 60.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_gilded",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 32,
-                "max": 56
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Gilded Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/gildedbarrel.png"
-            },
-            "weight": 100.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_ornate",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 32,
-                "max": 56
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Ornate Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/ornatebarrel.png"
-            },
-            "weight": 100.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_living",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 32,
-                "max": 56
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Living Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/livingbarrel.png"
-            },
-            "weight": 100.0
           }
         ],
         "firstBingo": [
@@ -34084,6 +33603,7 @@
               "the_vault:vault/rooms/omega/mush_room1",
               "the_vault:vault/rooms/omega/mush_room2",
               "the_vault:vault/rooms/omega/blacksmith1",
+              "the_vault:vault/rooms/omega/blacksmith2",
               "the_vault:vault/rooms/omega/cove1",
               "the_vault:vault/rooms/omega/cove2",
               "the_vault:vault/rooms/omega/omega_digsite2",
@@ -34093,10 +33613,22 @@
               "the_vault:vault/rooms/omega/mine2",
               "the_vault:vault/rooms/omega/painting1",
               "the_vault:vault/rooms/omega/vendor1",
-              "the_vault:vault/rooms/omega/vendor2",
               "the_vault:vault/rooms/omega/vendor3",
               "the_vault:vault/rooms/omega/pixel1",
-              "the_vault:vault/rooms/omega/warehouse"
+              "the_vault:vault/rooms/omega/warehouse",
+              "the_vault:vault/rooms/omega/arcade",
+              "the_vault:vault/rooms/omega/cube",
+              "the_vault:vault/rooms/omega/playzone1",
+              "the_vault:vault/rooms/omega/iskallian_garden",
+              "the_vault:vault/rooms/omega/comet_observatory",
+              "the_vault:vault/rooms/omega/hellish_digsite",
+              "the_vault:vault/rooms/omega/wolds_dinner",
+              "the_vault:vault/rooms/omega/wardens_garden",
+              "the_vault:vault/rooms/omega/trove",
+              "the_vault:vault/rooms/omega/pixel1",
+              "the_vault:vault/rooms/omega/vendor1",
+              "the_vault:vault/rooms/omega/vendor2",
+              "the_vault:vault/rooms/omega/vendor3"
             ],
             "counter": {
               "type": "target",
@@ -34115,6 +33647,7 @@
                 "the_vault:vault/rooms/omega/mush_room1",
                 "the_vault:vault/rooms/omega/mush_room2",
                 "the_vault:vault/rooms/omega/blacksmith1",
+                "the_vault:vault/rooms/omega/blacksmith2",
                 "the_vault:vault/rooms/omega/cove1",
                 "the_vault:vault/rooms/omega/cove2",
                 "the_vault:vault/rooms/omega/omega_digsite2",
@@ -34124,10 +33657,22 @@
                 "the_vault:vault/rooms/omega/mine2",
                 "the_vault:vault/rooms/omega/painting1",
                 "the_vault:vault/rooms/omega/vendor1",
-                "the_vault:vault/rooms/omega/vendor2",
                 "the_vault:vault/rooms/omega/vendor3",
                 "the_vault:vault/rooms/omega/pixel1",
-                "the_vault:vault/rooms/omega/warehouse"
+                "the_vault:vault/rooms/omega/warehouse",
+                "the_vault:vault/rooms/omega/arcade",
+                "the_vault:vault/rooms/omega/cube",
+                "the_vault:vault/rooms/omega/playzone1",
+                "the_vault:vault/rooms/omega/iskallian_garden",
+                "the_vault:vault/rooms/omega/comet_observatory",
+                "the_vault:vault/rooms/omega/hellish_digsite",
+                "the_vault:vault/rooms/omega/wolds_dinner",
+                "the_vault:vault/rooms/omega/wardens_garden",
+                "the_vault:vault/rooms/omega/trove",
+                "the_vault:vault/rooms/omega/pixel1",
+                "the_vault:vault/rooms/omega/vendor1",
+                "the_vault:vault/rooms/omega/vendor2",
+                "the_vault:vault/rooms/omega/vendor3"
               ]
             },
             "renderer": {
@@ -34193,69 +33738,6 @@
               "icon": "the_vault:textures/gui/bingo/killelite.png"
             },
             "weight": 60.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_gilded",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 40,
-                "max": 64
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Gilded Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/gildedbarrel.png"
-            },
-            "weight": 100.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_ornate",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 40,
-                "max": 64
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Ornate Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/ornatebarrel.png"
-            },
-            "weight": 100.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_living",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 40,
-                "max": 64
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Living Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/livingbarrel.png"
-            },
-            "weight": 100.0
           }
         ],
         "firstBingo": [
@@ -36534,6 +36016,7 @@
               "the_vault:vault/rooms/omega/mush_room1",
               "the_vault:vault/rooms/omega/mush_room2",
               "the_vault:vault/rooms/omega/blacksmith1",
+              "the_vault:vault/rooms/omega/blacksmith2",
               "the_vault:vault/rooms/omega/cove1",
               "the_vault:vault/rooms/omega/cove2",
               "the_vault:vault/rooms/omega/omega_digsite2",
@@ -36543,10 +36026,22 @@
               "the_vault:vault/rooms/omega/mine2",
               "the_vault:vault/rooms/omega/painting1",
               "the_vault:vault/rooms/omega/vendor1",
-              "the_vault:vault/rooms/omega/vendor2",
               "the_vault:vault/rooms/omega/vendor3",
               "the_vault:vault/rooms/omega/pixel1",
-              "the_vault:vault/rooms/omega/warehouse"
+              "the_vault:vault/rooms/omega/warehouse",
+              "the_vault:vault/rooms/omega/arcade",
+              "the_vault:vault/rooms/omega/cube",
+              "the_vault:vault/rooms/omega/playzone1",
+              "the_vault:vault/rooms/omega/iskallian_garden",
+              "the_vault:vault/rooms/omega/comet_observatory",
+              "the_vault:vault/rooms/omega/hellish_digsite",
+              "the_vault:vault/rooms/omega/wolds_dinner",
+              "the_vault:vault/rooms/omega/wardens_garden",
+              "the_vault:vault/rooms/omega/trove",
+              "the_vault:vault/rooms/omega/pixel1",
+              "the_vault:vault/rooms/omega/vendor1",
+              "the_vault:vault/rooms/omega/vendor2",
+              "the_vault:vault/rooms/omega/vendor3"
             ],
             "counter": {
               "type": "target",
@@ -36565,6 +36060,7 @@
                 "the_vault:vault/rooms/omega/mush_room1",
                 "the_vault:vault/rooms/omega/mush_room2",
                 "the_vault:vault/rooms/omega/blacksmith1",
+                "the_vault:vault/rooms/omega/blacksmith2",
                 "the_vault:vault/rooms/omega/cove1",
                 "the_vault:vault/rooms/omega/cove2",
                 "the_vault:vault/rooms/omega/omega_digsite2",
@@ -36574,10 +36070,22 @@
                 "the_vault:vault/rooms/omega/mine2",
                 "the_vault:vault/rooms/omega/painting1",
                 "the_vault:vault/rooms/omega/vendor1",
-                "the_vault:vault/rooms/omega/vendor2",
                 "the_vault:vault/rooms/omega/vendor3",
                 "the_vault:vault/rooms/omega/pixel1",
-                "the_vault:vault/rooms/omega/warehouse"
+                "the_vault:vault/rooms/omega/warehouse",
+                "the_vault:vault/rooms/omega/arcade",
+                "the_vault:vault/rooms/omega/cube",
+                "the_vault:vault/rooms/omega/playzone1",
+                "the_vault:vault/rooms/omega/iskallian_garden",
+                "the_vault:vault/rooms/omega/comet_observatory",
+                "the_vault:vault/rooms/omega/hellish_digsite",
+                "the_vault:vault/rooms/omega/wolds_dinner",
+                "the_vault:vault/rooms/omega/wardens_garden",
+                "the_vault:vault/rooms/omega/trove",
+                "the_vault:vault/rooms/omega/pixel1",
+                "the_vault:vault/rooms/omega/vendor1",
+                "the_vault:vault/rooms/omega/vendor2",
+                "the_vault:vault/rooms/omega/vendor3"
               ]
             },
             "renderer": {
@@ -36643,69 +36151,6 @@
               "icon": "the_vault:textures/gui/bingo/killelite.png"
             },
             "weight": 60.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_gilded",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 48,
-                "max": 72
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Gilded Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/gildedbarrel.png"
-            },
-            "weight": 100.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_ornate",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 48,
-                "max": 72
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Ornate Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/ornatebarrel.png"
-            },
-            "weight": 100.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_living",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 48,
-                "max": 72
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Living Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/livingbarrel.png"
-            },
-            "weight": 100.0
           }
         ],
         "firstBingo": [
@@ -38986,6 +38431,7 @@
               "the_vault:vault/rooms/omega/mush_room1",
               "the_vault:vault/rooms/omega/mush_room2",
               "the_vault:vault/rooms/omega/blacksmith1",
+              "the_vault:vault/rooms/omega/blacksmith2",
               "the_vault:vault/rooms/omega/cove1",
               "the_vault:vault/rooms/omega/cove2",
               "the_vault:vault/rooms/omega/omega_digsite2",
@@ -38995,10 +38441,22 @@
               "the_vault:vault/rooms/omega/mine2",
               "the_vault:vault/rooms/omega/painting1",
               "the_vault:vault/rooms/omega/vendor1",
-              "the_vault:vault/rooms/omega/vendor2",
               "the_vault:vault/rooms/omega/vendor3",
               "the_vault:vault/rooms/omega/pixel1",
-              "the_vault:vault/rooms/omega/warehouse"
+              "the_vault:vault/rooms/omega/warehouse",
+              "the_vault:vault/rooms/omega/arcade",
+              "the_vault:vault/rooms/omega/cube",
+              "the_vault:vault/rooms/omega/playzone1",
+              "the_vault:vault/rooms/omega/iskallian_garden",
+              "the_vault:vault/rooms/omega/comet_observatory",
+              "the_vault:vault/rooms/omega/hellish_digsite",
+              "the_vault:vault/rooms/omega/wolds_dinner",
+              "the_vault:vault/rooms/omega/wardens_garden",
+              "the_vault:vault/rooms/omega/trove",
+              "the_vault:vault/rooms/omega/pixel1",
+              "the_vault:vault/rooms/omega/vendor1",
+              "the_vault:vault/rooms/omega/vendor2",
+              "the_vault:vault/rooms/omega/vendor3"
             ],
             "counter": {
               "type": "target",
@@ -39017,6 +38475,7 @@
                 "the_vault:vault/rooms/omega/mush_room1",
                 "the_vault:vault/rooms/omega/mush_room2",
                 "the_vault:vault/rooms/omega/blacksmith1",
+                "the_vault:vault/rooms/omega/blacksmith2",
                 "the_vault:vault/rooms/omega/cove1",
                 "the_vault:vault/rooms/omega/cove2",
                 "the_vault:vault/rooms/omega/omega_digsite2",
@@ -39026,10 +38485,22 @@
                 "the_vault:vault/rooms/omega/mine2",
                 "the_vault:vault/rooms/omega/painting1",
                 "the_vault:vault/rooms/omega/vendor1",
-                "the_vault:vault/rooms/omega/vendor2",
                 "the_vault:vault/rooms/omega/vendor3",
                 "the_vault:vault/rooms/omega/pixel1",
-                "the_vault:vault/rooms/omega/warehouse"
+                "the_vault:vault/rooms/omega/warehouse",
+                "the_vault:vault/rooms/omega/arcade",
+                "the_vault:vault/rooms/omega/cube",
+                "the_vault:vault/rooms/omega/playzone1",
+                "the_vault:vault/rooms/omega/iskallian_garden",
+                "the_vault:vault/rooms/omega/comet_observatory",
+                "the_vault:vault/rooms/omega/hellish_digsite",
+                "the_vault:vault/rooms/omega/wolds_dinner",
+                "the_vault:vault/rooms/omega/wardens_garden",
+                "the_vault:vault/rooms/omega/trove",
+                "the_vault:vault/rooms/omega/pixel1",
+                "the_vault:vault/rooms/omega/vendor1",
+                "the_vault:vault/rooms/omega/vendor2",
+                "the_vault:vault/rooms/omega/vendor3"
               ]
             },
             "renderer": {
@@ -39095,69 +38566,6 @@
               "icon": "the_vault:textures/gui/bingo/killelite.png"
             },
             "weight": 60.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_gilded",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 48,
-                "max": 84
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Gilded Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/gildedbarrel.png"
-            },
-            "weight": 100.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_ornate",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 48,
-                "max": 84
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Ornate Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/ornatebarrel.png"
-            },
-            "weight": 100.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_living",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 48,
-                "max": 84
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Living Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/livingbarrel.png"
-            },
-            "weight": 100.0
           }
         ],
         "firstBingo": [
@@ -41436,6 +40844,7 @@
               "the_vault:vault/rooms/omega/mush_room1",
               "the_vault:vault/rooms/omega/mush_room2",
               "the_vault:vault/rooms/omega/blacksmith1",
+              "the_vault:vault/rooms/omega/blacksmith2",
               "the_vault:vault/rooms/omega/cove1",
               "the_vault:vault/rooms/omega/cove2",
               "the_vault:vault/rooms/omega/omega_digsite2",
@@ -41445,10 +40854,22 @@
               "the_vault:vault/rooms/omega/mine2",
               "the_vault:vault/rooms/omega/painting1",
               "the_vault:vault/rooms/omega/vendor1",
-              "the_vault:vault/rooms/omega/vendor2",
               "the_vault:vault/rooms/omega/vendor3",
               "the_vault:vault/rooms/omega/pixel1",
-              "the_vault:vault/rooms/omega/warehouse"
+              "the_vault:vault/rooms/omega/warehouse",
+              "the_vault:vault/rooms/omega/arcade",
+              "the_vault:vault/rooms/omega/cube",
+              "the_vault:vault/rooms/omega/playzone1",
+              "the_vault:vault/rooms/omega/iskallian_garden",
+              "the_vault:vault/rooms/omega/comet_observatory",
+              "the_vault:vault/rooms/omega/hellish_digsite",
+              "the_vault:vault/rooms/omega/wolds_dinner",
+              "the_vault:vault/rooms/omega/wardens_garden",
+              "the_vault:vault/rooms/omega/trove",
+              "the_vault:vault/rooms/omega/pixel1",
+              "the_vault:vault/rooms/omega/vendor1",
+              "the_vault:vault/rooms/omega/vendor2",
+              "the_vault:vault/rooms/omega/vendor3"
             ],
             "counter": {
               "type": "target",
@@ -41467,6 +40888,7 @@
                 "the_vault:vault/rooms/omega/mush_room1",
                 "the_vault:vault/rooms/omega/mush_room2",
                 "the_vault:vault/rooms/omega/blacksmith1",
+                "the_vault:vault/rooms/omega/blacksmith2",
                 "the_vault:vault/rooms/omega/cove1",
                 "the_vault:vault/rooms/omega/cove2",
                 "the_vault:vault/rooms/omega/omega_digsite2",
@@ -41476,10 +40898,22 @@
                 "the_vault:vault/rooms/omega/mine2",
                 "the_vault:vault/rooms/omega/painting1",
                 "the_vault:vault/rooms/omega/vendor1",
-                "the_vault:vault/rooms/omega/vendor2",
                 "the_vault:vault/rooms/omega/vendor3",
                 "the_vault:vault/rooms/omega/pixel1",
-                "the_vault:vault/rooms/omega/warehouse"
+                "the_vault:vault/rooms/omega/warehouse",
+                "the_vault:vault/rooms/omega/arcade",
+                "the_vault:vault/rooms/omega/cube",
+                "the_vault:vault/rooms/omega/playzone1",
+                "the_vault:vault/rooms/omega/iskallian_garden",
+                "the_vault:vault/rooms/omega/comet_observatory",
+                "the_vault:vault/rooms/omega/hellish_digsite",
+                "the_vault:vault/rooms/omega/wolds_dinner",
+                "the_vault:vault/rooms/omega/wardens_garden",
+                "the_vault:vault/rooms/omega/trove",
+                "the_vault:vault/rooms/omega/pixel1",
+                "the_vault:vault/rooms/omega/vendor1",
+                "the_vault:vault/rooms/omega/vendor2",
+                "the_vault:vault/rooms/omega/vendor3"
               ]
             },
             "renderer": {
@@ -41545,69 +40979,6 @@
               "icon": "the_vault:textures/gui/bingo/killelite.png"
             },
             "weight": 60.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_gilded",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 60,
-                "max": 96
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Gilded Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/gildedbarrel.png"
-            },
-            "weight": 100.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_ornate",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 60,
-                "max": 96
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Ornate Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/ornatebarrel.png"
-            },
-            "weight": 100.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_living",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 60,
-                "max": 96
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Living Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/livingbarrel.png"
-            },
-            "weight": 100.0
           }
         ],
         "firstBingo": [
@@ -43886,6 +43257,7 @@
               "the_vault:vault/rooms/omega/mush_room1",
               "the_vault:vault/rooms/omega/mush_room2",
               "the_vault:vault/rooms/omega/blacksmith1",
+              "the_vault:vault/rooms/omega/blacksmith2",
               "the_vault:vault/rooms/omega/cove1",
               "the_vault:vault/rooms/omega/cove2",
               "the_vault:vault/rooms/omega/omega_digsite2",
@@ -43895,10 +43267,22 @@
               "the_vault:vault/rooms/omega/mine2",
               "the_vault:vault/rooms/omega/painting1",
               "the_vault:vault/rooms/omega/vendor1",
-              "the_vault:vault/rooms/omega/vendor2",
               "the_vault:vault/rooms/omega/vendor3",
               "the_vault:vault/rooms/omega/pixel1",
-              "the_vault:vault/rooms/omega/warehouse"
+              "the_vault:vault/rooms/omega/warehouse",
+              "the_vault:vault/rooms/omega/arcade",
+              "the_vault:vault/rooms/omega/cube",
+              "the_vault:vault/rooms/omega/playzone1",
+              "the_vault:vault/rooms/omega/iskallian_garden",
+              "the_vault:vault/rooms/omega/comet_observatory",
+              "the_vault:vault/rooms/omega/hellish_digsite",
+              "the_vault:vault/rooms/omega/wolds_dinner",
+              "the_vault:vault/rooms/omega/wardens_garden",
+              "the_vault:vault/rooms/omega/trove",
+              "the_vault:vault/rooms/omega/pixel1",
+              "the_vault:vault/rooms/omega/vendor1",
+              "the_vault:vault/rooms/omega/vendor2",
+              "the_vault:vault/rooms/omega/vendor3"
             ],
             "counter": {
               "type": "target",
@@ -43917,6 +43301,7 @@
                 "the_vault:vault/rooms/omega/mush_room1",
                 "the_vault:vault/rooms/omega/mush_room2",
                 "the_vault:vault/rooms/omega/blacksmith1",
+                "the_vault:vault/rooms/omega/blacksmith2",
                 "the_vault:vault/rooms/omega/cove1",
                 "the_vault:vault/rooms/omega/cove2",
                 "the_vault:vault/rooms/omega/omega_digsite2",
@@ -43926,10 +43311,22 @@
                 "the_vault:vault/rooms/omega/mine2",
                 "the_vault:vault/rooms/omega/painting1",
                 "the_vault:vault/rooms/omega/vendor1",
-                "the_vault:vault/rooms/omega/vendor2",
                 "the_vault:vault/rooms/omega/vendor3",
                 "the_vault:vault/rooms/omega/pixel1",
-                "the_vault:vault/rooms/omega/warehouse"
+                "the_vault:vault/rooms/omega/warehouse",
+                "the_vault:vault/rooms/omega/arcade",
+                "the_vault:vault/rooms/omega/cube",
+                "the_vault:vault/rooms/omega/playzone1",
+                "the_vault:vault/rooms/omega/iskallian_garden",
+                "the_vault:vault/rooms/omega/comet_observatory",
+                "the_vault:vault/rooms/omega/hellish_digsite",
+                "the_vault:vault/rooms/omega/wolds_dinner",
+                "the_vault:vault/rooms/omega/wardens_garden",
+                "the_vault:vault/rooms/omega/trove",
+                "the_vault:vault/rooms/omega/pixel1",
+                "the_vault:vault/rooms/omega/vendor1",
+                "the_vault:vault/rooms/omega/vendor2",
+                "the_vault:vault/rooms/omega/vendor3"
               ]
             },
             "renderer": {
@@ -43995,69 +43392,6 @@
               "icon": "the_vault:textures/gui/bingo/killelite.png"
             },
             "weight": 60.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_gilded",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 72,
-                "max": 108
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Gilded Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/gildedbarrel.png"
-            },
-            "weight": 100.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_ornate",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 72,
-                "max": 108
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Ornate Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/ornatebarrel.png"
-            },
-            "weight": 100.0
-          },
-          {
-            "type": "loot_chest",
-            "filter": "@the_vault:dungeon_living",
-            "counter": {
-              "type": "target",
-              "target": {
-                "type": "uniform",
-                "min": 72,
-                "max": 108
-              },
-              "variables": {
-                "targetPlayerContribution": 1.0
-              }
-            },
-            "renderer": {
-              "type": "bingo",
-              "name": "Loot Living Dungeon Barrels",
-              "icon": "the_vault:textures/gui/bingo/livingbarrel.png"
-            },
-            "weight": 100.0
           }
         ],
         "firstBingo": [
