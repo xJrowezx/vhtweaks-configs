@@ -1662,7 +1662,7 @@ hash = "737c74f66be6d81da841827533a27eeb8f37cf6687f88d25b747027a79589d42"
 
 [[files]]
 file = "config/the_vault/expertises.json"
-hash = "787c27721d029b6d787072fefbcbc9a492e1956674f7a8ba679e0fe0b01c1810"
+hash = "e6ac79d35a103b34be26753a06cfa97d6300c83d396ae301b2addcfc176324e7"
 
 [[files]]
 file = "config/the_vault/expertises_gui_styles.json"
@@ -4182,7 +4182,7 @@ hash = "69ddc26edb3a27e00e718aa0ea4545a58a32d185eec21778ee9462204137331b"
 
 [[files]]
 file = "config/the_vault/gen/1.0/palettes/protect_villager/base.json"
-hash = "6bfc7e94e3f986654682aec258ff2e44494b3464d54ac66d86a9644d257188bd"
+hash = "75b4dd459eacf6384bf7c5299bc90c5a4b74559a674e63e628f6f4a18b1ffb14"
 
 [[files]]
 file = "config/the_vault/gen/1.0/palettes/raid/base.json"
@@ -5287,6 +5287,50 @@ hash = "3334fb3cad7c2da9aa8333350e6ea171c6d92a7ef588d041b53e0f9934c37ec7"
 [[files]]
 file = "config/the_vault/gen/1.0/structures/vault/animations/memory/open/gate5.nbt"
 hash = "63da9f2b881b38e2dd24ef6d6f319b79e42cc8d32b519933a8f18c75a74277a1"
+
+[[files]]
+file = "config/the_vault/gen/1.0/structures/vault/animations/protect/gate0.nbt"
+hash = "a2887f4b691e2bad78f3defb5ce4f8d7e141958830f5f9467a87ac94c4cdd635"
+
+[[files]]
+file = "config/the_vault/gen/1.0/structures/vault/animations/protect/gate1.nbt"
+hash = "3df194cc727e42a2eba059c843dc88032035735c64b871bc56311d4d5afb9f0e"
+
+[[files]]
+file = "config/the_vault/gen/1.0/structures/vault/animations/protect/gate2.nbt"
+hash = "9d2f6c07d22e3a5e94688cd4e84fa53a91a94b3b31315dbf1d979fa05c244b69"
+
+[[files]]
+file = "config/the_vault/gen/1.0/structures/vault/animations/protect/gate3.nbt"
+hash = "80ed4a70a7813f0ed9d886882f82b74483f9754d0573f497af147b1d3decff13"
+
+[[files]]
+file = "config/the_vault/gen/1.0/structures/vault/animations/protect/gate4.nbt"
+hash = "852976e7451a6f9579f942e8f6f662cf29aeafb4ebe0d1ba74725f6114f762ae"
+
+[[files]]
+file = "config/the_vault/gen/1.0/structures/vault/animations/protect/open/gate0.nbt"
+hash = "852976e7451a6f9579f942e8f6f662cf29aeafb4ebe0d1ba74725f6114f762ae"
+
+[[files]]
+file = "config/the_vault/gen/1.0/structures/vault/animations/protect/open/gate1.nbt"
+hash = "80ed4a70a7813f0ed9d886882f82b74483f9754d0573f497af147b1d3decff13"
+
+[[files]]
+file = "config/the_vault/gen/1.0/structures/vault/animations/protect/open/gate2.nbt"
+hash = "9d2f6c07d22e3a5e94688cd4e84fa53a91a94b3b31315dbf1d979fa05c244b69"
+
+[[files]]
+file = "config/the_vault/gen/1.0/structures/vault/animations/protect/open/gate3.nbt"
+hash = "3df194cc727e42a2eba059c843dc88032035735c64b871bc56311d4d5afb9f0e"
+
+[[files]]
+file = "config/the_vault/gen/1.0/structures/vault/animations/protect/open/gate4.nbt"
+hash = "a2887f4b691e2bad78f3defb5ce4f8d7e141958830f5f9467a87ac94c4cdd635"
+
+[[files]]
+file = "config/the_vault/gen/1.0/structures/vault/animations/protect/open/gate5.nbt"
+hash = "a2887f4b691e2bad78f3defb5ce4f8d7e141958830f5f9467a87ac94c4cdd635"
 
 [[files]]
 file = "config/the_vault/gen/1.0/structures/vault/animations/raid/gate0.nbt"
@@ -10138,7 +10182,7 @@ hash = "aa90b1092e495fe935e0e0e6935b04192b0d87c5174580c8a5c88fe36c806692"
 
 [[files]]
 file = "config/the_vault/gen/1.0/structures/vault/rooms/challenge/protect_villager1.nbt"
-hash = "b0d42610d48857b9a2f2cbd9f3f382fc9cf770551e1cf6318ba47e018c2ea19a"
+hash = "471e5fd461dd8ce223764b9af38d33a2f951c651c51995bf29d9675c5389d116"
 
 [[files]]
 file = "config/the_vault/gen/1.0/structures/vault/rooms/challenge/raid1.nbt"
@@ -14442,7 +14486,7 @@ hash = "698a70af104f4a87cb69a981ecbfd3376bb17fb5e450f7e2d722352e520bb5fc"
 
 [[files]]
 file = "config/the_vault/gen/templates.json"
-hash = "c723cb9f6dfff577e31bc81aba19dff6cbeab6bc10ae49e154d280b320ad6bfc"
+hash = "9187f38110c0e9b1dab550754551522cc8bebd8c30b9a047d8555f86171e5f30"
 
 [[files]]
 file = "config/the_vault/gen/themes.json"
@@ -14506,7 +14550,7 @@ hash = "c77805342a6e47652394d5711ac16aac1ca0bc3b435b64610625367aa76c40a8"
 
 [[files]]
 file = "config/the_vault/inscription.json"
-hash = "818c18bd5513fb625dc22d135daed5762f38bee941e366a5a80bdf96fff366ee"
+hash = "d0c15cc4987071c87cbc81b1e61e8781311bd0389a98c48c057ed4e3d1ea0f13"
 
 [[files]]
 file = "config/the_vault/inscription_box.json"
@@ -14878,7 +14922,7 @@ hash = "12592ad0fcf008e14f17be34a913d5ad394e0c8a579db06997259f23508888a7"
 
 [[files]]
 file = "config/the_vault/recipes/inscription_recipes.json"
-hash = "f614adfaca60fc32400a3d180913ca71c586e1f8281b3657612225c67a763b33"
+hash = "ff0f7d6261a8eeeaecfa431887744638c624d51bc39b1646ce3beb9ae95fbf6d"
 
 [[files]]
 file = "config/the_vault/recipes/jewel_crafting_recipes.json"
@@ -14974,7 +15018,7 @@ hash = "9c4bfce4394d20d6ff58d706fb4ae4bbcc00cc4d3a888a8521facfe5d6a5d2a9"
 
 [[files]]
 file = "config/the_vault/skill_descriptions.json"
-hash = "186abbf3e445538039c5b7004ddfeb554aa0742165ed6a3d799862e70bc2e58c"
+hash = "a30a4a16d81506e4362b768ddfb7f43224b60189ce3dd8ceb42392c0db13e1af"
 
 [[files]]
 file = "config/the_vault/skill_gates.json"
@@ -17658,7 +17702,7 @@ hash = "261014eb1d6c41ca132f8033c8cdec841300b75cbda2e76324945ac319102689"
 
 [[files]]
 file = "mods/VHTweaks-0.23.2-all.jar"
-hash = "917b036752c7e75b56e7269211406633be9fd39c8f6e71ba7f407ad61c891297"
+hash = "c4ebd2fedd66c1e055cce36c608ea4b789bb55dcdd203240a54e1a559f7ee394"
 
 [[files]]
 file = "mods/additional-lanterns.pw.toml"

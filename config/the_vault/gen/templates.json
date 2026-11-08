@@ -11654,6 +11654,94 @@
         "type": "structure",
         "path": "config/the_vault/gen/1.0/structures/vault/rooms/omega/garden1.nbt"
       }
+    },
+    {
+      "id": "the_vault:vault/animations/protect/gate0",
+      "name": "Protect Villager Gate Frame 0",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/animations/protect/gate0.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/animations/protect/gate1",
+      "name": "Protect Villager Gate Frame 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/animations/protect/gate1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/animations/protect/gate2",
+      "name": "Protect Villager Gate Frame 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/animations/protect/gate2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/animations/protect/gate3",
+      "name": "Protect Villager Gate Frame 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/animations/protect/gate3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/animations/protect/gate4",
+      "name": "Protect Villager Gate Frame 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/animations/protect/gate4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/animations/protect/open/gate0",
+      "name": "Protect Villager Open Gate Frame 0",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/animations/protect/open/gate0.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/animations/protect/open/gate1",
+      "name": "Protect Villager Open Gate Frame 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/animations/protect/open/gate1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/animations/protect/open/gate2",
+      "name": "Protect Villager Open Gate Frame 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/animations/protect/open/gate2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/animations/protect/open/gate3",
+      "name": "Protect Villager Open Gate Frame 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/animations/protect/open/gate3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/animations/protect/open/gate4",
+      "name": "Protect Villager Open Gate Frame 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/animations/protect/open/gate4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/animations/protect/open/gate5",
+      "name": "Protect Villager Open Gate Frame 5",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/animations/protect/open/gate5.nbt"
+      }
     }
   ]
 }
