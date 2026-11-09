@@ -10182,7 +10182,7 @@ hash = "aa90b1092e495fe935e0e0e6935b04192b0d87c5174580c8a5c88fe36c806692"
 
 [[files]]
 file = "config/the_vault/gen/1.0/structures/vault/rooms/challenge/protect_villager1.nbt"
-hash = "471e5fd461dd8ce223764b9af38d33a2f951c651c51995bf29d9675c5389d116"
+hash = "fa32f2af634726de68f52637fdc58e89a87f646ac6db21e502e96238eba52b27"
 
 [[files]]
 file = "config/the_vault/gen/1.0/structures/vault/rooms/challenge/raid1.nbt"
@@ -17702,7 +17702,7 @@ hash = "261014eb1d6c41ca132f8033c8cdec841300b75cbda2e76324945ac319102689"
 
 [[files]]
 file = "mods/VHTweaks-0.23.2-all.jar"
-hash = "676ce034e0e38f99e455b1969a42330334a36e1c8c29e1b2650d663255e95e0b"
+hash = "9f3fa506d647d0264a8f6e081ee2e84efaddd537345d3fd115e4f49b49c7f2a4"
 
 [[files]]
 file = "mods/additional-lanterns.pw.toml"
