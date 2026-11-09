@@ -10182,7 +10182,7 @@ hash = "aa90b1092e495fe935e0e0e6935b04192b0d87c5174580c8a5c88fe36c806692"
 
 [[files]]
 file = "config/the_vault/gen/1.0/structures/vault/rooms/challenge/protect_villager1.nbt"
-hash = "fa32f2af634726de68f52637fdc58e89a87f646ac6db21e502e96238eba52b27"
+hash = "724de6adf24f6c285e02857b0600f2c3051269c967194970e82dc8dcfa66bd0a"
 
 [[files]]
 file = "config/the_vault/gen/1.0/structures/vault/rooms/challenge/raid1.nbt"
