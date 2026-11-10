@@ -9530,15 +9530,19 @@ hash = "0997c8fa44626740a5d7be8c3344904b572d0bafa57d7f6303379de65caa8940"
 
 [[files]]
 file = "config/the_vault/gen/1.0/structures/vault/decor/temple/loot1.nbt"
-hash = "d08dbf84a9c349aa516677108a88b76c529b44a6e23e4524a31b88dace71ed6a"
+hash = "c248c4e53e18ecd32f98627396a6e822ed3704e4118f86323fa2f12e24c2d7d6"
 
 [[files]]
 file = "config/the_vault/gen/1.0/structures/vault/decor/temple/loot2.nbt"
-hash = "8c72c6e552999f3bcb709dea3cf6c3f4c2ba7b90b1f5a652538f91b3e41101c5"
+hash = "a0fce96c2aebde3b693759a6b18ed7e1888369ed7249b6c19f301543acd21eb1"
 
 [[files]]
 file = "config/the_vault/gen/1.0/structures/vault/decor/temple/loot3.nbt"
-hash = "adc4fe1d134903dc2d7f7a9d86073188d18d0618cad264e514116dd47b0c9781"
+hash = "2df1e4ae90a74be6eeeb9ca4561de7dca9bbd7274ccd09d57b19537e8e7741d5"
+
+[[files]]
+file = "config/the_vault/gen/1.0/structures/vault/decor/temple/loot4.nbt"
+hash = "f90d0c69c0ec9bf61b1ee436367c8c0f3dc9ba4e8b2f15099722c8c3b56c8192"
 
 [[files]]
 file = "config/the_vault/gen/1.0/structures/vault/decor/temple/statue1.nbt"
@@ -10450,7 +10454,7 @@ hash = "892c1ab5c563aacc8639543f3cf0a6f8e73273bc815e8e284ab0e26ceecd8145"
 
 [[files]]
 file = "config/the_vault/gen/1.0/structures/vault/rooms/omega/temple1.nbt"
-hash = "7f80178c72c3084b4138a74d7f70f38ce9d72ff67d575156f53943a7dbba35bf"
+hash = "170a1e0575629ef306d9ab6fee98cc030dd898dab20a1aa4ae53fb9cc3470c85"
 
 [[files]]
 file = "config/the_vault/gen/1.0/structures/vault/rooms/omega/trove.nbt"
@@ -11562,7 +11566,7 @@ hash = "d9da42d2a384ca48f1247df53f5f6b8ed5067f15bcae9ff7cbff0e8596f9e778"
 
 [[files]]
 file = "config/the_vault/gen/1.0/template_pools/vault/decor/temple/loot.json"
-hash = "1e5dd0967bddc42417cf46479fccfafebc6997682467fb6f55dcc2584f527b79"
+hash = "31b4456e632e16fefd8b0692a12c64036e4d6ba3d1f9e1b2d3fbe5c5002a052d"
 
 [[files]]
 file = "config/the_vault/gen/1.0/template_pools/vault/decor/temple/statue.json"
@@ -14486,7 +14490,7 @@ hash = "698a70af104f4a87cb69a981ecbfd3376bb17fb5e450f7e2d722352e520bb5fc"
 
 [[files]]
 file = "config/the_vault/gen/templates.json"
-hash = "9187f38110c0e9b1dab550754551522cc8bebd8c30b9a047d8555f86171e5f30"
+hash = "6e7f8b108ec08a32fd1bff68a4ceadcfc1220bb310e113564ad2934375a33145"
 
 [[files]]
 file = "config/the_vault/gen/themes.json"

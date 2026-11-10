@@ -4440,6 +4440,14 @@
       }
     },
     {
+      "id": "the_vault:vault/decor/temple/loot4",
+      "name": "Temple Loot 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/temple/loot4.nbt"
+      }
+    },
+    {
       "id": "the_vault:vault/decor/temple/statue1",
       "name": "Temple Statue 1",
       "1.0": {
