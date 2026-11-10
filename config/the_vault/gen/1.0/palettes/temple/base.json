@@ -37,7 +37,7 @@
       "target": "the_vault:placeholder[type=objective]",
       "output": [
         {
-          "block": "the_vault:temple_controller",
+          "block": "woldsvaults:temple_controller",
           "renderer": {
             "coreColor": "0x069022",
             "glyphColor": "0x069022",
