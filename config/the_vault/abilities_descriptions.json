@@ -5221,6 +5221,65 @@
         "cooldown",
         "manaCost"
       ]
+    },
+    "Apex_Predator_base": {
+      "description": [
+        {
+          "text": "Bustin put in a description por favor",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n✴ Cast Ability",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "manaCost",
+        "cooldown",
+        "radius",
+        "percentAttackDamageDealt",
+        "travelSpeed",
+        "stunDuration",
+        "maxRange"
+      ],
+      "next": [
+        "manaCost",
+        "cooldown",
+        "radius",
+        "percentAttackDamageDealt",
+        "travelSpeed",
+        "stunDuration",
+        "maxRange"
+
+      ]
+    },
+    "Storm_Arrow_Meteor": {
+      "description": [
+        {
+          "text": "Bustin put in a description por favor",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n✴ Cast Ability",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "manaCost",
+        "cooldown",
+        "adjustedRadius",
+        "stormInterval",
+        "burnDuration",
+        "amplifier"
+      ],
+      "next": [
+        "manaCost",
+        "cooldown",
+        "adjustedRadius",
+        "stormInterval",
+        "burnDuration",
+        "amplifier"
+      ]
     }
   }
 }
