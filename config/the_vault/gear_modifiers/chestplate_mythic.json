@@ -10,91 +10,11 @@
         ],
         "tiers": [
           {
-            "minLevel": 0,
-            "maxLevel": 41,
-            "weight": 100,
-            "value": {
-              "min": 1270,
-              "max": 1790,
-              "step": 1
-            }
-          },
-          {
-            "minLevel": 21,
-            "maxLevel": 50,
-            "weight": 100,
-            "value": {
-              "min": 2198,
-              "max": 2717,
-              "step": 1
-            }
-          },
-          {
-            "minLevel": 42,
-            "maxLevel": 58,
-            "weight": 100,
-            "value": {
-              "min": 3207,
-              "max": 3846,
-              "step": 1
-            }
-          },
-          {
-            "minLevel": 51,
-            "maxLevel": 72,
-            "weight": 100,
-            "value": {
-              "min": 4436,
-              "max": 5615,
-              "step": 1
-            }
-          },
-          {
-            "minLevel": 59,
-            "maxLevel": 79,
-            "weight": 100,
-            "value": {
-              "min": 5616,
-              "max": 6655,
-              "step": 1
-            }
-          },
-          {
-            "minLevel": 65,
-            "maxLevel": 85,
-            "weight": 100,
-            "value": {
-              "min": 7484,
-              "max": 8263,
-              "step": 1
-            }
-          },
-          {
-            "minLevel": 73,
+            "minLevel": 100,
             "maxLevel": -1,
             "weight": 100,
             "value": {
               "min": 8842,
-              "max": 10141,
-              "step": 1
-            }
-          },
-          {
-            "minLevel": 80,
-            "maxLevel": -1,
-            "weight": 100,
-            "value": {
-              "min": 10142,
-              "max": 11441,
-              "step": 1
-            }
-          },
-          {
-            "minLevel": 90,
-            "maxLevel": -1,
-            "weight": 100,
-            "value": {
-              "min": 12339,
               "max": 14538,
               "step": 1
             }
@@ -108,7 +28,7 @@
         "tags": [],
         "tiers": [
           {
-            "minLevel": 0,
+            "minLevel": 100,
             "maxLevel": -1,
             "weight": 20,
             "value": {
@@ -124,7 +44,7 @@
         "tags": [],
         "tiers": [
           {
-            "minLevel": 0,
+            "minLevel": 100,
             "maxLevel": -1,
             "weight": 80,
             "value": {
@@ -137,96 +57,16 @@
     "IMPLICIT": [
       {
         "attribute": "the_vault:armor",
-        "group": "BaseModAbility",
+        "group": "BaseModArmor",
         "identifier": "the_vault:base_armor",
         "tiers": [
           {
-            "minLevel": 0,
-            "maxLevel": 13,
-            "weight": 100,
-            "value": {
-              "min": 3,
-              "max": 5,
-              "step": 1
-            }
-          },
-          {
-            "minLevel": 14,
-            "maxLevel": 26,
-            "weight": 100,
-            "value": {
-              "min": 6,
-              "max": 7,
-              "step": 1
-            }
-          },
-          {
-            "minLevel": 27,
-            "maxLevel": 39,
-            "weight": 100,
-            "value": {
-              "min": 8,
-              "max": 10,
-              "step": 1
-            }
-          },
-          {
-            "minLevel": 40,
-            "maxLevel": 51,
-            "weight": 100,
-            "value": {
-              "min": 11,
-              "max": 13,
-              "step": 1
-            }
-          },
-          {
-            "minLevel": 52,
-            "maxLevel": 64,
-            "weight": 100,
-            "value": {
-              "min": 14,
-              "max": 16,
-              "step": 1
-            }
-          },
-          {
-            "minLevel": 65,
+            "minLevel": 100,
             "maxLevel": -1,
             "weight": 100,
             "value": {
-              "min": 17,
-              "max": 20,
-              "step": 1
-            }
-          },
-          {
-            "minLevel": 74,
-            "maxLevel": -1,
-            "weight": 100,
-            "value": {
-              "min": 21,
-              "max": 23,
-              "step": 1
-            }
-          },
-          {
-            "minLevel": 86,
-            "maxLevel": -1,
-            "weight": 100,
-            "value": {
-              "min": 24,
-              "max": 27,
-              "step": 1
-            }
-          },
-          {
-            "minLevel": 97,
-            "maxLevel": -1,
-            "weight": 100,
-            "value": {
-              "min": 28,
-              "max": 30,
+              "min": 25,
+              "max": 40,
               "step": 1
             }
           }
@@ -238,42 +78,12 @@
         "identifier": "the_vault:base_critical_hit_mitigation",
         "tiers": [
           {
-            "minLevel": 20,
-            "maxLevel": 64,
-            "weight": 100,
-            "value": {
-              "min": 0.05,
-              "max": 0.15,
-              "step": 0.01
-            }
-          },
-          {
-            "minLevel": 40,
-            "maxLevel": 78,
-            "weight": 100,
-            "value": {
-              "min": 0.16,
-              "max": 0.24,
-              "step": 0.01
-            }
-          },
-          {
-            "minLevel": 65,
+            "minLevel": 100,
             "maxLevel": -1,
             "weight": 100,
             "value": {
-              "min": 0.25,
-              "max": 0.3,
-              "step": 0.01
-            }
-          },
-          {
-            "minLevel": 79,
-            "maxLevel": -1,
-            "weight": 100,
-            "value": {
-              "min": 0.31,
-              "max": 0.4,
+              "min": 0.35,
+              "max": 0.5,
               "step": 0.01
             }
           }
@@ -285,102 +95,12 @@
         "identifier": "the_vault:base_ap",
         "tiers": [
           {
-            "minLevel": 0,
-            "maxLevel": 33,
-            "weight": 100,
-            "value": {
-              "min": 2,
-              "max": 6,
-              "step": 0.5
-            }
-          },
-          {
-            "minLevel": 12,
-            "maxLevel": 46,
-            "weight": 100,
-            "value": {
-              "min": 7,
-              "max": 12,
-              "step": 0.5
-            }
-          },
-          {
-            "minLevel": 20,
-            "maxLevel": 61,
-            "weight": 100,
-            "value": {
-              "min": 13,
-              "max": 16,
-              "step": 0.5
-            }
-          },
-          {
-            "minLevel": 34,
-            "maxLevel": 79,
-            "weight": 100,
-            "value": {
-              "min": 17,
-              "max": 20,
-              "step": 0.5
-            }
-          },
-          {
-            "minLevel": 47,
+            "minLevel": 100,
             "maxLevel": -1,
             "weight": 100,
             "value": {
-              "min": 21,
-              "max": 24,
-              "step": 0.5
-            }
-          },
-          {
-            "minLevel": 62,
-            "maxLevel": -1,
-            "weight": 100,
-            "value": {
-              "min": 25,
-              "max": 28,
-              "step": 0.5
-            }
-          },
-          {
-            "minLevel": 71,
-            "maxLevel": -1,
-            "weight": 100,
-            "value": {
-              "min": 29,
-              "max": 33,
-              "step": 0.5
-            }
-          },
-          {
-            "minLevel": 80,
-            "maxLevel": -1,
-            "weight": 100,
-            "value": {
-              "min": 34,
-              "max": 38,
-              "step": 0.5
-            }
-          },
-          {
-            "minLevel": 86,
-            "maxLevel": -1,
-            "weight": 100,
-            "value": {
-              "min": 39,
-              "max": 44,
-              "step": 0.5
-            }
-          },
-          {
-            "minLevel": 96,
-            "maxLevel": -1,
-            "weight": 100,
-            "value": {
-              "min": 45,
-              "max": 50,
+              "min": 40,
+              "max": 65,
               "step": 0.5
             }
           }
@@ -393,42 +113,12 @@
         "tags": [],
         "tiers": [
           {
-            "minLevel": 20,
-            "maxLevel": 94,
-            "weight": 100,
-            "value": {
-              "min": 20,
-              "max": 30,
-              "step": 1
-            }
-          },
-          {
-            "minLevel": 40,
-            "maxLevel": 92,
-            "weight": 100,
-            "value": {
-              "min": 31,
-              "max": 40,
-              "step": 1
-            }
-          },
-          {
-            "minLevel": 70,
+            "minLevel": 100,
             "maxLevel": -1,
             "weight": 100,
             "value": {
-              "min": 41,
-              "max": 50,
-              "step": 1
-            }
-          },
-          {
-            "minLevel": 95,
-            "maxLevel": -1,
-            "weight": 100,
-            "value": {
-              "min": 51,
-              "max": 60,
+              "min": 50,
+              "max": 75,
               "step": 1
             }
           }
@@ -441,22 +131,12 @@
         "tags": [],
         "tiers": [
           {
-            "minLevel": 20,
+            "minLevel": 100,
             "maxLevel": -1,
             "weight": 100,
             "value": {
-              "min": 0.04,
-              "max": 0.08,
-              "step": 0.01
-            }
-          },
-          {
-            "minLevel": 70,
-            "maxLevel": -1,
-            "weight": 100,
-            "value": {
-              "min": 0.09,
-              "max": 0.12,
+              "min": 0.12,
+              "max": 0.18,
               "step": 0.01
             }
           }
@@ -473,52 +153,12 @@
         ],
         "tiers": [
           {
-            "minLevel": 0,
-            "maxLevel": 87,
-            "weight": 600,
-            "value": {
-              "min": 1,
-              "max": 2,
-              "step": 1
-            }
-          },
-          {
-            "minLevel": 16,
+            "minLevel": 100,
             "maxLevel": -1,
             "weight": 600,
             "value": {
-              "min": 3,
-              "max": 4,
-              "step": 1
-            }
-          },
-          {
-            "minLevel": 38,
-            "maxLevel": -1,
-            "weight": 600,
-            "value": {
-              "min": 5,
-              "max": 6,
-              "step": 1
-            }
-          },
-          {
-            "minLevel": 62,
-            "maxLevel": -1,
-            "weight": 600,
-            "value": {
-              "min": 7,
-              "max": 8,
-              "step": 1
-            }
-          },
-          {
-            "minLevel": 88,
-            "maxLevel": -1,
-            "weight": 600,
-            "value": {
-              "min": 9,
-              "max": 10,
+              "min": 11,
+              "max": 12,
               "step": 1
             }
           },
@@ -527,8 +167,8 @@
             "maxLevel": -1,
             "weight": 100,
             "value": {
-              "min": 11,
-              "max": 11,
+              "min": 13,
+              "max": 14,
               "step": 1
             }
           },
@@ -537,8 +177,8 @@
             "maxLevel": -1,
             "weight": 100,
             "value": {
-              "min": 12,
-              "max": 12,
+              "min": 15,
+              "max": 16,
               "step": 1
             }
           }
@@ -553,42 +193,12 @@
         ],
         "tiers": [
           {
-            "minLevel": 0,
+            "minLevel": 100,
             "maxLevel": -1,
             "weight": 500,
             "value": {
-              "min": 2,
-              "max": 3,
-              "step": 1
-            }
-          },
-          {
-            "minLevel": 25,
-            "maxLevel": -1,
-            "weight": 500,
-            "value": {
-              "min": 4,
-              "max": 4,
-              "step": 1
-            }
-          },
-          {
-            "minLevel": 50,
-            "maxLevel": -1,
-            "weight": 500,
-            "value": {
-              "min": 5,
-              "max": 5,
-              "step": 1
-            }
-          },
-          {
-            "minLevel": 65,
-            "maxLevel": -1,
-            "weight": 500,
-            "value": {
-              "min": 6,
-              "max": 6,
+              "min": 7,
+              "max": 8,
               "step": 1
             }
           },
@@ -597,8 +207,8 @@
             "maxLevel": -1,
             "weight": 100,
             "value": {
-              "min": 7,
-              "max": 7,
+              "min": 9,
+              "max": 10,
               "step": 1
             }
           },
@@ -607,8 +217,8 @@
             "maxLevel": -1,
             "weight": 100,
             "value": {
-              "min": 8,
-              "max": 8,
+              "min": 11,
+              "max": 12,
               "step": 1
             }
           }
@@ -624,42 +234,12 @@
         ],
         "tiers": [
           {
-            "minLevel": 41,
-            "maxLevel": 79,
-            "weight": 600,
-            "value": {
-              "min": 0.1,
-              "max": 0.2,
-              "step": 0.01
-            }
-          },
-          {
-            "minLevel": 64,
+            "minLevel": 100,
             "maxLevel": -1,
             "weight": 600,
             "value": {
-              "min": 0.21,
-              "max": 0.3,
-              "step": 0.01
-            }
-          },
-          {
-            "minLevel": 80,
-            "maxLevel": -1,
-            "weight": 600,
-            "value": {
-              "min": 0.31,
-              "max": 0.4,
-              "step": 0.01
-            }
-          },
-          {
-            "minLevel": 96,
-            "maxLevel": -1,
-            "weight": 600,
-            "value": {
-              "min": 0.41,
-              "max": 0.5,
+              "min": 0.51,
+              "max": 0.75,
               "step": 0.01
             }
           },
@@ -668,8 +248,8 @@
             "maxLevel": -1,
             "weight": 100,
             "value": {
-              "min": 0.51,
-              "max": 0.7,
+              "min": 0.76,
+              "max": 1.0,
               "step": 0.01
             }
           },
@@ -678,8 +258,8 @@
             "maxLevel": -1,
             "weight": 100,
             "value": {
-              "min": 0.71,
-              "max": 1,
+              "min": 1.01,
+              "max": 1.25,
               "step": 0.01
             }
           }
@@ -694,42 +274,12 @@
         ],
         "tiers": [
           {
-            "minLevel": 17,
-            "maxLevel": 81,
-            "weight": 600,
-            "value": {
-              "min": 0.04,
-              "max": 0.06,
-              "step": 0.01
-            }
-          },
-          {
-            "minLevel": 36,
+            "minLevel": 100,
             "maxLevel": -1,
             "weight": 600,
             "value": {
-              "min": 0.07,
-              "max": 0.09,
-              "step": 0.01
-            }
-          },
-          {
-            "minLevel": 57,
-            "maxLevel": -1,
-            "weight": 600,
-            "value": {
-              "min": 0.1,
-              "max": 0.12,
-              "step": 0.01
-            }
-          },
-          {
-            "minLevel": 82,
-            "maxLevel": -1,
-            "weight": 600,
-            "value": {
-              "min": 0.13,
-              "max": 0.16,
+              "min": 0.17,
+              "max": 0.2,
               "step": 0.01
             }
           },
@@ -738,8 +288,8 @@
             "maxLevel": -1,
             "weight": 100,
             "value": {
-              "min": 0.17,
-              "max": 0.18,
+              "min": 0.21,
+              "max": 0.22,
               "step": 0.01
             }
           },
@@ -748,8 +298,8 @@
             "maxLevel": -1,
             "weight": 100,
             "value": {
-              "min": 0.19,
-              "max": 0.2,
+              "min": 0.23,
+              "max": 0.25,
               "step": 0.01
             }
           }
@@ -764,22 +314,12 @@
         ],
         "tiers": [
           {
-            "minLevel": 0,
+            "minLevel": 100,
             "maxLevel": -1,
             "weight": 600,
             "value": {
-              "min": 0.05,
-              "max": 0.21,
-              "step": 0.01
-            }
-          },
-          {
-            "minLevel": 51,
-            "maxLevel": -1,
-            "weight": 600,
-            "value": {
-              "min": 0.05,
-              "max": 0.35,
+              "min": 0.50,
+              "max": 0.75,
               "step": 0.01
             }
           },
@@ -788,8 +328,8 @@
             "maxLevel": -1,
             "weight": 100,
             "value": {
-              "min": 0.36,
-              "max": 0.5,
+              "min": 0.76,
+              "max": 0.87,
               "step": 0.01
             }
           },
@@ -798,8 +338,8 @@
             "maxLevel": -1,
             "weight": 100,
             "value": {
-              "min": 0.51,
-              "max": 0.75,
+              "min": 0.88,
+              "max": 1.0,
               "step": 0.01
             }
           }
@@ -814,22 +354,12 @@
         ],
         "tiers": [
           {
-            "minLevel": 0,
+            "minLevel": 100,
             "maxLevel": -1,
             "weight": 600,
             "value": {
-              "min": 0.04,
-              "max": 0.11,
-              "step": 0.01
-            }
-          },
-          {
-            "minLevel": 51,
-            "maxLevel": -1,
-            "weight": 600,
-            "value": {
-              "min": 0.04,
-              "max": 0.2,
+              "min": 0.33,
+              "max": 0.5,
               "step": 0.01
             }
           },
@@ -838,8 +368,8 @@
             "maxLevel": -1,
             "weight": 100,
             "value": {
-              "min": 0.21,
-              "max": 0.3,
+              "min": 0.51,
+              "max": 0.65,
               "step": 0.01
             }
           },
@@ -848,8 +378,8 @@
             "maxLevel": -1,
             "weight": 100,
             "value": {
-              "min": 0.31,
-              "max": 0.5,
+              "min": 0.66,
+              "max": 0.8,
               "step": 0.01
             }
           }
@@ -864,17 +394,7 @@
         ],
         "tiers": [
           {
-            "minLevel": 0,
-            "maxLevel": -1,
-            "weight": 600,
-            "value": {
-              "min": 0.1,
-              "max": 0.4,
-              "step": 0.01
-            }
-          },
-          {
-            "minLevel": 101,
+            "minLevel": 100,
             "maxLevel": -1,
             "weight": 600,
             "value": {
@@ -884,12 +404,98 @@
             }
           },
           {
-            "minLevel": 102,
+            "minLevel": 101,
             "maxLevel": -1,
             "weight": 600,
             "value": {
               "min": 0.71,
+              "max": 0.85,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 102,
+            "maxLevel": -1,
+            "weight": 600,
+            "value": {
+              "min": 0.86,
               "max": 1,
+              "step": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "attribute": "the_vault:effect_list_avoidance",
+        "group": "ModEffectAvoidance",
+        "identifier": "the_vault:mod_effect_avoidance",
+        "tags": [
+          "focusEffAvoidance"
+        ],
+        "tiers": [
+          {
+            "minLevel": 100,
+            "maxLevel": -1,
+            "weight": 600,
+            "value": {
+              "effectKeys": [
+                "minecraft:poison",
+                "minecraft:wither",
+                "minecraft:levitation",
+                "minecraft:slowness",
+                "minecraft:blindness",
+                "minecraft:hunger",
+                "the_vault:bleed",
+                "the_vault:chilled",
+                "the_vault:corruption"
+              ],
+              "name": "the_vault.gear_attribute.effect_avoidance.avoidance.bad_effects",
+              "minChance": 0.31,
+              "maxChance": 0.69,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 101,
+            "maxLevel": -1,
+            "weight": 250,
+            "value": {
+              "effectKeys": [
+                "minecraft:poison",
+                "minecraft:wither",
+                "minecraft:levitation",
+                "minecraft:slowness",
+                "minecraft:blindness",
+                "minecraft:hunger",
+                "the_vault:bleed",
+                "the_vault:chilled",
+                "the_vault:corruption"
+              ],
+              "name": "the_vault.gear_attribute.effect_avoidance.avoidance.bad_effects",
+              "minChance": 0.7,
+              "maxChance": 0.84,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 102,
+            "maxLevel": -1,
+            "weight": 250,
+            "value": {
+              "effectKeys": [
+                "minecraft:poison",
+                "minecraft:wither",
+                "minecraft:levitation",
+                "minecraft:slowness",
+                "minecraft:blindness",
+                "minecraft:hunger",
+                "the_vault:bleed",
+                "the_vault:chilled",
+                "the_vault:corruption"
+              ],
+              "name": "the_vault.gear_attribute.effect_avoidance.avoidance.bad_effects",
+              "minChance": 0.85,
+              "maxChance": 1,
               "step": 0.01
             }
           }
@@ -905,39 +511,39 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 100,
             "maxLevel": -1,
             "weight": 20,
-            "value": {
-              "abilityKey": "Ice_Bolt",
-              "levelChange": 1
-            }
-          },
-          {
-            "minLevel": 50,
-            "maxLevel": -1,
-            "weight": 8,
-            "value": {
-              "abilityKey": "Ice_Bolt",
-              "levelChange": 2
-            }
-          },
-          {
-            "minLevel": 101,
-            "maxLevel": -1,
-            "weight": 40,
             "value": {
               "abilityKey": "Ice_Bolt",
               "levelChange": 3
             }
           },
           {
+            "minLevel": 100,
+            "maxLevel": -1,
+            "weight": 8,
+            "value": {
+              "abilityKey": "Ice_Bolt",
+              "levelChange": 4
+            }
+          },
+          {
             "minLevel": 101,
             "maxLevel": -1,
             "weight": 40,
             "value": {
               "abilityKey": "Ice_Bolt",
-              "levelChange": 4
+              "levelChange": 5
+            }
+          },
+          {
+            "minLevel": 102,
+            "maxLevel": -1,
+            "weight": 40,
+            "value": {
+              "abilityKey": "Ice_Bolt",
+              "levelChange": 6
             }
           }
         ]
@@ -952,39 +558,39 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 100,
             "maxLevel": -1,
             "weight": 20,
-            "value": {
-              "abilityKey": "Nova",
-              "levelChange": 1
-            }
-          },
-          {
-            "minLevel": 50,
-            "maxLevel": -1,
-            "weight": 8,
-            "value": {
-              "abilityKey": "Nova",
-              "levelChange": 2
-            }
-          },
-          {
-            "minLevel": 101,
-            "maxLevel": -1,
-            "weight": 40,
             "value": {
               "abilityKey": "Nova",
               "levelChange": 3
             }
           },
           {
+            "minLevel": 100,
+            "maxLevel": -1,
+            "weight": 8,
+            "value": {
+              "abilityKey": "Nova",
+              "levelChange": 4
+            }
+          },
+          {
             "minLevel": 101,
             "maxLevel": -1,
             "weight": 40,
             "value": {
               "abilityKey": "Nova",
-              "levelChange": 4
+              "levelChange": 5
+            }
+          },
+          {
+            "minLevel": 102,
+            "maxLevel": -1,
+            "weight": 40,
+            "value": {
+              "abilityKey": "Nova",
+              "levelChange": 6
             }
           }
         ]
@@ -999,39 +605,39 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 100,
             "maxLevel": -1,
             "weight": 20,
-            "value": {
-              "abilityKey": "Vein_Miner",
-              "levelChange": 1
-            }
-          },
-          {
-            "minLevel": 50,
-            "maxLevel": -1,
-            "weight": 8,
-            "value": {
-              "abilityKey": "Vein_Miner",
-              "levelChange": 2
-            }
-          },
-          {
-            "minLevel": 101,
-            "maxLevel": -1,
-            "weight": 40,
             "value": {
               "abilityKey": "Vein_Miner",
               "levelChange": 3
             }
           },
           {
+            "minLevel": 100,
+            "maxLevel": -1,
+            "weight": 8,
+            "value": {
+              "abilityKey": "Vein_Miner",
+              "levelChange": 4
+            }
+          },
+          {
             "minLevel": 101,
             "maxLevel": -1,
             "weight": 40,
             "value": {
               "abilityKey": "Vein_Miner",
-              "levelChange": 4
+              "levelChange": 5
+            }
+          },
+          {
+            "minLevel": 102,
+            "maxLevel": -1,
+            "weight": 40,
+            "value": {
+              "abilityKey": "Vein_Miner",
+              "levelChange": 6
             }
           }
         ]
@@ -1046,21 +652,21 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 100,
             "maxLevel": -1,
             "weight": 20,
             "value": {
               "abilityKey": "Heal",
-              "levelChange": 1
+              "levelChange": 3
             }
           },
           {
-            "minLevel": 50,
+            "minLevel": 100,
             "maxLevel": -1,
             "weight": 8,
             "value": {
               "abilityKey": "Heal",
-              "levelChange": 2
+              "levelChange": 4
             }
           },
           {
@@ -1069,157 +675,16 @@
             "weight": 40,
             "value": {
               "abilityKey": "Heal",
-              "levelChange": 3
+              "levelChange": 5
             }
           },
           {
-            "minLevel": 101,
+            "minLevel": 102,
             "maxLevel": -1,
             "weight": 40,
             "value": {
               "abilityKey": "Heal",
-              "levelChange": 4
-            }
-          }
-        ]
-      },
-      {
-        "attribute": "the_vault:added_ability_level",
-        "group": "ModAbility",
-        "identifier": "the_vault:mod_added_ability_level_dash",
-        "tags": [
-          "focusAbilityPower",
-          "focusAbilityPowerDash"
-        ],
-        "tiers": [
-          {
-            "minLevel": 25,
-            "maxLevel": -1,
-            "weight": 20,
-            "value": {
-              "abilityKey": "Dash",
-              "levelChange": 1
-            }
-          },
-          {
-            "minLevel": 50,
-            "maxLevel": -1,
-            "weight": 8,
-            "value": {
-              "abilityKey": "Dash",
-              "levelChange": 2
-            }
-          },
-          {
-            "minLevel": 101,
-            "maxLevel": -1,
-            "weight": 40,
-            "value": {
-              "abilityKey": "Dash",
-              "levelChange": 3
-            }
-          },
-          {
-            "minLevel": 101,
-            "maxLevel": -1,
-            "weight": 40,
-            "value": {
-              "abilityKey": "Dash",
-              "levelChange": 4
-            }
-          }
-        ]
-      },
-      {
-        "attribute": "the_vault:added_ability_level",
-        "group": "ModAbility",
-        "identifier": "the_vault:mod_added_ability_level_ghostwalk",
-        "tags": [
-          "focusAbilityPower",
-          "focusAbilityPowerGhostWalk"
-        ],
-        "tiers": [
-          {
-            "minLevel": 25,
-            "maxLevel": -1,
-            "weight": 20,
-            "value": {
-              "abilityKey": "Ghost_Walk",
-              "levelChange": 1
-            }
-          },
-          {
-            "minLevel": 50,
-            "maxLevel": -1,
-            "weight": 8,
-            "value": {
-              "abilityKey": "Ghost_Walk",
-              "levelChange": 2
-            }
-          },
-          {
-            "minLevel": 101,
-            "maxLevel": -1,
-            "weight": 80,
-            "value": {
-              "abilityKey": "Ghost_Walk",
-              "levelChange": 3
-            }
-          },
-          {
-            "minLevel": 101,
-            "maxLevel": -1,
-            "weight": 80,
-            "value": {
-              "abilityKey": "Ghost_Walk",
-              "levelChange": 4
-            }
-          }
-        ]
-      },
-      {
-        "attribute": "the_vault:added_ability_level",
-        "group": "ModAbility",
-        "identifier": "the_vault:mod_added_ability_level_megajump",
-        "tags": [
-          "focusAbilityPower",
-          "focusAbilityPowerMegaJump"
-        ],
-        "tiers": [
-          {
-            "minLevel": 25,
-            "maxLevel": -1,
-            "weight": 20,
-            "value": {
-              "abilityKey": "Mega_Jump",
-              "levelChange": 1
-            }
-          },
-          {
-            "minLevel": 50,
-            "maxLevel": -1,
-            "weight": 8,
-            "value": {
-              "abilityKey": "Mega_Jump",
-              "levelChange": 2
-            }
-          },
-          {
-            "minLevel": 101,
-            "maxLevel": -1,
-            "weight": 80,
-            "value": {
-              "abilityKey": "Mega_Jump",
-              "levelChange": 3
-            }
-          },
-          {
-            "minLevel": 101,
-            "maxLevel": -1,
-            "weight": 80,
-            "value": {
-              "abilityKey": "Mega_Jump",
-              "levelChange": 4
+              "levelChange": 6
             }
           }
         ]
@@ -1234,39 +699,39 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 100,
             "maxLevel": -1,
             "weight": 20,
-            "value": {
-              "abilityKey": "Rampage",
-              "levelChange": 1
-            }
-          },
-          {
-            "minLevel": 50,
-            "maxLevel": -1,
-            "weight": 8,
-            "value": {
-              "abilityKey": "Rampage",
-              "levelChange": 2
-            }
-          },
-          {
-            "minLevel": 101,
-            "maxLevel": -1,
-            "weight": 40,
             "value": {
               "abilityKey": "Rampage",
               "levelChange": 3
             }
           },
           {
+            "minLevel": 100,
+            "maxLevel": -1,
+            "weight": 8,
+            "value": {
+              "abilityKey": "Rampage",
+              "levelChange": 4
+            }
+          },
+          {
             "minLevel": 101,
             "maxLevel": -1,
             "weight": 40,
             "value": {
               "abilityKey": "Rampage",
-              "levelChange": 4
+              "levelChange": 5
+            }
+          },
+          {
+            "minLevel": 102,
+            "maxLevel": -1,
+            "weight": 40,
+            "value": {
+              "abilityKey": "Rampage",
+              "levelChange": 6
             }
           }
         ]
@@ -1281,86 +746,39 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 100,
             "maxLevel": -1,
             "weight": 20,
-            "value": {
-              "abilityKey": "Smite",
-              "levelChange": 1
-            }
-          },
-          {
-            "minLevel": 50,
-            "maxLevel": -1,
-            "weight": 8,
-            "value": {
-              "abilityKey": "Smite",
-              "levelChange": 2
-            }
-          },
-          {
-            "minLevel": 101,
-            "maxLevel": -1,
-            "weight": 80,
             "value": {
               "abilityKey": "Smite",
               "levelChange": 3
             }
           },
           {
+            "minLevel": 100,
+            "maxLevel": -1,
+            "weight": 8,
+            "value": {
+              "abilityKey": "Smite",
+              "levelChange": 4
+            }
+          },
+          {
             "minLevel": 101,
             "maxLevel": -1,
             "weight": 80,
             "value": {
               "abilityKey": "Smite",
-              "levelChange": 4
-            }
-          }
-        ]
-      },
-      {
-        "attribute": "the_vault:added_ability_level",
-        "group": "ModAbility",
-        "identifier": "the_vault:mod_added_ability_level_empower",
-        "tags": [
-          "focusAbilityPower",
-          "focusAbilityPowerEmpower"
-        ],
-        "tiers": [
-          {
-            "minLevel": 25,
-            "maxLevel": -1,
-            "weight": 20,
-            "value": {
-              "abilityKey": "Empower",
-              "levelChange": 1
+              "levelChange": 5
             }
           },
           {
-            "minLevel": 50,
-            "maxLevel": -1,
-            "weight": 8,
-            "value": {
-              "abilityKey": "Empower",
-              "levelChange": 2
-            }
-          },
-          {
-            "minLevel": 101,
+            "minLevel": 102,
             "maxLevel": -1,
             "weight": 80,
             "value": {
-              "abilityKey": "Empower",
-              "levelChange": 3
-            }
-          },
-          {
-            "minLevel": 101,
-            "maxLevel": -1,
-            "weight": 80,
-            "value": {
-              "abilityKey": "Empower",
-              "levelChange": 4
+              "abilityKey": "Smite",
+              "levelChange": 6
             }
           }
         ]
@@ -1375,39 +793,39 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 100,
             "maxLevel": -1,
             "weight": 20,
-            "value": {
-              "abilityKey": "Hunter",
-              "levelChange": 1
-            }
-          },
-          {
-            "minLevel": 50,
-            "maxLevel": -1,
-            "weight": 8,
-            "value": {
-              "abilityKey": "Hunter",
-              "levelChange": 2
-            }
-          },
-          {
-            "minLevel": 101,
-            "maxLevel": -1,
-            "weight": 14,
             "value": {
               "abilityKey": "Hunter",
               "levelChange": 3
             }
           },
           {
+            "minLevel": 100,
+            "maxLevel": -1,
+            "weight": 8,
+            "value": {
+              "abilityKey": "Hunter",
+              "levelChange": 4
+            }
+          },
+          {
             "minLevel": 101,
             "maxLevel": -1,
             "weight": 14,
             "value": {
               "abilityKey": "Hunter",
-              "levelChange": 4
+              "levelChange": 5
+            }
+          },
+          {
+            "minLevel": 102,
+            "maxLevel": -1,
+            "weight": 14,
+            "value": {
+              "abilityKey": "Hunter",
+              "levelChange": 6
             }
           }
         ]
@@ -1422,39 +840,39 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 100,
             "maxLevel": -1,
             "weight": 20,
-            "value": {
-              "abilityKey": "Mana_Shield",
-              "levelChange": 1
-            }
-          },
-          {
-            "minLevel": 50,
-            "maxLevel": -1,
-            "weight": 8,
-            "value": {
-              "abilityKey": "Mana_Shield",
-              "levelChange": 2
-            }
-          },
-          {
-            "minLevel": 101,
-            "maxLevel": -1,
-            "weight": 80,
             "value": {
               "abilityKey": "Mana_Shield",
               "levelChange": 3
             }
           },
           {
+            "minLevel": 100,
+            "maxLevel": -1,
+            "weight": 8,
+            "value": {
+              "abilityKey": "Mana_Shield",
+              "levelChange": 4
+            }
+          },
+          {
             "minLevel": 101,
             "maxLevel": -1,
             "weight": 80,
             "value": {
               "abilityKey": "Mana_Shield",
-              "levelChange": 4
+              "levelChange": 5
+            }
+          },
+          {
+            "minLevel": 102,
+            "maxLevel": -1,
+            "weight": 80,
+            "value": {
+              "abilityKey": "Mana_Shield",
+              "levelChange": 6
             }
           }
         ]
@@ -1469,86 +887,39 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 100,
             "maxLevel": -1,
             "weight": 20,
-            "value": {
-              "abilityKey": "Taunt",
-              "levelChange": 1
-            }
-          },
-          {
-            "minLevel": 50,
-            "maxLevel": -1,
-            "weight": 8,
-            "value": {
-              "abilityKey": "Taunt",
-              "levelChange": 2
-            }
-          },
-          {
-            "minLevel": 101,
-            "maxLevel": -1,
-            "weight": 40,
             "value": {
               "abilityKey": "Taunt",
               "levelChange": 3
             }
           },
           {
+            "minLevel": 100,
+            "maxLevel": -1,
+            "weight": 8,
+            "value": {
+              "abilityKey": "Taunt",
+              "levelChange": 4
+            }
+          },
+          {
             "minLevel": 101,
             "maxLevel": -1,
             "weight": 40,
             "value": {
               "abilityKey": "Taunt",
-              "levelChange": 4
-            }
-          }
-        ]
-      },
-      {
-        "attribute": "the_vault:added_ability_level",
-        "group": "ModAbility",
-        "identifier": "the_vault:mod_added_ability_level_stonefall",
-        "tags": [
-          "focusAbilityPower",
-          "focusAbilityPowerStonefall"
-        ],
-        "tiers": [
-          {
-            "minLevel": 25,
-            "maxLevel": -1,
-            "weight": 20,
-            "value": {
-              "abilityKey": "Stonefall",
-              "levelChange": 1
+              "levelChange": 5
             }
           },
           {
-            "minLevel": 50,
-            "maxLevel": -1,
-            "weight": 8,
-            "value": {
-              "abilityKey": "Stonefall",
-              "levelChange": 2
-            }
-          },
-          {
-            "minLevel": 101,
+            "minLevel": 102,
             "maxLevel": -1,
             "weight": 40,
             "value": {
-              "abilityKey": "Stonefall",
-              "levelChange": 3
-            }
-          },
-          {
-            "minLevel": 101,
-            "maxLevel": -1,
-            "weight": 40,
-            "value": {
-              "abilityKey": "Stonefall",
-              "levelChange": 4
+              "abilityKey": "Taunt",
+              "levelChange": 6
             }
           }
         ]
@@ -1563,39 +934,39 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 100,
             "maxLevel": -1,
             "weight": 20,
-            "value": {
-              "abilityKey": "Totem",
-              "levelChange": 1
-            }
-          },
-          {
-            "minLevel": 50,
-            "maxLevel": -1,
-            "weight": 8,
-            "value": {
-              "abilityKey": "Totem",
-              "levelChange": 2
-            }
-          },
-          {
-            "minLevel": 101,
-            "maxLevel": -1,
-            "weight": 10,
             "value": {
               "abilityKey": "Totem",
               "levelChange": 3
             }
           },
           {
+            "minLevel": 100,
+            "maxLevel": -1,
+            "weight": 8,
+            "value": {
+              "abilityKey": "Totem",
+              "levelChange": 4
+            }
+          },
+          {
             "minLevel": 101,
             "maxLevel": -1,
             "weight": 10,
             "value": {
               "abilityKey": "Totem",
-              "levelChange": 4
+              "levelChange": 5
+            }
+          },
+          {
+            "minLevel": 102,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "abilityKey": "Totem",
+              "levelChange": 6
             }
           }
         ]
@@ -1610,39 +981,39 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 100,
             "maxLevel": -1,
             "weight": 20,
-            "value": {
-              "abilityKey": "Javelin",
-              "levelChange": 1
-            }
-          },
-          {
-            "minLevel": 50,
-            "maxLevel": -1,
-            "weight": 8,
-            "value": {
-              "abilityKey": "Javelin",
-              "levelChange": 2
-            }
-          },
-          {
-            "minLevel": 101,
-            "maxLevel": -1,
-            "weight": 10,
             "value": {
               "abilityKey": "Javelin",
               "levelChange": 3
             }
           },
           {
+            "minLevel": 100,
+            "maxLevel": -1,
+            "weight": 8,
+            "value": {
+              "abilityKey": "Javelin",
+              "levelChange": 4
+            }
+          },
+          {
             "minLevel": 101,
             "maxLevel": -1,
             "weight": 10,
             "value": {
               "abilityKey": "Javelin",
-              "levelChange": 4
+              "levelChange": 5
+            }
+          },
+          {
+            "minLevel": 102,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "abilityKey": "Javelin",
+              "levelChange": 6
             }
           }
         ]
@@ -1657,39 +1028,39 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 100,
             "maxLevel": -1,
             "weight": 20,
-            "value": {
-              "abilityKey": "Shell",
-              "levelChange": 1
-            }
-          },
-          {
-            "minLevel": 50,
-            "maxLevel": -1,
-            "weight": 8,
-            "value": {
-              "abilityKey": "Shell",
-              "levelChange": 2
-            }
-          },
-          {
-            "minLevel": 101,
-            "maxLevel": -1,
-            "weight": 40,
             "value": {
               "abilityKey": "Shell",
               "levelChange": 3
             }
           },
           {
+            "minLevel": 100,
+            "maxLevel": -1,
+            "weight": 8,
+            "value": {
+              "abilityKey": "Shell",
+              "levelChange": 4
+            }
+          },
+          {
             "minLevel": 101,
             "maxLevel": -1,
             "weight": 40,
             "value": {
               "abilityKey": "Shell",
-              "levelChange": 4
+              "levelChange": 5
+            }
+          },
+          {
+            "minLevel": 102,
+            "maxLevel": -1,
+            "weight": 40,
+            "value": {
+              "abilityKey": "Shell",
+              "levelChange": 6
             }
           }
         ]
@@ -1704,39 +1075,39 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 100,
             "maxLevel": -1,
             "weight": 20,
-            "value": {
-              "abilityKey": "Fireball",
-              "levelChange": 1
-            }
-          },
-          {
-            "minLevel": 50,
-            "maxLevel": -1,
-            "weight": 8,
-            "value": {
-              "abilityKey": "Fireball",
-              "levelChange": 2
-            }
-          },
-          {
-            "minLevel": 101,
-            "maxLevel": -1,
-            "weight": 80,
             "value": {
               "abilityKey": "Fireball",
               "levelChange": 3
             }
           },
           {
+            "minLevel": 100,
+            "maxLevel": -1,
+            "weight": 8,
+            "value": {
+              "abilityKey": "Fireball",
+              "levelChange": 4
+            }
+          },
+          {
             "minLevel": 101,
             "maxLevel": -1,
             "weight": 80,
             "value": {
               "abilityKey": "Fireball",
-              "levelChange": 4
+              "levelChange": 5
+            }
+          },
+          {
+            "minLevel": 102,
+            "maxLevel": -1,
+            "weight": 80,
+            "value": {
+              "abilityKey": "Fireball",
+              "levelChange": 6
             }
           }
         ]
@@ -1751,39 +1122,39 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 100,
             "maxLevel": -1,
             "weight": 20,
-            "value": {
-              "abilityKey": "Battle_Cry",
-              "levelChange": 1
-            }
-          },
-          {
-            "minLevel": 50,
-            "maxLevel": -1,
-            "weight": 8,
-            "value": {
-              "abilityKey": "Battle_Cry",
-              "levelChange": 2
-            }
-          },
-          {
-            "minLevel": 101,
-            "maxLevel": -1,
-            "weight": 80,
             "value": {
               "abilityKey": "Battle_Cry",
               "levelChange": 3
             }
           },
           {
+            "minLevel": 100,
+            "maxLevel": -1,
+            "weight": 8,
+            "value": {
+              "abilityKey": "Battle_Cry",
+              "levelChange": 4
+            }
+          },
+          {
             "minLevel": 101,
             "maxLevel": -1,
             "weight": 80,
             "value": {
               "abilityKey": "Battle_Cry",
-              "levelChange": 4
+              "levelChange": 5
+            }
+          },
+          {
+            "minLevel": 102,
+            "maxLevel": -1,
+            "weight": 80,
+            "value": {
+              "abilityKey": "Battle_Cry",
+              "levelChange": 6
             }
           }
         ]
@@ -1798,39 +1169,39 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 100,
             "maxLevel": -1,
             "weight": 20,
-            "value": {
-              "abilityKey": "Earthquake",
-              "levelChange": 1
-            }
-          },
-          {
-            "minLevel": 50,
-            "maxLevel": -1,
-            "weight": 8,
-            "value": {
-              "abilityKey": "Earthquake",
-              "levelChange": 2
-            }
-          },
-          {
-            "minLevel": 101,
-            "maxLevel": -1,
-            "weight": 80,
             "value": {
               "abilityKey": "Earthquake",
               "levelChange": 3
             }
           },
           {
+            "minLevel": 100,
+            "maxLevel": -1,
+            "weight": 8,
+            "value": {
+              "abilityKey": "Earthquake",
+              "levelChange": 4
+            }
+          },
+          {
             "minLevel": 101,
             "maxLevel": -1,
             "weight": 80,
             "value": {
               "abilityKey": "Earthquake",
-              "levelChange": 4
+              "levelChange": 5
+            }
+          },
+          {
+            "minLevel": 102,
+            "maxLevel": -1,
+            "weight": 80,
+            "value": {
+              "abilityKey": "Earthquake",
+              "levelChange": 6
             }
           }
         ]
@@ -1845,39 +1216,39 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 100,
             "maxLevel": -1,
             "weight": 20,
-            "value": {
-              "abilityKey": "Grenade",
-              "levelChange": 1
-            }
-          },
-          {
-            "minLevel": 50,
-            "maxLevel": -1,
-            "weight": 8,
-            "value": {
-              "abilityKey": "Grenade",
-              "levelChange": 2
-            }
-          },
-          {
-            "minLevel": 101,
-            "maxLevel": -1,
-            "weight": 80,
             "value": {
               "abilityKey": "Grenade",
               "levelChange": 3
             }
           },
           {
+            "minLevel": 100,
+            "maxLevel": -1,
+            "weight": 8,
+            "value": {
+              "abilityKey": "Grenade",
+              "levelChange": 4
+            }
+          },
+          {
             "minLevel": 101,
             "maxLevel": -1,
             "weight": 80,
             "value": {
               "abilityKey": "Grenade",
-              "levelChange": 4
+              "levelChange": 5
+            }
+          },
+          {
+            "minLevel": 102,
+            "maxLevel": -1,
+            "weight": 80,
+            "value": {
+              "abilityKey": "Grenade",
+              "levelChange": 6
             }
           }
         ]
@@ -1892,39 +1263,39 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 100,
             "maxLevel": -1,
             "weight": 20,
-            "value": {
-              "abilityKey": "Arcane",
-              "levelChange": 1
-            }
-          },
-          {
-            "minLevel": 50,
-            "maxLevel": -1,
-            "weight": 8,
-            "value": {
-              "abilityKey": "Arcane",
-              "levelChange": 2
-            }
-          },
-          {
-            "minLevel": 101,
-            "maxLevel": -1,
-            "weight": 80,
             "value": {
               "abilityKey": "Arcane",
               "levelChange": 3
             }
           },
           {
+            "minLevel": 100,
+            "maxLevel": -1,
+            "weight": 8,
+            "value": {
+              "abilityKey": "Arcane",
+              "levelChange": 4
+            }
+          },
+          {
             "minLevel": 101,
             "maxLevel": -1,
             "weight": 80,
             "value": {
               "abilityKey": "Arcane",
-              "levelChange": 4
+              "levelChange": 5
+            }
+          },
+          {
+            "minLevel": 102,
+            "maxLevel": -1,
+            "weight": 80,
+            "value": {
+              "abilityKey": "Arcane",
+              "levelChange": 6
             }
           }
         ]
@@ -1939,39 +1310,39 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 100,
             "maxLevel": -1,
             "weight": 20,
-            "value": {
-              "abilityKey": "Chain_Lightning",
-              "levelChange": 1
-            }
-          },
-          {
-            "minLevel": 50,
-            "maxLevel": -1,
-            "weight": 8,
-            "value": {
-              "abilityKey": "Chain_Lightning",
-              "levelChange": 2
-            }
-          },
-          {
-            "minLevel": 101,
-            "maxLevel": -1,
-            "weight": 80,
             "value": {
               "abilityKey": "Chain_Lightning",
               "levelChange": 3
             }
           },
           {
+            "minLevel": 100,
+            "maxLevel": -1,
+            "weight": 8,
+            "value": {
+              "abilityKey": "Chain_Lightning",
+              "levelChange": 4
+            }
+          },
+          {
             "minLevel": 101,
             "maxLevel": -1,
             "weight": 80,
             "value": {
               "abilityKey": "Chain_Lightning",
-              "levelChange": 4
+              "levelChange": 5
+            }
+          },
+          {
+            "minLevel": 102,
+            "maxLevel": -1,
+            "weight": 80,
+            "value": {
+              "abilityKey": "Chain_Lightning",
+              "levelChange": 6
             }
           }
         ]
@@ -1986,39 +1357,39 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 100,
             "maxLevel": -1,
             "weight": 20,
-            "value": {
-              "abilityKey": "Implode",
-              "levelChange": 1
-            }
-          },
-          {
-            "minLevel": 50,
-            "maxLevel": -1,
-            "weight": 8,
-            "value": {
-              "abilityKey": "Implode",
-              "levelChange": 2
-            }
-          },
-          {
-            "minLevel": 101,
-            "maxLevel": -1,
-            "weight": 80,
             "value": {
               "abilityKey": "Implode",
               "levelChange": 3
             }
           },
           {
+            "minLevel": 100,
+            "maxLevel": -1,
+            "weight": 8,
+            "value": {
+              "abilityKey": "Implode",
+              "levelChange": 4
+            }
+          },
+          {
             "minLevel": 101,
             "maxLevel": -1,
             "weight": 80,
             "value": {
               "abilityKey": "Implode",
-              "levelChange": 4
+              "levelChange": 5
+            }
+          },
+          {
+            "minLevel": 102,
+            "maxLevel": -1,
+            "weight": 80,
+            "value": {
+              "abilityKey": "Implode",
+              "levelChange": 6
             }
           }
         ]
@@ -2033,39 +1404,39 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 100,
             "maxLevel": -1,
             "weight": 20,
-            "value": {
-              "abilityKey": "Storm_Arrow",
-              "levelChange": 1
-            }
-          },
-          {
-            "minLevel": 50,
-            "maxLevel": -1,
-            "weight": 8,
-            "value": {
-              "abilityKey": "Storm_Arrow",
-              "levelChange": 2
-            }
-          },
-          {
-            "minLevel": 101,
-            "maxLevel": -1,
-            "weight": 80,
             "value": {
               "abilityKey": "Storm_Arrow",
               "levelChange": 3
             }
           },
           {
+            "minLevel": 100,
+            "maxLevel": -1,
+            "weight": 8,
+            "value": {
+              "abilityKey": "Storm_Arrow",
+              "levelChange": 4
+            }
+          },
+          {
             "minLevel": 101,
             "maxLevel": -1,
             "weight": 80,
             "value": {
               "abilityKey": "Storm_Arrow",
-              "levelChange": 4
+              "levelChange": 5
+            }
+          },
+          {
+            "minLevel": 102,
+            "maxLevel": -1,
+            "weight": 80,
+            "value": {
+              "abilityKey": "Storm_Arrow",
+              "levelChange": 6
             }
           }
         ]
@@ -2080,39 +1451,39 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 100,
             "maxLevel": -1,
             "weight": 20,
-            "value": {
-              "abilityKey": "Shield_Wall",
-              "levelChange": 1
-            }
-          },
-          {
-            "minLevel": 50,
-            "maxLevel": -1,
-            "weight": 8,
-            "value": {
-              "abilityKey": "Shield_Wall",
-              "levelChange": 2
-            }
-          },
-          {
-            "minLevel": 101,
-            "maxLevel": -1,
-            "weight": 80,
             "value": {
               "abilityKey": "Shield_Wall",
               "levelChange": 3
             }
           },
           {
+            "minLevel": 100,
+            "maxLevel": -1,
+            "weight": 8,
+            "value": {
+              "abilityKey": "Shield_Wall",
+              "levelChange": 4
+            }
+          },
+          {
             "minLevel": 101,
             "maxLevel": -1,
             "weight": 80,
             "value": {
               "abilityKey": "Shield_Wall",
-              "levelChange": 4
+              "levelChange": 5
+            }
+          },
+          {
+            "minLevel": 102,
+            "maxLevel": -1,
+            "weight": 80,
+            "value": {
+              "abilityKey": "Shield_Wall",
+              "levelChange": 6
             }
           }
         ]
@@ -2120,46 +1491,46 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
-        "identifier": "the_vault:mod_added_ability_level_colossus",
+        "identifier": "the_vault:mod_added_ability_level_shield_bash",
         "tags": [
           "focusAbilityPower",
-          "focusAbilityPowerColossus"
+          "focusAbilityPowerShieldBash"
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 100,
             "maxLevel": -1,
             "weight": 20,
             "value": {
-              "abilityKey": "Colossus",
-              "levelChange": 1
-            }
-          },
-          {
-            "minLevel": 50,
-            "maxLevel": -1,
-            "weight": 8,
-            "value": {
-              "abilityKey": "Colossus",
-              "levelChange": 2
-            }
-          },
-          {
-            "minLevel": 101,
-            "maxLevel": -1,
-            "weight": 80,
-            "value": {
-              "abilityKey": "Colossus",
+              "abilityKey": "Retribution",
               "levelChange": 3
             }
           },
           {
+            "minLevel": 100,
+            "maxLevel": -1,
+            "weight": 8,
+            "value": {
+              "abilityKey": "Retribution",
+              "levelChange": 4
+            }
+          },
+          {
             "minLevel": 101,
             "maxLevel": -1,
             "weight": 80,
             "value": {
-              "abilityKey": "Colossus",
-              "levelChange": 4
+              "abilityKey": "Retribution",
+              "levelChange": 5
+            }
+          },
+          {
+            "minLevel": 102,
+            "maxLevel": -1,
+            "weight": 80,
+            "value": {
+              "abilityKey": "Retribution",
+              "levelChange": 6
             }
           }
         ]
@@ -2174,39 +1545,39 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 100,
             "maxLevel": -1,
             "weight": 20,
-            "value": {
-              "abilityKey": "Blade_Frenzy",
-              "levelChange": 1
-            }
-          },
-          {
-            "minLevel": 50,
-            "maxLevel": -1,
-            "weight": 8,
-            "value": {
-              "abilityKey": "Blade_Frenzy",
-              "levelChange": 2
-            }
-          },
-          {
-            "minLevel": 101,
-            "maxLevel": -1,
-            "weight": 80,
             "value": {
               "abilityKey": "Blade_Frenzy",
               "levelChange": 3
             }
           },
           {
+            "minLevel": 100,
+            "maxLevel": -1,
+            "weight": 8,
+            "value": {
+              "abilityKey": "Blade_Frenzy",
+              "levelChange": 4
+            }
+          },
+          {
             "minLevel": 101,
             "maxLevel": -1,
             "weight": 80,
             "value": {
               "abilityKey": "Blade_Frenzy",
-              "levelChange": 4
+              "levelChange": 5
+            }
+          },
+          {
+            "minLevel": 102,
+            "maxLevel": -1,
+            "weight": 80,
+            "value": {
+              "abilityKey": "Blade_Frenzy",
+              "levelChange": 6
             }
           }
         ]
@@ -2221,39 +1592,39 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 100,
             "maxLevel": -1,
             "weight": 20,
-            "value": {
-              "abilityKey": "Necromancy",
-              "levelChange": 1
-            }
-          },
-          {
-            "minLevel": 50,
-            "maxLevel": -1,
-            "weight": 8,
-            "value": {
-              "abilityKey": "Necromancy",
-              "levelChange": 2
-            }
-          },
-          {
-            "minLevel": 101,
-            "maxLevel": -1,
-            "weight": 80,
             "value": {
               "abilityKey": "Necromancy",
               "levelChange": 3
             }
           },
           {
+            "minLevel": 100,
+            "maxLevel": -1,
+            "weight": 8,
+            "value": {
+              "abilityKey": "Necromancy",
+              "levelChange": 4
+            }
+          },
+          {
             "minLevel": 101,
             "maxLevel": -1,
             "weight": 80,
             "value": {
               "abilityKey": "Necromancy",
-              "levelChange": 4
+              "levelChange": 5
+            }
+          },
+          {
+            "minLevel": 102,
+            "maxLevel": -1,
+            "weight": 80,
+            "value": {
+              "abilityKey": "Necromancy",
+              "levelChange": 6
             }
           }
         ]
@@ -2268,39 +1639,39 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 100,
             "maxLevel": -1,
             "weight": 20,
-            "value": {
-              "abilityKey": "Fangs",
-              "levelChange": 1
-            }
-          },
-          {
-            "minLevel": 50,
-            "maxLevel": -1,
-            "weight": 8,
-            "value": {
-              "abilityKey": "Fangs",
-              "levelChange": 2
-            }
-          },
-          {
-            "minLevel": 101,
-            "maxLevel": -1,
-            "weight": 80,
             "value": {
               "abilityKey": "Fangs",
               "levelChange": 3
             }
           },
           {
+            "minLevel": 100,
+            "maxLevel": -1,
+            "weight": 8,
+            "value": {
+              "abilityKey": "Fangs",
+              "levelChange": 4
+            }
+          },
+          {
             "minLevel": 101,
             "maxLevel": -1,
             "weight": 80,
             "value": {
               "abilityKey": "Fangs",
-              "levelChange": 4
+              "levelChange": 5
+            }
+          },
+          {
+            "minLevel": 102,
+            "maxLevel": -1,
+            "weight": 80,
+            "value": {
+              "abilityKey": "Fangs",
+              "levelChange": 6
             }
           }
         ]
@@ -2315,115 +1686,39 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 100,
             "maxLevel": -1,
             "weight": 20,
-            "value": {
-              "abilityKey": "Apex_Predator",
-              "levelChange": 1
-            }
-          },
-          {
-            "minLevel": 50,
-            "maxLevel": -1,
-            "weight": 8,
-            "value": {
-              "abilityKey": "Apex_Predator",
-              "levelChange": 2
-            }
-          },
-          {
-            "minLevel": 101,
-            "maxLevel": -1,
-            "weight": 80,
             "value": {
               "abilityKey": "Apex_Predator",
               "levelChange": 3
             }
           },
           {
+            "minLevel": 100,
+            "maxLevel": -1,
+            "weight": 8,
+            "value": {
+              "abilityKey": "Apex_Predator",
+              "levelChange": 4
+            }
+          },
+          {
             "minLevel": 101,
             "maxLevel": -1,
             "weight": 80,
             "value": {
               "abilityKey": "Apex_Predator",
-              "levelChange": 4
-            }
-          }
-        ]
-      },
-      {
-        "attribute": "the_vault:effect_list_avoidance",
-        "group": "ModEffectAvoidance",
-        "identifier": "the_vault:mod_effect_avoidance",
-        "tags": [
-          "focusEffAvoidance"
-        ],
-        "tiers": [
-          {
-            "minLevel": 0,
-            "maxLevel": -1,
-            "weight": 600,
-            "value": {
-              "effectKeys": [
-                "minecraft:poison",
-                "minecraft:wither",
-                "minecraft:levitation",
-                "minecraft:slowness",
-                "minecraft:blindness",
-                "minecraft:hunger",
-                "the_vault:bleed",
-                "the_vault:chilled",
-                "the_vault:corruption"
-              ],
-              "name": "the_vault.gear_attribute.effect_avoidance.avoidance.bad_effects",
-              "minChance": 0.1,
-              "maxChance": 0.3,
-              "step": 0.01
-            }
-          },
-          {
-            "minLevel": 101,
-            "maxLevel": -1,
-            "weight": 250,
-            "value": {
-              "effectKeys": [
-                "minecraft:poison",
-                "minecraft:wither",
-                "minecraft:levitation",
-                "minecraft:slowness",
-                "minecraft:blindness",
-                "minecraft:hunger",
-                "the_vault:bleed",
-                "the_vault:chilled",
-                "the_vault:corruption"
-              ],
-              "name": "the_vault.gear_attribute.effect_avoidance.avoidance.bad_effects",
-              "minChance": 0.31,
-              "maxChance": 0.6,
-              "step": 0.01
+              "levelChange": 5
             }
           },
           {
             "minLevel": 102,
             "maxLevel": -1,
-            "weight": 250,
+            "weight": 80,
             "value": {
-              "effectKeys": [
-                "minecraft:poison",
-                "minecraft:wither",
-                "minecraft:levitation",
-                "minecraft:slowness",
-                "minecraft:blindness",
-                "minecraft:hunger",
-                "the_vault:bleed",
-                "the_vault:chilled",
-                "the_vault:corruption"
-              ],
-              "name": "the_vault.gear_attribute.effect_avoidance.avoidance.bad_effects",
-              "minChance": 0.61,
-              "maxChance": 0.8,
-              "step": 0.01
+              "abilityKey": "Apex_Predator",
+              "levelChange": 6
             }
           }
         ]
@@ -2440,82 +1735,32 @@
         ],
         "tiers": [
           {
-            "minLevel": 0,
-            "maxLevel": 66,
-            "weight": 0,
-            "value": {
-              "min": 400,
-              "max": 800,
-              "step": 1
-            }
-          },
-          {
-            "minLevel": 21,
+            "minLevel": 100,
             "maxLevel": -1,
-            "weight": 0,
+            "weight": 10,
             "value": {
-              "min": 801,
-              "max": 1700,
-              "step": 1
-            }
-          },
-          {
-            "minLevel": 42,
-            "maxLevel": -1,
-            "weight": 0,
-            "value": {
-              "min": 1601,
-              "max": 2600,
-              "step": 1
-            }
-          },
-          {
-            "minLevel": 51,
-            "maxLevel": -1,
-            "weight": 0,
-            "value": {
-              "min": 2401,
-              "max": 4000,
-              "step": 1
-            }
-          },
-          {
-            "minLevel": 65,
-            "maxLevel": -1,
-            "weight": 0,
-            "value": {
-              "min": 3201,
-              "max": 7000,
-              "step": 1
-            }
-          },
-          {
-            "minLevel": 90,
-            "maxLevel": -1,
-            "weight": 0,
-            "value": {
-              "min": 4001,
-              "max": 9000,
+              "min": 6001,
+              "max": 12000,
               "step": 1
             }
           },
           {
             "minLevel": 101,
             "maxLevel": -1,
-            "weight": 0,
+            "weight": 10,
             "value": {
-              "min": 6001,
-              "max": 8000,
+              "min": 12001,
+              "max": 16000,
               "step": 1
             }
           },
           {
             "minLevel": 102,
             "maxLevel": -1,
-            "weight": 0,
+            "weight": 10,
             "value": {
-              "min": 8001,
-              "max": 12000,
+              "min": 16001,
+              "max": 20000,
               "step": 1
             }
           }
@@ -2530,12 +1775,12 @@
         ],
         "tiers": [
           {
-            "minLevel": 0,
+            "minLevel": 100,
             "maxLevel": -1,
             "weight": 100,
             "value": {
-              "min": 0.05,
-              "max": 0.2,
+              "min": 0.31,
+              "max": 0.4,
               "step": 0.01
             }
           },
@@ -2544,8 +1789,8 @@
             "maxLevel": -1,
             "weight": 250,
             "value": {
-              "min": 0.21,
-              "max": 0.3,
+              "min": 0.41,
+              "max": 0.5,
               "step": 0.01
             }
           },
@@ -2554,8 +1799,8 @@
             "maxLevel": -1,
             "weight": 250,
             "value": {
-              "min": 0.31,
-              "max": 0.4,
+              "min": 0.51,
+              "max": 0.6,
               "step": 0.01
             }
           }
@@ -2570,17 +1815,7 @@
         ],
         "tiers": [
           {
-            "minLevel": 0,
-            "maxLevel": -1,
-            "weight": 100,
-            "value": {
-              "min": 0.03,
-              "max": 0.2,
-              "step": 0.01
-            }
-          },
-          {
-            "minLevel": 101,
+            "minLevel": 100,
             "maxLevel": -1,
             "weight": 100,
             "value": {
@@ -2590,12 +1825,22 @@
             }
           },
           {
-            "minLevel": 102,
+            "minLevel": 101,
             "maxLevel": -1,
             "weight": 100,
             "value": {
               "min": 0.31,
               "max": 0.4,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 102,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.41,
+              "max": 0.5,
               "step": 0.01
             }
           }
@@ -2610,22 +1855,12 @@
         ],
         "tiers": [
           {
-            "minLevel": 0,
+            "minLevel": 100,
             "maxLevel": -1,
             "weight": 100,
             "value": {
-              "min": 0.05,
-              "max": 0.26,
-              "step": 0.01
-            }
-          },
-          {
-            "minLevel": 51,
-            "maxLevel": -1,
-            "weight": 100,
-            "value": {
-              "min": 0.05,
-              "max": 0.42,
+              "min": 0.43,
+              "max": 0.8,
               "step": 0.01
             }
           },
@@ -2634,8 +1869,8 @@
             "maxLevel": -1,
             "weight": 100,
             "value": {
-              "min": 0.43,
-              "max": 0.6,
+              "min": 0.81,
+              "max": 1.05,
               "step": 0.01
             }
           },
@@ -2644,8 +1879,8 @@
             "maxLevel": -1,
             "weight": 100,
             "value": {
-              "min": 0.61,
-              "max": 0.8,
+              "min": 1.06,
+              "max": 1.25,
               "step": 0.01
             }
           }
@@ -2661,22 +1896,12 @@
         ],
         "tiers": [
           {
-            "minLevel": 0,
+            "minLevel": 100,
             "maxLevel": -1,
             "weight": 100,
             "value": {
-              "min": 0.1,
-              "max": 0.5,
-              "step": 0.01
-            }
-          },
-          {
-            "minLevel": 51,
-            "maxLevel": -1,
-            "weight": 100,
-            "value": {
-              "min": 0.51,
-              "max": 1,
+              "min": 1.01,
+              "max": 2,
               "step": 0.01
             }
           },
@@ -2685,8 +1910,8 @@
             "maxLevel": -1,
             "weight": 250,
             "value": {
-              "min": 1.01,
-              "max": 1.5,
+              "min": 2.01,
+              "max": 2.5,
               "step": 0.01
             }
           },
@@ -2695,14 +1920,15 @@
             "maxLevel": -1,
             "weight": 250,
             "value": {
-              "min": 1.51,
-              "max": 2,
+              "min": 2.51,
+              "max": 3,
               "step": 0.01
             }
           }
         ]
       },
-      { "attribute": "the_vault:mana_cost_reduction",
+      {
+        "attribute": "the_vault:mana_cost_reduction",
         "group": "ModManaRegen",
         "identifier": "the_vault:mod_mana_cost_reduction",
         "tags": [
@@ -2710,42 +1936,12 @@
         ],
         "tiers": [
           {
-            "minLevel": 20,
-            "maxLevel": 65,
-            "weight": 100,
-            "value": {
-              "min": 0.03,
-              "max": 0.05,
-              "step": 0.01
-            }
-          },
-          {
-            "minLevel": 50,
+            "minLevel": 100,
             "maxLevel": -1,
             "weight": 100,
             "value": {
-              "min": 0.04,
-              "max": 0.06,
-              "step": 0.01
-            }
-          },
-          {
-            "minLevel": 65,
-            "maxLevel": -1,
-            "weight": 100,
-            "value": {
-              "min": 0.05,
-              "max": 0.07,
-              "step": 0.01
-            }
-          },
-          {
-            "minLevel": 90,
-            "maxLevel": -1,
-            "weight": 100,
-            "value": {
-              "min": 0.06,
-              "max": 0.08,
+              "min": 0.09,
+              "max": 0.13,
               "step": 0.01
             }
           },
@@ -2754,8 +1950,8 @@
             "maxLevel": -1,
             "weight": 100,
             "value": {
-              "min": 0.09,
-              "max": 0.11,
+              "min": 0.14,
+              "max": 0.17,
               "step": 0.01
             }
           },
@@ -2764,8 +1960,8 @@
             "maxLevel": -1,
             "weight": 100,
             "value": {
-              "min": 0.11,
-              "max": 0.13,
+              "min": 0.18,
+              "max": 0.2,
               "step": 0.01
             }
           }
@@ -2775,7 +1971,8 @@
     "CRAFTED_PREFIX": [],
     "CRAFTED_SUFFIX": [],
     "CORRUPTED_IMPLICIT": [
-      { "attribute": "the_vault:lucky_thorns",
+      {
+        "attribute": "the_vault:lucky_thorns",
         "group": "ModLuckyThorns",
         "identifier": "the_vault:u_lucky_thorns",
         "tags": [
@@ -2783,26 +1980,27 @@
         ],
         "tiers": [
           {
-            "minLevel": 0,
+            "minLevel": 100,
             "maxLevel": -1,
-            "weight": 500,
+            "weight": 1,
             "value": {
               "flag": true
             }
           }
         ]
       },
-      { "attribute": "the_vault:relentless_strike",
+      {
+        "attribute": "the_vault:relentless_strike",
         "group": "ModRelentlessStrike",
-        "identifier": "the_vault:seal_relentless_strike",
+        "identifier": "the_vault:u_relentless_strike",
         "tags": [
           "noLegendary"
         ],
         "tiers": [
           {
-            "minLevel": 0,
+            "minLevel": 100,
             "maxLevel": -1,
-            "weight": 500,
+            "weight": 1,
             "value": {
               "min": 0.08,
               "max": 0.16,
@@ -2811,45 +2009,32 @@
           }
         ]
       },
-      { "attribute": "the_vault:kinetic_immunity",
+      {
+        "attribute": "the_vault:kinetic_immunity",
         "group": "UniqueKineticImmunity",
         "identifier": "the_vault:mod_kinetic_immunity",
-        "tags": [
-        ],
+        "tags": [],
         "tiers": [
           {
-            "minLevel": 0,
+            "minLevel": 100,
             "maxLevel": -1,
-            "weight": 500,
+            "weight": 1,
             "value": {
               "flag": true
             }
           }
         ]
       },
-      { "attribute": "the_vault:ability_special_modification",
+      {
+        "attribute": "the_vault:ability_special_modification",
         "group": "ModEnhancement",
         "identifier": "the_vault:unique_entropic_poison",
         "tags": [],
         "tiers": [
           {
-            "minLevel": 0,
+            "minLevel": 100,
             "maxLevel": -1,
-            "weight": 250,
-            "value": {
-              "specialModificationKey": "the_vault:entropic_bind_poison",
-              "abilityKey": "Empower_Slowness_Aura",
-              "textColor": 14076214,
-              "highlightColor": 6082075,
-              "min": 1,
-              "max": 6,
-              "step": 1
-            }
-          },
-          {
-            "minLevel": 50,
-            "maxLevel": -1,
-            "weight": 250,
+            "weight": 1,
             "value": {
               "specialModificationKey": "the_vault:entropic_bind_poison",
               "abilityKey": "Empower_Slowness_Aura",
@@ -2862,15 +2047,16 @@
           }
         ]
       },
-      { "attribute": "the_vault:effect_trail",
+      {
+        "attribute": "the_vault:effect_trail",
         "group": "ModEnhancement",
         "identifier": "the_vault:u_chilled_effect_trail",
         "tags": [],
         "tiers": [
           {
-            "minLevel": 0,
+            "minLevel": 100,
             "maxLevel": -1,
-            "weight": 500,
+            "weight": 1,
             "value": {
               "effectId": "the_vault:chilled",
               "durationTicks": {
@@ -2882,15 +2068,16 @@
           }
         ]
       },
-      { "attribute": "the_vault:warp_projectile_speed",
+      {
+        "attribute": "the_vault:warp_projectile_speed",
         "group": "ModWarpSpeed",
         "identifier": "the_vault:mod_warp_projectile_speed",
         "tags": [],
         "tiers": [
           {
-            "minLevel": 0,
+            "minLevel": 100,
             "maxLevel": -1,
-            "weight": 250,
+            "weight": 1,
             "value": {
               "min": 0.1,
               "max": 0.25,
@@ -2898,26 +2085,27 @@
             }
           },
           {
-            "minLevel": 0,
+            "minLevel": 100,
             "maxLevel": -1,
-            "weight": 250,
+            "weight": 1,
             "value": {
               "min": 0.25,
-              "max": 0.50,
+              "max": 0.5,
               "step": 0.01
             }
           }
         ]
       },
-      { "attribute": "the_vault:mana_per_looted_tile",
+      {
+        "attribute": "the_vault:mana_per_looted_tile",
         "group": "uLootedTile",
         "identifier": "the_vault:u_mana_looting",
         "tags": [],
         "tiers": [
           {
-            "minLevel": 0,
+            "minLevel": 100,
             "maxLevel": -1,
-            "weight": 500,
+            "weight": 1,
             "value": {
               "tileEntityGroupId": "the_vault:chest",
               "displayName": "Chest",
@@ -2935,7 +2123,8 @@
           }
         ]
       },
-      { "attribute": "the_vault:third_attack",
+      {
+        "attribute": "the_vault:third_attack",
         "group": "ModThirdAttack",
         "identifier": "the_vault:u_third_attack",
         "tags": [
@@ -2943,9 +2132,9 @@
         ],
         "tiers": [
           {
-            "minLevel": 0,
+            "minLevel": 100,
             "maxLevel": -1,
-            "weight": 500,
+            "weight": 1,
             "value": {
               "min": 0.4,
               "max": 1.2,
@@ -2954,7 +2143,8 @@
           }
         ]
       },
-      { "attribute": "the_vault:ability_on_damage",
+      {
+        "attribute": "the_vault:ability_on_damage",
         "group": "ModOnDamageType",
         "identifier": "the_vault:u_frost_nova_on_damage",
         "tags": [
@@ -2962,9 +2152,9 @@
         ],
         "tiers": [
           {
-            "minLevel": 0,
+            "minLevel": 100,
             "maxLevel": -1,
-            "weight": 500,
+            "weight": 1,
             "value": {
               "abilityId": "Nova_Slow",
               "chance": {
@@ -2990,19 +2180,19 @@
         ],
         "tiers": [
           {
-            "minLevel": 0,
+            "minLevel": 100,
             "maxLevel": -1,
-            "weight": 100,
+            "weight": 1,
             "value": {
               "chance": {
                 "min": 0.05,
-                "max": 0.20,
+                "max": 0.2,
                 "step": 0.01
               },
               "amount": {
-                "min": 2.0,
-                "max": 2.0,
-                "step": 0.0
+                "min": 2,
+                "max": 2,
+                "step": 0
               }
             }
           }
@@ -3017,9 +2207,9 @@
         ],
         "tiers": [
           {
-            "minLevel": 0,
+            "minLevel": 100,
             "maxLevel": -1,
-            "weight": 100,
+            "weight": 1,
             "value": {
               "hitsRequired": {
                 "min": 6,
@@ -3027,13 +2217,13 @@
                 "step": 1
               },
               "radius": {
-                "min": 3.0,
-                "max": 6.0,
+                "min": 3,
+                "max": 6,
                 "step": 1
               },
               "percentAbilityPower": {
-                "min": 0.50,
-                "max": 2.00,
+                "min": 0.5,
+                "max": 2,
                 "step": 0.05
               }
             }
@@ -3050,19 +2240,19 @@
         ],
         "tiers": [
           {
-            "minLevel": 0,
+            "minLevel": 100,
             "maxLevel": -1,
-            "weight": 100,
+            "weight": 1,
             "value": {
               "chance": {
-                "min": 0.20,
-                "max": 0.50,
+                "min": 0.2,
+                "max": 0.5,
                 "step": 0.05
               },
               "amount": {
-                "min": 2.0,
-                "max": 2.0,
-                "step": 0.0
+                "min": 2,
+                "max": 2,
+                "step": 0
               }
             }
           }
@@ -3078,18 +2268,19 @@
         ],
         "tiers": [
           {
-            "minLevel": 0,
+            "minLevel": 100,
             "maxLevel": -1,
-            "weight": 100,
+            "weight": 1,
             "value": {
-              "min": 0.20,
-              "max": 0.50,
+              "min": 0.2,
+              "max": 0.5,
               "step": 0.01
             }
           }
         ]
       },
-      { "attribute": "the_vault:ability_cooldown_skip",
+      {
+        "attribute": "the_vault:ability_cooldown_skip",
         "group": "ModEnhancement",
         "identifier": "the_vault:mod_ability_cooldown_skip",
         "tags": [
@@ -3098,12 +2289,12 @@
         ],
         "tiers": [
           {
-            "minLevel": 0,
+            "minLevel": 100,
             "maxLevel": -1,
-            "weight": 100,
+            "weight": 1,
             "value": {
               "min": 0.05,
-              "max": 0.20,
+              "max": 0.2,
               "step": 0.01
             }
           }
@@ -3118,16 +2309,16 @@
         ],
         "tiers": [
           {
-            "minLevel": 0,
+            "minLevel": 100,
             "maxLevel": -1,
-            "weight": 100,
+            "weight": 1,
             "value": {
               "abilityId": "Nova_Slow",
               "tileEntityGroupId": "the_vault:chest",
               "displayName": "Omega Chest",
               "chance": {
                 "min": 0.05,
-                "max": 0.20,
+                "max": 0.2,
                 "step": 0.05
               },
               "level": {
@@ -3139,7 +2330,8 @@
           }
         ]
       },
-      { "attribute": "the_vault:mining_speed_percent",
+      {
+        "attribute": "the_vault:mining_speed_percent",
         "group": "ModCopiously",
         "identifier": "the_vault:u_mining_speed_percent",
         "tags": [
@@ -3147,38 +2339,27 @@
         ],
         "tiers": [
           {
-            "minLevel": 0,
+            "minLevel": 100,
             "maxLevel": -1,
-            "weight": 100,
+            "weight": 1,
             "value": {
-              "min": 0.20,
-              "max": 0.50,
+              "min": 0.2,
+              "max": 0.5,
               "step": 0.05
             }
           }
         ]
       },
-
-      { "attribute": "the_vault:ability_area_of_effect_percent",
+      {
+        "attribute": "the_vault:ability_area_of_effect_percent",
         "group": "ModEnhancement",
         "identifier": "the_vault:fireball_aoe_increase",
         "tags": [],
         "tiers": [
           {
-            "minLevel": 0,
+            "minLevel": 100,
             "maxLevel": -1,
-            "weight": 250,
-            "value": {
-              "min": 0.1,
-              "max": 0.24,
-              "step": 0.01,
-              "abilityKey": "Fireball_Base"
-            }
-          },
-          {
-            "minLevel": 64,
-            "maxLevel": -1,
-            "weight": 250,
+            "weight": 1,
             "value": {
               "min": 0.25,
               "max": 0.5,
@@ -3188,15 +2369,16 @@
           }
         ]
       },
-      { "attribute": "the_vault:ability_area_of_effect_percent",
+      {
+        "attribute": "the_vault:ability_area_of_effect_percent",
         "group": "ModEnhancement",
         "identifier": "the_vault:storm_aoe_reduce",
         "tags": [],
         "tiers": [
           {
-            "minLevel": 0,
+            "minLevel": 100,
             "maxLevel": -1,
-            "weight": 500,
+            "weight": 1,
             "value": {
               "min": -0.8,
               "max": -0.6,
@@ -3206,105 +2388,57 @@
           }
         ]
       },
-      { "attribute": "the_vault:ability_area_of_effect_percent",
+      {
+        "attribute": "the_vault:ability_area_of_effect_percent",
         "group": "ModEnhancement",
         "identifier": "the_vault:fear_effect_increase",
         "tags": [],
         "tiers": [
           {
-            "minLevel": 0,
+            "minLevel": 100,
             "maxLevel": -1,
-            "weight": 166,
+            "weight": 1,
             "value": {
-              "min": 0.2,
-              "max": 0.4,
-              "step": 0.01,
-              "abilityKey": "Taunt_Repel"
-            }
-          },
-          {
-            "minLevel": 60,
-            "maxLevel": -1,
-            "weight": 166,
-            "value": {
-              "min": 0.41,
-              "max": 0.6,
-              "step": 0.01,
-              "abilityKey": "Taunt_Repel"
-            }
-          },
-          {
-            "minLevel": 80,
-            "maxLevel": -1,
-            "weight": 166,
-            "value": {
-              "min": 0.61,
-              "max": 1.0,
+              "min": 0.5,
+              "max": 1,
               "step": 0.01,
               "abilityKey": "Taunt_Repel"
             }
           }
         ]
       },
-      { "attribute": "the_vault:ability_special_modification",
+      {
+        "attribute": "the_vault:ability_special_modification",
         "group": "ModEnhancement",
         "identifier": "the_vault:unique_frost_nova_vulnerability",
         "tags": [],
         "tiers": [
           {
-            "minLevel": 0,
+            "minLevel": 100,
             "maxLevel": -1,
-            "weight": 166,
-            "value": {
-              "specialModificationKey": "the_vault:frost_nova_vulnerability",
-              "abilityKey": "Nova_Slow",
-              "textColor": 14076214,
-              "highlightColor": 6082075,
-              "min": 1,
-              "max": 2,
-              "step": 1
-            }
-          },
-          {
-            "minLevel": 50,
-            "maxLevel": -1,
-            "weight": 166,
+            "weight": 1,
             "value": {
               "specialModificationKey": "the_vault:frost_nova_vulnerability",
               "abilityKey": "Nova_Slow",
               "textColor": 14076214,
               "highlightColor": 6082075,
               "min": 3,
-              "max": 4,
-              "step": 1
-            }
-          },
-          {
-            "minLevel": 80,
-            "maxLevel": -1,
-            "weight": 166,
-            "value": {
-              "specialModificationKey": "the_vault:frost_nova_vulnerability",
-              "abilityKey": "Nova_Slow",
-              "textColor": 14076214,
-              "highlightColor": 6082075,
-              "min": 5,
               "max": 6,
               "step": 1
             }
           }
         ]
       },
-
-      { "attribute": "the_vault:ability_cooldown_percent",
+      {
+        "attribute": "the_vault:ability_cooldown_percent",
         "group": "ModEnhancement",
         "identifier": "the_vault:storm_cooldown",
         "tags": [],
         "tiers": [
           {
-            "minLevel": 0,
+            "minLevel": 100,
             "maxLevel": -1,
-            "weight": 500,
+            "weight": 1,
             "value": {
               "min": -0.75,
               "max": -0.5,
@@ -3314,15 +2448,16 @@
           }
         ]
       },
-      { "attribute": "the_vault:ability_cooldown_percent",
+      {
+        "attribute": "the_vault:ability_cooldown_percent",
         "group": "ModEnhancement",
         "identifier": "the_vault:heal_cooldown",
         "tags": [],
         "tiers": [
           {
-            "minLevel": 0,
+            "minLevel": 100,
             "maxLevel": -1,
-            "weight": 500,
+            "weight": 1,
             "value": {
               "min": -0.75,
               "max": -0.25,
@@ -3332,37 +2467,27 @@
           }
         ]
       },
-      { "attribute": "the_vault:ability_cooldown_percent",
+      {
+        "attribute": "the_vault:ability_cooldown_percent",
         "group": "ModEnhancement",
         "identifier": "the_vault:warp_cooldown",
         "tags": [],
         "tiers": [
           {
-            "minLevel": 0,
-            "maxLevel": 49,
-            "weight": 250,
-            "value": {
-              "min": -0.10,
-              "max": -0.25,
-              "step": 0.01,
-              "abilityKey": "Dash_Warp"
-            }
-          },
-          {
-            "minLevel": 50,
+            "minLevel": 100,
             "maxLevel": -1,
-            "weight": 250,
+            "weight": 1,
             "value": {
-              "min": -0.26,
-              "max": -0.50,
+              "min": -0.1,
+              "max": -0.5,
               "step": 0.01,
               "abilityKey": "Dash_Warp"
             }
           }
         ]
       },
-
-      { "attribute": "the_vault:on_hit_aoe",
+      {
+        "attribute": "the_vault:on_hit_aoe",
         "group": "ModOnHitType",
         "identifier": "the_vault:u_on_hit_aoe",
         "tags": [
@@ -3370,9 +2495,9 @@
         ],
         "tiers": [
           {
-            "minLevel": 0,
+            "minLevel": 100,
             "maxLevel": -1,
-            "weight": 500,
+            "weight": 1,
             "value": {
               "min": 1,
               "max": 1,
@@ -3381,26 +2506,25 @@
           }
         ]
       },
-
-      { "attribute": "the_vault:added_ability_level",
+      {
+        "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
         "identifier": "the_vault:u_all_skills",
-        "tags": [
-        ],
+        "tags": [],
         "tiers": [
           {
-            "minLevel": 0,
+            "minLevel": 100,
             "maxLevel": -1,
-            "weight": 250,
+            "weight": 1,
             "value": {
               "levelChange": 1,
               "abilityKey": "all_abilities"
             }
           },
           {
-            "minLevel": 25,
+            "minLevel": 100,
             "maxLevel": -1,
-            "weight": 250,
+            "weight": 1,
             "value": {
               "levelChange": 2,
               "abilityKey": "all_abilities"
@@ -3408,44 +2532,43 @@
           }
         ]
       },
-
-      { "attribute": "the_vault:added_ability_level",
+      {
+        "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
         "identifier": "the_vault:seal_offensive_skills",
-        "tags": [
-        ],
+        "tags": [],
         "tiers": [
           {
-            "minLevel": 0,
+            "minLevel": 100,
             "maxLevel": -1,
-            "weight": 250,
+            "weight": 1,
             "value": {
               "levelChange": 1,
               "abilityKey": "OFFENSIVE"
             }
           },
           {
-            "minLevel": 0,
+            "minLevel": 100,
             "maxLevel": -1,
-            "weight": 250,
+            "weight": 1,
             "value": {
               "levelChange": 2,
               "abilityKey": "OFFENSIVE"
             }
           },
           {
-            "minLevel": 0,
+            "minLevel": 100,
             "maxLevel": -1,
-            "weight": 250,
+            "weight": 1,
             "value": {
               "levelChange": 3,
               "abilityKey": "OFFENSIVE"
             }
           },
           {
-            "minLevel": 0,
+            "minLevel": 100,
             "maxLevel": -1,
-            "weight": 250,
+            "weight": 1,
             "value": {
               "levelChange": 4,
               "abilityKey": "OFFENSIVE"
@@ -3453,44 +2576,43 @@
           }
         ]
       },
-
-      { "attribute": "the_vault:added_ability_level",
+      {
+        "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
         "identifier": "the_vault:seal_utility_skills",
-        "tags": [
-        ],
+        "tags": [],
         "tiers": [
           {
-            "minLevel": 0,
+            "minLevel": 100,
             "maxLevel": -1,
-            "weight": 250,
+            "weight": 1,
             "value": {
               "levelChange": 1,
               "abilityKey": "UTILITY"
             }
           },
           {
-            "minLevel": 0,
+            "minLevel": 100,
             "maxLevel": -1,
-            "weight": 250,
+            "weight": 1,
             "value": {
               "levelChange": 2,
               "abilityKey": "UTILITY"
             }
           },
           {
-            "minLevel": 0,
+            "minLevel": 100,
             "maxLevel": -1,
-            "weight": 250,
+            "weight": 1,
             "value": {
               "levelChange": 3,
               "abilityKey": "UTILITY"
             }
           },
           {
-            "minLevel": 0,
+            "minLevel": 100,
             "maxLevel": -1,
-            "weight": 250,
+            "weight": 1,
             "value": {
               "levelChange": 4,
               "abilityKey": "UTILITY"
@@ -3498,44 +2620,43 @@
           }
         ]
       },
-
-      { "attribute": "the_vault:added_ability_level",
+      {
+        "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
         "identifier": "the_vault:seal_powerup_skills",
-        "tags": [
-        ],
+        "tags": [],
         "tiers": [
           {
-            "minLevel": 0,
+            "minLevel": 100,
             "maxLevel": -1,
-            "weight": 250,
+            "weight": 1,
             "value": {
               "levelChange": 1,
               "abilityKey": "POWERUP"
             }
           },
           {
-            "minLevel": 0,
+            "minLevel": 100,
             "maxLevel": -1,
-            "weight": 250,
+            "weight": 1,
             "value": {
               "levelChange": 2,
               "abilityKey": "POWERUP"
             }
           },
           {
-            "minLevel": 0,
+            "minLevel": 100,
             "maxLevel": -1,
-            "weight": 250,
+            "weight": 1,
             "value": {
               "levelChange": 3,
               "abilityKey": "POWERUP"
             }
           },
           {
-            "minLevel": 0,
+            "minLevel": 100,
             "maxLevel": -1,
-            "weight": 250,
+            "weight": 1,
             "value": {
               "levelChange": 4,
               "abilityKey": "POWERUP"
@@ -3543,51 +2664,239 @@
           }
         ]
       },
-
-      { "attribute": "the_vault:added_ability_level",
+      {
+        "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
         "identifier": "the_vault:seal_ultimate_skills",
-        "tags": [
-        ],
+        "tags": [],
         "tiers": [
           {
-            "minLevel": 0,
+            "minLevel": 100,
             "maxLevel": -1,
-            "weight": 250,
+            "weight": 1,
             "value": {
               "levelChange": 1,
               "abilityKey": "ULTIMATE"
             }
           },
           {
-            "minLevel": 0,
+            "minLevel": 100,
             "maxLevel": -1,
-            "weight": 250,
+            "weight": 1,
             "value": {
               "levelChange": 2,
               "abilityKey": "ULTIMATE"
             }
           },
           {
-            "minLevel": 0,
+            "minLevel": 100,
             "maxLevel": -1,
-            "weight": 250,
+            "weight": 1,
             "value": {
               "levelChange": 3,
               "abilityKey": "ULTIMATE"
             }
           },
           {
-            "minLevel": 0,
+            "minLevel": 100,
             "maxLevel": -1,
-            "weight": 250,
+            "weight": 1,
             "value": {
               "levelChange": 4,
               "abilityKey": "ULTIMATE"
+            }
+          }
+        ]
+      },
+      {
+        "attribute": "the_vault:phoenix",
+        "group": "ModPhoenix",
+        "identifier": "the_vault:u_phoenix",
+        "tags": [
+          "noImbuement"
+        ],
+        "tiers": [
+          {
+            "minLevel": 100,
+            "maxLevel": -1,
+            "weight": 1,
+            "value": {
+              "min": 1,
+              "max": 3,
+              "step": 1
+            }
+          }
+        ]
+      },
+      {
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModAbility",
+        "identifier": "the_vault:mod_jav_scatter",
+        "tags": [],
+        "tiers": [
+          {
+            "minLevel": 100,
+            "maxLevel": -1,
+            "weight": 1,
+            "value": {
+              "abilityKey": "Javelin_Scatter",
+              "levelChange": 1
+            }
+          },
+          {
+            "minLevel": 100,
+            "maxLevel": -1,
+            "weight": 1,
+            "value": {
+              "abilityKey": "Javelin_Scatter",
+              "levelChange": 2
+            }
+          },
+          {
+            "minLevel": 100,
+            "maxLevel": -1,
+            "weight": 1,
+            "value": {
+              "abilityKey": "Javelin_Scatter",
+              "levelChange": 3
+            }
+          }
+        ]
+      },
+      {
+        "attribute": "the_vault:broodmother_web",
+        "group": "ModEnhancement",
+        "identifier": "the_vault:u_broodmother_web",
+        "tags": [
+          "noLegendary",
+          "noImbuement"
+        ],
+        "tiers": [
+          {
+            "minLevel": 100,
+            "maxLevel": -1,
+            "weight": 1,
+            "value": {
+              "chance": {
+                "min": 0.2,
+                "max": 0.7,
+                "step": 0.05
+              },
+              "percentAttackDamage": {
+                "min": 0.6,
+                "max": 1.2,
+                "step": 0.05
+              }
+            }
+          }
+        ]
+      },
+      {
+        "attribute": "the_vault:thorns_scaling_damage",
+        "group": "thornsScalingDamage",
+        "identifier": "the_vault:thorns_scaling_damage_grass_sword",
+        "tiers": [
+          {
+            "minLevel": 100,
+            "maxLevel": -1,
+            "weight": 1,
+            "value": {
+              "min": 0.25,
+              "max": 0.5,
+              "step": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "attribute": "the_vault:burning_hit_chance",
+        "group": "ModBurningHit",
+        "identifier": "the_vault:mod_burning_hit_lava_chicken",
+        "tags": [],
+        "tiers": [
+          {
+            "minLevel": 100,
+            "maxLevel": -1,
+            "weight": 1,
+            "value": {
+              "min": 0.14,
+              "max": 0.2,
+              "step": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "attribute": "the_vault:ap_scaling_damage",
+        "group": "apScalingDamage",
+        "identifier": "the_vault:ap_scaling_damage_scissors",
+        "tiers": [
+          {
+            "minLevel": 100,
+            "maxLevel": -1,
+            "weight": 1,
+            "value": {
+              "min": 0.25,
+              "max": 0.5,
+              "step": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "attribute": "the_vault:hemorrhaging",
+        "group": "ModBleed",
+        "identifier": "the_vault:mod_hemorrhaging",
+        "tiers": [
+          {
+            "minLevel": 100,
+            "maxLevel": -1,
+            "weight": 1,
+            "value": {
+              "flag": true
+            }
+          }
+        ]
+      },
+      {
+        "attribute": "the_vault:chaining_damage",
+        "group": "ModOnHitType",
+        "identifier": "the_vault:u_chaining_damage",
+        "tags": [],
+        "tiers": [
+          {
+            "minLevel": 100,
+            "maxLevel": -1,
+            "weight": 1,
+            "value": {
+              "min": 0.4,
+              "max": 0.8,
+              "step": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "attribute": "the_vault:jester_lucky_hit_chance_percentile",
+        "group": "UniqueLuckyHit",
+        "identifier": "the_vault:jester_lucky_hit_percentile",
+        "tags": [
+          "focusLuckyHitChance"
+        ],
+        "tiers": [
+          {
+            "minLevel": 100,
+            "maxLevel": -1,
+            "weight": 1,
+            "value": {
+              "min": 0.5,
+              "max": 1,
+              "step": 0.01
             }
           }
         ]
       }
+
     ]
   }
 }
