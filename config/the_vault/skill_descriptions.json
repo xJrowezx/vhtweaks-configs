@@ -1230,62 +1230,53 @@
         "text": "Increases your "
       },
       {
-        "text": "movement speed ",
+        "text": "Movement Speed",
         "color": "#F6CD0E"
       },
       {
-        "text": "by applying the "
+        "text": ".\n\n1 "
       },
       {
-        "text": "Speed ",
-        "color": "green"
-      },
-      {
-        "text": "effect permanently\n\n"
-      },
-      {
-        "text": "Every level of the Speed effect increases movement speed by "
-      },
-      {
-        "text": "20%",
+        "text": "+10%",
         "color": "#F6CD0E"
       },
       {
-        "text": "\n\n",
-        "color": "$text"
+        "text": "\n2 "
       },
       {
-        "text": "1 ",
-        "color": "$text"
+        "text": "+20%",
+        "color": "#F6CD0E"
       },
       {
-        "text": "+1\n",
-        "color": "green"
+        "text": "\n3 "
       },
       {
-        "text": "2 ",
-        "color": "$text"
+        "text": "+30%",
+        "color": "#F6CD0E"
       },
       {
-        "text": "+2\n",
-        "color": "green"
+        "text": "\n4 "
       },
       {
-        "text": "3 ",
-        "color": "$text"
+        "text": "+40%",
+        "color": "#F6CD0E"
       },
       {
-        "text": "+3\n",
-        "color": "green"
+        "text": "\n5 "
       },
       {
-        "text": "4 ",
-        "color": "$text"
+        "text": "+50%",
+        "color": "#F6CD0E"
       },
       {
-        "text": "+4\n",
-        "color": "green"
+        "text": "\n6 "
       },
+      {
+        "text": "+60%",
+        "color": "#F6CD0E"
+      },
+
+
       {
         "text": "\n\nOverlevels\n",
         "color": "#EFBF04"
@@ -1298,93 +1289,46 @@
         "text": "\n",
         "color": "$text"
       },
-      {
-        "text": "5 ",
-        "color": "$text"
-      },
-      {
-        "text": "+5\n",
-        "color": "green"
-      },
-      {
-        "text": "6 ",
-        "color": "$text"
-      },
-      {
-        "text": "+6\n",
-        "color": "green"
-      },
+
       {
         "text": "7 ",
         "color": "$text"
       },
       {
-        "text": "+7\n",
-        "color": "green"
+        "text": "+70%\n",
+        "color": "#F6CD0E"
       },
       {
         "text": "8 ",
         "color": "$text"
       },
       {
-        "text": "+8\n",
-        "color": "green"
+        "text": "+80%\n",
+        "color": "#F6CD0E"
       },
       {
         "text": "9 ",
         "color": "$text"
       },
       {
-        "text": "+9\n",
-        "color": "green"
+        "text": "+90%\n",
+        "color": "#F6CD0E"
       },
       {
         "text": "10 ",
         "color": "$text"
       },
       {
-        "text": "+10\n",
-        "color": "green"
+        "text": "+100%\n",
+        "color": "#F6CD0E"
       },
       {
         "text": "11 ",
         "color": "$text"
       },
       {
-        "text": "+11\n",
-        "color": "green"
-      },
-      {
-        "text": "12 ",
-        "color": "$text"
-      },
-      {
-        "text": "+12\n",
-        "color": "green"
-      },
-      {
-        "text": "13 ",
-        "color": "$text"
-      },
-      {
-        "text": "+13\n",
-        "color": "green"
-      },
-      {
-        "text": "14 ",
-        "color": "$text"
-      },
-      {
-        "text": "+14\n",
-        "color": "green"
-      },
-      {
-        "text": "15 ",
-        "color": "$text"
-      },
-      {
-        "text": "+15\n",
-        "color": "green"
+        "text": "+110%\n",
+        "color": "#F6CD0E"
       }
     ],
     "Blazing": [

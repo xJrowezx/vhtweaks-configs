@@ -359,127 +359,106 @@
         "type": "tiered",
         "id": "Speed",
         "name": "Speed",
-        "maxLearnableTier": 4,
+        "maxLearnableTier": 6,
         "tiers": [
           {
-            "type": "effect",
-            "effect": "minecraft:speed",
-            "amplifier": 1,
-            "learnPointCost": 4,
-            "regretPointCost": 4,
-            "unlockLevel": 0
+            "type": "gear_attribute",
+            "attribute": "the_vault:movement_speed",
+            "value": 0.1,
+            "learnPointCost": 1,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "speed_1"
           },
           {
-            "type": "effect",
-            "effect": "minecraft:speed",
-            "amplifier": 2,
-            "learnPointCost": 4,
-            "regretPointCost": 4,
-            "unlockLevel": 0
+            "type": "gear_attribute",
+            "attribute": "the_vault:movement_speed",
+            "value": 0.2,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "speed_2"
           },
           {
-            "type": "effect",
-            "effect": "minecraft:speed",
-            "amplifier": 3,
-            "learnPointCost": 4,
-            "regretPointCost": 4,
-            "unlockLevel": 0
+            "type": "gear_attribute",
+            "attribute": "the_vault:movement_speed",
+            "value": 0.3,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "speed_3"
           },
           {
-            "type": "effect",
-            "effect": "minecraft:speed",
-            "amplifier": 4,
-            "learnPointCost": 4,
-            "regretPointCost": 4,
-            "unlockLevel": 0
+            "type": "gear_attribute",
+            "attribute": "the_vault:movement_speed",
+            "value": 0.4,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "speed_4"
           },
           {
-            "type": "effect",
-            "effect": "minecraft:speed",
-            "amplifier": 5,
-            "learnPointCost": 4,
-            "regretPointCost": 4,
-            "unlockLevel": 0
+            "type": "gear_attribute",
+            "attribute": "the_vault:movement_speed",
+            "value": 0.5,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "speed_5"
           },
           {
-            "type": "effect",
-            "effect": "minecraft:speed",
-            "amplifier": 6,
-            "learnPointCost": 4,
-            "regretPointCost": 4,
-            "unlockLevel": 0
+            "type": "gear_attribute",
+            "attribute": "the_vault:movement_speed",
+            "value": 0.6,
+            "learnPointCost": 1,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "speed_6"
           },
           {
-            "type": "effect",
-            "effect": "minecraft:speed",
-            "amplifier": 7,
-            "learnPointCost": 4,
-            "regretPointCost": 4,
-            "unlockLevel": 0
+            "type": "gear_attribute",
+            "attribute": "the_vault:movement_speed",
+            "value": 0.7,
+            "learnPointCost": 1,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "speed_7"
           },
           {
-            "type": "effect",
-            "effect": "minecraft:speed",
-            "amplifier": 8,
-            "learnPointCost": 4,
-            "regretPointCost": 4,
-            "unlockLevel": 0
+            "type": "gear_attribute",
+            "attribute": "the_vault:movement_speed",
+            "value": 0.8,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "speed_8"
           },
           {
-            "type": "effect",
-            "effect": "minecraft:speed",
-            "amplifier": 9,
-            "learnPointCost": 4,
-            "regretPointCost": 4,
-            "unlockLevel": 0
+            "type": "gear_attribute",
+            "attribute": "the_vault:movement_speed",
+            "value": 0.9,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "speed_9"
           },
           {
-            "type": "effect",
-            "effect": "minecraft:speed",
-            "amplifier": 10,
-            "learnPointCost": 4,
-            "regretPointCost": 4,
-            "unlockLevel": 0
+            "type": "gear_attribute",
+            "attribute": "the_vault:movement_speed",
+            "value": 1.0,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "speed_10"
           },
           {
-            "type": "effect",
-            "effect": "minecraft:speed",
-            "amplifier": 11,
-            "learnPointCost": 4,
-            "regretPointCost": 4,
-            "unlockLevel": 0
-          },
-          {
-            "type": "effect",
-            "effect": "minecraft:speed",
-            "amplifier": 12,
-            "learnPointCost": 4,
-            "regretPointCost": 4,
-            "unlockLevel": 0
-          },
-          {
-            "type": "effect",
-            "effect": "minecraft:speed",
-            "amplifier": 13,
-            "learnPointCost": 4,
-            "regretPointCost": 4,
-            "unlockLevel": 0
-          },
-          {
-            "type": "effect",
-            "effect": "minecraft:speed",
-            "amplifier": 14,
-            "learnPointCost": 4,
-            "regretPointCost": 4,
-            "unlockLevel": 0
-          },
-          {
-            "type": "effect",
-            "effect": "minecraft:speed",
-            "amplifier": 15,
-            "learnPointCost": 4,
-            "regretPointCost": 4,
-            "unlockLevel": 0
+            "type": "gear_attribute",
+            "attribute": "the_vault:movement_speed",
+            "value": 1.1,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "speed_11"
           }
         ]
       },
