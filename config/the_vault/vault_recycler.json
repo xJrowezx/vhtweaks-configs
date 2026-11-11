@@ -279,6 +279,90 @@
                 "minCount": 0,
                 "maxCount": 0
             }
+        },
+        "the_vault:deck_socket_lesser": {
+            "mainOutput": {
+                "chance": 1.0,
+                "stack": {
+                    "item": "minecraft:air"
+                },
+                "minCount": 1,
+                "maxCount": 1
+            },
+            "extraOutput1": {
+                "conditionalOutputs": {},
+                "chance": 0.0,
+                "stack": {
+                    "item": "minecraft:air"
+                },
+                "minCount": 1,
+                "maxCount": 1
+            },
+            "extraOutput2": {
+                "conditionalOutputs": {},
+                "chance": 0.0,
+                "stack": {
+                    "item": "minecraft:air"
+                },
+                "minCount": 1,
+                "maxCount": 1
+            }
+        },
+        "the_vault:deck_socket": {
+            "mainOutput": {
+                "chance": 1.0,
+                "stack": {
+                    "item": "the_vault:card_juice"
+                },
+                "minCount": 8,
+                "maxCount": 10
+            },
+            "extraOutput1": {
+                "conditionalOutputs": {},
+                "chance": 0.0,
+                "stack": {
+                    "item": "minecraft:air"
+                },
+                "minCount": 1,
+                "maxCount": 1
+            },
+            "extraOutput2": {
+                "conditionalOutputs": {},
+                "chance": 0.0,
+                "stack": {
+                    "item": "minecraft:air"
+                },
+                "minCount": 1,
+                "maxCount": 1
+            }
+        },
+        "the_vault:deck_socket_greater": {
+            "mainOutput": {
+                "chance": 1.0,
+                "stack": {
+                    "item": "the_vault:card_juice"
+                },
+                "minCount": 15,
+                "maxCount": 20
+            },
+            "extraOutput1": {
+                "conditionalOutputs": {},
+                "chance": 0.0,
+                "stack": {
+                    "item": "minecraft:air"
+                },
+                "minCount": 1,
+                "maxCount": 1
+            },
+            "extraOutput2": {
+                "conditionalOutputs": {},
+                "chance": 0.0,
+                "stack": {
+                    "item": "minecraft:air"
+                },
+                "minCount": 1,
+                "maxCount": 1
+            }
         }
     }
 }
