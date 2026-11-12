@@ -601,9 +601,34 @@
       "1.0": "config/the_vault/gen/1.0/loot_tables/dragon_goblins/unique.json"
     },
     {
-      "id": "the_vault:dungeon_boss",
-      "name": "Dungeon Boss",
-      "1.0": "config/the_vault/gen/1.0/loot_tables/dungeon_boss.json"
+      "id": "the_vault:dungeon_boss_20_easy",
+      "name": "Dungeon Boss Easy 20",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/dungeon_boss_20_easy.json"
+    },
+    {
+      "id": "the_vault:dungeon_boss_20_medium",
+      "name": "Dungeon Boss Medium 20",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/dungeon_boss_20_medium.json"
+    },
+    {
+      "id": "the_vault:dungeon_boss_20_hard",
+      "name": "Dungeon Boss Hard 20",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/dungeon_boss_20_hard.json"
+    },
+    {
+      "id": "the_vault:dungeon_boss_50_easy",
+      "name": "Dungeon Boss Easy 50",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/dungeon_boss_50_easy.json"
+    },
+    {
+      "id": "the_vault:dungeon_boss_50_medium",
+      "name": "Dungeon Boss Medium 50",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/dungeon_boss_50_medium.json"
+    },
+    {
+      "id": "the_vault:dungeon_boss_50_hard",
+      "name": "Dungeon Boss Hard 50",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/dungeon_boss_50_hard.json"
     },
     {
       "id": "the_vault:royale_wooden",

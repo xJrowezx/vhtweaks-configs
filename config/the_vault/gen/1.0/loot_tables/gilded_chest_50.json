@@ -188,9 +188,37 @@
               }
             },
             {
-              "weight": 125,
+              "weight": 42,
               "item": {
                 "id": "the_vault:magnet",
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "ornate0"
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 42,
+              "item": {
+                "id": "the_vault:plushie",
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "ornate0"
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 42,
+              "item": {
+                "id": "the_vault:loot_sack",
                 "nbt": {
                   "the_vault:gear_roll_type_pool": "ornate0"
                 },
@@ -205,6 +233,17 @@
               "weight": 5,
               "item": {
                 "id": "the_vault:trinket",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 5,
+              "item": {
+                "id": "the_vault:vault_necklace",
                 "count": {
                   "type": "uniform",
                   "min": 1,

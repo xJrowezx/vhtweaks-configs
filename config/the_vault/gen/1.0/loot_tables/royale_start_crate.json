@@ -1,6 +1,6 @@
 {
   "entries": [
-     {
+    {
       "roll": {
         "type": "constant",
         "count": 1
@@ -21,6 +21,39 @@
           "weight": 150,
           "item": {
             "id": "the_vault:axe",
+            "nbt": "{\"the_vault:gear_roll_type\": \"Scrappy\", \"the_vault:fullfill_all_affix\": true}",
+            "count": {
+              "type": "constant",
+              "count": 1
+            }
+          }
+        },
+        {
+          "weight": 150,
+          "item": {
+            "id": "the_vault:battlestaff",
+            "nbt": "{\"the_vault:gear_roll_type\": \"Scrappy\", \"the_vault:fullfill_all_affix\": true}",
+            "count": {
+              "type": "constant",
+              "count": 1
+            }
+          }
+        },
+        {
+          "weight": 150,
+          "item": {
+            "id": "the_vault:trident",
+            "nbt": "{\"the_vault:gear_roll_type\": \"Scrappy\", \"the_vault:fullfill_all_affix\": true}",
+            "count": {
+              "type": "constant",
+              "count": 1
+            }
+          }
+        },
+        {
+          "weight": 150,
+          "item": {
+            "id": "the_vault:rang",
             "nbt": "{\"the_vault:gear_roll_type\": \"Scrappy\", \"the_vault:fullfill_all_affix\": true}",
             "count": {
               "type": "constant",
