@@ -82,11 +82,11 @@
   "itemsToConsider": [
     {
       "value": {
-        "AMOUNT": 3,
+        "AMOUNT": 0,
         "ITEM": "woldsvaults:power_crystal",
         "NBT": "{}"
       },
-      "weight": 5
+      "weight": 0
     }
   ]
 }
