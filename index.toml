@@ -18258,6 +18258,11 @@ hash = "8ad329ed2c9a5eec61338d1141ecb8f052a27c7a4a02530cee5826fbbaaa993a"
 metafile = true
 
 [[files]]
+file = "mods/immersive-portals-for-vault-hunters.pw.toml"
+hash = "af4794499a3f835429f1cd19b7cbf4fd85fc07b244f7e18924b91e34a57695fa"
+metafile = true
+
+[[files]]
 file = "mods/industrial-foregoing-tweaker.pw.toml"
 hash = "6d41031250355db733ff073a29746b7d0ef4d721839510aa0ecfeab9e6dc866f"
 metafile = true

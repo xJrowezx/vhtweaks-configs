@@ -1,0 +1,13 @@
+name = "Immersive Portals for Vault Hunters"
+filename = "immersive-portals-1.4.20-vh3r.8-mc1.18.2-forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "87b905b9d2850ea08892ff71f84aefa4dd7a40e8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9557583
+project-id = 1787636
