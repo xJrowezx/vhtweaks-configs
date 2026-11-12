@@ -15102,7 +15102,7 @@ hash = "e6d8423bb56acefeb33e9eb9f0069f46ea68048b0ca8c6454693e0d50be24121"
 
 [[files]]
 file = "config/the_vault/unhinged_scavenger.json"
-hash = "c088fc9eba354c0c4d51ba4c0601c9df05caf03f0e17cb5cfe403215bdeee4d2"
+hash = "05ce197b77da0773d36f928b50fca5e135ecfc931273ee19a6a7d0217609b944"
 
 [[files]]
 file = "config/the_vault/unidentified_relic_fragments.json"
@@ -17706,7 +17706,7 @@ hash = "261014eb1d6c41ca132f8033c8cdec841300b75cbda2e76324945ac319102689"
 
 [[files]]
 file = "mods/VHTweaks-0.23.2-all.jar"
-hash = "45644e661d07a1ea2f215d8e61fc91e4e5482fb73dd9a60be958a11a2962d22e"
+hash = "8cd079f1b73ebbc857994d404dde3842fb1fa269d183e1627a5bb86e319c4643"
 
 [[files]]
 file = "mods/additional-lanterns.pw.toml"
