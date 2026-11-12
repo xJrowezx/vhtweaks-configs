@@ -898,7 +898,7 @@ hash = "e186f519c86ca1147baa8e7f32b15917257601f00486400ed54531107bdf9ac2"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "09ff2cc117a5cc73956c22b15272099b68bfb3ac2cf8e72e3bba14bb32d94e1f"
+hash = "75cc14b78af9da618f3da75d5cd1b8c3e31311f918eba1c392db8718707a5829"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -2387,6 +2387,30 @@ hash = "63ce61c74fe6fd8c78a22aca8f6a750bb0224ae532c2e12da9b57a9a4893bd01"
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/dungeon/ornate_50.json"
 hash = "62b1badb2ab426069e7dd27d5b64326a49a3f11a15ed106af2610b68af0c975a"
+
+[[files]]
+file = "config/the_vault/gen/1.0/loot_tables/dungeon_boss_20_easy.json"
+hash = "441d63e0d7ea54531caacb3d22ea7a8a97f84bd36ab49a8a647387e4bfd2a84d"
+
+[[files]]
+file = "config/the_vault/gen/1.0/loot_tables/dungeon_boss_20_hard.json"
+hash = "909d92e629fff745450bbb28ffdfea127575b51c54f14f76531e5394e1deae02"
+
+[[files]]
+file = "config/the_vault/gen/1.0/loot_tables/dungeon_boss_20_medium.json"
+hash = "0c075060b81006d2d7ec032098a10e4e4bff896ffb0a6f319b7dd9b5cc939809"
+
+[[files]]
+file = "config/the_vault/gen/1.0/loot_tables/dungeon_boss_50_easy.json"
+hash = "1a6e74552e7ce99b89ea0eae76cd09701ef37fd46ac10caedd6c44fdd6213c6f"
+
+[[files]]
+file = "config/the_vault/gen/1.0/loot_tables/dungeon_boss_50_hard.json"
+hash = "094cfb7d8b99d70d0926e52c18f2a5b6632f04a84b9d4cd3d9ca192020cdf1a3"
+
+[[files]]
+file = "config/the_vault/gen/1.0/loot_tables/dungeon_boss_50_medium.json"
+hash = "c94bd550b1dcf743c8d1810687530bee71c942b31f413b542453115432857001"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/empty.json"
