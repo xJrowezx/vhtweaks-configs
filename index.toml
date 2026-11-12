@@ -1121,14 +1121,6 @@ file = "config/pickupnotifier/overworld.json"
 hash = "fe8a4987d45421588a3e4a61ad209ebf1d2c912d522e0703759f4610e95e7d7f"
 
 [[files]]
-file = "config/pickupnotifier/pickupnotifier-client-1.toml.bak"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "config/pickupnotifier/pickupnotifier-client.toml"
-hash = "d52edb3748a5a588495adac6650f3df3da201532ecc6844602cfda93c0daeb96"
-
-[[files]]
 file = "config/pickupnotifier/the_end.json"
 hash = "0ac4d531645747dc2943359b1b4dd201109a2d5c7ceef7a2f2629c5a03a37f54"
 
@@ -10206,7 +10198,7 @@ hash = "aa90b1092e495fe935e0e0e6935b04192b0d87c5174580c8a5c88fe36c806692"
 
 [[files]]
 file = "config/the_vault/gen/1.0/structures/vault/rooms/challenge/protect_villager1.nbt"
-hash = "724de6adf24f6c285e02857b0600f2c3051269c967194970e82dc8dcfa66bd0a"
+hash = "01a61616660cbf66692c2a1d15a01a25534dc3471af7052d379f97d85e909664"
 
 [[files]]
 file = "config/the_vault/gen/1.0/structures/vault/rooms/challenge/raid1.nbt"
@@ -17758,7 +17750,7 @@ hash = "9cbf85e316dfa648baca8facd9d8d87afc23b4ed1b5ae492ef7353afa7e0e523"
 
 [[files]]
 file = "mods/VHTweaks-0.23.2-all.jar"
-hash = "74b4a93be89940bcfdbc5d937abfbc5100b394c9171d42a0d23bb2af1069aa23"
+hash = "721a3a327f1ea635d34c3f3b2fa8b8b5196e6325a5b1772d12d1fc6439399ca2"
 
 [[files]]
 file = "mods/additional-lanterns.pw.toml"
