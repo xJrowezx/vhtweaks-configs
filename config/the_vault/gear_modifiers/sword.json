@@ -1011,7 +1011,7 @@
       },
       {
         "attribute": "the_vault:echoing_chance",
-        "group": "ModOnHitAddition",
+        "group": "ModEchoChance",
         "identifier": "the_vault:mod_echoing_chance",
         "tags": [
           "focusEchoingChance"
@@ -2417,7 +2417,7 @@
       },
       {
         "attribute": "the_vault:chaining_damage",
-        "group": "ModOnHitType",
+        "group": "ModChainDamage",
         "identifier": "the_vault:u_chaining_damage",
         "tags": [],
         "tiers": [

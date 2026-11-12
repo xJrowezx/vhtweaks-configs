@@ -1330,7 +1330,7 @@ hash = "c73292a81a8409d74edb12b0bb9226bda03f39e11afc8abfe6bff52cc30ef480"
 
 [[files]]
 file = "config/the_vault/abilities.json"
-hash = "aae68e3a7e1f229d5c769210bde9596d5d564a236f8c622d12f3cd597d7de305"
+hash = "2d6e61b1d639a7b65f92bb1294e7d3077c58e1b083cfeb05350b481ac7ada0b4"
 
 [[files]]
 file = "config/the_vault/abilities_descriptions.json"
@@ -1718,11 +1718,11 @@ hash = "0d534401863cd3a873dcd6b26478c1cc23ab1ecd96502d0af0a7ab025b21150f"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/axe.json"
-hash = "d820270fd7dab99a30906db285f984cc4343d5f02c78067cd82c31e7a199e609"
+hash = "62b08ce4e72fb21f402dd9ad72149b801a3087a41d369ff494390a5c3f5f35b2"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/axe_mythic.json"
-hash = "fb6ec85ddea07cca48db53e37e6e32f20e30830a5043a547aa8fd93880f998d9"
+hash = "bc5052927d978b4d729eb196245103774ee2b584343838b08324be190dc3a26b"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/battlestaff.json"
@@ -1862,11 +1862,11 @@ hash = "cf162d2e849e8e73ad6519c128da2a4dc258eba971dbfeb88a8915c5b50ef56a"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/sword.json"
-hash = "c9b3e72ef7351ca1f4cfffa7906fed72d4238be2e237591df4ae9dd3ad89063e"
+hash = "02885dc45e51d54b5461ced2ae537936d1eb75cc65aa5b18e455807131958c9e"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/sword_mythic.json"
-hash = "53069ab6baf41adb9c6c2b58d31c55b93deb37c11af76fe3957c0b8d25c13d08"
+hash = "4d792ae3f953c371ecba971f2b92e172ea018c7e1804b05f61ae0806e2df02cd"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/trident.json"
