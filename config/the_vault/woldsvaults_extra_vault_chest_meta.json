@@ -7,10 +7,10 @@
       "OMEGA": 0.0
     },
     "the_vault:gilded_chest": {
-      "COMMON": 0.20000000298023224,
-      "RARE": 0.20000000298023224,
-      "EPIC": 0.20000000298023224,
-      "OMEGA": 0.20000000298023224
+      "COMMON": 0.0,
+      "RARE": 0.0,
+      "EPIC": 0.0,
+      "OMEGA": 0.0
     },
     "the_vault:living_chest": {
       "COMMON": 0.0,
@@ -25,28 +25,28 @@
       "OMEGA": 0.5
     },
     "the_vault:altar_chest": {
-      "COMMON": 0.699999988079071,
-      "RARE": 0.699999988079071,
-      "EPIC": 0.699999988079071,
-      "OMEGA": 0.699999988079071
+      "COMMON": 0.0,
+      "RARE": 0.0,
+      "EPIC": 0.0,
+      "OMEGA": 0.0
     },
     "the_vault:treasure_chest": {
-      "COMMON": 0.5,
-      "RARE": 0.5,
-      "EPIC": 0.5,
-      "OMEGA": 0.5
+      "COMMON": 0.0,
+      "RARE": 0.0,
+      "EPIC": 0.0,
+      "OMEGA": 0.0
     },
     "the_vault:ornate_strongbox": {
-      "COMMON": 0.5,
-      "RARE": 0.5,
-      "EPIC": 0.5,
-      "OMEGA": 0.5
+      "COMMON": 0.0,
+      "RARE": 0.0,
+      "EPIC": 0.0,
+      "OMEGA": 0.0
     },
     "the_vault:gilded_strongbox": {
-      "COMMON": 0.20000000298023224,
-      "RARE": 0.20000000298023224,
-      "EPIC": 0.20000000298023224,
-      "OMEGA": 0.20000000298023224
+      "COMMON": 0.0,
+      "RARE": 0.0,
+      "EPIC": 0.0,
+      "OMEGA": 0.0
     },
     "the_vault:living_strongbox": {
       "COMMON": 0.0,
@@ -61,10 +61,10 @@
       "OMEGA": 0.5
     },
     "the_vault:gilded_barrel": {
-      "COMMON": 0.20000000298023224,
-      "RARE": 0.20000000298023224,
-      "EPIC": 0.20000000298023224,
-      "OMEGA": 0.20000000298023224
+      "COMMON": 0.0,
+      "RARE": 0.0,
+      "EPIC": 0.0,
+      "OMEGA": 0.0
     },
     "the_vault:living_barrel": {
       "COMMON": 0.0,

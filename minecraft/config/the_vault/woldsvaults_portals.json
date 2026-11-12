@@ -1,0 +1,496 @@
+{
+  "CHANCE_OF_NETHER_THEME_IN_NETHER": 0.0,
+  "CHANCE_OF_VOID_THEME_IN_END": 0.0,
+  "DIMENSION_CHOOSE_LIST": [
+    {
+      "value": "minecraft:overworld",
+      "weight": 1
+    },
+    {
+      "value": "minecraft:the_nether",
+      "weight": 0
+    },
+    {
+      "value": "minecraft:the_end",
+      "weight": 0
+    }
+  ],
+  "PORTAL_LIST": [
+    {
+      "value": {
+        "crystalData": {
+          "objectives": [
+            {
+              "weight": 5,
+              "objective": {
+                "type": "bingo",
+                "objective_probability": 0.8,
+                "width": 9,
+                "height": 9,
+                "blackout": false
+              }
+            },
+            {
+              "weight": 3,
+              "objective": {
+                "type": "scavenger",
+                "objective_probability": 0.8
+              }
+            }
+          ],
+          "layout": {
+            "tunnel_span": 1,
+            "radius": 15,
+            "type": "circle"
+          },
+          "sigil": {
+            "type": "legend"
+          },
+          "modifiers": [
+            {
+              "modifierId": "the_vault:overvault_portal_spp",
+              "amount": 1
+            }
+          ],
+          "time": {
+            "roll": {
+              "count": 30000,
+              "type": "constant"
+            },
+            "type": "value"
+          },
+          "rollRandomModifiers": false
+        },
+        "shouldDecay": false,
+        "decayTime": 5400,
+        "portalOpenLang": "§3You sense an overwhelming energy in %s. (§x§F§F§2§A§2§CS++-Rank Vault§3)",
+        "loginMessage": "§oAn overwhelming OverVault presence is still open in %s. (§x§F§F§2§A§2§C§oS++-Rank Vault§r§o)",
+        "portalDecayed": "§o§5The overwhelming OverVault in %s decays and closes. (§x§F§F§2§A§2§CS++-Rank Vault§5)"
+      },
+      "weight": 0
+    },
+    {
+      "value": {
+        "crystalData": {
+          "objectives": [
+            {
+              "weight": 1,
+              "objective": {
+                "type": "bingo",
+                "objective_probability": 0.8,
+                "width": 7,
+                "height": 7,
+                "blackout": false
+              }
+            },
+            {
+              "weight": 1,
+              "objective": {
+                "type": "scavenger",
+                "objective_probability": 0.8
+              }
+            }
+          ],
+          "layout": {
+            "tunnel_span": 1,
+            "radius": 10,
+            "type": "circle"
+          },
+          "sigil": {
+            "type": "veteran"
+          },
+          "modifiers": [
+            {
+              "modifierId": "the_vault:overvault_portal_sp",
+              "amount": 1
+            }
+          ],
+          "time": {
+            "roll": {
+              "count": 30000,
+              "type": "constant"
+            },
+            "type": "value"
+          },
+          "rollRandomModifiers": false
+        },
+        "shouldDecay": false,
+        "decayTime": 5400,
+        "portalOpenLang": "§3You sense a crushing energy in %s. (§x§F§F§4§A§2§6S+-Rank Vault§3)",
+        "loginMessage": "§oA crushing OverVault presence is still open in %s. (§x§F§F§4§A§2§6§oS+-Rank Vault§r§o)",
+        "portalDecayed": "§o§5The crushing OverVault in %s decays and closes. (§x§F§F§4§A§2§6S+-Rank Vault§5)"
+      },
+      "weight": 0
+    },
+    {
+      "value": {
+        "crystalData": {
+          "objectives": [
+            {
+              "weight": 1,
+              "objective": {
+                "type": "bingo",
+                "objective_probability": 0.8,
+                "width": 7,
+                "height": 7,
+                "blackout": true
+              }
+            },
+            {
+              "weight": 1,
+              "objective": {
+                "type": "scavenger",
+                "objective_probability": 0.8
+              }
+            }
+          ],
+          "layout": {
+            "tunnel_span": 1,
+            "radius": 10,
+            "type": "circle"
+          },
+          "sigil": {
+            "type": "master"
+          },
+          "modifiers": [
+            {
+              "modifierId": "the_vault:overvault_portal_s",
+              "amount": 1
+            }
+          ],
+          "time": {
+            "roll": {
+              "count": 30000,
+              "type": "constant"
+            },
+            "type": "value"
+          },
+          "rollRandomModifiers": false
+        },
+        "shouldDecay": false,
+        "decayTime": 5400,
+        "portalOpenLang": "§3You sense a strong energy in %s. (§x§F§F§6§A§2§6S-Rank Vault§3)",
+        "loginMessage": "§oA strong OverVault presence is still open in %s. (§x§F§F§6§A§2§6§oS-Rank Vault§r§o)",
+        "portalDecayed": "§o§5The strong OverVault in %s decays and closes. (§x§F§F§6§A§2§6S-Rank Vault§5)"
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "crystalData": {
+          "objectives": [
+            {
+              "weight": 5,
+              "objective": {
+                "type": "bingo",
+                "objective_probability": 0.8,
+                "width": 7,
+                "height": 7,
+                "blackout": true
+              }
+            },
+            {
+              "weight": 3,
+              "objective": {
+                "type": "scavenger",
+                "objective_probability": 0.8
+              }
+            },
+            {
+              "weight": 1,
+              "objective": {
+                "type": "elixir",
+                "objective_probability": 0.7
+              }
+            },
+            {
+              "weight": 1,
+              "objective": {
+                "type": "rune_boss",
+                "objective_probability": 0.05
+              }
+            }
+          ],
+          "layout": {
+            "tunnel_span": 1,
+            "radius": 10,
+            "type": "circle"
+          },
+          "sigil": {
+            "type": "expert"
+          },
+          "modifiers": [
+            {
+              "modifierId": "the_vault:overvault_portal_a",
+              "amount": 1
+            }
+          ],
+          "time": {
+            "roll": {
+              "count": 30000,
+              "type": "constant"
+            },
+            "type": "value"
+          },
+          "rollRandomModifiers": false
+        },
+        "shouldDecay": false,
+        "decayTime": 5400,
+        "portalOpenLang": "§3You sense a brutal energy in %s. (§x§F§F§8§C§2§EA-Rank Vault§3)",
+        "loginMessage": "§oA brutal OverVault presence is still open in %s. (§x§F§F§8§C§2§E§oA-Rank Vault§r§o)",
+        "portalDecayed": "§o§5The brutal OverVault in %s decays and closes. (§x§F§F§8§C§2§EA-Rank Vault§5)"
+      },
+      "weight": 6
+    },
+    {
+      "value": {
+        "crystalData": {
+          "objectives": [
+            {
+              "weight": 6,
+              "objective": {
+                "type": "bingo",
+                "objective_probability": 0.8,
+                "width": 4,
+                "height": 4,
+                "blackout": false
+              }
+            },
+            {
+              "weight": 4,
+              "objective": {
+                "type": "scavenger",
+                "objective_probability": 0.8
+              }
+            },
+            {
+              "weight": 1,
+              "objective": {
+                "type": "elixir",
+                "objective_probability": 0.7
+              }
+            },
+            {
+              "weight": 1,
+              "objective": {
+                "type": "rune_boss",
+                "objective_probability": 0.05
+              }
+            }
+          ],
+          "layout": {
+            "tunnel_span": 1,
+            "radius": 10,
+            "type": "circle"
+          },
+          "sigil": {
+            "type": "adept"
+          },
+          "modifiers": [
+            {
+              "modifierId": "the_vault:overvault_portal_b",
+              "amount": 1
+            }
+          ],
+          "time": {
+            "roll": {
+              "count": 30000,
+              "type": "constant"
+            },
+            "type": "value"
+          },
+          "rollRandomModifiers": false
+        },
+        "shouldDecay": false,
+        "decayTime": 5400,
+        "portalOpenLang": "§3You sense a dangerous energy in %s. (§x§F§F§C§5§2§EB-Rank Vault§3)",
+        "loginMessage": "§oA dangerous OverVault presence is still open in %s. (§x§F§F§C§5§2§E§oB-Rank Vault§r§o)",
+        "portalDecayed": "§o§5The dangerous OverVault in %s decays and closes. (§x§F§F§C§5§2§EB-Rank Vault§5)"
+      },
+      "weight": 18
+    },
+    {
+      "value": {
+        "crystalData": {
+          "objectives": [
+            {
+              "weight": 1,
+              "objective": {
+                "type": "bingo",
+                "objective_probability": 0.8,
+                "width": 4,
+                "height": 4,
+                "blackout": false
+              }
+            },
+            {
+              "weight": 1,
+              "objective": {
+                "type": "scavenger",
+                "objective_probability": 0.8
+              }
+            },
+            {
+              "weight": 1,
+              "objective": {
+                "type": "elixir",
+                "objective_probability": 0.7
+              }
+            },
+            {
+              "weight": 1,
+              "objective": {
+                "type": "monolith",
+                "objective_probability": 1.0
+              }
+            },
+            {
+              "weight": 1,
+              "objective": {
+                "type": "rune_boss",
+                "objective_probability": 0.05
+              }
+            }
+          ],
+          "layout": {
+            "tunnel_span": 1,
+            "radius": 10,
+            "type": "circle"
+          },
+          "modifiers": [
+            {
+              "modifierId": "the_vault:overvault_portal_c",
+              "amount": 1
+            }
+          ],
+          "time": {
+            "roll": {
+              "count": 30000,
+              "type": "constant"
+            },
+            "type": "value"
+          },
+          "rollRandomModifiers": false
+        },
+        "shouldDecay": false,
+        "decayTime": 5400,
+        "portalOpenLang": "§3You sense a rising energy in %s. (§x§E§6§F§F§2§AC-Rank Vault§3)",
+        "loginMessage": "§oA rising OverVault presence is still open in %s. (§x§E§6§F§F§2§A§oC-Rank Vault§r§o)",
+        "portalDecayed": "§o§5The rising OverVault in %s decays and closes. (§x§E§6§F§F§2§AC-Rank Vault§5)"
+      },
+      "weight": 27
+    },
+    {
+      "value": {
+        "crystalData": {
+          "objectives": [
+            {
+              "weight": 1,
+              "objective": {
+                "type": "scavenger",
+                "objective_probability": 0.8
+              }
+            },
+            {
+              "weight": 1,
+              "objective": {
+                "type": "elixir",
+                "objective_probability": 0.7
+              }
+            },
+            {
+              "weight": 1,
+              "objective": {
+                "type": "monolith",
+                "objective_probability": 1.0
+              }
+            }
+          ],
+          "layout": {
+            "tunnel_span": 1,
+            "radius": 10,
+            "type": "circle"
+          },
+          "modifiers": [
+            {
+              "modifierId": "the_vault:overvault_portal_d",
+              "amount": 1
+            }
+          ],
+          "time": {
+            "roll": {
+              "count": 30000,
+              "type": "constant"
+            },
+            "type": "value"
+          },
+          "rollRandomModifiers": false
+        },
+        "shouldDecay": false,
+        "decayTime": 5400,
+        "portalOpenLang": "§3You sense a steady energy in %s. (§x§A§8§F§F§2§AD-Rank Vault§3)",
+        "loginMessage": "§oA steady OverVault presence is still open in %s. (§x§A§8§F§F§2§A§oD-Rank Vault§r§o)",
+        "portalDecayed": "§o§5The steady OverVault in %s decays and closes. (§x§A§8§F§F§2§AD-Rank Vault§5)"
+      },
+      "weight": 25
+    },
+    {
+      "value": {
+        "crystalData": {
+          "objectives": [
+            {
+              "weight": 1,
+              "objective": {
+                "type": "scavenger",
+                "objective_probability": 0.8
+              }
+            },
+            {
+              "weight": 1,
+              "objective": {
+                "type": "elixir",
+                "objective_probability": 0.7
+              }
+            },
+            {
+              "weight": 1,
+              "objective": {
+                "type": "monolith",
+                "objective_probability": 1.0
+              }
+            }
+          ],
+          "layout": {
+            "tunnel_span": 1,
+            "radius": 10,
+            "type": "circle"
+          },
+          "modifiers": [
+            {
+              "modifierId": "the_vault:overvault_portal_e",
+              "amount": 1
+            }
+          ],
+          "time": {
+            "roll": {
+              "count": 30000,
+              "type": "constant"
+            },
+            "type": "value"
+          },
+          "rollRandomModifiers": false
+        },
+        "shouldDecay": false,
+        "decayTime": 5400,
+        "portalOpenLang": "§3You sense a faint energy in %s. (§x§6§6§F§F§2§2E-Rank Vault§3)",
+        "loginMessage": "§oA faint OverVault presence is still open in %s. (§x§6§6§F§F§2§2§oE-Rank Vault§r§o)",
+        "portalDecayed": "§o§5The faint OverVault in %s decays and closes. (§x§6§6§F§F§2§2E-Rank Vault§5)"
+      },
+      "weight": 21
+    }
+  ],
+  "NETHER_VAULT_THEMES": [
+  ],
+  "VOID_VAULT_THEMES": [
+  ]
+}
