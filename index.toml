@@ -1518,7 +1518,7 @@ hash = "dbcf6db863a467d7c9262ec40a7b17d05c1fdeed0076353dd361113be62b3dc1"
 
 [[files]]
 file = "config/the_vault/challenge/actions.json"
-hash = "a0064af1b165050473fc35365ae0a540c8af128a2e5bde589dae13e4cbff8a95"
+hash = "86bdf537926399bfc6e4c04a8a55d0178b643966d5e8c2794d883ba073784c1c"
 
 [[files]]
 file = "config/the_vault/challenge/curses.json"
@@ -4194,7 +4194,7 @@ hash = "69ddc26edb3a27e00e718aa0ea4545a58a32d185eec21778ee9462204137331b"
 
 [[files]]
 file = "config/the_vault/gen/1.0/palettes/protect_villager/base.json"
-hash = "75b4dd459eacf6384bf7c5299bc90c5a4b74559a674e63e628f6f4a18b1ffb14"
+hash = "653cc92ae2ad771203ca0e190b8538e91e650b8b7e3e928f436bc9fa1456f38c"
 
 [[files]]
 file = "config/the_vault/gen/1.0/palettes/raid/base.json"
@@ -17746,7 +17746,7 @@ hash = "9cbf85e316dfa648baca8facd9d8d87afc23b4ed1b5ae492ef7353afa7e0e523"
 
 [[files]]
 file = "mods/VHTweaks-0.23.2-all.jar"
-hash = "721a3a327f1ea635d34c3f3b2fa8b8b5196e6325a5b1772d12d1fc6439399ca2"
+hash = "0bb2710c1fece1e628fd9c1ef364a31432d2ae59af44cbcbb6fdebc3e629663b"
 
 [[files]]
 file = "mods/additional-lanterns.pw.toml"

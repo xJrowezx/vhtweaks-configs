@@ -1,8 +1,8 @@
 {
     "tile_processors": [
         {
-          "type": "reference",
-          "id": "the_vault:generic/room_base"
+            "type": "reference",
+            "id": "the_vault:generic/room_base"
         },
         {
             "type": "weighted_target",
@@ -20,58 +20,48 @@
                         "max": [23, 15, 23]
                     },
                     "mobTypes": [
-                        "minecraft:zombie",
-                        "minecraft:zombie",
-                        "minecraft:zombie"
+                        "the_vault:bruiser_guardian",
+                        "the_vault:bruiser_guardian"
+                    ],
+                    "blockedAbilities": [
+                        "ManaBarrierAbility",
+                        "TauntAbility",
+                        "TauntCharmAbility",
+                        "TauntRepelAbility",
+                        "NovaAbility",
+                        "NovaDotAbility",
+                        "NovaSpeedAbility",
+                        "FireballAbility",
+                        "ImplodeAbility",
+                        "LifeTapAbility",
+                        "EarthquakeAbility",
+                        "EarthquakeSingularityAbility",
+                        "EarthquakeTremorAbility",
+                        "GrenadeAbility",
+                        "ToxicGrenadeAbility",
+                        "BladeFrenzyAbility",
+                        "SmiteAbility",
+                        "SmiteArchonAbility",
+                        "SmiteThunderstormAbility",
+                        "EmpowerFireAuraAbility",
+                        "EvokerFangsAbility",
+                        "EvokerFangsMawAbility"
                     ],
                     "waves": {
                         "type": "uniform",
-                        "min": 4,
-                        "max": 8
+                        "min": 5,
+                        "max": 5
                     },
                     "successActions": [
-                        {
-                            "type": "floating_item_reward",
-                            "item": {
-                                "id": "minecraft:diamond",
-                                "Count": 1
-                            },
-                            "color1": -16711681,
-                            "color2": -10092289
-                        }
+                        "protect_villager"
                     ],
                     "failureActions": [],
-                    "gildedActions": [
-                        {
-                            "type": "reference",
-                            "path": "gilded_chest"
-                        }
-                    ],
-                    "ornateActions": [
-                        {
-                            "type": "reference",
-                            "path": "ornate_chest"
-                        }
-                    ],
-                    "livingActions": [
-                        {
-                            "type": "reference",
-                            "path": "living_chest"
-                        }
-                    ],
-                    "coinPileActions": [
-                        {
-                            "type": "reference",
-                            "path": "coin_pile"
-                        }
-                    ],
                     "gates": [
                         { "pos": [21, 0, -2], "rotation": 1 },
                         { "pos": [-23, 0, -2], "rotation": 1 },
                         { "pos": [-2, 0, 23], "rotation": 0 },
                         { "pos": [-2, 0, -21], "rotation": 0 }
                     ],
-                    "baseModHealth": 100.0,
                     "weight": 1
                 }
             ]
