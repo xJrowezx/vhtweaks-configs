@@ -302,6 +302,8 @@
     "the_vault:dungeon_spider": 320.0,
     "the_vault:dungeon_skeleton": 320.0,
     "the_vault:dungeon_witch": 320,
+    "woldsvaults:vault_necromancer": 320,
+    "woldsvaults:witchskall": 320,
 
     "the_vault:vault_yellow_gummy_soldier": 26.0,
     "the_vault:vault_blue_gummy_soldier": 26.0,

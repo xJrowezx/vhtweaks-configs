@@ -32221,6 +32221,352 @@
                 "SCALE_MAX_LEVEL": -1
             }
         ],
+
+        "woldsvaults:vault_necromancer": [
+            {
+                "NAME": "minecraft:generic.max_health",
+                "LEVELS": [
+                    {
+                        "MIN_LEVEL": 0,
+                        "MIN": 35.0,
+                        "MAX": 45.0,
+                        "OPERATOR": "set",
+                        "ROLL_CHANCE": 1.0,
+                        "SCALE_PER_LEVEL": 0.1,
+                        "SCALE_MAX_LEVEL": 49
+                    },
+                    {
+                        "MIN_LEVEL": 50,
+                        "MIN": 61.0,
+                        "MAX": 68.0,
+                        "OPERATOR": "set",
+                        "ROLL_CHANCE": 1.0,
+                        "SCALE_PER_LEVEL": 0.1,
+                        "SCALE_MAX_LEVEL": 64
+                    },
+                    {
+                        "MIN_LEVEL": 65,
+                        "MIN": 66.0,
+                        "MAX": 76.0,
+                        "OPERATOR": "set",
+                        "ROLL_CHANCE": 1.0,
+                        "SCALE_PER_LEVEL": 0.1,
+                        "SCALE_MAX_LEVEL": 89
+                    },
+                    {
+                        "MIN_LEVEL": 80,
+                        "MIN": 72.60000000000001,
+                        "MAX": 83.60000000000001,
+                        "OPERATOR": "set",
+                        "ROLL_CHANCE": 1.0,
+                        "SCALE_PER_LEVEL": 0.1,
+                        "SCALE_MAX_LEVEL": -1
+                    },
+                    {
+                        "MIN_LEVEL": 90,
+                        "MIN": 79.2,
+                        "MAX": 91.2,
+                        "OPERATOR": "set",
+                        "ROLL_CHANCE": 1.0,
+                        "SCALE_PER_LEVEL": 0.1,
+                        "SCALE_MAX_LEVEL": -1
+                    },
+                    {
+                        "MIN_LEVEL": 80,
+                        "MIN": 87.12,
+                        "MAX": 100.32000000000001,
+                        "OPERATOR": "set",
+                        "ROLL_CHANCE": 1.0,
+                        "SCALE_PER_LEVEL": 0.1,
+                        "SCALE_MAX_LEVEL": -1
+                    },
+                    {
+                        "MIN_LEVEL": 90,
+                        "MIN": 95.04,
+                        "MAX": 109.44,
+                        "OPERATOR": "set",
+                        "ROLL_CHANCE": 1.0,
+                        "SCALE_PER_LEVEL": 0.1,
+                        "SCALE_MAX_LEVEL": -1
+                    }
+                ]
+            },
+            {
+                "NAME": "minecraft:generic.attack_damage",
+                "MIN": 2.5,
+                "MAX": 3.2,
+                "OPERATOR": "set",
+                "ROLL_CHANCE": 1.0,
+                "SCALE_PER_LEVEL": 0.05,
+                "SCALE_MAX_LEVEL": -1,
+                "LEVELS": [
+                    {
+                        "MIN_LEVEL": 80,
+                        "MIN": 2.75,
+                        "MAX": 3.5200000000000005,
+                        "OPERATOR": "set",
+                        "ROLL_CHANCE": 1.0,
+                        "SCALE_PER_LEVEL": 0.05,
+                        "SCALE_MAX_LEVEL": -1
+                    },
+                    {
+                        "MIN_LEVEL": 90,
+                        "MIN": 3.0,
+                        "MAX": 3.84,
+                        "OPERATOR": "set",
+                        "ROLL_CHANCE": 1.0,
+                        "SCALE_PER_LEVEL": 0.05,
+                        "SCALE_MAX_LEVEL": -1
+                    }
+                ]
+            },
+            {
+                "NAME": "the_vault:generic.crit_chance",
+                "LEVELS": [
+                    {
+                        "MIN_LEVEL": 0,
+                        "MIN": 0.07,
+                        "MAX": 0.1,
+                        "OPERATOR": "set",
+                        "ROLL_CHANCE": 1.0,
+                        "SCALE_PER_LEVEL": 0.0,
+                        "SCALE_MAX_LEVEL": 49
+                    },
+                    {
+                        "MIN_LEVEL": 50,
+                        "MIN": 0.1,
+                        "MAX": 0.17,
+                        "OPERATOR": "set",
+                        "ROLL_CHANCE": 1.0,
+                        "SCALE_PER_LEVEL": 0.0,
+                        "SCALE_MAX_LEVEL": 84
+                    },
+                    {
+                        "MIN_LEVEL": 85,
+                        "MIN": 0.15,
+                        "MAX": 0.22,
+                        "OPERATOR": "set",
+                        "ROLL_CHANCE": 1.0,
+                        "SCALE_PER_LEVEL": 0.0,
+                        "SCALE_MAX_LEVEL": -1
+                    }
+                ]
+            },
+            {
+                "NAME": "the_vault:generic.crit_multiplier",
+                "LEVELS": [
+                    {
+                        "MIN_LEVEL": 0,
+                        "MIN": 1.5,
+                        "MAX": 1.5,
+                        "OPERATOR": "set",
+                        "ROLL_CHANCE": 1.0,
+                        "SCALE_PER_LEVEL": 0.0,
+                        "SCALE_MAX_LEVEL": 49
+                    },
+                    {
+                        "MIN_LEVEL": 50,
+                        "MIN": 1.75,
+                        "MAX": 1.75,
+                        "OPERATOR": "set",
+                        "ROLL_CHANCE": 1.0,
+                        "SCALE_PER_LEVEL": 0.0,
+                        "SCALE_MAX_LEVEL": 84
+                    },
+                    {
+                        "MIN_LEVEL": 85,
+                        "MIN": 2.0,
+                        "MAX": 2.0,
+                        "OPERATOR": "set",
+                        "ROLL_CHANCE": 1.0,
+                        "SCALE_PER_LEVEL": 0.0,
+                        "SCALE_MAX_LEVEL": -1
+                    }
+                ]
+            },
+            {
+                "NAME": "forge:swim_speed",
+                "MIN": 5.0,
+                "MAX": 5.0,
+                "OPERATOR": "set",
+                "ROLL_CHANCE": 1.0,
+                "SCALE_PER_LEVEL": 0.0,
+                "SCALE_MAX_LEVEL": -1
+            }
+        ],
+        "woldsvaults:witchskall": [
+            {
+                "NAME": "minecraft:generic.max_health",
+                "LEVELS": [
+                    {
+                        "MIN_LEVEL": 0,
+                        "MIN": 35.0,
+                        "MAX": 45.0,
+                        "OPERATOR": "set",
+                        "ROLL_CHANCE": 1.0,
+                        "SCALE_PER_LEVEL": 0.1,
+                        "SCALE_MAX_LEVEL": 49
+                    },
+                    {
+                        "MIN_LEVEL": 50,
+                        "MIN": 61.0,
+                        "MAX": 68.0,
+                        "OPERATOR": "set",
+                        "ROLL_CHANCE": 1.0,
+                        "SCALE_PER_LEVEL": 0.1,
+                        "SCALE_MAX_LEVEL": 64
+                    },
+                    {
+                        "MIN_LEVEL": 65,
+                        "MIN": 66.0,
+                        "MAX": 76.0,
+                        "OPERATOR": "set",
+                        "ROLL_CHANCE": 1.0,
+                        "SCALE_PER_LEVEL": 0.1,
+                        "SCALE_MAX_LEVEL": 89
+                    },
+                    {
+                        "MIN_LEVEL": 80,
+                        "MIN": 72.60000000000001,
+                        "MAX": 83.60000000000001,
+                        "OPERATOR": "set",
+                        "ROLL_CHANCE": 1.0,
+                        "SCALE_PER_LEVEL": 0.1,
+                        "SCALE_MAX_LEVEL": -1
+                    },
+                    {
+                        "MIN_LEVEL": 90,
+                        "MIN": 79.2,
+                        "MAX": 91.2,
+                        "OPERATOR": "set",
+                        "ROLL_CHANCE": 1.0,
+                        "SCALE_PER_LEVEL": 0.1,
+                        "SCALE_MAX_LEVEL": -1
+                    },
+                    {
+                        "MIN_LEVEL": 80,
+                        "MIN": 87.12,
+                        "MAX": 100.32000000000001,
+                        "OPERATOR": "set",
+                        "ROLL_CHANCE": 1.0,
+                        "SCALE_PER_LEVEL": 0.1,
+                        "SCALE_MAX_LEVEL": -1
+                    },
+                    {
+                        "MIN_LEVEL": 90,
+                        "MIN": 95.04,
+                        "MAX": 109.44,
+                        "OPERATOR": "set",
+                        "ROLL_CHANCE": 1.0,
+                        "SCALE_PER_LEVEL": 0.1,
+                        "SCALE_MAX_LEVEL": -1
+                    }
+                ]
+            },
+            {
+                "NAME": "minecraft:generic.attack_damage",
+                "MIN": 2.5,
+                "MAX": 3.2,
+                "OPERATOR": "set",
+                "ROLL_CHANCE": 1.0,
+                "SCALE_PER_LEVEL": 0.05,
+                "SCALE_MAX_LEVEL": -1,
+                "LEVELS": [
+                    {
+                        "MIN_LEVEL": 80,
+                        "MIN": 2.75,
+                        "MAX": 3.5200000000000005,
+                        "OPERATOR": "set",
+                        "ROLL_CHANCE": 1.0,
+                        "SCALE_PER_LEVEL": 0.05,
+                        "SCALE_MAX_LEVEL": -1
+                    },
+                    {
+                        "MIN_LEVEL": 90,
+                        "MIN": 3.0,
+                        "MAX": 3.84,
+                        "OPERATOR": "set",
+                        "ROLL_CHANCE": 1.0,
+                        "SCALE_PER_LEVEL": 0.05,
+                        "SCALE_MAX_LEVEL": -1
+                    }
+                ]
+            },
+            {
+                "NAME": "the_vault:generic.crit_chance",
+                "LEVELS": [
+                    {
+                        "MIN_LEVEL": 0,
+                        "MIN": 0.07,
+                        "MAX": 0.1,
+                        "OPERATOR": "set",
+                        "ROLL_CHANCE": 1.0,
+                        "SCALE_PER_LEVEL": 0.0,
+                        "SCALE_MAX_LEVEL": 49
+                    },
+                    {
+                        "MIN_LEVEL": 50,
+                        "MIN": 0.1,
+                        "MAX": 0.17,
+                        "OPERATOR": "set",
+                        "ROLL_CHANCE": 1.0,
+                        "SCALE_PER_LEVEL": 0.0,
+                        "SCALE_MAX_LEVEL": 84
+                    },
+                    {
+                        "MIN_LEVEL": 85,
+                        "MIN": 0.15,
+                        "MAX": 0.22,
+                        "OPERATOR": "set",
+                        "ROLL_CHANCE": 1.0,
+                        "SCALE_PER_LEVEL": 0.0,
+                        "SCALE_MAX_LEVEL": -1
+                    }
+                ]
+            },
+            {
+                "NAME": "the_vault:generic.crit_multiplier",
+                "LEVELS": [
+                    {
+                        "MIN_LEVEL": 0,
+                        "MIN": 1.5,
+                        "MAX": 1.5,
+                        "OPERATOR": "set",
+                        "ROLL_CHANCE": 1.0,
+                        "SCALE_PER_LEVEL": 0.0,
+                        "SCALE_MAX_LEVEL": 49
+                    },
+                    {
+                        "MIN_LEVEL": 50,
+                        "MIN": 1.75,
+                        "MAX": 1.75,
+                        "OPERATOR": "set",
+                        "ROLL_CHANCE": 1.0,
+                        "SCALE_PER_LEVEL": 0.0,
+                        "SCALE_MAX_LEVEL": 84
+                    },
+                    {
+                        "MIN_LEVEL": 85,
+                        "MIN": 2.0,
+                        "MAX": 2.0,
+                        "OPERATOR": "set",
+                        "ROLL_CHANCE": 1.0,
+                        "SCALE_PER_LEVEL": 0.0,
+                        "SCALE_MAX_LEVEL": -1
+                    }
+                ]
+            },
+            {
+                "NAME": "forge:swim_speed",
+                "MIN": 5.0,
+                "MAX": 5.0,
+                "OPERATOR": "set",
+                "ROLL_CHANCE": 1.0,
+                "SCALE_PER_LEVEL": 0.0,
+                "SCALE_MAX_LEVEL": -1
+            }
+        ],
+
         "@the_vault:mob_type/dungeon_boss": [
             {
                 "NAME": "minecraft:generic.max_health",
