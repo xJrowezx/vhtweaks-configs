@@ -13,19 +13,7 @@
           "modifierFailurePool": "the_vault:altar_curses",
           "lootPool": [
             {
-              "weight": 18,
-              "item": {
-                "id": "the_vault:bitter_lemon"
-              }
-            },
-            {
-              "weight": 10,
-              "item": {
-                "id": "the_vault:mango"
-              }
-            },
-            {
-              "weight": 6,
+              "weight": 8,
               "item": {
                 "id": "the_vault:sour_orange"
               }
@@ -55,19 +43,7 @@
           "weight": 1,
           "lootPool": [
             {
-              "weight": 18,
-              "item": {
-                "id": "the_vault:bitter_lemon"
-              }
-            },
-            {
-              "weight": 10,
-              "item": {
-                "id": "the_vault:mango"
-              }
-            },
-            {
-              "weight": 6,
+              "weight": 8,
               "item": {
                 "id": "the_vault:sour_orange"
               }
@@ -96,19 +72,7 @@
           "weight": 1,
           "lootPool": [
             {
-              "weight": 18,
-              "item": {
-                "id": "the_vault:bitter_lemon"
-              }
-            },
-            {
-              "weight": 10,
-              "item": {
-                "id": "the_vault:mango"
-              }
-            },
-            {
-              "weight": 6,
+              "weight": 8,
               "item": {
                 "id": "the_vault:sour_orange"
               }
@@ -137,19 +101,7 @@
           "weight": 1,
           "lootPool": [
             {
-              "weight": 18,
-              "item": {
-                "id": "the_vault:bitter_lemon"
-              }
-            },
-            {
-              "weight": 10,
-              "item": {
-                "id": "the_vault:mango"
-              }
-            },
-            {
-              "weight": 6,
+              "weight": 8,
               "item": {
                 "id": "the_vault:sour_orange"
               }
