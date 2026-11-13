@@ -11750,6 +11750,22 @@
         "type": "structure",
         "path": "config/the_vault/gen/1.0/structures/vault/animations/protect/open/gate5.nbt"
       }
+    },
+    {
+      "id": "the_vault:vault/rooms/challenge/city1",
+      "name": "City 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/challenge/city1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/city/cityplane",
+      "name": "United Airlines Flight 175",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/city/cityplane.nbt"
+      }
     }
   ]
 }

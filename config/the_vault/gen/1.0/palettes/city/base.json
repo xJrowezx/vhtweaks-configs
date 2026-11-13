@@ -1,0 +1,53 @@
+{
+  "tile_processors": [
+    {
+      "type": "weighted_target",
+      "target": "minecraft:black_glazed_terracotta",
+      "output": {
+        "the_vault:unique_crate{LootTable:\"the_vault:city_unique_crate\"}": 0,
+        "minecraft:air": 9
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:white_glazed_terracotta",
+      "output": {
+        "woldsvaults:crystal_trader_controller": 1
+      }
+    },
+    {
+      "type": "placeholder",
+      "target": "VENDOR_PEDESTAL",
+      "levels": [
+        {
+          "level": 0,
+          "probability": 0.5,
+          "success": {
+            "the_vault:shop_pedestal": 1
+          },
+          "failure": {
+            "supplementaries:pedestal": 1
+          }
+        }
+      ]
+    },
+    {
+      "type": "reference",
+      "id": "the_vault:village/silverfish_spawner_settings"
+    },
+    {
+      "type": "reference",
+      "id": "the_vault:generic/room_base"
+    },
+    {
+      "type": "reference",
+      "id": "the_vault:generic/challenge_elite_spawners"
+    },
+    {
+      "type": "reference",
+      "id": "the_vault:generic/room_base"
+    }
+  ],
+  "entity_processors": [],
+  "decorators": []
+}

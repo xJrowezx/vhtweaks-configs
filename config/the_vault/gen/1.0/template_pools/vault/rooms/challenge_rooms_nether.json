@@ -43,5 +43,18 @@
       {
         "weight": 0,
         "reference": "the_vault:vault/rooms/challenge/protect_villager"
+      },
+      {
+        "weight": 1,
+        "reference": {
+          "id": "the_vault:vault/rooms/challenge/city",
+          "conditions": [
+            {
+              "type": "level",
+              "min": 50,
+              "max": -1
+            }
+          ]
+        }
       }
 ]

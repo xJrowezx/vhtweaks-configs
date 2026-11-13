@@ -4406,6 +4406,16 @@
       "id": "the_vault:vault/rooms/omega/garden",
       "name": "Garden",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/omega/garden.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/challenge/city",
+      "name": "City",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/challenge/city.json"
+    },
+    {
+      "id": "the_vault:vault/decor/city/plane",
+      "name": "City Plane",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/city/plane.json"
     }
   ]
 }

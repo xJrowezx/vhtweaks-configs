@@ -115,6 +115,9 @@
         ],
         "the_vault:gui/map/garden": [
             "the_vault:vault/rooms/omega/garden1"
+        ],
+        "the_vault:gui/map/city": [
+            "the_vault:vault/rooms/challenge/city1"
         ]
     }
 }

@@ -2534,6 +2534,11 @@
       "id": "the_vault:garden/base",
       "name": "Garden Base",
       "1.0": "config/the_vault/gen/1.0/palettes/garden/base.json"
+    },
+    {
+      "id": "the_vault:city/base",
+      "name": "City Base",
+      "1.0": "config/the_vault/gen/1.0/palettes/city/base.json"
     }
   ]
 }
