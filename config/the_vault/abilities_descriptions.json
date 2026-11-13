@@ -3,15 +3,19 @@
     "Dash_Base": {
       "description": [
         {
+          "text": "Flavor Text.\n\n",
+          "color": "$text"
+        },
+        {
           "text": "Propels you a ",
           "color": "$text"
         },
         {
-          "text": "distance",
+          "text": "distance ",
           "color": "$distance"
         },
         {
-          "text": " in the direction you are facing!\n\n",
+          "text": "in the direction you are facing.\n\n",
           "color": "$text"
         },
         {
@@ -33,15 +37,27 @@
     "Dash_Damage": {
       "description": [
         {
-          "text": "Turns your dashes into bullets, making you deal a percentage of your ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "physical damage",
+          "text": "Propels you a ",
+          "color": "$text"
+        },
+        {
+          "text": "distance ",
+          "color": "$distance"
+        },
+        {
+          "text": "in the direction you are facing, dealing a percentage of your ",
+          "color": "$text"
+        },
+        {
+          "text": "Attack Damage ",
           "color": "$damage"
         },
         {
-          "text": " to any mob you hit with your dash.\n\n",
+          "text": "to mobs hit. \n\n",
           "color": "$text"
         },
         {
@@ -65,27 +81,11 @@
     "Dash_Warp": {
       "description": [
         {
-          "text": "Shoot a ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "magic arrow",
-          "color": "$force"
-        },
-        {
-          "text": " that teleports you to its location ",
-          "color": "$text"
-        },
-        {
-          "text": "on impact",
-          "color": "$name"
-        },
-        {
-          "text": "\nIf you hit a mob or another player you swap places with them",
-          "color": "$text"
-        },
-        {
-          "text": ".\n\n",
+          "text": "Shoot a magic arrow that teleports you to the impact location. Mobs or other players hit with the arrow will instead swap places with you.\n\n",
           "color": "$text"
         },
         {
@@ -375,15 +375,39 @@
     "Ghost_Walk_Base": {
       "description": [
         {
-          "text": "Makes you invisible for a ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "duration of time",
+          "text": "Makes you ",
+          "color": "$text"
+        },
+        {
+          "text": "Invisible ",
+          "color": "$keyword"
+        },
+        {
+          "text": "until you attack or the ",
+          "color": "$text"
+        },
+        {
+          "text": "duration ",
           "color": "$duration"
         },
         {
-          "text": ". Attacking anything during the Ghost Walk will cancel its effect.\n\n",
+          "text": "expires.\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "-",
+          "color": "$text"
+        },
+        {
+          "text": "Invisible",
+          "color": "$keyword"
+        },
+        {
+          "text": ": Mobs will not attack or path towards you.\n\n",
           "color": "$text"
         },
         {
@@ -405,23 +429,39 @@
     "Ghost_Walk_Spirit": {
       "description": [
         {
-          "text": "Makes you invisible for a ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "duration of time",
+          "text": "Makes you ",
+          "color": "$text"
+        },
+        {
+          "text": "Invisible ",
+          "color": "$keyword"
+        },
+        {
+          "text": "until you attack, break a block, open a container, or the ",
+          "color": "$text"
+        },
+        {
+          "text": "duration ",
           "color": "$duration"
         },
         {
-          "text": ". Attacking anything, breaking a block, or opening a container during the ",
+          "text": "expires. \n\n",
           "color": "$text"
         },
         {
-          "text": "Spirit Walk",
-          "color": "$name"
+          "text": "-",
+          "color": "$text"
         },
         {
-          "text": " will cancel its effect.\n\n",
+          "text": "Invisible",
+          "color": "$keyword"
+        },
+        {
+          "text": ": Mobs will not attack or path towards you.\n\n",
           "color": "$text"
         },
         {
@@ -442,6 +482,10 @@
     },
     "Heal_Base": {
       "description": [
+        {
+          "text": "Flavor Text.\n\n",
+          "color": "$text"
+        },
         {
           "text": "Heals you for an amount of ",
           "color": "$text"
@@ -473,6 +517,10 @@
     "Heal_Cleanse": {
       "description": [
         {
+          "text": "Flavor Text.\n\n",
+          "color": "$text"
+        },
+        {
           "text": "Cleanses negative effects affecting you.\n\n",
           "color": "$text"
         },
@@ -493,15 +541,11 @@
     "Heal_Group": {
       "description": [
         {
-          "text": "Allows your Heal to affect all members of your Vault Party.\n\nParty members within the heal's ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "radius",
-          "color": "$heal"
-        },
-        {
-          "text": " will be healed for the full amount of ",
+          "text": "Heals all members of your Vault Party for an amount of ",
           "color": "$text"
         },
         {
@@ -509,7 +553,15 @@
           "color": "$heal"
         },
         {
-          "text": " while those outside the radius will heal for half the ",
+          "text": ". Party members outside of the ",
+          "color": "$text"
+        },
+        {
+          "text": "radius ",
+          "color": "$radius"
+        },
+        {
+          "text": "will only be healed for half the ",
           "color": "$text"
         },
         {
@@ -541,23 +593,27 @@
     "Hunter_Base": {
       "description": [
         {
-          "text": "Highlights all",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": " POI's",
-          "color": "$qhighlight"
-        },
-        {
-          "text": " in a ",
+          "text": "Highlight all ",
           "color": "$text"
         },
         {
-          "text": "radius",
+          "text": "Points of Interest ",
+          "color": "$keyword"
+        },
+        {
+          "text": "within a ",
+          "color": "$text"
+        },
+        {
+          "text": "radius ",
           "color": "$radius"
         },
         {
-          "text": " for a ",
+          "text": "for a ",
           "color": "$text"
         },
         {
@@ -565,40 +621,20 @@
           "color": "$duration"
         },
         {
-          "text": " of time.\n\n",
+          "text": ". The highlights are visible through blocks. \n\n",
           "color": "$text"
         },
         {
-          "text": "POI's include ",
+          "text": "-",
           "color": "$text"
         },
         {
-          "text": "all chests",
-          "color": "$chance"
+          "text": "Points of Interest",
+          "color": "$keyword"
         },
         {
-          "text": ", ",
+          "text": ": Chests, Coins, God Altars, and Objective Points.\n\n",
           "color": "$text"
-        },
-        {
-          "text": "coins",
-          "color": "$chance"
-        },
-        {
-          "text": ", ",
-          "color": "$text"
-        },
-        {
-          "text": "god altars",
-          "color": "$chance"
-        },
-        {
-          "text": " and ",
-          "color": "$text"
-        },
-        {
-          "text": "objective points",
-          "color": "$chance"
         },
         {
           "text": "\n\n\u2734 Cast Ability ",
@@ -861,67 +897,107 @@
     "Shield_Bash": {
       "description": [
         {
-          "text": "Dash forward and bash mobs with your shield, dealing an amount of ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "Attack Damage",
+          "text": "Dash forward, dealing a percentage of your ",
+          "color": "$text"
+        },
+        {
+          "text": "Attack Damage ",
           "color": "$damage"
         },
         {
-          "text": " in a ",
+          "text": "in a ",
           "color": "$text"
         },
         {
-          "text": "cone",
+          "text": "cone ",
           "color": "$radius"
         },
         {
-          "text": " in front of you. Mobs hit by the bash can be ",
+          "text": "in front of you. Additionally, the dash will apply ",
           "color": "$text"
         },
         {
-          "text": "stunned",
-          "color": "$stun"
+          "text": "Knockback ",
+          "color": "$keyword"
         },
         {
-          "text": " and ",
+          "text": "and ",
           "color": "$text"
         },
         {
-          "text": "knocked back",
-          "color": "$knockback"
+          "text": "Stun ",
+          "color": "$keyword"
         },
         {
-          "text": ", with increasing stun chance and knockback strength based on your ",
+          "text": "to mobs struck. ",
+          "color": "$text"
+        },
+        {
+          "text": "Knockback ",
+          "color": "$keyword"
+        },
+        {
+          "text": "and ",
+          "color": "$text"
+        },
+        {
+          "text": "Stun ",
+          "color": "$keyword"
+        },
+        {
+          "text": "chance are improved based on ",
           "color": "$text"
         },
         {
           "text": "Block Chance",
-          "color": "$chance"
+          "color": "$keyword"
+        },
+        {
+          "text": ". For each mob struck, 1 second of ",
+          "color": "$text"
+        },
+        {
+          "text": "cooldown ",
+          "color": "$cooldown"
+        },
+        {
+          "text": " is refunded, up to 80% of the total ",
+          "color": "$text"
+        },
+        {
+          "text": "cooldown",
+          "color": "$cooldown"
         },
         {
           "text": ".\n\n",
           "color": "$text"
         },
         {
-          "text": "Each mob hit refunds ",
+          "text": "-",
           "color": "$text"
         },
         {
-          "text": "1 second of cooldown",
-          "color": "$cooldown"
+          "text": "Knockback",
+          "color": "$keyword"
         },
         {
-          "text": ", up to ",
+          "text": ": How far a player or mob is pushed back from one another.\n\n",
           "color": "$text"
         },
         {
-          "text": "80%",
-          "color": "$chance"
+          "text": "-",
+          "color": "$text"
         },
         {
-          "text": " of the total cooldown.\n\n",
+          "text": "Stun",
+          "color": "$keyword"
+        },
+        {
+          "text": ": The mob will not move or attack for 1 second.\n\n",
           "color": "$text"
         },
         {
@@ -949,27 +1025,27 @@
     "Mana_Shield_Base": {
       "description": [
         {
-          "text": "Grants a ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "protective barrier",
-          "color": "$absorb"
-        },
-        {
-          "text": " for a ",
+          "text": "Gain a protective barrier, absorbing all damage until ",
           "color": "$text"
         },
         {
-          "text": "limited time",
+          "text": "Barrier Points ",
+          "color": "$keyword"
+        },
+        {
+          "text": "are depleted or ",
+          "color": "$text"
+        },
+        {
+          "text": "duration ",
           "color": "$duration"
         },
         {
-          "text": ", absorbing all incoming damage until the shield is depleted, or the time runs out.",
-          "color": "$text"
-        },
-        {
-          "text": "\n\n",
+          "text": "expires.\n\n",
           "color": "$text"
         },
         {
@@ -991,35 +1067,27 @@
     "Mana_Barrier": {
       "description": [
         {
-          "text": "Summon a magical ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "Mana Cube",
-          "color": "$absorb"
-        },
-        {
-          "text": " around you for a ",
+          "text": "Summon a stationary Mana Cube around you, with an ",
           "color": "$text"
         },
         {
-          "text": "duration of time",
+          "text": "inradius",
+          "color": "$radius"
+        },
+        {
+          "text": ", for a ",
+          "color": "$text"
+        },
+        {
+          "text": "duration",
           "color": "$duration"
         },
         {
-          "text": ". Mobs can not pass through these ",
-          "color": "$text"
-        },
-        {
-          "text": "blocks",
-          "color": "$absorb"
-        },
-        {
-          "text": " but you can!",
-          "color": "$text"
-        },
-        {
-          "text": "\n\n",
+          "text": ". The Mana Cube prevents mobs from passing through, while you can freely pass through.\n\n",
           "color": "$text"
         },
         {
@@ -1043,15 +1111,19 @@
     "Retribution_Base": {
       "description": [
         {
-          "text": "Gives you a mana shield that ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "redirects a percentage",
-          "color": "$absorb"
+          "text": "Channel a protective barrier to redirect a ",
+          "color": "$text"
         },
         {
-          "text": " of incoming damage to your ",
+          "text": "percentage ",
+          "color": "$keyword"
+        },
+        {
+          "text": "of incoming damage to your ",
           "color": "$text"
         },
         {
@@ -1100,6 +1172,10 @@
     },
     "Mana_Shield_Retribution": {
       "description": [
+        {
+          "text": "Flavor Text.\n\n",
+          "color": "$text"
+        },
         {
           "text": "Gives you a powerful aura of vengeance. When activated any incoming damage from mobs will build up ",
           "color": "$text"
@@ -1161,15 +1237,27 @@
     "Mana_Shield_Implode": {
       "description": [
         {
-          "text": "Drains all of your mana dealing damage equal to a ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "percentage",
-          "color": "$damage"
+          "text": "Drain all of your current ",
+          "color": "$text"
         },
         {
-          "text": " of the mana drained to all enemies in a ",
+          "text": "Mana",
+          "color": "$manaCost"
+        },
+        {
+          "text": ", dealing a percentage of the ",
+          "color": "$text"
+        },
+        {
+          "text": "Mana ",
+          "color": "$manaCost"
+        },
+        {
+          "text": "drained as damage to all mobs within a ",
           "color": "$text"
         },
         {
@@ -1199,15 +1287,19 @@
     "Mega_Jump_Base": {
       "description": [
         {
-          "text": "Gives you the ability to ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "mega jump",
-          "color": "$range"
+          "text": "Propels you vertically for a ",
+          "color": "$text"
         },
         {
-          "text": " up in the air.\n\n",
+          "text": "distance",
+          "color": "$distance"
+        },
+        {
+          "text": ".\n\n",
           "color": "$text"
         },
         {
@@ -1229,15 +1321,27 @@
     "Mega_Jump_Break_Down": {
       "description": [
         {
-          "text": "Drills you downward through blocks, breaking them in a ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "radius",
+          "text": "Drills you downward through blocks for ",
+          "color": "$text"
+        },
+        {
+          "text": "distance",
+          "color": "$distance"
+        },
+        {
+          "text": ", breaking them in a ",
+          "color": "$text"
+        },
+        {
+          "text": "radius ",
           "color": "$radius"
         },
         {
-          "text": " as you descend.\n\nThis ability only works inside vaults.\n\n",
+          "text": "as you descend.\n\n",
           "color": "$text"
         },
         {
@@ -1261,6 +1365,10 @@
     "Mega_Jump_Break_Up": {
       "description": [
         {
+          "text": "Flavor Text.\n\n",
+          "color": "$text"
+        },
+        {
           "text": "Launches you upward and breaks blocks you jump into.\n\nThis ability only works inside vaults.\n\n",
           "color": "$text"
         },
@@ -1283,11 +1391,15 @@
     "Nova_Base": {
       "description": [
         {
+          "text": "Flavor Text.\n\n",
+          "color": "$text"
+        },
+        {
           "text": "Deal a percentage of your ",
           "color": "$text"
         },
         {
-          "text": "ability power ",
+          "text": "Ability Power ",
           "color": "$ability_power"
         },
         {
@@ -1299,15 +1411,15 @@
           "color": "$radius"
         },
         {
-          "text": " around yourself.\n",
+          "text": " around yourself, with damage decreasing until the ",
           "color": "$text"
         },
         {
-          "text": "Nova's ",
-          "color": "$name"
+          "text": "radius ",
+          "color": "$radius"
         },
         {
-          "text": "damage decreases the further away the target is hit in its radius.",
+          "text": "is reached.\n\n",
           "color": "$text"
         },
         {
@@ -1331,31 +1443,55 @@
     "Nova_Dot": {
       "description": [
         {
-          "text": "Poisons mobs around you in a ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "radius",
+          "text": "Mobs in a ",
+          "color": "$text"
+        },
+        {
+          "text": "radius ",
           "color": "$radius"
         },
         {
-          "text": ", dealing a percentage of your ",
+          "text": "are ",
           "color": "$text"
         },
         {
-          "text": "ability power",
+          "text": "poisoned",
+          "color": "$poisoned"
+        },
+        {
+          "text": ", dealing a percentage of ",
+          "color": "$text"
+        },
+        {
+          "text": "Ability Power",
           "color": "$ability_power"
         },
         {
-          "text": " as damage over a ",
+          "text": ", over a ",
           "color": "$text"
         },
         {
-          "text": "duration of time",
+          "text": "duration",
           "color": "$duration"
         },
         {
           "text": ".\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "-",
+          "color": "$text"
+        },
+        {
+          "text": "Poison",
+          "color": "$poison"
+        },
+        {
+          "text": ": Deal a percentage of your ability power over its duration, ticking every second. Longer duration increases the amount of ticks and reduces the damage per tick to compensate.\n\n",
           "color": "$text"
         },
         {
@@ -1381,39 +1517,47 @@
     "Nova_Slow": {
       "description": [
         {
-          "text": "Freezes mobs around you in a ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "radius",
+          "text": "Mobs in a ",
+          "color": "$text"
+        },
+        {
+          "text": "radius ",
           "color": "$radius"
         },
         {
-          "text": " for a ",
+          "text": "are ",
           "color": "$text"
         },
         {
-          "text": "duration of time",
+          "text": "chilled ",
+          "color": "$chill"
+        },
+        {
+          "text": "for a ",
+          "color": "$text"
+        },
+        {
+          "text": "duration",
           "color": "$duration"
         },
         {
-          "text": ", then applies ",
+          "text": ".\n\n",
+          "color": "$text"
+        },
+         {
+          "text": "-",
           "color": "$text"
         },
         {
-          "text": "Hypothermia",
-          "color": "$slowness"
-        },
-        {
-          "text": ", causing them to stay ",
-          "color": "$text"
-        },
-        {
-          "text": "chilled",
+          "text": "Chill",
           "color": "$chilled"
         },
         {
-          "text": " and take damage every 3 seconds.\n\n",
+          "text": ": Reduce mob speed by 15% per stack.\n\n",
           "color": "$text"
         },
         {
@@ -1437,27 +1581,31 @@
     "Nova_Burn": {
       "description": [
         {
-          "text": "Burns mobs around you in a ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "radius",
-          "color": "$radius"
-        },
-        {
-          "text": ", dealing a percentage of your ",
+          "text": "Mobs in a radius begin to ",
           "color": "$text"
         },
         {
-          "text": "ability power",
+          "text": "Burn",
+          "color": "$burn"
+        },
+        {
+          "text": ", dealing a percentage of ",
+          "color": "$text"
+        },
+        {
+          "text": "Ability Power",
           "color": "$ability_power"
         },
         {
-          "text": " as damage over a ",
+          "text": ", over a ",
           "color": "$text"
         },
         {
-          "text": "duration of time",
+          "text": "duration",
           "color": "$duration"
         },
         {
@@ -1487,15 +1635,31 @@
     "Rampage_Base": {
       "description": [
         {
-          "text": "Enter a battle frenzy, increasing damage dealt by your ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "direct melee hits",
+          "text": "While channeling, increase your ",
+          "color": "$text"
+        },
+        {
+          "text": "melee hit damage ",
           "color": "$damage"
         },
         {
-          "text": ". Valid direct melee hits come from fully charged, non-critical melee attacks made by you.\n\n",
+          "text": "for non-critical strikes.\n\n",
+          "color": "$text"
+        },
+         {
+          "text": "-",
+          "color": "$text"
+        },
+        {
+          "text": "Melee Hit Damage",
+          "color": "$damage"
+        },
+        {
+          "text": ": Melee attacks while on the ground.\n\n",
           "color": "$text"
         },
         {
@@ -1516,6 +1680,10 @@
     },
     "Rampage_Chain": {
       "description": [
+        {
+          "text": "Flavor Text.\n\n",
+          "color": "$text"
+        },
         {
           "text": "Enter a chaining frenzy, giving your direct melee attacks a ",
           "color": "$text"
@@ -1547,6 +1715,10 @@
     "Rampage_Leech": {
       "description": [
         {
+          "text": "Flavor Text.\n\n",
+          "color": "$text"
+        },
+        {
           "text": "Enter a leeching frenzy, causing your direct melee attacks to restore health through ",
           "color": "$text"
         },
@@ -1576,6 +1748,10 @@
     },
     "Earthquake_Landmine": {
       "description": [
+        {
+          "text": "Flavor Text.\n\n",
+          "color": "$text"
+        },
         {
           "text": "Summon a ",
           "color": "$text"
@@ -1635,33 +1811,58 @@
     "Stonefall_Base": {
       "description": [
         {
+          "text": "Flavor Text.\n\n",
+          "color": "$text"
+        },
+        {
           "text": "Reduces ",
           "color": "$text"
         },
         {
-          "text": "fall damage",
-          "color": "$damage"
+          "text": "Fall Damage ",
+          "color": "$keyword"
         },
         {
-          "text": " when landing while ",
+          "text": "for a ",
           "color": "$text"
         },
         {
-          "text": "active",
+          "text": "duration",
           "color": "$duration"
         },
         {
-          "text": " knocking back",
+          "text": ". Additionally, apply ",
+          "color": "$text"
+        },
+        {
+          "text": "Knockback ",
+          "color": "$keyword"
+        },
+        {
+          "text": "to mobs within a ",
+          "color": "$text"
+        },
+        {
+          "text": "radius",
           "color": "$radius"
         },
         {
-          "text": " mobs in a radius",
+          "text": ", upon impact.\n\n",
           "color": "$text"
         },
         {
-          "text": ".\n\n",
+          "text": "-",
           "color": "$text"
         },
+        {
+          "text": "Knockback",
+          "color": "$keyword"
+        },
+        {
+          "text": ": How far a player or mob is pushed back from one another.\n\n",
+          "color": "$text"
+        },
+
         {
           "text": "\u2734 Cast Ability ",
           "color": "$castType"
@@ -1687,43 +1888,75 @@
     "Stonefall_Cold": {
       "description": [
         {
+          "text": "Flavor Text.\n\n",
+          "color": "$text"
+        },
+        {
           "text": "Reduces ",
           "color": "$text"
         },
         {
-          "text": "fall damage",
-          "color": "$damage"
+          "text": "Fall Damage ",
+          "color": "$keyword"
         },
         {
-          "text": " when landing while ",
+          "text": "for a ",
           "color": "$text"
         },
         {
-          "text": "active.\n",
+          "text": "duration",
           "color": "$duration"
         },
         {
-          "text": "Chilling",
+          "text": ". Additionally, ",
+          "color": "$text"
+        },
+        {
+          "text": "Chill ",
           "color": "$chilled"
         },
         {
-          "text": " and creating ",
+          "text": "and ",
           "color": "$text"
         },
         {
-          "text": "glacial prisons ",
+          "text": "Glacially Imprison ",
           "color": "$maxGlacialPrison"
         },
         {
-          "text": "to mobs in a radius.\n",
+          "text": "mobs within a ",
           "color": "$text"
         },
         {
-          "text": "The radius is affected by fall distance.",
+          "text": "radius",
+          "color": "$radius"
+        },
+        {
+          "text": ", upon impact.\n\n",
           "color": "$text"
         },
         {
-          "text": ".\n\n",
+          "text": "-",
+          "color": "$text"
+        },
+        {
+          "text": "Chill",
+          "color": "$chilled"
+        },
+        {
+          "text": ": Reduce mob speed by 15% per stack.\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "-",
+          "color": "$text"
+        },
+        {
+          "text": "Glacially Imprisoned",
+          "color": "$maxGlacialPrison"
+        },
+        {
+          "text": ": When a melee attack strikes the mob, it will be executed. Champion or  Elite mobs will instead take 25% of their max hp as damage.\n\n",
           "color": "$text"
         },
         {
@@ -1753,35 +1986,43 @@
     "Stonefall_Snow": {
       "description": [
         {
+          "text": "Flavor Text.\n\n",
+          "color": "$text"
+        },
+        {
           "text": "Reduces ",
           "color": "$text"
         },
         {
-          "text": "fall damage",
+          "text": "Fall Damage ",
           "color": "$damage"
         },
         {
-          "text": " when landing while ",
+          "text": "for a ",
           "color": "$text"
         },
         {
-          "text": "active ",
+          "text": "duration",
           "color": "$duration"
         },
         {
-          "text": "dealing damage based off ",
+          "text": ". Additionally, deal a percentage of ",
           "color": "$text"
         },
         {
-          "text": "ability power",
+          "text": "Ability Power ",
           "color": "$ability_power"
         },
         {
-          "text": " to nearby mobs in a radius\nThe radius is increased with your fall distance.",
+          "text": "to mobs in a ",
           "color": "$text"
         },
         {
-          "text": ".\n\n",
+          "text": "radius",
+          "color": "$radius"
+        },
+        {
+          "text": ", upon impact.\n\n",
           "color": "$text"
         },
         {
@@ -1808,6 +2049,10 @@
     },
     "Summon_Eternal_Base": {
       "description": [
+        {
+          "text": "Flavor Text.\n\n",
+          "color": "$text"
+        },
         {
           "text": "Summons your ",
           "color": "$text"
@@ -1841,23 +2086,43 @@
     "Empower_Base": {
       "description": [
         {
-          "text": "Gives you an aura of ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "movement speed",
+          "text": "Channel an aura of ",
+          "color": "$text"
+        },
+        {
+          "text": "Movement Speed",
           "color": "$speed"
         },
         {
-          "text": ". Affecting you and other players within ",
+          "text": ", affecting all players within a ",
           "color": "$text"
         },
         {
-          "text": "range",
+          "text": "radius",
           "color": "$radius"
         },
         {
-          "text": "  while active\n\n\u25cf Toggle Ability ",
+          "text": ".\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "-",
+          "color": "$text"
+        },
+        {
+          "text": "Movement Speed",
+          "color": "$keyword"
+        },
+        {
+          "text": "Increases base movement speed while on the ground.\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u25cf Toggle Ability ",
           "color": "$castType"
         }
       ],
@@ -1877,25 +2142,42 @@
     "Empower_Ice_Armor": {
       "description": [
         {
-          "text": "Encase yourself in a barrier of frost, ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "chilling",
+          "text": "Channel an aura of frost, ",
+          "color": "$text"
+        },
+        {
+          "text": "Chilling ",
           "color": "$chilled"
         },
         {
-          "text": " any mob that hits you for a ",
+          "text": "any mob that strikes you for a ",
           "color": "$text"
         },
         {
-          "text": "duration of time",
+          "text": "duration",
           "color": "$duration"
         },
         {
-          "text": " while active\n\n",
+          "text": ".\n\n",
           "color": "$text"
         },
+        {
+          "text": "-",
+          "color": "$text"
+        },
+        {
+          "text": "Chill",
+          "color": "$chilled"
+        },
+        {
+          "text": ": Reduce mob speed by 15% per stack.\n\n",
+          "color": "$text"
+        },
+
         {
           "text": "\u25cf Toggle Ability ",
           "color": "$castType"
@@ -1917,15 +2199,11 @@
     "Empower_Slowness_Aura": {
       "description": [
         {
-          "text": "Gives you an aura of entropy ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "slowing down",
-          "color": "$slowness"
-        },
-        {
-          "text": " mobs in a ",
+          "text": "Channel an aura of sloth, slowing all mobs within a ",
           "color": "$text"
         },
         {
@@ -1933,7 +2211,7 @@
           "color": "$radius"
         },
         {
-          "text": " around you while active\n\n",
+          "text": ".\n\n",
           "color": "$text"
         },
         {
@@ -1954,6 +2232,10 @@
     },
     "Empower_Fire_Aura": {
       "description": [
+        {
+          "text": "Flavor Text.\n\n",
+          "color": "$text"
+        },
         {
           "text": "Applies a Burn stack per second to mobs in a ",
           "color": "$text"
@@ -1994,51 +2276,51 @@
     "Taunt_Base": {
       "description": [
         {
-          "text": "Taunts mobs around you in a ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "radius",
+          "text": "Forces mobs in a ",
+          "color": "$text"
+        },
+        {
+          "text": "radius ",
           "color": "$radius"
         },
         {
-          "text": ", angering them towards you, and making them ",
+          "text": "around you to continually attack you for a ",
           "color": "$text"
         },
         {
-          "text": "vulnerable",
-          "color": "$vulnerable"
-        },
-        {
-          "text": " for a ",
-          "color": "$text"
-        },
-        {
-          "text": "duration of time",
+          "text": "duration",
           "color": "$duration"
         },
         {
-          "text": ".\n\n",
+          "text": ". Affected mobs also have ",
           "color": "$text"
         },
         {
-          "text": "Each ",
+          "text": "Vulnerability ",
+          "color": "$keyword"
+        },
+        {
+          "text": "applied to them.\n\n",
           "color": "$text"
         },
         {
-          "text": "level of Vulnerability",
-          "color": "$vulnerable"
-        },
-        {
-          "text": " increases damage taken to that mob by ",
+          "text": "-",
           "color": "$text"
         },
         {
-          "text": "10%",
-          "color": "$vulnerable"
+          "text": "Vulnerability",
+          "color": "$keyword"
         },
         {
-          "text": ".\n\n\u2734 Cast Ability ",
+          "text": ": Increase damage taken by 10% per stack.\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u2734 Cast Ability ",
           "color": "$castType"
         }
       ],
@@ -2060,23 +2342,47 @@
     "Taunt_Repel": {
       "description": [
         {
-          "text": "Fears mobs around you in a ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "radius",
+          "text": "Mobs within a ",
+          "color": "$text"
+        },
+        {
+          "text": "radius ",
           "color": "$radius"
         },
         {
-          "text": ". Feared mobs are pushed away and refuse to attack you for a ",
+          "text": "of you are afflicted with ",
           "color": "$text"
         },
         {
-          "text": "duration of time",
+          "text": "Knockback ",
+          "color": "$keyword"
+        },
+        {
+          "text": ", and will not direct attacks at you for a ",
+          "color": "$text"
+        },
+        {
+          "text": "duration",
           "color": "$duration"
         },
         {
           "text": ".\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "-",
+          "color": "$text"
+        },
+        {
+          "text": "Knockback",
+          "color": "$keyword"
+        },
+        {
+          "text": ": How far a player or mob is pushed back from one another.\n\n",
           "color": "$text"
         },
         {
@@ -2102,7 +2408,27 @@
     "Taunt_Decoy": {
       "description": [
         {
-          "text": "Fires a magic decoy projectile. When it lands, it creates a dummy using your skin that taunts mobs in a ",
+          "text": "Flavor Text.\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "Fire a magic arrow that, when it lands, creates a stationary ",
+          "color": "$text"
+        },
+        {
+          "text": "Clone ",
+          "color": "$keyword"
+        },
+        {
+          "text": "of you. The ",
+          "color": "$text"
+        },
+        {
+          "text": "Clone ",
+          "color": "$keyword"
+        },
+        {
+          "text": "will attract all mobs within a ",
           "color": "$text"
         },
         {
@@ -2110,15 +2436,35 @@
           "color": "$radius"
         },
         {
-          "text": " for a ",
+          "text": ", for a ",
           "color": "$text"
         },
         {
-          "text": "duration of time",
+          "text": "duration",
           "color": "$duration"
         },
         {
-          "text": ". The cooldown starts after the decoy disappears.\n\n",
+          "text": ". ",
+          "color": "$text"
+        },
+        {
+          "text": "Cooldown ",
+          "color": "$cooldown"
+        },
+        {
+          "text": "will only start once the ",
+          "color": "$text"
+        },
+        {
+          "text": "Clone ",
+          "color": "$keyword"
+        },
+        {
+          "text": "duration ",
+          "color": "$duration"
+        },
+        {
+          "text": "has expired.\n\n",
           "color": "$text"
         },
         {
@@ -2143,6 +2489,10 @@
     },
     "Taunt_Charm": {
       "description": [
+        {
+          "text": "Flavor Text.\n\n",
+          "color": "$text"
+        },
         {
           "text": "Charms a ",
           "color": "$text"
@@ -2214,15 +2564,19 @@
     "Totem_Base": {
       "description": [
         {
-          "text": "Creates a totem near you that ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "heals",
+          "text": "Summon a totem nearby that will ",
+          "color": "$text"
+        },
+        {
+          "text": "heal ",
           "color": "$heal"
         },
         {
-          "text": " all players in a ",
+          "text": "all players in a ",
           "color": "$text"
         },
         {
@@ -2230,7 +2584,23 @@
           "color": "$radius"
         },
         {
-          "text": " per second.\n\n",
+          "text": ", sending a ",
+          "color": "$text"
+        },
+        {
+          "text": "healing ",
+          "color": "$heal"
+        },
+        {
+          "text": "wave each second of its ",
+          "color": "$text"
+        },
+        {
+          "text": "duration",
+          "color": "duration"
+        },
+        {
+          "text": ".\n\n",
           "color": "$text"
         },
         {
@@ -2256,15 +2626,19 @@
     "Totem_Mana_Regen": {
       "description": [
         {
-          "text": "Creates a totem near you that regenerates ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "mana",
+          "text": "Summon a totem nearby that will increase ",
+          "color": "$text"
+        },
+        {
+          "text": "Mana Regen ",
           "color": "$manaCost"
         },
         {
-          "text": " of all players in a ",
+          "text": "within its ",
           "color": "$text"
         },
         {
@@ -2272,7 +2646,15 @@
           "color": "$radius"
         },
         {
-          "text": " per second.\n\n",
+          "text": ", for a ",
+          "color": "$text"
+        },
+        {
+          "text": "duration",
+          "color": "$duration"
+        },
+        {
+          "text": ".\n\n",
           "color": "$text"
         },
         {
@@ -2298,15 +2680,19 @@
     "Totem_Mob_Damage": {
       "description": [
         {
-          "text": "Creates a totem near you that does a minimal percentage of your ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "ability power",
+          "text": "Summon a totem nearby that will damage all mobs for 10% of your ",
+          "color": "$text"
+        },
+        {
+          "text": "Ability Power ",
           "color": "$ability_power"
         },
         {
-          "text": " to all mobs in a ",
+          "text": "in a ",
           "color": "$text"
         },
         {
@@ -2314,24 +2700,20 @@
           "color": "$radius"
         },
         {
-          "text": " on a ",
+          "text": ", sending a wave in ",
           "color": "$text"
         },
         {
-          "text": "delay",
-          "color": "$delay"
+          "text": "intervals ",
+          "color": "$duration"
         },
         {
-          "text": ". These hits applies any ",
+          "text": "for its ",
           "color": "$text"
         },
         {
-          "text": "on-hit effects ",
-          "color": "$name"
-        },
-        {
-          "text": "you may have, with the exception of Lucky Hit",
-          "color": "$text"
+          "text": "duration",
+          "color": "$duration"
         },
         {
           "text": ".\n\n",
@@ -2362,20 +2744,32 @@
     "Totem_Player_Damage": {
       "description": [
         {
-          "text": "Creates a totem near you that increases ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "physical damage",
+          "text": "Summon a totem nearby that will increase ",
+          "color": "$text"
+        },
+        {
+          "text": "Attack Damage ",
           "color": "$damage"
         },
         {
-          "text": " of all players in a ",
+          "text": "percentage within its ",
           "color": "$text"
         },
         {
           "text": "radius",
           "color": "$radius"
+        },
+        {
+          "text": ", for a ",
+          "color": "$text"
+        },
+        {
+          "text": "duration",
+          "color": "$duration"
         },
         {
           "text": ".\n\n",
@@ -2404,15 +2798,19 @@
     "Vein_Miner_Base": {
       "description": [
         {
+          "text": "Flavor Text.\n\n",
+          "color": "$text"
+        },
+        {
           "text": "Allows you to mine multiple ",
           "color": "$text"
         },
         {
-          "text": "blocks",
-          "color": "$blocks"
+          "text": "blocks ",
+          "color": "$radius"
         },
         {
-          "text": " at once!\n\n",
+          "text": "at once.\n\n",
           "color": "$text"
         },
         {
@@ -2430,23 +2828,35 @@
     "Vein_Miner_Durability": {
       "description": [
         {
-          "text": "Mines multiple matching ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "blocks",
-          "color": "$blocks"
-        },
-        {
-          "text": " at once and adds ",
+          "text": "Allows you to mine multiple ",
           "color": "$text"
         },
         {
-          "text": "Unbreaking",
-          "color": "$unbreaking"
+          "text": "blocks ",
+          "color": "$radius"
         },
         {
-          "text": " levels to the mining item used for the vein mine.\n\n",
+          "text": "at once, and adds ",
+          "color": "$text"
+        },
+        {
+          "text": "Unbreaking ",
+          "color": "$keyword"
+        },
+        {
+          "text": "levels to the tool being used for the ",
+          "color": "$text"
+        },
+        {
+          "text": "Vein Mine",
+          "color": "$keyword"
+        },
+        {
+          "text": ".\n\n",
           "color": "$text"
         },
         {
@@ -2465,6 +2875,10 @@
     },
     "Vein_Miner_Fortune": {
       "description": [
+        {
+          "text": "Flavor Text.\n\n",
+          "color": "$text"
+        },
         {
           "text": "Mines multiple matching ",
           "color": "$text"
@@ -2502,6 +2916,10 @@
     "Vein_Miner_Void": {
       "description": [
         {
+          "text": "Flavor Text.\n\n",
+          "color": "$text"
+        },
+        {
           "text": "Mines multiple matching ",
           "color": "$text"
         },
@@ -2536,29 +2954,42 @@
     "Javelin_Base": {
       "description": [
         {
-          "text": "Summon a magical Javelin to hit your foes afar\n\n",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "Deals an amount of ",
+          "text": "Launch a Javelin, dealing a percentage of ",
           "color": "$text"
         },
         {
-          "text": "damage ",
+          "text": "Attack Damage ",
           "color": "$damage"
         },
         {
-          "text": "based of your weapon damage and ",
+          "text": "and applying ",
           "color": "$text"
         },
         {
-          "text": "knocks mobs away ",
-          "color": "$knockback"
+          "text": "Knockback ",
+          "color": "$keyword"
         },
         {
-          "text": "on impact\n\n",
+          "text": "to the first mob hit.\n\n",
           "color": "$text"
         },
+        {
+          "text": "-",
+          "color": "$text"
+        },
+        {
+          "text": "Knockback",
+          "color": "$keyword"
+        },
+        {
+          "text": ": How far a player or mob is pushed back from one another.\n\n",
+          "color": "$text"
+        },
+
         {
           "text": "\u2734 Cast Ability ",
           "color": "$castType"
@@ -2580,27 +3011,27 @@
     "Javelin_Piercing": {
       "description": [
         {
-          "text": "Summon a magical Javelin to hit your foes afar\n\n",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "Deals an amount of ",
+          "text": "Launch a Javelin, dealing a percentage of ",
           "color": "$text"
         },
         {
-          "text": "damage ",
+          "text": "Attack Damage ",
           "color": "$damage"
         },
         {
-          "text": "based of your weapon damage and ",
+          "text": "and ",
           "color": "$text"
         },
         {
-          "text": "pierces an amount of mobs ",
-          "color": "$piercing"
+          "text": "Piercing ",
+          "color": "$keyword"
         },
         {
-          "text": "on impact\n\n",
+          "text": "mobs.\n\n",
           "color": "$text"
         },
         {
@@ -2624,32 +3055,48 @@
     "Javelin_Scatter": {
       "description": [
         {
-          "text": "Summon a magical Javelin to hit your foes afar\n\n",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "Deals an amount of ",
+          "text": "Launch a Javelin, dealing a percentage of ",
           "color": "$text"
         },
         {
-          "text": "damage ",
+          "text": "Attack Damage ",
           "color": "$damage"
         },
         {
-          "text": "based of your weapon damage and ",
+          "text": "and ",
           "color": "$text"
         },
         {
-          "text": "scatters an amount of javelins ",
-          "color": "$numberOfJavelins"
+          "text": "Scattering ",
+          "color": "$keyword"
         },
         {
-          "text": "on impact ",
+          "text": "into multiple ",
           "color": "$text"
         },
         {
-          "text": "bouncing several times\n\n",
-          "color": "$numberOfBounces"
+          "text": "Ricocheting ",
+          "color": "$keyword"
+        },
+        {
+          "text": "Javelins upon impact.\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "-",
+          "color": "$text"
+        },
+        {
+          "text": "Ricocheting",
+          "color": "$keyword"
+        },
+        {
+          "text": ": The projectile of this ability bounces off blocks.\n\n",
+          "color": "$text"
         },
         {
           "text": "\u2734 Cast Ability ",
@@ -2674,44 +3121,44 @@
     "Javelin_Sight": {
       "description": [
         {
-          "text": "Shoot a magical ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "Javelin",
-          "color": "$qhighlight"
-        },
-        {
-          "text": " that scans the area on impact in a ",
+          "text": "Shoot a magical Javelin that, upon impact, highlights all ",
           "color": "$text"
         },
         {
-          "text": "radius",
+          "text": "Chests ",
+          "color": "$keyword"
+        },
+        {
+          "text": "and ",
+          "color": "$text"
+        },
+        {
+          "text": "Mobs ",
+          "color": "$keyword"
+        },
+        {
+          "text": "within a ",
+          "color": "$text"
+        },
+        {
+          "text": "radius ",
           "color": "$radius"
         },
         {
-          "text": " revealing all ",
+          "text": "of it, for a ",
           "color": "$text"
         },
         {
-          "text": "chests",
-          "color": "$qhighlight"
-        },
-        {
-          "text": " and ",
-          "color": "$text"
-        },
-        {
-          "text": "mobs",
-          "color": "$qhighlight"
-        },
-        {
-          "text": " for a ",
-          "color": "$text"
-        },
-        {
-          "text": "duration of time\n\n",
+          "text": "duration",
           "color": "$duration"
+        },
+        {
+          "text": ". The highlights are visible through blocks.\n\n",
+          "color": "$text"
         },
         {
           "text": "\u2734 Cast Ability ",
@@ -2734,51 +3181,59 @@
     "Smite_Base": {
       "description": [
         {
-          "text": "While active, ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "Smite",
-          "color": "$name"
-        },
-        {
-          "text": " will ",
+          "text": "Channel a storm cloud around you, causing lightning bolts to strike mobs within its ",
           "color": "$text"
         },
         {
-          "text": " periodically ",
-          "color": "$damageInterval"
-        },
-        {
-          "text": " strike a mob within ",
-          "color": "$text"
-        },
-        {
-          "text": " range ",
+          "text": "radius ",
           "color": "$radius"
         },
         {
-          "text": " dealing a random percentage of your ",
+          "text": "for a percentage of ",
           "color": "$text"
         },
         {
-          "text": "ability power",
+          "text": "Ability Power",
           "color": "$ability_power"
         },
         {
-          "text": ", and transferring any ",
+          "text": ". The lighting bolts strike in ",
           "color": "$text"
         },
         {
-          "text": "on-hit modifiers ",
-          "color": "$name"
+          "text": "intervals",
+          "color": "$duration"
         },
         {
-          "text": "to the target with the exception of Lucky Hit.",
+          "text": ", and can inflict ",
           "color": "$text"
         },
         {
-          "text": "\n\n\u25cf Toggle Ability ",
+          "text": "On-hit Effects",
+          "color": "$keyword"
+        },
+        {
+          "text": ", with the exception of Lucky Hit.\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "-",
+          "color": "$text"
+        },
+        {
+          "text": "On-hit Effects",
+          "color": "$keyword"
+        },
+        {
+          "text": ": Chaining, Clouds, Echoing, Lucky Hit, Shocking, Stunning.\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u25cf Toggle Ability ",
           "color": "$castType"
         }
       ],
@@ -2802,43 +3257,23 @@
     "Smite_Thunderstorm": {
       "description": [
         {
-          "text": "While active, ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "Smite Thunderstorm",
-          "color": "$name"
-        },
-        {
-          "text": " will",
+          "text": "Channel a storm cloud around you, causing any mob that touches you to be dealt a percentage of ",
           "color": "$text"
         },
         {
-          "text": " rain down lightning bolts ",
-          "color": "$damageInterval"
-        },
-        {
-          "text": " striking mobs within a ",
-          "color": "$text"
-        },
-        {
-          "text": " range ",
-          "color": "$radius"
-        },
-        {
-          "text": " dealing a random percentage of your ",
-          "color": "$text"
-        },
-        {
-          "text": "ability power",
+          "text": "Ability Power",
           "color": "$ability_power"
         },
         {
-          "text": ".",
+          "text": ".\n\n",
           "color": "$text"
         },
         {
-          "text": "\n\n\u25cf Toggle Ability ",
+          "text": "\u25cf Toggle Ability ",
           "color": "$castType"
         }
       ],
@@ -2860,27 +3295,23 @@
     "Smite_Archon": {
       "description": [
         {
-          "text": "While active, ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "Smite Archon",
-          "color": "$name"
-        },
-        {
-          "text": " will turn you in to a spark. Making any mob you physically touch get bolted for a random percentage of your ",
+          "text": "Channel a storm cloud around you, causing any mob that touches you to be dealt a percentage of ",
           "color": "$text"
         },
         {
-          "text": "ability power",
+          "text": "Ability Power",
           "color": "$ability_power"
         },
         {
-          "text": ". ",
+          "text": ".\n\n",
           "color": "$text"
         },
         {
-          "text": "\n\n\u25cf Toggle Ability ",
+          "text": "\u25cf Toggle Ability ",
           "color": "$castType"
         }
       ],
@@ -2900,27 +3331,35 @@
     "Shell_Base": {
       "description": [
         {
-          "text": "While active, ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "Shell",
-          "color": "$name"
-        },
-        {
-          "text": " will give you hardened skin, giving you a ",
+          "text": "Channel a reactive shell around you that causes mobs that strike you to have a chance of being ",
           "color": "$text"
         },
         {
-          "text": " chance to stun mobs",
-          "color": "$chance"
+          "text": "Stunned",
+          "color": "$keyword"
         },
         {
-          "text": " when getting hit.",
+          "text": ".\n\n",
           "color": "$text"
         },
         {
-          "text": "\n\n\u25cf Toggle Ability ",
+          "text": "-",
+          "color": "$text"
+        },
+        {
+          "text": "Stun",
+          "color": "$keyword"
+        },
+        {
+          "text": ": The mob will not move or attack for 1 second.\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u25cf Toggle Ability ",
           "color": "$castType"
         }
       ],
@@ -2940,27 +3379,23 @@
     "Shell_Porcupine": {
       "description": [
         {
-          "text": "While active, ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "Porcupine",
-          "color": "$name"
-        },
-        {
-          "text": " will increase your",
+          "text": "Channel an aura that improves your ",
           "color": "$text"
         },
         {
-          "text": " Thorns Damage",
+          "text": "Thorns Damage",
           "color": "$damage"
         },
         {
-          "text": ".",
+          "text": ".\n\n",
           "color": "$text"
         },
         {
-          "text": "\n\n\u25cf Toggle Ability ",
+          "text": "\u25cf Toggle Ability ",
           "color": "$castType"
         }
       ],
@@ -2978,35 +3413,43 @@
     "Shell_Quill": {
       "description": [
         {
-          "text": "While active, ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "Quill",
-          "color": "$name"
-        },
-        {
-          "text": " will increase your",
+          "text": "Channel an aura that improves your ",
           "color": "$text"
         },
         {
-          "text": " Thorns Damage",
+          "text": "Thorns Damage ",
           "color": "$damage"
         },
         {
-          "text": " and",
+          "text": "and allows them to ",
           "color": "$text"
         },
         {
-          "text": " chain your thorns ",
-          "color": "$chains"
+          "text": "Chain ",
+          "color": "$chaining"
         },
         {
-          "text": "to hit additional targets.",
+          "text": "to additional mobs.\n\n",
           "color": "$text"
         },
         {
-          "text": "\n\n\u25cf Toggle Ability ",
+          "text": "-",
+          "color": "$text"
+        },
+        {
+          "text": "Chaining",
+          "color": "$chaining"
+        },
+        {
+          "text": ": Deal damage to another nearby mob, with each additional chain halving the damage dealt by the previous chain.\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u25cf Toggle Ability ",
           "color": "$castType"
         }
       ],
@@ -3028,23 +3471,31 @@
     "Fireball_Base": {
       "description": [
         {
-          "text": "Summon a magical Fireball to hit your foes afar\n\n",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "Deals an amount of ",
+          "text": "Launch a ball of fire, exploding upon impact and dealing a percentage of ",
           "color": "$text"
         },
         {
-          "text": "damage ",
+          "text": "Ability Power ",
           "color": "$ability_power"
         },
         {
-          "text": "based of your ability power.",
+          "text": "in a ",
           "color": "$text"
         },
         {
-          "text": "\n\n\u2734 Cast Ability ",
+          "text": "radius",
+          "color": "$radius"
+        },
+        {
+          "text": ".\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u2734 Cast Ability ",
           "color": "$castType"
         }
       ],
@@ -3064,23 +3515,35 @@
     "Fireball_Volley": {
       "description": [
         {
-          "text": "Summon a magical bouncing Fireball that ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "scorches ",
-          "color": "$ability_power"
-        },
-        {
-          "text": "mobs in its path and deals an amount of ",
+          "text": "Launch a ",
           "color": "$text"
         },
         {
-          "text": "damage ",
+          "text": "Ricocheting ",
+          "color": "$keyword"
+        },
+        {
+          "text": "ball of fire, dealing a percentage of ",
+          "color": "$text"
+        },
+        {
+          "text": "Ability Power ",
           "color": "$ability_power"
         },
         {
-          "text": "based of your ability power.\nAfter a ",
+          "text": "to any mobs it ",
+          "color": "$text"
+        },
+        {
+          "text": "Pierces ",
+          "color": "$keyword"
+        },
+        {
+          "text": " through. After a ",
           "color": "$text"
         },
         {
@@ -3088,7 +3551,7 @@
           "color": "$duration"
         },
         {
-          "text": " of time, it explodes in a ",
+          "text": ", the ball of fire will explode in a ",
           "color": "$text"
         },
         {
@@ -3096,11 +3559,23 @@
           "color": "$radius"
         },
         {
-          "text": " dealing its full damage.",
+          "text": ".\n\n",
           "color": "$text"
         },
         {
-          "text": "\n\n\u2734 Cast Ability ",
+          "text": "-",
+          "color": "$text"
+        },
+        {
+          "text": "Ricocheting",
+          "color": "$keyword"
+        },
+        {
+          "text": ": The projectile of this ability bounces off blocks.\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u2734 Cast Ability ",
           "color": "$castType"
         }
       ],
@@ -3122,39 +3597,43 @@
     "Fireball_Fireshot": {
       "description": [
         {
-          "text": "Summon a small magical fireshot to hit mobs from afar\n\n",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "Deals an amount of ",
+          "text": "Summon a small ball of fire, dealing a percentage of ",
           "color": "$text"
         },
         {
-          "text": "damage ",
+          "text": "Ability Power ",
           "color": "$ability_power"
         },
         {
-          "text": "based of your ",
+          "text": "to the first mob it hits. Additionally, ",
           "color": "$text"
         },
         {
-          "text": "ability power",
-          "color": "$ability_power"
+          "text": "On-hit Effects ",
+          "color": "$keyword"
         },
         {
-          "text": ", and transfers any ",
+          "text": "are transferred, with the exception of Lucky Hit.\n\n",
           "color": "$text"
         },
         {
-          "text": "on-hit effects ",
-          "color": "$name"
-        },
-        {
-          "text": "from you with the exception of Lucky Hit.",
+          "text": "-",
           "color": "$text"
         },
         {
-          "text": "\n\n\u2734 Cast Ability ",
+          "text": "On-hit Effects",
+          "color": "$keyword"
+        },
+        {
+          "text": ": Chaining, Clouds, Echoing, Lucky Hit, Shocking, Stunning.\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u2734 Cast Ability ",
           "color": "$castType"
         }
       ],
@@ -3172,39 +3651,47 @@
     "Storm_Arrow_Base": {
       "description": [
         {
-          "text": "Shoot an arrow that creates a storm above upon impact\n\n",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "Deals a random amount of ",
+          "text": "Launch an arrow that conjures a storm above where it impacts. Lightning will strike in ",
           "color": "$text"
         },
         {
-          "text": "damage ",
+          "text": "intervals",
+          "color": "$duration"
+        },
+        {
+          "text": ", hitting a mob within its ",
+          "color": "$text"
+        },
+        {
+          "text": "radius ",
+          "color": "$radius"
+        },
+        {
+          "text": "for a percentage of ",
+          "color": "$text"
+        },
+        {
+          "text": "Ability Power",
           "color": "$ability_power"
         },
         {
-          "text": "based of your ability power. The storm cloud stays for a ",
+          "text": ", until the ",
           "color": "$text"
         },
         {
-          "text": "duration",
+          "text": "duration ",
           "color": "$duration"
         },
         {
-          "text": " and will ",
+          "text": "ends.\n\n",
           "color": "$text"
         },
         {
-          "text": "strike",
-          "color": "$duration"
-        },
-        {
-          "text": " every so often.",
-          "color": "$text"
-        },
-        {
-          "text": "\n\n\u2734 Cast Ability ",
+          "text": "\u2734 Cast Ability ",
           "color": "$castType"
         }
       ],
@@ -3228,39 +3715,55 @@
     "Storm_Arrow_Blizzard": {
       "description": [
         {
-          "text": "Shoot an arrow that creates an ice storm above upon impact\n\n",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "Each ice shard will freeze mobs on hit for a ",
+          "text": "Launch an arrow that conjures a storm above where it impacts. Icicles will strike in ",
           "color": "$text"
         },
         {
-          "text": "duration.",
+          "text": "intervals",
           "color": "$duration"
         },
         {
-          "text": " Also has a ",
+          "text": ", hitting a mob within its ",
           "color": "$text"
         },
         {
-          "text": "chance",
-          "color": "$chance"
+          "text": "radius ",
+          "color": "$radius"
         },
         {
-          "text": " to frostbite the mob for a ",
+          "text": "and ",
           "color": "$text"
         },
         {
-          "text": "duration",
+          "text": "Chilling ",
+          "color": "$chilled"
+        },
+        {
+          "text": "them, until the ",
+          "color": "$text"
+        },
+        {
+          "text": "duration ",
           "color": "$duration"
         },
         {
-          "text": " every so often.",
+          "text": "ends. Additionally, struck mobs have a chance to be ",
           "color": "$text"
         },
         {
-          "text": "\n\n\u2734 Cast Ability ",
+          "text": "Glacially Imprisoned",
+          "color": "$maxGlacialPrison"
+        },
+        {
+          "text": ".\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u2734 Cast Ability ",
           "color": "$castType"
         }
       ],
@@ -3288,39 +3791,51 @@
     "Battle_Cry_Base": {
       "description": [
         {
-          "text": "Drain the essence of mobs around you, gathering ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "Battle Cry stacks ",
-          "color": "$maxStacks"
-        },
-        {
-          "text": "and release an ",
+          "text": "Gain ",
           "color": "$text"
         },
         {
-          "text": "amount ",
-          "color": "$stacksUsedPerHit"
+          "text": "Battle Cry Stacks ",
+          "color": "$keyword"
         },
         {
-          "text": "of stacks, giving you ",
+          "text": "based on the amount and difficulty of mobs within a ",
           "color": "$text"
         },
         {
-          "text": "bonus attack damage ",
+          "text": "radius ",
+          "color": "$radius"
+        },
+        {
+          "text": "of you. Your next on-hit attack uses stacks to deal a percentage of ",
+          "color": "$text"
+        },
+        {
+          "text": "Attack Damage",
           "color": "$damage"
         },
         {
-          "text": "on your next direct on-hit attack.\nThe stacks will fizzle after a ",
+          "text": ", continuing until either the ",
           "color": "$text"
         },
         {
-          "text": "duration of time ",
+          "text": "Battle Cry Stacks ",
+          "color": "$keyword"
+        },
+        {
+          "text": "are all consumed, or the ",
+          "color": "$text"
+        },
+        {
+          "text": "duration ",
           "color": "$duration"
         },
         {
-          "text": "if not used.\n\n",
+          "text": "ends.\n\n",
           "color": "$text"
         },
         {
@@ -3350,39 +3865,51 @@
     "Battle_Cry_Spectral_Strike": {
       "description": [
         {
-          "text": "Drain the essence of mobs around you, gathering ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "Battle Cry stacks ",
-          "color": "$maxStacks"
-        },
-        {
-          "text": "and release an ",
+          "text": "Gain ",
           "color": "$text"
         },
         {
-          "text": "amount ",
-          "color": "$stacksUsedPerHit"
+          "text": "Battle Cry Stacks ",
+          "color": "$keyword"
         },
         {
-          "text": "of stacks, adding ",
+          "text": "based on the amount and difficulty of mobs within a ",
           "color": "$text"
         },
         {
-          "text": "ability power ",
-          "color": "$abilityPowerPerStack"
+          "text": "radius ",
+          "color": "$radius"
         },
         {
-          "text": "as damage, on your next direct on-hit attack.\nThe stacks will fizzle after a ",
+          "text": "of you. Your next on-hit attack uses stacks to deal a percentage of ",
           "color": "$text"
         },
         {
-          "text": "duration of time ",
+          "text": "Ability Power",
+          "color": "$ability_power"
+        },
+        {
+          "text": ", continuing until either the ",
+          "color": "$text"
+        },
+        {
+          "text": "Battle Cry Stacks ",
+          "color": "$keyword"
+        },
+        {
+          "text": "are all consumed, or the ",
+          "color": "$text"
+        },
+        {
+          "text": "duration ",
           "color": "$duration"
         },
         {
-          "text": "if not used.\n\n",
+          "text": "ends.\n\n",
           "color": "$text"
         },
         {
@@ -3412,39 +3939,63 @@
     "Battle_Cry_Lucky_Strike": {
       "description": [
         {
-          "text": "Drain the essence of mobs around you, gathering ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "Battle Cry stacks ",
-          "color": "$maxStacks"
-        },
-        {
-          "text": "and release an ",
+          "text": "Gain ",
           "color": "$text"
         },
         {
-          "text": "amount ",
-          "color": "$stacksUsedPerHit"
+          "text": "Battle Cry Stacks ",
+          "color": "$keyword"
         },
         {
-          "text": "of stacks, giving you ",
+          "text": "based on the amount and difficulty of mobs within a ",
           "color": "$text"
         },
         {
-          "text": "bonus Lucky Hit chance ",
+          "text": "radius ",
+          "color": "$radius"
+        },
+        {
+          "text": "of you. Your next on-hit attack uses stacks to increase ",
+          "color": "$text"
+        },
+        {
+          "text": "Lucky Hit Chance",
           "color": "$luckyHit"
         },
         {
-          "text": "on your next direct on-hit attack.\nThe stacks will fizzle after a ",
+          "text": ", continuing until either the ",
           "color": "$text"
         },
         {
-          "text": "duration of time ",
+          "text": "Battle Cry Stacks ",
+          "color": "$keyword"
+        },
+        {
+          "text": "are all consumed, or the ",
+          "color": "$text"
+        },
+        {
+          "text": "duration ",
           "color": "$duration"
         },
         {
-          "text": "if not used.\n\n",
+          "text": "ends.\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "-",
+          "color": "$text"
+        },
+        {
+          "text": "Lucky Hit",
+          "color": "$luckyHit"
+        },
+        {
+          "text": ": Increase the damage of the melee hit by 50%.\n\n",
           "color": "$text"
         },
         {
@@ -3474,43 +4025,59 @@
     "Ice_Bolt_Base": {
       "description": [
         {
-          "text": "Summon a small Ice Bolt, dealing ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "flat and attack damage",
+          "text": "Launch an Icicle, dealing ",
+          "color": "$text"
+        },
+        {
+          "text": "Attack Damage ",
           "color": "$damage"
         },
         {
-          "text": " and ",
+          "text": "to the first mob hit, and ",
           "color": "$text"
         },
         {
-          "text": "chilling",
+          "text": "Chilling ",
           "color": "$chilled"
         },
         {
-          "text": " mobs hit for a duration of time. Hitting an already ",
+          "text": "them for a ",
           "color": "$text"
         },
         {
-          "text": "chilled",
+          "text": "duration",
+          "color": "$duration"
+        },
+        {
+          "text": ". Hitting a ",
+          "color": "$text"
+        },
+        {
+          "text": "Chilled ",
           "color": "$chilled"
         },
         {
-          "text": " mob can ",
+          "text": "mob with the Icicle will cause the bolt to splinter into multiple Icicles, launching in four directions and doing reduced damage.\n\n",
           "color": "$text"
         },
         {
-          "text": "splinter",
-          "color": "$damage"
-        },
-        {
-          "text": " the bolt in a cross, dealing reduced total damage.",
+          "text": "-",
           "color": "$text"
         },
         {
-          "text": "\n\n\u2734 Cast Ability ",
+          "text": "Chill",
+          "color": "$chilled"
+        },
+        {
+          "text": ": Reduce mob speed by 15% per stack.\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u2734 Cast Ability ",
           "color": "$castType"
         }
       ],
@@ -3536,31 +4103,19 @@
     "Ice_Bolt_Blast": {
       "description": [
         {
-          "text": "Fire a heavy Glacial Blast. Directly hitting a mob ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "glacially imprisons",
-          "color": "$maxGlacialPrison"
-        },
-        {
-          "text": " it and deals ",
+          "text": "Launch a ball of ice, dealing a percentage of ",
           "color": "$text"
         },
         {
-          "text": "attack damage",
+          "text": "Attack Damage ",
           "color": "$damage"
         },
         {
-          "text": ". The impact also ",
-          "color": "$text"
-        },
-        {
-          "text": "chills",
-          "color": "$chilled"
-        },
-        {
-          "text": " mobs in a ",
+          "text": "to mobs within a ",
           "color": "$text"
         },
         {
@@ -3568,7 +4123,47 @@
           "color": "$radius"
         },
         {
-          "text": ", but splash targets are not glacially imprisoned.\n\n",
+          "text": ". Mobs hit directly with the ball of ice are ",
+          "color": "$text"
+        },
+        {
+          "text": "Glacially Imprisoned",
+          "color": "$maxGlacialPrison"
+        },
+        {
+          "text": ", while other mobs within the radius are ",
+          "color": "$text"
+        },
+        {
+          "text": "Chilled",
+          "color": "$chilled"
+        },
+        {
+          "text": ".\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "-",
+          "color": "$text"
+        },
+        {
+          "text": "Chill",
+          "color": "$chilled"
+        },
+        {
+          "text": ": Reduce mob speed by 15% per stack.\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "-",
+          "color": "$text"
+        },
+        {
+          "text": "Glacially Imprisoned",
+          "color": "$maxGlacialPrison"
+        },
+        {
+          "text": ": When a melee attack strikes the mob, it will be executed. Champion or  Elite mobs will instead take 25% of their max hp as damage.\n\n",
           "color": "$text"
         },
         {
@@ -3598,35 +4193,31 @@
     "Arcane_Base": {
       "description": [
         {
-          "text": "Channel a magical beam to melt mobs quickly by dealing a percentage of your ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "ability power",
-          "color": "$ability_power"
-        },
-        {
-          "text": " every half second in its ",
+          "text": "Channel a beam a set ",
           "color": "$text"
         },
         {
-          "text": "distance",
+          "text": "distance ",
           "color": "$distance"
         },
         {
-          "text": ".\n\nArcane drains the ",
+          "text": "in front of you, damaging each mob it contacts for a percentage of your ",
           "color": "$text"
         },
         {
-          "text": "mana cost",
-          "color": "$manaCost"
+          "text": "Ability Power",
+          "color": "$ability_power"
         },
         {
-          "text": " each second while being channeled.",
+          "text": ".\n\n",
           "color": "$text"
         },
         {
-          "text": "\n\n\u25cf Hold Ability",
+          "text": "\u25cf Hold Ability",
           "color": "$castType"
         }
       ],
@@ -3644,43 +4235,43 @@
     "Arcane_Rail": {
       "description": [
         {
-          "text": "Summon a magical Arcane Rail to hit a single mob with incredible power",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": ", dealing a percentage of your ",
+          "text": "Launch a beam that deals a percentage of your ",
           "color": "$text"
         },
         {
-          "text": "ability power",
+          "text": "Ability Power ",
           "color": "$ability_power"
         },
         {
-          "text": " in damage, and triggering ",
+          "text": "to the first mob it hits. Additionally, ",
           "color": "$text"
         },
         {
-          "text": "on-hit effects ",
-          "color": "$name"
+          "text": "On-hit Effects ",
+          "color": "$keyword"
         },
         {
-          "text": "like ",
+          "text": "are transferred, with the exception of Lucky Hit.\n\n",
           "color": "$text"
         },
         {
-          "text": "Clouds",
-          "color": "$name"
-        },
-        {
-          "text": " and ",
+          "text": "-",
           "color": "$text"
         },
         {
-          "text": "Chaining",
-          "color": "$chaining"
+          "text": "On-hit Effects",
+          "color": "$keyword"
         },
         {
-          "text": "\n\n\u2734 Cast Ability ",
+          "text": ": Chaining, Clouds, Echoing, Lucky Hit, Shocking, Stunning.\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u2734 Cast Ability ",
           "color": "$castType"
         }
       ],
@@ -3698,23 +4289,11 @@
     "Earthquake_Base": {
       "description": [
         {
-          "text": "Call forth an immediate earthquake shock where you stand, dealing damage based on your ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "Attack Damage",
-          "color": "$damage"
-        },
-        {
-          "text": " and ",
-          "color": "$text"
-        },
-        {
-          "text": "knocking back",
-          "color": "$knockback"
-        },
-        {
-          "text": " hostile mobs in a ",
+          "text": "Release multiple waves in a ",
           "color": "$text"
         },
         {
@@ -3722,15 +4301,35 @@
           "color": "$radius"
         },
         {
-          "text": ". The quake repeats as ",
+          "text": ". The waves deal a percentage of your ",
           "color": "$text"
         },
         {
-          "text": "aftershocks",
-          "color": "$damageInterval"
+          "text": "Attack Damage",
+          "color": "$damage"
         },
         {
-          "text": " at fixed intervals. Damage decreases the further mobs are from the center.\n\n",
+          "text": ", decreasing the further they go, and will apply ",
+          "color": "$text"
+        },
+        {
+          "text": "Knockback",
+          "color": "$keyword"
+        },
+        {
+          "text": " to mobs they hit.\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "-",
+          "color": "$text"
+        },
+        {
+          "text": "Knockback",
+          "color": "$keyword"
+        },
+        {
+          "text": ": How far a player or mob is pushed back from one another.\n\n",
           "color": "$text"
         },
         {
@@ -3760,23 +4359,19 @@
     "Implode_Life_Tap": {
       "description": [
         {
-          "text": "Drain 80% of your ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "remaining health",
+          "text": "Drain 80% of your current health, dealing damage based on the amount of ",
+          "color": "$text"
+        },
+        {
+          "text": "hitpoints ",
           "color": "$health"
         },
         {
-          "text": " dealing damage per ",
-          "color": "$text"
-        },
-        {
-          "text": "hitpoint drained",
-          "color": "$damage"
-        },
-        {
-          "text": " to all mobs in a ",
+          "text": "drained to mobs within a ",
           "color": "$text"
         },
         {
@@ -3784,12 +4379,8 @@
           "color": "$radius"
         },
         {
-          "text": " around you.\n\n",
+          "text": ".\n\n",
           "color": "$text"
-        },
-        {
-          "text": "Note, 1 heart is 2 hitpoints.",
-          "color": "$darkgray"
         },
         {
           "text": "\n\n\u2734 Cast Ability ",
@@ -3810,43 +4401,31 @@
     "Chain_Lightning_Base": {
       "description": [
         {
-          "text": "Conjure a lightning arrow that calls a ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "lightning strike",
-          "color": "$name"
-        },
-        {
-          "text": " on impact, dealing ",
+          "text": "Launch an arrow that calls down a chaining lightning bolt, dealing a percentage of your ",
           "color": "$text"
         },
         {
-          "text": "lightning damage",
-          "color": "$lightning"
-        },
-        {
-          "text": " based on your ",
-          "color": "$text"
-        },
-        {
-          "text": "Ability Power",
+          "text": "Ability Power ",
           "color": "$ability_power"
         },
         {
-          "text": " and spreads to mobs in a ",
+          "text": "to each mob within a ",
           "color": "$text"
         },
         {
-          "text": "range",
-          "color": "$range"
+          "text": "radius",
+          "color": "$radius"
         },
         {
-          "text": " around the impact.",
+          "text": ".\n\n",
           "color": "$text"
         },
         {
-          "text": "\n\n\u2734 Cast Ability ",
+          "text": "\u2734 Cast Ability ",
           "color": "$castType"
         }
       ],
@@ -3867,6 +4446,10 @@
     },
     "Chain_Lightning_Orbs": {
       "description": [
+        {
+          "text": "Flavor Text.\n\n",
+          "color": "$text"
+        },
         {
           "text": "Launches a slow-moving ",
           "color": "$text"
@@ -3918,23 +4501,19 @@
     "Grenade_Base": {
       "description": [
         {
-          "text": "Throw a mysterious, powerful ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "Chaos Cube",
-          "color": "$qhighlight"
-        },
-        {
-          "text": " that bounces unpredictably before exploding, dealing ",
+          "text": "Launch a cube that bounces and explodes, dealing a percentage of ",
           "color": "$text"
         },
         {
-          "text": "Attack Damage",
+          "text": "Attack Damage ",
           "color": "$damage"
         },
         {
-          "text": " scaled damage in a ",
+          "text": "in a ",
           "color": "$text"
         },
         {
@@ -3942,11 +4521,7 @@
           "color": "$radius"
         },
         {
-          "text": ".",
-          "color": "$text"
-        },
-        {
-          "text": "\n\n",
+          "text": ".\n\n",
           "color": "$text"
         },
         {
@@ -3970,39 +4545,11 @@
     "Toxic_Grenade": {
       "description": [
         {
-          "text": "Throw a ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "Toxic",
-          "color": "$poison"
-        },
-        {
-          "text": ", ",
-          "color": "$text"
-        },
-        {
-          "text": "poison",
-          "color": "$poison"
-        },
-        {
-          "text": "-infused, vial that when it shatters explodes into a ",
-          "color": "$text"
-        },
-        {
-          "text": "poison cloud",
-          "color": "$poison"
-        },
-        {
-          "text": ", dealing ",
-          "color": "$text"
-        },
-        {
-          "text": "Ability Power",
-          "color": "$ability_power"
-        },
-        {
-          "text": " scaled damage in a ",
+          "text": "Launch a vial that bounces and explodes in a ",
           "color": "$text"
         },
         {
@@ -4010,19 +4557,43 @@
           "color": "$radius"
         },
         {
-          "text": " over a certain ",
+          "text": ", dealing ",
           "color": "$text"
         },
         {
-          "text": "amount of time",
+          "text": "Ability Power ",
+          "color": "$ability_power"
+        },
+        {
+          "text": "and leaving a ",
+          "color": "$text"
+        },
+        {
+          "text": "Poison Cloud ",
+          "color": "$poison"
+        },
+        {
+          "text": "for a ",
+          "color": "$text"
+        },
+        {
+          "text": "duration",
           "color": "$duration"
         },
         {
-          "text": ".",
+          "text": ".\n\n",
           "color": "$text"
         },
         {
-          "text": "\n\n",
+          "text": "-",
+          "color": "$text"
+        },
+        {
+          "text": "Poison",
+          "color": "$poison"
+        },
+        {
+          "text": ": Deal a percentage of your ability power over its duration, ticking every second. Longer duration increases the amount of ticks and reduces the damage per tick to compensate.\n\n",
           "color": "$text"
         },
         {
@@ -4048,67 +4619,107 @@
     "Shield_Bash_Earthshatter": {
       "description": [
         {
-          "text": "Dash forward and shatter the ground with your shield, dealing an amount of ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "Attack Damage",
+          "text": "Dash forward and strike the ground with your shield, dealing a percent of ",
+          "color": "$text"
+        },
+        {
+          "text": "Attack Damage ",
           "color": "$damage"
         },
         {
-          "text": " in a wide ",
+          "text": "to mobs within a ",
           "color": "$text"
         },
         {
-          "text": "half-circle",
+          "text": "semi-circle ",
           "color": "$radius"
         },
         {
-          "text": " in front of you. Mobs hit by the bash can be ",
+          "text": " in front of you. Additionally, the dash will apply ",
           "color": "$text"
         },
         {
-          "text": "stunned",
-          "color": "$stun"
+          "text": "Knockback ",
+          "color": "$keyword"
         },
         {
-          "text": " and ",
+          "text": "and ",
           "color": "$text"
         },
         {
-          "text": "knocked back",
-          "color": "$knockback"
+          "text": "Stun ",
+          "color": "$keyword"
         },
         {
-          "text": ", with increasing stun chance and knockback strength based on your ",
+          "text": "to mobs struck. ",
+          "color": "$text"
+        },
+        {
+          "text": "Knockback ",
+          "color": "$keyword"
+        },
+        {
+          "text": "and ",
+          "color": "$text"
+        },
+        {
+          "text": "Stun ",
+          "color": "$keyword"
+        },
+        {
+          "text": "chance are improved based on ",
           "color": "$text"
         },
         {
           "text": "Block Chance",
-          "color": "$chance"
+          "color": "$keyword"
+        },
+        {
+          "text": ". For each mob struck, 1 second of ",
+          "color": "$text"
+        },
+        {
+          "text": "cooldown ",
+          "color": "$cooldown"
+        },
+        {
+          "text": " is refunded, up to 80% of the total ",
+          "color": "$text"
+        },
+        {
+          "text": "cooldown ",
+          "color": "$cooldown"
         },
         {
           "text": ".\n\n",
           "color": "$text"
         },
         {
-          "text": "Each mob hit refunds ",
+          "text": "-",
           "color": "$text"
         },
         {
-          "text": "1 second of cooldown",
-          "color": "$cooldown"
+          "text": "Knockback",
+          "color": "$keyword"
         },
         {
-          "text": ", up to ",
+          "text": ": How far a player or mob is pushed back from one another.\n\n",
           "color": "$text"
         },
         {
-          "text": "80%",
-          "color": "$chance"
+          "text": "-",
+          "color": "$text"
         },
         {
-          "text": " of the total cooldown.\n\n",
+          "text": "Stun",
+          "color": "$keyword"
+        },
+        {
+          "text": ": The mob will not move or attack for 1 second.\n\n",
           "color": "$text"
         },
         {
@@ -4136,27 +4747,75 @@
     "Shield_Bash_Battering_Ram": {
       "description": [
         {
-          "text": "Dash forward and ram mobs with your shield, dealing an amount of ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "Attack Damage",
+          "text": "Dash forward, dealing a percentage of your ",
+          "color": "$text"
+        },
+        {
+          "text": "Attack Damage ",
           "color": "$damage"
         },
         {
-          "text": " in a cone in front of you, knocking them back, and adding ",
+          "text": "and ",
           "color": "$text"
         },
         {
-          "text": "Thorns Damage",
+          "text": "Thorns Damage ",
           "color": "$damage"
         },
         {
-          "text": " on top of the hit.\n\nEach mob hit refunds 1 second of cooldown, up to 80% of the total cooldown.",
+          "text": "in a ",
           "color": "$text"
         },
         {
-          "text": "\n\n\u2734 Cast Ability ",
+          "text": "cone ",
+          "color": "$radius"
+        },
+        {
+          "text": "in front of you. Additionally, the dash will apply ",
+          "color": "$text"
+        },
+        {
+          "text": "Knockback",
+          "color": "$keyword"
+        },
+        {
+          "text": ". For each mob struck, 1 second of ",
+          "color": "$text"
+        },
+        {
+          "text": "cooldown ",
+          "color": "$cooldown"
+        },
+        {
+          "text": "is refunded, up to 80% of the total ",
+          "color": "$text"
+        },
+        {
+          "text": "cooldown ",
+          "color": "$cooldown"
+        },
+        {
+          "text": ".\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "-",
+          "color": "$text"
+        },
+        {
+          "text": "Knockback",
+          "color": "$keyword"
+        },
+        {
+          "text": ": How far a player or mob is pushed back from one another.\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u2734 Cast Ability ",
           "color": "$castType"
         }
       ],
@@ -4180,15 +4839,11 @@
     "Earthquake_Singularity": {
       "description": [
         {
-          "text": "Call forth a collapsing earthquake where you stand, dealing ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "Attack Damage",
-          "color": "$damage"
-        },
-        {
-          "text": " in a ",
+          "text": "Release multiple waves in a ",
           "color": "$text"
         },
         {
@@ -4196,23 +4851,15 @@
           "color": "$radius"
         },
         {
-          "text": ". Each shock ",
+          "text": ". The waves deal a percentage of your ",
           "color": "$text"
         },
         {
-          "text": "pulls",
-          "color": "$force"
+          "text": "Attack Damage",
+          "color": "$damage"
         },
         {
-          "text": " hostile mobs toward the center. The quake repeats as ",
-          "color": "$text"
-        },
-        {
-          "text": "aftershocks",
-          "color": "$damageInterval"
-        },
-        {
-          "text": ".\n\n",
+          "text": ", decreasing the further they go, and will pull mobs towards the epicenter.\n\n",
           "color": "$text"
         },
         {
@@ -4242,15 +4889,11 @@
     "Earthquake_Tremor": {
       "description": [
         {
-          "text": "Call forth a disruptive earthquake where you stand, dealing ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "Attack Damage",
-          "color": "$damage"
-        },
-        {
-          "text": " in a ",
+          "text": "Release multiple waves in a ",
           "color": "$text"
         },
         {
@@ -4258,23 +4901,35 @@
           "color": "$radius"
         },
         {
-          "text": ". Each shock has a chance to ",
+          "text": ". The waves deal a percentage of your ",
           "color": "$text"
         },
         {
-          "text": "stun",
-          "color": "$stun"
+          "text": "Attack Damage",
+          "color": "$damage"
         },
         {
-          "text": " hostile mobs and has no knockback. The quake repeats as ",
+          "text": ", decreasing the further they go, and have a chance to ",
           "color": "$text"
         },
         {
-          "text": "aftershocks",
-          "color": "$damageInterval"
+          "text": "Stun",
+          "color": "$keyword"
         },
         {
-          "text": ".\n\n",
+          "text": " mobs they hit.\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "-",
+          "color": "$text"
+        },
+        {
+          "text": "Stun",
+          "color": "$keyword"
+        },
+        {
+          "text": ": The mob will not move or attack for 1 second.\n\n",
           "color": "$text"
         },
         {
@@ -4306,27 +4961,79 @@
     "Rampage_Bloodlust": {
       "description": [
         {
-          "text": "Enter a blood-hungry frenzy. ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "Direct melee hits",
+          "text": "While channeling, slightly increasing your ",
+          "color": "$text"
+        },
+        {
+          "text": "Melee Hit Damage",
           "color": "$damage"
         },
         {
-          "text": " deal bonus damage, and ",
+          "text": ", and allowing melee kills to generate ",
           "color": "$text"
         },
         {
-          "text": "direct melee kills",
+          "text": "mana",
+          "color": "$manaCost"
+        },
+        {
+          "text": ", and generate ",
+          "color": "$text"
+        },
+        {
+          "text": "stacks ",
+          "color": "$keyword"
+        },
+        {
+          "text": "of ",
+          "color": "$text"
+        },
+        {
+          "text": "Movement Speed ",
+          "color": "$keyword"
+        },
+        {
+          "text": "for a ",
+          "color": "$text"
+        },
+        {
+          "text": "duration",
+          "color": "$duration"
+        },
+        {
+          "text": ".\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "-",
+          "color": "$text"
+        },
+        {
+          "text": "Melee Hit Damage",
           "color": "$damage"
         },
         {
-          "text": " refund mana and grant stacking movement speed.\n\nOnly direct melee kills can trigger Bloodlust rewards.",
+          "text": ": Melee attacks while on the ground.\n\n",
           "color": "$text"
         },
         {
-          "text": "\n\n\u25cf Toggle Ability ",
+          "text": "-",
+          "color": "$text"
+        },
+        {
+          "text": "Movement Speed",
+          "color": "$keyword"
+        },
+        {
+          "text": "Increases base movement speed while on the ground.\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u25cf Toggle Ability ",
           "color": "$castType"
         }
       ],
@@ -4352,19 +5059,43 @@
     "Rampage_Berserker": {
       "description": [
         {
-          "text": "Enter an unstable frenzy. ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "Direct melee hits",
+          "text": "While channeling, massively increasing ",
+          "color": "$text"
+        },
+        {
+          "text": "Melee Hit Damage ",
           "color": "$damage"
         },
         {
-          "text": " deal heavy bonus damage while the frenzy consumes more mana the longer it is held.",
+          "text": "at the expense of a ",
           "color": "$text"
         },
         {
-          "text": "\n\n\u25cf Toggle Ability ",
+          "text": "ramping mana ",
+          "color": "$text"
+        },
+        {
+          "text": "cost.\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "-",
+          "color": "$text"
+        },
+        {
+          "text": "Melee Hit Damage",
+          "color": "$damage"
+        },
+        {
+          "text": ": Melee attacks while on the ground.\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u25cf Toggle Ability ",
           "color": "$castType"
         }
       ],
@@ -4384,19 +5115,55 @@
     "Rampage_Instinct": {
       "description": [
         {
-          "text": "Enter a focused hunting stance. ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "Direct melee hits",
+          "text": "While channeling, slightly increasing your ",
+          "color": "$text"
+        },
+        {
+          "text": "Melee Hit Damage ",
           "color": "$damage"
         },
         {
-          "text": " deal bonus damage, and Lucky Hit Chance is increased while active.\n\nLucky Hit still only triggers from valid direct hits.",
+          "text": "and ",
           "color": "$text"
         },
         {
-          "text": "\n\n\u25cf Toggle Ability ",
+          "text": "Lucky Hit Chance",
+          "color": "$luckyHit"
+        },
+        {
+          "text": ".\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "-",
+          "color": "$text"
+        },
+        {
+          "text": "Melee Hit Damage",
+          "color": "$damage"
+        },
+        {
+          "text": ": Melee attacks while on the ground.\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "-",
+          "color": "$text"
+        },
+        {
+          "text": "Lucky Hit",
+          "color": "$luckyHit"
+        },
+        {
+          "text": ": Increase the damage of the melee hit by 50%.\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u25cf Toggle Ability ",
           "color": "$castType"
         }
       ],
@@ -4416,23 +5183,19 @@
     "Grenade_Sticky": {
       "description": [
         {
-          "text": "Throw a ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "Sticky Cube",
-          "color": "$qhighlight"
-        },
-        {
-          "text": " that sticks at the first impact point before exploding, dealing ",
+          "text": "Launch a cube that sticks to the first mob or block it contacts, before exploding and dealing a percentage of ",
           "color": "$text"
         },
         {
-          "text": "Attack Damage",
+          "text": "Attack Damage ",
           "color": "$damage"
         },
         {
-          "text": " scaled damage in a ",
+          "text": "in a ",
           "color": "$text"
         },
         {
@@ -4440,11 +5203,7 @@
           "color": "$radius"
         },
         {
-          "text": ".",
-          "color": "$text"
-        },
-        {
-          "text": "\n\n",
+          "text": ".\n\n",
           "color": "$text"
         },
         {
@@ -4467,6 +5226,10 @@
     },
     "Arcane_Prism": {
       "description": [
+        {
+          "text": "Flavor Text.\n\n",
+          "color": "$text"
+        },
         {
           "text": "Launch an arcane seed that anchors a ",
           "color": "$text"
@@ -4514,27 +5277,39 @@
     "Chain_Lightning_Charged_Bolts": {
       "description": [
         {
-          "text": "Release a slow fan of ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "Charged Bolts",
+          "text": "Release an arc of ",
+          "color": "$text"
+        },
+        {
+          "text": "Lightning Bolts",
           "color": "$lightning"
         },
         {
-          "text": " that spread forward in an arc. Each bolt stops on the first mob or block hit and rolls between minimum and maximum ",
+          "text": ", each traveling a ",
           "color": "$text"
         },
         {
-          "text": "Ability Power",
+          "text": "distance ",
+          "color": "$distance"
+        },
+        {
+          "text": "and dealing a percentage of ",
+          "color": "$text"
+        },
+        {
+          "text": "Ability Power ",
           "color": "$ability_power"
         },
         {
-          "text": " lightning damage. A single target only takes full damage from the first few bolts.",
+          "text": "to each mob struck.\n\n",
           "color": "$text"
         },
         {
-          "text": "\n\n\u2734 Cast Ability ",
+          "text": "\u2734 Cast Ability ",
           "color": "$castType"
         }
       ],
@@ -4562,31 +5337,51 @@
     "Shard_Blizzard": {
       "description": [
         {
-          "text": "Shoot an arrow that creates a shard blizzard above upon impact\n\n",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "The storm drops ice shards that deal ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "damage",
-          "color": "$damage"
-        },
-        {
-          "text": ", chill mobs, and set up ",
+          "text": "Launch an arrow that conjures a storm above where it impacts. Icicles will strike in ",
           "color": "$text"
         },
         {
-          "text": "Frostbite",
-          "color": "$chance"
+          "text": "intervals",
+          "color": "$duration"
         },
         {
-          "text": " talent synergy. Hypothermia is applied after the chill expires.",
+          "text": ", hitting a mob within its ",
           "color": "$text"
         },
         {
-          "text": "\n\n\u2734 Cast Ability ",
+          "text": "radius ",
+          "color": "$radius"
+        },
+        {
+          "text": "and ",
+          "color": "$text"
+        },
+        {
+          "text": "Chilling ",
+          "color": "$maxGlacialPrison"
+        },
+        {
+          "text": "them, until the ",
+          "color": "$text"
+        },
+        {
+          "text": "duration ",
+          "color": "$duration"
+        },
+        {
+          "text": "ends.\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u2734 Cast Ability ",
           "color": "$castType"
         }
       ],
@@ -4614,23 +5409,55 @@
     "Smite_Blast_Wave": {
       "description": [
         {
-          "text": "While active, ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "Blast Wave",
-          "color": "$name"
-        },
-        {
-          "text": " periodically releases a lightning shockwave around you, knocking mobs away and dealing a random percentage of your ",
+          "text": "Channel a storm cloud around you, causing lightning shockwaves within its ",
           "color": "$text"
         },
         {
-          "text": "ability power",
+          "text": "radius ",
+          "color": "$radius"
+        },
+        {
+          "text": "to deal a percentage of ",
+          "color": "$text"
+        },
+        {
+          "text": "Ability Power ",
           "color": "$ability_power"
         },
         {
-          "text": ". It benefits from Lightning Mastery and Lightning Finesse at reduced stun chance.\n\n",
+          "text": "to mobs. The shockwaves strike in ",
+          "color": "$text"
+        },
+        {
+          "text": "intervals",
+          "color": "$duration"
+        },
+        {
+          "text": ", and can ",
+          "color": "$text"
+        },
+        {
+          "text": "Knockback ",
+          "color": "$keyword"
+        },
+        {
+          "text": "mobs.\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "-",
+          "color": "$text"
+        },
+        {
+          "text": "Knockback",
+          "color": "$keyword"
+        },
+        {
+          "text": ": How far a player or mob is pushed back from one another.\n\n",
           "color": "$text"
         },
         {
@@ -4660,31 +5487,39 @@
     "Necromancy_Base": {
       "description": [
         {
-          "text": "Fire a ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "soul bolt",
-          "color": "$name"
-        },
-        {
-          "text": " that curses a mob. Killing cursed mobs gathers ",
+          "text": "Launch a soul bolt that curses the first mob it hits for a ",
           "color": "$text"
         },
         {
-          "text": "souls",
-          "color": "$name"
+          "text": "duration",
+          "color": "$duration"
         },
         {
-          "text": "; enough souls summons skeleton warriors that fight for you. ",
+          "text": ". Killing cursed mobs will gather souls, summoning skeleton warriors to fight for you once 100 souls are reached. Skeleton warriors deal a percentage of ",
           "color": "$text"
         },
         {
-          "text": "Warriors deal Ability Power damage and splash part of that damage around their target.",
+          "text": "Ability Power ",
+          "color": "$ability_power"
+        },
+        {
+          "text": "to mobs they strike, and half as much in a ",
           "color": "$text"
         },
         {
-          "text": "\n\n\u2734 Cast Ability ",
+          "text": "radius ",
+          "color": "$radius"
+        },
+        {
+          "text": "around the struck mobs.\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u2734 Cast Ability ",
           "color": "$castType"
         }
       ],
@@ -4712,31 +5547,39 @@
     "Necromancy_Archer": {
       "description": [
         {
-          "text": "Fire a ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "soul bolt",
-          "color": "$name"
-        },
-        {
-          "text": " that curses a mob. Killing cursed mobs gathers ",
+          "text": "Launch a soul bolt that curses the first mob it hits for a ",
           "color": "$text"
         },
         {
-          "text": "souls",
-          "color": "$name"
+          "text": "duration",
+          "color": "$duration"
         },
         {
-          "text": "; enough souls summons skeleton archers that fight from range. ",
+          "text": ". Killing cursed mobs will gather souls, summoning skeleton archers to fight for you once 100 souls are reached. Skeleton archers deal a percentage of ",
           "color": "$text"
         },
         {
-          "text": "Archers deal Ability Power damage and splash part of that damage around their target.",
+          "text": "Ability Power ",
+          "color": "$ability_power"
+        },
+        {
+          "text": "to mobs they strike, and half as much in a ",
           "color": "$text"
         },
         {
-          "text": "\n\n\u2734 Cast Ability ",
+          "text": "radius ",
+          "color": "$radius"
+        },
+        {
+          "text": "around the struck mobs.\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u2734 Cast Ability ",
           "color": "$castType"
         }
       ],
@@ -4764,31 +5607,39 @@
     "Necromancy_Golem": {
       "description": [
         {
-          "text": "Fire a ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "soul bolt",
-          "color": "$name"
-        },
-        {
-          "text": " that curses a mob. Killing cursed mobs gathers ",
+          "text": "Launch a soul bolt that curses the first mob it hits for a ",
           "color": "$text"
         },
         {
-          "text": "souls",
-          "color": "$name"
+          "text": "duration",
+          "color": "$duration"
         },
         {
-          "text": "; enough souls summons or grows a single golem. ",
+          "text": ". Killing cursed mobs will gather souls, summoning a golem to fight for you once 100 souls are reached, and will grow for each additional 100 souls obtained. The Golem deals a percentage of ",
           "color": "$text"
         },
         {
-          "text": "The golem grows larger with stacks and deals Ability Power damage per stack.",
+          "text": "Ability Power ",
+          "color": "$ability_power"
+        },
+        {
+          "text": "to mobs they strike, and 65% as much in a ",
           "color": "$text"
         },
         {
-          "text": "\n\n\u2734 Cast Ability ",
+          "text": "radius ",
+          "color": "$radius"
+        },
+        {
+          "text": "around the struck mobs.\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u2734 Cast Ability ",
           "color": "$castType"
         }
       ],
@@ -4813,15 +5664,18 @@
         "splashDamage"
       ]
     },
-
     "Blade_Frenzy_Base": {
       "description": [
         {
-          "text": "Deal a percentage of your ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "attack damage ",
+          "text": "Unleash a twirl of blades around you, dealing a percentage of ",
+          "color": "$text"
+        },
+        {
+          "text": "Attack Damage ",
           "color": "$damage"
         },
         {
@@ -4833,11 +5687,11 @@
           "color": "$radius"
         },
         {
-          "text": " around yourself.\n",
+          "text": ".\n\n",
           "color": "$text"
         },
         {
-          "text": "\n\n\u2734 Cast Ability ",
+          "text": "\u2734 Cast Ability ",
           "color": "$castType"
         }
       ],
@@ -4848,7 +5702,6 @@
         "damage"
       ],
       "next": [
-
         "cooldown",
         "manaCost",
         "adjustedRadius",
@@ -4858,19 +5711,39 @@
     "Shield_Wall_Base": {
       "description": [
         {
-          "text": "While having a Vault Shield equipped, gain 100% block chance for a ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "duration ",
+          "text": "While a ",
+          "color": "$text"
+        },
+        {
+          "text": "Vault Shield ",
+          "color": "$keyword"
+        },
+        {
+          "text": "is equipped, gain ",
+          "color": "$text"
+        },
+        {
+          "text": "100% block chance ",
+          "color": "$keyword"
+        },
+        {
+          "text": "for a ",
+          "color": "$text"
+        },
+        {
+          "text": "duration",
           "color": "$duration"
         },
         {
-          "text": "of time.",
+          "text": ".\n\n",
           "color": "$text"
         },
         {
-          "text": "\n\n\u2734 Cast Ability ",
+          "text": "\u2734 Cast Ability ",
           "color": "$castType"
         }
       ],
@@ -4887,6 +5760,10 @@
     },
     "Vein_Miner_Chain": {
       "description": [
+        {
+          "text": "Flavor Text.\n\n",
+          "color": "$text"
+        },
         {
           "text": "Changes Vein Miner to mine blocks that are ",
           "color": "$text"
@@ -4924,7 +5801,15 @@
     "Levitate": {
       "description": [
         {
-          "text": "Changes Mega Jump into an on-demand levitation effect.\n\n",
+          "text": "Flavor Text.\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "Float ",
+          "color": "$keyword"
+        },
+        {
+          "text": "up, with some limited horizontal movement.\n\n",
           "color": "$text"
         },
         {
@@ -4944,15 +5829,19 @@
     "Legacy_Mana_Shield_Base": {
       "description": [
         {
-          "text": "Gives you a shield that ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "redirects a percentage",
-          "color": "$absorb"
+          "text": "Channel a protective barrier to redirect a ",
+          "color": "$text"
         },
         {
-          "text": " of incoming damage to your ",
+          "text": "percentage ",
+          "color": "$keyword"
+        },
+        {
+          "text": "of incoming damage to your ",
           "color": "$text"
         },
         {
@@ -4974,7 +5863,6 @@
         "manaPerDamage"
       ],
       "next": [
-
         "cooldown",
         "absorb",
         "manaPerDamage"
@@ -4983,23 +5871,55 @@
     "Colossus_Base": {
       "description": [
         {
-          "text": "Makes you considerably bigger, giving you ",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "knockback immunity ",
-          "color": "$knockback"
-        },
-        {
-          "text": "and a boost in ",
+          "text": "Grow in ",
           "color": "$text"
         },
         {
-          "text": "resistance",
-          "color": "$radius"
+          "text": "Size",
+          "color": "$keyword"
         },
         {
-          "text": " for a limited duration\n\n",
+          "text": ", gaining ",
+          "color": "$text"
+        },
+        {
+          "text": "Knockback Immunity ",
+          "color": "$keyword"
+        },
+        {
+          "text": "and ",
+          "color": "$text"
+        },
+        {
+          "text": "Resistance ",
+          "color": "$keyword"
+        },
+        {
+          "text": "for a ",
+          "color": "$text"
+        },
+        {
+          "text": "duration",
+          "color": "$duration"
+        },
+        {
+          "text": ".\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "-",
+          "color": "$text"
+        },
+        {
+          "text": "Knockback",
+          "color": "$keyword"
+        },
+        {
+          "text": ": How far a player or mob is pushed back from one another.\n\n",
           "color": "$text"
         },
         {
@@ -5025,15 +5945,47 @@
     "Sneaky_Getaway": {
       "description": [
         {
-          "text": "Makes you considerably smaller and increases your",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "movement speed",
-          "color": "$speed"
+          "text": "Shrink in ",
+          "color": "$text"
         },
         {
-          "text": "for a limited duration, allowing for a quick and sneaky getaway\n\n",
+          "text": "Size",
+          "color": "$keyword"
+        },
+        {
+          "text": ", increasing your ",
+          "color": "$text"
+        },
+        {
+          "text": "Movement Speed ",
+          "color": "$keyword"
+        },
+        {
+          "text": "for a ",
+          "color": "$text"
+        },
+        {
+          "text": "duration",
+          "color": "$duration"
+        },
+        {
+          "text": ".\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "-",
+          "color": "$text"
+        },
+        {
+          "text": "Movement Speed",
+          "color": "$keyword"
+        },
+        {
+          "text": "Increases base movement speed while on the ground.\n\n",
           "color": "$text"
         },
         {
@@ -5059,7 +6011,27 @@
     "Fangs_Base": {
       "description": [
         {
-          "text": "Summons a ring of Fangs in a ",
+          "text": "Flavor Text.\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "Conjure a ring of fangs to strike from the ground around you, dealing a percentage of ",
+          "color": "$text"
+        },
+        {
+          "text": "Attack Damage ",
+          "color": "$damage"
+        },
+        {
+          "text": "and applying ",
+          "color": "$text"
+        },
+        {
+          "text": "On-hit Effects ",
+          "color": "$keyword"
+        },
+        {
+          "text": "to mobs within a ",
           "color": "$text"
         },
         {
@@ -5067,51 +6039,71 @@
           "color": "$radius"
         },
         {
-          "text": "around you dealing damage plus a portion of your ",
+          "text": "of you. Mobs below a ",
           "color": "$text"
         },
         {
-          "text": "Attack Damage",
-          "color": "$damage"
+          "text": "threshold ",
+          "color": "$keyword"
+        },
+        {
+          "text": "of health will be ",
+          "color": "$text"
+        },
+        {
+          "text": "Executed ",
+          "color": "$keyword"
+        },
+        {
+          "text": "and drop a ",
+          "color": "$text"
+        },
+        {
+          "text": "Heart Fragment",
+          "color": "$keyword"
         },
         {
           "text": ".\n\n",
           "color": "$text"
         },
         {
-          "text": "If a target is below a certain percentage of their ",
+          "text": "-",
           "color": "$text"
         },
         {
-          "text": "health",
-          "color": "green"
+          "text": "On-hit Effects",
+          "color": "$keyword"
         },
         {
-          "text": ", they will be ",
+          "text": ": Chaining, Clouds, Echoing, Lucky Hit, Shocking, Stunning.\n\n",
           "color": "$text"
         },
         {
-          "text": "executed ",
-          "color": "red"
+          "text": "-",
+          "color": "$text"
         },
         {
-          "text": "and drop a  ",
+          "text": "Execute",
+          "color": "$keyword"
+        },
+        {
+          "text": ": Instantly kill the mob, regardless of its HP or afflictions.\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "-",
           "color": "$text"
         },
         {
           "text": "Heart Fragment",
-          "color": "green"
+          "color": "$keyword"
         },
         {
-          "text": ".",
+          "text": ": Drops a heart fragment that heals for 1 hitpoint, and is not affected by magnets.\n\n",
           "color": "$text"
         },
         {
-          "text": "\n\nApplies On-Hit effects.",
-          "color": "$text"
-        },
-        {
-          "text": "\n\n✴ Cast Ability",
+          "text": "\u2734 Cast Ability ",
           "color": "$castType"
         }
       ],
@@ -5135,71 +6127,119 @@
     "Fangs_Maw": {
       "description": [
         {
-          "text": "Summons a line of Fangs in front of you",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": " dealing damage plus a portion of your ",
+          "text": "Conjure a line of fangs for a ",
           "color": "$text"
         },
         {
-          "text": "Attack Damage",
+          "text": "distance ",
+          "color": "$distance"
+        },
+        {
+          "text": "in front of you, dealing a percentage of ",
+          "color": "$text"
+        },
+        {
+          "text": "Attack Damage ",
           "color": "$damage"
         },
         {
-          "text": ", pulling any target hit towards you.\n\n",
-          "color": "$text"
-        },
-        {
-          "text": "Depending on the distance the target was pulled from, they will have ",
+          "text": "and pulling any mobs hit towards you. Mobs will be inflicted with ",
           "color": "$text"
         },
         {
           "text": "Slowness",
-          "color": "#78329F"
-        },
-        {
-          "text": ",",
-          "color": "$text"
-        },
-        {
-          "text": " Weakness",
-          "color": "#783269"
+          "color": "$keyword"
         },
         {
           "text": ", ",
           "color": "$text"
         },
         {
-          "text": "and ",
+          "text": "Weakness",
+          "color": "$keyword"
+        },
+        {
+          "text": ", or ",
           "color": "$text"
         },
         {
           "text": "Vulnerability ",
-          "color": "#B13269"
+          "color": "$keyword"
         },
         {
-          "text": "applied to them.\n\n",
+          "text": "depending on the distance pulled. Additionally, ",
           "color": "$text"
         },
         {
-          "text": "Chance to drop a ",
+          "text": "On-hit Effects ",
+          "color": "$keyword"
+        },
+        {
+          "text": "are applied, and struck mobs have a chance of dropping a ",
           "color": "$text"
         },
         {
           "text": "Heart Fragment",
-          "color": "green"
+          "color": "$keyword"
         },
         {
-          "text": " per mob hit.",
+          "text": ".\n\n",
           "color": "$text"
         },
         {
-          "text": "\n\nApplies On-Hit effects.",
+          "text": "-",
           "color": "$text"
         },
         {
-          "text": "\n\n✴ Cast Ability",
+          "text": "On-hit Effects",
+          "color": "$keyword"
+        },
+        {
+          "text": ": Chaining, Clouds, Echoing, Lucky Hit, Shocking, Stunning.\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "-",
+          "color": "$text"
+        },
+        {
+          "text": "Weakness",
+          "color": "$keyword"
+        },
+        {
+          "text": ": Reduces damage done by 5% per stack.\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "-",
+          "color": "$text"
+        },
+        {
+          "text": "Vulnerability",
+          "color": "$keyword"
+        },
+        {
+          "text": ": Increase damage taken by 10% per stack.\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "-",
+          "color": "$text"
+        },
+        {
+          "text": "Heart Fragment",
+          "color": "$keyword"
+        },
+        {
+          "text": ": Drops a heart fragment that heals for 1 hitpoint, and is not affected by magnets.\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u2734 Cast Ability ",
           "color": "$castType"
         }
       ],
@@ -5225,11 +6265,51 @@
     "Apex_Predator_base": {
       "description": [
         {
-          "text": "Bustin put in a description por favor",
+          "text": "Flavor Text.\n\n",
           "color": "$text"
         },
         {
-          "text": "\n\n✴ Cast Ability",
+          "text": "Summon a Naga to to run forward, picking up all enemies it comes in contact with and slamming them into a wall, before vanishing. Enemies are ",
+          "color": "$text"
+        },
+        {
+          "text": "Stunned ",
+          "color": "$keyword"
+        },
+        {
+          "text": "for a ",
+          "color": "$text"
+        },
+        {
+          "text": "duration ",
+          "color": "$duration"
+        },
+        {
+          "text": "and dealt a percentage of ",
+          "color": "$text"
+        },
+        {
+          "text": "Attack Damage",
+          "color": "$damage"
+        },
+        {
+          "text": ".\n\n",
+          "color": "$text"
+        },
+         {
+          "text": "-",
+          "color": "$text"
+        },
+        {
+          "text": "Stun",
+          "color": "$keyword"
+        },
+        {
+          "text": ": The mob will not move or attack until the duration ends.\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u2734 Cast Ability ",
           "color": "$castType"
         }
       ],
@@ -5250,13 +6330,16 @@
         "travelSpeed",
         "stunDuration",
         "maxRange"
-
       ]
     },
     "Storm_Arrow_Meteor": {
       "description": [
         {
-          "text": "Bustin put in a description por favor",
+          "text": "Flavor Text.\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "Bustin put in a description por favor\n\n",
           "color": "$text"
         },
         {
