@@ -780,7 +780,7 @@
             {
               "weight": 2,
               "item": {
-                "id": "the_vault:opportunitis_focus",
+                "id": "the_vault:opportunistic_focus",
                 "count": {
                   "type": "uniform",
                   "min": 1,

@@ -8,55 +8,6 @@
       },
       "pool": [
         {
-          "weight": 70,
-          "pool": [
-            {
-              "weight": 20,
-              "item": {
-                "id": "the_vault:rotten_meat",
-                "count": {
-                  "type": "uniform",
-                  "min": 2,
-                  "max": 8
-                }
-              }
-            },
-            {
-              "weight": 12,
-              "item": {
-                "id": "the_vault:vault_meat",
-                "count": {
-                  "type": "uniform",
-                  "min": 2,
-                  "max": 8
-                }
-              }
-            },
-            {
-              "weight": 8,
-              "item": {
-                "id": "the_vault:eternal_soul",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 2
-                }
-              }
-            },
-            {
-              "weight": 8,
-              "item": {
-                "id": "the_vault:silver_scrap",
-                "count": {
-                  "type": "uniform",
-                  "min": 2,
-                  "max": 8
-                }
-              }
-            }
-          ]
-        },
-        {
           "weight": 20,
           "pool": [
             {
