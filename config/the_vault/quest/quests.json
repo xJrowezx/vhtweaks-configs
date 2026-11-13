@@ -70,7 +70,7 @@
       "descriptionData": {
         "description": [
           {
-            "text": "Vault Hunters has an in-depth Ability and Talent system. \n\nAbilities typically focus on giving you powerful active skills that significantly change how you play the game. \n\nTalents provide the player with passive buffs. \n\nCheck out the Vault UI by pressing 'H' by default and click on the second and third tabs at the top to view Abilities and Talents respectively. \n\nHave a free skill point on us, we recommend getting heal as you do not regenerate health in vaults.",
+            "text": "Vault Hunters has an in-depth Ability and Talent system. \n\nAbilities typically focus on giving you powerful active skills that significantly change how you play the game. \n\nTalents provide the player with passive buffs. \n\nCheck out the Vault UI by pressing 'H' by default and click on the second and third tabs at the top to view Abilities and Talents respectively. \n\nHave some skill points on us.",
             "color": "$text"
           }
         ]
@@ -87,7 +87,7 @@
           }
         ],
         "vaultExp": 0,
-        "skillPoints": 1
+        "skillPoints": 5
       }
     },
     {
