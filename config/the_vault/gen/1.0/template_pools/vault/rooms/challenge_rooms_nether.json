@@ -41,7 +41,7 @@
         "reference": "the_vault:vault/rooms/challenge/horderush"
       },
       {
-        "weight": 0,
+        "weight": 4,
         "reference": "the_vault:vault/rooms/challenge/protect_villager"
       },
       {
