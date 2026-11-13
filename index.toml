@@ -2478,11 +2478,11 @@ hash = "7321bae07d4c9766adc042165b076a85c74e97ee50ddb31a05e8001733118f14"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/idona_sand_100.json"
-hash = "076403d00bb60973f1d5d54bf918c8d7a1de355d0d1adaeeccf3a323212f7efe"
+hash = "3419a97ed7973f6977120e517c7bdb5d81863dbb9947d6d684077b496f13db73"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/idona_sand_50.json"
-hash = "f4575091da30fe3a47fc9ae1951a54ac969be3b934e54e96daf12be317cb0d48"
+hash = "ba999309769b2ab1c4691761acaf905c13e32689fd8b28360c9e9412dc26c077"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/living_chest_0.json"
