@@ -15,7 +15,7 @@
       "damageInterval": "#A86225",
       "damageReduction": "#C23627",
       "delay": "#8C4916",
-      "distance": "#F2E685",
+      "distance": "#33ff6d",
       "ability_power": "#FF00CB",
       "duration": "#7024ac",
       "eternals": "#C7FFE7",
@@ -124,7 +124,8 @@
       "wooden": "#734124",
       "ornate": "#D4292A",
       "living": "#5BE13E",
-      "gilded": "#F3E94B"
+      "gilded": "#F3E94B",
+      "keyword": "#FFB00F"
     }
   }
 }
