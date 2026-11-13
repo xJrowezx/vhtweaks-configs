@@ -14934,11 +14934,11 @@ hash = "f7ce00e1dbfe1ca30c61f3e46ad8991677eb657f11b9f09f83ad88e9bbca8a3f"
 
 [[files]]
 file = "config/the_vault/quest/quests.json"
-hash = "fb92fe2d6383f37bc2b9a49462fab6af661f953029496ee30de7c48b903f8ca1"
+hash = "f215a59b1877b7b77f18661f6329c04197136ccc33217028a224ac672ece4343"
 
 [[files]]
 file = "config/the_vault/quest/sky_quests.json"
-hash = "fb92fe2d6383f37bc2b9a49462fab6af661f953029496ee30de7c48b903f8ca1"
+hash = "f215a59b1877b7b77f18661f6329c04197136ccc33217028a224ac672ece4343"
 
 [[files]]
 file = "config/the_vault/recipes/catalyst_recipes.json"
@@ -17778,7 +17778,7 @@ hash = "9cbf85e316dfa648baca8facd9d8d87afc23b4ed1b5ae492ef7353afa7e0e523"
 
 [[files]]
 file = "mods/VHTweaks-0.23.2-all.jar"
-hash = "0bb2710c1fece1e628fd9c1ef364a31432d2ae59af44cbcbb6fdebc3e629663b"
+hash = "40d920dac14cfc69a2463fbe27ca697e46d5a4a03526be62edafc5a3834b8f1a"
 
 [[files]]
 file = "mods/additional-lanterns.pw.toml"
