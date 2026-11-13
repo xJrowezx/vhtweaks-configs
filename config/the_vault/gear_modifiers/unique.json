@@ -5006,13 +5006,13 @@
               "tileEntityGroupId": "the_vault:chest",
               "displayName": "Chest",
               "manaGenerationChance": {
-                "min": 0.8,
-                "max": 1.0,
+                "min": 0.4,
+                "max": 0.8,
                 "step": 0.01
               },
               "manaGenerated": {
-                "min": 1,
-                "max": 3,
+                "min": 0.01,
+                "max": 0.01,
                 "step": 1
               }
             }
