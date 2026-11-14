@@ -213,11 +213,11 @@
             "color": "$text"
           },
           {
-            "text": "\n\nDrops in: ",
+            "text": "\n\nFound in: ",
             "color": "$text"
           },
           {
-            "text": "Villages",
+            "text": "Cities",
             "color": "#7D520E"
           }
         ]
@@ -290,11 +290,11 @@
             "color": "$text"
           },
           {
-            "text": "\n\nFound in: ",
+            "text": "\n\n ",
             "color": "$text"
           },
           {
-            "text": "Dragon Rooms",
+            "text": "Not Obtainable",
             "color": "#7D520E"
           }
         ]
@@ -423,7 +423,7 @@
             "color": "$text"
           },
           {
-            "text": "Dungeon Bosses",
+            "text": "Treasure Goblins",
             "color": "#7D520E"
           }
         ]
@@ -998,11 +998,11 @@
             "color": "$text"
           },
           {
-            "text": "\n\nDrops from: ",
+            "text": "\n\nDropped by: ",
             "color": "$text"
           },
           {
-            "text": "Goblins",
+            "text": "Dragon Goblins",
             "color": "#7D520E"
           }
         ]
@@ -1607,7 +1607,7 @@
             "color": "$text"
           },
           {
-            "text": "",
+            "text": "Vault Ores",
             "color": "#7D520E"
           }
         ]
@@ -1681,11 +1681,11 @@
             "color": "$text"
           },
           {
-            "text": "\n\nFound in: ",
+            "text": "\n\n ",
             "color": "$text"
           },
           {
-            "text": "Treasure Rooms",
+            "text": "Not Obtainable",
             "color": "#7D520E"
           }
         ]
@@ -1733,11 +1733,11 @@
             "color": "$text"
           },
           {
-            "text": "\n\nFound in: ",
+            "text": "\n\n",
             "color": "$text"
           },
           {
-            "text": "???????",
+            "text": "Not Obtainable",
             "color": "#7D520E"
           }
         ]
@@ -1942,7 +1942,7 @@
             "color": "$text"
           },
           {
-            "text": "Dungeon Witches",
+            "text": "Witchskall",
             "color": "#7D520E"
           }
         ]

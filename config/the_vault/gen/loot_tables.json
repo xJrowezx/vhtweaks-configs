@@ -476,9 +476,24 @@
       "1.0": "config/the_vault/gen/1.0/loot_tables/unique_crates/village.json"
     },
     {
+      "id": "the_vault:cove_unique_crate",
+      "name": "Cove Unique Crate",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/unique_crates/cove.json"
+    },
+    {
       "id": "the_vault:city_unique_crate",
       "name": "City Unique Crate",
       "1.0": "config/the_vault/gen/1.0/loot_tables/unique_crates/city.json"
+    },
+    {
+      "id": "the_vault:swamp_zombie",
+      "name": "Swamp Zombie Unique",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/unique_crates/swamp_zombie.json"
+    },
+    {
+      "id": "the_vault:wanda",
+      "name": "Witchkall Unique",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/unique_crates/wanda.json"
     },
     {
       "id": "the_vault:gilded_dungeon_barrel",

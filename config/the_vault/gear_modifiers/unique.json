@@ -7501,6 +7501,105 @@
             }
           }
         ]
+      },
+      {
+        "attribute": "the_vault:echoing_chance",
+        "group": "ModEchoChance",
+        "identifier": "the_vault:mod_echoing_chance",
+        "tags": [
+          "focusEchoingChance"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": 49,
+            "weight": 10,
+            "value": {
+              "min": 0.4,
+              "max": 0.54,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 50,
+            "maxLevel": 99,
+            "weight": 10,
+            "value": {
+              "min": 0.55,
+              "max": 0.7,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 65,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 0.71,
+              "max": 0.85,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 100,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 0.86,
+              "max": 1.0,
+              "step": 0.01
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:echoing_damage",
+        "group": "ModResistance",
+        "identifier": "the_vault:mod_echoing_damage",
+        "tags": [
+          "focusEchoingDamage"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": 49,
+            "weight": 10,
+            "value": {
+              "min": 0.2,
+              "max": 0.4,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 50,
+            "maxLevel": 99,
+            "weight": 10,
+            "value": {
+              "min": 0.41,
+              "max": 0.6,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 65,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 0.61,
+              "max": 0.8,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 90,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 0.81,
+              "max": 1.0,
+              "step": 0.01
+            }
+          }
+        ]
       }
     ],
     "SUFFIX": [

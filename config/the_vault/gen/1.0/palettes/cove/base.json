@@ -129,6 +129,22 @@
       ]
     },
     {
+      "type": "weighted_target",
+      "target": "minecraft:black_concrete",
+      "output": {
+        "the_vault:unique_crate{LootTable:\"the_vault:cove_unique_crate\"}": 1,
+        "minecraft:air": 9
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:black_glazed_terracotta",
+      "output": {
+        "the_vault:unique_crate{LootTable:\"the_vault:cove_unique_crate\"}": 1,
+        "minecraft:water": 9
+      }
+    },
+    {
       "type": "reference",
       "id": "the_vault:generic/room_base"
     }

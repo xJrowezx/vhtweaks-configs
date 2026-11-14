@@ -20,15 +20,14 @@
         ],
         "IMPLICIT": [
           "the_vault:base_attack_damage",
-          "the_vault:base_attack_speed",
-          "the_vault:base_sweeping_hit_damage"
+          "the_vault:base_attack_speed"
         ],
         "PREFIX": [
-          "the_vault:base_double_hit_chance",
-          "the_vault:mod_damage_increase"
+          "the_vault:mod_echoing_chance",
+          "the_vault:mod_echoing_damage"
         ],
         "SUFFIX": [
-          "the_vault:u_stun_hit"
+
         ]
       },
       "modifierTags": [],
@@ -411,11 +410,10 @@
           "the_vault:base_double_hit_chance"
         ],
         "PREFIX": [
-          "the_vault:mod_attack_damage",
-          "the_vault:unique_rampage_level"
+          "the_vault:mod_attack_damage"
         ],
         "SUFFIX": [
-          "the_vault:u_on_kill_heal"
+          "the_vault:mod_hemorrhaging"
         ]
       },
       "modifierTags": [],
@@ -1802,14 +1800,13 @@
       ],
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
-          "the_vault:base_endergized",
           "the_vault:base_magnet_durability",
           "the_vault:base_soulbound"
         ],
         "IMPLICIT": [
+          "the_vault:base_endergized",
           "the_vault:u_base_magnet_range_ender",
-          "the_vault:u_base_magnet_velocity_ender",
-          "the_vault:base_endergized"
+          "the_vault:u_base_magnet_velocity_ender"
         ],
         "PREFIX": ["the_vault:u_movement_horse"],
         "SUFFIX": []

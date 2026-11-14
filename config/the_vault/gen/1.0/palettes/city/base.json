@@ -4,7 +4,7 @@
       "type": "weighted_target",
       "target": "minecraft:black_glazed_terracotta",
       "output": {
-        "the_vault:unique_crate{LootTable:\"the_vault:city_unique_crate\"}": 0,
+        "the_vault:unique_crate{LootTable:\"the_vault:city_unique_crate\"}": 1,
         "minecraft:air": 9
       }
     },
