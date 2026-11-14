@@ -1513,17 +1513,13 @@
           { "value": "gilded_chest_big", "weight": 100 },
           { "value": "ornate_chest_big", "weight": 100 },
           { "value": "living_chest_big", "weight": 100 },
-          { "value": "coin_pile_big", "weight": 100 },
-          { "value": "cryonic_focus", "weight": 80 },
-          { "value": "empowered_chaotic_focus", "weight": 40 }
+          { "value": "coin_pile_big", "weight": 100 }
           ] },
         { "level": 50, "pool": [
           { "value": "gilded_chest_big", "weight": 100 },
           { "value": "ornate_chest_big", "weight": 100 },
           { "value": "living_chest_big", "weight": 100 },
           { "value": "coin_pile_big", "weight": 100 },
-          { "value": "cryonic_focus", "weight": 80 },
-          { "value": "empowered_chaotic_focus", "weight": 40 },
           { "value": "resource_booster_pack", "weight": 40 },
           { "value": "arcane_booster_pack", "weight": 40 },
           { "value": "evolution_booster_pack", "weight": 40 }

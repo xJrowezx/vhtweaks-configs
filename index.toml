@@ -1518,7 +1518,7 @@ hash = "dbcf6db863a467d7c9262ec40a7b17d05c1fdeed0076353dd361113be62b3dc1"
 
 [[files]]
 file = "config/the_vault/challenge/actions.json"
-hash = "11c13a7ad83bf237a4357bb0283943a053666b3b8612e2fa3252fe02b9bc644b"
+hash = "9211975d36b3085ccea580356bd5422b415e2147c5d26ed7c70c454f8061fdbe"
 
 [[files]]
 file = "config/the_vault/challenge/curses.json"
