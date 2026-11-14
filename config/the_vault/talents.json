@@ -1952,7 +1952,7 @@
         "type": "tiered",
         "id": "Lightning_Damage",
         "name": "Lightning Finesse",
-        "maxLearnableTier": 8,
+        "maxLearnableTier": 4,
         "tiers": [
           {
             "type": "lightning_stun",
