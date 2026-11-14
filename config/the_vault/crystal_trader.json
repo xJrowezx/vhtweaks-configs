@@ -4,14 +4,113 @@
     "1": [
       {
         "type": "pool",
-        "weight": 1,
+        "weight": 3,
         "poolId": "random_crystals",
         "minCoinCost": 40,
         "maxCoinCost": 100
       }
+    ],
+    "2": [
+      {
+        "type": "pool",
+        "weight": 1,
+        "poolId": "challenge_crystals"
+      }
     ]
   },
   "pools": {
+    "challenge_crystals": [
+      {
+        "type": "challenge_crystal",
+        "weight": 1,
+        "challengeCrystalId": "mr_white_crystal",
+        "nbt": "{CrystalData:{Hazards:{hazards:[]},Layout:{tunnel_span:1,type:\"infinite\"},Modifiers:{Clarity:0b,List:[{id:\"the_vault:champion_domain\",size:2},{id:\"the_vault:challenge_fortune\",size:1},{id:\"the_vault:dungeon_doors\",size:1},{id:\"the_vault:soul_fest\",size:1},{id:\"the_vault:rotten\",size:1}],RandomModifiers:1b,type:\"default\"},Objective:{minimum_runes:{max:5b,min:3b,type:\"uniform\"},objective_probability:0.05f,type:\"rune_boss\"},Properties:{bingo_bust_compatible:0b,exhausted:1b,level:100b,seed:0b,size:0b,type:\"capacity\",volume:100b},Sigil:\"veteran\",Theme:{id:\"the_vault:classic_vault_sandy_cave\",type:\"value\"},Version:3b},RepairCost:0,display:{Name:'{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"text\":\"Champs Challenge\"}],\"text\":\"\"}'}}",
+        "minGreedTier": 0,
+        "maxGreedTier": -1,
+        "minCoinCost": 120,
+        "maxCoinCost": 300
+      },
+      {
+        "type": "challenge_crystal",
+        "weight": 1,
+        "challengeCrystalId": "mr_white_crystal",
+        "nbt": "{CrystalData:{Hazards:{hazards:[]},Layout:{children:[{tunnel_span:1,type:\"infinite\"},{entries:[{color:7012096,count:5,pool:\"the_vault:vault/rooms/omega/blacksmith\"}],type:\"architect\"}],type:\"compound\"},Modifiers:{Clarity:0b,List:[{id:\"the_vault:extended\",size:5},{id:\"the_vault:ornate_cascade\",size:5},{id:\"the_vault:crowded\",size:3},{id:\"the_vault:brutal_mobs_combo\",size:2},{id:\"the_vault:omega_fortune\",size:1},{id:\"the_vault:rotten\",size:1},{id:\"the_vault:kill_hunter\",size:1},{id:\"woldsvaults:mythical\",size:1}],RandomModifiers:1b,type:\"default\"},Objective:{objective_probability:0.4f,required_progress:2.5f,type:\"alchemy\"},Properties:{bingo_bust_compatible:0b,exhausted:1b,level:100b,seed:0b,size:50b,type:\"capacity\",volume:100b},Sigil:\"veteran\",Theme:{id:\"the_vault:classic_vault_fairy_ring\",type:\"value\"},Version:3b},RepairCost:0,display:{Name:'{\"text\":\"Enchanting Gear\"}'}}",
+        "minGreedTier": 0,
+        "maxGreedTier": -1,
+        "minCoinCost": 120,
+        "maxCoinCost": 300
+      },
+      {
+        "type": "challenge_crystal",
+        "weight": 1,
+        "challengeCrystalId": "mr_white_crystal",
+        "nbt": "{CrystalData:{Hazards:{hazards:[]},Layout:{tunnel_span:1,type:\"infinite\"},Modifiers:{Clarity:0b,List:[{id:\"the_vault:wild\",size:3},{id:\"the_vault:challenge_fortune\",size:2},{id:\"the_vault:kill_hunter\",size:1},{id:\"the_vault:crowded\",size:1},{id:\"the_vault:rotten\",size:1},{id:\"the_vault:soul_fest\",size:1},{id:\"the_vault:ethereal_mobs\",size:1},{id:\"the_vault:time_bomb_spawn\",size:1}],RandomModifiers:1b,type:\"default\"},Objective:{objective_probability:1b,target:{max:10b,min:6b,type:\"uniform\"},type:\"haunted_braziers\"},Properties:{bingo_bust_compatible:0b,exhausted:1b,level:100b,seed:0b,size:0b,type:\"capacity\",volume:100b},Sigil:\"veteran\",Theme:{id:\"the_vault:classic_vault_gloom\",type:\"value\"},Version:3b},RepairCost:0,display:{Name:'{\"text\":\"Spooky Time\"}'}}",
+        "minGreedTier": 0,
+        "maxGreedTier": -1,
+        "minCoinCost": 120,
+        "maxCoinCost": 300
+      },
+      {
+        "type": "challenge_crystal",
+        "weight": 1,
+        "challengeCrystalId": "mr_white_crystal",
+        "nbt": "{CrystalData:{Hazards:{hazards:[]},Layout:{tunnel_span:1,type:\"infinite\"},Modifiers:{Clarity:0b,List:[{id:\"the_vault:living_cascade\",size:5},{id:\"the_vault:living_mob_drops\",size:3},{id:\"the_vault:crowded\",size:2},{id:\"the_vault:ultimate_regeneration\",size:1},{id:\"the_vault:rotten\",size:1},{id:\"the_vault:omega_fortune\",size:1},{id:\"the_vault:phoenix\",size:1}],RandomModifiers:1b,type:\"default\"},Objective:{objective_probability:0.3f,type:\"enchanted_elixir\"},Properties:{bingo_bust_compatible:0b,exhausted:1b,level:100b,seed:0b,size:50b,type:\"capacity\",volume:100b},Sigil:\"veteran\",Theme:{id:\"the_vault:classic_vault_season_spring\",type:\"value\"},Version:3b},RepairCost:0,display:{Name:'{\"text\":\"Alive for now\"}'}}",
+        "minGreedTier": 0,
+        "maxGreedTier": -1,
+        "minCoinCost": 120,
+        "maxCoinCost": 300
+      },
+      {
+        "type": "challenge_crystal",
+        "weight": 1,
+        "challengeCrystalId": "mr_white_crystal",
+        "nbt": "{CrystalData:{Hazards:{hazards:[]},Layout:{tunnel_span:1,type:\"infinite\"},Modifiers:{Clarity:0b,List:[{id:\"the_vault:extended\",size:5},{id:\"the_vault:living_cascade\",size:3},{id:\"the_vault:ornate_cascade\",size:3},{id:\"the_vault:wooden_cascade\",size:3},{id:\"the_vault:gilded_cascade\",size:3},{id:\"the_vault:crowded\",size:2},{id:\"the_vault:loot_goblin\",size:2},{id:\"the_vault:speedy\",size:2},{id:\"the_vault:rotten\",size:1}],RandomModifiers:1b,type:\"default\"},Objective:{objective_probability:0.75f,type:\"unhinged_scavenger\"},Properties:{bingo_bust_compatible:0b,exhausted:1b,level:100b,seed:0b,size:0b,type:\"capacity\",volume:100b},Sigil:\"veteran\",Theme:{id:\"the_vault:classic_vault_chaos\",type:\"value\"},Version:3b},RepairCost:0,display:{Name:'{\"text\":\"Greedy\"}'}}",
+        "minGreedTier": 0,
+        "maxGreedTier": -1,
+        "minCoinCost": 120,
+        "maxCoinCost": 300
+      },
+      {
+        "type": "challenge_crystal",
+        "weight": 1,
+        "challengeCrystalId": "mr_white_crystal",
+        "nbt": "{CrystalData:{Hazards:{hazards:[]},Layout:{children:[{tunnel_span:1,type:\"infinite\"},{entries:[{color:7012096,count:5,pool:\"the_vault:vault/rooms/omega/cove\"}],type:\"architect\"}],type:\"compound\"},Modifiers:{Clarity:0b,List:[{id:\"the_vault:coin_cascade\",size:5},{id:\"the_vault:crowded\",size:3},{id:\"the_vault:coin_chest_loot\",size:3},{id:\"the_vault:speedy\",size:2},{id:\"the_vault:rotten\",size:1},{id:\"the_vault:bronze_nuke\",size:1},{id:\"the_vault:brutal_mobs_combo\",size:1}],RandomModifiers:1b,type:\"default\"},Objective:{objective_probability:0.3f,type:\"enchanted_elixir\"},Properties:{bingo_bust_compatible:0b,exhausted:1b,level:100b,seed:0b,size:100b,type:\"capacity\",volume:100b},Sigil:\"legend\",Theme:{id:\"the_vault:classic_vault_season_summer\",type:\"value\"},Version:3b},RepairCost:0,display:{Name:'{\"text\":\"PirateBooty\"}'}}",
+        "minGreedTier": 0,
+        "maxGreedTier": -1,
+        "minCoinCost": 120,
+        "maxCoinCost": 300
+      },
+      {
+        "type": "challenge_crystal",
+        "weight": 1,
+        "challengeCrystalId": "mr_white_crystal",
+        "nbt": "{CrystalData:{Hazards:{hazards:[]},Layout:{tunnel_span:1,type:\"infinite\"},Modifiers:{Clarity:0b,List:[{id:\"the_vault:crowded\",size:6},{id:\"the_vault:challenge_fortune\",size:3},{id:\"the_vault:phoenix\",size:2},{id:\"the_vault:kill_nova\",size:1},{id:\"the_vault:soul_fest\",size:1},{id:\"the_vault:brutal_mobs_combo\",size:1},{id:\"the_vault:champion_domain\",size:1},{id:\"the_vault:rotten\",size:1}],RandomModifiers:1b,type:\"default\"},Objective:{blackout:0b,height:4b,modifierPool:\"the_vault:bingos\",objective_probability:1b,type:\"scavenger_bingo\",width:4b},Properties:{bingo_bust_compatible:0b,exhausted:1b,level:100b,seed:0b,size:0b,type:\"capacity\",volume:100b},Sigil:\"legend\",Theme:{id:\"the_vault:classic_vault_nether_soul\",type:\"value\"},Version:3b},RepairCost:0,display:{Name:'{\"text\":\"Deaths Challenge\"}'}}",
+        "minGreedTier": 0,
+        "maxGreedTier": -1,
+        "minCoinCost": 120,
+        "maxCoinCost": 300
+      },
+      {
+        "type": "challenge_crystal",
+        "weight": 1,
+        "challengeCrystalId": "mr_white_crystal",
+        "nbt": "{CrystalData:{Hazards:{hazards:[]},Layout:{tunnel_span:1,type:\"infinite\"},Modifiers:{Clarity:0b,List:[{id:\"the_vault:plentiful\",size:10},{id:\"the_vault:brutal_mobs_combo\",size:3},{id:\"the_vault:opulent_ores\",size:3},{id:\"the_vault:omega_fortune\",size:2},{id:\"the_vault:rotten\",size:1},{id:\"the_vault:mob_levitate\",size:1},{id:\"the_vault:voiding\",size:1},{id:\"the_vault:rock_solid\",size:1}],RandomModifiers:1b,type:\"default\"},Objective:{minimum_runes:{max:5b,min:3b,type:\"uniform\"},objective_probability:0.05f,type:\"rune_boss\"},Properties:{bingo_bust_compatible:0b,exhausted:1b,level:100b,seed:0b,size:0b,type:\"capacity\",volume:100b},Sigil:\"legend\",Theme:{id:\"the_vault:classic_vault_factory_void\",type:\"value\"},Version:3b},RepairCost:0,display:{Name:'{\"text\":\"Plenty for me\"}'}}",
+        "minGreedTier": 0,
+        "maxGreedTier": -1,
+        "minCoinCost": 120,
+        "maxCoinCost": 300
+      },
+      {
+        "type": "challenge_crystal",
+        "weight": 1,
+        "challengeCrystalId": "mr_white_crystal",
+        "nbt": "{CrystalData:{Hazards:{hazards:[]},Layout:{tunnel_span:1,type:\"infinite\"},Modifiers:{Clarity:0b,List:[{id:\"the_vault:phoenix\",size:5},{id:\"the_vault:overvault_portal_s\",size:1},{id:\"the_vault:champion_domain\",size:1},{id:\"the_vault:challenge_fortune\",size:1},{id:\"the_vault:omega_fortune\",size:1}],RandomModifiers:1b,type:\"default\"},Properties:{bingo_bust_compatible:0b,exhausted:1b,level:100b,seed:0b,size:0b,type:\"capacity\",volume:100b},Sigil:\"legend\",Theme:{id:\"the_vault:classic_vault_chaos\",type:\"value\"},Version:3b},RepairCost:0,display:{Name:'{\"text\":\"Grab a Friend\"}'}}",
+        "minGreedTier": 0,
+        "maxGreedTier": -1,
+        "minCoinCost": 120,
+        "maxCoinCost": 300
+      }
+    ],
     "random_crystals": [
       {
         "type": "random_crystal",

@@ -1530,7 +1530,7 @@ hash = "0f42109b148ab9c46d0b3de611af1aa58b95fc502a02d39c6975201dc1ce2a5b"
 
 [[files]]
 file = "config/the_vault/challenge_crystal.json"
-hash = "a4fc160295a195d306000639a884d97eb52e775d53ac7ad38cb0a3d9efd77196"
+hash = "1ee3abddbb1b8c468e70b4e6231e7c35c9e2883dde7385eb5f9f8497ff49c88d"
 
 [[files]]
 file = "config/the_vault/challenge_weapons.json"
@@ -1550,7 +1550,7 @@ hash = "48da9ce1db34c82af6730660f9bed384c58633fb1313c63dcb3f423f164598bf"
 
 [[files]]
 file = "config/the_vault/colors.json"
-hash = "7ce6719e4a3ea51eba0c33d442f54c8af17a84455e98eed82555b083ff09247b"
+hash = "6d5773b7e9fe589171da5951b76ca748ed61d62ed5e14ad037fcc09006ccf0ad"
 
 [[files]]
 file = "config/the_vault/companion_relics.json"
@@ -1582,7 +1582,7 @@ hash = "f530e02c3eb0d1492786f2946f5984f8191afd7eac0f3d4c8a6a9f421e8dbffd"
 
 [[files]]
 file = "config/the_vault/crystal_trader.json"
-hash = "03c7775ab121909f0ea57dc787c5556b1bb120258ec65ff9f4fdb05e389fe2a8"
+hash = "56491787f9fe4309a30bd8485cc5465720d794c7d66050cfcdeec98cf0787602"
 
 [[files]]
 file = "config/the_vault/curios_gui.json"
@@ -1882,7 +1882,7 @@ hash = "e0646921a78b740d21147c1c9569a419c52107545c5d838a1b3ff1d425a99c56"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/vault_necklace.json"
-hash = "b972f9506c4ea2ad4e2e26af85aad472cb38ec4a32a2825ffe20c48943251570"
+hash = "cd1337ec2d680d8c9232a28d3e4c23d938289e7cc6a45af47493df2bbe411836"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/vault_necklace_mythic.json"
@@ -3254,7 +3254,7 @@ hash = "ebee6736f509c970047d0b34463a73acc8d8203099a791f7c9511f65ad22f2a8"
 
 [[files]]
 file = "config/the_vault/gen/1.0/palettes/generic/altar_nbt.json"
-hash = "0338cf3df726a06f01e5aaf9c284cae8393e848b7092588c9b386313063aaa78"
+hash = "403f24afe53f3e86ffe531ba1c99e80d74e91ff773c64cdb12c12cf506676735"
 
 [[files]]
 file = "config/the_vault/gen/1.0/palettes/generic/altars/rare_ores.json"
@@ -17778,7 +17778,7 @@ hash = "9cbf85e316dfa648baca8facd9d8d87afc23b4ed1b5ae492ef7353afa7e0e523"
 
 [[files]]
 file = "mods/VHTweaks-0.23.2-all.jar"
-hash = "69cdc861a102661d7317097f59b106846695f5a8b8b50c970f9556fa0a37156a"
+hash = "ea391d551a44d62876b2aff8fab66a7f1dd18dbda3d041caa5e82690cdaed5d7"
 
 [[files]]
 file = "mods/additional-lanterns.pw.toml"
