@@ -1459,8 +1459,8 @@
           "color": "$text"
         },
         {
-          "text": "poisoned",
-          "color": "$poisoned"
+          "text": "Poisoned",
+          "color": "$poison"
         },
         {
           "text": ", dealing a percentage of ",
@@ -1534,7 +1534,7 @@
         },
         {
           "text": "chilled ",
-          "color": "$chill"
+          "color": "$chilled"
         },
         {
           "text": "for a ",
@@ -1995,7 +1995,7 @@
         },
         {
           "text": "Fall Damage ",
-          "color": "$damage"
+          "color": "$keyword"
         },
         {
           "text": "for a ",
@@ -2118,7 +2118,7 @@
           "color": "$keyword"
         },
         {
-          "text": "Increases base movement speed while on the ground.\n\n",
+          "text": ": Increases base movement speed while on the ground.\n\n",
           "color": "$text"
         },
         {
@@ -4061,7 +4061,15 @@
           "color": "$chilled"
         },
         {
-          "text": "mob with the Icicle will cause the bolt to splinter into multiple Icicles, launching in four directions and doing reduced damage.\n\n",
+          "text": "mob with the Icicle will cause the bolt to ",
+          "color": "$text"
+        },
+        {
+          "text": "Splinter ",
+          "color": "$keyword"
+        },
+        {
+          "text": "into multiple Icicles, launching in four directions and doing reduced damage.\n\n",
           "color": "$text"
         },
         {
@@ -4549,15 +4557,23 @@
           "color": "$text"
         },
         {
-          "text": "Launch a vial that bounces and explodes in a ",
+          "text": "Launch a vial that bounces and explodes, and all mobs in a ",
           "color": "$text"
         },
         {
-          "text": "radius",
+          "text": "radius ",
           "color": "$radius"
         },
         {
-          "text": ", dealing ",
+          "text": "of it are ",
+          "color": "$text"
+        },
+        {
+          "text": "Poisoned",
+          "color": "$poison"
+        },
+        {
+          "text": ", dealing a percentage of ",
           "color": "$text"
         },
         {
@@ -4565,15 +4581,7 @@
           "color": "$ability_power"
         },
         {
-          "text": "and leaving a ",
-          "color": "$text"
-        },
-        {
-          "text": "Poison Cloud ",
-          "color": "$poison"
-        },
-        {
-          "text": "for a ",
+          "text": "over a ",
           "color": "$text"
         },
         {
@@ -5029,7 +5037,7 @@
           "color": "$keyword"
         },
         {
-          "text": "Increases base movement speed while on the ground.\n\n",
+          "text": ": Increases base movement speed while on the ground.\n\n",
           "color": "$text"
         },
         {
@@ -6060,7 +6068,7 @@
         },
         {
           "text": "Heart Fragment",
-          "color": "$keyword"
+          "color": "$fragment"
         },
         {
           "text": ".\n\n",
@@ -6096,7 +6104,7 @@
         },
         {
           "text": "Heart Fragment",
-          "color": "$keyword"
+          "color": "$fragment"
         },
         {
           "text": ": Drops a heart fragment that heals for 1 hitpoint, and is not affected by magnets.\n\n",
@@ -6184,7 +6192,7 @@
         },
         {
           "text": "Heart Fragment",
-          "color": "$keyword"
+          "color": "$fragment"
         },
         {
           "text": ".\n\n",
@@ -6232,7 +6240,7 @@
         },
         {
           "text": "Heart Fragment",
-          "color": "$keyword"
+          "color": "$fragment"
         },
         {
           "text": ": Drops a heart fragment that heals for 1 hitpoint, and is not affected by magnets.\n\n",
@@ -6269,7 +6277,7 @@
           "color": "$text"
         },
         {
-          "text": "Summon a Naga to to run forward, picking up all enemies it comes in contact with and slamming them into a wall, before vanishing. Enemies are ",
+          "text": "Summon a Naga to run forward, picking up all enemies it comes in contact with. The Naga will slam them on the ground after 16 blocks or into the first wall it contacts, before vanishing. Enemies are ",
           "color": "$text"
         },
         {
