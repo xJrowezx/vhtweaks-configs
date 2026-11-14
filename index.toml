@@ -1882,7 +1882,7 @@ hash = "e0646921a78b740d21147c1c9569a419c52107545c5d838a1b3ff1d425a99c56"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/vault_necklace.json"
-hash = "cd1337ec2d680d8c9232a28d3e4c23d938289e7cc6a45af47493df2bbe411836"
+hash = "d8fd891d9c7c86a0bedc26d5ae9ae0f897e16d08b13f7d31c40767a138fb131d"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/vault_necklace_mythic.json"
