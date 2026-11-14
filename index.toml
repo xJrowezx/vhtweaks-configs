@@ -16089,6 +16089,10 @@ file = "kubejs/assets/the_vault/models/item/skills/levitate.json"
 hash = "88e76045ce819d66abb67bb354ccefb392401583055a3d4b9af30c3302bb7a3c"
 
 [[files]]
+file = "kubejs/assets/the_vault/models/item/skills/mana_veil.json"
+hash = "0606e86d630cfb536725074773f4274540b7d3f2e523fe1e3ddbd2230123e5d9"
+
+[[files]]
 file = "kubejs/assets/the_vault/models/item/skills/shield_wall.json"
 hash = "5b44a6531066b2f70b18c137104a8c6d02409d1500fca4dafbb0c020a7aa4157"
 
@@ -16883,6 +16887,10 @@ hash = "9a3816f2e87539c09324f688f635061809009130d56f37467c736e0442ca0215"
 [[files]]
 file = "kubejs/assets/the_vault/textures/item/skills/levitate.png"
 hash = "161483523ecd1a5f51fb49135cc196658337dfe0f81c2129471024e5de113f5b"
+
+[[files]]
+file = "kubejs/assets/the_vault/textures/item/skills/mana_veil.png"
+hash = "71df2c3169f3c6edadb78a5dbf88c2d2818d21f4a7c0f1a7dc3d754bf0df7a08"
 
 [[files]]
 file = "kubejs/assets/the_vault/textures/item/skills/shield_wall.png"
