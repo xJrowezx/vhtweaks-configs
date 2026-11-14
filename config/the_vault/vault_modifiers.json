@@ -1688,6 +1688,20 @@
           "icon": "the_vault:gui/modifiers/destructive"
         }
       },
+      "the_vault:fierce": {
+        "properties": {
+          "type": "crit_chance_additive",
+          "amount": 0.10,
+          "attributeStackingStrategy": "STACK"
+        },
+        "display": {
+          "name": "Fierce",
+          "color": "#dc693c",
+          "description": "+10% Mob Critical Strike Chance",
+          "descriptionFormatted": "+%d%% Mob Critical Strike Chance",
+          "icon": "the_vault:gui/modifiers/destructive"
+        }
+      },
       "the_vault:mob_speed_5": {
         "properties": {
           "type": "speed_additive_percentile",
@@ -1733,7 +1747,7 @@
       "the_vault:chunky_scale": {
         "properties": {
           "type": "scale",
-          "amount": 0.2,
+          "amount": 0.5,
           "attributeStackingStrategy": "STACK"
         },
         "display": {
@@ -3987,6 +4001,54 @@
           "descriptionFormatted": "Owed and unpaid. Earn no XP until your debt is settled",
           "icon": "the_vault:gui/modifiers/curse_voidpools"
         }
+      },
+      "the_vault:perceptive": {
+        "properties": {
+          "addend": 0.25
+        },
+        "display": {
+          "name": "Perceptive",
+          "color": "#DB7C00",
+          "description": "+25% Vault Experience",
+          "descriptionFormatted": "+%d%% Vault Experience",
+          "icon": "the_vault:gui/modifiers/experienced"
+        }
+      },
+      "the_vault:insightful": {
+        "properties": {
+          "addend": 0.5
+        },
+        "display": {
+          "name": "Insightful",
+          "color": "#DB7C00",
+          "description": "+50% Vault Experience",
+          "descriptionFormatted": "+%d%% Vault Experience",
+          "icon": "the_vault:gui/modifiers/experienced"
+        }
+      },
+      "the_vault:clouded": {
+        "properties": {
+          "addend": -0.25
+        },
+        "display": {
+          "name": "Clouded",
+          "color": "#DB7C00",
+          "description": "-25% Vault Experience",
+          "descriptionFormatted": "-%d%% Vault Experience",
+          "icon": "the_vault:gui/modifiers/impossible"
+        }
+      },
+      "the_vault:oblivious": {
+        "properties": {
+          "addend": -0.5
+        },
+        "display": {
+          "name": "Oblivious",
+          "color": "#DB7C00",
+          "description": "-50% Vault Experience",
+          "descriptionFormatted": "-%d%% Vault Experience",
+          "icon": "the_vault:gui/modifiers/impossible"
+        }
       }
     },
     "the_vault:modifier_type/inline_pool": {
@@ -5821,6 +5883,28 @@
       }
     },
     "the_vault:modifier_type/spell_fail_chance": {
+      "the_vault:glitchy": {
+        "properties": {
+          "spellFailureChance": 0.1
+        },
+        "display": {
+          "name": "Glitchy",
+          "color": "#a996ca",
+          "description": "Spells have a 10% chance to not cast.",
+          "icon": "the_vault:gui/modifiers/legendary_modifier"
+        }
+      },
+      "the_vault:faltering": {
+        "properties": {
+          "spellFailureChance": 0.25
+        },
+        "display": {
+          "name": "Faltering",
+          "color": "#a996ca",
+          "description": "Spells have a 25% chance to not cast.",
+          "icon": "the_vault:gui/modifiers/legendary_modifier"
+        }
+      },
       "the_vault:spell_failure": {
         "properties": {
           "spellFailureChance": 0.5
@@ -5874,6 +5958,39 @@
       }
     },
     "the_vault:modifier_type/gemstones_on_kill": {
+      "the_vault:glinting": {
+        "properties": {
+          "gemstoneChance": 0.01
+        },
+        "display": {
+          "name": "Glinting",
+          "color": "#a996ca",
+          "description": "A 1% chance to generate gemstones when killing a mob",
+          "icon": "the_vault:gui/modifiers/gemstone_frenzy"
+        }
+      },
+      "the_vault:shiny": {
+        "properties": {
+          "gemstoneChance": 0.05
+        },
+        "display": {
+          "name": "Shiny",
+          "color": "#a996ca",
+          "description": "A Small chance to generate gemstones when killing a mob",
+          "icon": "the_vault:gui/modifiers/gemstone_frenzy"
+        }
+      },
+      "the_vault:crystalized_mobs": {
+        "properties": {
+          "gemstoneChance": 0.1
+        },
+        "display": {
+          "name": "Crystalized Mobs",
+          "color": "#a996ca",
+          "description": "A 10% chance to generate gemstones when killing a mob",
+          "icon": "the_vault:gui/modifiers/gemstone_frenzy"
+        }
+      },
       "the_vault:gemstones_on_kill": {
         "properties": {
           "gemstoneChance": 0.01
@@ -6011,6 +6128,66 @@
       }
     },
     "the_vault:modifier_type/chest_mob_spawn": {
+      "the_vault:tainted": {
+        "properties": {
+          "chance": 0.10,
+          "mob": "the_vault:vault_fighter_3",
+          "spawnRadius": 8,
+          "whitelist": [
+            "WOODEN",
+            "GILDED",
+            "LIVING",
+            "ORNATE"
+          ]
+        },
+        "display": {
+          "name": "Tainted Chests",
+          "color": "#AA0000",
+          "description": "Looting chests have a 10% chance to spawn a dweller.",
+          "descriptionFormatted": "Looting chests have a %d%% chance to spawn a dweller.",
+          "icon": "the_vault:gui/modifiers/impossible"
+        }
+      },
+      "the_vault:haunted_chests": {
+        "properties": {
+          "chance": 0.25,
+          "mob": "the_vault:vault_fighter_3",
+          "spawnRadius": 8,
+          "whitelist": [
+            "WOODEN",
+            "GILDED",
+            "LIVING",
+            "ORNATE"
+          ]
+        },
+        "display": {
+          "name": "Haunted Chests",
+          "color": "#AA0000",
+          "description": "Looting chests have a 25% chance to spawn a dweller.",
+          "descriptionFormatted": "Looting chests have a %d%% chance to spawn a dweller.",
+          "icon": "the_vault:gui/modifiers/impossible"
+        }
+      },
+      "the_vault:guarded": {
+        "properties": {
+          "chance": 0.50,
+          "mob": "the_vault:vault_fighter_3",
+          "spawnRadius": 8,
+          "whitelist": [
+            "WOODEN",
+            "GILDED",
+            "LIVING",
+            "ORNATE"
+          ]
+        },
+        "display": {
+          "name": "Tainted Chests",
+          "color": "#AA0000",
+          "description": "Looting chests have a 50% chance to spawn a dweller.",
+          "descriptionFormatted": "Looting chests have a %d%% chance to spawn a dweller.",
+          "icon": "the_vault:gui/modifiers/impossible"
+        }
+      },
       "the_vault:dweller_chests": {
         "properties": {
           "chance": 0.05,

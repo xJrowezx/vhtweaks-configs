@@ -15270,11 +15270,11 @@ hash = "937a7d9384ee32a42732e9e8b2d1a320f6b0462a207330145a60342ca3682313"
 
 [[files]]
 file = "config/the_vault/vault_modifier_pools.json"
-hash = "25d5cf8649891d2d04bfb0060e604fc634125db4401851ef67d710ec41b95e00"
+hash = "e04d96b58f9226fdb8c8c8e02e91613a6aac605ec606d9ac72a612c97e144c4f"
 
 [[files]]
 file = "config/the_vault/vault_modifiers.json"
-hash = "efcb2bec82032ea430151953ffff766dd9d02655a881da5d1a3fc7ffab776901"
+hash = "9374d3065227392a3db2bc31ff1e80e71f3716e4b5ec4db3659edd410348665b"
 
 [[files]]
 file = "config/the_vault/vault_necklace.json"
