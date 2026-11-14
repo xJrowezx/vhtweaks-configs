@@ -48,7 +48,7 @@
             "weight": 200,
             "value": {
               "talentKey": "Frostbite",
-              "levelChange": 2
+              "levelChange": 1
             }
           },
           {
@@ -57,7 +57,7 @@
             "weight": 200,
             "value": {
               "talentKey": "Frostbite",
-              "levelChange": 3
+              "levelChange": 2
             }
           },
           {
@@ -66,7 +66,7 @@
             "weight": 200,
             "value": {
               "talentKey": "Frostbite",
-              "levelChange": 4
+              "levelChange": 3
             }
           }
         ]
@@ -118,7 +118,7 @@
             "weight": 200,
             "value": {
               "talentKey": "Treasure_Sense",
-              "levelChange": 2
+              "levelChange": 1
             }
           },
           {
@@ -127,7 +127,7 @@
             "weight": 200,
             "value": {
               "talentKey": "Treasure_Sense",
-              "levelChange": 3
+              "levelChange": 2
             }
           },
           {
@@ -136,7 +136,7 @@
             "weight": 200,
             "value": {
               "talentKey": "Treasure_Sense",
-              "levelChange": 4
+              "levelChange": 3
             }
           }
         ]
@@ -188,7 +188,7 @@
             "weight": 200,
             "value": {
               "talentKey": "Treasure_Seeker",
-              "levelChange": 2
+              "levelChange": 1
             }
           },
           {
@@ -197,7 +197,7 @@
             "weight": 200,
             "value": {
               "talentKey": "Treasure_Seeker",
-              "levelChange": 3
+              "levelChange": 2
             }
           },
           {
@@ -206,7 +206,7 @@
             "weight": 200,
             "value": {
               "talentKey": "Treasure_Seeker",
-              "levelChange": 4
+              "levelChange": 3
             }
           }
         ]
@@ -220,7 +220,7 @@
           {
             "minLevel": 0,
             "maxLevel": -1,
-            "weight": 200,
+            "weight": 300,
             "value": {
               "talentKey": "Fanged_Strike",
               "levelChange": 1
@@ -229,19 +229,10 @@
           {
             "minLevel": 50,
             "maxLevel": -1,
-            "weight": 200,
+            "weight": 300,
             "value": {
               "talentKey": "Fanged_Strike",
               "levelChange": 2
-            }
-          },
-          {
-            "minLevel": 90,
-            "maxLevel": -1,
-            "weight": 200,
-            "value": {
-              "talentKey": "Fanged_Strike",
-              "levelChange": 3
             }
           }
         ]
@@ -290,19 +281,10 @@
           {
             "minLevel": 0,
             "maxLevel": -1,
-            "weight": 300,
+            "weight": 600,
             "value": {
               "talentKey": "Fatal_Strike",
               "levelChange": 1
-            }
-          },
-          {
-            "minLevel": 50,
-            "maxLevel": -1,
-            "weight": 300,
-            "value": {
-              "talentKey": "Fatal_Strike",
-              "levelChange": 2
             }
           }
         ]
@@ -316,7 +298,7 @@
           {
             "minLevel": 0,
             "maxLevel": -1,
-            "weight": 200,
+            "weight": 300,
             "value": {
               "talentKey": "Mana_Harvest",
               "levelChange": 1
@@ -325,19 +307,10 @@
           {
             "minLevel": 50,
             "maxLevel": -1,
-            "weight": 200,
+            "weight": 300,
             "value": {
               "talentKey": "Mana_Harvest",
               "levelChange": 2
-            }
-          },
-          {
-            "minLevel": 90,
-            "maxLevel": -1,
-            "weight": 200,
-            "value": {
-              "talentKey": "Mana_Harvest",
-              "levelChange": 3
             }
           }
         ]
@@ -421,7 +394,7 @@
           {
             "minLevel": 0,
             "maxLevel": -1,
-            "weight": 200,
+            "weight": 300,
             "value": {
               "talentKey": "Life_Steal",
               "levelChange": 1
@@ -430,36 +403,10 @@
           {
             "minLevel": 50,
             "maxLevel": -1,
-            "weight": 200,
+            "weight": 300,
             "value": {
               "talentKey": "Life_Steal",
               "levelChange": 2
-            }
-          },
-          {
-            "minLevel": 90,
-            "maxLevel": -1,
-            "weight": 200,
-            "value": {
-              "talentKey": "Life_Steal",
-              "levelChange": 3
-            }
-          }
-        ]
-      },
-      {
-        "attribute": "the_vault:added_talent_level",
-        "group": "ModTalentLevel",
-        "identifier": "the_vault:u_talent_level_cleave",
-        "tags": [],
-        "tiers": [
-          {
-            "minLevel": 0,
-            "maxLevel": -1,
-            "weight": 600,
-            "value": {
-              "talentKey": "Cleave",
-              "levelChange": 1
             }
           }
         ]
@@ -476,7 +423,7 @@
             "weight": 200,
             "value": {
               "talentKey": "Clean_Escape",
-              "levelChange": 2
+              "levelChange": 1
             }
           },
           {
@@ -485,7 +432,7 @@
             "weight": 200,
             "value": {
               "talentKey": "Clean_Escape",
-              "levelChange": 3
+              "levelChange": 2
             }
           },
           {
@@ -494,7 +441,7 @@
             "weight": 200,
             "value": {
               "talentKey": "Clean_Escape",
-              "levelChange": 4
+              "levelChange": 3
             }
           }
         ]
@@ -511,7 +458,7 @@
             "weight": 200,
             "value": {
               "talentKey": "Farmer_Twerker",
-              "levelChange": 2
+              "levelChange": 1
             }
           },
           {
@@ -520,7 +467,7 @@
             "weight": 200,
             "value": {
               "talentKey": "Farmer_Twerker",
-              "levelChange": 3
+              "levelChange": 2
             }
           },
           {
@@ -529,24 +476,7 @@
             "weight": 200,
             "value": {
               "talentKey": "Farmer_Twerker",
-              "levelChange": 4
-            }
-          }
-        ]
-      },
-      {
-        "attribute": "the_vault:added_talent_level",
-        "group": "ModTalentLevel",
-        "identifier": "the_vault:u_talent_level_execution_strike",
-        "tags": [],
-        "tiers": [
-          {
-            "minLevel": 0,
-            "maxLevel": -1,
-            "weight": 600,
-            "value": {
-              "talentKey": "Execution_Strike",
-              "levelChange": 1
+              "levelChange": 3
             }
           }
         ]
@@ -665,7 +595,7 @@
           {
             "minLevel": 0,
             "maxLevel": -1,
-            "weight": 200,
+            "weight": 300,
             "value": {
               "talentKey": "Quickening",
               "levelChange": 1
@@ -674,19 +604,10 @@
           {
             "minLevel": 50,
             "maxLevel": -1,
-            "weight": 200,
+            "weight": 300,
             "value": {
               "talentKey": "Quickening",
               "levelChange": 2
-            }
-          },
-          {
-            "minLevel": 90,
-            "maxLevel": -1,
-            "weight": 200,
-            "value": {
-              "talentKey": "Quickening",
-              "levelChange": 3
             }
           }
         ]
@@ -700,7 +621,7 @@
           {
             "minLevel": 0,
             "maxLevel": -1,
-            "weight": 200,
+            "weight": 300,
             "value": {
               "talentKey": "Heart_Fragments",
               "levelChange": 1
@@ -709,19 +630,10 @@
           {
             "minLevel": 50,
             "maxLevel": -1,
-            "weight": 200,
+            "weight": 300,
             "value": {
               "talentKey": "Heart_Fragments",
               "levelChange": 2
-            }
-          },
-          {
-            "minLevel": 90,
-            "maxLevel": -1,
-            "weight": 200,
-            "value": {
-              "talentKey": "Heart_Fragments",
-              "levelChange": 3
             }
           }
         ]
@@ -735,7 +647,7 @@
           {
             "minLevel": 0,
             "maxLevel": -1,
-            "weight": 200,
+            "weight": 300,
             "value": {
               "talentKey": "Mana_Steal",
               "levelChange": 1
@@ -744,19 +656,10 @@
           {
             "minLevel": 50,
             "maxLevel": -1,
-            "weight": 200,
+            "weight": 300,
             "value": {
               "talentKey": "Mana_Steal",
               "levelChange": 2
-            }
-          },
-          {
-            "minLevel": 90,
-            "maxLevel": -1,
-            "weight": 200,
-            "value": {
-              "talentKey": "Mana_Steal",
-              "levelChange": 3
             }
           }
         ]
@@ -980,7 +883,7 @@
           {
             "minLevel": 0,
             "maxLevel": -1,
-            "weight": 200,
+            "weight": 300,
             "value": {
               "talentKey": "Arcane_Strike",
               "levelChange": 1
@@ -989,19 +892,10 @@
           {
             "minLevel": 50,
             "maxLevel": -1,
-            "weight": 200,
+            "weight": 300,
             "value": {
               "talentKey": "Arcane_Strike",
               "levelChange": 2
-            }
-          },
-          {
-            "minLevel": 90,
-            "maxLevel": -1,
-            "weight": 200,
-            "value": {
-              "talentKey": "Arcane_Strike",
-              "levelChange": 3
             }
           }
         ]
@@ -1050,28 +944,19 @@
           {
             "minLevel": 0,
             "maxLevel": -1,
-            "weight": 200,
+            "weight": 300,
             "value": {
               "talentKey": "Haste",
-              "levelChange": 2
+              "levelChange": 1
             }
           },
           {
             "minLevel": 50,
             "maxLevel": -1,
-            "weight": 200,
+            "weight": 300,
             "value": {
               "talentKey": "Haste",
-              "levelChange": 3
-            }
-          },
-          {
-            "minLevel": 90,
-            "maxLevel": -1,
-            "weight": 200,
-            "value": {
-              "talentKey": "Haste",
-              "levelChange": 4
+              "levelChange": 2
             }
           }
         ]
@@ -1158,7 +1043,7 @@
             "weight": 200,
             "value": {
               "talentKey": "Bountiful_Harvest",
-              "levelChange": 2
+              "levelChange": 1
             }
           },
           {
@@ -1167,7 +1052,7 @@
             "weight": 200,
             "value": {
               "talentKey": "Bountiful_Harvest",
-              "levelChange": 3
+              "levelChange": 2
             }
           },
           {
@@ -1176,7 +1061,7 @@
             "weight": 200,
             "value": {
               "talentKey": "Bountiful_Harvest",
-              "levelChange": 4
+              "levelChange": 3
             }
           }
         ]
@@ -1289,23 +1174,6 @@
       {
         "attribute": "the_vault:added_talent_level",
         "group": "ModTalentLevel",
-        "identifier": "the_vault:u_talent_level_berserking",
-        "tags": [],
-        "tiers": [
-          {
-            "minLevel": 0,
-            "maxLevel": -1,
-            "weight": 600,
-            "value": {
-              "talentKey": "Berserking",
-              "levelChange": 1
-            }
-          }
-        ]
-      },
-      {
-        "attribute": "the_vault:added_talent_level",
-        "group": "ModTalentLevel",
         "identifier": "the_vault:u_talent_level_voltaic_impact",
         "tags": [],
         "tiers": [
@@ -1315,7 +1183,7 @@
             "weight": 200,
             "value": {
               "talentKey": "Voltaic_Impact",
-              "levelChange": 2
+              "levelChange": 1
             }
           },
           {
@@ -1324,7 +1192,7 @@
             "weight": 200,
             "value": {
               "talentKey": "Voltaic_Impact",
-              "levelChange": 3
+              "levelChange": 2
             }
           },
           {
@@ -1333,7 +1201,7 @@
             "weight": 200,
             "value": {
               "talentKey": "Voltaic_Impact",
-              "levelChange": 4
+              "levelChange": 3
             }
           }
         ]
@@ -1347,28 +1215,19 @@
           {
             "minLevel": 0,
             "maxLevel": -1,
-            "weight": 200,
+            "weight": 300,
             "value": {
               "talentKey": "Momentum_Engine",
-              "levelChange": 2
+              "levelChange": 1
             }
           },
           {
             "minLevel": 50,
             "maxLevel": -1,
-            "weight": 200,
+            "weight": 300,
             "value": {
               "talentKey": "Momentum_Engine",
-              "levelChange": 3
-            }
-          },
-          {
-            "minLevel": 90,
-            "maxLevel": -1,
-            "weight": 200,
-            "value": {
-              "talentKey": "Momentum_Engine",
-              "levelChange": 4
+              "levelChange": 2
             }
           }
         ]
@@ -1490,7 +1349,7 @@
             "weight": 300,
             "value": {
               "talentKey": "Executioner",
-              "levelChange": 2
+              "levelChange": 1
             }
           },
           {
@@ -1499,7 +1358,7 @@
             "weight": 300,
             "value": {
               "talentKey": "Executioner",
-              "levelChange": 3
+              "levelChange": 2
             }
           }
         ]
@@ -1548,7 +1407,7 @@
           {
             "minLevel": 0,
             "maxLevel": -1,
-            "weight": 200,
+            "weight": 300,
             "value": {
               "talentKey": "Ethereal",
               "levelChange": 1
@@ -1557,19 +1416,10 @@
           {
             "minLevel": 50,
             "maxLevel": -1,
-            "weight": 200,
+            "weight": 300,
             "value": {
               "talentKey": "Ethereal",
               "levelChange": 2
-            }
-          },
-          {
-            "minLevel": 90,
-            "maxLevel": -1,
-            "weight": 200,
-            "value": {
-              "talentKey": "Ethereal",
-              "levelChange": 3
             }
           }
         ]
@@ -1647,23 +1497,6 @@
       {
         "attribute": "the_vault:added_talent_level",
         "group": "ModTalentLevel",
-        "identifier": "the_vault:u_talent_level_last_stand",
-        "tags": [],
-        "tiers": [
-          {
-            "minLevel": 0,
-            "maxLevel": -1,
-            "weight": 600,
-            "value": {
-              "talentKey": "Last_Stand",
-              "levelChange": 1
-            }
-          }
-        ]
-      },
-      {
-        "attribute": "the_vault:added_talent_level",
-        "group": "ModTalentLevel",
         "identifier": "the_vault:u_talent_level_blood_rush",
         "tags": [],
         "tiers": [
@@ -1673,7 +1506,7 @@
             "weight": 200,
             "value": {
               "talentKey": "Blood_Rush",
-              "levelChange": 2
+              "levelChange": 1
             }
           },
           {
@@ -1682,7 +1515,7 @@
             "weight": 200,
             "value": {
               "talentKey": "Blood_Rush",
-              "levelChange": 3
+              "levelChange": 2
             }
           },
           {
@@ -1691,7 +1524,7 @@
             "weight": 200,
             "value": {
               "talentKey": "Blood_Rush",
-              "levelChange": 4
+              "levelChange": 3
             }
           }
         ]
@@ -1813,7 +1646,7 @@
             "weight": 200,
             "value": {
               "talentKey": "Lingering_Fumes",
-              "levelChange": 2
+              "levelChange": 1
             }
           },
           {
@@ -1822,7 +1655,7 @@
             "weight": 200,
             "value": {
               "talentKey": "Lingering_Fumes",
-              "levelChange": 3
+              "levelChange": 2
             }
           },
           {
@@ -1831,7 +1664,7 @@
             "weight": 200,
             "value": {
               "talentKey": "Lingering_Fumes",
-              "levelChange": 4
+              "levelChange": 3
             }
           }
         ]
