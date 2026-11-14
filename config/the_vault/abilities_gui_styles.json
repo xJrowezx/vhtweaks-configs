@@ -81,9 +81,6 @@
         },
         "Nova_Dot": {
           "icon": "the_vault:gui/abilities/nova_dot"
-        },
-        "Nova_Burn": {
-          "icon": "the_vault:gui/abilities/nova_burn"
         }
       }
     },
@@ -171,9 +168,6 @@
         },
         "Empower_Slowness_Aura": {
           "icon": "the_vault:gui/abilities/empower_entropy"
-        },
-        "Empower_Fire_Aura": {
-          "icon": "the_vault:gui/abilities/empower_immolation"
         }
       }
     },
@@ -297,9 +291,6 @@
         },
         "Storm_Arrow_Blizzard": {
           "icon": "the_vault:gui/abilities/blizzard"
-        },
-        "Storm_Arrow_Meteor": {
-          "icon": "the_vault:gui/abilities/meteor_storm"
         }
       }
     },
