@@ -1326,7 +1326,7 @@ hash = "aae68e3a7e1f229d5c769210bde9596d5d564a236f8c622d12f3cd597d7de305"
 
 [[files]]
 file = "config/the_vault/abilities_descriptions.json"
-hash = "5e4e3f06aeaf4d09b38ae37471b52486e35e5fb58fc056658a2c38b32cb8d0ab"
+hash = "18efd16e8d99fd1f0456973be24735069bba1e629133d178eb313659ee228d22"
 
 [[files]]
 file = "config/the_vault/abilities_drill_dig_deny.json"
@@ -16106,7 +16106,7 @@ hash = "0606e86d630cfb536725074773f4274540b7d3f2e523fe1e3ddbd2230123e5d9"
 
 [[files]]
 file = "kubejs/assets/the_vault/models/item/skills/shield_wall.json"
-hash = "5b44a6531066b2f70b18c137104a8c6d02409d1500fca4dafbb0c020a7aa4157"
+hash = "19e122df18b9c80bfa1e69a2af1138070b98e50d69c8a52861f258a363610658"
 
 [[files]]
 file = "kubejs/assets/the_vault/models/item/skills/sneaky_getaway.json"
