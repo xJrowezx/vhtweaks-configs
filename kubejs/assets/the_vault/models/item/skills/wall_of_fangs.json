@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "the_vault:item/skills/fangs"
+    "layer0": "the_vault:item/skills/wall_of_fangs"
   }
 }

@@ -16081,10 +16081,6 @@ file = "kubejs/assets/the_vault/models/item/skills/colossus.json"
 hash = "ccf7ede88f165cc119f539af5261047c4d43599b2492aeccfb9febb53f71cc14"
 
 [[files]]
-file = "kubejs/assets/the_vault/models/item/skills/fangs.json"
-hash = "db7774853582525ac18b79feb7d1647091f887de095c67493fb5597190305b1f"
-
-[[files]]
 file = "kubejs/assets/the_vault/models/item/skills/fortify.json"
 hash = "5b44a6531066b2f70b18c137104a8c6d02409d1500fca4dafbb0c020a7aa4157"
 
@@ -16099,6 +16095,10 @@ hash = "5b44a6531066b2f70b18c137104a8c6d02409d1500fca4dafbb0c020a7aa4157"
 [[files]]
 file = "kubejs/assets/the_vault/models/item/skills/sneaky_getaway.json"
 hash = "e7c3d9502c020bbea8d41ae5fd96f4701f93bc6f1843f5765d6a140ffa15304e"
+
+[[files]]
+file = "kubejs/assets/the_vault/models/item/skills/wall_of_fangs.json"
+hash = "88ebc1666f4996d2976bc11688bd70840f920ff259fb4f30ada2a0be5c30bdac"
 
 [[files]]
 file = "kubejs/assets/the_vault/optifine/cit/ff/ff-channeling.properties"
@@ -16877,10 +16877,6 @@ file = "kubejs/assets/the_vault/textures/item/skills/colossus.png"
 hash = "d58b407c281ae2c3ea13ab8a77247c98f1bd590e6fcb1c4165593e38b779f469"
 
 [[files]]
-file = "kubejs/assets/the_vault/textures/item/skills/fangs.png"
-hash = "eed232d72141d1a175fbf357326a57dd7e81e8d265d610d08eb95352205ec469"
-
-[[files]]
 file = "kubejs/assets/the_vault/textures/item/skills/fortify.png"
 hash = "9a3816f2e87539c09324f688f635061809009130d56f37467c736e0442ca0215"
 
@@ -16895,6 +16891,10 @@ hash = "1764327da0c3be7aa762d331290aa193481de333b26b5fd6a042a260662af55d"
 [[files]]
 file = "kubejs/assets/the_vault/textures/item/skills/sneaky_getaway.png"
 hash = "3625fda1ae1f4e8d067ba4d83391a68d62e6ac9157998f7f3b4ced8bc0275966"
+
+[[files]]
+file = "kubejs/assets/the_vault/textures/item/skills/wall_of_fangs.png"
+hash = "eed232d72141d1a175fbf357326a57dd7e81e8d265d610d08eb95352205ec469"
 
 [[files]]
 file = "kubejs/assets/the_vault/textures/item/sweet_apple.png"
