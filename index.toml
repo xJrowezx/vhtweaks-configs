@@ -16069,12 +16069,20 @@ file = "kubejs/assets/the_vault/models/item/inscription/super/99.json"
 hash = "5f6172ca5a4b9a10161372adb102d0167e93545d1c5c453881e9a996c7b50d3f"
 
 [[files]]
+file = "kubejs/assets/the_vault/models/item/skills/apex_predator.json"
+hash = "a5114b71116ad2f4530a454d9cbbac4e1563389ffb21e38f6969a2b93cb5f05f"
+
+[[files]]
 file = "kubejs/assets/the_vault/models/item/skills/bladefrenzy.json"
 hash = "5b44a6531066b2f70b18c137104a8c6d02409d1500fca4dafbb0c020a7aa4157"
 
 [[files]]
 file = "kubejs/assets/the_vault/models/item/skills/colossus.json"
 hash = "ccf7ede88f165cc119f539af5261047c4d43599b2492aeccfb9febb53f71cc14"
+
+[[files]]
+file = "kubejs/assets/the_vault/models/item/skills/fangs.json"
+hash = "db7774853582525ac18b79feb7d1647091f887de095c67493fb5597190305b1f"
 
 [[files]]
 file = "kubejs/assets/the_vault/models/item/skills/fortify.json"
@@ -16857,12 +16865,20 @@ file = "kubejs/assets/the_vault/textures/item/power_bar.png"
 hash = "578f734224cbf9606163acc085eb42b91eb102934e0cab2a48b9d8cb318c365d"
 
 [[files]]
+file = "kubejs/assets/the_vault/textures/item/skills/apex_predator.png"
+hash = "d6863dab8fe190a60f3f7d0ecbf5ffe2524304f64bf2043005ed780c74993cf8"
+
+[[files]]
 file = "kubejs/assets/the_vault/textures/item/skills/bladefrenzy.png"
 hash = "78e713b73ae9142ca6449ebfb8874403fc2809049102f3e380127f3fe848672d"
 
 [[files]]
 file = "kubejs/assets/the_vault/textures/item/skills/colossus.png"
 hash = "d58b407c281ae2c3ea13ab8a77247c98f1bd590e6fcb1c4165593e38b779f469"
+
+[[files]]
+file = "kubejs/assets/the_vault/textures/item/skills/fangs.png"
+hash = "eed232d72141d1a175fbf357326a57dd7e81e8d265d610d08eb95352205ec469"
 
 [[files]]
 file = "kubejs/assets/the_vault/textures/item/skills/fortify.png"
