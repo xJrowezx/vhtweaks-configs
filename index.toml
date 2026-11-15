@@ -1326,7 +1326,7 @@ hash = "aae68e3a7e1f229d5c769210bde9596d5d564a236f8c622d12f3cd597d7de305"
 
 [[files]]
 file = "config/the_vault/abilities_descriptions.json"
-hash = "18efd16e8d99fd1f0456973be24735069bba1e629133d178eb313659ee228d22"
+hash = "2a75c59b9a13a0cdb9245d48468f7ee4ac4c7ee48877b5bc6bc2e12273425659"
 
 [[files]]
 file = "config/the_vault/abilities_drill_dig_deny.json"
@@ -15098,7 +15098,7 @@ hash = "0ab5a4de706f95212c1d273851e23245b2dcb4c1e63e808bc5335a22579ab04a"
 
 [[files]]
 file = "config/the_vault/talents.json"
-hash = "a6b1c49fe10bafae0f42800f1fec284c9808977fcda88d5ad65e7a3d8125e1bb"
+hash = "a126cb0c9da2fbb988b13a8f931628e205b725ccc32447205f4f9fab8b87ad5c"
 
 [[files]]
 file = "config/the_vault/talents_gui_styles.json"
@@ -16939,6 +16939,10 @@ hash = "509b22afe6adc6a44cb777e8ebeda8fd6e58af11b5928a4e425368d3e6c9e8ad"
 [[files]]
 file = "kubejs/assets/the_vault/textures/item/wirts_leg.png"
 hash = "ef6d40f4238e6dfebc119d4b822a9f06d502ce181aaaff0bbd646e54b45af2ac"
+
+[[files]]
+file = "kubejs/assets/the_vault/textures/mob_effect/battle_trance.png"
+hash = "bd72e63f3121e644f9d54667c634bf7faf2ce2dee476bc7785cf81bf4bef4fb3"
 
 [[files]]
 file = "kubejs/assets/vhapi/models/item/booster_pack/black_pack.json"
