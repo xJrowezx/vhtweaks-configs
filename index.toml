@@ -15254,7 +15254,7 @@ hash = "d074b8860d5052603746cf600ed7895e7467f17c983f27721a26c13da38c5536"
 
 [[files]]
 file = "config/the_vault/vault_items.json"
-hash = "5bce5f7ebb016f1fc13d3ac4b58497a1cd3afb8d421f8984060adc01edada023"
+hash = "b00a5344f51dface86136dabb3e2fbad53010d2239dd7e4a387fce0ffadd6103"
 
 [[files]]
 file = "config/the_vault/vault_levels.json"

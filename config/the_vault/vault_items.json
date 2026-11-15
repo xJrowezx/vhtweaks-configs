@@ -1,39 +1,39 @@
 {
   "VAULT_COOKIE": {
     "minExp": 0,
-    "maxExp": 100
+    "maxExp": 0
   },
   "PLAIN_BURGER": {
-    "minExp": 1500,
-    "maxExp": 1500
+    "minExp": 0,
+    "maxExp": 0
   },
   "CHEESE_BURGER": {
-    "minExp": 3000,
-    "maxExp": 3000
+    "minExp": 0,
+    "maxExp": 0
   },
   "DOUBLE_CHEESE_BURGER": {
-    "minExp": 4500,
-    "maxExp": 4500
+    "minExp": 0,
+    "maxExp": 0
   },
   "DELUXE_CHEESE_BURGER": {
-    "minExp": 6000,
-    "maxExp": 6000
+    "minExp": 0,
+    "maxExp": 0
   },
   "CRISPY_DELUXE_CHEESE_BURGER": {
-    "minExp": 12000,
-    "maxExp": 12000
+    "minExp": 0,
+    "maxExp": 0
   },
   "SALTY_DELUXE_CHEESE_BURGER": {
-    "minExp": 18000,
-    "maxExp": 18000
+    "minExp": 0,
+    "maxExp": 0
   },
   "CHEESE_BURGER_FEAST": {
-    "minExp": 40000,
-    "maxExp": 40000
+    "minExp": 0,
+    "maxExp": 0
   },
   "SPICY_HEARTY_BURGER": {
-    "minExp": 80000,
-    "maxExp": 80000
+    "minExp": 0,
+    "maxExp": 0
   },
   "VAULT_DOLL": {
     "lootPercentageMin": 0.1,
