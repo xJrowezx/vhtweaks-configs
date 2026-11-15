@@ -37,7 +37,7 @@
     "Dash_Damage": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Barrell through those that would bar your path.\n\n",
           "color": "$text"
         },
         {
@@ -81,7 +81,7 @@
     "Dash_Warp": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Cast forth an arrow of transposition.\n\n",
           "color": "$text"
         },
         {
@@ -375,7 +375,7 @@
     "Ghost_Walk_Base": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Entwine yourself in the veil of the unseen, hiding all but the most raucous of actions.\n\n",
           "color": "$text"
         },
         {
@@ -429,7 +429,7 @@
     "Ghost_Walk_Spirit": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Slip partially into the veil, diminishing your presence.\n\n",
           "color": "$text"
         },
         {
@@ -483,7 +483,7 @@
     "Heal_Base": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Sooth the woes of battle and ameliorate your injuries.\n\n",
           "color": "$text"
         },
         {
@@ -517,7 +517,7 @@
     "Heal_Cleanse": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Embrace tranquility to alleviate the conditions that ail you.\n\n",
           "color": "$text"
         },
         {
@@ -541,7 +541,7 @@
     "Heal_Group": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "A wellspring of rejuvenation emits from you, healing your allies near and far.\n\n",
           "color": "$text"
         },
         {
@@ -593,7 +593,7 @@
     "Hunter_Base": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Gain the truest of sight, revealing the riches of the vault to guide you through your delve.\n\n",
           "color": "$text"
         },
         {
@@ -897,7 +897,7 @@
     "Shield_Bash": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Strike forth with your shield, forcing back those nearby.\n\n",
           "color": "$text"
         },
         {
@@ -1025,7 +1025,7 @@
     "Mana_Shield_Base": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Channel your mana into a protective membrane.\n\n",
           "color": "$text"
         },
         {
@@ -1067,7 +1067,7 @@
     "Mana_Barrier": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Compress your mana into and impervious bunker.\n\n",
           "color": "$text"
         },
         {
@@ -1237,7 +1237,7 @@
     "Mana_Shield_Implode": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Detonate all the mana within you and unleash its power on those around.\n\n",
           "color": "$text"
         },
         {
@@ -1287,7 +1287,7 @@
     "Mega_Jump_Base": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Spring forth in a great display of acrobatics.\n\n",
           "color": "$text"
         },
         {
@@ -1321,7 +1321,7 @@
     "Mega_Jump_Break_Down": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Embrace your inner mole and burrow through the ground below you.\n\n",
           "color": "$text"
         },
         {
@@ -1391,7 +1391,7 @@
     "Nova_Base": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Erupt with a wave of devastating power, damaging all that are nearby.\n\n",
           "color": "$text"
         },
         {
@@ -1443,7 +1443,7 @@
     "Nova_Dot": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Vent with noxious fumes, afflicting those around with toxins.\n\n",
           "color": "$text"
         },
         {
@@ -1517,7 +1517,7 @@
     "Nova_Slow": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Erupt with a torrent of cold, afflicting a frigid bane on those around you.\n\n",
           "color": "$text"
         },
         {
@@ -1811,7 +1811,7 @@
     "Stonefall_Base": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Brace for impact when falling, sending a forceful wave when landing.\n\n",
           "color": "$text"
         },
         {
@@ -1888,7 +1888,7 @@
     "Stonefall_Cold": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Brace for impact when falling, sending a chilling wave when landing.\n\n",
           "color": "$text"
         },
         {
@@ -1986,7 +1986,7 @@
     "Stonefall_Snow": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Brace for impact when falling, sending a damaging wave when landing.\n\n",
           "color": "$text"
         },
         {
@@ -2086,7 +2086,7 @@
     "Empower_Base": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Let the spirit of the cheetah bring great speed to your steps.\n\n",
           "color": "$text"
         },
         {
@@ -2095,7 +2095,7 @@
         },
         {
           "text": "Movement Speed",
-          "color": "$speed"
+          "color": "$keyword"
         },
         {
           "text": ", affecting all players within a ",
@@ -2142,7 +2142,7 @@
     "Empower_Ice_Armor": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Let the depths of winter manifest around, chilling any mob that would dare to strike.\n\n",
           "color": "$text"
         },
         {
@@ -2199,7 +2199,7 @@
     "Empower_Slowness_Aura": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Allow the spirit of sloth to permeate through the air around you, slowing all that would enter its range.\n\n",
           "color": "$text"
         },
         {
@@ -2276,7 +2276,7 @@
     "Taunt_Base": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Goad those around you, becoming the center of their attention.\n\n",
           "color": "$text"
         },
         {
@@ -2342,7 +2342,7 @@
     "Taunt_Repel": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Curse those around you with a sense of panic, causing them to withdraw.\n\n",
           "color": "$text"
         },
         {
@@ -2408,7 +2408,7 @@
     "Taunt_Decoy": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Summon a dummy to distract those that are nearby.\n\n",
           "color": "$text"
         },
         {
@@ -2564,7 +2564,7 @@
     "Totem_Base": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Place a totem that releases an aura of rejuvenation, granting continuous healing to all within its reach.\n\n",
           "color": "$text"
         },
         {
@@ -2626,7 +2626,7 @@
     "Totem_Mana_Regen": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Conjure a totem to release an aura of mana, improving one's arcane recovery.\n\n",
           "color": "$text"
         },
         {
@@ -2680,7 +2680,7 @@
     "Totem_Mob_Damage": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Summon forth a totem that will be the bane of any within its range, continuously striking all with waves of piercing arcane.\n\n",
           "color": "$text"
         },
         {
@@ -2744,7 +2744,7 @@
     "Totem_Player_Damage": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Bring forth a totem to fuel the rage within, granting all allies a boon in their combative actions.\n\n",
           "color": "$text"
         },
         {
@@ -2954,7 +2954,7 @@
     "Javelin_Base": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Hurl a Javelin into your foe.\n\n",
           "color": "$text"
         },
         {
@@ -3011,7 +3011,7 @@
     "Javelin_Piercing": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Launch a Javelin with such force it pierces through your foes.\n\n",
           "color": "$text"
         },
         {
@@ -3055,7 +3055,7 @@
     "Javelin_Scatter": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Throw a Javelin that scatters into multiple bouncing Javelins upon impact.\n\n",
           "color": "$text"
         },
         {
@@ -3121,7 +3121,7 @@
     "Javelin_Sight": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Cast an ethereal javelin to give a glimpse of the wealth hidden around.\n\n",
           "color": "$text"
         },
         {
@@ -3181,7 +3181,7 @@
     "Smite_Base": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Call forth a thunderhead to swell above you, striking out at nearby mobs.\n\n",
           "color": "$text"
         },
         {
@@ -3295,7 +3295,7 @@
     "Smite_Archon": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Let the aura of the storm manifest around you, shocking any that dare touch you.\n\n",
           "color": "$text"
         },
         {
@@ -3331,7 +3331,7 @@
     "Shell_Base": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Channel your inner turtle, and daze those that would dare attack you.\n\n",
           "color": "$text"
         },
         {
@@ -3471,7 +3471,7 @@
     "Fireball_Base": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Summon a magical fireball to incinerate masses of foes.\n\n",
           "color": "$text"
         },
         {
@@ -3515,7 +3515,7 @@
     "Fireball_Volley": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Conjure a bouncing ball of fire, incinerating all it passes through.\n\n",
           "color": "$text"
         },
         {
@@ -3597,7 +3597,7 @@
     "Fireball_Fireshot": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Invoke a small ball of fire, striking at mobs from afar.\n\n",
           "color": "$text"
         },
         {
@@ -3651,7 +3651,7 @@
     "Storm_Arrow_Base": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Call forth a roiling thunderhead to spread across the field of battle, striking down with lightning upon the mobs below.\n\n",
           "color": "$text"
         },
         {
@@ -3715,7 +3715,7 @@
     "Storm_Arrow_Blizzard": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Conjure a blizzard to rain down spears of ice, freezing struck mobs solid and susceptible to being shattered.\n\n",
           "color": "$text"
         },
         {
@@ -3791,7 +3791,7 @@
     "Battle_Cry_Base": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "The thrill of the fight fuels your frenzy, raising your power with that of the foes around you.\n\n",
           "color": "$text"
         },
         {
@@ -3865,7 +3865,7 @@
     "Battle_Cry_Spectral_Strike": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Turn the arcane aura of nearby foes into your power.\n\n",
           "color": "$text"
         },
         {
@@ -3939,7 +3939,7 @@
     "Battle_Cry_Lucky_Strike": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Steal the fortune of those around you, improving your odds on your next strike.\n\n",
           "color": "$text"
         },
         {
@@ -4025,7 +4025,7 @@
     "Ice_Bolt_Base": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Invoke a small ice shard, striking and chilling mobs mobs from afar.\n\n",
           "color": "$text"
         },
         {
@@ -4111,7 +4111,7 @@
     "Ice_Bolt_Blast": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Summon a magical iceball to freeze masses of foes.\n\n",
           "color": "$text"
         },
         {
@@ -4201,7 +4201,7 @@
     "Arcane_Base": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Loose a continuous barrage of dense mana.\n\n",
           "color": "$text"
         },
         {
@@ -4243,7 +4243,7 @@
     "Arcane_Rail": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Forge your mana into a dense rod, and launch it forth with devastating damage and speed.\n\n",
           "color": "$text"
         },
         {
@@ -4297,7 +4297,7 @@
     "Earthquake_Base": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Stomp the ground with tremendous force, causing a wave of devastating damage to all around you.\n\n",
           "color": "$text"
         },
         {
@@ -4367,7 +4367,7 @@
     "Implode_Life_Tap": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Sacrifice your life-force to unleash a damaging surge.\n\n",
           "color": "$text"
         },
         {
@@ -4409,7 +4409,7 @@
     "Chain_Lightning_Base": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Call forth a bolt of lightning that chains from one foe to the next.\n\n",
           "color": "$text"
         },
         {
@@ -4509,7 +4509,7 @@
     "Grenade_Base": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Launch a cube of plasma, sticking to mobs and exploding.\n\n",
           "color": "$text"
         },
         {
@@ -4553,7 +4553,7 @@
     "Toxic_Grenade": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Throw a vial of toxic liquid, releasing a cloud of noxious fumes.\n\n",
           "color": "$text"
         },
         {
@@ -4627,7 +4627,7 @@
     "Shield_Bash_Earthshatter": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Let the heft of your shield fall on your foes, crushing them beneath its weight.\n\n",
           "color": "$text"
         },
         {
@@ -4755,7 +4755,7 @@
     "Shield_Bash_Battering_Ram": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Let your shield lead the charge as it mangled visage damage struck mobs.\n\n",
           "color": "$text"
         },
         {
@@ -5191,7 +5191,7 @@
     "Grenade_Sticky": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Launch a cube of plasma, sticking to mobs and exploding.\n\n",
           "color": "$text"
         },
         {
@@ -5235,7 +5235,7 @@
     "Arcane_Prism": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Encase a mob an a prism of mana, launching a barrage of arcane beams from all directions.\n\n",
           "color": "$text"
         },
         {
@@ -5285,7 +5285,7 @@
     "Chain_Lightning_Charged_Bolts": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Release a fan of lightning, damaging all in front of you.\n\n",
           "color": "$text"
         },
         {
@@ -5417,7 +5417,7 @@
     "Smite_Blast_Wave": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Conjure a storm to follow you, calling forth strong bolts of lightning to blast away nearby mobs.\n\n",
           "color": "$text"
         },
         {
@@ -5495,7 +5495,7 @@
     "Necromancy_Base": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Let the souls of your slain foes fuel your own army of the undead, bringing forth skeleton warriors to enter the melee.\n\n",
           "color": "$text"
         },
         {
@@ -5555,7 +5555,7 @@
     "Necromancy_Archer": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Let the souls of your slain foes fuel your own army of the undead, bringing forth skeleton archers to strike from afar.\n\n",
           "color": "$text"
         },
         {
@@ -5615,7 +5615,7 @@
     "Necromancy_Golem": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Fuse the souls of your slain foes into a massive monster to fight for you, growing in size and strength as you add more souls to it.\n\n",
           "color": "$text"
         },
         {
@@ -5675,7 +5675,7 @@
     "Blade_Frenzy_Base": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Spin-to-Win.\n\n",
           "color": "$text"
         },
         {
@@ -5719,7 +5719,7 @@
     "Shield_Wall_Base": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Achieve a transient gain in your mastery of the shield, becoming impervious to all attacks.\n\n",
           "color": "$text"
         },
         {
@@ -5809,7 +5809,7 @@
     "Levitate": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Free yourself from the limits of gravity, and ascend to greater heights.\n\n",
           "color": "$text"
         },
         {
@@ -5879,7 +5879,7 @@
     "Colossus_Base": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Enlarge into a rugged giant.\n\n",
           "color": "$text"
         },
         {
@@ -5953,7 +5953,7 @@
     "Sneaky_Getaway": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Dwindle down to a nimble gnome.\n\n",
           "color": "$text"
         },
         {
@@ -6019,7 +6019,7 @@
     "Fangs_Base": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Bring forth an expanding ring of maws to devour those around you.\n\n",
           "color": "$text"
         },
         {
@@ -6135,7 +6135,7 @@
     "Fangs_Maw": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Send forth a tidal wave of fangs to strike all that lie in front of you.\n\n",
           "color": "$text"
         },
         {
@@ -6273,7 +6273,7 @@
     "Apex_Predator_base": {
       "description": [
         {
-          "text": "Flavor Text.\n\n",
+          "text": "Summon the Naga to rush forward, seizing any enemy it contacts, and slamming them on the ground with tremendous force.\n\n",
           "color": "$text"
         },
         {
