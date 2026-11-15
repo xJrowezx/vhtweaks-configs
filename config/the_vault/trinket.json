@@ -180,7 +180,7 @@
       }
     },
     "the_vault:golden_burger": {
-      "weight": 10,
+      "weight": 0,
       "name": "Golden Burger",
       "effectText": "+100% Vault Experience",
       "color": 16534066,
