@@ -2630,7 +2630,7 @@ hash = "710590558aae11628635f9827fe7b878e2a9404da04b2e2ca41b233d6ff3c4b6"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/treasure_chest_50.json"
-hash = "565f1dc02b064cbcb9ecbeb1c469b1963e74e6d8dccb58005f8bc73d231c7742"
+hash = "46fe1167cd5dc78a3a36190ed52f8cff790e88f9327e6c45fef63f007e881792"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/treasure_goblin.json"
@@ -3634,7 +3634,7 @@ hash = "b00705399297d369ecb3e869a7c07e3947da7880b234bd79956a9a733f5ea2af"
 
 [[files]]
 file = "config/the_vault/gen/1.0/palettes/mine/ore_placeholder_blood.json"
-hash = "cf976fffceb909db18643000ea65b4d2a6ff944fd45c3b7e6ade72857714af97"
+hash = "07c90959ad1cf2348339b79908577fc5134af8e0781c7e5c114381c33d5ca374"
 
 [[files]]
 file = "config/the_vault/gen/1.0/palettes/mine/ore_placeholder_micro.json"
@@ -3642,11 +3642,11 @@ hash = "d45fae49dd0613f48503c9a775e326e7473c6437d226e92ead0a8e722c9f82e1"
 
 [[files]]
 file = "config/the_vault/gen/1.0/palettes/mine/ore_placeholder_nether.json"
-hash = "adef2c5b67d52d6fe976304cf0ccb906c1677ac837c802c8f5fa3409b4f4f599"
+hash = "9cbcf8a1137a5892c39f320edadfedf2af0ac8c3cb86ce4eed85a5effa7e807d"
 
 [[files]]
 file = "config/the_vault/gen/1.0/palettes/mine/ore_placeholder_void.json"
-hash = "0ed16a69f03346a7d4f063e16d3bb94f18c7ce6d1f6237b00b4caa3cb734f6da"
+hash = "c5979d7ef271a5fe802593c41afa2ac874a04c18b5ca715d0228a6b9dc43acfc"
 
 [[files]]
 file = "config/the_vault/gen/1.0/palettes/mush_room/base.json"
@@ -15126,7 +15126,7 @@ hash = "f7207cdf0ee519eaa368d8b9d9571bd04713984af029607d5bc4822c3c84f51b"
 
 [[files]]
 file = "config/the_vault/tooltip.json"
-hash = "440bf3de502c50fc59db6252473a2029608d9867a4dd70677e58ee1abadb5812"
+hash = "173a789bba57a350f054aa67cab9d45c561088977f30a97633f18d9c08eca9f8"
 
 [[files]]
 file = "config/the_vault/trader_exclusions.json"
