@@ -224,7 +224,7 @@
       "icon": "the_vault:gui/quests/altar",
       "targetId": "the_vault:vault_altar",
       "targetProgress": 1.0,
-      "unlockedBy": "mine_vault_stone",
+      "unlockedBy": "raw_vault",
       "reward": {
         "items": [
           {"item": "minecraft:shulker_box"},
