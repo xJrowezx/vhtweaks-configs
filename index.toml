@@ -15142,7 +15142,7 @@ hash = "c6cae2134c89e6c6561b00bcf5c6f1fe77fe34724b42594bec377025c8596370"
 
 [[files]]
 file = "config/the_vault/trinket.json"
-hash = "b864deaa937fb0b0f3e54f535689ee31a64887eb65f456cd49ea37e63b94c9f1"
+hash = "a0f1348c948c9c0f74658d478d25468edaa5dee2f4387bafd61df17eed653d3b"
 
 [[files]]
 file = "config/the_vault/trinket_combinations.json"
@@ -19050,11 +19050,6 @@ metafile = true
 [[files]]
 file = "mods/vault-hunters-api.pw.toml"
 hash = "f5764b30b65b424ae3b6ebfdfa54f090dd40232f3afa36618f9afeeaca536ed3"
-metafile = true
-
-[[files]]
-file = "mods/vault-hunters-item-sorting.pw.toml"
-hash = "4e74f7816edb6652b600594ca4337c5384f5e71427b58be6a221874a4b26f348"
 metafile = true
 
 [[files]]
