@@ -15074,7 +15074,7 @@ hash = "f0d47e5a697b26aef2171962273cba50b86278bc53cdee8b45e48e84a0b652a9"
 
 [[files]]
 file = "config/the_vault/skill_gates.json"
-hash = "138fb3bc3ce16a6532d5c150e351be76f3030fc8179ab0837fda916b61194f2c"
+hash = "17fd7bf5beb9e8df049d99b859b7c3fc19ecaf38b302bb5722df7a84979bf6c2"
 
 [[files]]
 file = "config/the_vault/skill_scrolls.json"

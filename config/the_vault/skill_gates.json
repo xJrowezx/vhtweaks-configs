@@ -770,9 +770,14 @@
           }
         ]
       },
-      "Dungeon_Mastery": {
+      "Dungeon_Mastery_T2": {
         "lockedBy": [],
-        "dependsOn": []
+        "dependsOn": [
+          {
+            "type": "constant",
+            "id": "Dungeon_Mastery"
+          }
+        ]
       },
       "Frenzy": {
         "lockedBy": [],
@@ -791,9 +796,14 @@
           }
         ]
       },
-      "Assassin_Mastery": {
+      "Assassin_Mastery_T2": {
         "lockedBy": [],
-        "dependsOn": []
+        "dependsOn": [
+          {
+            "type": "constant",
+            "id": "Assassin_Mastery"
+          }
+        ]
       },
       "Champion_Mastery": {
         "lockedBy": [],
