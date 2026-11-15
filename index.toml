@@ -913,50 +913,6 @@ file = "config/jei/recipe-category-sort-order.ini"
 hash = "058942b3168bd547326cab59ed214c2f43beac781882c33d0b6e7163f43312b0"
 
 [[files]]
-file = "config/jei/world/local/New_World__8/bookmarks.ini"
-hash = "3650f729c3ff59fb16e4d96c5a005614cbdb5131af3919427c73e7ce16169cd2"
-
-[[files]]
-file = "config/jei/world/local/Palette_Testing_World_2/bookmarks.ini"
-hash = "427f6668f2d8b95ff9259e223b6815d41168101e36094f3481fd186d0a1d8bfb"
-
-[[files]]
-file = "config/jei/world/local/Update_19_Dev_World/bookmarks.ini"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "config/jei/world/local/WuWorld2/bookmarks.ini"
-hash = "ee8a99f44794a6ba162edb021713987078ad9ea424e5bcd7a0f8d744f412d324"
-
-[[files]]
-file = "config/jei/world/local/WuWorld22/bookmarks.ini"
-hash = "b3a0742c7e457a592532ddca23fbeea496d1bf86050af4f8ea8e5e0d96707ee8"
-
-[[files]]
-file = "config/jei/world/local/WuWorld23/bookmarks.ini"
-hash = "b3a0742c7e457a592532ddca23fbeea496d1bf86050af4f8ea8e5e0d96707ee8"
-
-[[files]]
-file = "config/jei/world/local/WuWorld27/bookmarks.ini"
-hash = "d71ac5aea53527cd8593ed7a9ac890e1618a3d016f9a9c357fcda843b28d2015"
-
-[[files]]
-file = "config/jei/world/local/WuWorld7/bookmarks.ini"
-hash = "0d5e959229be7f405c418196f330082b6e1c1385dff8e652f4dc6fae15c32b2a"
-
-[[files]]
-file = "config/jei/world/local/test7/bookmarks.ini"
-hash = "f8e9ca010757e5f685ac327046ab2c328d685d90bc4cea97d929d9adef0ea1b0"
-
-[[files]]
-file = "config/jei/world/server/VH_Builders_70f11af9/bookmarks.ini"
-hash = "143167ab8a1a5a53935fd3cbc129036a9742bd89594d050d8ec32da0b6805361"
-
-[[files]]
-file = "config/jei/world/server/Vault_Hunters_SMP_S4_1971f65c/bookmarks.ini"
-hash = "8449a6bedc368c827d8b35ffa306e03e5346bb66238f90a39dc691bb7d71614f"
-
-[[files]]
 file = "config/jeresources-common.toml"
 hash = "13a4d5e1d1ac4207cbebef810696525975ec4f0c2470f6b858cbd9f62a6cd3ec"
 

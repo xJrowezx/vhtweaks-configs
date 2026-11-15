@@ -8,3 +8,5 @@
 /dataSources.local.xml
 /.idea/
 packwiz.exe
+/config/jei/world/local/
+/config/jei/world/server/
