@@ -139,8 +139,8 @@
       "icon": "the_vault:gui/skills/life_steal"
     },
     "Cleave": {
-      "x": -120,
-      "y": 240,
+      "x": -40,
+      "y": 285,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/skills/cleave"
     },
@@ -155,19 +155,37 @@
       "icon": "the_vault:gui/skills/horde_mastery"
     },
     "Champion_Mastery": {
-      "x": 640,
+      "x": 576,
+      "y": 80,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/champion_mastery"
+    },
+    "Champion_Mastery_T2": {
+      "x": 576,
       "y": 160,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/skills/champion_mastery"
     },
     "Assassin_Mastery": {
-      "x": 512,
+      "x": 448,
+      "y": 80,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/undead_mastery"
+    },
+    "Assassin_Mastery_T2": {
+      "x": 448,
       "y": 160,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/skills/assassin_mastery"
     },
     "Dungeon_Mastery": {
-      "x": 576,
+      "x": 512,
+      "y": 80,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/nether_mastery"
+    },
+    "Dungeon_Mastery_T2": {
+      "x": 512,
       "y": 160,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/skills/dungeon_mastery"
@@ -381,6 +399,12 @@
       "y": 320,
       "frameType": "RECTANGULAR",
       "icon": "woldsvaults:gui/skills/blood_chakra"
+    },
+    "Disarming_Momentum": {
+      "x": 448,
+      "y": 240,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/trap_disarm"
     }
   }
 }

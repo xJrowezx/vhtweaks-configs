@@ -15070,11 +15070,11 @@ hash = "9c4bfce4394d20d6ff58d706fb4ae4bbcc00cc4d3a888a8521facfe5d6a5d2a9"
 
 [[files]]
 file = "config/the_vault/skill_descriptions.json"
-hash = "64ac201ada07b7d19afb9a76fb0073c849c06a56b9a33bb1b1b6646b41ec46fd"
+hash = "f0d47e5a697b26aef2171962273cba50b86278bc53cdee8b45e48e84a0b652a9"
 
 [[files]]
 file = "config/the_vault/skill_gates.json"
-hash = "f6ce4e33a36545c5555f05294d324337eeb3061d3bf239bc8a124f73ea3c4e05"
+hash = "138fb3bc3ce16a6532d5c150e351be76f3030fc8179ab0837fda916b61194f2c"
 
 [[files]]
 file = "config/the_vault/skill_scrolls.json"
@@ -15098,11 +15098,11 @@ hash = "0ab5a4de706f95212c1d273851e23245b2dcb4c1e63e808bc5335a22579ab04a"
 
 [[files]]
 file = "config/the_vault/talents.json"
-hash = "a126cb0c9da2fbb988b13a8f931628e205b725ccc32447205f4f9fab8b87ad5c"
+hash = "b63cb42e2b9369af806c275a932713f11acfab01154244a8badabe7ba6c1051b"
 
 [[files]]
 file = "config/the_vault/talents_gui_styles.json"
-hash = "de438a0bd84b19ab752571a7f329a393d3862d068bdfd5b43b40f4d831e829e6"
+hash = "5065faa7320db2819f1978c43df9fb4bdcb061a8c02ace21eb53408dceec5928"
 
 [[files]]
 file = "config/the_vault/team_tasks.json"

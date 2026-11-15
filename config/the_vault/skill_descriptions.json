@@ -6876,6 +6876,201 @@
         "color": "#7024AC"
       }
     ],
+    "Disarming_Momentum": [
+      {
+        "text": "Killing a mob grants "
+      },
+      {
+        "text": "+3% Increased Trap Disarm Chance",
+        "color": "#7F42FC"
+      },
+      {
+        "text": ". This effect can "
+      },
+      {
+        "text": "stack ",
+        "color": "#ffeb07"
+      },
+      {
+        "text": "and lasts for a short time."
+      },
+      {
+        "text": "\n\n1 "
+      },
+      {
+        "text": "+4 Max Stacks",
+        "color": "#ffeb07"
+      },
+      {
+        "text": ", "
+      },
+      {
+        "text": "4 seconds",
+        "color": "#7024AC"
+      },
+      {
+        "text": "\n2 "
+      },
+      {
+        "text": "+6 Max Stacks",
+        "color": "#ffeb07"
+      },
+      {
+        "text": ", "
+      },
+      {
+        "text": "6 seconds",
+        "color": "#7024AC"
+      },
+      {
+        "text": "\n3 "
+      },
+      {
+        "text": "+8 Max Stacks",
+        "color": "#ffeb07"
+      },
+      {
+        "text": ", "
+      },
+      {
+        "text": "8 seconds",
+        "color": "#7024AC"
+      },
+      {
+        "text": "\n4 "
+      },
+      {
+        "text": "+10 Max Stacks",
+        "color": "#ffeb07"
+      },
+      {
+        "text": ", "
+      },
+      {
+        "text": "10 seconds",
+        "color": "#7024AC"
+      },
+      {
+        "text": "\n\nOverlevels\n",
+        "color": "#EFBF04"
+      },
+      {
+        "text": "------------",
+        "color": "#EFBF04"
+      },
+      {
+        "text": "\n5 "
+      },
+      {
+        "text": "+11 Max Stacks",
+        "color": "#ffeb07"
+      },
+      {
+        "text": ", "
+      },
+      {
+        "text": "10 seconds",
+        "color": "#7024AC"
+      },
+      {
+        "text": "\n6 "
+      },
+      {
+        "text": "+12 Max Stacks",
+        "color": "#ffeb07"
+      },
+      {
+        "text": ", "
+      },
+      {
+        "text": "10 seconds",
+        "color": "#7024AC"
+      },
+      {
+        "text": "\n7 "
+      },
+      {
+        "text": "+12 Max Stacks",
+        "color": "#ffeb07"
+      },
+      {
+        "text": ", "
+      },
+      {
+        "text": "10 seconds",
+        "color": "#7024AC"
+      },
+      {
+        "text": "\n8 "
+      },
+      {
+        "text": "+14 Max Stacks",
+        "color": "#ffeb07"
+      },
+      {
+        "text": ", "
+      },
+      {
+        "text": "10 seconds",
+        "color": "#7024AC"
+      },
+      {
+        "text": "\n9 "
+      },
+      {
+        "text": "+15 Max Stacks",
+        "color": "#ffeb07"
+      },
+      {
+        "text": ", "
+      },
+      {
+        "text": "10 seconds",
+        "color": "#7024AC"
+      },
+      {
+        "text": "\n10 "
+      },
+      {
+        "text": "+16 Max Stacks",
+        "color": "#ffeb07"
+      },
+      {
+        "text": ", "
+      },
+      {
+        "text": "10 seconds",
+        "color": "#7024AC"
+      },
+      {
+        "text": "\n11 "
+      },
+      {
+        "text": "+17 Max Stacks",
+        "color": "#ffeb07"
+      },
+      {
+        "text": ", "
+      },
+      {
+        "text": "10 seconds",
+        "color": "#7024AC"
+      },
+      {
+        "text": "\n12 "
+      },
+      {
+        "text": "+18 Max Stacks",
+        "color": "#ffeb07"
+      },
+      {
+        "text": ", "
+      },
+      {
+        "text": "10 seconds",
+        "color": "#7024AC"
+      }
+    ],
 
     "Stoneskin": [
       {
@@ -7353,50 +7548,6 @@
         "color": "#22FF25"
       }
     ],
-    "Dungeon_Mastery": [
-      {
-        "text": "Gain "
-      },
-      {
-        "text": "resistance",
-        "color": "#FEDD00"
-      },
-      {
-        "text": " against dungeon mobs.\n\n1 "
-      },
-      {
-        "text": "5%",
-        "color": "#FEDD00"
-      },
-      {
-        "text": "\n2 "
-      },
-      {
-        "text": "10%",
-        "color": "#FEDD00"
-      },
-      {
-        "text": "\n3 "
-      },
-      {
-        "text": "15%",
-        "color": "#FEDD00"
-      },
-      {
-        "text": "\n4 "
-      },
-      {
-        "text": "20%",
-        "color": "#FEDD00"
-      },
-      {
-        "text": "\n5 "
-      },
-      {
-        "text": "25%",
-        "color": "#FEDD00"
-      }
-    ],
     "Champion_Mastery": [
       {
         "text": "Deal increased "
@@ -7441,7 +7592,139 @@
         "color": "#C23627"
       }
     ],
+    "Dungeon_Mastery": [
+      {
+        "text": "Deal increased "
+      },
+      {
+        "text": "damage",
+        "color": "#C23627"
+      },
+      {
+        "text": " to Dungeon Mobs. Works with attacks and abilities.\n\n1 "
+      },
+      {
+        "text": "+10%",
+        "color": "#C23627"
+      },
+      {
+        "text": "\n2 "
+      },
+      {
+        "text": "+20%",
+        "color": "#C23627"
+      },
+      {
+        "text": "\n3 "
+      },
+      {
+        "text": "+30%",
+        "color": "#C23627"
+      },
+      {
+        "text": "\n4 "
+      },
+      {
+        "text": "+40%",
+        "color": "#C23627"
+      },
+      {
+        "text": "\n5 "
+      },
+      {
+        "text": "+50%",
+        "color": "#C23627"
+      }
+    ],
+    "Dungeon_Mastery_T2": [
+      {
+        "text": "Gain "
+      },
+      {
+        "text": "resistance",
+        "color": "#FEDD00"
+      },
+      {
+        "text": " against dungeon mobs.\n\n1 "
+      },
+      {
+        "text": "5%",
+        "color": "#FEDD00"
+      },
+      {
+        "text": "\n2 "
+      },
+      {
+        "text": "10%",
+        "color": "#FEDD00"
+      },
+      {
+        "text": "\n3 "
+      },
+      {
+        "text": "15%",
+        "color": "#FEDD00"
+      },
+      {
+        "text": "\n4 "
+      },
+      {
+        "text": "20%",
+        "color": "#FEDD00"
+      },
+      {
+        "text": "\n5 "
+      },
+      {
+        "text": "25%",
+        "color": "#FEDD00"
+      }
+    ],
     "Assassin_Mastery": [
+      {
+        "text": "Deal increased "
+      },
+      {
+        "text": "damage",
+        "color": "#C23627"
+      },
+      {
+        "text": " to Assassin Mobs. Works with attacks and abilities.\n\n1 "
+      },
+      {
+        "text": "+10%",
+        "color": "#C23627"
+      },
+      {
+        "text": "\n2 "
+      },
+      {
+        "text": "+20%",
+        "color": "#C23627"
+      },
+      {
+        "text": "\n3 "
+      },
+      {
+        "text": "+30%",
+        "color": "#C23627"
+      },
+      {
+        "text": "\n4 "
+      },
+      {
+        "text": "+40%",
+        "color": "#C23627"
+      },
+      {
+        "text": "\n5 "
+      },
+      {
+        "text": "+50%",
+        "color": "#C23627"
+      }
+    ],
+    "Assassin_Mastery_T2": [
       {
         "text": "Gain a "
       },

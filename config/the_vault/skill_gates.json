@@ -692,10 +692,6 @@
         "lockedBy": [],
         "dependsOn": []
       },
-      "Cleave": {
-        "lockedBy": [],
-        "dependsOn": []
-      },
       "Mana_Harvest": {
         "lockedBy": [],
         "dependsOn": [
@@ -1010,6 +1006,28 @@
           }
         ]
       },
+      "Cleave": {
+        "lockedBy": [],
+        "dependsOn": [
+          {
+            "type": "either",
+            "gates": [
+              {
+                "type": "constant",
+                "id": "Fatal_Strike"
+              },
+              {
+                "type": "constant",
+                "id": "Mana_Steal"
+              },
+              {
+                "type": "constant",
+                "id": "Life_Steal"
+              }
+            ]
+          }
+        ]
+      },
       "Execution_Strike": {
         "lockedBy": [
           {
@@ -1028,21 +1046,8 @@
         ],
         "dependsOn": [
           {
-            "type": "either",
-            "gates": [
-              {
-                "type": "constant",
-                "id": "Fatal_Strike"
-              },
-              {
-                "type": "constant",
-                "id": "Mana_Steal"
-              },
-              {
-                "type": "constant",
-                "id": "Life_Steal"
-              }
-            ]
+            "type": "constant",
+            "id": "Cleave"
           }
         ]
       },
@@ -1064,21 +1069,8 @@
         ],
         "dependsOn": [
           {
-            "type": "either",
-            "gates": [
-              {
-                "type": "constant",
-                "id": "Fatal_Strike"
-              },
-              {
-                "type": "constant",
-                "id": "Mana_Steal"
-              },
-              {
-                "type": "constant",
-                "id": "Life_Steal"
-              }
-            ]
+            "type": "constant",
+            "id": "Cleave"
           }
         ]
       },
@@ -1100,21 +1092,8 @@
         ],
         "dependsOn": [
           {
-            "type": "either",
-            "gates": [
-              {
-                "type": "constant",
-                "id": "Fatal_Strike"
-              },
-              {
-                "type": "constant",
-                "id": "Mana_Steal"
-              },
-              {
-                "type": "constant",
-                "id": "Life_Steal"
-              }
-            ]
+            "type": "constant",
+            "id": "Cleave"
           }
         ]
       }

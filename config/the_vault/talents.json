@@ -159,7 +159,7 @@
         "type": "tiered",
         "id": "Haste",
         "name": "Haste",
-        "maxLearnableTier": 3,
+        "maxLearnableTier": 5,
         "tiers": [
           {
             "type": "effect",
@@ -1126,50 +1126,45 @@
         "children": [
           {
             "type": "tiered",
-            "id": "Horde_Mastery",
-            "name": "Horde Reaping",
+            "id": "Assassin_Mastery",
+            "name": "Assassin Mastery",
             "tiers": [
               {
-                "type": "player_stat",
-                "stat": "SOUL_CHANCE",
+                "type": "gear_attribute",
+                "attribute": "the_vault:damage_assassin",
+                "value": 0.1,
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "unlockLevel": 0
+              },
+              {
+                "type": "gear_attribute",
+                "attribute": "the_vault:damage_assassin",
+                "value": 0.2,
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "unlockLevel": 0
+              },
+              {
+                "type": "gear_attribute",
+                "attribute": "the_vault:damage_assassin",
+                "value": 0.3,
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "unlockLevel": 0
+              },
+              {
+                "type": "gear_attribute",
+                "attribute": "the_vault:damage_assassin",
+                "value": 0.4,
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "unlockLevel": 0
+              },
+              {
+                "type": "gear_attribute",
+                "attribute": "the_vault:damage_assassin",
                 "value": 0.5,
-                "enemy": "@the_vault:mob_type/horde",
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "unlockLevel": 0
-              },
-              {
-                "type": "player_stat",
-                "stat": "SOUL_CHANCE",
-                "value": 1.0,
-                "enemy": "@the_vault:mob_type/horde",
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "unlockLevel": 0
-              },
-              {
-                "type": "player_stat",
-                "stat": "SOUL_CHANCE",
-                "value": 1.5,
-                "enemy": "@the_vault:mob_type/horde",
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "unlockLevel": 0
-              },
-              {
-                "type": "player_stat",
-                "stat": "SOUL_CHANCE",
-                "value": 2.0,
-                "enemy": "@the_vault:mob_type/horde",
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "unlockLevel": 0
-              },
-              {
-                "type": "player_stat",
-                "stat": "SOUL_CHANCE",
-                "value": 2.5,
-                "enemy": "@the_vault:mob_type/horde",
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "unlockLevel": 0
@@ -1178,7 +1173,101 @@
           },
           {
             "type": "tiered",
-            "id": "Assassin_Mastery",
+            "id": "Dungeon_Mastery",
+            "name": "Dungeon Mastery",
+            "tiers": [
+              {
+                "type": "gear_attribute",
+                "attribute": "the_vault:damage_dungeon",
+                "value": 0.1,
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "unlockLevel": 0
+              },
+              {
+                "type": "gear_attribute",
+                "attribute": "the_vault:damage_dungeon",
+                "value": 0.2,
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "unlockLevel": 0
+              },
+              {
+                "type": "gear_attribute",
+                "attribute": "the_vault:damage_dungeon",
+                "value": 0.3,
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "unlockLevel": 0
+              },
+              {
+                "type": "gear_attribute",
+                "attribute": "the_vault:damage_dungeon",
+                "value": 0.4,
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "unlockLevel": 0
+              },
+              {
+                "type": "gear_attribute",
+                "attribute": "the_vault:damage_dungeon",
+                "value": 0.5,
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "unlockLevel": 0
+              }
+            ]
+          },
+          {
+            "type": "tiered",
+            "id": "Champion_Mastery",
+            "name": "Champion Mastery",
+            "tiers": [
+              {
+                "type": "gear_attribute",
+                "attribute": "the_vault:damage_champion",
+                "value": 0.1,
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "unlockLevel": 0
+              },
+              {
+                "type": "gear_attribute",
+                "attribute": "the_vault:damage_champion",
+                "value": 0.2,
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "unlockLevel": 0
+              },
+              {
+                "type": "gear_attribute",
+                "attribute": "the_vault:damage_champion",
+                "value": 0.3,
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "unlockLevel": 0
+              },
+              {
+                "type": "gear_attribute",
+                "attribute": "the_vault:damage_champion",
+                "value": 0.4,
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "unlockLevel": 0
+              },
+              {
+                "type": "gear_attribute",
+                "attribute": "the_vault:damage_champion",
+                "value": 0.5,
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "unlockLevel": 0
+              }
+            ]
+          },
+          {
+            "type": "tiered",
+            "id": "Assassin_Mastery_T2",
             "name": "Assassin Mastery",
             "tiers": [
               {
@@ -1230,7 +1319,7 @@
           },
           {
             "type": "tiered",
-            "id": "Dungeon_Mastery",
+            "id": "Dungeon_Mastery_T2",
             "name": "Dungeon Mastery",
             "tiers": [
               {
@@ -1274,53 +1363,6 @@
                 "stat": "RESISTANCE",
                 "value": 0.25,
                 "enemy": "@the_vault:mob_type/dungeon",
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "unlockLevel": 0
-              }
-            ]
-          },
-          {
-            "type": "tiered",
-            "id": "Champion_Mastery",
-            "name": "Champion Mastery",
-            "tiers": [
-              {
-                "type": "gear_attribute",
-                "attribute": "the_vault:damage_champion",
-                "value": 0.1,
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "unlockLevel": 0
-              },
-              {
-                "type": "gear_attribute",
-                "attribute": "the_vault:damage_champion",
-                "value": 0.2,
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "unlockLevel": 0
-              },
-              {
-                "type": "gear_attribute",
-                "attribute": "the_vault:damage_champion",
-                "value": 0.3,
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "unlockLevel": 0
-              },
-              {
-                "type": "gear_attribute",
-                "attribute": "the_vault:damage_champion",
-                "value": 0.4,
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "unlockLevel": 0
-              },
-              {
-                "type": "gear_attribute",
-                "attribute": "the_vault:damage_champion",
-                "value": 0.5,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "unlockLevel": 0
@@ -1684,6 +1726,58 @@
             "unlockLevel": 0,
             "id": "sorcery_18"
           }
+        ]
+      },
+      {
+        "type": "tiered",
+        "id": "Horde_Mastery",
+        "name": "Horde Reaping",
+        "tiers": [
+          {
+                "type": "player_stat",
+                "stat": "SOUL_CHANCE",
+                "value": 0.5,
+                "enemy": "@the_vault:mob_type/horde",
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "unlockLevel": 0
+              },
+          {
+                "type": "player_stat",
+                "stat": "SOUL_CHANCE",
+                "value": 1.0,
+                "enemy": "@the_vault:mob_type/horde",
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "unlockLevel": 0
+              },
+          {
+                "type": "player_stat",
+                "stat": "SOUL_CHANCE",
+                "value": 1.5,
+                "enemy": "@the_vault:mob_type/horde",
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "unlockLevel": 0
+              },
+          {
+                "type": "player_stat",
+                "stat": "SOUL_CHANCE",
+                "value": 2.0,
+                "enemy": "@the_vault:mob_type/horde",
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "unlockLevel": 0
+              },
+          {
+                "type": "player_stat",
+                "stat": "SOUL_CHANCE",
+                "value": 2.5,
+                "enemy": "@the_vault:mob_type/horde",
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "unlockLevel": 0
+              }
         ]
       },
 
@@ -7068,7 +7162,7 @@
           {
             "type": "execution_lucky_hit",
             "damageIncrease": 0.15,
-            "learnPointCost": 1,
+            "learnPointCost": 4,
             "regretPointCost": 1,
             "unlockLevel": 0
           },
@@ -8388,6 +8482,374 @@
             "regretPointCost": 1,
             "unlockLevel": 0,
             "id": "blood_chakra_30"
+          }
+        ]
+      },
+      {
+        "type": "tiered",
+        "id": "Disarming_Momentum",
+        "name": "Disarming Momentum",
+        "maxLearnableTier": 4,
+        "tiers": [
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:trap_disarming",
+            "value": 0.03,
+            "effect": "woldsvaults:disarming_momentum",
+            "durationTicks": 80,
+            "maxStacks": 4,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "disarming_momentum_1"
+          },
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:trap_disarming",
+            "value": 0.03,
+            "effect": "woldsvaults:disarming_momentum",
+            "durationTicks": 120,
+            "maxStacks": 6,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "disarming_momentum_2"
+          },
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:trap_disarming",
+            "value": 0.03,
+            "effect": "woldsvaults:disarming_momentum",
+            "durationTicks": 160,
+            "maxStacks": 8,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "disarming_momentum_3"
+          },
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:trap_disarming",
+            "value": 0.03,
+            "effect": "woldsvaults:disarming_momentum",
+            "durationTicks": 200,
+            "maxStacks": 10,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "disarming_momentum_4"
+          },
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:trap_disarming",
+            "value": 0.03,
+            "effect": "woldsvaults:disarming_momentum",
+            "durationTicks": 200,
+            "maxStacks": 11,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "disarming_momentum_5"
+          },
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:trap_disarming",
+            "value": 0.03,
+            "effect": "woldsvaults:disarming_momentum",
+            "durationTicks": 200,
+            "maxStacks": 12,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "disarming_momentum_6"
+          },
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:trap_disarming",
+            "value": 0.03,
+            "effect": "woldsvaults:disarming_momentum",
+            "durationTicks": 200,
+            "maxStacks": 13,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "disarming_momentum_7"
+          },
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:trap_disarming",
+            "value": 0.03,
+            "effect": "woldsvaults:disarming_momentum",
+            "durationTicks": 200,
+            "maxStacks": 14,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "disarming_momentum_8"
+          },
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:trap_disarming",
+            "value": 0.03,
+            "effect": "woldsvaults:disarming_momentum",
+            "durationTicks": 200,
+            "maxStacks": 15,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "disarming_momentum_9"
+          },
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:trap_disarming",
+            "value": 0.03,
+            "effect": "woldsvaults:disarming_momentum",
+            "durationTicks": 200,
+            "maxStacks": 16,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "disarming_momentum_10"
+          },
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:trap_disarming",
+            "value": 0.03,
+            "effect": "woldsvaults:disarming_momentum",
+            "durationTicks": 200,
+            "maxStacks": 17,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "disarming_momentum_11"
+          },
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:trap_disarming",
+            "value": 0.03,
+            "effect": "woldsvaults:disarming_momentum",
+            "durationTicks": 200,
+            "maxStacks": 18,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "disarming_momentum_12"
+          },
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:trap_disarming",
+            "value": 0.03,
+            "effect": "woldsvaults:disarming_momentum",
+            "durationTicks": 200,
+            "maxStacks": 19,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "disarming_momentum_13"
+          },
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:trap_disarming",
+            "value": 0.03,
+            "effect": "woldsvaults:disarming_momentum",
+            "durationTicks": 200,
+            "maxStacks": 20,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "disarming_momentum_14"
+          },
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:trap_disarming",
+            "value": 0.03,
+            "effect": "woldsvaults:disarming_momentum",
+            "durationTicks": 200,
+            "maxStacks": 21,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "disarming_momentum_15"
+          },
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:trap_disarming",
+            "value": 0.03,
+            "effect": "woldsvaults:disarming_momentum",
+            "durationTicks": 200,
+            "maxStacks": 22,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "disarming_momentum_16"
+          },
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:trap_disarming",
+            "value": 0.03,
+            "effect": "woldsvaults:disarming_momentum",
+            "durationTicks": 200,
+            "maxStacks": 23,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "disarming_momentum_17"
+          },
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:trap_disarming",
+            "value": 0.03,
+            "effect": "woldsvaults:disarming_momentum",
+            "durationTicks": 200,
+            "maxStacks": 24,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "disarming_momentum_18"
+          },
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:trap_disarming",
+            "value": 0.03,
+            "effect": "woldsvaults:disarming_momentum",
+            "durationTicks": 200,
+            "maxStacks": 25,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "disarming_momentum_19"
+          },
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:trap_disarming",
+            "value": 0.03,
+            "effect": "woldsvaults:disarming_momentum",
+            "durationTicks": 200,
+            "maxStacks": 26,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "disarming_momentum_20"
+          },
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:trap_disarming",
+            "value": 0.03,
+            "effect": "woldsvaults:disarming_momentum",
+            "durationTicks": 200,
+            "maxStacks": 27,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "disarming_momentum_21"
+          },
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:trap_disarming",
+            "value": 0.03,
+            "effect": "woldsvaults:disarming_momentum",
+            "durationTicks": 200,
+            "maxStacks": 28,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "disarming_momentum_22"
+          },
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:trap_disarming",
+            "value": 0.03,
+            "effect": "woldsvaults:disarming_momentum",
+            "durationTicks": 200,
+            "maxStacks": 29,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "disarming_momentum_23"
+          },
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:trap_disarming",
+            "value": 0.03,
+            "effect": "woldsvaults:disarming_momentum",
+            "durationTicks": 200,
+            "maxStacks": 30,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "disarming_momentum_24"
+          },
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:trap_disarming",
+            "value": 0.03,
+            "effect": "woldsvaults:disarming_momentum",
+            "durationTicks": 200,
+            "maxStacks": 31,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "disarming_momentum_25"
+          },
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:trap_disarming",
+            "value": 0.03,
+            "effect": "woldsvaults:disarming_momentum",
+            "durationTicks": 200,
+            "maxStacks": 32,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "disarming_momentum_26"
+          },
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:trap_disarming",
+            "value": 0.03,
+            "effect": "woldsvaults:disarming_momentum",
+            "durationTicks": 200,
+            "maxStacks": 33,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "disarming_momentum_27"
+          },
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:trap_disarming",
+            "value": 0.03,
+            "effect": "woldsvaults:disarming_momentum",
+            "durationTicks": 200,
+            "maxStacks": 34,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "disarming_momentum_28"
+          },
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:trap_disarming",
+            "value": 0.03,
+            "effect": "woldsvaults:disarming_momentum",
+            "durationTicks": 200,
+            "maxStacks": 35,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "disarming_momentum_29"
+          },
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:trap_disarming",
+            "value": 0.03,
+            "effect": "woldsvaults:disarming_momentum",
+            "durationTicks": 200,
+            "maxStacks": 36,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "disarming_momentum_30"
           }
         ]
       }
