@@ -14902,11 +14902,11 @@ hash = "f7ce00e1dbfe1ca30c61f3e46ad8991677eb657f11b9f09f83ad88e9bbca8a3f"
 
 [[files]]
 file = "config/the_vault/quest/quests.json"
-hash = "f215a59b1877b7b77f18661f6329c04197136ccc33217028a224ac672ece4343"
+hash = "0300aca49726fd601d60f02b344f7130e3a877b5659e4269355cfa7fc82cd253"
 
 [[files]]
 file = "config/the_vault/quest/sky_quests.json"
-hash = "f215a59b1877b7b77f18661f6329c04197136ccc33217028a224ac672ece4343"
+hash = "0300aca49726fd601d60f02b344f7130e3a877b5659e4269355cfa7fc82cd253"
 
 [[files]]
 file = "config/the_vault/recipes/catalyst_recipes.json"
