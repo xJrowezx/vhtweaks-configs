@@ -159,7 +159,7 @@
         "type": "tiered",
         "id": "Haste",
         "name": "Haste",
-        "maxLearnableTier": 5,
+        "maxLearnableTier": 3,
         "tiers": [
           {
             "type": "effect",
