@@ -943,7 +943,7 @@
       "icon": "the_vault:gui/quests/sage",
       "targetId": "the_vault:crystal_seal_sage",
       "targetProgress": 1.0,
-      "unlockedBy": "seals",
+      "unlockedBy": "level_ten",
       "reward": {
         "items": [
           {
@@ -973,7 +973,7 @@
       "icon": "the_vault:gui/quests/scout",
       "targetId": "the_vault:crystal_seal_scout",
       "targetProgress": 1.0,
-      "unlockedBy": "seals",
+      "unlockedBy": "level_ten",
       "reward": {
         "items": [
           {
@@ -1003,7 +1003,7 @@
       "icon": "the_vault:gui/quests/hunter",
       "targetId": "the_vault:crystal_seal_hunter",
       "targetProgress": 1.0,
-      "unlockedBy": "seals",
+      "unlockedBy": "level_ten",
       "reward": {
         "items": [
           {
@@ -1033,7 +1033,7 @@
       "icon": "the_vault:gui/quests/prophet",
       "targetId": "the_vault:crystal_seal_prophet",
       "targetProgress": 1.0,
-      "unlockedBy": "seals",
+      "unlockedBy": "level_ten",
       "reward": {
         "items": [
           {
@@ -1063,7 +1063,7 @@
       "icon": "the_vault:gui/quests/executioner",
       "targetId": "the_vault:crystal_seal_executioner",
       "targetProgress": 1.0,
-      "unlockedBy": "seals",
+      "unlockedBy": "level_ten",
       "reward": {
         "items": [
           {
