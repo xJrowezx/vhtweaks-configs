@@ -1754,7 +1754,7 @@ hash = "6bc8f041f3b6ca8837bce94c4fe9764c8b526d037425a8d815af13aa82d8053f"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/jewel.json"
-hash = "4998a2aa280e52ebec28233dbfb22e02829ac1221b7cde2b45b20339921792d1"
+hash = "3634debe342e0b3e1bf4a19758c01cc586ede5a61f7d7e0fc5cfc686e13c8b19"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/jewel_mythic.json"
@@ -2370,7 +2370,7 @@ hash = "415df8aa5f9d011e7af7c25ca8f3653935b22c951ceffcfa74ed30eb4327a579"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/flesh_chest_0.json"
-hash = "392ff7723ffb4530694ed7628f3d1d781b7c19ad04e130471874ecc2222f7c27"
+hash = "5c70a89a9c5101c9ef1f9a6b5ad7743d0d0111a2a92232a1ebf9a216f4c19e22"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/garden_leaves.json"
@@ -2402,7 +2402,7 @@ hash = "939c40bb323dde2fe4f99dc64f6411badb9bc106aa47db0a5a9dd7061174f373"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/hardened_chest_0.json"
-hash = "33f56d38069c167ddeb2aedfab30ace6748379b7d5e035c8759d040ee87ff036"
+hash = "3fbca489074e4219a1a971fb5f61de80e47567274b828c831a1c734aab4bf74e"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/haunted_brazier_lvl0.json"
@@ -14902,11 +14902,11 @@ hash = "f7ce00e1dbfe1ca30c61f3e46ad8991677eb657f11b9f09f83ad88e9bbca8a3f"
 
 [[files]]
 file = "config/the_vault/quest/quests.json"
-hash = "e86e4e8a271fc815284389b4ea3cf0cc0d18064bb2af1daf9075e6175aa1da17"
+hash = "fc0d5f86300a2fbd5d7b4093b66fa00923eed3f759d9f1429c25fab220b09167"
 
 [[files]]
 file = "config/the_vault/quest/sky_quests.json"
-hash = "eeabadb8d5f984d18304fd5415d27eea33409358976ee53747b09a6335af3d00"
+hash = "fc0d5f86300a2fbd5d7b4093b66fa00923eed3f759d9f1429c25fab220b09167"
 
 [[files]]
 file = "config/the_vault/recipes/catalyst_recipes.json"
@@ -15054,7 +15054,7 @@ hash = "0ab5a4de706f95212c1d273851e23245b2dcb4c1e63e808bc5335a22579ab04a"
 
 [[files]]
 file = "config/the_vault/talents.json"
-hash = "b63cb42e2b9369af806c275a932713f11acfab01154244a8badabe7ba6c1051b"
+hash = "0d98525a118c4e6f84c53e03cead5dfae276841762bd9c83c7d66f8af2c303b8"
 
 [[files]]
 file = "config/the_vault/talents_gui_styles.json"
@@ -15374,7 +15374,7 @@ hash = "633fb762631bd1cce23bd6184adc0d7b4b55ddfed3a686a78347780666d42ec6"
 
 [[files]]
 file = "config/the_vault/woldsvaults_extra_vault_chest_meta.json"
-hash = "e91ac197e7965cb342f53fb224de9abeaa831f3bedb556301af94456e220890c"
+hash = "2ce87d193fbb0824c155ddb98d40cc49461ce056db74c0761ed056c1e9078234"
 
 [[files]]
 file = "config/the_vault/woldsvaults_extra_vault_time_contributions.json"
@@ -15382,11 +15382,11 @@ hash = "8e3659d75a3d2fce8f80ab099d099da8c8a60e868be4587b684034666e9b7272"
 
 [[files]]
 file = "config/the_vault/woldsvaults_general.json"
-hash = "682a20f727b30aa020b9d85535378886e86d5975395d82eef137db22cbe6d89c"
+hash = "d776467c623c54136a6613f2c34f136b0f9ded8473589fdd8fdb1686b727a1f1"
 
 [[files]]
 file = "config/the_vault/woldsvaults_mobs.json"
-hash = "630d3f656bf25da704bfd40e2c7441fd6093e6f650edd66a053094745b888b53"
+hash = "c0173f2b17743309b317223e10165c292cffe38a1e4c9cabfe83053e10854a95"
 
 [[files]]
 file = "config/the_vault/woldsvaults_name_provider.json"
@@ -19548,7 +19548,7 @@ hash = "e9ebbae73c509d2beb23a3868704ffd8a4179a993bdc5ac4e855e4ce192256ac"
 
 [[files]]
 file = "scripts/ae2.zs"
-hash = "70709e6d114bbe351f3bac63e47661b6dd0f29344d8687e47891a2f028464158"
+hash = "456bc2ee5a10e63f862ad53b35417b69d40afbea4ffc0d7370f6cbe07b202446"
 
 [[files]]
 file = "scripts/alexsmobs.zs"
