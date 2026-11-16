@@ -33,7 +33,11 @@
           {
             "item": "sophisticatedbackpacks:pickup_upgrade",
             "amount": 1
-          }
+          },
+          {
+          "item": "sophisticatedbackpacks:void_upgrade",
+          "amount": 1
+        }
         ],
         "vaultExp": 0
       }
@@ -535,6 +539,10 @@
           {
             "item": "the_vault:chromatic_iron_ingot",
             "amount": 16
+          },
+          {
+            "item": "the_vault:gemstone",
+            "amount": 1
           }
         ],
         "vaultExp": 0
