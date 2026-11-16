@@ -19,10 +19,10 @@
       "OMEGA": 0.0
     },
     "the_vault:ornate_chest": {
-      "COMMON": 0.5,
-      "RARE": 0.5,
-      "EPIC": 0.5,
-      "OMEGA": 0.5
+      "COMMON": 0.0,
+      "RARE": 0.0,
+      "EPIC": 0.0,
+      "OMEGA": 0.0
     },
     "the_vault:altar_chest": {
       "COMMON": 0.0,
@@ -55,10 +55,10 @@
       "OMEGA": 0.0
     },
     "the_vault:ornate_barrel": {
-      "COMMON": 0.5,
-      "RARE": 0.5,
-      "EPIC": 0.5,
-      "OMEGA": 0.5
+      "COMMON": 0.0,
+      "RARE": 0.0,
+      "EPIC": 0.0,
+      "OMEGA": 0.0
     },
     "the_vault:gilded_barrel": {
       "COMMON": 0.0,
