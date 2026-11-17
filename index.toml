@@ -1610,11 +1610,11 @@ hash = "737c74f66be6d81da841827533a27eeb8f37cf6687f88d25b747027a79589d42"
 
 [[files]]
 file = "config/the_vault/expertises.json"
-hash = "e6ac79d35a103b34be26753a06cfa97d6300c83d396ae301b2addcfc176324e7"
+hash = "d2e860af01ed97632ff9c2dd483719b4013b457bf9b1ca97ac1278d974beb6d0"
 
 [[files]]
 file = "config/the_vault/expertises_gui_styles.json"
-hash = "e4f36a093c9d12123c35017ee475915f90996fc7289d34a44c378936cfcfdba1"
+hash = "30619ab084a158a8f94e2974e384d4224ac982bd6f9efb7406624d8ed60307e4"
 
 [[files]]
 file = "config/the_vault/eyesore.json"
@@ -15026,7 +15026,7 @@ hash = "9c4bfce4394d20d6ff58d706fb4ae4bbcc00cc4d3a888a8521facfe5d6a5d2a9"
 
 [[files]]
 file = "config/the_vault/skill_descriptions.json"
-hash = "f0d47e5a697b26aef2171962273cba50b86278bc53cdee8b45e48e84a0b652a9"
+hash = "0bd23e8cba991c887d383bd717abea6be3deef3914d6c6c295acee560f7c3452"
 
 [[files]]
 file = "config/the_vault/skill_gates.json"
