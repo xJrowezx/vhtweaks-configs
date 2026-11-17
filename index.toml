@@ -15554,7 +15554,7 @@ hash = "aa3555881c9161341fad4f83af2afc9c6c2ab0702c026735000a639f4d14f911"
 
 [[files]]
 file = "config/worldedit/worldedit.properties"
-hash = "d2e85f5768690c5c686f3df79d7b42048eecbfefedbfbe6f577462568b59910f"
+hash = "1a1084c3c9f8e0f9789867b6318b28b71f6b27d2c6a04fbe17306771bf18d0ae"
 
 [[files]]
 file = "config/xaerominimap-common.txt"
@@ -17774,7 +17774,7 @@ hash = "9cbf85e316dfa648baca8facd9d8d87afc23b4ed1b5ae492ef7353afa7e0e523"
 
 [[files]]
 file = "mods/VHTweaks-0.23.2-all.jar"
-hash = "72096775e99de3b2812276f8fbd77e54d4f9411ebe8250c0cfe1623a6a4f829a"
+hash = "501a6104517d2aea70274a36588709763e9e4ab9a7a12acd3b06cfc506cb1fe6"
 
 [[files]]
 file = "mods/additional-lanterns.pw.toml"
