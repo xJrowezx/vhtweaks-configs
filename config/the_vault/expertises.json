@@ -187,9 +187,9 @@
         "tiers": [
           {
             "type": "creative_flight",
-            "learnPointCost": 1,
+            "learnPointCost": 0,
             "regretPointCost": 0,
-            "unlockLevel": 50
+            "unlockLevel": 0
           }
         ]
       },
@@ -826,7 +826,7 @@
         "tiers": [
           {
             "type": "surprise_favors",
-            "modifierAmount": 3,
+            "modifierAmount": 1,
             "chance": 0.3,
             "learnPointCost": 1,
             "regretPointCost": 0,
@@ -834,7 +834,7 @@
           },
           {
             "type": "surprise_favors",
-            "modifierAmount": 4,
+            "modifierAmount": 2,
             "chance": 0.4,
             "learnPointCost": 1,
             "regretPointCost": 0,
@@ -842,7 +842,7 @@
           },
           {
             "type": "surprise_favors",
-            "modifierAmount": 5,
+            "modifierAmount": 3,
             "chance": 0.5,
             "learnPointCost": 1,
             "regretPointCost": 0,

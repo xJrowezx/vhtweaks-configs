@@ -90,6 +90,12 @@
       "frameType": "STAR",
       "icon": "the_vault:gui/skills/companion_sleepy"
     },
+    "Angel": {
+      "x": 210,
+      "y": 240,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/angel"
+    },
 
 
     "Craftsman": {
