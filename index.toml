@@ -1754,7 +1754,7 @@ hash = "6bc8f041f3b6ca8837bce94c4fe9764c8b526d037425a8d815af13aa82d8053f"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/jewel.json"
-hash = "3634debe342e0b3e1bf4a19758c01cc586ede5a61f7d7e0fc5cfc686e13c8b19"
+hash = "66c914c325a7d6ebf83127330645d96116aa619b63b3f0102d773e6d2d7907a4"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/jewel_mythic.json"
@@ -18326,11 +18326,6 @@ hash = "8ad329ed2c9a5eec61338d1141ecb8f052a27c7a4a02530cee5826fbbaaa993a"
 metafile = true
 
 [[files]]
-file = "mods/immersive-portals-for-vault-hunters.pw.toml"
-hash = "af4794499a3f835429f1cd19b7cbf4fd85fc07b244f7e18924b91e34a57695fa"
-metafile = true
-
-[[files]]
 file = "mods/industrial-foregoing-tweaker.pw.toml"
 hash = "6d41031250355db733ff073a29746b7d0ef4d721839510aa0ecfeab9e6dc866f"
 metafile = true
@@ -18841,11 +18836,6 @@ metafile = true
 [[files]]
 file = "mods/simple-backups.pw.toml"
 hash = "1e52246291b9b5d3cfc6bf7fd75fc0475f4def180627643b10cbae20e46e7dff"
-metafile = true
-
-[[files]]
-file = "mods/simple-voice-chat.pw.toml"
-hash = "1e6aaffbba170cd179b9327d8f11b97cade22dad9938e9cb6f6ae7246aafb776"
 metafile = true
 
 [[files]]
