@@ -1794,7 +1794,7 @@ hash = "1c93b95f7c01492d56b90784218f74670cf03df714f6f1ea448f990b1d277d1a"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/rang.json"
-hash = "54e94362c5a8681c02345c978423a5359fa5fb98bdd7e1a7becd9f9477498a32"
+hash = "0435f35b077e6428b38aecafeeec2a9094d9ef286e8422793c13fe684034ea55"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/rang_mythic.json"
@@ -14902,7 +14902,7 @@ hash = "f7ce00e1dbfe1ca30c61f3e46ad8991677eb657f11b9f09f83ad88e9bbca8a3f"
 
 [[files]]
 file = "config/the_vault/quest/quests.json"
-hash = "fc0d5f86300a2fbd5d7b4093b66fa00923eed3f759d9f1429c25fab220b09167"
+hash = "cf3f60bef185e38e48fd1bca7fca56a0e1260fead05392cab4a7dedd498a4ef3"
 
 [[files]]
 file = "config/the_vault/quest/sky_quests.json"

@@ -1866,7 +1866,7 @@
       "icon": "the_vault:gui/quests/treasure",
       "targetId": "the_vault:treasure_pedestal",
       "targetProgress": 1.0,
-      "unlockedBy": "blank_key",
+      "unlockedBy": "reach_level_50",
       "reward": {
         "items": [
           {

@@ -595,9 +595,9 @@
         ]
       },
       {
-        "attribute": "the_vault:ricochet",
+        "attribute": "the_vault:on_hit_chain",
         "group": "ModOnHitType",
-        "identifier": "the_vault:mod_on_hit_ricochet",
+        "identifier": "the_vault:mod_on_hit_chain",
         "tags": [
           "focusChaining"
         ],
