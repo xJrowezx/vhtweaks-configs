@@ -15582,7 +15582,7 @@ hash = "83697e940c40810ce9408dbc6fa60400d84516d7871daf22bd94edf9faa4ae96"
 
 [[files]]
 file = "defaultconfigs/create-server.toml"
-hash = "bac016e1e35444e70e96f6cbddd6cb8ebf8dd0504975a088b0f838179d64aac2"
+hash = "6ceac3c39472a3daa1b321d73613ab5c1cfd1b97d6f14cd72a63a23b9ddbfb92"
 
 [[files]]
 file = "defaultconfigs/curios-server.toml"
