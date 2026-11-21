@@ -1610,7 +1610,7 @@ hash = "737c74f66be6d81da841827533a27eeb8f37cf6687f88d25b747027a79589d42"
 
 [[files]]
 file = "config/the_vault/expertises.json"
-hash = "d2e860af01ed97632ff9c2dd483719b4013b457bf9b1ca97ac1278d974beb6d0"
+hash = "a9f16a80551afaa8472cc2c799d4ed97178fc5559a608ed4d0a7943eab99d4f5"
 
 [[files]]
 file = "config/the_vault/expertises_gui_styles.json"
@@ -1682,7 +1682,7 @@ hash = "8dcbce9ab26baa5bf24826f30c9ab251e26c5ff9cb56bb079c1cd02d5c5319e3"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/boots.json"
-hash = "9a5b5640d3e89de799639519046bfec377b1bfa29bc3a5c58a492e1c1185139c"
+hash = "ff5fa348994746ed7507df99f306c0dd773a852cf11c7c0f427de8652bdbb79d"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/boots_mythic.json"
@@ -1694,7 +1694,7 @@ hash = "445a6c9fe66900da360ee863ea0b751ee0c908fb029cc3b169f976ffb9c3398a"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/chestplate.json"
-hash = "38a31d88d9e7ecf1d570e83a8493949e2fbecb0e1343e07975089ddbc8d94240"
+hash = "d5cc450522b9b3572d9e5969bf5e6e79d5d7146d8d5335cce1f06ad4e53d8d10"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/chestplate_mythic.json"
@@ -1714,7 +1714,7 @@ hash = "7bfbb9a49be9966f376de97d00fe4b8bd0ce8e490ee4eb09fa814df8ac807a97"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/helmet.json"
-hash = "258ed67b8cfd20cf2da3fd0d678b4bd9fbe5343e28c7913f88b9cfce40c2c9d8"
+hash = "bdc5af7036beedcee18769fc4f2b85496ad301373e9c9c99809c3349ada5b322"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/helmet_mythic.json"
@@ -1762,7 +1762,7 @@ hash = "6bc8f041f3b6ca8837bce94c4fe9764c8b526d037425a8d815af13aa82d8053f"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/leggings.json"
-hash = "dba6eb8defe929860d37300eb1f2f7bb2de7a82f4c81381f371e3b69d2b5dd01"
+hash = "e28c96031a15e2be83d437c9adc2e997e90e680dee5cea3aaae8a3eeb3cbf88d"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/leggings_mythic.json"
@@ -1938,7 +1938,7 @@ hash = "e9dd456647780006df1f9b752ce7e805a8dcf5fedb6f37ec6f8e7d5f61cd07c0"
 
 [[files]]
 file = "config/the_vault/gem_box.json"
-hash = "2dd95b04f52d512ff97f595ceb3ebb55a344f3e428677e4ccf02585512faf2a7"
+hash = "014c2ded340399b901de8da7edf9fde9d44bceec706e79ffb70e7f8130f8536a"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_pools/idona_altar.json"
@@ -14922,7 +14922,7 @@ hash = "e36987595acbfe1877e98509823052a7f8eab4df3f8124d8866fee3bc1456b70"
 
 [[files]]
 file = "config/the_vault/recipes/deck_recipes.json"
-hash = "28923be176fab57168196fa307acef804c862b551dcc0bffeffa725a032f2376"
+hash = "c35277e45b15454ee4a8d6f5d7bd417d61b29b5e3d228e1ef7f08c6ddc6914b0"
 
 [[files]]
 file = "config/the_vault/recipes/gear_recipes.json"
@@ -15026,7 +15026,7 @@ hash = "9c4bfce4394d20d6ff58d706fb4ae4bbcc00cc4d3a888a8521facfe5d6a5d2a9"
 
 [[files]]
 file = "config/the_vault/skill_descriptions.json"
-hash = "0bd23e8cba991c887d383bd717abea6be3deef3914d6c6c295acee560f7c3452"
+hash = "0e42d8ac1527541cecf94541169c338d55e27b4f74010081d7030ea830645edd"
 
 [[files]]
 file = "config/the_vault/skill_gates.json"
@@ -15118,7 +15118,7 @@ hash = "a75d277e82bd3a616363e977e290601e027e46af7299f930d80511c292dfc8fe"
 
 [[files]]
 file = "config/the_vault/unique_codex.json"
-hash = "78b6b4de875e117f64efa1c8dcbbaff5fbc52bd45ae2ea21090cfc59f2db8b11"
+hash = "10e3703d822f6cd71148d1e1ef54fe8fd2672a12dbca761618b4025140c4ab00"
 
 [[files]]
 file = "config/the_vault/unique_discovery.json"
@@ -15238,7 +15238,7 @@ hash = "937a7d9384ee32a42732e9e8b2d1a320f6b0462a207330145a60342ca3682313"
 
 [[files]]
 file = "config/the_vault/vault_modifier_pools.json"
-hash = "e04d96b58f9226fdb8c8c8e02e91613a6aac605ec606d9ac72a612c97e144c4f"
+hash = "a2cf19b2c7724f20ba957ac8b7d3a1ebd4c4c54e1e59df4639fe898b234512f0"
 
 [[files]]
 file = "config/the_vault/vault_modifiers.json"
