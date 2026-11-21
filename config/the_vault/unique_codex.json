@@ -1384,7 +1384,11 @@
             "color": "$text"
           },
           {
-            "text": "\n\nDrops in: Laboratory",
+            "text": "\n\nFound in: ",
+            "color": "$text"
+          },
+          {
+            "text": "Laboratory",
             "color": "#7D520E"
           }
         ]
