@@ -787,14 +787,14 @@
             "additionalChoices": 1,
             "learnPointCost": 1,
             "regretPointCost": 0,
-            "unlockLevel": 0
+            "unlockLevel": 50
           },
           {
             "type": "gambler",
             "additionalChoices": 2,
             "learnPointCost": 1,
             "regretPointCost": 0,
-            "unlockLevel": 0
+            "unlockLevel": 50
           },
           {
             "type": "gambler",
