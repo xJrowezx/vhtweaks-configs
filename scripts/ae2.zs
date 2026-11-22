@@ -349,6 +349,26 @@ craftingTable.addShapeless("ae2t_storage_cell_256k_shapeless", <item:ae2things:d
     <item:ae2things:disk_housing>, <item:ae2:cell_component_256k>
 ]);
 
+craftingTable.addShapeless("ae2_storage_cell_1k_shapeless", <item:ae2:item_storage_cell_1k>, [
+    <item:ae2:item_cell_housing>, <item:ae2:cell_component_1k>
+]);
+
+craftingTable.addShapeless("ae2_storage_cell_4k_shapeless", <item:ae2:item_storage_cell_4k>, [
+    <item:ae2:item_cell_housing>, <item:ae2:cell_component_4k>
+]);
+
+craftingTable.addShapeless("ae2_storage_cell_16k_shapeless", <item:ae2:item_storage_cell_16k>, [
+    <item:ae2:item_cell_housing>, <item:ae2:cell_component_16k>
+]);
+
+craftingTable.addShapeless("ae2_storage_cell_64k_shapeless", <item:ae2:item_storage_cell_64k>, [
+    <item:ae2:item_cell_housing>, <item:ae2:cell_component_64k>
+]);
+
+craftingTable.addShapeless("ae2_storage_cell_256k_shapeless", <item:ae2:item_storage_cell_256k>, [
+    <item:ae2:item_cell_housing>, <item:ae2:cell_component_256k>
+]);
+
 craftingTable.addShaped("ae2things_disk_housing", <item:ae2things:disk_housing>, [
     [<item:the_vault:chromatic_iron_ingot>, <item:minecraft:redstone>, <item:the_vault:chromatic_iron_ingot>],
     [<item:minecraft:redstone>, <item:minecraft:air>, <item:minecraft:redstone>],
