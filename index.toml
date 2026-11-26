@@ -14818,7 +14818,7 @@ hash = "652ea9f83092ea87f15dfbbd166b15e3ae3e3a69894f2fcdcead118818ad3778"
 
 [[files]]
 file = "config/the_vault/mod_box.json"
-hash = "21fe0293ee39b23638f1d8ef1c505b9e3a9b3896f7f75ea49ecb94d50fe1e868"
+hash = "b9592e66a1fa018280d2d6b8321fc798496bebb81ef8c11a705fc46034686e96"
 
 [[files]]
 file = "config/the_vault/modifier_groups.json"

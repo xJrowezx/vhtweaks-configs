@@ -50,7 +50,7 @@
     },
     "Applied Energistics": {
       "entries": [
-        {"value": {"id": "ae2:fluix_smart_dense_cable", "amountMin": 4, "amountMax": 4}, "weight": 100},
+        {"value": {"id": "ae2:fluix_glass_cable", "amountMin": 4, "amountMax": 4}, "weight": 100},
         {"value": {"id": "ae2things:disk_drive_1k", "amountMin": 1, "amountMax": 1}, "weight": 80},
         {"value": {"id": "ae2things:disk_drive_4k", "amountMin": 1, "amountMax": 1}, "weight": 75},
         {"value": {"id": "ae2things:disk_drive_16k", "amountMin": 1, "amountMax": 1}, "weight": 70},
@@ -105,7 +105,6 @@
         {"value": {"id": "thermal:machine_chiller", "amountMin": 1, "amountMax": 1}, "weight": 40},
         {"value": {"id": "thermal:device_collector", "amountMin": 1, "amountMax": 1}, "weight": 40},
         {"value": {"id": "thermal:device_rock_gen", "amountMin": 1, "amountMax": 1}, "weight": 40},
-        {"value": {"id": "thermal:machine_sawmill", "amountMin": 1, "amountMax": 1}, "weight": 40},
         {"value": {"id": "thermal:upgrade_augment_1", "amountMin": 1, "amountMax": 1}, "weight": 40},
         {"value": {"id": "thermal:upgrade_augment_2", "amountMin": 1, "amountMax": 1}, "weight": 20},
         {"value": {"id": "thermal:upgrade_augment_3", "amountMin": 1, "amountMax": 1}, "weight": 10}
